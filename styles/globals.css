@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'lineseed';
+  src: url('../font/WOFF/LINESeedSansTH_W_Bd.woff');
+}
+
+* {
+  font-family: lineseed;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
