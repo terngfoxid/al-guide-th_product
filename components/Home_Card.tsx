@@ -57,6 +57,7 @@ export default function Home_Card() {
                                                 &nbsp;ลบข้อมูลเว็บไซต์&nbsp;
                                             </button>
                                         </p>
+                                        <br></br>
                                         <p className="py-1 ">เนื่องจาก Gdrive มีโค้วต้าร์ในการโหลดรูปภาพจำกัด</p>
                                         <p className="py-1 ">หากรีเฟรชเว็บบ่อยบางภาพอาจจะไม่แสดง</p>
                                         <p className="py-1 ">โดยจะกลับมาปกติ หลังจากหยุดใช้เว็บประมาณ 1-2 ชม.</p>
