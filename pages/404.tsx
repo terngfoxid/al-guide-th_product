@@ -14,10 +14,12 @@ export default function FourOhFour() {
 
         </Head>
         <Topbar />
-        <main>
+        <main className='flex justify-center'>
+            <div className='w-full 2xl:max-w-7xl'>
             <br></br>
             <E404_Card />
             <br></br>
+            </div>
         </main>
         <Footer />
     </>

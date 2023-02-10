@@ -6,7 +6,7 @@ export default function E404_Card (){
       {
         title: '404 Page Not Found',
         title_style: 'text-zinc-700 dark:text-zinc-300 text-2xl font-bold text-center',
-        shape:"w-5/6 md:w-1/3 2xl:w-1/4 rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
+        shape:"w-5/6 md:w-1/3 2xl:w-1/3 rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
         position:"flex justify-center",
         body_style: "py-2 text-zinc-600 dark:text-zinc-400 text-lg md:text-2xl text-center",
       }

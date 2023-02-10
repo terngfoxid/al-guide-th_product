@@ -106,7 +106,7 @@ export default function Ship_Card(ship: any) {
         const card_style = (
             {
                 title_style: 'text-zinc-700 dark:text-zinc-300 text-2xl font-bold text-center',
-                shape: "w-11/12 md:w-5/6 2xl:w-2/3 rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
+                shape: "w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
                 position: "flex justify-center",
                 body_style: "text-zinc-600 dark:text-zinc-400 text-2xl text-center",
                 mrt_shape: "hover:scale-110 overflow-hidden group relative w-11/12 rounded-lg shadow-md border bg-neutral-200 hover:bg-neutral-300 border-gray-300 dark:border-gray-800 dark:bg-neutral-800 dark:hover:bg-neutral-700 border-b-4 border-t-1 border-l-1 border-r-1 duration-300",
@@ -340,7 +340,7 @@ export default function Ship_Card(ship: any) {
                     <div id="shipdata3">
                             <br className='hidden md:block'></br>
                         <div className="flex justify-center">
-                            <div className="w-full md:w-5/6 2xl:w-2/3">
+                            <div className="w-full md:w-5/6 2xl:w-full">
                                 <div className='md:grid md:grid-cols-2'>
                                     {(shipdata.data.review != null) ?
                                         <br className='block md:hidden'></br> : <></>

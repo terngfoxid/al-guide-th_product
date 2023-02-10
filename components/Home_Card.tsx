@@ -6,7 +6,7 @@ export default function Home_Card() {
         {
             title_style: 'text-zinc-700 dark:text-zinc-200 text-2xl md:text-2xl lg:text-3xl font-bold text-center',
 
-            shape: "bg-cover bg-center bg-neutral-200 w-11/12 md:w-5/6 2xl:w-2/3 rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
+            shape: "bg-cover bg-center bg-neutral-200 w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
             //bg-neutral-200 dark:bg-neutral-800 test-bg.jpg bg-[url('/images/test-bg.jpg')] aspect-video\
             subshape: "bg-gradient-to-b from-black/0 via-zinc-700/0 to-black/0 rounded-md ",
             position: "flex justify-center",

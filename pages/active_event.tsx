@@ -15,13 +15,14 @@ export default function Active_Event() {
       </Head>
       <Topbar />
 
-      <main >
-      <br></br>
-      <Active_Event_Card />
-      <br></br>
-
+      <main className='flex justify-center'>
+        <div className='w-full 2xl:max-w-7xl'>
+          <br></br>
+          <Active_Event_Card />
+          <br></br>
+        </div>
       </main>
-      <Footer/>
+      <Footer />
     </>
   )
 }

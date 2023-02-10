@@ -6,7 +6,7 @@ export default function Find_Ship_Card() {
     const card_style = (
         {
             title_style: 'text-zinc-700 dark:text-zinc-300 text-2xl font-bold text-center',
-            shape: "bg-cover bg-center  w-11/12 md:w-11/12 lg:w-11/12 xl:w-5/6 2xl:w-3/4 rounded-lg shadow-md border bg-[url('/images/MainDayBG.webp')] border-gray-300 dark:border-gray-700 dark:bg-[url('/images/MainTwilightBG.webp')]",
+            shape: "bg-cover bg-center  w-11/12 md:w-11/12 lg:w-11/12 xl:w-5/6 2xl:w-11/12 rounded-lg shadow-md border bg-[url('/images/MainDayBG.webp')] border-gray-300 dark:border-gray-700 dark:bg-[url('/images/MainTwilightBG.webp')]",
             //bg-neutral-200 dark:bg-neutral-800 test-bg.jpg bg-[url('/images/test-bg.jpg')] aspect-video\
             position: "flex justify-center",
             body_style: "py-2 text-zinc-700 dark:text-zinc-300 text-lg md:text-sm lg:text-xl xl:text-2xl text-center",

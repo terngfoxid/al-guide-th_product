@@ -15,13 +15,14 @@ export default function Contract() {
       </Head>
       <Topbar />
 
-      <main >
-      <br></br>
-      <Contact_Card />
-      <br></br>
-
+      <main className='flex justify-center'>
+        <div className='w-full 2xl:max-w-7xl'>
+          <br></br>
+          <Contact_Card />
+          <br></br>
+        </div>
       </main>
-      <Footer/>
+      <Footer />
     </>
   )
 }

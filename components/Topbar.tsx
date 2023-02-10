@@ -34,7 +34,7 @@ export default function Topbar() {
       <div >
         <nav className={topbar_style.bar_style}>
           <div className="justify-center w-full items-center flex">
-            <div className='w-full md:w-5/6 h-full flex'>
+            <div className='w-full md:w-5/6 h-full flex max-w-7xl'>
               <div className="w-full md:flex md:justify-between">
                 <div className='flex justify-center'>
                   <div className='w-11/12 h-16 md:w-full'>

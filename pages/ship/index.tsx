@@ -15,14 +15,16 @@ export default function Home() {
       </Head>
       <Topbar />
 
-      <main >
+      <main className='flex justify-center'>
+        <div className='w-full 2xl:max-w-7xl'>
 
-        <br></br>
-        <Find_Ship_Card />
-        <br></br>
-
+          <br></br>
+          <Find_Ship_Card />
+          <br></br>
+          
+        </div>
       </main>
-      <Footer/>
+      <Footer />
     </>
   )
 }

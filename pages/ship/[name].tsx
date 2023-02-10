@@ -30,7 +30,6 @@ export default function Ship() {
                         </div>
                         <br></br>
                     </div>
-
                 </main>
                 <Footer />
             </>
@@ -48,10 +47,12 @@ export default function Ship() {
                 </Head>
                 <Topbar />
 
-                <main >
-                    <br></br>
-                    <Ship_Card ship={name} />
-                    <br></br>
+                <main className='flex justify-center'>
+                    <div className='w-full 2xl:max-w-7xl'>
+                        <br></br>
+                        <Ship_Card ship={name} />
+                        <br></br>
+                    </div>
                 </main>
                 <Footer />
             </>

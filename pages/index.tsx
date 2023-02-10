@@ -18,45 +18,47 @@ export default function Home() {
       </Head>
       <Topbar />
 
-      <main>
-        <br></br>
-        <Home_Card />
-        <br className='hidden md:block'></br>
-        <br></br>
+      <main className='flex justify-center'>
+        <div className='w-full 2xl:max-w-7xl'>
+          <br></br>
+          <Home_Card />
+          <br className='hidden md:block'></br>
+          <br></br>
 
-        <div className='flex justify-center'>
-          <div className='w-full md:w-5/6 2xl:w-2/3 '>
-            <div className='md:grid md:grid-cols-2'>
-              <div className='flex justify-center md:justify-start'>
-                <B_Ship_Card />
-              </div>
-              <br className='block md:hidden'></br>
-              <div className='flex justify-center md:justify-end'>
-                <B_Event_Card />
+          <div className='flex justify-center'>
+            <div className='w-full md:w-5/6 2xl:w-full'>
+              <div className='md:grid md:grid-cols-2'>
+                <div className='flex justify-center md:justify-start'>
+                  <B_Ship_Card />
+                </div>
+                <br className='block md:hidden'></br>
+                <div className='flex justify-center md:justify-end'>
+                  <B_Event_Card />
 
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <br className='hidden md:block'></br>
-        <br></br>
-
-        <div className='flex justify-center'>
-          <div className='w-full md:w-5/6 2xl:w-2/3 '>
-            <div className='md:grid md:grid-cols-2'>
-              <div className='flex justify-center md:justify-start'>
-                <B_Indev_Card />
-              </div>
-              <br className='block md:hidden'></br>
-              <div className='flex justify-center md:justify-end'>
-                <B_Indev_Card />
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <br></br>
+          <br className='hidden md:block'></br>
+          <br></br>
+
+          <div className='flex justify-center'>
+            <div className='w-full md:w-5/6 2xl:w-full'>
+              <div className='md:grid md:grid-cols-2'>
+                <div className='flex justify-center md:justify-start'>
+                  <B_Indev_Card />
+                </div>
+                <br className='block md:hidden'></br>
+                <div className='flex justify-center md:justify-end'>
+                  <B_Indev_Card />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br></br>
+        </div>
       </main>
       <Footer />
     </>

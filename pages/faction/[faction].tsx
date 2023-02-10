@@ -50,7 +50,7 @@ export default function Ship() {
         (faction != "Collab")) {
 
         router.push(
-            { pathname: "/ship", query: { } },
+            { pathname: "/ship", query: {} },
             "pls_select_correct_faction"
         );
 
@@ -70,11 +70,12 @@ export default function Ship() {
                 </Head>
                 <Topbar />
 
-                <main >
-                    <br></br>
-                    <Faction_Ship_Card faction={faction}/>
-                    <br></br>
-
+                <main className='flex justify-center'>
+                    <div className='w-full 2xl:max-w-7xl'>
+                        <br></br>
+                        <Faction_Ship_Card faction={faction} />
+                        <br></br>
+                    </div>
                 </main>
                 <Footer />
             </>
