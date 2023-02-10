@@ -112,7 +112,7 @@ export default function Ship_Card(ship: any) {
                 mrt_shape: "hover:scale-110 overflow-hidden group relative w-11/12 rounded-lg shadow-md border bg-neutral-200 hover:bg-neutral-300 border-gray-300 dark:border-gray-800 dark:bg-neutral-800 dark:hover:bg-neutral-700 border-b-4 border-t-1 border-l-1 border-r-1 duration-300",
                 image_style: "w-full rounded-lg shadow-xl",
                 mrt_image_src: "/images/MRT 600x300.webp",
-                yt_image_src: "/images/MRT 600x300.webp",
+                yt_image_src: "/images/review 600x300.webp",
                 note_text: "text-zinc-600 dark:text-zinc-400 text-base md:text-lg w-11/12 md:w-3/4 border border-gray-500/10 p-2 rounded",
             }
         );
@@ -223,7 +223,9 @@ export default function Ship_Card(ship: any) {
                                                         <br></br>
                                                         <p className="pb-4">Skill 1</p>
                                                         <div className="flex justify-center pb-2">
+                                                        <div className="flex justify-center w-11/12">
                                                             <img className="" src={shipdata.data.guide_skill_1} alt={shipdata.data.name + " skill 1 Guide"}></img>
+                                                            </div>
                                                         </div>
                                                         {(shipdata.data.guide_skill_1_note != null) ?
                                                             <>
@@ -241,7 +243,9 @@ export default function Ship_Card(ship: any) {
                                                         <br></br>
                                                         <p className="pb-4">Skill 2</p>
                                                         <div className="flex justify-center pb-2">
+                                                        <div className="flex justify-center w-11/12">
                                                             <img className="" src={shipdata.data.guide_skill_2} alt={shipdata.data.name + " skill 2 Guide"}></img>
+                                                            </div>
                                                         </div>
                                                         {(shipdata.data.guide_skill_2_note != null) ?
                                                             <>
@@ -259,7 +263,9 @@ export default function Ship_Card(ship: any) {
                                                         <br></br>
                                                         <p className="pb-4">Skill 3</p>
                                                         <div className="flex justify-center pb-2">
+                                                            <div className="flex justify-center w-11/12">
                                                             <img className="" src={shipdata.data.guide_skill_3} alt={shipdata.data.name + " skill 3 Guide"}></img>
+                                                            </div>
                                                         </div>
                                                         {(shipdata.data.guide_skill_3_note != null) ?
                                                             <>
@@ -319,8 +325,10 @@ export default function Ship_Card(ship: any) {
                             <div className="absolute top-2 right-0 z-0 h-10 w-1/6 md:w-max">
                                 <div className="animate__animated animate__fadeInRight animate__delay-1s animate__slow">
 
-                                    {(shipdata.data.type == "CV") ?
-                                        <><img className="" src="/images/gear/Tenrai.png" alt={"aircraft picture"}></img></> : <></>
+                                    {
+                                    (shipdata.data.type == "CV")&&(shipdata.data.faction == "Sakura Empire") ? <><img className="" src="/images/gear/Tenrai_SD.webp" alt={"aircraft tenrai picture"}></img></> :
+                                    (shipdata.data.type == "CV")&&(shipdata.data.faction == "Eagle Union") ? <><img className="" src="/images/gear/AD-1_SD.webp" alt={"aircraft tenrai picture"}></img></> :
+                                     <></>
                                     }
 
                                 </div>
@@ -330,19 +338,22 @@ export default function Ship_Card(ship: any) {
 
                 {((shipdata.data.history != null) || (false)) ? <>
                     <div id="shipdata3">
-                        <br></br>
+                            <br className='hidden md:block'></br>
                         <div className="flex justify-center">
                             <div className="w-full md:w-5/6 2xl:w-2/3">
                                 <div className='md:grid md:grid-cols-2'>
+                                    {(shipdata.data.review != null) ?
+                                        <br className='block md:hidden'></br> : <></>
+                                    }
                                     <div className='flex justify-center md:justify-start'>
                                         {(shipdata.data.review != null) ?
                                             <button className={card_style.mrt_shape}>
                                                 <Link href={shipdata.data.review} className="w-full" legacyBehavior>
                                                     <a target="_blank">
-                                                        <img src={card_style.mrt_image_src} className={card_style.image_style} alt='Youtube button image' />
+                                                        <img src={card_style.yt_image_src} className={card_style.image_style} alt='Youtube button image' />
                                                     </a>
                                                 </Link>
-                                            </button> : <></> 
+                                            </button> : <></>
                                         }
                                     </div>
                                     {(shipdata.data.history != null) ?
@@ -353,7 +364,7 @@ export default function Ship_Card(ship: any) {
                                             <button className={card_style.mrt_shape}>
                                                 <Link href={shipdata.data.history} className="w-full" legacyBehavior>
                                                     <a target="_blank">
-                                                        <img src={card_style.yt_image_src} className={card_style.image_style} alt='Mr.T button image' />
+                                                        <img src={card_style.mrt_image_src} className={card_style.image_style} alt='Mr.T button image' />
                                                     </a>
                                                 </Link>
                                             </button> : <></>
