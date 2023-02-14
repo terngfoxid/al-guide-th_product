@@ -10,22 +10,9 @@ export default function Home_Card() {
             //bg-neutral-200 dark:bg-neutral-800 test-bg.jpg bg-[url('/images/test-bg.jpg')] aspect-video\
             subshape: "bg-gradient-to-b from-black/0 via-zinc-700/0 to-black/0 rounded-md ",
             position: "flex justify-center",
-            body_style: "py-2 text-zinc-600 dark:text-zinc-300 text-xs md:text-base lg:text-2xl 2xl:text-2xl text-center",
-            button_style: "rounded bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600 border border-gray-400 dark:border-gray-600 text-zinc-700 dark:text-zinc-300 py-1 px-1 duration-300 hover:animate-pulse",
+            body_style: "py-2 text-zinc-600 dark:text-zinc-300 text-xs md:text-sm lg:text-lg xl:text-xl 2xl:text-2xl text-center",
         }
     );
-
-    const cleardata = () => {
-        if (localStorage.getItem('Mode') == "dark") {
-            localStorage.clear()
-            localStorage.setItem("Mode", "dark")
-        }
-        else {
-            localStorage.clear()
-            localStorage.setItem("Mode", "light")
-        }
-        window.location.reload();
-    }
 
     return (
         <div className={card_style.position}>
@@ -37,8 +24,6 @@ export default function Home_Card() {
                             <p>ยินดีต้อนรับเข้าสู่</p>
                             <p className="hidden md:block">&nbsp;</p>
                             <p>Azur Lane Guide TH</p>
-                            <p className="hidden md:block">&nbsp;</p>
-                            <p className="text-xs">(รุ่นทดสอบ V.0.2.1)</p>
                         </div>
                     </h1>
                     <br className="hidden md:block"></br>
@@ -47,31 +32,22 @@ export default function Home_Card() {
                             <div className="w-11/12 md:w-11/12">
                                 <div className="md:grid md:grid-cols-3">
                                     <div className="md:col-span-2">
-                                        <p className="py-1 ">เว็บไซต์นี้จัดทำเพื่อสนับสนุนผู้เล่นเกม Azur Lane ชาวไทย</p>
-                                        <p className="py-1 ">เรามีการเก็บข้อมูลบางส่วนไว้ใน Browser แบบ Offline</p>
-                                        <p className="py-1 ">เนื่องจากต้องการประหยัดค่าใช้จ่ายในการดูแลเว็บไซต์</p>
-                                        <p className="py-1 ">หากข้อมูลตัวละครไม่มีการอัพเดตเช่น ไม่มีร่าง Retrofit ใหม่</p>
-                                        <p className="py-1 ">ให้ทำการคลิก&nbsp;
-                                            <button className={card_style.button_style}
-                                                onClick={cleardata}>
-                                                &nbsp;ลบข้อมูลเว็บไซต์&nbsp;
-                                            </button>
-                                        </p>
-                                        <br></br>
-                                        <p className="py-1 ">เนื่องจาก Gdrive มีโค้วต้าร์ในการโหลดรูปภาพจำกัด</p>
-                                        <p className="py-1 ">หากรีเฟรชเว็บบ่อยบางภาพอาจจะไม่แสดง</p>
-                                        <p className="py-1 ">โดยจะกลับมาปกติ หลังจากหยุดใช้เว็บประมาณ 1-2 ชม.</p>
-                                        <p className="py-1 ">***ขออภัยในความไม่สะดวก***</p>
+                                        <p className="py-1 ">เว็บไซต์นี้จัดทำขึ้นเพื่อสนับสนุนผู้การเกม AzurLane ชาวไทย</p>
+                                        <p className="py-1 ">โดยจะประกอบไปด้วยการแปลเนื้อหาสกิลของสาวเรือภายในเกม</p>
+                                        <p className="py-1 ">คำแนะนำและไกด์ในเรื่องต่างๆอย่าง เช่น เรื่องเกียร์สวมใส่แนะนำ </p>
+                                        <p className="py-1 ">นอกจากนี้ยังมีทั้งคลิปรีวิวเรือลำต่างๆ และประวัติของเรือบางลำ</p>
+                                        <p className="py-1 ">เรียบเรียงมาให้ได้อ่านกันด้วยน๊าา ^-^/</p>
                                     </div>
                                     <br className="md:hidden"></br>
                                     <div className="flex justify-center items-center">
-                                        <div className="w-11/12">
-                                            <div className="flex justify-center items-center">
+                                        <div className="w-11/12 h-full">
+                                            <div className="flex justify-center items-center h-full">
                                             <Image
                                                 src={"/images/AzurLane_Guide_TH_LOGO.webp"}
                                                 alt="Azur Lane Logo"
-                                                width="300"
-                                                height="300"
+                                                width="150"
+                                                height="150"
+                                                className='max-h-fit w-auto'
                                             />
                                             </div>
                                         </div>
