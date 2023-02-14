@@ -317,7 +317,7 @@ export default function Panel_Card() {
                                         <p className={card_style.sub_content_body_style}>แล้วเว็บไซต์จะอัพเดตข้อมูลให้ใหม่อัตโนมัติ</p>
                                         <div className="flex justify-center"><div className={card_style.end_content_style}></div></div>
                                         <p className={card_style.sub_content_head_style}>2.ภาพไม่แสดง/ภาพไม่โหลด</p>
-                                        <p className={card_style.sub_content_body_style}>เนื่องจาก Google มีโค้วต้าร์ในการโหลดรูปภาพจำกัด</p>
+                                        <p className={card_style.sub_content_body_style}>เนื่องจาก Google มีโควตาในการโหลดรูปภาพจำกัด</p>
                                         <p className={card_style.sub_content_body_style}>หากรีเฟรชหน้าเว็บบ่อยจะทำให้รูปภาพบางอย่างไม่แสดง</p>
                                         <p className={card_style.sub_content_body_style}>เช่น รูปแปลสกิล ,รูปจิบิ ,รูป Banner ของอีเว้นท์</p>
                                         <p className={card_style.sub_content_body_style}>โดยจะกลับมาเป็นปกติเองหลังจากหยุดใช้งานเว็บไซต์ประมาณ 1-2 ชม.</p>
