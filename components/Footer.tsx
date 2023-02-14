@@ -79,8 +79,8 @@ export default function Footer() {
                 <div className='w-auto h-auto py-1'>
                     <div>
                         <div className="flex justify-center">
-                            {dark ? <button className={footer_style.button_style} onClick={clickBTTmode}> Change Mode To Light</button>
-                                : <button className={footer_style.button_style} onClick={clickBTTmode}> Change Mode To Dark</button>
+                            {dark ? <button className={footer_style.button_style} onClick={clickBTTmode}> กลับสู่แสงสว่าง</button>
+                                : <button className={footer_style.button_style} onClick={clickBTTmode}> เข้าสู่โลกมืด</button>
                             }
 
                             <button className={footer_style.button_style}

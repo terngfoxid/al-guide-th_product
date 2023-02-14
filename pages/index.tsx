@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import Topbar from '../components/Topbar'
 import Footer from '../components/Footer'
+
 import Home_Card from '../components/Home_Card'
+import Panel_Card from '../components/Panel_Card'
+
 import B_Ship_Card from '../components/button/B_Ship_Card'
 import B_Indev_Card from '../components/button/B_Indev_Card'
 import B_Event_Card from '../components/button/B_Event_Card'
@@ -22,6 +25,8 @@ export default function Home() {
         <div className='w-full 2xl:max-w-7xl'>
           <br></br>
           <Home_Card />
+          <br></br>
+          <Panel_Card />
           <br className='hidden md:block'></br>
           <br></br>
 

@@ -36,7 +36,7 @@ export default function Home_Card() {
                                         <p className="py-1 ">โดยจะประกอบไปด้วยการแปลเนื้อหาสกิลของสาวเรือภายในเกม</p>
                                         <p className="py-1 ">คำแนะนำและไกด์ในเรื่องต่างๆอย่าง เช่น เรื่องเกียร์สวมใส่แนะนำ </p>
                                         <p className="py-1 ">นอกจากนี้ยังมีทั้งคลิปรีวิวเรือลำต่างๆ และประวัติของเรือบางลำ</p>
-                                        <p className="py-1 ">เรียบเรียงมาให้ได้อ่านกันด้วยน๊าา ^-^/</p>
+                                        <p className="py-1 ">เรียบเรียงมาให้ได้อ่านกันด้วยน๊าา \^-^/</p>
                                     </div>
                                     <br className="md:hidden"></br>
                                     <div className="flex justify-center items-center">
