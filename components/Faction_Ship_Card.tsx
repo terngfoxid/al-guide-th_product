@@ -75,7 +75,7 @@ export default function Faction_Ship_Card(faction: any) {
                     shape: "w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
                     position: "flex justify-center",
                     body_style: "text-zinc-700 dark:text-zinc-300 text-base text-center",
-                    button_style: "w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300",
+                    button_style: "w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300 hover:scale-110 border-2 border-transparent hover:border-cyan-400",
                     text_bg: "",
                     dd_btn_style: "px-2 py-1 my-2 inline-flex items-center rounded bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600 duration-300 text-center",
                     dd_list_btn_style: "flex justify-center rounded px-2 py-1 inline-flex w-full items-center bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600 duration-300 text-center",

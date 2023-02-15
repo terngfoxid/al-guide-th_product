@@ -37,7 +37,7 @@ export default function Panel_Card() {
             title_style: 'text-zinc-700 dark:text-zinc-300 text-2xl font-bold text-center mt-3',
             shape: "w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
             position: "flex justify-center",
-            body_style: "pt-1 text-zinc-600 dark:text-zinc-400 text-lg md:text-xl lg:text-2xl text-center",
+            body_style: "pt-1 text-zinc-500 dark:text-zinc-400 text-lg md:text-xl lg:text-2xl text-center",
             //-cut-top-buttom
             cut_style: "w-full border border-gray-700 mt-1",
             end_content_style: "w-11/12 border border-neutral-500 mt-2",
@@ -46,8 +46,8 @@ export default function Panel_Card() {
             list_select_style: "inline-block py-1 mt-1 px-4 md:border-b-2 border-gray-600 bg-neutral-300 dark:bg-neutral-700 rounded-lg md:rounded-t-lg md:rounded-b-none text-gray-600 dark:text-gray-300",
             //contect
             content_style: "pt-2 md:mb-2 bg-neutral-300 dark:bg-neutral-700 w-full md:w-11/12",
-            sub_content_head_style: "ml-6 md:ml-16 pt-1 text-left text-base md:text-lg lg:text-xl xl:text-2xl",
-            sub_content_body_style: "ml-10 md:ml-24 pt-1 text-left text-sm md:text-base lg:text-lg xl:text-xl",
+            sub_content_head_style: "ml-6 md:ml-16 pt-1 text-left text-base md:text-base lg:text-lg xl:text-xl text-zinc-600 dark:text-zinc-300",
+            sub_content_body_style: "ml-10 md:ml-24 pt-1 text-left text-sm md:text-sm lg:text-base xl:text-base text-zinc-600 dark:text-zinc-300",
             mode_style: ["rounded-b-lg md:rounded-tr-lg", "rounded-b-lg md:rounded-lg", "rounded-b-lg md:rounded-lg"],
             //delete data button
             button_style: "mx-2 rounded bg-neutral-400 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-600 border border-transparent hover:border-gray-400 dark:hover:border-gray-600 text-zinc-700 dark:text-zinc-400 py-1 px-1 duration-300 hover:scale-110 text-xs font-bold text-center",
