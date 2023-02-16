@@ -205,7 +205,9 @@ export default function Ship_Card(ship: any) {
                                                         <br></br>
                                                         <p className="pb-4">All Out Assault</p>
                                                         <div className="flex justify-center pb-2">
-                                                            <img className="" src={shipdata.data.aoa} alt={shipdata.data.name + " aoa picture"}></img>
+                                                            <div className="flex justify-center w-11/12">
+                                                                <img className="" src={shipdata.data.aoa} alt={shipdata.data.name + " aoa picture"}></img>
+                                                            </div>
                                                         </div>
                                                         {(shipdata.data.aoa_note != null) ?
                                                             <>
@@ -223,8 +225,8 @@ export default function Ship_Card(ship: any) {
                                                         <br></br>
                                                         <p className="pb-4">Skill 1</p>
                                                         <div className="flex justify-center pb-2">
-                                                        <div className="flex justify-center w-11/12">
-                                                            <img className="" src={shipdata.data.guide_skill_1} alt={shipdata.data.name + " skill 1 Guide"}></img>
+                                                            <div className="flex justify-center w-11/12">
+                                                                <img className="" src={shipdata.data.guide_skill_1} alt={shipdata.data.name + " skill 1 Guide"}></img>
                                                             </div>
                                                         </div>
                                                         {(shipdata.data.guide_skill_1_note != null) ?
@@ -243,8 +245,8 @@ export default function Ship_Card(ship: any) {
                                                         <br></br>
                                                         <p className="pb-4">Skill 2</p>
                                                         <div className="flex justify-center pb-2">
-                                                        <div className="flex justify-center w-11/12">
-                                                            <img className="" src={shipdata.data.guide_skill_2} alt={shipdata.data.name + " skill 2 Guide"}></img>
+                                                            <div className="flex justify-center w-11/12">
+                                                                <img className="" src={shipdata.data.guide_skill_2} alt={shipdata.data.name + " skill 2 Guide"}></img>
                                                             </div>
                                                         </div>
                                                         {(shipdata.data.guide_skill_2_note != null) ?
@@ -264,7 +266,7 @@ export default function Ship_Card(ship: any) {
                                                         <p className="pb-4">Skill 3</p>
                                                         <div className="flex justify-center pb-2">
                                                             <div className="flex justify-center w-11/12">
-                                                            <img className="" src={shipdata.data.guide_skill_3} alt={shipdata.data.name + " skill 3 Guide"}></img>
+                                                                <img className="" src={shipdata.data.guide_skill_3} alt={shipdata.data.name + " skill 3 Guide"}></img>
                                                             </div>
                                                         </div>
                                                         {(shipdata.data.guide_skill_3_note != null) ?
@@ -326,9 +328,9 @@ export default function Ship_Card(ship: any) {
                                 <div className="animate__animated animate__fadeInRight animate__delay-1s animate__slow">
 
                                     {
-                                    (shipdata.data.type == "CV")&&(shipdata.data.faction == "Sakura Empire") ? <><img className="" src="/images/gear/Tenrai_SD.webp" alt={"aircraft tenrai picture"}></img></> :
-                                    (shipdata.data.type == "CV")&&(shipdata.data.faction == "Eagle Union") ? <><img className="" src="/images/gear/AD-1_SD.webp" alt={"aircraft tenrai picture"}></img></> :
-                                     <></>
+                                        (shipdata.data.type == "CV") && (shipdata.data.faction == "Sakura Empire") ? <><img className="" src="/images/gear/Tenrai_SD.webp" alt={"aircraft tenrai picture"}></img></> :
+                                            (shipdata.data.type == "CV") && (shipdata.data.faction == "Eagle Union") ? <><img className="" src="/images/gear/AD-1_SD.webp" alt={"aircraft tenrai picture"}></img></> :
+                                                <></>
                                     }
 
                                 </div>
@@ -338,7 +340,7 @@ export default function Ship_Card(ship: any) {
 
                 {((shipdata.data.history != null) || (false)) ? <>
                     <div id="shipdata3">
-                            <br className='hidden md:block'></br>
+                        <br className='hidden md:block'></br>
                         <div className="flex justify-center">
                             <div className="w-full md:w-5/6 2xl:w-full">
                                 <div className='md:grid md:grid-cols-2'>
