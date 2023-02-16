@@ -109,7 +109,7 @@ export default function Panel_Card() {
         if (data.data.data_update.error != null) {
             data_d.push(<p>ไม่สามารถโหลดข้อมูลได้</p>)
         }
-        else{
+        else {
             return (
                 <div >
                     <div className={card_style.position}>
@@ -119,7 +119,7 @@ export default function Panel_Card() {
                                     <p>ประกาศ</p>
                                 </div>
                             </h1>
-    
+
                             <div className={card_style.body_style}>
                                 <div className="flex justify-center">
                                     <ul className="flex flex-wrap -mb-px w-11/12">
@@ -158,9 +158,13 @@ export default function Panel_Card() {
                 const datebuffer = toDateTime(data.data.data_update[buffer].time._seconds)
                 data_d.push(
                     <p className={card_style.sub_content_head_style}>
-                        {datebuffer.toDateString()
-                            + " "
-                            + datebuffer.getHours() + ":" + datebuffer.getMinutes() + ":" + datebuffer.getSeconds()}
+                        {datebuffer.toLocaleDateString('th-TH', {
+                            weekday: 'long',
+                            month: 'narrow',
+                            day: 'numeric',
+                        })
+                            + " "+datebuffer.getFullYear()+" - "
+                            + (datebuffer.getHours() < 10 ? "0" + datebuffer.getHours() : datebuffer.getHours()) + ":" + (datebuffer.getMinutes() < 10 ? "0" + datebuffer.getMinutes() : datebuffer.getMinutes()) + ":" + (datebuffer.getSeconds() < 10 ? "0" + datebuffer.getSeconds() : datebuffer.getSeconds())}
                     </p>
                 )
                 let line = 0
@@ -183,7 +187,7 @@ export default function Panel_Card() {
         if (data.data.web_update.error != null) {
             data_w.push(<p>ไม่สามารถโหลดข้อมูลได้</p>)
         }
-        else{
+        else {
             return (
                 <div >
                     <div className={card_style.position}>
@@ -193,7 +197,7 @@ export default function Panel_Card() {
                                     <p>ประกาศ</p>
                                 </div>
                             </h1>
-    
+
                             <div className={card_style.body_style}>
                                 <div className="flex justify-center">
                                     <ul className="flex flex-wrap -mb-px w-11/12">
@@ -231,9 +235,13 @@ export default function Panel_Card() {
                 const datebuffer = toDateTime(data.data.web_update[buffer].time._seconds)
                 data_w.push(
                     <p className={card_style.sub_content_head_style}>
-                        {datebuffer.toDateString()
-                            + " "
-                            + datebuffer.getHours() + ":" + datebuffer.getMinutes() + ":" + datebuffer.getSeconds()}
+                        {datebuffer.toLocaleDateString('th-TH', {
+                            weekday: 'long',
+                            month: 'narrow',
+                            day: 'numeric',
+                        })
+                            + " "+datebuffer.getFullYear()+" - "
+                            + (datebuffer.getHours() < 10 ? "0" + datebuffer.getHours() : datebuffer.getHours()) + ":" + (datebuffer.getMinutes() < 10 ? "0" + datebuffer.getMinutes() : datebuffer.getMinutes()) + ":" + (datebuffer.getSeconds() < 10 ? "0" + datebuffer.getSeconds() : datebuffer.getSeconds())}
                     </p>
                 )
                 let line = 0
