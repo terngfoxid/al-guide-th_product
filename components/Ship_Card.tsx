@@ -223,7 +223,7 @@ export default function Ship_Card(ship: any) {
                                                 (shipdata.data.guide_skill_1 != null) ?
                                                     <>
                                                         <br></br>
-                                                        <p className="pb-4">Skill 1</p>
+                                                        <p className="pb-4">Note Skill 1</p>
                                                         <div className="flex justify-center pb-2">
                                                             <div className="flex justify-center w-11/12">
                                                                 <img className="" src={shipdata.data.guide_skill_1} alt={shipdata.data.name + " skill 1 Guide"}></img>
@@ -243,7 +243,7 @@ export default function Ship_Card(ship: any) {
                                                 (shipdata.data.guide_skill_2 != null) ?
                                                     <>
                                                         <br></br>
-                                                        <p className="pb-4">Skill 2</p>
+                                                        <p className="pb-4">Note Skill 2</p>
                                                         <div className="flex justify-center pb-2">
                                                             <div className="flex justify-center w-11/12">
                                                                 <img className="" src={shipdata.data.guide_skill_2} alt={shipdata.data.name + " skill 2 Guide"}></img>
@@ -263,7 +263,7 @@ export default function Ship_Card(ship: any) {
                                                 (shipdata.data.guide_skill_3 != null) ?
                                                     <>
                                                         <br></br>
-                                                        <p className="pb-4">Skill 3</p>
+                                                        <p className="pb-4">Note Skill 3</p>
                                                         <div className="flex justify-center pb-2">
                                                             <div className="flex justify-center w-11/12">
                                                                 <img className="" src={shipdata.data.guide_skill_3} alt={shipdata.data.name + " skill 3 Guide"}></img>
