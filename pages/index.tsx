@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Azur Lane Guide</title>
+        <title>หน้าหลัก AL GuideTH</title>
         <meta name="description" content="Webapp for azur lane TH comunity" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

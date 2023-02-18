@@ -7,7 +7,7 @@ export default function Active_Event() {
   return (
     <>
       <Head>
-        <title>Azur Lane Guide</title>
+        <title>Active Event</title>
         <meta name="description" content="contract page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
