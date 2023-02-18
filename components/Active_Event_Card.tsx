@@ -73,7 +73,7 @@ export default function Active_Event_Card(ship: any) {
                                     <div>
                                         {eventdata.data.newship_chibi[buffer] != null ? <>
                                             <div className="w-full flex justify-center items-center aspect-square md:aspect-video">
-                                                <img src={"https://drive.google.com/uc?export=view&id=" + eventdata.data.newship_chibi[buffer]} alt='ship chibi image' />
+                                                <img src={eventdata.data.newship_chibi[buffer]} alt='ship chibi image' />
                                             </div></> : <></>
                                         }
                                     </div>

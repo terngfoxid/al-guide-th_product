@@ -26,7 +26,7 @@ export default function Chibi(chibi: any) {
                 <div className="w-20 md:w-max">
                 <img 
                 className="cursor-not-allowed" 
-                src={"https://drive.google.com/uc?export=view&id=" + chibi.chibi} 
+                src={chibi.chibi} 
                 alt='ship chibi image' 
                 onClick={ event =>{
                     if(state!= 0)setState(0)

@@ -129,7 +129,7 @@ export default function Faction_Ship_Card(faction: any) {
                                         {shipdata.data.data[buffer].chibi != null ? <>
                                             <div className="w-full flex justify-center items-center aspect-square md:aspect-video">
                                                     <img
-                                                        src={"https://drive.google.com/uc?export=view&id=" + shipdata.data.data[buffer].chibi}
+                                                        src={""+shipdata.data.data[buffer].chibi}
                                                         alt='ship chibi image'
                                                     />
                                             </div></> : <></>
