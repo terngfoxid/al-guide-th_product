@@ -113,7 +113,7 @@ export default function Ship_Card(ship: any) {
                 image_style: "w-full rounded-lg shadow-xl",
                 mrt_image_src: "/images/MRT 600x300.webp",
                 yt_image_src: "/images/review 600x300.webp",
-                note_text: "text-zinc-600 dark:text-zinc-400 text-base md:text-lg w-11/12 md:w-3/4 border border-gray-500/10 p-2 rounded text-left",
+                note_text: "text-zinc-600 dark:text-zinc-400 text-base md:text-lg xl:text-xl 2xl:text-2xl w-11/12 md:w-3/4 border border-gray-500/10 p-2 rounded text-left",
             }
         );
 

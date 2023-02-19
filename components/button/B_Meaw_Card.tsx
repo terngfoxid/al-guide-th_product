@@ -15,7 +15,7 @@ export default function B_Meaw_Card() {
     return (
         <button className={card_style.shape}>
             <Link href="#" className="w-full">
-                <Image
+                <img
                     src={card_style.image_src}
                     className={card_style.image_style}
                     alt='button image'
