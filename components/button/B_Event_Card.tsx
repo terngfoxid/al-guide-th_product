@@ -61,7 +61,7 @@ export default function B_Event_Card() {
     return (
         <button className={card_style.shape}>
             <Link href="/active_event" className="w-full">
-                <Image
+                <img
                     src={"https://drive.google.com/uc?export=view&id=" + eventdata.data.button}
                     className={card_style.image_style}
                     alt='button image'
