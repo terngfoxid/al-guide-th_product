@@ -338,7 +338,7 @@ export default function Ship_Card(ship: any) {
                         </div>
                     </div></> : <></>}
 
-                {((shipdata.data.history != null) || (false)) ? <>
+                {((shipdata.data.history != null) || (shipdata.data.review != null)) ? <>
                     <div id="shipdata3">
                         <br className='hidden md:block'></br>
                         <div className="flex justify-center">
