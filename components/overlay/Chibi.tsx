@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 export default function Chibi(chibi: any) {
 
     const [state, setState] = useState(3)
+    const [textShow,setTextShow] = useState(true)
 
     useEffect(() => {
         setTimeout(() => {
@@ -29,12 +30,13 @@ export default function Chibi(chibi: any) {
                 src={chibi.chibi} 
                 alt='ship chibi image' 
                 onClick={ event =>{
-                    if(state!= 0)setState(0)
-                    else{setState(1)}
+                    if(textShow == true)setTextShow(false)
+                    else{setTextShow(true)}
                 }}/>
                 </div>
                 <div className="">
                         {
+                            textShow == false ? <></>:
                             state == 1 ?
                             <><div className={"mt-8 md:mt-16 h-max "+chibi_style.chat_style}><p className="px-1 py-1">{"กดคลิกที่รูปเพื่อขยายขนาดได้นะ"}</p></div></>
                             : state == 2 ?
