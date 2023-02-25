@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Home_Card() {
 
     const card_style = (
@@ -41,13 +39,11 @@ export default function Home_Card() {
                                     <br className="md:hidden"></br>
                                     <div className="flex justify-center items-center">
                                         <div className="w-11/12 h-full">
-                                            <div className="flex justify-center items-center h-full">
-                                            <Image
+                                            <div className="flex justify-center items-center h-full max-h-fit">
+                                            <img
                                                 src={"/images/AzurLane_Guide_TH_LOGO.webp"}
                                                 alt="Azur Lane Logo"
-                                                width="150"
-                                                height="150"
-                                                className='max-h-fit w-auto'
+                                                className='max-h-fit w-3/4'
                                             />
                                             </div>
                                         </div>
