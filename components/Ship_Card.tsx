@@ -328,9 +328,11 @@ export default function Ship_Card(ship: any) {
                                 <div className="animate__animated animate__fadeInRight animate__delay-1s animate__slow">
 
                                     {
-                                        (shipdata.data.type == "CV") && (shipdata.data.faction == "Sakura Empire") ? <><img className="" src="/images/gear/Tenrai_SD.webp" alt={"aircraft tenrai picture"}></img></> :
-                                            (shipdata.data.type == "CV") && (shipdata.data.faction == "Eagle Union") ? <><img className="" src="/images/gear/AD-1_SD.webp" alt={"aircraft tenrai picture"}></img></> :
-                                                <></>
+                                        (shipdata.data.type == "CV") && (shipdata.data.faction == "Sakura Empire") ? <><img className="" src="/images/gear/Tenrai_SD.webp" alt={"aircraft picture"}></img></> :
+                                            (shipdata.data.type == "CV") && (shipdata.data.faction == "Eagle Union") ? <><img className="" src="/images/gear/AD-1_SD.webp" alt={"aircraft picture"}></img></> :
+                                            (shipdata.data.type == "CV") && (shipdata.data.faction == "Royal Navy") ? <><img className="" src="/images/gear/Firefly_1771_SD.webp" alt={"aircraft picture"}></img></> :
+                                            
+                                            <></>
                                     }
 
                                 </div>
