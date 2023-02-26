@@ -169,7 +169,7 @@ export default function Active_Event_Card(ship: any) {
             for (count = 0; count < eventdata.data.quest.length; count++) {
                 const buffer = count
                 quest_body.push(
-                    <><div className="flex"><p className={card_style.note_style}>◆</p>
+                    <><div className="flex"><p className={card_style.note_style}>▷</p>
                         <p className={card_style.note_style}>{eventdata.data.quest[buffer]}</p>
                     </div></>
                 )
