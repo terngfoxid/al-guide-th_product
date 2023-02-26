@@ -12,7 +12,7 @@ export default function Active_Event_Card(ship: any) {
             button: null,
             chibi: null,
             event_guide: null,
-            name: null,
+
             newship: [],
             newship_chibi: [],
             newship_type: [],
@@ -26,6 +26,13 @@ export default function Active_Event_Card(ship: any) {
             event_name: null,
             event_time: null,
 
+            quest: [],
+            special_furniture: null,
+            special_frame: null,
+            special_furniture_text: null,
+            special_frame_text: null,
+            special_furniture_text2: null,
+            special_frame_text2: null,
         }
     });
 
@@ -55,15 +62,17 @@ export default function Active_Event_Card(ship: any) {
     else {
         const card_style = (
             {
-                title_style: 'py-1 text-zinc-700 dark:text-zinc-300 text-xl md:text-2xl font-bold text-center',
-                title_date_style: 'py-1 text-zinc-700 dark:text-zinc-300 text-base md:text-lg font-bold text-center',
-                
+                title_style: 'py-1 text-zinc-700 dark:text-zinc-300 text-xl md:text-2xl font-bold ',
+                title_date_style: 'py-1 text-zinc-700 dark:text-zinc-300 text-base md:text-lg font-bold ',
+
                 shape: "w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
                 position: "flex justify-center",
                 body_style: "pt-3 text-zinc-700 dark:text-zinc-300 text-base ",
                 button_style: "w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300 hover:scale-110 border-2 border-transparent hover:border-cyan-400",
-                note_header_style: "text-lg mt-1 pt-2",
-                note_style: "pl-2 py-1"
+                note_header_style: "text-lg mt-1 pt-2 text-left",
+                note_style: "pl-2 py-1 text-left",
+
+                reward:"flex w-11/12 border border-gray-300 dark:border-gray-700 rounded-lg",
             }
         );
 
@@ -155,6 +164,18 @@ export default function Active_Event_Card(ship: any) {
             }
         }
 
+        const quest_body = [];
+        if (eventdata.data.quest.length > 0) {
+            for (count = 0; count < eventdata.data.quest.length; count++) {
+                const buffer = count
+                quest_body.push(
+                    <><div className="flex"><p className={card_style.note_style}>◆</p>
+                        <p className={card_style.note_style}>{eventdata.data.quest[buffer]}</p>
+                    </div></>
+                )
+            }
+        }
+
         return (
             <div>
                 <div id="shipdata" className={card_style.position}>
@@ -178,7 +199,72 @@ export default function Active_Event_Card(ship: any) {
                             </div>
                         </div></> : <></>}
 
-                {eventdata.data.newship.length != 0 ?
+                        {(eventdata.data.quest.length != 0) ?
+                    <>
+                        <br></br>
+                        <div id="shipdata5" className={card_style.position}>
+                            <div className={card_style.shape}>
+                                <div className="flex justify-center mt-2">
+                                    <h1 className={card_style.title_style}>เควสและของรางวัล</h1>
+                                </div>
+
+                                <div className={card_style.body_style}>
+                                    <div className="md:grid md:grid-cols-2">
+                                        {eventdata.data.special_furniture != null ? <>
+                                            <div className="flex justify-center pb-2">
+                                                <div className={card_style.reward}>
+                                                    <div className="w-1/3">
+                                                        <img src={eventdata.data.special_furniture}></img>
+                                                    </div>
+                                                    <div className="pt-2">
+                                                        {eventdata.data.special_furniture_text != null ?
+                                                            <>
+                                                                <h1 className={card_style.title_date_style+"pl-2 py-1"}>{eventdata.data.special_furniture_text}</h1>
+                                                            </> : <></>}
+                                                        {eventdata.data.special_furniture_text2 != null ?
+                                                            <>
+                                                                <p className={card_style.note_style}>{eventdata.data.special_furniture_text2}</p>
+                                                            </> : <></>}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </> : <></>}
+                                        {eventdata.data.special_frame != null ? <>
+                                            <div className="flex justify-center pb-2">
+                                                <div className={card_style.reward}>
+                                                    <div className="w-1/3">
+                                                        <img src={eventdata.data.special_frame}></img>
+                                                    </div>
+                                                    <div className="pt-2">
+                                                        {eventdata.data.special_frame_text != null ?
+                                                            <>
+                                                                <h1 className={card_style.title_date_style+"pl-2 py-1"}>{eventdata.data.special_frame_text}</h1>
+                                                            </> : <></>}
+                                                        {eventdata.data.special_frame_text2 != null ?
+                                                            <>
+                                                                <p className={card_style.note_style}>{eventdata.data.special_frame_text2}</p>
+                                                            </> : <></>}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </> : <></>}
+                                    </div>
+                                    <br></br>
+                                    <div className="flex justify-center">
+                                        <div className="w-11/12 space-y-1">
+                                            {quest_body}
+                                        </div>
+                                    </div>
+                                </div>
+                                <br></br>
+                            </div>
+                        </div></> : <></>}
+
+                {(eventdata.data.event_note_beginer != null) ||
+                    (eventdata.data.event_note_midgame != null) ||
+                    (eventdata.data.event_note_sp != null) ||
+                    (eventdata.data.event_note_sum != null)
+                    ?
                     <>
                         <br></br>
                         <div id="shipdata4" className={card_style.position}>
@@ -218,6 +304,7 @@ export default function Active_Event_Card(ship: any) {
                                     document.getElementById("shipdata2")?.classList.add("hidden")
                                     document.getElementById("shipdata3")?.classList.add("hidden")
                                     document.getElementById("shipdata4")?.classList.add("hidden")
+                                    document.getElementById("shipdata5")?.classList.add("hidden")
                                     document.body.classList.remove("overflow-x-hidden");
                                     document.body.classList.add("w-max");
                                 }}
@@ -234,6 +321,7 @@ export default function Active_Event_Card(ship: any) {
                             document.getElementById("shipdata2")?.classList.remove("hidden")
                             document.getElementById("shipdata3")?.classList.remove("hidden")
                             document.getElementById("shipdata4")?.classList.remove("hidden")
+                            document.getElementById("shipdata5")?.classList.remove("hidden")
                             document.body.classList.add("overflow-x-hidden");
                             document.body.classList.remove("w-max");
                         }}
