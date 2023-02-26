@@ -319,7 +319,7 @@ export default function Panel_Card() {
                                         <p className={card_style.sub_content_body_style}>ให้ทำการคลิกที่ปุ่ม
                                             <button className={card_style.button_style}
                                                 onClick={cleardata}>
-                                                &nbsp;ลบข้อมูลเว็บไซต์&nbsp;
+                                                &nbsp;ลบแคชเว็บไซต์&nbsp;
                                             </button>
                                             ที่นี่ หรือส่วนด้านล่างสุดของเว็บไซต์</p>
                                         <p className={card_style.sub_content_body_style}>แล้วเว็บไซต์จะอัพเดตข้อมูลให้ใหม่อัตโนมัติ</p>

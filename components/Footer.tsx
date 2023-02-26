@@ -85,7 +85,7 @@ export default function Footer() {
 
                             <button className={footer_style.button_style}
                                 onClick={cleardata}>
-                                &nbsp;ลบข้อมูลเว็บไซต์&nbsp;
+                                &nbsp;ลบแคชเว็บไซต์&nbsp;
                             </button>
 
                         </div>
