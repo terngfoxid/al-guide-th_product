@@ -16,10 +16,9 @@ export default function Active_Event() {
       <Topbar />
 
       <main className='flex justify-center'>
-        <div className='w-full 2xl:max-w-7xl'>
-          <br></br>
+        <div id="zoom" className='w-full 2xl:max-w-7xl'>
           <Active_Event_Card />
-          <br></br>
+          <br id="lastspace"></br>
         </div>
       </main>
       <Footer />

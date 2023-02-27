@@ -74,7 +74,7 @@ export default function Footer() {
     }
 
     return (
-        <div>
+        <div id="footer">
             <footer className={footer_style.bar_style}>
                 <div className='w-auto h-auto py-1'>
                     <div>

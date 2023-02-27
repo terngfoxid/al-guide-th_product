@@ -4,7 +4,6 @@ import Footer from '../../components/Footer'
 import Ship_Card from '../../components/Ship_Card'
 import { useRouter } from 'next/router'
 import Loading from '../../components/overlay/Loading'
-import Test_Card from '../../components/test/Test_Card'
 
 export default function Ship() {
     const router = useRouter()
@@ -48,10 +47,9 @@ export default function Ship() {
                 <Topbar />
 
                 <main className='flex justify-center'>
-                    <div className='w-full 2xl:max-w-7xl'>
-                        <br></br>
+                    <div id="zoom" className='w-full 2xl:max-w-7xl'>
                         <Ship_Card ship={name} />
-                        <br></br>
+                        <br id="lastspace"></br>
                     </div>
                 </main>
                 <Footer />

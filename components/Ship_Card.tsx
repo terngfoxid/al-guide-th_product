@@ -120,6 +120,7 @@ export default function Ship_Card(ship: any) {
         return (
             <div>
                 <div id="shipdata" >
+                <br></br>
                     <div className={card_style.position}>
                         <div className={card_style.shape}>
                             <br></br>
@@ -144,8 +145,13 @@ export default function Ship_Card(ship: any) {
                                                     document.getElementById("shipdata")?.classList.add("hidden")
                                                     document.getElementById("shipdata2")?.classList.add("hidden")
                                                     document.getElementById("shipdata3")?.classList.add("hidden")
+
+                                                    document.getElementById("topbar")?.classList.add("hidden")
+                                                    document.getElementById("footer")?.classList.add("hidden")
+                                                    document.getElementById("zoom")?.classList.remove("2xl:max-w-7xl")
+                                                    document.getElementById("lastspace")?.classList.add("hidden")
+
                                                     document.body.classList.remove("overflow-x-hidden");
-                                                    document.body.classList.add("w-max");
                                                 }}
                                             >
                                             </img>
@@ -160,8 +166,13 @@ export default function Ship_Card(ship: any) {
                                                     document.getElementById("shipdata")?.classList.add("hidden")
                                                     document.getElementById("shipdata2")?.classList.add("hidden")
                                                     document.getElementById("shipdata3")?.classList.add("hidden")
+
+                                                    document.getElementById("topbar")?.classList.add("hidden")
+                                                    document.getElementById("footer")?.classList.add("hidden")
+                                                    document.getElementById("zoom")?.classList.remove("2xl:max-w-7xl")
+                                                    document.getElementById("lastspace")?.classList.add("hidden")
+
                                                     document.body.classList.remove("overflow-x-hidden");
-                                                    document.body.classList.add("w-max");
                                                 }}
                                             >
                                             </img>
@@ -176,8 +187,13 @@ export default function Ship_Card(ship: any) {
                                                     document.getElementById("shipdata")?.classList.add("hidden")
                                                     document.getElementById("shipdata2")?.classList.add("hidden")
                                                     document.getElementById("shipdata3")?.classList.add("hidden")
+
+                                                    document.getElementById("topbar")?.classList.add("hidden")
+                                                    document.getElementById("footer")?.classList.add("hidden")
+                                                    document.getElementById("zoom")?.classList.remove("2xl:max-w-7xl")
+                                                    document.getElementById("lastspace")?.classList.add("hidden")
+
                                                     document.body.classList.remove("overflow-x-hidden");
-                                                    document.body.classList.add("w-max");
                                                 }}
                                             >
                                             </img>
@@ -300,8 +316,9 @@ export default function Ship_Card(ship: any) {
                 </div>
 
                 {(shipdata.data.gear != null) ? <>
+                    <div id="shipdata2">
                     <br></br>
-                    <div id="shipdata2" className={card_style.position}>
+                    <div className={card_style.position}>
                         <div className={card_style.shape + " relative"}>
                             <br></br>
                             <div className={card_style.body_style + " z-10"}>
@@ -315,8 +332,13 @@ export default function Ship_Card(ship: any) {
                                                 document.getElementById("shipdata")?.classList.add("hidden")
                                                 document.getElementById("shipdata2")?.classList.add("hidden")
                                                 document.getElementById("shipdata3")?.classList.add("hidden")
+
+                                                document.getElementById("topbar")?.classList.add("hidden")
+                                                document.getElementById("footer")?.classList.add("hidden")
+                                                document.getElementById("zoom")?.classList.remove("2xl:max-w-7xl")
+                                                document.getElementById("lastspace")?.classList.add("hidden")
+
                                                 document.body.classList.remove("overflow-x-hidden");
-                                                document.body.classList.add("w-max");
                                             }}
                                         >
                                         </img>
@@ -330,15 +352,15 @@ export default function Ship_Card(ship: any) {
                                     {
                                         (shipdata.data.type == "CV") && (shipdata.data.faction == "Sakura Empire") ? <><img className="" src="/images/gear/Tenrai_SD.webp" alt={"aircraft picture"}></img></> :
                                             (shipdata.data.type == "CV") && (shipdata.data.faction == "Eagle Union") ? <><img className="" src="/images/gear/AD-1_SD.webp" alt={"aircraft picture"}></img></> :
-                                            (shipdata.data.type == "CV") && (shipdata.data.faction == "Royal Navy") ? <><img className="" src="/images/gear/Firefly_1771_SD.webp" alt={"aircraft picture"}></img></> :
-                                            
-                                            <></>
+                                                (shipdata.data.type == "CV") && (shipdata.data.faction == "Royal Navy") ? <><img className="" src="/images/gear/Firefly_1771_SD.webp" alt={"aircraft picture"}></img></> :
+
+                                                    <></>
                                     }
 
                                 </div>
                             </div>
                         </div>
-                    </div></> : <></>}
+                    </div></div></> : <></>}
 
                 {((shipdata.data.history != null) || (shipdata.data.review != null)) ? <>
                     <div id="shipdata3">
@@ -389,11 +411,16 @@ export default function Ship_Card(ship: any) {
                             document.getElementById("shipdata")?.classList.remove("hidden")
                             document.getElementById("shipdata2")?.classList.remove("hidden")
                             document.getElementById("shipdata3")?.classList.remove("hidden")
+
+                            document.getElementById("topbar")?.classList.remove("hidden")
+                            document.getElementById("footer")?.classList.remove("hidden")
+                            document.getElementById("zoom")?.classList.add("2xl:max-w-7xl")
+                            document.getElementById("lastspace")?.classList.remove("hidden")
+
                             document.body.classList.add("overflow-x-hidden");
-                            document.body.classList.remove("w-max");
                         }}
                     >
-                        <img className="cursor-zoom-out object-scale-down" src={"https://drive.google.com/uc?export=view&id=" + shipdata.data.skill} alt={shipdata.data.name + " picture"}></img>
+                        <img className="cursor-zoom-out md:w-screen md:h-full" src={"https://drive.google.com/uc?export=view&id=" + shipdata.data.skill} alt={shipdata.data.name + " picture"}></img>
                     </div></> : <></>}
 
                 {(shipdata.data.re != null) ? <>
@@ -404,11 +431,16 @@ export default function Ship_Card(ship: any) {
                             document.getElementById("shipdata")?.classList.remove("hidden")
                             document.getElementById("shipdata2")?.classList.remove("hidden")
                             document.getElementById("shipdata3")?.classList.remove("hidden")
+
+                            document.getElementById("topbar")?.classList.remove("hidden")
+                            document.getElementById("footer")?.classList.remove("hidden")
+                            document.getElementById("zoom")?.classList.add("2xl:max-w-7xl")
+                            document.getElementById("lastspace")?.classList.remove("hidden")
+
                             document.body.classList.add("overflow-x-hidden");
-                            document.body.classList.remove("w-max");
                         }}
                     >
-                        <img className="cursor-zoom-out object-scale-down" src={"https://drive.google.com/uc?export=view&id=" + shipdata.data.re} alt={shipdata.data.name + " picture"}></img>
+                        <img className="cursor-zoom-out md:w-screen md:h-full" src={"https://drive.google.com/uc?export=view&id=" + shipdata.data.re} alt={shipdata.data.name + " picture"}></img>
                     </div></> : <></>}
 
                 {(shipdata.data.fatesim != null) ? <>
@@ -419,11 +451,16 @@ export default function Ship_Card(ship: any) {
                             document.getElementById("shipdata")?.classList.remove("hidden")
                             document.getElementById("shipdata2")?.classList.remove("hidden")
                             document.getElementById("shipdata3")?.classList.remove("hidden")
+
+                            document.getElementById("topbar")?.classList.remove("hidden")
+                            document.getElementById("footer")?.classList.remove("hidden")
+                            document.getElementById("zoom")?.classList.add("2xl:max-w-7xl")
+                            document.getElementById("lastspace")?.classList.remove("hidden")
+
                             document.body.classList.add("overflow-x-hidden");
-                            document.body.classList.remove("w-max");
                         }}
                     >
-                        <img className="cursor-zoom-out object-scale-down" src={"https://drive.google.com/uc?export=view&id=" + shipdata.data.fatesim} alt={shipdata.data.name + " picture"}></img>
+                        <img className="cursor-zoom-out md:w-screen md:h-full" src={"https://drive.google.com/uc?export=view&id=" + shipdata.data.fatesim} alt={shipdata.data.name + " picture"}></img>
                     </div></> : <></>}
 
                 {(shipdata.data.gear != null) ? <>
@@ -434,11 +471,16 @@ export default function Ship_Card(ship: any) {
                             document.getElementById("shipdata")?.classList.remove("hidden")
                             document.getElementById("shipdata2")?.classList.remove("hidden")
                             document.getElementById("shipdata3")?.classList.remove("hidden")
+
+                            document.getElementById("topbar")?.classList.remove("hidden")
+                            document.getElementById("footer")?.classList.remove("hidden")
+                            document.getElementById("zoom")?.classList.add("2xl:max-w-7xl")
+                            document.getElementById("lastspace")?.classList.remove("hidden")
+
                             document.body.classList.add("overflow-x-hidden");
-                            document.body.classList.remove("w-max");
                         }}
                     >
-                        <img className="cursor-zoom-out object-scale-down" src={"https://drive.google.com/uc?export=view&id=" + shipdata.data.gear} alt={shipdata.data.name + " picture"}></img>
+                        <img className="cursor-zoom-out md:w-screen md:h-full" src={"https://drive.google.com/uc?export=view&id=" + shipdata.data.gear} alt={shipdata.data.name + " picture"}></img>
                     </div></> : <></>}
 
                 {shipdata.data.chibi != null ? <>

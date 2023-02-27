@@ -72,7 +72,7 @@ export default function Active_Event_Card(ship: any) {
                 note_header_style: "text-lg mt-1 pt-2 text-left",
                 note_style: "pl-2 py-1 text-left",
 
-                reward:"flex w-11/12 border border-gray-300 dark:border-gray-700 rounded-lg",
+                reward: "flex w-11/12 border border-gray-300 dark:border-gray-700 rounded-lg",
             }
         );
 
@@ -178,31 +178,34 @@ export default function Active_Event_Card(ship: any) {
 
         return (
             <div>
-                <div id="shipdata" className={card_style.position}>
-                    <div className={card_style.shape}>
-                        <img className="object-scale-down rounded-lg" src={"https://drive.google.com/uc?export=view&id=" + eventdata.data.banner} alt={eventdata.data.banner + " picture"}></img>
-                    </div>
-                </div>
+                <div id="shipdata">
+                    <br></br>
+                    <div className={card_style.position}>
+                        <div className={card_style.shape}>
+                            <img className="object-scale-down rounded-lg" src={"https://drive.google.com/uc?export=view&id=" + eventdata.data.banner} alt={eventdata.data.banner + " picture"}></img>
+                        </div>
+                    </div></div>
 
                 {eventdata.data.newship.length != 0 ?
                     <>
-                        <br></br>
-                        <div id="shipdata2" className={card_style.position}>
-                            <div className={card_style.shape}>
-                                <div className="flex justify-center">
-                                    <h1 className={card_style.title_style}>เรือใหม่</h1>
+                        <div id="shipdata2">
+                            <br></br>
+                            <div className={card_style.position}>
+                                <div className={card_style.shape}>
+                                    <div className="flex justify-center">
+                                        <h1 className={card_style.title_style}>เรือใหม่</h1>
+                                    </div>
+                                    <div className="grid grid-cols-2 md:grid-cols-4 gap-y-2">
+                                        {ship_list}
+                                    </div>
+                                    <br></br>
                                 </div>
-                                <div className="grid grid-cols-2 md:grid-cols-4 gap-y-2">
-                                    {ship_list}
-                                </div>
-                                <br></br>
-                            </div>
-                        </div></> : <></>}
+                            </div></div></> : <></>}
 
-                        {(eventdata.data.quest.length != 0) ?
-                    <>
+                {(eventdata.data.quest.length != 0) ?
+                    <><div id="shipdata5">
                         <br></br>
-                        <div id="shipdata5" className={card_style.position}>
+                        <div className={card_style.position}>
                             <div className={card_style.shape}>
                                 <div className="flex justify-center mt-2">
                                     <h1 className={card_style.title_style}>เควสและของรางวัล</h1>
@@ -219,7 +222,7 @@ export default function Active_Event_Card(ship: any) {
                                                     <div className="pt-2">
                                                         {eventdata.data.special_furniture_text != null ?
                                                             <>
-                                                                <h1 className={card_style.title_date_style+"pl-2 py-1"}>{eventdata.data.special_furniture_text}</h1>
+                                                                <h1 className={card_style.title_date_style + "pl-2 py-1"}>{eventdata.data.special_furniture_text}</h1>
                                                             </> : <></>}
                                                         {eventdata.data.special_furniture_text2 != null ?
                                                             <>
@@ -238,7 +241,7 @@ export default function Active_Event_Card(ship: any) {
                                                     <div className="pt-2">
                                                         {eventdata.data.special_frame_text != null ?
                                                             <>
-                                                                <h1 className={card_style.title_date_style+"pl-2 py-1"}>{eventdata.data.special_frame_text}</h1>
+                                                                <h1 className={card_style.title_date_style + "pl-2 py-1"}>{eventdata.data.special_frame_text}</h1>
                                                             </> : <></>}
                                                         {eventdata.data.special_frame_text2 != null ?
                                                             <>
@@ -258,7 +261,7 @@ export default function Active_Event_Card(ship: any) {
                                 </div>
                                 <br></br>
                             </div>
-                        </div></> : <></>}
+                        </div></div></> : <></>}
 
                 {(eventdata.data.event_note_beginer != null) ||
                     (eventdata.data.event_note_midgame != null) ||
@@ -266,51 +269,58 @@ export default function Active_Event_Card(ship: any) {
                     (eventdata.data.event_note_sum != null)
                     ?
                     <>
-                        <br></br>
-                        <div id="shipdata4" className={card_style.position}>
-                            <div className={card_style.shape}>
-                                <div className="flex justify-center mt-2">
-                                    <h1 className={card_style.title_style}>สรุปข้อมูลด่านน่าฟาร์มประจำ Event ใหม่</h1>
-                                </div>
-                                {eventdata.data.event_name != null ?
-                                    <><div className="flex justify-center">
-                                        <h1 className={card_style.title_style}>{eventdata.data.event_name}</h1>
-                                    </div></> : <></>}
-                                {eventdata.data.event_time != null ?
-                                    <><div className="flex justify-center">
-                                        <h1 className={card_style.title_date_style}>{eventdata.data.event_time}</h1>
-                                    </div></> : <></>}
+                        <div id="shipdata4">
+                            <br></br>
+                            <div className={card_style.position}>
+                                <div className={card_style.shape}>
+                                    <div className="flex justify-center mt-2">
+                                        <h1 className={card_style.title_style}>สรุปข้อมูลด่านน่าฟาร์มประจำ Event ใหม่</h1>
+                                    </div>
+                                    {eventdata.data.event_name != null ?
+                                        <><div className="flex justify-center">
+                                            <h1 className={card_style.title_style}>{eventdata.data.event_name}</h1>
+                                        </div></> : <></>}
+                                    {eventdata.data.event_time != null ?
+                                        <><div className="flex justify-center">
+                                            <h1 className={card_style.title_date_style}>{eventdata.data.event_time}</h1>
+                                        </div></> : <></>}
 
-                                <div className={card_style.body_style}>
-                                    <div className="flex justify-center">
-                                        <div className="w-11/12 space-y-1">
-                                            {note_body}
+                                    <div className={card_style.body_style}>
+                                        <div className="flex justify-center">
+                                            <div className="w-11/12 space-y-1">
+                                                {note_body}
+                                            </div>
                                         </div>
                                     </div>
+                                    <br></br>
                                 </div>
-                                <br></br>
-                            </div>
-                        </div></> : <></>}
+                            </div></div></> : <></>}
 
                 {(eventdata.data.event_guide != null) ? <>
-                    <br></br>
-                    <div id="shipdata3" className={card_style.position}>
-                        <div className={card_style.shape}>
-                            <img className="cursor-zoom-in object-scale-down rounded-lg" src={"https://drive.google.com/uc?export=view&id=" + eventdata.data.event_guide} alt={eventdata.data.banner + " picture"}
-                                onClick={() => {
-                                    document.getElementById("present0")?.classList.remove("hidden")
-                                    document.getElementById("shipchibi")?.classList.add("hidden")
-                                    document.getElementById("shipdata")?.classList.add("hidden")
-                                    document.getElementById("shipdata2")?.classList.add("hidden")
-                                    document.getElementById("shipdata3")?.classList.add("hidden")
-                                    document.getElementById("shipdata4")?.classList.add("hidden")
-                                    document.getElementById("shipdata5")?.classList.add("hidden")
-                                    document.body.classList.remove("overflow-x-hidden");
-                                    document.body.classList.add("w-max");
-                                }}
-                            ></img>
-                        </div>
-                    </div></> : <></>}
+                    <div id="shipdata3">
+                        <br></br>
+                        <div className={card_style.position}>
+                            <div className={card_style.shape}>
+                                <img className="cursor-zoom-in object-scale-down rounded-lg" src={"https://drive.google.com/uc?export=view&id=" + eventdata.data.event_guide} alt={eventdata.data.banner + " picture"}
+                                    onClick={() => {
+                                        document.getElementById("present0")?.classList.remove("hidden")
+                                        document.getElementById("shipchibi")?.classList.add("hidden")
+                                        document.getElementById("shipdata")?.classList.add("hidden")
+                                        document.getElementById("shipdata2")?.classList.add("hidden")
+                                        document.getElementById("shipdata3")?.classList.add("hidden")
+                                        document.getElementById("shipdata4")?.classList.add("hidden")
+                                        document.getElementById("shipdata5")?.classList.add("hidden")
+
+                                        document.getElementById("topbar")?.classList.add("hidden")
+                                        document.getElementById("footer")?.classList.add("hidden")
+                                        document.getElementById("zoom")?.classList.remove("2xl:max-w-7xl")
+                                        document.getElementById("lastspace")?.classList.add("hidden")
+
+                                        document.body.classList.remove("overflow-x-hidden");
+                                    }}
+                                ></img>
+                            </div>
+                        </div></div></> : <></>}
 
                 {(eventdata.data.event_guide != null) ? <>
                     <div id="present0" className="hidden bg-gray-900 w-max"
@@ -322,11 +332,16 @@ export default function Active_Event_Card(ship: any) {
                             document.getElementById("shipdata3")?.classList.remove("hidden")
                             document.getElementById("shipdata4")?.classList.remove("hidden")
                             document.getElementById("shipdata5")?.classList.remove("hidden")
+
+                            document.getElementById("topbar")?.classList.remove("hidden")
+                            document.getElementById("footer")?.classList.remove("hidden")
+                            document.getElementById("zoom")?.classList.add("2xl:max-w-7xl")
+                            document.getElementById("lastspace")?.classList.remove("hidden")
+
                             document.body.classList.add("overflow-x-hidden");
-                            document.body.classList.remove("w-max");
                         }}
                     >
-                        <img className="cursor-zoom-out object-scale-down" src={"https://drive.google.com/uc?export=view&id=" + eventdata.data.event_guide} alt={"Guide picture"}></img>
+                        <img className="cursor-zoom-out md:w-screen md:h-full" src={"https://drive.google.com/uc?export=view&id=" + eventdata.data.event_guide} alt={"Guide picture"}></img>
                     </div></> : <></>}
 
                 {eventdata.data.chibi != null ? <>
