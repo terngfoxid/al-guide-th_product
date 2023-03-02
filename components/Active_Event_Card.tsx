@@ -75,35 +75,10 @@ export default function Active_Event_Card(ship: any) {
                 reward: "flex w-11/12 border border-gray-300 dark:border-gray-700 rounded-lg",
             }
         );
-
-        const ship_list = [];
+        
         let count = 0;
-        for (count = 0; count < eventdata.data.newship.length; count++) {
-            const buffer = count
-            ship_list.push(
-                <div className={"flex justify-center"}>
-                    <div className={card_style.button_style}>
-                        <div>
-                            <Link className={card_style.body_style} href={"/ship/" + eventdata.data.newship[buffer]}>
-                                <div className="flex justify-start items-center w-full">
-                                    <img src={"/images/type/" + eventdata.data.newship_type[buffer] + ".webp"} alt='type image' width="50" />
-                                    <div className="truncate inline-block rounded bg-neutral-400 dark:bg-neutral-600 w-full">
-                                        <p className="max-w-fit">&nbsp;{eventdata.data.newship[buffer]}</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    {eventdata.data.newship_chibi[buffer] != null ? <>
-                                        <div className="w-full flex justify-center items-center aspect-square md:aspect-video">
-                                            <img src={eventdata.data.newship_chibi[buffer]} alt='ship chibi image' />
-                                        </div></> : <></>
-                                    }
-                                </div>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            )
-        }
+
+        console.log(eventdata.data);
 
         const note_body = [];
 
@@ -165,6 +140,7 @@ export default function Active_Event_Card(ship: any) {
         }
 
         const quest_body = [];
+
         if (eventdata.data.quest.length > 0) {
             for (count = 0; count < eventdata.data.quest.length; count++) {
                 const buffer = count
@@ -184,7 +160,8 @@ export default function Active_Event_Card(ship: any) {
                         <div className={card_style.shape}>
                             <img className="object-scale-down rounded-lg" src={"https://drive.google.com/uc?export=view&id=" + eventdata.data.banner} alt={eventdata.data.banner + " picture"}></img>
                         </div>
-                    </div></div>
+                    </div>
+                </div>
 
                 {eventdata.data.newship.length != 0 ?
                     <>
@@ -196,11 +173,36 @@ export default function Active_Event_Card(ship: any) {
                                         <h1 className={card_style.title_style}>เรือใหม่</h1>
                                     </div>
                                     <div className="grid grid-cols-2 md:grid-cols-4 gap-y-2">
-                                        {ship_list}
+                                        {eventdata.data.newship.map((newship, idx) => {
+                                            return (
+                                                <div className={"flex justify-center"}>
+                                                    <div className={card_style.button_style}>
+                                                        <div>
+                                                            <Link className={card_style.body_style} href={"/ship/" + newship}>
+                                                                <div className="flex justify-start items-center w-full">
+                                                                    <img src={"/images/type/" + eventdata.data.newship_type[idx] + ".webp"} alt='type image' width="50" />
+                                                                    <div className="truncate inline-block rounded bg-neutral-400 dark:bg-neutral-600 w-full">
+                                                                        <p className="max-w-fit">&nbsp;{eventdata.data.newship[idx]}</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div>
+                                                                    {eventdata.data.newship_chibi[idx] != null ? <>
+                                                                        <div className="w-full flex justify-center items-center aspect-square md:aspect-video">
+                                                                            <img src={eventdata.data.newship_chibi[idx]} alt='ship chibi image' />
+                                                                        </div></> : <></>
+                                                                    }
+                                                                </div>
+                                                            </Link>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            )
+                                        })}
                                     </div>
-                                    <br></br>
+                                    <br/>
                                 </div>
-                            </div></div></> : <></>}
+                            </div>
+                            </div></> : <></>}
 
                 {(eventdata.data.quest.length != 0) ?
                     <><div id="shipdata5">
