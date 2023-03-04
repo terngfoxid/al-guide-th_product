@@ -3,7 +3,7 @@ import Loading from "./overlay/Loading";
 import Chibi from "./overlay/Chibi";
 import 'animate.css';
 import Link from "next/link";
-
+import Cut_String from "./functional/Cut_String";
 
 
 export default function Ship_Card(ship: any) {
@@ -228,7 +228,7 @@ export default function Ship_Card(ship: any) {
                                                         {(shipdata.data.aoa_note != null) ?
                                                             <>
                                                                 <div className="flex justify-center">
-                                                                    <p className={card_style.note_text}>{shipdata.data.aoa_note}</p>
+                                                                    <p className={card_style.note_text}><Cut_String text={shipdata.data.aoa_note}/></p>
                                                                 </div>
                                                             </> : <></>
                                                         }
@@ -248,7 +248,7 @@ export default function Ship_Card(ship: any) {
                                                         {(shipdata.data.guide_skill_1_note != null) ?
                                                             <>
                                                                 <div className="flex justify-center">
-                                                                    <p className={card_style.note_text}>{shipdata.data.guide_skill_1_note}</p>
+                                                                    <p className={card_style.note_text}><Cut_String text={shipdata.data.guide_skill_1_note}/></p>
                                                                 </div>
                                                             </> : <></>
                                                         }
@@ -268,7 +268,7 @@ export default function Ship_Card(ship: any) {
                                                         {(shipdata.data.guide_skill_2_note != null) ?
                                                             <>
                                                                 <div className="flex justify-center">
-                                                                    <p className={card_style.note_text}>{shipdata.data.guide_skill_2_note}</p>
+                                                                    <p className={card_style.note_text}><Cut_String text={shipdata.data.guide_skill_2_note}/></p>
                                                                 </div>
                                                             </> : <></>
                                                         }
@@ -288,7 +288,7 @@ export default function Ship_Card(ship: any) {
                                                         {(shipdata.data.guide_skill_3_note != null) ?
                                                             <>
                                                                 <div className="flex justify-center">
-                                                                    <p className={card_style.note_text}>{shipdata.data.guide_skill_3_note}</p>
+                                                                    <p className={card_style.note_text}><Cut_String text={shipdata.data.guide_skill_3_note}/></p>
                                                                 </div>
                                                             </> : <></>
                                                         }
@@ -301,7 +301,7 @@ export default function Ship_Card(ship: any) {
                                                         <br></br>
                                                         <p className="pb-4">Note</p>
                                                         <div className="flex justify-center">
-                                                            <p className={card_style.note_text}>{shipdata.data.ship_note}</p>
+                                                            <p className={card_style.note_text}><Cut_String text={shipdata.data.ship_note}/></p>
                                                         </div>
                                                     </> : <></>
                                             }
