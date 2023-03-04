@@ -52,7 +52,7 @@ export default function Footer() {
             className="px-1 py-1 mx-2 text-xs font-bold text-center duration-300 border border-transparent rounded bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-800 dark:hover:bg-neutral-600 hover:border-gray-400 dark:hover:border-gray-600 text-zinc-600 dark:text-zinc-400 hover:scale-110"
             onClick={() => (dark ? setMode("light") : setMode("dark"))}
           >
-            {dark ? "เข้าสู่โลกมืด" : "กลับสู่แสงสว่าง"}
+            {dark ? "กลับสู่แสงสว่าง" : "เข้าสู่โลกมืด"}
           </button>
           <button
             className="px-1 py-1 mx-2 text-xs font-bold text-center duration-300 border border-transparent rounded bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-800 dark:hover:bg-neutral-600 hover:border-gray-400 dark:hover:border-gray-600 text-zinc-600 dark:text-zinc-400 hover:scale-110"
