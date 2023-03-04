@@ -16,8 +16,12 @@ export default function Active_Event() {
       <Topbar />
 
       <main className="flex justify-center">
-        <div className="container p-5 md:max-w-[80%] xl:max-w-screen-xl">
-          <ActiveEventCard eventType="active_event" />
+        <div className="container py-4 mx-auto w-full">
+          <div className="flex justify-center">
+            <div className="w-11/12 lg:w-5/6">
+              <ActiveEventCard eventType="active_event" />
+            </div>
+          </div>
         </div>
       </main>
 
