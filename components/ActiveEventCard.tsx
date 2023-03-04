@@ -268,6 +268,7 @@ export default function ActiveEventCard(ship: any) {
                 element.classList.toggle("inset-0");
                 element.children[0].classList.toggle("h-full");
                 element.children[0].classList.toggle("w-max");
+                element.scrollIntoView();
               }}
             ></img>
           </div>
