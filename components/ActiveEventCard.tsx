@@ -203,7 +203,14 @@ export default function ActiveEventCard(props: { eventType: string }) {
             <div className="p-3 border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
               <div className="mb-3 text-center">
                 <h1 className="text-xl font-bold text-zinc-700 dark:text-zinc-300 md:text-2xl">
+                  {eventdata.data.event_type == null ? 
+                  <>
                   สรุปข้อมูลด่านน่าฟาร์มประจำ Event ใหม่
+                  </>
+                  :
+                  <>
+                  สรุปข้อมูลด่านน่าฟาร์มประจำ Event
+                  </>}
                 </h1>
 
                 {eventdata.data.event_name != null && (
