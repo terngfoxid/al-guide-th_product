@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Topbar from '../components/Topbar'
-import Active_Event_Card from '../components/Active_Event_Card'
+import ActiveEventCard from '../components/ActiveEventCard'
 import Footer from '../components/Footer'
 
 export default function Active_Event() {
@@ -17,7 +17,7 @@ export default function Active_Event() {
 
       <main className='flex justify-center'>
         <div id="zoom" className='w-full 2xl:max-w-7xl'>
-          <Active_Event_Card eventType="active_event_2"/>
+          <ActiveEventCard eventType="active_event_2"/>
           <br id="lastspace"></br>
         </div>
       </main>

@@ -12,6 +12,8 @@ export default function Loading() {
     );
 
     return (
+        <>
+        <br></br>
         <div className={loading_style.card_style}>
             <div className={loading_style.body_position}>
                 <div className={loading_style.symbol_style + " " + loading_style.body_position}>
@@ -25,5 +27,6 @@ export default function Loading() {
                 </div>
             </div>
         </div>
+        </>
     )
 }
