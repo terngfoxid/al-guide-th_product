@@ -19,7 +19,7 @@ export default function Active_Event() {
         <div className="container py-4 mx-auto w-full">
           <div className="flex justify-center">
             <div className="w-11/12 md:w-5/6">
-              <ActiveEventCard eventType="active_event" />
+              <ActiveEventCard eventType="active_event_2" />
             </div>
           </div>
         </div>
