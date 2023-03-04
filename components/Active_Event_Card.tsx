@@ -204,53 +204,50 @@ export default function Active_Event_Card(ship: any) {
             </div>
 
             <div className="p-5 border border-gray-300 rounded-lg dark:border-gray-700">
-              <div className="mb-5">
-                {eventdata.data.event_note_beginer.length > 0 && (
+              {eventdata.data.event_note_beginer.length > 0 && (
+                <div className="mb-5">
                   <p className="text-lg text-zinc-700 dark:text-zinc-300">
                     ◆ ด่านน่าฟาร์ม (ผู้เล่นใหม่)
                   </p>
-                )}
+                  {eventdata.data.event_note_beginer.map((note) => {
+                    return (
+                      <p className="py-1 text-zinc-700 dark:text-zinc-300">
+                        - {note}
+                      </p>
+                    );
+                  })}
+                </div>
+              )}
 
-                {eventdata.data.event_note_beginer.map((note) => {
-                  return (
-                    <p className="py-1 text-zinc-700 dark:text-zinc-300">
-                      - {note}
-                    </p>
-                  );
-                })}
-              </div>
-
-              <div className="mb-5">
-                {eventdata.data.event_note_midgame.length > 0 && (
+              {eventdata.data.event_note_midgame.length > 0 && (
+                <div className="mb-5">
                   <p className="text-lg text-zinc-700 dark:text-zinc-300">
                     ◆ ด่านน่าฟาร์ม (ผู้เล่นใหม่)
                   </p>
-                )}
+                  {eventdata.data.event_note_midgame.map((note) => {
+                    return (
+                      <p className="py-1 text-zinc-700 dark:text-zinc-300">
+                        - {note}
+                      </p>
+                    );
+                  })}
+                </div>
+              )}
 
-                {eventdata.data.event_note_midgame.map((note) => {
-                  return (
-                    <p className="py-1 text-zinc-700 dark:text-zinc-300">
-                      - {note}
-                    </p>
-                  );
-                })}
-              </div>
-
-              <div className="mb-5">
-                {eventdata.data.event_note_sum.length > 0 && (
+              {eventdata.data.event_note_sum.length > 0 && (
+                <div className="mb-5">
                   <p className="text-lg text-zinc-700 dark:text-zinc-300">
                     ◆ ด่านน่าฟาร์ม (ผู้เล่นใหม่)
                   </p>
-                )}
-
-                {eventdata.data.event_note_sum.map((note) => {
-                  return (
-                    <p className="py-1 text-zinc-700 dark:text-zinc-300">
-                      - {note}
-                    </p>
-                  );
-                })}
-              </div>
+                  {eventdata.data.event_note_sum.map((note) => {
+                    return (
+                      <p className="py-1 text-zinc-700 dark:text-zinc-300">
+                        - {note}
+                      </p>
+                    );
+                  })}
+                </div>
+              )}
             </div>
           </div>
         </div>
