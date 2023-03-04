@@ -4,7 +4,7 @@ import Loading from "./overlay/Loading";
 import ChibiEvent from "./overlay/Chibi_Event";
 import "animate.css";
 
-export default function Active_Event_Card(ship: any) {
+export default function ActiveEventCard(ship: any) {
   const [eventdata, setEventdata] = useState({
     data: {
       banner: null,

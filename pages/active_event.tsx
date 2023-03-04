@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Topbar from "../components/Topbar";
-import ActiveEventCard from "../components/Active_Event_Card";
+import ActiveEventCard from "../components/ActiveEventCard";
 import Footer from "../components/Footer";
 
 export default function Active_Event() {
