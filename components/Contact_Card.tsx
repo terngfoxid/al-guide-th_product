@@ -23,7 +23,7 @@ export default function Contact_Card (){
             <p className="py-1">History Translator: <Link legacyBehavior href="javascript:void(0);" ><a className="cursor-default px-2 rounded ">MR.T</a></Link></p>
             <p className="py-1">Admin: <Link legacyBehavior href="javascript:void(0);" ><a className="cursor-default px-2 rounded ">EX:SELRENS</a></Link></p>
             <br></br>
-            <p>Cr. Review Ship: <Link legacyBehavior href="https://www.youtube.com/@PGolfSucrim"><a target="_blank" className="px-2 rounded hover:bg-neutral-300 dark:hover:bg-neutral-700">P'GolfSucrim</a></Link></p>
+            <p>Cr. Review Ship: <Link legacyBehavior href="https://www.youtube.com/@PGolfSucrim"><a target="_blank" className="px-2 rounded hover:bg-neutral-300 dark:hover:bg-neutral-700">P&apos;GolfSucrim</a></Link></p>
             <br></br>
             <p>Web Programmer: <Link legacyBehavior href="https://www.youtube.com/@SSTfoxide"><a target="_blank" className="px-2 rounded hover:bg-neutral-300 dark:hover:bg-neutral-700">SSTfoxide</a></Link></p>
             <br></br>

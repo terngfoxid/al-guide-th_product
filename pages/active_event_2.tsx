@@ -7,8 +7,8 @@ export default function Active_Event() {
   return (
     <>
       <Head>
-        <title>Active Event</title>
-        <meta name="description" content="active event page" />
+        <title>Rerun / War Archives</title>
+        <meta name="description" content="active event 2 page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
 
@@ -17,7 +17,7 @@ export default function Active_Event() {
 
       <main className='flex justify-center'>
         <div id="zoom" className='w-full 2xl:max-w-7xl'>
-          <Active_Event_Card eventType="active_event"/>
+          <Active_Event_Card eventType="active_event_2"/>
           <br id="lastspace"></br>
         </div>
       </main>

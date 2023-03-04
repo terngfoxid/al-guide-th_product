@@ -9,6 +9,7 @@ import B_Ship_Card from '../components/button/B_Ship_Card'
 import B_Indev_Card from '../components/button/B_Indev_Card'
 import B_Event_Card from '../components/button/B_Event_Card'
 import B_Meaw_Card from '../components/button/B_Meaw_Card'
+import B_Event_2_Card from '../components/button/B_Event_2_Card'
 
 export default function Home() {
   return (
@@ -57,7 +58,7 @@ export default function Home() {
                 </div>
                 <br className='block md:hidden'></br>
                 <div className='flex justify-center md:justify-end'>
-                  <B_Indev_Card />
+                  <B_Event_2_Card />
                 </div>
               </div>
             </div>
