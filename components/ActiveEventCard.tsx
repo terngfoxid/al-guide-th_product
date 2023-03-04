@@ -255,9 +255,9 @@ export default function ActiveEventCard(ship: any) {
 
       {eventdata.data.event_guide != null && (
         <div id="guide">
-          <div className="border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
+          <div className="overflow-hidden border border-gray-300 rounded-lg shadow-md cursor-zoom-in bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
             <img
-              className="object-scale-down rounded-lg cursor-zoom-in"
+              className="object-scale-down"
               src={`https://drive.google.com/uc?export=view&id=${eventdata.data.event_guide}`}
               alt={`${eventdata.data.banner} picture`}
               onClick={() => {
@@ -266,8 +266,12 @@ export default function ActiveEventCard(ship: any) {
                 element.classList.toggle("overflow-scroll");
                 element.classList.toggle("fixed");
                 element.classList.toggle("inset-0");
+                element.children[0].classList.toggle("overflow-hidden");
+                element.children[0].classList.toggle("rounded-lg");
                 element.children[0].classList.toggle("h-full");
                 element.children[0].classList.toggle("w-max");
+                element.children[0].classList.toggle("cursor-zoom-in");
+                element.children[0].classList.toggle("cursor-zoom-out");
                 element.scrollIntoView();
               }}
             ></img>
