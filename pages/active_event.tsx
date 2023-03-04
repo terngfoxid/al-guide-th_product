@@ -12,15 +12,15 @@ export default function Active_Event() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+
       <Topbar />
 
       <main className="flex justify-center">
-        <div className="container p-5 xl:max-w-screen-xl">
-        <ActiveEventCard eventType="active_event"/>
+        <div className="container p-5 md:max-w-[80%] xl:max-w-screen-xl">
+          <ActiveEventCard eventType="active_event" />
         </div>
       </main>
-      
+
       <Footer />
     </>
   );
