@@ -25,7 +25,8 @@ export default function Contact_Card (){
             <br></br>
             <p>Cr. Review Ship: <Link legacyBehavior href="https://www.youtube.com/@PGolfSucrim"><a target="_blank" className="px-2 rounded hover:bg-neutral-300 dark:hover:bg-neutral-700">P&apos;GolfSucrim</a></Link></p>
             <br></br>
-            <p>Web Programmer: <Link legacyBehavior href="https://www.youtube.com/@SSTfoxide"><a target="_blank" className="px-2 rounded hover:bg-neutral-300 dark:hover:bg-neutral-700">SSTfoxide</a></Link></p>
+            <p className="py-1">Main Web Programmer: <Link legacyBehavior href="https://www.youtube.com/@SSTfoxide"><a target="_blank" className="px-2 rounded hover:bg-neutral-300 dark:hover:bg-neutral-700">SSTfoxide</a></Link></p>
+            <p className="py-1">Refactor Programmer: <Link legacyBehavior href="javascript:void(0);" ><a className="cursor-default px-2 rounded ">Methapon2001</a></Link></p>
             <br></br>
             <p>Framework:  Next.js</p>
             <p>CSS:  Tailwind CSS + Animate.css</p>
