@@ -54,7 +54,7 @@ export default function Active_Event_Card(ship: any) {
   }
 
   return (
-    <div className="container flex flex-col gap-5 p-5 mx-auto">
+    <div className="flex flex-col gap-5">
       <div id="banner">
         <div className="border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
           <img
