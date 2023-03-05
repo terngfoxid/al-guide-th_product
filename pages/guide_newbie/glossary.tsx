@@ -75,7 +75,7 @@ export default function Home() {
                                     </button>
                                     <button
                                         className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
-                                        onClick={() => searchFunction("G") } disabled={true}
+                                        onClick={() => searchFunction("G")} disabled={true}
                                     >
                                         G
                                     </button>
@@ -93,7 +93,7 @@ export default function Home() {
                                     </button>
                                     <button
                                         className=' w-fullcursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
-                                        onClick={() => searchFunction("K") } disabled={true}
+                                        onClick={() => searchFunction("K")} disabled={true}
                                     >
                                         J
                                     </button>
@@ -123,7 +123,7 @@ export default function Home() {
                                     </button>
                                     <button
                                         className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
-                                        onClick={() => searchFunction("O") } disabled={true}
+                                        onClick={() => searchFunction("O")} disabled={true}
                                     >
                                         O
                                     </button>
@@ -228,6 +228,12 @@ export default function Home() {
                                         <p>ASW = Anti-Submarine Warfare</p>
                                         <p className='pl-3'>(อาวุธ) อุปกรณ์ต่อต้านเรือดำน้ำ</p>
                                         <p className='pl-3'>(status) ค่าต่อต้านเรือดำน้ำ</p>
+                                    </div>
+                                    <div id="AVI"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>AVI = Aviation</p>
+                                        <p className='pl-3'>(status) ค่าพลังต่อสู้ทางอากาศ(เครื่องบิน)</p>
                                     </div>
                                 </div>
                             </div>
@@ -399,6 +405,12 @@ export default function Home() {
                                         <p>FP = Firepower</p>
                                         <p className='pl-3'>(status) ค่าปืนใหญ่</p>
                                     </div>
+                                    <div id="FR"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>FR = Fire rate</p>
+                                        <p className='pl-3'>(ค่าคำนวณ) เวลาในการยิง 1 รอบ</p>
+                                    </div>
                                     <div id="Frontline"
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
                                     >
@@ -500,6 +512,12 @@ export default function Home() {
                                         <p>LB = Limit Break</p>
                                         <p className='pl-3'>(ในเกม) ปลดดาว</p>
                                     </div>
+                                    <div id="LCK"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>LCK = Luck</p>
+                                        <p className='pl-3'>(status) ค่าโชค/ดวง</p>
+                                    </div>
                                 </div>
                             </div>
 
@@ -577,6 +595,12 @@ export default function Home() {
                                     R
                                 </p>
                                 <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="RLD"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>RLD = Reload</p>
+                                        <p className='pl-3'>(status) ค่ารีโหลด</p>
+                                    </div>
                                     <div id="ROC"
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
                                     >
@@ -604,6 +628,12 @@ export default function Home() {
                                     >
                                         <p>SN = Soviet Navy</p>
                                         <p className='pl-3'>(ฝ่าย) กองทัพเรือโซเวียต</p>
+                                    </div>
+                                    <div id="SPD"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>SPD = Speed</p>
+                                        <p className='pl-3'>(status) ค่าความเร็ว</p>
                                     </div>
                                     <div id="SS"
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
