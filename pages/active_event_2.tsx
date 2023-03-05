@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Topbar from '../components/Topbar'
 import ActiveEventCard from '../components/ActiveEventCard'
 import Footer from '../components/Footer'
+import BackToTop from '../components/overlay/BackToTop'
 
 export default function Active_Event() {
   return (
@@ -24,6 +25,7 @@ export default function Active_Event() {
           </div>
         </div>
       </main>
+      <BackToTop />
       <Footer />
     </>
   )

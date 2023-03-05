@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import { useRouter } from 'next/router'
 import Loading from '../../components/overlay/Loading'
 import Faction_Ship_Card from '../../components/Faction_Ship_Card'
+import BackToTop from '../../components/overlay/BackToTop'
 
 export default function Ship() {
 
@@ -77,6 +78,7 @@ export default function Ship() {
                         <br></br>
                     </div>
                 </main>
+                <BackToTop />
                 <Footer />
             </>
         )

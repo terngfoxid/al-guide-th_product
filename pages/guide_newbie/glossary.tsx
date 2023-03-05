@@ -1,0 +1,688 @@
+import Head from 'next/head'
+import Topbar from '../../components/Topbar'
+import Footer from '../../components/Footer'
+import BackToTop from '../../components/overlay/BackToTop';
+import { useState } from 'react';
+
+export default function Home() {
+
+    const searchFunction = (id: string) => {
+        var access = document.getElementById(id)
+        if (access != null) {
+            access.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        return;
+    };
+
+    return (
+        <>
+            <Head>
+                <title>บทเรียน AL GuideTH</title>
+                <meta name="description" content="Webapp for azur lane TH comunity" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link rel="icon" href="/favicon.ico" />
+
+            </Head>
+            <Topbar />
+
+            <main className='flex justify-center'>
+                <div className='w-full 2xl:max-w-7xl'>
+                    <br></br>
+                    <div className='flex justify-center'>
+                        <div
+                            className='w-11/12 md:w-5/6 2xl:w-full px-5 py-2 bg-neutral-200 dark:bg-neutral-800 border border-gray-300 dark:border-gray-700 rounded-lg shadow-md'
+                        >
+                            <p className='text-zinc-600 dark:text-zinc-300 text-2xl md:text-2xl lg:text-3xl font-bold text-center p-2'>คำศัพท์/คำย่อ</p>
+                            <div className='p-1 md:p-4 w-full rounded bg-neutral-300 dark:bg-neutral-700'>
+                                <p className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 text-center'>ค้นหาตามตัวอักษร</p>
+                                <div className='grid grid-cols-6 gap-x-2 md:grid-cols-9 md:gap-x-5 gap-y-2'>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("A")}
+                                    >
+                                        A
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("B")}
+                                    >
+                                        B
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("C")}
+                                    >
+                                        C
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("D")}
+                                    >
+                                        D
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("E")}
+                                    >
+                                        E
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("F")}
+                                    >
+                                        F
+                                    </button>
+                                    <button
+                                        className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
+                                        onClick={() => searchFunction("G") } disabled={true}
+                                    >
+                                        G
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("H")}
+                                    >
+                                        H
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("I")}
+                                    >
+                                        I
+                                    </button>
+                                    <button
+                                        className=' w-fullcursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
+                                        onClick={() => searchFunction("K") } disabled={true}
+                                    >
+                                        J
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("K")}
+                                    >
+                                        K
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("L")}
+                                    >
+                                        L
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("M")}
+                                    >
+                                        M
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("N")}
+                                    >
+                                        N
+                                    </button>
+                                    <button
+                                        className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
+                                        onClick={() => searchFunction("O") } disabled={true}
+                                    >
+                                        O
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("P")}
+                                    >
+                                        P
+                                    </button>
+                                    <button
+                                        className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
+                                        onClick={() => searchFunction("Q")} disabled={true}
+                                    >
+                                        Q
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("R")}
+                                    >
+                                        R
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("S")}
+                                    >
+                                        S
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("T")}
+                                    >
+                                        T
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("U")}
+                                    >
+                                        U
+                                    </button>
+                                    <button
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        onClick={() => searchFunction("V")}
+                                    >
+                                        V
+                                    </button>
+                                    <button
+                                        className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
+                                        onClick={() => searchFunction("W")} disabled={true}
+                                    >
+                                        W
+                                    </button>
+                                    <button
+                                        className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
+                                        onClick={() => searchFunction("X")} disabled={true}
+                                    >
+                                        X
+                                    </button>
+                                    <button
+                                        className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
+                                        onClick={() => searchFunction("Y")} disabled={true}
+                                    >
+                                        Y
+                                    </button>
+                                    <button
+                                        className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
+                                        onClick={() => searchFunction("Z")} disabled={true}
+                                    >
+                                        Z
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="A">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    A
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="AA"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>AA = Anti-air</p>
+                                        <p className='pl-3'>(อาวุธ) ปืนต่อต้านอากาศยาน</p>
+                                        <p className='pl-3'>(status) ค่าต่อต้านอากาศยาน</p>
+                                    </div>
+                                    <div id="AP"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>AP = Armor Piercing</p>
+                                        <p className='pl-3'>(ประเภทกระสุน) กระสุนเจาะเกราะ</p>
+                                    </div>
+                                    <div id="AR"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>AR = Repair ship</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือซ่อมบำรุง</p>
+                                    </div>
+                                    <div id="ASW"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>ASW = Anti-Submarine Warfare</p>
+                                        <p className='pl-3'>(อาวุธ) อุปกรณ์ต่อต้านเรือดำน้ำ</p>
+                                        <p className='pl-3'>(status) ค่าต่อต้านเรือดำน้ำ</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="B">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    B
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="Backline"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Backline</p>
+                                        <p className='pl-3'>(ตำแหน่งเรือ) กองหลัง</p>
+                                    </div>
+                                    <div id="BB"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>BB = Battleship</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือประจัญบาน</p>
+                                    </div>
+                                    <div id="BBV"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>BBV = Aviation Battleship</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือประจัญบานบรรทุกเครื่องบิน</p>
+                                    </div>
+                                    <div id="BC"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>BC = Battlecruiser</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือประจัญบานลาดตระเวน</p>
+                                    </div>
+                                    <div id="BM"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>BM = Monitor</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือประจำชายฝั่ง</p>
+                                    </div>
+                                    <div id="BP"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>BP = Blueprints</p>
+                                        <p className='pl-3'>(ไอเท็ม) แปลนเรือรีโทรฟิต, แปลนเรือวิจัย </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="C">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    C
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="CA"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>CA = Heavy Cruiser</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือลาดตระเวนหนัก</p>
+                                    </div>
+                                    <div id="CB"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>CB = Large Cruiser</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือลาดตระเวนขนาดใหญ่</p>
+                                    </div>
+                                    <div id="CL"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>CL = Light Cruiser</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือลาดตระเวนเบา</p>
+                                    </div>
+                                    <div id="CV"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>CV = Aircraft Carrier</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือบรรทุกเครื่องบิน</p>
+                                    </div>
+                                    <div id="CVL"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>CVL = Light Aircraft Carrier</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือบรรทุกเครื่องบินเบา</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="D">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    D
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="DB"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>DB = Dive Bomber</p>
+                                        <p className='pl-3'>(อาวุธ) เครื่องบินดำดิ่งทิ้งระเบิด</p>
+                                    </div>
+                                    <div id="DD"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>DD = Destroyer</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือพิฆาต</p>
+                                    </div>
+                                    <div id="DDG"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>DDG = Guided-missile Destroyer</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือพิฆาตติดอาวุธปล่อยนำวิถี</p>
+                                    </div>
+                                    <div id="DPS"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>DPS = Damage-per-second</p>
+                                        <p className='pl-3'>(ค่าคำนวณ) ดาเมจเฉลี่ยต่อวินาที</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="E">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    E
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="EVA"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>EVA = Evasion</p>
+                                        <p className='pl-3'>(status) ค่าหลบหลีก</p>
+                                    </div>
+                                    <div id="Evasion Rate"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Evasion Rate</p>
+                                        <p className='pl-3'>(ค่าคำนวณ) โอกาศหลบหลีก มีหน่วยเป็น %</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="F">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    F
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="FFNF"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>FFNF = Free French Naval Forces</p>
+                                        <p className='pl-3'>(ฝ่าย) กองทัพฝรั่งเศสเสรี</p>
+                                    </div>
+                                    <div id="Flag Ship"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Flag Ship</p>
+                                        <p className='pl-3'>(ตำแหน่งเรือ) เรือธง</p>
+                                    </div>
+                                    <div id="FP"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>FP = Firepower</p>
+                                        <p className='pl-3'>(status) ค่าปืนใหญ่</p>
+                                    </div>
+                                    <div id="Frontline"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Frontline</p>
+                                        <p className='pl-3'>(ตำแหน่งเรือ) กองหน้า</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="H">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    H
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="HE"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>HE = High Explosive</p>
+                                        <p className='pl-3'>(ประเภทกระสุน) กระสุนระเบิดแรงสูง</p>
+                                    </div>
+                                    <div id="HIT"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>HIT = Accuracy</p>
+                                        <p className='pl-3'>(status) ค่าความแม่นยำ</p>
+                                    </div>
+                                    <div id="HP"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>HP = Health points</p>
+                                        <p className='pl-3'>(status) ค่าพลังชีวิต</p>
+                                    </div>
+                                    <div id="HMS"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>HMS = His/Her Majesty&apos;s Ship</p>
+                                        <p className='pl-3'>(ฝ่าย) เรือหลวงของกองทัพเรือสหราชอาณาจักร(อังกฤษ)</p>
+                                    </div>
+                                    <div id="Hull Class"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Hull Class</p>
+                                        <p className='pl-3'>ประเภทของตัวเรือ เช่น DD,CV</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="I">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    I
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="IJN"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>IJN = Imperial Japanese Navy</p>
+                                        <p className='pl-3'>(ฝ่าย) กองทัพเรือจักรวรรดิญี่ปุ่น</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="K">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    K
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="Kai"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Kai = 改</p>
+                                        <p className='pl-3'>(ความหมาย) ได้รับการอัพเกรด, ปรับปรุง</p>
+                                        <p className='pl-3'>(ในเกม) รีโทรฟิต Retrofit</p>
+                                    </div>
+                                    <div id="KMS"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>KMS = Kriegsmarine Schiffe</p>
+                                        <p className='pl-3'>(ฝ่าย) ครีคส์มารีเนอ กองทัพเรือของนาซีเยอรมนี</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="L">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    L
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="LB"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>LB = Limit Break</p>
+                                        <p className='pl-3'>(ในเกม) ปลดดาว</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="M">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    M
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="Main Fleet"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Main Fleet</p>
+                                        <p className='pl-3'>(ตำแหน่งเรือ) กองหลัง</p>
+                                        <p className='pl-3'>(สัญลักษณ์ศัตรู) กองเรือหลัก</p>
+                                    </div>
+                                    <div id="MG"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>MG = Main Gun</p>
+                                        <p className='pl-3'>(อาวุธ) ปืนหลัก</p>
+                                    </div>
+                                    <div id="MNF"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>MNF = Marine Nationale Forces</p>
+                                        <p className='pl-3'>(ฝ่าย) กองทัพเรือฝรั่งเศส(ในเกมหมายถึงเขตวีชี)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="N">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    N
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="Nation"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Nation</p>
+                                        <p className='pl-3'>ชาติ, ฝ่าย เช่น USS - Eagle Union (United States)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="P">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    P
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="PR"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>PR = Priority Research</p>
+                                        <p className='pl-3'>(ในเกม) ระบบวิจัย แบ่งเป็นซีรีย์ เช่น เรือPR1, ปืนPR1</p>
+                                    </div>
+                                    <div id="PRAN"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>PRAN = People&apos;s Liberation Army Navy</p>
+                                        <p className='pl-3'>(ฝ่าย) กองทัพปลดปล่อยประชาชน(จีน)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="R">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    R
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="ROC"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>ROC = Republic of China</p>
+                                        <p className='pl-3'>(ฝ่าย) สาธารณรัฐจีน(ไต้หวัน)</p>
+                                    </div>
+                                    <div id="RN"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>RN = Regia Nave, Royal Navy(Regia Marina)</p>
+                                        <p className='pl-3'>(ฝ่าย) กองทัพเรือของราชอาณาจักรอิตาลี</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="S">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    S
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="SN"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>SN = Soviet Navy</p>
+                                        <p className='pl-3'>(ฝ่าย) กองทัพเรือโซเวียต</p>
+                                    </div>
+                                    <div id="SS"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>SS = Submarine</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือดำน้ำ</p>
+                                    </div>
+                                    <div id="SSV"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>SSV = Submarine Aircraft Carrier</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือดำน้ำบรรทุกเครื่องบิน</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="T">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    T
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="TB"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>TB = Torpedo Bomber</p>
+                                        <p className='pl-3'>(อาวุธ) เครื่องบินทิ้งระเบิดตอร์ปิโด</p>
+                                        <p className='pl-3'>(ตัวละคร) หมายถึงน้อง TB อะแหล่ะ</p>
+                                    </div>
+                                    <div id="TRP"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Torp หรือ TRP = torpedo</p>
+                                        <p className='pl-3'>(status) ค่าตอร์ปิโด</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div id="U">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    U
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="USS"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>USS = United States Ship</p>
+                                        <p className='pl-3'>(ฝ่าย) กองทัพเรือสหรัฐ</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="V">
+                                <p
+                                    className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
+                                >
+                                    V
+                                </p>
+                                <div className='py-2 grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-3'>
+                                    <div id="Vanguard"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>Vanguard</p>
+                                        <p className='pl-3'>(ตำแหน่งเรือ) กองหน้า</p>
+                                        <p className='pl-3'>(สัญลักษณ์ศัตรู) กองเรือคุ้มกัน</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br></br>
+                </div>
+            </main>
+            <BackToTop />
+            <Footer />
+        </>
+    )
+}

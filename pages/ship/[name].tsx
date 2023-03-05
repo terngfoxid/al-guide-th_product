@@ -4,6 +4,7 @@ import Footer from '../../components/Footer'
 import Ship_Card from '../../components/Ship_Card'
 import { useRouter } from 'next/router'
 import Loading from '../../components/overlay/Loading'
+import BackToTop from '../../components/overlay/BackToTop'
 
 export default function Ship() {
     const router = useRouter()
@@ -30,6 +31,7 @@ export default function Ship() {
                         <br></br>
                     </div>
                 </main>
+                <BackToTop />
                 <Footer />
             </>
         );
