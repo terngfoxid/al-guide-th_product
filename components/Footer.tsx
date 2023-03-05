@@ -10,6 +10,10 @@ export default function Footer() {
       return setMode("dark");
     }
 
+    if (localStorage.getItem("Mode") == "light") {
+      return setMode("light");
+    }
+
     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       return setMode("dark");
     }
