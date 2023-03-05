@@ -38,37 +38,37 @@ export default function Home() {
                                 <p className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 text-center'>ค้นหาตามตัวอักษร</p>
                                 <div className='grid grid-cols-6 gap-x-2 md:grid-cols-9 md:gap-x-5 gap-y-2'>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("A")}
                                     >
                                         A
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("B")}
                                     >
                                         B
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("C")}
                                     >
                                         C
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("D")}
                                     >
                                         D
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("E")}
                                     >
                                         E
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("F")}
                                     >
                                         F
@@ -80,43 +80,43 @@ export default function Home() {
                                         G
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("H")}
                                     >
                                         H
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("I")}
                                     >
                                         I
                                     </button>
                                     <button
-                                        className=' w-fullcursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
+                                        className='w-full cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent '
                                         onClick={() => searchFunction("K")} disabled={true}
                                     >
                                         J
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("K")}
                                     >
                                         K
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("L")}
                                     >
                                         L
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("M")}
                                     >
                                         M
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("N")}
                                     >
                                         N
@@ -128,7 +128,7 @@ export default function Home() {
                                         O
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("P")}
                                     >
                                         P
@@ -140,31 +140,31 @@ export default function Home() {
                                         Q
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("R")}
                                     >
                                         R
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("S")}
                                     >
                                         S
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("T")}
                                     >
                                         T
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("U")}
                                     >
                                         U
                                     </button>
                                     <button
-                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-150 hover:bg-neutral-400 dark:hover:bg-neutral-600'
+                                        className='w-full bg-neutral-200 dark:bg-neutral-800 rounded text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl p-1 duration-300 border border-transparent hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600'
                                         onClick={() => searchFunction("V")}
                                     >
                                         V
