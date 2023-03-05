@@ -34,7 +34,7 @@ export default function Home() {
                             className='w-11/12 md:w-5/6 2xl:w-full px-5 py-2 bg-neutral-200 dark:bg-neutral-800 border border-gray-300 dark:border-gray-700 rounded-lg shadow-md'
                         >
                             <p className='text-zinc-600 dark:text-zinc-300 text-2xl md:text-2xl lg:text-3xl font-bold text-center p-2'>คำศัพท์/คำย่อ</p>
-                            <div className='p-1 md:p-4 w-full rounded bg-neutral-300 dark:bg-neutral-700'>
+                            <div className='mb-3 p-1 md:p-4 w-full rounded bg-neutral-300 dark:bg-neutral-700'>
                                 <p className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 text-center'>ค้นหาตามตัวอักษร</p>
                                 <div className='grid grid-cols-6 gap-x-2 md:grid-cols-9 md:gap-x-5 gap-y-2'>
                                     <button
