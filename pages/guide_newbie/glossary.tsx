@@ -455,7 +455,7 @@ export default function Home() {
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
                                     >
                                         <p>HMS = His/Her Majesty&apos;s Ship</p>
-                                        <p className='pl-3'>(ฝ่าย) เรือหลวงของกองทัพเรือสหราชอาณาจักร(อังกฤษ)</p>
+                                        <p className='pl-3'>(ฝ่าย) เรือหลวงราชนาวีสหราชอาณาจักร(อังกฤษ)</p>
                                     </div>
                                     <div id="Hull Class"
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
@@ -477,7 +477,7 @@ export default function Home() {
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
                                     >
                                         <p>IJN = Imperial Japanese Navy</p>
-                                        <p className='pl-3'>(ฝ่าย) กองทัพเรือจักรวรรดิญี่ปุ่น</p>
+                                        <p className='pl-3'>(ฝ่าย) จักรพรรดินาวีญี่ปุ่น</p>
                                     </div>
                                     <div id="IX"
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
@@ -506,7 +506,7 @@ export default function Home() {
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
                                     >
                                         <p>KMS = Kriegsmarine Schiffe</p>
-                                        <p className='pl-3'>(ฝ่าย) ครีคส์มารีเนอ กองทัพเรือของนาซีเยอรมนี</p>
+                                        <p className='pl-3'>(ฝ่าย) ครีคส์มารีเนอ กองทัพเรือนาซีเยอรมนี</p>
                                     </div>
                                 </div>
                             </div>
