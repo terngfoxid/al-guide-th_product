@@ -22,7 +22,7 @@ export default function Chibi_Event(chibi: any) {
     );
 
     return (
-        <div id="shipchibi" className={chibi_style.set_overlay}>
+        <div id="EventChibi" className={chibi_style.set_overlay}>
             <div className="flex justify-items-start animate__animated animate__fadeInUp animate__slow">
                 <div className="w-20 md:w-max">
                 <img 

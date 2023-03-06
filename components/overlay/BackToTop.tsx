@@ -35,7 +35,7 @@ export default function BackToTop() {
     );
 
     return (
-        <div className={btn_style.set_overlay}>
+        <div id="BTT" className={btn_style.set_overlay}>
             <button onClick={clickBTT} className={isVisible ? btn_style.btn_style + " " + 'block' : 'hidden'}
             >
                 <svg

@@ -336,6 +336,12 @@ export default function ActiveEventCard(props: { eventType: string }) {
                 element.children[0].classList.toggle("cursor-zoom-in");
                 element.children[0].classList.toggle("cursor-zoom-out");
                 element.scrollIntoView();
+
+                const chibi = document.getElementById("EventChibi")!;
+                chibi.classList.toggle("hidden");
+
+                const BTT = document.getElementById("BTT")!;
+                BTT.classList.toggle("hidden");
               }}
             ></img>
           </div>
