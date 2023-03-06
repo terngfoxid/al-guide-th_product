@@ -210,6 +210,12 @@ export default function Home() {
                                         <p className='pl-3'>(อาวุธ) ปืนต่อต้านอากาศยาน</p>
                                         <p className='pl-3'>(status) ค่าต่อต้านอากาศยาน</p>
                                     </div>
+                                    <div id="AE"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>AE = Munition ship</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือบรรทุกสรรพาวุธ</p>
+                                    </div>
                                     <div id="AP"
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
                                     >
@@ -237,7 +243,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="B">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -283,7 +289,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="C">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -323,7 +329,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="D">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -357,7 +363,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="E">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -379,7 +385,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="F">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -419,7 +425,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="H">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -459,7 +465,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="I">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -473,9 +479,15 @@ export default function Home() {
                                         <p>IJN = Imperial Japanese Navy</p>
                                         <p className='pl-3'>(ฝ่าย) กองทัพเรือจักรวรรดิญี่ปุ่น</p>
                                     </div>
+                                    <div id="IX"
+                                        className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
+                                    >
+                                        <p>IX = Frigate</p>
+                                        <p className='pl-3'>(ประเภทเรือ) เรือฟริเกต</p>
+                                    </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="K">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -498,7 +510,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="L">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -520,7 +532,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="M">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -549,7 +561,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="N">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -565,7 +577,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="P">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -587,7 +599,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="R">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -615,7 +627,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="S">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -644,12 +656,12 @@ export default function Home() {
                                     <div id="SSV"
                                         className="w-full h-full p-3 rounded bg-neutral-300 dark:bg-neutral-700 border border-gray-300 dark:border-gray-700 items-center duration-300 text-zinc-700 dark:text-zinc-200 text-base md:text-lg lg:text-xl"
                                     >
-                                        <p>SSV = Submarine Aircraft Carrier</p>
+                                        <p>SSV = Submarine carrier</p>
                                         <p className='pl-3'>(ประเภทเรือ) เรือดำน้ำบรรทุกเครื่องบิน</p>
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="T">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -673,7 +685,7 @@ export default function Home() {
 
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="U">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
@@ -689,7 +701,7 @@ export default function Home() {
                                     </div>
                                 </div>
                             </div>
-
+                            <div className="flex justify-center p-2"><div className="w-full border border-neutral-500 "></div></div>
                             <div id="V">
                                 <p
                                     className='text-zinc-600 dark:text-zinc-300 text-xl md:text-xl lg:text-2xl font-bold p-2 pl-5'
