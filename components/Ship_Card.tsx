@@ -469,7 +469,7 @@ export default function Ship_Card(ship: any) {
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
                               const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              sdGear != null && (sdGear.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
