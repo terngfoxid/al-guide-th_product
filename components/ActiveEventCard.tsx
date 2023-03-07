@@ -186,8 +186,7 @@ export default function ActiveEventCard(props: { eventType: string }) {
                     className="py-1 text-left text-zinc-700 dark:text-zinc-300"
                   >
                     <div className="flex">
-                      ▷
-                      <p className="px-2">{quest}</p>
+                      ▷<p className="px-2">{quest}</p>
                     </div>
                   </p>
                 );
@@ -201,121 +200,114 @@ export default function ActiveEventCard(props: { eventType: string }) {
         eventdata.data.event_note_midgame.length > 0 ||
         eventdata.data.event_note_sp.length > 0 ||
         eventdata.data.event_note_sum.length > 0) && (
-          <div id="note">
-            <div className="p-3 border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
-              <div className="mb-3 text-center">
-                <h1 className="text-xl font-bold text-zinc-700 dark:text-zinc-300 md:text-2xl">
-                  {eventdata.data.event_type == null ? 
-                  <>
-                  สรุปข้อมูลด่านน่าฟาร์มประจำ Event ใหม่
-                  </>
-                  :
-                  <>
-                  สรุปข้อมูลด่านน่าฟาร์มประจำ Event
-                  </>}
+        <div id="note">
+          <div className="p-3 border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
+            <div className="mb-3 text-center">
+              <h1 className="text-xl font-bold text-zinc-700 dark:text-zinc-300 md:text-2xl">
+                {eventdata.data.event_type == null ? (
+                  <>สรุปข้อมูลด่านน่าฟาร์มประจำ Event ใหม่</>
+                ) : (
+                  <>สรุปข้อมูลด่านน่าฟาร์มประจำ Event</>
+                )}
+              </h1>
+
+              {eventdata.data.event_name != null && (
+                <h1 className="py-1 text-lg font-bold text-zinc-700 dark:text-zinc-300 md:text-xl">
+                  {eventdata.data.event_name}
                 </h1>
+              )}
 
-                {eventdata.data.event_name != null && (
-                  <h1 className="py-1 text-lg font-bold text-zinc-700 dark:text-zinc-300 md:text-xl">
-                    {eventdata.data.event_name}
-                  </h1>
-                )}
+              {eventdata.data.event_time != null && (
+                <h1 className="py-1 font-bold text-zinc-700 dark:text-zinc-300 md:text-lg">
+                  {eventdata.data.event_time}
+                </h1>
+              )}
+            </div>
 
-                {eventdata.data.event_time != null && (
-                  <h1 className="py-1 font-bold text-zinc-700 dark:text-zinc-300 md:text-lg">
-                    {eventdata.data.event_time}
-                  </h1>
-                )}
-              </div>
+            <div className="p-5 border border-gray-300 rounded-lg dark:border-gray-700">
+              {eventdata.data.event_note_beginer.length > 0 && (
+                <div className="mb-5">
+                  <p className="text-lg text-zinc-700 dark:text-zinc-300">
+                    ◆ ด่านน่าฟาร์ม (ผู้เล่นใหม่)
+                  </p>
+                  {eventdata.data.event_note_beginer.map((note, idx) => {
+                    return (
+                      <p
+                        key={"note_b" + idx}
+                        className="py-1 text-zinc-700 dark:text-zinc-300"
+                      >
+                        <div className="flex pl-3">
+                          -<p className="px-2">{note}</p>
+                        </div>
+                      </p>
+                    );
+                  })}
+                </div>
+              )}
 
-              <div className="p-5 border border-gray-300 rounded-lg dark:border-gray-700">
-                {eventdata.data.event_note_beginer.length > 0 && (
-                  <div className="mb-5">
-                    <p className="text-lg text-zinc-700 dark:text-zinc-300">
-                      ◆ ด่านน่าฟาร์ม (ผู้เล่นใหม่)
-                    </p>
-                    {eventdata.data.event_note_beginer.map((note, idx) => {
-                      return (
-                        <p
-                          key={"note_b" + idx}
-                          className="py-1 text-zinc-700 dark:text-zinc-300"
-                        >
-                          <div className="flex pl-3">
-                            -
-                            <p className="px-2">{note}</p>
-                          </div>
-                        </p>
-                      );
-                    })}
-                  </div>
-                )}
+              {eventdata.data.event_note_midgame.length > 0 && (
+                <div className="mb-5">
+                  <p className="text-lg text-zinc-700 dark:text-zinc-300">
+                    ◆ ด่านน่าฟาร์ม (ผู้เล่นกลาง-เก่า)
+                  </p>
+                  {eventdata.data.event_note_midgame.map((note, idx) => {
+                    return (
+                      <p
+                        key={"note_m" + idx}
+                        className="py-1 text-zinc-700 dark:text-zinc-300"
+                      >
+                        <div className="flex pl-3">
+                          -<p className="px-2">{note}</p>
+                        </div>
+                      </p>
+                    );
+                  })}
+                </div>
+              )}
 
-                {eventdata.data.event_note_midgame.length > 0 && (
-                  <div className="mb-5">
-                    <p className="text-lg text-zinc-700 dark:text-zinc-300">
-                      ◆ ด่านน่าฟาร์ม (ผู้เล่นกลาง-เก่า)
-                    </p>
-                    {eventdata.data.event_note_midgame.map((note, idx) => {
-                      return (
-                        <p
-                          key={"note_m" + idx}
-                          className="py-1 text-zinc-700 dark:text-zinc-300"
-                        >
-                          <div className="flex pl-3">
-                            -
-                            <p className="px-2">{note}</p>
-                          </div>
-                        </p>
-                      );
-                    })}
-                  </div>
-                )}
+              {eventdata.data.event_note_sp.length > 0 && (
+                <div className="mb-5">
+                  <p className="text-lg text-zinc-700 dark:text-zinc-300">
+                    ◆ ด่านSP
+                  </p>
+                  {eventdata.data.event_note_sp.map((note, idx) => {
+                    return (
+                      <p
+                        key={"note_sp" + idx}
+                        className="py-1 text-zinc-700 dark:text-zinc-300"
+                      >
+                        <div className="flex pl-3">
+                          -<p className="px-2">{note}</p>
+                        </div>
+                      </p>
+                    );
+                  })}
+                </div>
+              )}
 
-                {eventdata.data.event_note_sp.length > 0 && (
-                  <div className="mb-5">
-                    <p className="text-lg text-zinc-700 dark:text-zinc-300">
-                      ◆ ด่านSP
-                    </p>
-                    {eventdata.data.event_note_sp.map((note, idx) => {
-                      return (
-                        <p
-                          key={"note_sp" + idx}
-                          className="py-1 text-zinc-700 dark:text-zinc-300"
-                        >
-                          <div className="flex pl-3">
-                            -
-                            <p className="px-2">{note}</p>
-                          </div>
-                        </p>
-                      );
-                    })}
-                  </div>
-                )}
-
-                {eventdata.data.event_note_sum.length > 0 && (
-                  <div>
-                    <p className="text-lg text-zinc-700 dark:text-zinc-300">
-                      ◆ สรุปง่ายๆสั้นๆ
-                    </p>
-                    {eventdata.data.event_note_sum.map((note, idx) => {
-                      return (
-                        <p
-                          key={"note_sum" + idx}
-                          className="py-1 text-zinc-700 dark:text-zinc-300"
-                        >
-                          <div className="flex pl-3">
-                            -
-                            <p className="px-2">{note}</p>
-                          </div>
-                        </p>
-                      );
-                    })}
-                  </div>
-                )}
-              </div>
+              {eventdata.data.event_note_sum.length > 0 && (
+                <div>
+                  <p className="text-lg text-zinc-700 dark:text-zinc-300">
+                    ◆ สรุปง่ายๆสั้นๆ
+                  </p>
+                  {eventdata.data.event_note_sum.map((note, idx) => {
+                    return (
+                      <p
+                        key={"note_sum" + idx}
+                        className="py-1 text-zinc-700 dark:text-zinc-300"
+                      >
+                        <div className="flex pl-3">
+                          -<p className="px-2">{note}</p>
+                        </div>
+                      </p>
+                    );
+                  })}
+                </div>
+              )}
             </div>
           </div>
-        )}
+        </div>
+      )}
 
       {eventdata.data.event_guide != null && (
         <div id="guide">
