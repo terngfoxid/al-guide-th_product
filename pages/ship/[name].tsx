@@ -30,7 +30,6 @@ export default function Ship() {
             <br></br>
           </div>
         </main>
-        <BackToTop />
         <Footer />
       </>
     );
@@ -51,6 +50,7 @@ export default function Ship() {
             <br id="lastspace"></br>
           </div>
         </main>
+        <BackToTop />
         <Footer />
       </>
     );

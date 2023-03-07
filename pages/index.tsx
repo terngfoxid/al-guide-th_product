@@ -11,6 +11,7 @@ import B_Event_Card from "../components/button/B_Event_Card";
 import B_Meaw_Card from "../components/button/B_Meaw_Card";
 import B_Event_2_Card from "../components/button/B_Event_2_Card";
 import ButtonGuideNewbie from "../components/button/ButtonGuideNewbie";
+import BackToTop from "../components/overlay/BackToTop";
 
 export default function Home() {
   return (
@@ -81,6 +82,7 @@ export default function Home() {
           <br></br>
         </div>
       </main>
+      <BackToTop />
       <Footer />
     </>
   );
