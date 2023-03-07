@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import Link from "next/link";
 import Loading from "./overlay/Loading";
 import ChibiEvent from "./overlay/Chibi_Event";
@@ -35,6 +35,8 @@ export default function ActiveEventCard(props: { eventType: string }) {
       special_frame_text2: null,
     },
   });
+
+  let elementRef = useRef<HTMLImageElement>(null);
 
   useEffect(() => {
     const load = async () => {
@@ -319,22 +321,36 @@ export default function ActiveEventCard(props: { eventType: string }) {
         <div id="guide">
           <div className="overflow-hidden border border-gray-300 rounded-lg shadow-md cursor-zoom-in bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
             <img
-              className="w-full"
               src={`https://drive.google.com/uc?export=view&id=${eventdata.data.event_guide}`}
               alt={`${eventdata.data.banner} picture`}
+              ref={elementRef}
               onClick={() => {
                 const element = document.getElementById("guide")!;
                 document.body.classList.toggle("overflow-hidden");
                 element.classList.toggle("overflow-scroll");
                 element.classList.toggle("fixed");
                 element.classList.toggle("inset-0");
-                element.children[0].classList.toggle("overflow-hidden");
-                element.children[0].classList.toggle("rounded-lg");
-                element.children[0].classList.toggle("w-screen");
-                element.children[0].classList.toggle("flex");
-                element.children[0].classList.toggle("justify-center");
-                element.children[0].classList.toggle("cursor-zoom-in");
-                element.children[0].classList.toggle("cursor-zoom-out");
+                [
+                  "overflow-hidden",
+                  "rounded-lg",
+                  "w-full",
+                  "h-full",
+                  "flex",
+                  "justify-center",
+                  "items-center",
+                  "cursor-zoom-in",
+                  "cursor-zoom-out",
+                ].map((classes) =>
+                  element.children[0].classList.toggle(classes),
+                );
+                const imgRatio =
+                  elementRef.current!.offsetWidth /
+                  elementRef.current!.offsetHeight;
+                const winRatio = window.innerWidth / window.innerHeight;
+
+                elementRef.current!.classList.toggle(
+                  imgRatio > winRatio ? "w-full" : "h-full",
+                );
                 element.scrollIntoView();
 
                 const chibi = document.getElementById("EventChibi")!;
