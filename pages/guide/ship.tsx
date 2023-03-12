@@ -2,12 +2,14 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import Topbar from "../../components/Topbar";
 import Footer from "../../components/Footer";
+import { Slide } from "../../components/Slide";
 
 type PageData = {
   name: string;
   description: string;
   ships: {
     name: string;
+    icon: string;
     image: string;
     description: string;
     type: string;
@@ -40,6 +42,7 @@ export default () => {
             typeof ship !== "object" ||
             ship === null ||
             typeof ship.name !== "string" ||
+            typeof ship.icon !== "string" ||
             typeof ship.image !== "string" ||
             typeof ship.description !== "string" ||
             typeof ship.type !== "string"
@@ -72,15 +75,6 @@ export default () => {
 
       <main className="flex justify-center">
         <div className="container p-4">
-          <div
-            className="flex items-center justify-center mb-4 rounded-lg shadow-lg bg-neutral-300 dark:bg-neutral-800"
-            style={{ aspectRatio: 6 / 1 }}
-          >
-            <h1 className="text-2xl text-black uppercase dark:text-white">
-              Banner
-            </h1>
-          </div>
-
           <div className="rounded-lg shadow-lg bg-neutral-300 dark:bg-neutral-800 text-zinc-600 dark:text-zinc-400">
             <div className="grid grid-cols-2 gap-4 p-4 md:grid-cols-3 lg:grid-cols-4">
               {pageData.length > 0 &&
@@ -106,7 +100,57 @@ export default () => {
                   pageData[recommend].description}
               </div>
             </div>
+
             <hr className="mx-4 my-2 border-neutral-400 dark:border-neutral-600" />
+
+            <div className="hidden p-4 sm:block">
+              {pageData.length > 0 && pageData.length >= recommend && (
+                <Slide key="slide-show">
+                  {pageData[recommend].ships.map((item, idx) => (
+                    <div
+                      className="aspect-[21/9] flex flex-row px-10 pb-6 overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]"
+                      style={{
+                        backgroundRepeat: "no-repeat",
+                        backgroundPosition: "center center",
+                        backgroundSize: "cover",
+                      }}
+                      key={idx}
+                    >
+                      <div className="z-40 flex items-center justify-center flex-shrink-0 aspect-square">
+                        <img
+                          src={item.image}
+                          key={item.image}
+                          className="scale-150 origin-[40%_40%] hidden md:block"
+                          alt=""
+                        />
+                        <div className="w-full h-full p-5 md:hidden">
+                          <img
+                            src={item.icon}
+                            key={item.icon}
+                            className="w-full h-full rounded-lg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div className="z-50 w-full h-full p-5">
+                        <div className="ิw-full h-full overflow-y-auto bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80 p-5 rounded-lg">
+                          <div className="flex items-center mb-5">
+                            <img
+                              className="inline h-8 mr-1 align-middle"
+                              src={`/images/type/${item.type}.webp`}
+                              alt={item.type}
+                            />
+                            <span className="text-xl md:text-4xl">{item.name}</span>
+                          </div>
+                          {item.description}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </Slide>
+              )}
+            </div>
+
             <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 xl:grid-cols-3">
               {pageData.length >= recommend + 1 &&
                 pageData[recommend].ships.map((item, idx) => (
@@ -116,8 +160,8 @@ export default () => {
                   >
                     <div className="col-span-2 md:col-span-1 ">
                       <img
-                        src={item.image}
-                        key={item.image}
+                        src={item.icon}
+                        key={item.icon}
                         alt={item.name}
                         className="w-full rounded-lg aspect-square bg-neutral-300 dark:bg-neutral-800"
                       />
