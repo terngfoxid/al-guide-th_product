@@ -58,7 +58,7 @@ export const Slide: React.FC<{
         )} / ${slides.length}`}</span>
       </div>
       <button
-        className="absolute top-0 bottom-0 left-0 p-2 transition text-zinc-600 dark:text-zinc-400 bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80 hover:bg-opacity-70 dark:hover:hover:bg-opacity-70"
+        className="absolute top-0 bottom-0 left-0 hidden p-2 transition sm:block text-zinc-600 dark:text-zinc-400 bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80 hover:bg-opacity-70 dark:hover:hover:bg-opacity-70"
         onClick={() =>
           setSlideIndex((current) =>
             current - 1 < 0 ? slides.length - 1 : current - 1,
@@ -81,7 +81,7 @@ export const Slide: React.FC<{
         </svg>
       </button>
       <button
-        className="absolute top-0 bottom-0 right-0 p-2 transition text-zinc-600 dark:text-zinc-400 bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80 hover:bg-opacity-70 dark:hover:hover:bg-opacity-70"
+        className="absolute top-0 bottom-0 right-0 hidden p-2 transition sm:block text-zinc-600 dark:text-zinc-400 bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80 hover:bg-opacity-70 dark:hover:hover:bg-opacity-70"
         onClick={() =>
           setSlideIndex((current) =>
             current + 1 > slides.length - 1 ? 0 : current + 1,
