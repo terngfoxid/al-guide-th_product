@@ -11,6 +11,7 @@ type PageData = {
     name: string;
     icon: string;
     image: string;
+    shipyard: string;
     description: string;
     type: string;
     link: string | undefined;
@@ -116,18 +117,18 @@ export default () => {
                       }}
                       key={idx}
                     >
-                      <div className="z-40 flex items-center justify-center flex-shrink-0 aspect-square">
+                      <div className="z-40 flex items-center justify-center flex-shrink-0 md:aspect-square">
                         <img
                           src={item.image}
                           key={item.image}
                           className="scale-150 origin-[40%_40%] hidden md:block"
                           alt=""
                         />
-                        <div className="w-full h-full p-5 md:hidden">
+                        <div className="w-full h-full p-5 pr-0 md:hidden">
                           <img
-                            src={item.icon}
-                            key={item.icon}
-                            className="w-full h-full rounded-lg"
+                            src={item.shipyard}
+                            key={item.shipyard}
+                            className="w-full h-full rounded-lg bg-neutral-200 dark:bg-neutral-900 !bg-opacity-80"
                             alt=""
                           />
                         </div>
@@ -140,7 +141,9 @@ export default () => {
                               src={`/images/type/${item.type}.webp`}
                               alt={item.type}
                             />
-                            <span className="text-xl md:text-4xl">{item.name}</span>
+                            <span className="text-xl md:text-4xl">
+                              {item.name}
+                            </span>
                           </div>
                           {item.description}
                         </div>
