@@ -11,6 +11,7 @@ type PageData = {
     name: string;
     icon: string;
     image: string;
+    banner: string;
     shipyard: string;
     description: string;
     type: string;
@@ -104,12 +105,12 @@ export default () => {
 
             <hr className="mx-4 my-2 border-neutral-400 dark:border-neutral-600" />
 
-            <div className="hidden p-4 sm:block">
+            <div className="p-4">
               {pageData.length > 0 && pageData.length >= recommend && (
                 <Slide key="slide-show">
                   {pageData[recommend].ships.map((item, idx) => (
                     <div
-                      className="aspect-[21/9] flex flex-row px-10 pb-6 overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]"
+                      className="sm:aspect-[21/9] sm:flex flex-row px-10 pb-8 overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]"
                       style={{
                         backgroundRepeat: "no-repeat",
                         backgroundPosition: "center center",
@@ -123,18 +124,29 @@ export default () => {
                           key={item.image}
                           className="scale-150 origin-[40%_40%] hidden md:block"
                           alt=""
+                          loading="lazy"
                         />
-                        <div className="w-full h-full p-5 pr-0 md:hidden">
+                        <div className="hidden w-full h-full p-2 pr-0 sm:block md:hidden">
                           <img
                             src={item.shipyard}
                             key={item.shipyard}
+                            loading="lazy"
+                            className="w-full h-full rounded-lg bg-neutral-200 dark:bg-neutral-900 !bg-opacity-80"
+                            alt=""
+                          />
+                        </div>
+                        <div className="w-full p-2 pb-0 sm:hidden">
+                          <img
+                            src={item.banner}
+                            key={item.banner}
+                            loading="lazy"
                             className="w-full h-full rounded-lg bg-neutral-200 dark:bg-neutral-900 !bg-opacity-80"
                             alt=""
                           />
                         </div>
                       </div>
-                      <div className="z-50 w-full h-full p-5">
-                        <div className="ิw-full h-full overflow-y-auto bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80 p-5 rounded-lg">
+                      <div className="z-50 w-full h-full p-2">
+                        <div className="w-full h-full p-5 overflow-y-auto rounded-lg bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80">
                           <div className="flex items-center mb-5">
                             <img
                               className="inline h-8 mr-1 align-middle"
