@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Head>
         <title>บทเรียน AL GuideTH</title>
-        <meta name="description" content="Webapp for azur lane TH comunity" />
+        <meta name="description" content="Learning center for azur lane TH comunity" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -22,7 +22,7 @@ export default function Home() {
               <p className="p-2 text-2xl font-bold text-center text-zinc-600 dark:text-zinc-300 md:text-2xl lg:text-3xl">
                 บทเรียนมือใหม่
               </p>
-              <div className="grid grid-cols-1 gap-10 py-2 md:grid-cols-2">
+              <div className="grid grid-cols-1 gap-x-10 gap-y-5 py-2 md:grid-cols-2">
                 <Link
                   className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   href="/guide_newbie/glossary"
@@ -30,9 +30,20 @@ export default function Home() {
                   บทเรียนที่ 1 คำศัพท์/คำย่อ
                 </Link>
 
-                <button className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl">
-                  บทเรียนที่ 2 (ไม่พร้อมใช้งาน)
-                </button>
+                <Link
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  href="/guide_newbie/basic_formation"
+                >
+                  บทเรียนที่ 2 ตำแหน่งของเรือในทีม
+                </Link>
+
+                <Link
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  href="/guide_newbie/#"
+                >
+                  บทเรียนที่ x (ไม่พร้อมใช้งาน)
+                </Link>
+
               </div>
             </div>
           </div>

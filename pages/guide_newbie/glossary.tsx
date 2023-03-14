@@ -2,7 +2,6 @@ import Head from "next/head";
 import Topbar from "../../components/Topbar";
 import Footer from "../../components/Footer";
 import BackToTop from "../../components/overlay/BackToTop";
-import { useState } from "react";
 
 export default function Home() {
   const searchFunction = (id: string) => {
@@ -17,8 +16,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>บทเรียน AL GuideTH</title>
-        <meta name="description" content="Webapp for azur lane TH comunity" />
+        <title>บทเรียนที่ 1 คำศัพท์/คำย่อ</title>
+        <meta name="description" content="Glossary" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
