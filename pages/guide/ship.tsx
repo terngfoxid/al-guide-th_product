@@ -19,7 +19,7 @@ type PageData = {
   }[];
 };
 
-export default () => {
+export default function ShipRec() {
   const [pageData, setPageData] = useState<PageData[]>([]);
 
   const [recommend, setRecommend] = useState<number>(0);
