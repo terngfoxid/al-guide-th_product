@@ -5,7 +5,7 @@ import BackToTop from "../../components/overlay/BackToTop";
 
 export default function Home() {
   const searchFunction = (id: string) => {
-    var access = document.getElementById(id);
+    let access = document.getElementById(id);
     if (access != null) {
       access.scrollIntoView({ behavior: "smooth" });
     }

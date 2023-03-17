@@ -209,7 +209,7 @@ export default function Faction_Ship_Card(faction: any) {
               (shipdata.data.data[buffer].name + "").toLowerCase() &&
             (type == shipdata.data.data[buffer].type || type == "All Type")
           ) {
-            var access = document.getElementById(
+            let access = document.getElementById(
               (shipdata.data.data[buffer].name + "").toLowerCase(),
             );
             if (access != null && move == false) {
@@ -252,7 +252,7 @@ export default function Faction_Ship_Card(faction: any) {
                   .includes(search.toLowerCase()) &&
                 (type == shipdata.data.data[buffer].type || type == "All Type")
               ) {
-                var access = document.getElementById(
+                let access = document.getElementById(
                   (shipdata.data.data[buffer].name + "").toLowerCase(),
                 );
                 if (access != null && move == false) {
