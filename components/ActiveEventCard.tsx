@@ -318,7 +318,6 @@ export default function ActiveEventCard(props: { eventType: string }) {
               ref={elementRef}
               onClick={() => {
                 const element = document.getElementById("guide")!;
-                document.body.classList.toggle("overflow-hidden");
                 element.classList.toggle("overflow-scroll");
                 element.classList.toggle("fixed");
                 element.classList.toggle("inset-0");

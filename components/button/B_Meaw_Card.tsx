@@ -14,11 +14,9 @@ export default function B_Meaw_Card() {
   return (
     <button className={card_style.shape}>
       <Link
-        href="https://www.youtube.com/watch?v=g71yGC8BT9I&list=PLV1EIHogeDOAK4lmtLxLr_-E0h2PcZ0Zn"
+        href="/meowfficer"
         className="w-full"
-        legacyBehavior
       >
-        <a target="_blank">
           <Image
             src={card_style.image_src}
             className={card_style.image_style}
@@ -26,7 +24,6 @@ export default function B_Meaw_Card() {
             width="600"
             height="300"
           />
-        </a>
       </Link>
     </button>
   );

@@ -154,7 +154,6 @@ export default function Ship_Card(ship: any) {
                             alt={shipdata.data.name + " picture"}
                             onClick={() => {
                               const element = document.getElementById("skill")!;
-                              document.body.classList.toggle("overflow-hidden");
                               element.classList.toggle("overflow-scroll");
                               element.classList.toggle("fixed");
                               element.classList.toggle("inset-0");
@@ -173,8 +172,8 @@ export default function Ship_Card(ship: any) {
                               const shipData3 = document.getElementById("shipdata3")!;
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
-                              const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              const shipData2 = document.getElementById("shipdata2")!;
+                              shipData2 != null && (shipData2.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -196,7 +195,6 @@ export default function Ship_Card(ship: any) {
                             alt={shipdata.data.name + " picture"}
                             onClick={() => {
                               const element = document.getElementById("re")!;
-                              document.body.classList.toggle("overflow-hidden");
                               element.classList.toggle("overflow-scroll");
                               element.classList.toggle("fixed");
                               element.classList.toggle("inset-0");
@@ -238,7 +236,6 @@ export default function Ship_Card(ship: any) {
                             alt={shipdata.data.name + " picture"}
                             onClick={() => {
                               const element = document.getElementById("fatesim")!;
-                              document.body.classList.toggle("overflow-hidden");
                               element.classList.toggle("overflow-scroll");
                               element.classList.toggle("fixed");
                               element.classList.toggle("inset-0");
@@ -449,7 +446,6 @@ export default function Ship_Card(ship: any) {
                             alt={shipdata.data.name + " picture"}
                             onClick={() => {
                               const element = document.getElementById("gear")!;
-                              document.body.classList.toggle("overflow-hidden");
                               element.classList.toggle("overflow-scroll");
                               element.classList.toggle("fixed");
                               element.classList.toggle("inset-0");
