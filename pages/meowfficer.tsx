@@ -31,48 +31,50 @@ export default function Contract() {
           </div>
           <div className="flex justify-center">
             <div className="w-11/12 md:w-5/6 2xl:w-full grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-x-10 pt-3">
-              <div className="rounded border border-gray-300 dark:border-gray-700 bg-neutral-200 dark:bg-neutral-800 shadow-xl">
-                <p className="p-2 text-zinc-700 dark:text-zinc-300 text-2xl font-bold text-center ">Playlist ไกด์แมว 2.0</p>
-                <div className="grid grid-cols-1 p-2 gap-2 px-5">
-                  <button
-                    className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
-                    onClick={() => {
-                      setVideo(1);
-                      move();
-                    }}
-                  >
-                    บทที่ 1 Slot Talent ตอนเกิด
-                  </button>
-                  <button
-                    className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
-                    onClick={() => {
-                      setVideo(2);
-                      move();
-                    }}
-                  >
-                    บทที่ 2 ตำแหน่ง คู่ และทีม
-                  </button>
-                  <button
-                    className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
-                    onClick={() => {
-                      setVideo(3);
-                      move();
-                    }}
-                  >
-                    บทที่ 3 Talent ตรงสาย
-                  </button>
-                  <button
-                    className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
-                    onClick={() => {
-                      setVideo(4);
-                      move();
-                    }}
-                  >
-                    บทที่ 4 เกิดแบบใหนน่าไปต่อ(ยังไม่มา)
-                  </button>
+              <div className="flex justify-center items-center rounded border border-gray-300 dark:border-gray-700 bg-neutral-200 dark:bg-neutral-800 shadow-xl ">
+                <div>
+                  <p className="p-2 text-zinc-700 dark:text-zinc-300 text-2xl font-bold text-center ">Playlist ไกด์แมว 2.0</p>
+                  <div className="grid grid-cols-1 p-2 gap-2 px-5">
+                    <button
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      onClick={() => {
+                        setVideo(1);
+                        move();
+                      }}
+                    >
+                      บทที่ 1 Slot Talent ตอนเกิด
+                    </button>
+                    <button
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      onClick={() => {
+                        setVideo(2);
+                        move();
+                      }}
+                    >
+                      บทที่ 2 ตำแหน่ง คู่ และทีม
+                    </button>
+                    <button
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      onClick={() => {
+                        setVideo(3);
+                        move();
+                      }}
+                    >
+                      บทที่ 3 Talent ตรงสาย
+                    </button>
+                    <button
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      onClick={() => {
+                        setVideo(4);
+                        move();
+                      }}
+                    >
+                      บทที่ 4 เกิดแบบใหนน่าไปต่อ(ยังไม่มา)
+                    </button>
+                  </div>
                 </div>
               </div>
-              <div id="VideoPlayer" className="rounded border border-gray-300 dark:border-gray-700 bg-neutral-200 dark:bg-neutral-800 shadow-xl overflow-hidden">
+              <div id="VideoPlayer" className="flex justify-center items-center rounded border border-gray-300 dark:border-gray-700 bg-neutral-200 dark:bg-neutral-800 shadow-xl overflow-hidden">
                 {
                   (video == 1) &&
                   <iframe
