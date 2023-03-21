@@ -104,7 +104,7 @@ export default function Contract() {
           </div>
           <br></br>
           <div className="flex justify-center ">
-            <p className="px-3 pb-1 pt-3 w-max rounded-t-lg text-zinc-700 dark:text-zinc-300 text-xl md:text-3xl font-bold text-center border border-gray-300 dark:border-gray-700 bg-neutral-200 dark:bg-neutral-800">ตัวอย่างแมวที่รีเสร็จแล้วโดย Hori</p>
+            <p className="px-3 pb-1 pt-3 w-max rounded-t-lg text-zinc-700 dark:text-zinc-300 text-lg md:text-3xl font-bold text-center border border-gray-300 dark:border-gray-700 bg-neutral-200 dark:bg-neutral-800">ตัวอย่างแมวที่รีเสร็จแล้วโดย Hori</p>
           </div>
           <div className="flex justify-center">
             <div className="w-11/12 md:w-5/6 2xl:w-full">
@@ -116,6 +116,36 @@ export default function Contract() {
                   alt={`meaw picture`}
                   onClick={() => {
                     const element = document.getElementById("exampleHori")!;
+                    element.classList.toggle("overflow-scroll");
+                    element.classList.toggle("fixed");
+                    element.classList.toggle("inset-0");
+                    element.classList.toggle("cursor-zoom-in");
+                    element.classList.toggle("cursor-zoom-out");
+                    element.classList.toggle("bg-black");
+
+                    element.scrollIntoView();
+
+                    const BTT = document.getElementById("BTT")!;
+                    BTT.classList.toggle("hidden");
+                  }}
+                ></img>
+              </div>
+            </div>
+          </div>
+          <br></br>
+          <div className="flex justify-center ">
+            <p className="px-3 pb-1 pt-3 w-max rounded-t-lg text-zinc-700 dark:text-zinc-300 text-lg md:text-3xl font-bold text-center border border-gray-300 dark:border-gray-700 bg-neutral-200 dark:bg-neutral-800">ตัวอย่างแมวที่รีเสร็จแล้วโดย I&apos;m Boss</p>
+          </div>
+          <div className="flex justify-center">
+            <div className="w-11/12 md:w-5/6 2xl:w-full">
+              <div
+                id="exampleBoss"
+                className="w-full overflow-hidden border border-gray-300 rounded-lg shadow-md cursor-zoom-in bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
+                <img
+                  src="/images/meow2/example_boss.webp"
+                  alt={`meaw picture`}
+                  onClick={() => {
+                    const element = document.getElementById("exampleBoss")!;
                     element.classList.toggle("overflow-scroll");
                     element.classList.toggle("fixed");
                     element.classList.toggle("inset-0");
