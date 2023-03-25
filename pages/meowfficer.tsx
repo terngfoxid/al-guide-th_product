@@ -32,7 +32,7 @@ export default function Contract() {
           <div className="flex justify-center">
             <div className="w-11/12 md:w-5/6 2xl:w-full grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-x-10 pt-3">
               <div className="flex justify-center items-center rounded border border-gray-300 dark:border-gray-700 bg-neutral-200 dark:bg-neutral-800 shadow-xl ">
-                <div>
+                <div className="w-11/12">
                   <p className="p-2 text-zinc-700 dark:text-zinc-300 text-2xl font-bold text-center ">Playlist ไกด์แมว 2.0</p>
                   <div className="grid grid-cols-1 p-2 gap-2 px-5">
                     <button
@@ -69,7 +69,7 @@ export default function Contract() {
                         move();
                       }}
                     >
-                      บทที่ 4 เกิดแบบใหนน่าไปต่อ(ยังไม่มา)
+                      บทที่ 4 เกิดแบบใหน น่าไปต่อ
                     </button>
                   </div>
                 </div>
@@ -96,6 +96,14 @@ export default function Contract() {
                   <iframe
                     className="aspect-video w-full rounded"
                     src="https://www.youtube.com/embed/gk9o4WQc2Es"
+                    title="YouTube video player" allowFullScreen>
+                  </iframe>
+                }
+                {
+                  (video == 4) &&
+                  <iframe
+                    className="aspect-video w-full rounded"
+                    src="https://www.youtube.com/embed/9w4xEO-hZPU"
                     title="YouTube video player" allowFullScreen>
                   </iframe>
                 }
