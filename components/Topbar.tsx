@@ -57,9 +57,9 @@ export default function Topbar() {
                         href="/"
                         className="flex items-center h-full no-underline"
                       >
-                        <h2 className={topbar_style.appname_style}>
+                        <p className={topbar_style.appname_style}>
                           {"" + topbar_style.appname}
-                        </h2>
+                        </p>
                       </Link>
                       <div className="md:hidden">
                         <button

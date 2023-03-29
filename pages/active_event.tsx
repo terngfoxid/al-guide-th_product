@@ -3,17 +3,31 @@ import Topbar from "../components/Topbar";
 import ActiveEventCard from "../components/ActiveEventCard";
 import Footer from "../components/Footer";
 import BackToTop from "../components/overlay/BackToTop";
+import { NextSeo } from "next-seo";
 
 export default function Active_Event() {
   return (
     <>
-      <Head>
-        <title>Active Event</title>
-        <meta name="description" content="active event page" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+      <NextSeo
+        title="ข้อมูลกิจกรรม"
+        description="ข้อมูลกิจกรรม Azur Lane"
+        openGraph={{
+          url: 'al-guide-th.com/active_event',
+          title: 'ข้อมูลกิจกรรม',
+          description: 'หน้าข้อมูลกิจกรรม',
+          type: 'article',
+          article: {
+            tags: ['Azur Lane', 'ข้อมูลกิจกรรม', 'Event' , 'ของรางวัล'],
+          },
+          site_name: 'Azur Lane ข้อมูลกิจกรรม'
+        }}
+        additionalMetaTags={[
+          {
+            name: "keywords",
+            content: "azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ข้อมูลกิจกรรม,ข้อมูลอีเว้น azur lane,ข้อมูล event azur lane,ข้อมูลกิจกรรม azur lane,กิจกรรม,event,event azur lane"
+          }
+        ]}
+      />
       <Topbar />
 
       <main className="flex justify-center">

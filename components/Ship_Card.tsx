@@ -93,7 +93,7 @@ export default function Ship_Card(ship: any) {
       <div className={card_style.position}>
         <div className={card_style.shape}>
           <br></br>
-          <h1 className={card_style.title_style}>Error 404 Ship Not Found</h1>
+          <p className={card_style.title_style}>Error 404 Ship Not Found</p>
           <br></br>
           <div className={card_style.body_style}>
             <p>ไม่พบข้อมูลเรือ</p>

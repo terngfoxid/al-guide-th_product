@@ -2,10 +2,31 @@ import Head from "next/head";
 import Topbar from "../../components/Topbar";
 import Footer from "../../components/Footer";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
     <>
+      <NextSeo
+        title="บทเรียน AL Guide TH"
+        description="บทเรียน AL GuideTH"
+        openGraph={{
+          url: 'al-guide-th.com/guide_newbie',
+          title: 'บทเรียน AL GuideTH',
+          description: 'บทเรียน AL GuideTH',
+          type: 'article',
+          article: {
+            tags: ['Azur Lane', 'บทเรียน', 'สอนเล่น' , 'ผู้เล่นใหม่'],
+          },
+          site_name: 'Azur Lane บทเรียนผู้เล่นใหม่'
+        }}
+        additionalMetaTags={[
+          {
+            name: "keywords",
+            content: "azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,บทเรียน al guide th,เล่นใหม่,เล่นใหม่ azur lane"
+          }
+        ]}
+      />
       <Head>
         <title>บทเรียน AL GuideTH</title>
         <meta name="description" content="Learning center for azur lane TH comunity" />

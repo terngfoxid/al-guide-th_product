@@ -73,13 +73,13 @@ export default function ActiveEventCard(props: { eventType: string }) {
           <div className="p-3 border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
             <div className="mb-3 text-center">
               {eventdata.data.event_type == null ? (
-                <h1 className="text-xl font-bold text-zinc-700 dark:text-zinc-300 md:text-2xl">
+                <p className="text-xl font-bold text-zinc-700 dark:text-zinc-300 md:text-2xl">
                   เรือใหม่
-                </h1>
+                </p>
               ) : (
-                <h1 className="text-xl font-bold text-zinc-700 dark:text-zinc-300 md:text-2xl">
+                <p className="text-xl font-bold text-zinc-700 dark:text-zinc-300 md:text-2xl">
                   เรือในกิจกรรม
-                </h1>
+                </p>
               )}
             </div>
             <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
@@ -124,9 +124,9 @@ export default function ActiveEventCard(props: { eventType: string }) {
         <div id="quest">
           <div className="p-3 border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
             <div className="mb-3 text-center">
-              <h1 className="text-xl font-bold text-zinc-700 dark:text-zinc-300 md:text-2xl">
+              <p className="text-xl font-bold text-zinc-700 dark:text-zinc-300 md:text-2xl">
                 เควสและของรางวัล
-              </h1>
+              </p>
             </div>
             <div className="grid gap-3 mb-3 md:grid md:grid-cols-2">
               {eventdata.data.special_furniture != null && (
@@ -140,9 +140,9 @@ export default function ActiveEventCard(props: { eventType: string }) {
                   <div className="flex items-center justify-center flex-grow">
                     <div>
                       {eventdata.data.special_furniture_text && (
-                        <h1 className="py-1 font-bold text-left text-zinc-700 dark:text-zinc-300 md:text-lg">
+                        <p className="py-1 font-bold text-left text-zinc-700 dark:text-zinc-300 md:text-lg">
                           {eventdata.data.special_furniture_text}
-                        </h1>
+                        </p>
                       )}
                       {eventdata.data.special_furniture_text2 && (
                         <p className="py-1 text-left text-zinc-700 dark:text-zinc-300">
@@ -164,9 +164,9 @@ export default function ActiveEventCard(props: { eventType: string }) {
                   <div className="flex items-center justify-center flex-grow">
                     <div>
                       {eventdata.data.special_frame_text && (
-                        <h1 className="py-1 font-bold text-left text-zinc-700 dark:text-zinc-300 md:text-lg">
+                        <p className="py-1 font-bold text-left text-zinc-700 dark:text-zinc-300 md:text-lg">
                           {eventdata.data.special_frame_text}
-                        </h1>
+                        </p>
                       )}
                       {eventdata.data.special_frame_text2 && (
                         <p className="py-1 text-left text-zinc-700 dark:text-zinc-300">
@@ -212,15 +212,15 @@ export default function ActiveEventCard(props: { eventType: string }) {
               </h1>
 
               {eventdata.data.event_name != null && (
-                <h1 className="py-1 text-lg font-bold text-zinc-700 dark:text-zinc-300 md:text-xl">
+                <p className="py-1 text-lg font-bold text-zinc-700 dark:text-zinc-300 md:text-xl">
                   {eventdata.data.event_name}
-                </h1>
+                </p>
               )}
 
               {eventdata.data.event_time != null && (
-                <h1 className="py-1 font-bold text-zinc-700 dark:text-zinc-300 md:text-lg">
+                <p className="py-1 font-bold text-zinc-700 dark:text-zinc-300 md:text-lg">
                   {eventdata.data.event_time}
-                </h1>
+                </p>
               )}
             </div>
 

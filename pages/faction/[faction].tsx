@@ -15,7 +15,7 @@ export default function Ship() {
       <>
         <Head>
           <title>Loading..</title>
-          <meta name="description" content="Webapp for azur lane TH comunity" />
+          <meta name="description" content="Loading.." />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -53,7 +53,7 @@ export default function Ship() {
       <>
         <Head>
           <title>เรือฝ่าย&nbsp;{faction}</title>
-          <meta name="description" content="Webapp for azur lane TH comunity" />
+          <meta name="description" content={"เรือฝ่าย " + faction} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>

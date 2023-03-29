@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Topbar from "../components/Topbar";
 import Footer from "../components/Footer";
 
@@ -6,22 +5,26 @@ import Home_Card from "../components/Home_Card";
 import Panel_Card from "../components/Panel_Card";
 
 import B_Ship_Card from "../components/button/B_Ship_Card";
-import B_Indev_Card from "../components/button/B_Indev_Card";
 import B_Event_Card from "../components/button/B_Event_Card";
 import B_Meaw_Card from "../components/button/B_Meaw_Card";
 import B_Event_2_Card from "../components/button/B_Event_2_Card";
 import ButtonGuideNewbie from "../components/button/ButtonGuideNewbie";
 import BackToTop from "../components/overlay/BackToTop";
 
+import { NextSeo } from "next-seo";
+
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>หน้าหลัก AL GuideTH</title>
-        <meta name="description" content="Webapp for azur lane TH comunity" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <NextSeo
+        title="Azur Lane Guide TH"
+        description="Azur Lane Guide TH หน้าแรก"
+        openGraph={{
+          url: 'al-guide-th.com',
+          title: 'Azur Lane Guide TH',
+          description: 'Azur Lane Guide TH หน้าแรก',
+        }}
+      />
       <Topbar />
 
       <main className="flex justify-center">

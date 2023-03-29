@@ -18,13 +18,13 @@ export default function Home_Card() {
       <div className={card_style.shape}>
         <div className={card_style.subshape}>
           <br></br>
-          <h1 className={card_style.title_style}>
+          <div className={card_style.title_style}>
             <div className="md:flex md:justify-center md:items-center">
               <p>ยินดีต้อนรับเข้าสู่</p>
               <p className="hidden md:block">&nbsp;</p>
-              <p>Azur Lane Guide TH</p>
+              <h1>Azur Lane Guide TH</h1>
             </div>
-          </h1>
+          </div>
           <br className="hidden md:block"></br>
           <div className={card_style.body_style}>
             <div className="flex justify-center">

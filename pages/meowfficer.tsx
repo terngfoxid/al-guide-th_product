@@ -3,6 +3,7 @@ import Topbar from "../components/Topbar";
 import Footer from "../components/Footer";
 import BackToTop from "../components/overlay/BackToTop";
 import { useState } from "react";
+import { NextSeo } from "next-seo";
 
 export default function Contract() {
   const [video, setVideo] = useState(1);
@@ -15,12 +16,26 @@ export default function Contract() {
 
   return (
     <>
-      <Head>
-        <title>ไกด์แมว 2.0</title>
-        <meta name="description" content="Meowfficer thai guide" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <NextSeo
+        title="ไกด์แมว 2.0"
+        description="ไกด์สอนปั้นแมว Azur Lane"
+        openGraph={{
+          url: 'al-guide-th.com/meowfficer',
+          title: 'ไกด์แมว 2.0',
+          description: 'ไกด์สอนปั้นแมว Azur Lane',
+          type: 'article',
+          article: {
+            tags: ['Azur Lane', 'meowfficer', 'ไกด์แมว' , 'สอนปั้นแมว'],
+          },
+          site_name: 'Azur Lane ไกด์แมว 2.0'
+        }}
+        additionalMetaTags={[
+          {
+            name: "keywords",
+            content: "azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ข้อมูลแมว,ข้อมูลแมว azur lane,ไกด์แมว,ไกด์แมว azur lane,สอนทำแมว,สอนทำแมว azur lane,meowfficer,meowfficer azur lane"
+          }
+        ]}
+      />
       <Topbar />
 
       <main className="flex justify-center">

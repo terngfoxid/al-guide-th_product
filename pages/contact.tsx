@@ -7,10 +7,8 @@ export default function Contract() {
   return (
     <>
       <Head>
-        <title>Azur Lane Guide</title>
-        <meta name="description" content="contract page" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>ผู้จัดทำ</title>
+        <meta name="description" content="รายชื่อผู้จัดทำ" />
       </Head>
       <Topbar />
 

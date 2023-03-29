@@ -79,11 +79,11 @@ export default function Panel_Card() {
       <div>
         <div className={card_style.position}>
           <div className={card_style.shape}>
-            <h1 className={card_style.title_style}>
+            <div className={card_style.title_style}>
               <div className="md:flex md:justify-center md:items-center md:text-3xl">
                 <p>ประกาศ</p>
               </div>
-            </h1>
+            </div>
 
             <div className={card_style.body_style}>
               <div className="flex justify-center">
@@ -181,11 +181,11 @@ export default function Panel_Card() {
         <div>
           <div className={card_style.position}>
             <div className={card_style.shape}>
-              <h1 className={card_style.title_style}>
+              <div className={card_style.title_style}>
                 <div className="md:flex md:justify-center md:items-center md:text-3xl">
                   <p>ประกาศ</p>
                 </div>
-              </h1>
+              </div>
 
               <div className={card_style.body_style}>
                 <div className="flex justify-center">
@@ -327,11 +327,11 @@ export default function Panel_Card() {
         <div>
           <div className={card_style.position}>
             <div className={card_style.shape}>
-              <h1 className={card_style.title_style}>
+              <div className={card_style.title_style}>
                 <div className="md:flex md:justify-center md:items-center md:text-3xl">
                   <p>ประกาศ</p>
                 </div>
-              </h1>
+              </div>
 
               <div className={card_style.body_style}>
                 <div className="flex justify-center">
@@ -489,11 +489,11 @@ export default function Panel_Card() {
     <div>
       <div className={card_style.position}>
         <div className={card_style.shape}>
-          <h1 className={card_style.title_style}>
+          <div className={card_style.title_style}>
             <div className="md:flex md:justify-center md:items-center md:text-3xl">
               <p>ประกาศ</p>
             </div>
-          </h1>
+          </div>
 
           <div className={card_style.body_style}>
             <div className="flex justify-center">

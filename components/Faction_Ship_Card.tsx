@@ -45,10 +45,10 @@ export default function Faction_Ship_Card(faction: any) {
         <div className={card_style.position}>
           <div className={card_style.shape}>
             <br></br>
-            <h1 className={card_style.title_style}>
+            <p className={card_style.title_style}>
               <p>Error 404</p>
               <p>Ship in Faction Not Found</p>
-            </h1>
+            </p>
             <br></br>
             <div className={card_style.body_style}>
               <p>ไม่พบข้อมูลเรือ</p>
@@ -532,9 +532,9 @@ export default function Faction_Ship_Card(faction: any) {
           <div className={card_style.position}>
             <div className={card_style.shape}>
               <div className="flex justify-center">
-                <h1 className={card_style.title_style}>
+                <p className={card_style.title_style}>
                   เรือ {faction.faction}
-                </h1>
+                </p>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-y-2">
                 {ship_list}

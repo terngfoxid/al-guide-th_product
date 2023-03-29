@@ -20,10 +20,10 @@ export default function B_Indev_Card() {
           className={card_style.image_style}
           alt="button image"
         />
-        <h1 className={card_style.title_style}>
+        <p className={card_style.title_style}>
           <p>กำลัง</p>
           <p>พัฒนา</p>
-        </h1>
+        </p>
       </Link>
     </button>
   );

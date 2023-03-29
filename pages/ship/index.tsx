@@ -2,16 +2,27 @@ import Head from "next/head";
 import Topbar from "../../components/Topbar";
 import Footer from "../../components/Footer";
 import Find_Ship_Card from "../../components/Find_Ship_Card";
+import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>ค้นหาเรือ</title>
-        <meta name="description" content="Webapp for azur lane TH comunity" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <NextSeo
+        title="ค้นหาเรือด้วย Faction"
+        description="ค้นหาเรือด้วย Faction"
+        openGraph={{
+          url: 'al-guide-th.com/ship',
+          title: 'ค้นหาเรือด้วย Faction',
+          description: 'หน้าค้นหาเรือด้วย Faction',
+          site_name: 'Azur Lane ค้นหาเรือด้วย Faction'
+        }}
+        additionalMetaTags={[
+          {
+            name: "keywords",
+            content: "azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ข้อมูลเรือ,ข้อมูลเรือ azur lane,ข้อมูลเรือตามชาติ,faction,faction azur lane,faction ship,ค้นหาเรือ,ค้นหาเรือ azur lane,เรือ azur lane"
+          }
+        ]}
+      />
       <Topbar />
 
       <main className="flex justify-center">

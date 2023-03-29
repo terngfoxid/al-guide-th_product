@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>บทเรียนที่ 1 คำศัพท์/คำย่อ</title>
-        <meta name="description" content="Glossary" />
+        <meta name="description" content="คำศัพท์และคำย่อภายในเกม" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

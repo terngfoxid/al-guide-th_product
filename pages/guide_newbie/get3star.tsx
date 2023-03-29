@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <Head>
                 <title>บทเรียนที่ 3 การเก็บ 3☆</title>
-                <meta name="description" content="Get 3 Star" />
+                <meta name="description" content="วิธีเก็บ 3ดาว Azur Lane" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
@@ -23,7 +23,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 3/banner.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ 3 ดาว 1"
                                 ></img>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 3/0.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ 3 ดาว 2"
                                 ></img>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 3/1.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ 3 ดาว 3"
                                 ></img>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 3/2.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ 3 ดาว 4"
                                 ></img>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 3/3.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ 3 ดาว 5"
                                 ></img>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 3/4.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ 3 ดาว 6"
                                 ></img>
                             </div>
                         </div>

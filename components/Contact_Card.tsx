@@ -16,7 +16,7 @@ export default function Contact_Card() {
     <div className={card_style.position}>
       <div className={card_style.shape}>
         <br></br>
-        <h1 className={card_style.title_style}>{card_style.title}</h1>
+        <p className={card_style.title_style}>{card_style.title}</p>
         <br></br>
         <div className={card_style.body_style}>
           <p className="py-1">
@@ -32,13 +32,13 @@ export default function Contact_Card() {
           </p>
           <p className="py-1">
             History Translator:{" "}
-            <Link legacyBehavior href="javascript:void(0);">
+            <Link legacyBehavior href="/contact/#">
               <a className="px-2 rounded cursor-default ">MR.T</a>
             </Link>
           </p>
           <p className="py-1">
             Admin:{" "}
-            <Link legacyBehavior href="javascript:void(0);">
+            <Link legacyBehavior href="/contact/#">
               <a className="px-2 rounded cursor-default ">EX:SELRENS</a>
             </Link>
           </p>
@@ -68,7 +68,7 @@ export default function Contact_Card() {
           </p>
           <p className="py-1">
             Refactor Programmer:{" "}
-            <Link legacyBehavior href="javascript:void(0);">
+            <Link legacyBehavior href="/contact/#">
               <a className="px-2 rounded cursor-default ">Methapon2001</a>
             </Link>
           </p>

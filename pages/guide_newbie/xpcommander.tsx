@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <Head>
                 <title>บทเรียนที่ 4 การเก็บ Exp ผู้การ</title>
-                <meta name="description" content="Exp commander gain" />
+                <meta name="description" content="การเก็บเลเวลผู้การ Azur Lane" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
@@ -23,7 +23,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 4/banner.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ Exp ผู้การ 1"
                                 ></img>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 4/1.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ Exp ผู้การ 2"
                                 ></img>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 4/2.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ Exp ผู้การ 3"
                                 ></img>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 4/3.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ Exp ผู้การ 4"
                                 ></img>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 4/4.webp"
-                                    alt="learning banner picture"
+                                    alt="การเก็บ Exp ผู้การ 5"
                                 ></img>
                             </div>
                         </div>
