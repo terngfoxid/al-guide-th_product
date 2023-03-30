@@ -9,7 +9,7 @@ export default function Home() {
         <>
             <Head>
                 <title>บทเรียนที่ 2 ตำแหน่งของเรือในทีม</title>
-                <meta name="description" content="การจัดกองเรือ Azur Lane,สอนจัดกองเรือ" />
+                <meta name="description" content="การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
@@ -23,7 +23,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 2/banner.webp"
-                                    alt="ตำแหน่งของเรือในทีม 1"
+                                    alt="ตำแหน่งของเรือในทีม การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ 1"
                                 ></img>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 2/1.webp"
-                                    alt="ตำแหน่งของเรือในทีม 2"
+                                    alt="ตำแหน่งของเรือในทีม การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ 2"
                                 ></img>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 2/2.webp"
-                                    alt="ตำแหน่งของเรือในทีม 3"
+                                    alt="ตำแหน่งของเรือในทีม การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ 3"
                                 ></img>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 2/3.webp"
-                                    alt="ตำแหน่งของเรือในทีม 4"
+                                    alt="ตำแหน่งของเรือในทีม การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ 4"
                                 ></img>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 2/4.webp"
-                                    alt="ตำแหน่งของเรือในทีม 5"
+                                    alt="ตำแหน่งของเรือในทีม การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ 5"
                                 ></img>
                             </div>
                         </div>
@@ -68,7 +68,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 2/5.webp"
-                                    alt="ตำแหน่งของเรือในทีม 6"
+                                    alt="ตำแหน่งของเรือในทีม การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ 6"
                                 ></img>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ export default function Home() {
                                 <img
                                     className="w-full h-full"
                                     src="/images/learning/act 2/6.webp"
-                                    alt="ตำแหน่งของเรือในทีม 7"
+                                    alt="ตำแหน่งของเรือในทีม การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ 7"
                                 ></img>
                             </div>
                         </div>

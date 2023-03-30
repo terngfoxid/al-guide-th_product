@@ -79,7 +79,7 @@ export default function B_Event_2_Card() {
             eventdata.data.button
           }
           className={card_style.image_style}
-          alt="button image"
+          alt="ข้อมูลกิจกรรม"
           width="600"
           height="300"
         />

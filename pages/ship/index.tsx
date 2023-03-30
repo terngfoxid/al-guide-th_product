@@ -19,7 +19,7 @@ export default function Home() {
         additionalMetaTags={[
           {
             name: "keywords",
-            content: "azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ข้อมูลเรือ,ข้อมูลเรือ azur lane,ข้อมูลเรือตามชาติ,faction,faction azur lane,faction ship,ค้นหาเรือ,ค้นหาเรือ azur lane,เรือ azur lane"
+            content: "azur,lane,guide,th,ไกด์,ไทย,ภาษาไทย,เรือ,azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ข้อมูลเรือ,ข้อมูลเรือ azur lane,ข้อมูลเรือตามชาติ,faction,faction azur lane,faction ship,ค้นหาเรือ,ค้นหาเรือ azur lane,เรือ azur lane"
           }
         ]}
       />

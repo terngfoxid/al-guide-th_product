@@ -23,7 +23,7 @@ export default function Home() {
         additionalMetaTags={[
           {
             name: "keywords",
-            content: "azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,บทเรียน al guide th,เล่นใหม่,เล่นใหม่ azur lane"
+            content: "azur,lane,guide,th,ไกด์,ไทย,ภาษาไทย,สอนเล่น,เล่นใหม่,azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,บทเรียน al guide th,เล่นใหม่,เล่นใหม่ azur lane"
           }
         ]}
       />
@@ -40,43 +40,43 @@ export default function Home() {
           <br></br>
           <div className="flex justify-center">
             <div className="w-11/12 px-5 py-2 border border-gray-300 rounded-lg shadow-md md:w-5/6 2xl:w-full bg-neutral-200 dark:bg-neutral-800 dark:border-gray-700">
-              <p className="p-2 text-2xl font-bold text-center text-zinc-600 dark:text-zinc-300 md:text-2xl lg:text-3xl">
+              <h1 className="p-2 text-2xl font-bold text-center text-zinc-600 dark:text-zinc-300 md:text-2xl lg:text-3xl">
                 บทเรียนมือใหม่
-              </p>
+              </h1>
               <div className="grid grid-cols-1 gap-x-10 gap-y-5 py-2 md:grid-cols-2">
                 <Link
                   className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   href="/guide_newbie/glossary"
                 >
-                  บทเรียนที่ 1 คำศัพท์/คำย่อ
+                  <h2>บทเรียนที่ 1 คำศัพท์/คำย่อ</h2>
                 </Link>
 
                 <Link
                   className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   href="/guide_newbie/basic_formation"
                 >
-                  บทเรียนที่ 2 ตำแหน่งของเรือในทีม
+                  <h2>บทเรียนที่ 2 ตำแหน่งของเรือในทีม</h2>
                 </Link>
 
                 <Link
                   className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   href="/guide_newbie/get3star"
                 >
-                  บทเรียนที่ 3 การเก็บ 3☆
+                  <h2>บทเรียนที่ 3 การเก็บ 3☆</h2>
                 </Link>
 
                 <Link
                   className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   href="/guide_newbie/xpcommander"
                 >
-                  บทเรียนที่ 4 การเก็บ Exp ผู้การ
+                  <h2>บทเรียนที่ 4 การเก็บ Exp ผู้การ</h2>
                 </Link>
 
                 <Link
                   className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   href="/guide_newbie/#"
                 >
-                  บทเรียนที่ x (ไม่พร้อมใช้งาน)
+                  <h2>บทเรียนที่ x (ไม่พร้อมใช้งาน)</h2>
                 </Link>
 
               </div>

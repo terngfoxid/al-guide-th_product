@@ -20,7 +20,7 @@ export default function B_Meaw_Card() {
           <Image
             src={card_style.image_src}
             className={card_style.image_style}
-            alt="button image"
+            alt="ไกด์แมว"
             width="600"
             height="300"
           />

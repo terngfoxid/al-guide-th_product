@@ -17,7 +17,7 @@ export default function B_Ship_Card() {
         <Image
           src={card_style.image_src}
           className={card_style.image_style}
-          alt="button image"
+          alt="ข้อมูลเรือ"
           width="600"
           height="300"
         />

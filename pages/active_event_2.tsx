@@ -24,7 +24,7 @@ export default function Active_Event() {
         additionalMetaTags={[
           {
             name: "keywords",
-            content: "azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ข้อมูลกิจกรรม,ข้อมูลอีเว้น azur lane,ข้อมูล event azur lane,ข้อมูลกิจกรรม azur lane,กิจกรรม,event,event azur lane,rerun event azur lane,rerun,reren event,รีรัน,รีรันกิจกรรม,รีรันกิจกรรม azur lane"
+            content: "azur,lane,guide,th,ไกด์,ไทย,ภาษาไทย,azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ข้อมูลกิจกรรม,ข้อมูลอีเว้น azur lane,ข้อมูล event azur lane,ข้อมูลกิจกรรม azur lane,กิจกรรม,event,event azur lane,rerun event azur lane,rerun,reren event,รีรัน,รีรันกิจกรรม,รีรันกิจกรรม azur lane"
           }
         ]}
       />

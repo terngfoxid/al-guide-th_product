@@ -17,7 +17,7 @@ export default function ButtonGuideNewbie() {
         <Image
           src={card_style.image_src}
           className={card_style.image_style}
-          alt="button image"
+          alt="สอนเล่น azur lane , ไกด์ azur lane , เริ่มเล่น azur lane"
           width="600"
           height="300"
         />

@@ -1,7 +1,7 @@
 export default function Home_Card() {
   const card_style = {
     title_style:
-      "text-zinc-700 dark:text-zinc-200 text-2xl md:text-2xl lg:text-4xl font-bold text-center",
+      "text-zinc-700 dark:text-zinc-200 text-2xl md:text-2xl lg:text-3xl font-bold text-center",
 
     shape:
       "bg-cover bg-center bg-neutral-200 w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
@@ -19,31 +19,31 @@ export default function Home_Card() {
         <div className={card_style.subshape}>
           <br></br>
           <div className={card_style.title_style}>
-            <div className="md:flex md:justify-center md:items-center">
+            <div className="md:flex md:justify-center md:items-center gap-y-2 pb-2 md:pb-4">
               <p>ยินดีต้อนรับเข้าสู่</p>
               <p className="hidden md:block">&nbsp;</p>
               <h1>Azur Lane Guide TH</h1>
+              <p className="hidden md:block">&nbsp;</p>
+              <p className="text-xl md:text-xl lg:text-2xl">(อาซูร์เลนไกด์ภาษาไทย)</p>
             </div>
           </div>
-          <br className="hidden md:block"></br>
           <div className={card_style.body_style}>
             <div className="flex justify-center">
               <div className="w-11/12 md:w-11/12">
                 <div className="md:grid md:grid-cols-3">
                   <div className="space-y-1 md:col-span-2">
                     <p className="py-1 ">
-                      เว็บไซต์นี้จัดทำขึ้นเพื่อสนับสนุนผู้การเกม AzurLane ชาวไทย
+                      เว็บไซต์ที่จัดทำขึ้นเพื่อสนับสนุนผู้การเกม Azur Lane ชาวไทย
                     </p>
                     <p className="py-1 ">
-                      โดยจะประกอบไปด้วยการแปลเนื้อหาสกิลของสาวเรือภายในเกม
+                      โดยเนื้อหาจะประกอบไปด้วย ข้อมูลสกิลของสาวเรือแปลไทย
                     </p>
                     <p className="py-1 ">
-                      คำแนะนำและไกด์ในเรื่องต่างๆอย่าง เช่น
-                      เรื่องเกียร์สวมใส่แนะนำ{" "}
+                      ไกด์ และคำแนะนำในเรื่องต่างๆอย่าง เช่น
+                      เกียร์สวมใส่
                     </p>
                     <p className="py-1 ">
-                      นอกจากนี้ยังมีทั้งคลิปรีวิวเรือต่างๆ
-                      และประวัติของเรือบางลำ
+                      นอกจากนี้ยังมีทั้ง คลิปรีวิวเรือ และ ประวัติของเรือบางลำ
                     </p>
                     <p className="py-1 ">
                       เรียบเรียงมาให้ได้อ่านกันด้วยน๊าา \^-^/

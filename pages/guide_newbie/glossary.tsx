@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Head>
         <title>บทเรียนที่ 1 คำศัพท์/คำย่อ</title>
-        <meta name="description" content="คำศัพท์และคำย่อภายในเกม" />
+        <meta name="description" content="คำศัพท์และคำย่อภายในเกม Azur Lane" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -28,9 +28,9 @@ export default function Home() {
           <br></br>
           <div className="flex justify-center">
             <div className="w-11/12 px-5 py-2 border border-gray-300 rounded-lg shadow-md md:w-5/6 2xl:w-full bg-neutral-200 dark:bg-neutral-800 dark:border-gray-700">
-              <p className="p-2 text-2xl font-bold text-center text-zinc-600 dark:text-zinc-300 md:text-2xl lg:text-3xl">
+              <h1 className="p-2 text-2xl font-bold text-center text-zinc-600 dark:text-zinc-300 md:text-2xl lg:text-3xl">
                 คำศัพท์/คำย่อ
-              </p>
+              </h1>
               <div className="w-full p-1 mb-3 rounded md:p-4 bg-neutral-300 dark:bg-neutral-700">
                 <p className="p-2 text-xl font-bold text-center text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl">
                   ค้นหาตามตัวอักษร
