@@ -93,11 +93,11 @@ export default function ActiveEventCard() {
           </div>
         </div>
 
-        <div
-          id="ships"
-          className="border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800"
-        >
-          {activeEvent[activeIndex].ships?.length > 0 && (
+        {activeEvent[activeIndex].ships?.length > 0 && (
+          <div
+            id="ships"
+            className="border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800"
+          >
             <Slide>
               {activeEvent[activeIndex].ships.map((ship) => {
                 return (
@@ -107,7 +107,7 @@ export default function ActiveEventCard() {
                         <img
                           src={ship.image}
                           key={ship.image}
-                          className="z-40 scale-[2] sm:scale-150 object-cover sm:object-center aspect-video origin-[50%_25%] sm:origin-[40%_40%] flex-shrink-0 md:aspect-square md:block"
+                          className="z-40 scale-[2] sm:scale-150 object-cover sm:object-scale-down aspect-video origin-[50%_25%] sm:origin-[40%_40%] flex-shrink-0 md:aspect-square md:block"
                         />
                         <div className="z-50 h-full p-4">
                           <div className="w-full h-full p-4 overflow-y-auto rounded-lg aspect-square sm:aspect-auto bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80">
@@ -130,8 +130,8 @@ export default function ActiveEventCard() {
                 );
               })}
             </Slide>
-          )}
-        </div>
+          </div>
+        )}
 
         {activeEvent[activeIndex].quests && (
           <div
