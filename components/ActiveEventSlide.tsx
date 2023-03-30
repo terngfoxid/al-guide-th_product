@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import Loading from "./overlay/Loading";
 import { Slide } from "./Slide";
+import { ZoomableImage } from "./ZoomableImage";
 
 type ActiveEvent = {
   name: string;
@@ -107,7 +108,7 @@ export default function ActiveEventCard() {
                         <img
                           src={ship.image}
                           key={ship.image}
-                          className="z-40 scale-[2] sm:scale-150 object-cover sm:object-scale-down aspect-video origin-[50%_25%] sm:origin-[40%_40%] flex-shrink-0 md:aspect-square md:block"
+                          className="z-40 scale-[3] sm:scale-150 object-scale-down aspect-square origin-[50%_25%] sm:origin-[40%_40%] flex-shrink-0 md:aspect-square md:block"
                         />
                         <div className="z-50 h-full p-4">
                           <div className="w-full h-full p-4 overflow-y-auto rounded-lg aspect-square sm:aspect-auto bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80">
@@ -121,7 +122,7 @@ export default function ActiveEventCard() {
                                 {ship.name}
                               </span>
                             </div>
-                            {ship.desc}
+                            <p className="md:text-lg">{ship.desc}</p>
                           </div>
                         </div>
                       </div>
@@ -233,7 +234,13 @@ export default function ActiveEventCard() {
           </div>
         )}
 
-        {/* <div id="guide"></div> */}
+        {activeEvent[activeIndex].guide && (
+          <div id="guide" className="rounded-lg overflow-hidden shadow-md">
+            <ZoomableImage
+              src={`https://drive.google.com/uc?export=view&id=${activeEvent[activeIndex].guide}`}
+            />
+          </div>
+        )}
       </div>
     );
   }
