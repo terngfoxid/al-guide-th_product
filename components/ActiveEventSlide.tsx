@@ -106,7 +106,7 @@ export default function ActiveEventCard() {
             <Slide>
               {activeEvent[activeIndex].ships.map((ship) => {
                 return (
-                  <div className="sm:aspect-[21/9] sm:px-10 pb-8 bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]">
+                  <div key={"slide "+ship.name} className="sm:aspect-[21/9] sm:px-10 pb-8 bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]">
                     <Link href={`/ship/${ship.name}`}>
                       <div className="flex flex-col w-full h-full sm:flex-row">
                         <img
@@ -225,11 +225,11 @@ export default function ActiveEventCard() {
                 const note = activeEvent[activeIndex].note;
 
                 return (
-                  <div id={`note-${key}`}>
+                  <div key={"note-"+key} id={`note-${key}`}>
                     <h1 className="text-lg">{title}</h1>
 
                     {note[key as keyof typeof note].map((text) => (
-                      <p className="pl-8">- {text ?? "ไม่มีข้อมูล"}</p>
+                      <p key={"text"} className="pl-8">- {text ?? "ไม่มีข้อมูล"}</p>
                     ))}
                   </div>
                 );
