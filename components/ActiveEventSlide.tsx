@@ -37,7 +37,7 @@ type ActiveEvent = {
 }[];
 
 export default function ActiveEventCard() {
-  const [activeEvent, setActiveEvent] = useState<ActiveEvent>();
+  const [activeEvent, setActiveEvent] = useState<ActiveEvent | null>(null);
   const [activeIndex, setActiveIndex] = useState<number>(0);
 
   useEffect(() => {
