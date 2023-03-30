@@ -52,7 +52,11 @@ export default function ActiveEventCard() {
   }, []);
 
   if (!activeEvent) {
-    return <Loading />;
+    return (
+      <div className="flex items-center justify-center">
+        <Loading />
+      </div>
+    );
   } else {
     return (
       <div className="space-y-4 text-zinc-700 dark:text-zinc-300">
