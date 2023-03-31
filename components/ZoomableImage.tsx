@@ -64,10 +64,10 @@ export const ZoomableImage: React.FC<{
     <div
       ref={wrapper}
       className={
-        "bg-neutral-200 dark:bg-neutral-800 cursor-zoom-out " +
+        "bg-neutral-200 dark:bg-neutral-800 " +
         (active
-          ? "overflow-auto fixed inset-0 flex items-center justify-center z-[999]"
-          : "")
+          ? "cursor-zoom-out overflow-auto fixed inset-0 flex items-center justify-center z-[999]"
+          : "cursor-zoom-in")
       }
       onClick={handleClick}
     >
