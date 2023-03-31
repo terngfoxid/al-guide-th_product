@@ -72,9 +72,11 @@ export default function Ship_Card(ship: any) {
 
   if (shipdata.data.name == null && shipdata.data.error == null) {
     return (
+      <><br></br>
       <div className="flex justify-center">
         <Loading />
       </div>
+      </>
     );
   } else if (shipdata.data.error != null) {
     const buffername = ship.ship.replaceAll("_", " ").toLowerCase();
