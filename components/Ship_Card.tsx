@@ -331,7 +331,7 @@ export default function Ship_Card(ship: any) {
                         shipdata.data.guide_skill_6 != null ?
                         <>
                           <br></br>
-                          <p className="pb-0">Note Skill</p>
+                          <p className="pb-4">Note Skill</p>
                         </>
                         :
                         <></>
@@ -339,7 +339,6 @@ export default function Ship_Card(ship: any) {
 
                     {shipdata.data.guide_skill_1 != null ? (
                       <>
-                        <br></br>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
                             <img
@@ -362,6 +361,7 @@ export default function Ship_Card(ship: any) {
                         ) : (
                           <></>
                         )}
+                        <br></br>
                       </>
                     ) : (
                       <></>
@@ -369,7 +369,6 @@ export default function Ship_Card(ship: any) {
 
                     {shipdata.data.guide_skill_2 != null ? (
                       <>
-                        <br></br>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
                             <img
@@ -392,6 +391,7 @@ export default function Ship_Card(ship: any) {
                         ) : (
                           <></>
                         )}
+                      <br></br>
                       </>
                     ) : (
                       <></>
@@ -399,7 +399,6 @@ export default function Ship_Card(ship: any) {
 
                     {shipdata.data.guide_skill_3 != null ? (
                       <>
-                        <br></br>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
                             <img
@@ -422,6 +421,7 @@ export default function Ship_Card(ship: any) {
                         ) : (
                           <></>
                         )}
+                      <br></br>
                       </>
                     ) : (
                       <></>
@@ -429,7 +429,6 @@ export default function Ship_Card(ship: any) {
 
                     {shipdata.data.guide_skill_4 != null ? (
                       <>
-                        <br></br>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
                             <img
@@ -452,6 +451,7 @@ export default function Ship_Card(ship: any) {
                         ) : (
                           <></>
                         )}
+                      <br></br>
                       </>
                     ) : (
                       <></>
@@ -459,7 +459,6 @@ export default function Ship_Card(ship: any) {
 
                     {shipdata.data.guide_skill_5 != null ? (
                       <>
-                        <br></br>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
                             <img
@@ -482,6 +481,7 @@ export default function Ship_Card(ship: any) {
                         ) : (
                           <></>
                         )}
+                      <br></br>
                       </>
                     ) : (
                       <></>
@@ -489,7 +489,6 @@ export default function Ship_Card(ship: any) {
 
                     {shipdata.data.guide_skill_6 != null ? (
                       <>
-                        <br></br>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
                             <img
