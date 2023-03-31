@@ -170,7 +170,7 @@ export default function ActiveEventCard() {
                                   {ship.faction} {ship.name}
                                 </span>
                               </div>
-                              <div className="md:text-lg">
+                              <div className="md:text-lg space-y-4">
                                 <CutString text={ship.desc} />
                               </div>
                             </div>
