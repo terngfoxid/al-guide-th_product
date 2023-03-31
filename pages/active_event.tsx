@@ -12,7 +12,7 @@ export default function Active_Event() {
         title="ข้อมูลกิจกรรม"
         description="ข้อมูลกิจกรรม Azur Lane"
         openGraph={{
-          url: 'al-guide-th.com/active_event',
+          url: 'https://al-guide-th.com/active_event',
           title: 'ข้อมูลกิจกรรม',
           description: 'หน้าข้อมูลกิจกรรม',
           type: 'article',

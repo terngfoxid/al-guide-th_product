@@ -11,7 +11,7 @@ export default function Home() {
         title="บทเรียน AL Guide TH"
         description="บทเรียน AL GuideTH"
         openGraph={{
-          url: 'al-guide-th.com/guide_newbie',
+          url: 'https://al-guide-th.com/guide_newbie',
           title: 'บทเรียน AL GuideTH',
           description: 'บทเรียน AL GuideTH',
           type: 'article',

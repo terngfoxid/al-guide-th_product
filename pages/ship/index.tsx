@@ -11,7 +11,7 @@ export default function Home() {
         title="ค้นหาเรือด้วย Faction"
         description="ค้นหาเรือด้วย Faction"
         openGraph={{
-          url: 'al-guide-th.com/ship',
+          url: 'https://al-guide-th.com/ship',
           title: 'ค้นหาเรือด้วย Faction',
           description: 'หน้าค้นหาเรือด้วย Faction',
           site_name: 'Azur Lane ค้นหาเรือด้วย Faction'

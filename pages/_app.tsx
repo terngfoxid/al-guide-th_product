@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
         openGraph={{
           type: 'website',
           locale: 'th_TH',
-          url: 'al-guide-th.com',
+          url: 'https://al-guide-th.com',
           siteName: 'Azur Lane Guide TH',
         }}
         additionalLinkTags={[

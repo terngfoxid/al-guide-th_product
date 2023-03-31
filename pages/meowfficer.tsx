@@ -20,7 +20,7 @@ export default function Contract() {
         title="ไกด์แมว 2.0"
         description="ไกด์สอนปั้นแมว Azur Lane"
         openGraph={{
-          url: 'al-guide-th.com/meowfficer',
+          url: 'https://al-guide-th.com/meowfficer',
           title: 'ไกด์แมว 2.0',
           description: 'ไกด์สอนปั้นแมว Azur Lane',
           type: 'article',
