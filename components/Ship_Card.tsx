@@ -35,6 +35,15 @@ export default function Ship_Card(ship: any) {
       guide_skill_3: null,
       guide_skill_3_note: null,
 
+      guide_skill_4: null,
+      guide_skill_4_note: null,
+
+      guide_skill_5: null,
+      guide_skill_5_note: null,
+
+      guide_skill_6: null,
+      guide_skill_6_note: null,
+
       ship_note: null,
     },
   });
@@ -73,9 +82,9 @@ export default function Ship_Card(ship: any) {
   if (shipdata.data.name == null && shipdata.data.error == null) {
     return (
       <><br></br>
-      <div className="flex justify-center">
-        <Loading />
-      </div>
+        <div className="flex justify-center">
+          <Loading />
+        </div>
       </>
     );
   } else if (shipdata.data.error != null) {
@@ -93,19 +102,19 @@ export default function Ship_Card(ship: any) {
 
     return (
       <>
-      <br></br>
-      <div className={card_style.position}>
-        <div className={card_style.shape}>
-          <br></br>
-          <p className={card_style.title_style}>Error 404 Ship Not Found</p>
-          <br></br>
-          <div className={card_style.body_style}>
-            <p>ไม่พบข้อมูลเรือ</p>
-            <p>โปรดตรวจสอบชื่อของเรือในลิงค์</p>
+        <br></br>
+        <div className={card_style.position}>
+          <div className={card_style.shape}>
+            <br></br>
+            <p className={card_style.title_style}>Error 404 Ship Not Found</p>
+            <br></br>
+            <div className={card_style.body_style}>
+              <p>ไม่พบข้อมูลเรือ</p>
+              <p>โปรดตรวจสอบชื่อของเรือในลิงค์</p>
+            </div>
+            <br></br>
           </div>
-          <br></br>
         </div>
-      </div>
       </>
     );
   } else {
@@ -313,11 +322,24 @@ export default function Ship_Card(ship: any) {
                     ) : (
                       <></>
                     )}
+                    {
+                      shipdata.data.guide_skill_1 != null ||
+                        shipdata.data.guide_skill_2 != null ||
+                        shipdata.data.guide_skill_3 != null ||
+                        shipdata.data.guide_skill_4 != null ||
+                        shipdata.data.guide_skill_5 != null ||
+                        shipdata.data.guide_skill_6 != null ?
+                        <>
+                          <br></br>
+                          <p className="pb-0">Note Skill</p>
+                        </>
+                        :
+                        <></>
+                    }
 
                     {shipdata.data.guide_skill_1 != null ? (
                       <>
                         <br></br>
-                        <p className="pb-4">Note Skill 1</p>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
                             <img
@@ -348,7 +370,6 @@ export default function Ship_Card(ship: any) {
                     {shipdata.data.guide_skill_2 != null ? (
                       <>
                         <br></br>
-                        <p className="pb-4">Note Skill 2</p>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
                             <img
@@ -379,7 +400,6 @@ export default function Ship_Card(ship: any) {
                     {shipdata.data.guide_skill_3 != null ? (
                       <>
                         <br></br>
-                        <p className="pb-4">Note Skill 3</p>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
                             <img
@@ -395,6 +415,96 @@ export default function Ship_Card(ship: any) {
                               <p className={card_style.note_text}>
                                 <Cut_String
                                   text={shipdata.data.guide_skill_3_note}
+                                />
+                              </p>
+                            </div>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.guide_skill_4 != null ? (
+                      <>
+                        <br></br>
+                        <div className="flex justify-center pb-2">
+                          <div className="flex justify-center w-11/12">
+                            <img
+                              className=""
+                              src={shipdata.data.guide_skill_4}
+                              alt={shipdata.data.name + " skill 4 Guide"}
+                            ></img>
+                          </div>
+                        </div>
+                        {shipdata.data.guide_skill_4_note != null ? (
+                          <>
+                            <div className="flex justify-center">
+                              <p className={card_style.note_text}>
+                                <Cut_String
+                                  text={shipdata.data.guide_skill_4_note}
+                                />
+                              </p>
+                            </div>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.guide_skill_5 != null ? (
+                      <>
+                        <br></br>
+                        <div className="flex justify-center pb-2">
+                          <div className="flex justify-center w-11/12">
+                            <img
+                              className=""
+                              src={shipdata.data.guide_skill_5}
+                              alt={shipdata.data.name + " skill 5 Guide"}
+                            ></img>
+                          </div>
+                        </div>
+                        {shipdata.data.guide_skill_5_note != null ? (
+                          <>
+                            <div className="flex justify-center">
+                              <p className={card_style.note_text}>
+                                <Cut_String
+                                  text={shipdata.data.guide_skill_5_note}
+                                />
+                              </p>
+                            </div>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.guide_skill_6 != null ? (
+                      <>
+                        <br></br>
+                        <div className="flex justify-center pb-2">
+                          <div className="flex justify-center w-11/12">
+                            <img
+                              className=""
+                              src={shipdata.data.guide_skill_6}
+                              alt={shipdata.data.name + " skill 6 Guide"}
+                            ></img>
+                          </div>
+                        </div>
+                        {shipdata.data.guide_skill_6_note != null ? (
+                          <>
+                            <div className="flex justify-center">
+                              <p className={card_style.note_text}>
+                                <Cut_String
+                                  text={shipdata.data.guide_skill_6_note}
                                 />
                               </p>
                             </div>
