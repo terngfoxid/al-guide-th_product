@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Loading from "./overlay/Loading";
 import { Slide } from "./Slide";
 import { ZoomableImage } from "./ZoomableImage";
+import Cut_String from "./functional/Cut_String";
 
 type ActiveEvent = {
   name: string;
@@ -126,7 +127,7 @@ export default function ActiveEventCard() {
                                 {ship.name}
                               </span>
                             </div>
-                            <p className="md:text-lg">{ship.desc}</p>
+                            <div className="md:text-lg"><Cut_String text={ship.desc}/></div>
                           </div>
                         </div>
                       </div>

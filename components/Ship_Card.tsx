@@ -90,6 +90,8 @@ export default function Ship_Card(ship: any) {
     };
 
     return (
+      <>
+      <br></br>
       <div className={card_style.position}>
         <div className={card_style.shape}>
           <br></br>
@@ -102,6 +104,7 @@ export default function Ship_Card(ship: any) {
           <br></br>
         </div>
       </div>
+      </>
     );
   } else {
     const card_style = {
