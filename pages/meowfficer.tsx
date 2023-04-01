@@ -17,11 +17,11 @@ export default function Contract() {
   return (
     <>
       <NextSeo
-        title="ไกด์แมว 2.0"
+        title="ไกด์แมว | Azur Lane Guide TH"
         description="ไกด์สอนปั้นแมว Azur Lane"
         openGraph={{
           url: 'https://al-guide-th.com/meowfficer',
-          title: 'ไกด์แมว 2.0',
+          title: 'ไกด์แมว | Azur Lane Guide TH',
           description: 'ไกด์สอนปั้นแมว Azur Lane',
           type: 'article',
           article: {

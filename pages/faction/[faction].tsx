@@ -52,7 +52,7 @@ export default function Ship() {
     return (
       <>
         <Head>
-          <title>เรือฝ่าย&nbsp;{faction}</title>
+          <title>เรือฝ่าย&nbsp;{faction}&nbsp;| Azur Lane Guide TH</title>
           <meta name="description" content={"เรือฝ่าย " + faction} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />

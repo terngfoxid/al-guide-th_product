@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>บทเรียนที่ 1 คำศัพท์/คำย่อ</title>
+        <title>บทเรียนที่ 1 คำศัพท์/คำย่อ | Azur Lane Guide TH</title>
         <meta name="description" content="คำศัพท์และคำย่อภายในเกม Azur Lane" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

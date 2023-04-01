@@ -9,11 +9,11 @@ export default function Active_Event() {
   return (
     <>
       <NextSeo
-        title="ข้อมูลกิจกรรม"
+        title="ข้อมูลกิจกรรม | Azur Lane Guide TH"
         description="ข้อมูลกิจกรรม Azur Lane"
         openGraph={{
           url: 'https://al-guide-th.com/active_event',
-          title: 'ข้อมูลกิจกรรม',
+          title: 'ข้อมูลกิจกรรม | Azur Lane Guide TH',
           description: 'หน้าข้อมูลกิจกรรม',
           type: 'article',
           article: {

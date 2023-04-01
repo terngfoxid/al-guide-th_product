@@ -7,7 +7,7 @@ export default function Contract() {
   return (
     <>
       <Head>
-        <title>ผู้จัดทำ</title>
+        <title>ผู้จัดทำ | Azur Lane Guide TH</title>
         <meta name="description" content="รายชื่อผู้จัดทำ" />
       </Head>
       <Topbar />

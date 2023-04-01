@@ -8,17 +8,17 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="บทเรียน AL Guide TH"
-        description="บทเรียน AL GuideTH"
+        title="บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH"
+        description="บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH"
         openGraph={{
           url: 'https://al-guide-th.com/guide_newbie',
-          title: 'บทเรียน AL GuideTH',
-          description: 'บทเรียน AL GuideTH',
+          title: 'บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH',
+          description: 'บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH',
           type: 'article',
           article: {
             tags: ['Azur Lane', 'บทเรียน', 'สอนเล่น' , 'ผู้เล่นใหม่'],
           },
-          site_name: 'Azur Lane บทเรียนผู้เล่นใหม่'
+          site_name: 'บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH'
         }}
         additionalMetaTags={[
           {
@@ -27,12 +27,6 @@ export default function Home() {
           }
         ]}
       />
-      <Head>
-        <title>บทเรียน AL GuideTH</title>
-        <meta name="description" content="Learning center for azur lane TH comunity" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Topbar />
 
       <main className="flex justify-center">

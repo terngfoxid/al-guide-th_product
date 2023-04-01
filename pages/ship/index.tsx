@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="ค้นหาเรือด้วย Faction"
+        title="ค้นหาเรือด้วย Faction | Azur Lane Guide TH"
         description="ค้นหาเรือด้วย Faction"
         openGraph={{
           url: 'https://al-guide-th.com/ship',
-          title: 'ค้นหาเรือด้วย Faction',
+          title: 'ค้นหาเรือด้วย Faction | Azur Lane Guide TH',
           description: 'หน้าค้นหาเรือด้วย Faction',
           site_name: 'Azur Lane ค้นหาเรือด้วย Faction'
         }}

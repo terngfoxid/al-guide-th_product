@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>บทเรียนที่ 3 การเก็บ 3☆</title>
+                <title>บทเรียนที่ 3 การเก็บ 3 ดาว | Azur Lane Guide TH</title>
                 <meta name="description" content="วิธีเก็บ 3ดาว Azur Lane" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />

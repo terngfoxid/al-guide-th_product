@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <NextSeo
         title="Azur Lane Guide TH"
-        description="Azur Lane Guide for Thai's comunity"
+        description="Azur Lane Guide for Thai's comunity,เว็บไซต์ที่จัดทำขึ้นเพื่อนสนับสนุนชุมชนของผู้การเกม Azur Lane ชาวไทย"
         openGraph={{
           type: 'website',
           locale: 'th_TH',

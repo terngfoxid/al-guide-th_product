@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>บทเรียนที่ 2 ตำแหน่งของเรือในทีม</title>
+                <title>บทเรียนที่ 2 ตำแหน่งของเรือในทีม | Azur Lane Guide TH</title>
                 <meta name="description" content="การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />

@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>บทเรียนที่ 4 การเก็บ Exp ผู้การ</title>
+                <title>บทเรียนที่ 4 การเก็บ Exp ผู้การ | Azur Lane Guide TH</title>
                 <meta name="description" content="การเก็บเลเวลผู้การ Azur Lane" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
