@@ -14,8 +14,8 @@ export default function Ship() {
     return (
       <>
         <Head>
-          <title>Loading..</title>
-          <meta name="description" content="Loading.." />
+          <title>ข้อมูลของ {name} | Azur Lane Guide TH</title>
+          <meta name="description" content={"ข้อมูลของ " + name} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -37,7 +37,7 @@ export default function Ship() {
     return (
       <>
         <Head>
-          <title>ข้อมูลของ&nbsp;{name}&nbsp;| Azur Lane Guide TH</title>
+          <title>ข้อมูลของ {name} | Azur Lane Guide TH</title>
           <meta name="description" content={"ข้อมูลของ " + name} />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />

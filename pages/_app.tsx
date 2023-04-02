@@ -2,22 +2,9 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { Analytics } from "@vercel/analytics/react";
 import { NextSeo } from "next-seo";
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import Script from "next/script";
 
 export default function App({ Component, pageProps }: AppProps) {
-  const router = useRouter();
-  useEffect(() => {
-    const handleRouteChange = (url: any) => {
-      window.gtag('config', 'G-L4CJGVFV5D', {
-        page_path: url,
-      });
-    }
-    router.events.on('routeChangeComplete', handleRouteChange);
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-    }
-  }, [router.events]);
   return (
     <>
       <NextSeo
@@ -44,6 +31,20 @@ export default function App({ Component, pageProps }: AppProps) {
       />
       <Component {...pageProps} />
       <Analytics />
+      <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-L4CJGVFV5D"></Script>
+      <Script
+        strategy="lazyOnload"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-L4CJGVFV5D', {
+              page_path: window.location.pathname,
+            });
+          `,
+        }} />
     </>
   );
 }
