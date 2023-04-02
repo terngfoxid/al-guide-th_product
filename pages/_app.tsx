@@ -31,8 +31,8 @@ export default function App({ Component, pageProps }: AppProps) {
       />
       <Component {...pageProps} />
       <Analytics />
-      <Script strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-L4CJGVFV5D"></Script>
-      <Script
+      <Script id="callScript" strategy="lazyOnload" src="https://www.googletagmanager.com/gtag/js?id=G-L4CJGVFV5D"></Script>
+      <Script id="googleAnalytics"
         strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: `
