@@ -2,6 +2,7 @@
 
 # server production
 server.js
+.env.local
 
 # dependencies
 /node_modules
