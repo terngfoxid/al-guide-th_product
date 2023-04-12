@@ -68,6 +68,13 @@ export default function Home() {
 
                 <Link
                   className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  href="/guide_newbie/morale"
+                >
+                  <h2>บทเรียนที่ 5 ค่าอารมณ์</h2>
+                </Link>
+
+                <Link
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   href="/guide_newbie/#"
                 >
                   <h2>บทเรียนที่ x (ไม่พร้อมใช้งาน)</h2>
