@@ -534,8 +534,8 @@ export default function Home() {
                     id="IX"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
-                    <p>IX = Frigate</p>
-                    <p className="pl-3">(ประเภทเรือ) เรือฟริเกต</p>
+                    <p>IX = Unclassified, Miscellaneous</p>
+                    <p className="pl-3">(ประเภทเรือ) เรือที่ไม่ได้จัดประเภท หรือ เรือเบ็ดเตล็ด</p>
                   </div>
                 </div>
               </div>
