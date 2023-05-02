@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Loading from "./overlay/Loading";
 import { Slide } from "./Slide";
 import { ZoomableImage } from "./ZoomableImage";
-import CutString from "./functional/Cut_String";
+import Markdown from "markdown-to-jsx";
 
 type ActiveEvent = {
   name: string;
@@ -64,10 +64,10 @@ export default function ActiveEventCard() {
   useEffect(() => {
     setTimeout(() => {
       setChibiChatIndex((current) =>
-        current < chibiChatText.length - 1 ? ++current : 0,
+        current < chibiChatText.length - 1 ? ++current : 0
       );
     }, 15000);
-  }, [chibiChatIndex]);
+  }, [chibiChatIndex, chibiChatText.length]);
 
   if (!activeEvent) {
     return (
@@ -139,27 +139,29 @@ export default function ActiveEventCard() {
               />
             </div>
           </div>
+
           {activeEvent[activeIndex].ships?.length > 0 && (
             <div
-              id="ships"
-              className="border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800"
+              id="ships-slide"
+              className="border hidden md:block border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800"
             >
               <Slide>
                 {activeEvent[activeIndex].ships.map((ship) => {
                   return (
                     <div
-                      key={"slide " + ship.name}
-                      className="sm:aspect-[21/9] sm:px-10 pb-8 bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]"
+                      key={ship.name}
+                      className="aspect-[21/9] px-10 pb-8 bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]"
                     >
                       <Link href={`/ship/${ship.name}`}>
-                        <div className="flex flex-col w-full h-full sm:flex-row">
+                        <div className="flex w-full h-full flex-row">
                           <img
                             src={ship.image}
                             key={ship.image}
-                            className="z-10 scale-[3] sm:scale-150 object-scale-down aspect-square origin-[50%_25%] sm:origin-[40%_40%] flex-shrink-0 md:aspect-square md:block"
+                            alt={ship.image}
+                            className="z-40 object-scale-down aspect-square origin-[40%_40%] flex-shrink-0"
                           />
-                          <div className="z-20 h-full p-4">
-                            <div className="w-full h-full p-4 overflow-y-auto rounded-lg aspect-square sm:aspect-auto bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80">
+                          <div className="z-50 h-full p-4 w-full">
+                            <div className="w-full h-full p-4 overflow-y-auto rounded-lg bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80">
                               <div className="flex items-center mb-5">
                                 <img
                                   className="inline h-8 mr-1 align-middle"
@@ -170,9 +172,10 @@ export default function ActiveEventCard() {
                                   {ship.faction} {ship.name}
                                 </span>
                               </div>
-                              <div className="md:text-lg space-y-4">
-                                <CutString text={ship.desc} />
-                              </div>
+                              <Markdown options={{ wrapper: "article" }}>
+                                {ship.desc.replace(/\\n/g, "\n") ??
+                                  "ไม่มีข้อมูล"}
+                              </Markdown>
                             </div>
                           </div>
                         </div>
@@ -183,6 +186,52 @@ export default function ActiveEventCard() {
               </Slide>
             </div>
           )}
+
+          {activeEvent[activeIndex].ships?.length > 0 && (
+            <div
+              id="ships-chibi"
+              className="p-4 border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800"
+            >
+              <div className="mb-4 text-center">
+                <h1 className="text-xl text-zinc-700 dark:text-zinc-300 md:text-2xl">
+                  {activeEvent[activeIndex].type === "new"
+                    ? "เรือใหม่"
+                    : "เรือในกิจกรรม"}
+                </h1>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+                {activeEvent[activeIndex].ships.map((ship, idx) => {
+                  return (
+                    <div
+                      key={ship.name}
+                      className="overflow-hidden duration-300 border-2 border-transparent rounded-lg shadow bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-105 hover:border-cyan-400"
+                    >
+                      <Link
+                        className="text-zinc-700 dark:text-zinc-300"
+                        href={`/ship/${ship.name}`}
+                      >
+                        <div className="flex items-center justify-start w-full py-1 sm:px-2">
+                          <img
+                            src={`/images/type/${ship.type}.webp`}
+                            alt="ship type"
+                            className="w-[40px] sm:w-[50px]"
+                          />
+                          <div className="w-full px-1 truncate md:px-3 sm:rounded-r-lg bg-neutral-400 dark:bg-neutral-600">
+                            <p>{ship.name}</p>
+                          </div>
+                        </div>
+                        <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
+                          <img src={ship.chibi} alt="ship chibi image" />
+                        </div>
+                      </Link>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
           {activeEvent[activeIndex].quests && (
             <div
               id="quests"
