@@ -6,10 +6,12 @@ import Loading from "./overlay/Loading";
 import { Slide } from "./Slide";
 import { ZoomableImage } from "./ZoomableImage";
 import Markdown from "markdown-to-jsx";
+import { useRouter } from "next/router";
 
 type ActiveEvent = {
   name: string;
   type: "new" | "rerun";
+  button: string;
   banner: string;
   time: string;
   chibi: string;
@@ -17,6 +19,7 @@ type ActiveEvent = {
 
   ships: {
     faction: string;
+    faction_short: string;
     name: string;
     type: string;
     image: string;
@@ -41,6 +44,7 @@ type ActiveEvent = {
 }[];
 
 export default function ActiveEventCard() {
+  const router = useRouter();
   const [activeEvent, setActiveEvent] = useState<ActiveEvent | null>(null);
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [chibiChatIndex, setChibiChatIndex] = useState<number>(0);
@@ -70,6 +74,14 @@ export default function ActiveEventCard() {
     }, 15000);
   }, [chibiChatIndex, chibiChatText.length]);
 
+  useEffect(() => {
+    const idx = activeEvent?.findIndex(
+      (active) => active.name.replaceAll(" ", "_") === router.query.event
+    );
+
+    if (idx && idx !== -1) setActiveIndex(idx);
+  }, [activeEvent, router.query.event]);
+
   if (!activeEvent) {
     return (
       <div className="flex items-center justify-center">
@@ -86,7 +98,7 @@ export default function ActiveEventCard() {
           >
             <div className="flex justify-start">
               <img
-                className="w-20 md:w-max"
+                className="w-20 cursor-pointer md:w-max"
                 src={activeEvent[activeIndex].chibi}
                 alt="event chibi"
                 onClick={() => {
@@ -105,30 +117,6 @@ export default function ActiveEventCard() {
         )}
 
         <div className="space-y-4 text-zinc-700 dark:text-zinc-300">
-          {activeEvent.length > 1 && (
-            <div
-              id="event-selector"
-              className="grid gap-4 p-5 border border-gray-300 rounded-lg dark:border-gray-700"
-            >
-              {activeEvent.map((evt, idx) => {
-                return (
-                  <button
-                    key={`${idx}-${evt.name}`}
-                    onClick={() => {
-                      setActiveIndex(idx);
-                    }}
-                    className={`w-full p-1 text-xl duration-300 border border-transparent rounded ${
-                      activeIndex == idx
-                        ? "border-sky-500 bg-neutral-300 dark:bg-neutral-600"
-                        : "bg-neutral-200 dark:bg-neutral-800"
-                    } md:text-xl lg:text-2xl hover:border-sky-500 hover:bg-neutral-300 dark:hover:bg-neutral-600`}
-                  >
-                    {evt.name}
-                  </button>
-                );
-              })}
-            </div>
-          )}
           <div id="banner">
             <div
               style={{ aspectRatio: 21 / 9 }}
