@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import "animate.css";
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -87,6 +88,7 @@ export default function ActiveEventCard() {
               <img
                 className="w-20 md:w-max"
                 src={activeEvent[activeIndex].chibi}
+                alt="event chibi"
                 onClick={() => {
                   setChibiChatVisible((current) => !current);
                 }}
@@ -253,6 +255,7 @@ export default function ActiveEventCard() {
                         <div className="px-4 w-fit">
                           <img
                             className="w-32 aspect-square"
+                            alt={`event extra image ${idx}`}
                             src={item.blob}
                           ></img>
                         </div>
