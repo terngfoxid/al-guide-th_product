@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useRouter } from "next/router";
 import React, { useEffect, useRef, useState } from "react";
 
@@ -71,7 +72,7 @@ export const ZoomableImage: React.FC<{
       }
       onClick={handleClick}
     >
-      <img ref={image} src={src} alt="" className={active ? "" : "w-full"} />
+      <img ref={image} src={src} alt={src} className={active ? "" : "w-full"} />
     </div>
   );
 };
