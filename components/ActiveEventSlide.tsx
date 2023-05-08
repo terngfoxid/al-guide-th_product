@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import "animate.css";
 import Link from "next/link";
+import Markdown from "markdown-to-jsx";
 import { useState, useEffect } from "react";
-import Loading from "./overlay/Loading";
 import { Slide } from "./Slide";
 import { ZoomableImage } from "./ZoomableImage";
-import Markdown from "markdown-to-jsx";
 import { useRouter } from "next/router";
+import Loading from "./overlay/Loading";
 
 type ActiveEvent = {
   name: string;
