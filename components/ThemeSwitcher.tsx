@@ -86,7 +86,7 @@ export function ThemeSwitcher() {
       </svg>
       <style jsx>{`
         :where(.theme-switcher > svg) {
-          block-size: 1.5rem;
+          block-size: 2rem;
         }
 
         :where(.theme-switcher) :where(.sun, .moon, .sun-beams) {
