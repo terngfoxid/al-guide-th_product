@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import Footer from "../../components/Footer";
 import { Slide } from "../../components/Slide";
 
 type PageData = {
@@ -197,8 +196,6 @@ export default function ShipRec() {
           </div>
         </div>
       </main>
-
-      <Footer />
     </>
   );
 }

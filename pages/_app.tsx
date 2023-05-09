@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { NextSeo } from "next-seo";
 import Script from "next/script";
 import TopBar from "@/components/Topbar";
+import Footer from "@/components/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -31,14 +32,19 @@ export default function App({ Component, pageProps }: AppProps) {
           },
         ]}
       />
+
       <TopBar />
       <Component {...pageProps} />
+      <Footer />
+
       <Analytics />
+
       <Script
         id="callScript"
         strategy="lazyOnload"
         src="https://www.googletagmanager.com/gtag/js?id=G-L4CJGVFV5D"
-      ></Script>
+      />
+
       <Script
         id="googleAnalytics"
         strategy="lazyOnload"

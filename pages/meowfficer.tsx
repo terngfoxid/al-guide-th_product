@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import BackToTop from "../components/overlay/BackToTop";
 import { useState } from "react";
 import { NextSeo } from "next-seo";
@@ -200,7 +199,6 @@ export default function Contract() {
         </div>
       </main>
       <BackToTop />
-      <Footer />
     </>
   );
 }

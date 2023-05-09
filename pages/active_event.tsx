@@ -1,5 +1,4 @@
 import ActiveEventCard from "../components/ActiveEventCard";
-import Footer from "../components/Footer";
 import BackToTop from "../components/overlay/BackToTop";
 import { NextSeo } from "next-seo";
 
@@ -38,7 +37,6 @@ export default function Active_Event() {
         </div>
       </main>
       <BackToTop />
-      <Footer />
     </>
   );
 }

@@ -1,6 +1,3 @@
-import Head from "next/head";
-import Topbar from "../../components/Topbar";
-import Footer from "../../components/Footer";
 import Find_Ship_Card from "../../components/Find_Ship_Card";
 import { NextSeo } from "next-seo";
 
@@ -32,7 +29,6 @@ export default function Home() {
           <br></br>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

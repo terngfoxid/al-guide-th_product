@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Footer from "../components/Footer";
 import Head from "next/head";
 
 export default function FourOhFour() {
@@ -30,7 +29,6 @@ export default function FourOhFour() {
           </div>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

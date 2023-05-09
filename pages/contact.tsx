@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Contact_Card from "../components/Contact_Card";
-import Footer from "../components/Footer";
 
 export default function Contract() {
   return (
@@ -17,7 +16,6 @@ export default function Contract() {
           <br></br>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

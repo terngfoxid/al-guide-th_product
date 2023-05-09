@@ -1,4 +1,3 @@
-import Footer from "../../components/Footer";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
 
@@ -83,7 +82,6 @@ export default function Home() {
           <br></br>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

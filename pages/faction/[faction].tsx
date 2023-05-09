@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 import Loading from "../../components/overlay/Loading";
 import Faction_Ship_Card from "../../components/Faction_Ship_Card";
@@ -28,7 +27,6 @@ export default function Ship() {
             <br></br>
           </div>
         </main>
-        <Footer />
       </>
     );
   } else if (
@@ -64,7 +62,6 @@ export default function Ship() {
           </div>
         </main>
         <BackToTop />
-        <Footer />
       </>
     );
   }

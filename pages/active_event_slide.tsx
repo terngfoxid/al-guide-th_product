@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
 import BackToTop from "../components/overlay/BackToTop";
 import ActiveEventCard from "../components/ActiveEventSlide";
 
@@ -22,7 +21,6 @@ export default function ActiveEventDev() {
       </main>
 
       <BackToTop />
-      <Footer />
     </>
   );
 }

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Footer from "../../components/Footer";
 import BackToTop from "../../components/overlay/BackToTop";
 
 export default function Home() {
@@ -810,7 +809,6 @@ export default function Home() {
         </div>
       </main>
       <BackToTop />
-      <Footer />
     </>
   );
 }

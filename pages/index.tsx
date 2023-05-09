@@ -1,5 +1,3 @@
-import Footer from "../components/Footer";
-
 import Home_Card from "../components/Home_Card";
 import Panel_Card from "../components/Panel_Card";
 
@@ -85,7 +83,6 @@ export default function Home() {
         </div>
       </main>
       <BackToTop />
-      <Footer />
     </>
   );
 }
