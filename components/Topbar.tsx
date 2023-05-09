@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import { ThemeSwitcher } from "./ThemeSwitcher";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 export default function TopBar() {
   const [open, setOpen] = useState<boolean>(false);
