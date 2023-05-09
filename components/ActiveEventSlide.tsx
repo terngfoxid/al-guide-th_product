@@ -159,7 +159,11 @@ export default function ActiveEventCard() {
                                   alt={ship.type}
                                 />
                                 <span className="text-xl md:text-4xl">
-                                  {ship.faction} {ship.name}
+                                  {(
+                                    (ship.faction_short ?? "") +
+                                    " " +
+                                    ship.name
+                                  ).trim()}
                                 </span>
                               </div>
                               <Markdown options={{ wrapper: "article" }}>
