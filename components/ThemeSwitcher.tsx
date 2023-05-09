@@ -1,32 +1,60 @@
 import { useEffect, useState } from "react";
 
+type Theme = "light" | "dark";
+
 export function ThemeSwitcher() {
-  const [theme, setTheme] = useState<"dark" | "light">();
+  const [themeState, setThemeState] = useState<Theme>();
 
   useEffect(() => {
-    setTheme(document.body.classList.contains("dark") ? "dark" : "light");
+    let theme = localStorage.getItem("Mode") as Theme | null;
+
+    if (!theme) {
+      theme = window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light";
+    }
+
+    setTheme(theme);
+    setThemeState(theme);
   }, []);
 
-  function toggleTheme() {
-    if (!theme) return;
+  function setTheme(mode: Theme) {
+    if (mode == "dark") {
+      document.body.classList.add("dark");
+      document.body.classList.remove("bg-neutral-100");
+      document.body.classList.add("bg-neutral-900");
 
-    localStorage.setItem("theme", theme);
+      localStorage.setItem("Mode", "dark");
+      setThemeState("dark");
+    }
 
-    if (theme === "dark") {
+    if (mode == "light") {
       document.body.classList.remove("dark");
-      document.body.classList.add("bg-neutral-100");
       document.body.classList.remove("bg-neutral-900");
+      document.body.classList.add("bg-neutral-100");
+
+      localStorage.setItem("Mode", "light");
+      setThemeState("light");
+    }
+  }
+
+  function toggleTheme() {
+    if (!themeState) return;
+
+    localStorage.setItem("theme", themeState);
+
+    if (themeState === "dark") {
       setTheme("light");
     } else {
-      document.body.classList.add("dark");
-      document.body.classList.add("bg-neutral-900");
-      document.body.classList.remove("bg-neutral-100");
       setTheme("dark");
     }
   }
 
   return (
-    <button className={`theme-switcher ${theme}`} onClick={() => toggleTheme()}>
+    <button
+      className={`theme-switcher ${themeState}`}
+      onClick={() => toggleTheme()}
+    >
       <svg aria-hidden="true" viewBox="0 0 24 24">
         <mask className="moon" id="theme-switcher-moon-mask">
           <rect x="0" y="0" width="100%" height="100%" fill="white"></rect>
