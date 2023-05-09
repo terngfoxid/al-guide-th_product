@@ -11,19 +11,19 @@ export default function Home() {
         title="ค้นหาเรือด้วย Faction | Azur Lane Guide TH"
         description="ค้นหาเรือด้วย Faction"
         openGraph={{
-          url: 'https://al-guide-th.com/ship',
-          title: 'ค้นหาเรือด้วย Faction | Azur Lane Guide TH',
-          description: 'หน้าค้นหาเรือด้วย Faction',
-          site_name: 'Azur Lane ค้นหาเรือด้วย Faction'
+          url: "https://al-guide-th.com/ship",
+          title: "ค้นหาเรือด้วย Faction | Azur Lane Guide TH",
+          description: "หน้าค้นหาเรือด้วย Faction",
+          site_name: "Azur Lane ค้นหาเรือด้วย Faction",
         }}
         additionalMetaTags={[
           {
             name: "keywords",
-            content: "azur,lane,guide,th,ไกด์,ไทย,ภาษาไทย,เรือ,azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ข้อมูลเรือ,ข้อมูลเรือ azur lane,ข้อมูลเรือตามชาติ,faction,faction azur lane,faction ship,ค้นหาเรือ,ค้นหาเรือ azur lane,เรือ azur lane"
-          }
+            content:
+              "azur,lane,guide,th,ไกด์,ไทย,ภาษาไทย,เรือ,azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ข้อมูลเรือ,ข้อมูลเรือ azur lane,ข้อมูลเรือตามชาติ,faction,faction azur lane,faction ship,ค้นหาเรือ,ค้นหาเรือ azur lane,เรือ azur lane",
+          },
         ]}
       />
-      <Topbar />
 
       <main className="flex justify-center">
         <div className="w-full 2xl:max-w-7xl">

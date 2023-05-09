@@ -73,8 +73,6 @@ export default function ShipRec() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Topbar />
-
       <main className="flex justify-center">
         <div className="container p-4">
           <div className="rounded-lg shadow-lg bg-neutral-300 dark:bg-neutral-800 text-zinc-600 dark:text-zinc-400">
@@ -204,4 +202,4 @@ export default function ShipRec() {
       <Footer />
     </>
   );
-};
+}

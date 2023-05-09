@@ -10,7 +10,6 @@ export default function Contract() {
         <title>ผู้จัดทำ | Azur Lane Guide TH</title>
         <meta name="description" content="รายชื่อผู้จัดทำ" />
       </Head>
-      <Topbar />
 
       <main className="flex justify-center">
         <div className="w-full 2xl:max-w-7xl">

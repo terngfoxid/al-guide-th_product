@@ -11,23 +11,23 @@ export default function Home() {
         title="บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH"
         description="บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH"
         openGraph={{
-          url: 'https://al-guide-th.com/guide_newbie',
-          title: 'บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH',
-          description: 'บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH',
-          type: 'article',
+          url: "https://al-guide-th.com/guide_newbie",
+          title: "บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH",
+          description: "บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH",
+          type: "article",
           article: {
-            tags: ['Azur Lane', 'บทเรียน', 'สอนเล่น' , 'ผู้เล่นใหม่'],
+            tags: ["Azur Lane", "บทเรียน", "สอนเล่น", "ผู้เล่นใหม่"],
           },
-          site_name: 'บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH'
+          site_name: "บทเรียนผู้เล่นใหม่ | Azur Lane Guide TH",
         }}
         additionalMetaTags={[
           {
             name: "keywords",
-            content: "azur,lane,guide,th,ไกด์,ไทย,ภาษาไทย,สอนเล่น,เล่นใหม่,azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,บทเรียน al guide th,เล่นใหม่,เล่นใหม่ azur lane"
-          }
+            content:
+              "azur,lane,guide,th,ไกด์,ไทย,ภาษาไทย,สอนเล่น,เล่นใหม่,azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,บทเรียน al guide th,เล่นใหม่,เล่นใหม่ azur lane",
+          },
         ]}
       />
-      <Topbar />
 
       <main className="flex justify-center">
         <div className="w-full 2xl:max-w-7xl">
@@ -79,7 +79,6 @@ export default function Home() {
                 >
                   <h2>บทเรียนที่ 6 Core Data</h2>
                 </Link>
-
               </div>
             </div>
           </div>
