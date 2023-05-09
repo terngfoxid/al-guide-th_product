@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Topbar from "../components/Topbar";
 import Contact_Card from "../components/Contact_Card";
-import Footer from "../components/Footer";
 
 export default function Contract() {
   return (
@@ -10,7 +8,6 @@ export default function Contract() {
         <title>ผู้จัดทำ | Azur Lane Guide TH</title>
         <meta name="description" content="รายชื่อผู้จัดทำ" />
       </Head>
-      <Topbar />
 
       <main className="flex justify-center">
         <div className="w-full 2xl:max-w-7xl">
@@ -19,7 +16,6 @@ export default function Contract() {
           <br></br>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

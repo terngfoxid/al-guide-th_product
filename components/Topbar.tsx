@@ -1,118 +1,84 @@
 import Link from "next/link";
 import { useState } from "react";
+import ThemeSwitcher from "./ThemeSwitcher";
 
-export default function Topbar() {
-  const [navbar, setNavbar] = useState(false);
+export default function TopBar() {
+  const [open, setOpen] = useState<boolean>(false);
 
-  const topbar_style = {
-    appname: "Azur Lane Guide TH",
-    svg_appname: "",
-    //------
-    bar_style: "bg-neutral-200 shadow-xl dark:bg-neutral-800 w-full", //Header Bar color
-    appname_style:
-      "text-2xl md:text-2xl lg:text-3xl text-zinc-600 font-bold my-1 px-2 dark:text-zinc-300", //App name on left
-    list_style:
-      "block w-full h-full py-3 pl-3 pr-4 rounded no-underline text-center text-zinc-600 font-bold md:shadow-none hover:bg-neutral-300 hover:dark:bg-neutral-600 dark:text-gray-300 duration-300", //Hover of Menu list on right
-    smalldevice_style:
-      "bg-neutral-200 w-full h-full items-center shadow md:shadow-none dark:bg-neutral-800 ",
-    unhide_menu_style:
-      "p-2 text-gray-700 rounded-md outline-none border-gray-300 border shadow",
-  };
-
-  //Menu Preset
-  const menu_list = [];
-  menu_list.push(
-    <li className="shadow md:shadow-none">
-      <Link className={topbar_style.list_style} href="/ship">
-        ข้อมูลเรือ
-      </Link>
-    </li>,
-  );
-  menu_list.push(
-    <li className="shadow md:shadow-none">
-      <Link className={topbar_style.list_style} href="/active_event">
-        กิจกรรม
-      </Link>
-    </li>,
-  );
-  menu_list.push(
-    <li className="shadow md:shadow-none">
-      <Link className={topbar_style.list_style} href="/contact">
-        ผู้จัดทำ
-      </Link>
-    </li>,
-  );
-
+  const menu = [
+    {
+      label: "ข้อมูลเรือ",
+      path: "/ship",
+    },
+    {
+      label: "กิจกรรม",
+      path: "/active_event",
+    },
+    {
+      label: "ผู้จัดทำ",
+      path: "/contact",
+    },
+  ];
   return (
-    <>
-      <div id="topbar">
-        <nav className={topbar_style.bar_style}>
-          <div className="flex items-center justify-center w-full">
-            <div className="flex w-full h-full md:w-5/6 max-w-7xl">
-              <div className="w-full md:flex md:justify-between">
-                <div className="flex justify-center">
-                  <div className="w-11/12 h-16 md:w-full">
-                    <div className="flex items-center justify-between block h-16">
-                      <Link
-                        href="/"
-                        className="flex items-center h-full no-underline"
-                      >
-                        <p className={topbar_style.appname_style}>
-                          {"" + topbar_style.appname}
-                        </p>
-                      </Link>
-                      <div className="md:hidden">
-                        <button
-                          className=""
-                          onClick={() => setNavbar(!navbar)}
-                          aria-label="menu"
-                        >
-                          {navbar ? (
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="w-6 h-6 text-white"
-                              viewBox="0 0 20 20"
-                              fill="gray"
-                            >
-                              <path d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" />
-                            </svg>
-                          ) : (
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              className="w-6 h-6 text-white"
-                              fill="gray"
-                              viewBox="0 0 24 24"
-                              stroke="gray"
-                            >
-                              <path d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                          )}
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+    <header className="flex bg-neutral-200 dark:bg-neutral-800 text-zinc-600 dark:text-gray-300">
+      <div className="container flex items-center mx-auto">
+        <div className="w-11/12 mx-auto flex flex-wrap lg:w-5/6 items-center justify-between">
+          <h1 className="h-16 flex items-center justify-between whitespace-nowrap text-2xl md:w-fit md:text-2xl lg:text-3xl">
+            <Link href="/">Azur Lane Guide TH</Link>
+          </h1>
 
-                <div className="items-center h-full m-0">
-                  <div
-                    className={
-                      navbar
-                        ? "flex-auto justify-self-center mt-0 block md:h-full md:items-center"
-                        : "hidden md:block md:h-full md:items-center"
-                    }
-                  >
-                    <div className={topbar_style.smalldevice_style}>
-                      <ul className="items-center justify-center w-full h-full p-0 m-0 gap-x-2 md:flex md:space-x-10 md:space-y-0">
-                        {menu_list}
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div className="flex order-2 md:order-3">
+            <div className="flex items-center order-1">
+              <ThemeSwitcher />
             </div>
+
+            <button
+              aria-label="menu"
+              className="ml-4 md:hidden order-2 md:order-1"
+              onClick={() => setOpen((current) => !current)}
+            >
+              {open ? (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-6 h-6 text-white"
+                  viewBox="0 0 20 20"
+                  fill="gray"
+                >
+                  <path d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" />
+                </svg>
+              ) : (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-6 h-6 text-white"
+                  fill="gray"
+                  viewBox="0 0 24 24"
+                  stroke="gray"
+                >
+                  <path d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
+            </button>
           </div>
-        </nav>
+          <nav
+            className={`basis-full order-3 md:order-2 md:basis-auto md:flex items-center justify-between text-center ${
+              open ? "block" : "hidden"
+            }`}
+          >
+            <ul className="gap-4 md:flex">
+              {menu.map((item) => (
+                <li
+                  className="transition rounded hover:bg-neutral-300 hover:dark:bg-neutral-600"
+                  key={`link-${item.label}`}
+                >
+                  <Link className="block px-4 py-2" href={item.path}>
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
       </div>
-    </>
+    </header>
   );
 }

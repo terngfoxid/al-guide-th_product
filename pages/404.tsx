@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Topbar from "../components/Topbar";
-import Footer from "../components/Footer";
 import Head from "next/head";
 
 export default function FourOhFour() {
@@ -12,7 +10,6 @@ export default function FourOhFour() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Topbar />
       <main className="flex justify-center">
         <div className="container p-5 xl:max-w-screen-xl">
           <div className="flex flex-col gap-5 py-5 border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800">
@@ -32,7 +29,6 @@ export default function FourOhFour() {
           </div>
         </div>
       </main>
-      <Footer />
     </>
   );
 }

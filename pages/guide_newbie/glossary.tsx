@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Topbar from "../../components/Topbar";
-import Footer from "../../components/Footer";
 import BackToTop from "../../components/overlay/BackToTop";
 
 export default function Home() {
@@ -21,7 +19,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Topbar />
 
       <main className="flex justify-center">
         <div className="w-full 2xl:max-w-7xl">
@@ -535,7 +532,9 @@ export default function Home() {
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
                     <p>IX = Unclassified, Miscellaneous</p>
-                    <p className="pl-3">(ประเภทเรือ) เรือที่ไม่ได้จัดประเภท หรือ เรือเบ็ดเตล็ด</p>
+                    <p className="pl-3">
+                      (ประเภทเรือ) เรือที่ไม่ได้จัดประเภท หรือ เรือเบ็ดเตล็ด
+                    </p>
                   </div>
                 </div>
               </div>
@@ -810,7 +809,6 @@ export default function Home() {
         </div>
       </main>
       <BackToTop />
-      <Footer />
     </>
   );
 }

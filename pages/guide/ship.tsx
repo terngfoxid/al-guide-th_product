@@ -1,7 +1,5 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import Topbar from "../../components/Topbar";
-import Footer from "../../components/Footer";
 import { Slide } from "../../components/Slide";
 
 type PageData = {
@@ -72,8 +70,6 @@ export default function ShipRec() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <Topbar />
 
       <main className="flex justify-center">
         <div className="container p-4">
@@ -200,8 +196,6 @@ export default function ShipRec() {
           </div>
         </div>
       </main>
-
-      <Footer />
     </>
   );
-};
+}

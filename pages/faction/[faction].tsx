@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Topbar from "../../components/Topbar";
-import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 import Loading from "../../components/overlay/Loading";
 import Faction_Ship_Card from "../../components/Faction_Ship_Card";
@@ -19,7 +17,6 @@ export default function Ship() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Topbar />
 
         <main>
           <div>
@@ -30,7 +27,6 @@ export default function Ship() {
             <br></br>
           </div>
         </main>
-        <Footer />
       </>
     );
   } else if (
@@ -57,7 +53,6 @@ export default function Ship() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Topbar />
 
         <main className="flex justify-center">
           <div className="w-full 2xl:max-w-7xl">
@@ -67,7 +62,6 @@ export default function Ship() {
           </div>
         </main>
         <BackToTop />
-        <Footer />
       </>
     );
   }
