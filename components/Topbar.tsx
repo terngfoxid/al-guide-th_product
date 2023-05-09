@@ -12,7 +12,7 @@ export default function TopBar() {
     },
     {
       label: "กิจกรรม",
-      path: "/active_event",
+      path: "/active_event_slide",
     },
     {
       label: "ผู้จัดทำ",

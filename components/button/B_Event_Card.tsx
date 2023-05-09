@@ -1,28 +1,52 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Image from "next/image";
 
-export default function B_Event_Card() {
-  const [eventdata, setEventdata] = useState({
-    data: {
-      button: null,
-    },
-  });
+type ActiveEvent = {
+  name: string;
+  type: "new" | "rerun";
+  button: string;
+  banner: string;
+  time: string;
+  chibi: string;
+  quests: string[];
 
-  const callAPI = async () => {
-    try {
-      const res = await fetch("/api/active_event");
-      //const res = await fetch('https://al-guide-th.vercel.app/api/active_event');
-      const loaddata = await res.json();
-      setEventdata({ data: loaddata });
-      return;
-    } catch (err) {
-      console.log(err);
-    }
+  ships: {
+    faction: string;
+    faction_short: string;
+    name: string;
+    type: string;
+    image: string;
+    chibi: string;
+    desc: string;
+  }[];
+
+  note: {
+    beginner: string[];
+    veteran: string[];
+    special: string[];
+    summary: string[];
   };
 
+  special: {
+    blob: string;
+    title: string;
+    text: string;
+  }[];
+
+  guide: string;
+}[];
+
+export default function B_Event_Card() {
+  const [activeEvent, setActiveEvent] = useState<ActiveEvent | null>(null);
+
   useEffect(() => {
-    callAPI();
+    const load = async () => {
+      const response = await fetch("/api/events");
+      const data = await response.json();
+      setActiveEvent(data as ActiveEvent);
+    };
+
+    load().catch((e) => console.log(e));
   }, []);
 
   const card_style = {
@@ -33,7 +57,7 @@ export default function B_Event_Card() {
     image_style: "w-full rounded-lg shadow-xl",
   };
 
-  if (eventdata.data.button == null) {
+  if (!activeEvent) {
     const loading_style = {
       symbol_style:
         "w-full h-full text-zinc-600 dark:text-zinc-300 text-2xl font-bold font-serif text-left",
@@ -74,11 +98,11 @@ export default function B_Event_Card() {
 
   return (
     <button className={card_style.shape}>
-      <Link href="/active_event" className="w-full">
+      <Link href={"/active_event_slide?event="+activeEvent[0].name.replaceAll(" ", "_")} className="w-full">
         <img
           src={
             "https://drive.google.com/uc?export=view&id=" +
-            eventdata.data.button
+            activeEvent[0].button
           }
           className={card_style.image_style}
           alt="ข้อมูลกิจกรรม"
