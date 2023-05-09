@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Topbar from "../../components/Topbar";
 import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 import Loading from "../../components/overlay/Loading";
@@ -56,7 +55,6 @@ export default function Ship() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Topbar />
 
         <main className="flex justify-center">
           <div className="w-full 2xl:max-w-7xl">

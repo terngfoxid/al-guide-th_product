@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Topbar from "../components/Topbar";
 import Contact_Card from "../components/Contact_Card";
 import Footer from "../components/Footer";
 

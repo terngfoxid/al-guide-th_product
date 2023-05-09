@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Topbar from "../components/Topbar";
 import ActiveEventCard from "../components/ActiveEventCard";
 import Footer from "../components/Footer";
 import BackToTop from "../components/overlay/BackToTop";

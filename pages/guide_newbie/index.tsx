@@ -1,5 +1,3 @@
-import Head from "next/head";
-import Topbar from "../../components/Topbar";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 import { NextSeo } from "next-seo";

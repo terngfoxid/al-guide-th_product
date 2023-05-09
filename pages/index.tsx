@@ -1,4 +1,3 @@
-import Topbar from "../components/Topbar";
 import Footer from "../components/Footer";
 
 import Home_Card from "../components/Home_Card";

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Topbar from "../components/Topbar";
 import Footer from "../components/Footer";
 import Head from "next/head";
 
