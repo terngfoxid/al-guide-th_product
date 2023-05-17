@@ -158,7 +158,7 @@ export default function ActiveEventCard() {
                                   src={`/images/type/${ship.type}.webp`}
                                   alt={ship.type}
                                 />
-                                <span className="text-xl md:text-4xl">
+                                <span className="text-xl lg:text-4xl">
                                   {(
                                     (ship.faction_short ?? "") +
                                     " " +

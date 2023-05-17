@@ -1,0 +1,124 @@
+import BackToTop from "../components/overlay/BackToTop";
+import { NextSeo } from "next-seo";
+import { useEffect, useState } from "react";
+import { PrSlide } from "@/components/PrShipSlide";
+
+type prShipData = {
+  serie_number: number,
+  ship:[
+    {
+        name:string,
+        type:string,
+        quest:[string],
+        unlock: string,
+        blob: string;
+        faction_short: string;
+    }
+  ],
+}[];
+
+export default function ActiveEventDev() {
+
+  const [activePrShipData, setActivePrShipData] = useState<prShipData | null>(null);
+
+  useEffect(() => {
+    const load = async () => {
+      const response = await fetch("/api/getPrShipData");
+      const data = await response.json();
+      setActivePrShipData(data as prShipData);
+    };
+
+    load().catch((e) => console.log(e));
+  }, []);
+
+  if(activePrShipData != null)console.log(activePrShipData)
+
+  return (
+    <>
+      <NextSeo
+        title="ไกด์เรือวิจัย | Azur Lane Guide TH"
+        description="ไกด์เรือวิจัย Azur Lane"
+        openGraph={{
+          url: "https://al-guide-th.com/research_shipyard_guide",
+          title: "ไกด์เรือวิจัย | Azur Lane Guide TH",
+          description: "หน้าไกด์เรือวิจัย",
+          type: "article",
+          article: {
+            tags: ["Azur Lane", "ไกด์เรือวิจัย", "Priority Research", "เรือ PR"],
+          },
+          site_name: "Azur Lane ไกด์เรือวิจัย",
+        }}
+        additionalMetaTags={[
+          {
+            name: "keywords",
+            content:
+              "azur,lane,guide,th,ไกด์,ไทย,ภาษาไทย,azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ไกด์เรือวิจัย,เรือวิจัย,ข้อมูลเรือวิจัย,เรือ PR,PR ship",
+          },
+        ]}
+      />
+
+      <main>
+        <div className="container w-full py-4 mx-auto">
+          <div className="w-11/12 lg:w-5/6 mx-auto">
+            <div className="grid grid-cols-1 space-y-3 md:space-y-7">
+              <div className="w-full border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:bg-neutral-800 dark:border-gray-700 overflow-hidden">
+                <img
+                    className="w-full h-full"
+                    src="/images/learning/act 3/banner.webp"
+                    alt="ไกด์เรือวิจัย Banner"
+                ></img>
+                <h1 className="hidden">ไกด์เรือวิจัย | Azur Lane Guide TH</h1>
+              </div>
+              {activePrShipData?.map((pr) => {
+                return(<>
+                        <div key={pr.serie_number}>
+                            <h2 className="text-center text-3xl text-zinc-700 dark:text-zinc-200 pt-5 pb-2">{"เรือวิจัย PR"+pr.serie_number}</h2>
+                            <PrSlide>
+                                {pr.ship.map((ship) => {
+                                    return(
+                                        <div 
+                                            key={ship.name} 
+                                            className="aspect-[9/12] md:aspect-[21/9] md:px-10 bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]">
+                                            <div className="relative h-full md:flex md:justify-end">
+                                                <img className="absolute z-10 transform -translate-y-1/2 top-1/2 md:top-0 md:-translate-y-0 md:-translate-x-1/2 md:left-1/4 md:h-full"
+                                                     src={ship.blob}
+                                                     alt={ship.name+"image"}>
+                                                </img>
+                                                <div className="hidden md:block h-full w-full w-7/12 pt-10 px-4 pb-6 bg-black/[0.6] z-20">
+                                                    <div className="flex">
+                                                        <img
+                                                        className="inline h-6 xl:h-8 mr-3 align-middle"
+                                                        src={`/images/type/${ship.type}.webp`}
+                                                        alt={ship.type}
+                                                        />
+                                                        <p className="text-zinc-300 text-xl xl:text-4xl">{ship.faction_short+" "+ship.name}</p>
+                                                    </div>
+                                                </div>
+                                                <div className="absolute top-0 md:hidden h-full w-full pt-10 px-4 pb-6 bg-black/[0.75] z-20">
+                                                    <div className="flex justify-center">
+                                                        <div className="flex">
+                                                            <img
+                                                            className="inline h-6 xl:h-8 mr-3 align-middle"
+                                                            src={`/images/type/${ship.type}.webp`}
+                                                            alt={ship.type}
+                                                            />
+                                                            <p className="text-zinc-300 text-xl">{ship.faction_short+" "+ship.name}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>)
+                                })}
+                            </PrSlide>
+                        </div>
+                       </>);
+              })}
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <BackToTop />
+    </>
+  );
+}

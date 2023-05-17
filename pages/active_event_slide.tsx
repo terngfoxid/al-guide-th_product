@@ -1,4 +1,3 @@
-import Head from "next/head";
 import BackToTop from "../components/overlay/BackToTop";
 import ActiveEventCard from "../components/ActiveEventSlide";
 import { NextSeo } from "next-seo";
