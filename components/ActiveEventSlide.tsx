@@ -90,7 +90,7 @@ export default function ActiveEventCard() {
     );
   } else {
     return (
-      <>
+      <article key={`event-idx-${activeIndex}`}>
         {activeEvent[activeIndex].chibi && (
           <div
             id="chibi"
@@ -329,7 +329,7 @@ export default function ActiveEventCard() {
             </div>
           )}
         </div>
-      </>
+      </article>
     );
   }
 }

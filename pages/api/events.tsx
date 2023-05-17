@@ -3,14 +3,16 @@ import db from "../../utils/db";
 
 export default async function handler(
   _req: NextApiRequest,
-  res: NextApiResponse,
+  res: NextApiResponse
 ) {
-  const snapshot = await db.collection("dev_event").where("_priority", "<=", 1).get();
+  const snapshot = await db
+    .collection("dev_event")
+    .where("_priority", "<=", 1)
+    .get();
   const docs = snapshot.docs.map((doc) => doc.data());
 
   res.status(200).json(
     docs
-      .filter((item) => item._enable)
       .sort((a, b) => b._priority - a._priority)
       .map((item) => {
         delete item._priority;
@@ -25,6 +27,6 @@ export default async function handler(
         delete item._new;
 
         return item;
-      }),
+      })
   );
 }

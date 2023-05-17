@@ -70,7 +70,11 @@ export default function TopBar() {
                   className="transition rounded hover:bg-neutral-300 hover:dark:bg-neutral-600"
                   key={`link-${item.label}`}
                 >
-                  <Link className="block px-4 py-2" href={item.path}>
+                  <Link
+                    onClick={() => setOpen(false)}
+                    className="block px-4 py-2"
+                    href={item.path}
+                  >
                     {item.label}
                   </Link>
                 </li>
