@@ -15,7 +15,7 @@ export const PrSlide: React.FC<{
   return (
     <div className="relative overflow-hidden rounded-lg shadow-xl bg-neutral-200 dark:bg-neutral-900">
       <div
-        className="flex transition duration-300 ease-in-out flex-nowrap"
+        className="flex transition duration-100 ease-in-out flex-nowrap"
         style={{ transform: `translateX(-${slideIndex * 100}%)` }}
         ref={element}
       >

@@ -3,6 +3,7 @@ import { NextSeo } from "next-seo";
 import { useEffect, useState } from "react";
 import { PrSlide } from "@/components/PrShipSlide";
 import Loading from "@/components/overlay/Loading"
+import Link from "next/link";
 
 type prShipData = {
   serie_number: number,
@@ -113,7 +114,7 @@ export default function ActiveEventDev() {
                                     return(
                                         <div 
                                             key={ship.name} 
-                                            className="aspect-[9/12] md:aspect-[21/9] md:px-10 bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]">
+                                            className="aspect-[9/12] sm:aspect-[9/9] md:aspect-[21/10] md:px-10 bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]">
                                             <div className="relative h-full md:flex md:justify-end">
                                                 <img className="absolute z-10 transform -translate-y-1/2 top-1/2 md:top-0 md:-translate-y-0 md:-translate-x-1/2 md:left-1/4 md:h-full"
                                                      src={ship.blob}
@@ -127,15 +128,18 @@ export default function ActiveEventDev() {
                                                           src={`/images/type/${ship.type}.webp`}
                                                           alt={ship.type}
                                                           />
-                                                          <h3 className="text-zinc-300 text-xl xl:text-3xl">{ship.faction_short+" "+ship.name}</h3>
+                                                          <Link href={"/ship/"+ship.name}><h3 className="text-zinc-300 text-xl xl:text-3xl inline-block">{ship.faction_short}&nbsp;{ship.name}</h3></Link>
                                                       </div>
-                                                      <p className="text-zinc-300 text-lg mt-3">{"เงื่อนไขปลดล็อกการวิจัย:"}</p>
-                                                      <p className="text-zinc-300 text-md mt-1">{ship.unlock}</p>
-                                                      <p className="text-zinc-300 text-lg mt-3">{"ขั้นตอนการวิจัย:"}</p>
+                                                      <p className="text-zinc-300 text-lg xl:text-2xl mt-4">{"เงื่อนไขปลดล็อกการวิจัย:"}</p>
+                                                      <p className="text-zinc-300 text-md xl:text-xl mt-1">{ship.unlock}</p>
+                                                      <p className="text-zinc-300 text-lg xl:text-2xl mt-3 pt-3 w-full border-t border-zinc-500">{"ขั้นตอนการวิจัย:"}</p>
                                                       <div className="">
                                                         {ship.quest.map((quest,index) =>{ 
                                                           return <>
-                                                            <p key={"quest"+index} className="text-zinc-300 text-md mt-1 pr-3">{(index+1)+": "+quest}</p>
+                                                            <div key={"quest"+index} className="flex mt-2 text-md xl:text-xl">
+                                                              <p className="text-zinc-300 pr-1">{(index+1)+": "}</p>
+                                                              <p className="text-zinc-300 pr-3">{quest}</p>
+                                                            </div>
                                                           </>})
                                                         }
                                                       </div>
@@ -144,22 +148,25 @@ export default function ActiveEventDev() {
                                                 <div className="absolute top-0 md:hidden h-full w-full pt-10 px-4 pb-6 bg-black/[0.75] z-20">
                                                   <div className="h-full w-full overflow-y-auto">
                                                     <div className="flex justify-center">
-                                                      <div className="flex">
+                                                      <div className="inline-flex">
                                                         <img
                                                           className="inline h-6 xl:h-8 mr-3 align-middle"
                                                           src={`/images/type/${ship.type}.webp`}
                                                           alt={ship.type}
                                                          />
-                                                        <h3 className="text-zinc-300 text-xl">{ship.faction_short+" "+ship.name}</h3>
+                                                        <h3 className="text-zinc-300 text-xl inline-block">{ship.faction_short}&nbsp;{ship.name}</h3>
                                                       </div>
                                                     </div>
                                                     <p className="text-zinc-300 text-lg mt-4">{"เงื่อนไขปลดล็อกการวิจัย:"}</p>
                                                     <p className="text-zinc-300 text-md mt-1">{ship.unlock}</p>
-                                                    <p className="text-zinc-300 text-lg mt-4">{"ขั้นตอนการวิจัย:"}</p>
+                                                    <p className="text-zinc-300 text-lg mt-4 pt-3 w-full border-t border-zinc-500">{"ขั้นตอนการวิจัย:"}</p>
                                                     <div className="">
                                                       {ship.quest.map((quest,index) =>{ 
                                                         return <>
-                                                          <p key={"quest"+index} className="text-zinc-300 text-md mt-1 pr-3">{(index+1)+": "+quest}</p>
+                                                          <div key={"quest"+index} className="flex mt-1">
+                                                            <p className="text-zinc-300 text-md pr-1">{(index+1)+": "}</p>
+                                                            <p className="text-zinc-300 text-md pr-3">{quest}</p>
+                                                          </div>
                                                         </>})
                                                       }
                                                     </div>
