@@ -2,6 +2,7 @@ import BackToTop from "../components/overlay/BackToTop";
 import { NextSeo } from "next-seo";
 import { useEffect, useState } from "react";
 import { PrSlide } from "@/components/PrShipSlide";
+import Loading from "@/components/overlay/Loading"
 
 type prShipData = {
   serie_number: number,
@@ -31,7 +32,41 @@ export default function ActiveEventDev() {
     load().catch((e) => console.log(e));
   }, []);
 
-  if(activePrShipData != null)console.log(activePrShipData)
+  if(activePrShipData == null){
+    return(<>
+      <NextSeo
+        title="ไกด์เรือวิจัย | Azur Lane Guide TH"
+        description="ไกด์เรือวิจัย Azur Lane"
+        openGraph={{
+          url: "https://al-guide-th.com/research_shipyard_guide",
+          title: "ไกด์เรือวิจัย | Azur Lane Guide TH",
+          description: "หน้าไกด์เรือวิจัย",
+          type: "article",
+          article: {
+            tags: ["Azur Lane", "ไกด์เรือวิจัย", "Priority Research", "เรือ PR"],
+          },
+          site_name: "Azur Lane ไกด์เรือวิจัย",
+        }}
+        additionalMetaTags={[
+          {
+            name: "keywords",
+            content:
+              "azur,lane,guide,th,ไกด์,ไทย,ภาษาไทย,azur lane,azur lane guide th,อซูร์เลน,azur lane ไกด์,azur lane ภาษาไทย,สอนเล่น azur lane,ไกด์เรือวิจัย,เรือวิจัย,ข้อมูลเรือวิจัย,เรือ PR,PR ship",
+          },
+        ]}
+      />
+
+      <main>
+        <div className="container w-full py-4 mx-auto">
+          <div className="w-11/12 lg:w-5/6 mx-auto">
+            <div className="flex justify-center">
+              <Loading/>
+            </div>
+          </div>
+        </div>
+      </main>
+    </>)
+  }
 
   return (
     <>
@@ -84,27 +119,51 @@ export default function ActiveEventDev() {
                                                      src={ship.blob}
                                                      alt={ship.name+"image"}>
                                                 </img>
-                                                <div className="hidden md:block h-full w-full w-7/12 pt-10 px-4 pb-6 bg-black/[0.6] z-20">
-                                                    <div className="flex">
-                                                        <img
-                                                        className="inline h-6 xl:h-8 mr-3 align-middle"
-                                                        src={`/images/type/${ship.type}.webp`}
-                                                        alt={ship.type}
-                                                        />
-                                                        <p className="text-zinc-300 text-xl xl:text-4xl">{ship.faction_short+" "+ship.name}</p>
+                                                <div className="hidden md:block h-full w-full w-7/12 pt-10 px-4 pb-6 bg-black/[0.7] z-20 overflow-y-auto">
+                                                  <div className="h-full w-full overflow-y-auto">
+                                                      <div className="flex">
+                                                          <img
+                                                          className="inline h-6 xl:h-8 mr-3 align-middle"
+                                                          src={`/images/type/${ship.type}.webp`}
+                                                          alt={ship.type}
+                                                          />
+                                                          <h3 className="text-zinc-300 text-xl xl:text-3xl">{ship.faction_short+" "+ship.name}</h3>
+                                                      </div>
+                                                      <p className="text-zinc-300 text-lg mt-3">{"เงื่อนไขปลดล็อกการวิจัย:"}</p>
+                                                      <p className="text-zinc-300 text-md mt-1">{ship.unlock}</p>
+                                                      <p className="text-zinc-300 text-lg mt-3">{"ขั้นตอนการวิจัย:"}</p>
+                                                      <div className="">
+                                                        {ship.quest.map((quest,index) =>{ 
+                                                          return <>
+                                                            <p key={"quest"+index} className="text-zinc-300 text-md mt-1 pr-3">{(index+1)+": "+quest}</p>
+                                                          </>})
+                                                        }
+                                                      </div>
                                                     </div>
                                                 </div>
                                                 <div className="absolute top-0 md:hidden h-full w-full pt-10 px-4 pb-6 bg-black/[0.75] z-20">
+                                                  <div className="h-full w-full overflow-y-auto">
                                                     <div className="flex justify-center">
-                                                        <div className="flex">
-                                                            <img
-                                                            className="inline h-6 xl:h-8 mr-3 align-middle"
-                                                            src={`/images/type/${ship.type}.webp`}
-                                                            alt={ship.type}
-                                                            />
-                                                            <p className="text-zinc-300 text-xl">{ship.faction_short+" "+ship.name}</p>
-                                                        </div>
+                                                      <div className="flex">
+                                                        <img
+                                                          className="inline h-6 xl:h-8 mr-3 align-middle"
+                                                          src={`/images/type/${ship.type}.webp`}
+                                                          alt={ship.type}
+                                                         />
+                                                        <h3 className="text-zinc-300 text-xl">{ship.faction_short+" "+ship.name}</h3>
+                                                      </div>
                                                     </div>
+                                                    <p className="text-zinc-300 text-lg mt-4">{"เงื่อนไขปลดล็อกการวิจัย:"}</p>
+                                                    <p className="text-zinc-300 text-md mt-1">{ship.unlock}</p>
+                                                    <p className="text-zinc-300 text-lg mt-4">{"ขั้นตอนการวิจัย:"}</p>
+                                                    <div className="">
+                                                      {ship.quest.map((quest,index) =>{ 
+                                                        return <>
+                                                          <p key={"quest"+index} className="text-zinc-300 text-md mt-1 pr-3">{(index+1)+": "+quest}</p>
+                                                        </>})
+                                                      }
+                                                    </div>
+                                                  </div>
                                                 </div>
                                             </div>
                                         </div>)

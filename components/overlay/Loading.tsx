@@ -1,5 +1,3 @@
-import { useEffect, useState } from "react";
-
 export default function Loading() {
   const loading_style = {
     symbol_style:

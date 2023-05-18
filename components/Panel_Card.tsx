@@ -59,7 +59,7 @@ export default function Panel_Card() {
       "inline-block py-1 mt-1 px-4 md:border-b-2 border-gray-600 bg-neutral-300 dark:bg-neutral-700 rounded-lg md:rounded-t-lg md:rounded-b-none text-gray-600 dark:text-gray-300",
     //contect
     content_style:
-      "pt-2 md:mb-2 bg-neutral-300 dark:bg-neutral-700 w-full md:w-11/12",
+      "pt-2 pb-2 md:mb-2 bg-neutral-300 dark:bg-neutral-700 w-full md:w-11/12",
     sub_content_head_style:
       "ml-6 md:ml-16 pt-1 text-left text-base md:text-base lg:text-lg xl:text-xl text-zinc-600 dark:text-zinc-300",
     sub_content_body_style:
