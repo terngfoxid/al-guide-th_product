@@ -15,7 +15,7 @@ export const PrSlide: React.FC<{
   return (
     <div className="relative overflow-hidden rounded-lg shadow-xl bg-neutral-200 dark:bg-neutral-900">
       <div
-        className="flex transition duration-100 ease-in-out flex-nowrap"
+        className="flex transition duration-100 md:duration-300 ease-in-out flex-nowrap"
         style={{ transform: `translateX(-${slideIndex * 100}%)` }}
         ref={element}
       >
@@ -27,12 +27,13 @@ export const PrSlide: React.FC<{
             onTouchStart={(e) => {
               element.current?.classList.toggle("transition");
               element.current?.classList.toggle("duration-100");
+              element.current?.classList.toggle("md:duration-300");
               setTouchX(e.touches[0].clientX);
               setPrevSlideIndex(slideIndex);
             }}
             onTouchMove={(e) => {
               const deltaX = touchX - e.touches[0].clientX;
-              const percentScreen = (deltaX / window.innerWidth) * 3;
+              const percentScreen = (deltaX / window.innerWidth) * 3.3;
 
               if (
                 prevSlideIndex + percentScreen > 0 &&
@@ -44,6 +45,7 @@ export const PrSlide: React.FC<{
             onTouchEnd={() => {
               element.current?.classList.toggle("transition");
               element.current?.classList.toggle("duration-100");
+              element.current?.classList.toggle("md:duration-300");
 
               setSlideIndex((current) => Math.round(current));
             }}
