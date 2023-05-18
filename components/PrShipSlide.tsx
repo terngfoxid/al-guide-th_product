@@ -26,13 +26,13 @@ export const PrSlide: React.FC<{
             style={{ ...style }}
             onTouchStart={(e) => {
               element.current?.classList.toggle("transition");
-              element.current?.classList.toggle("duration-300");
+              element.current?.classList.toggle("duration-100");
               setTouchX(e.touches[0].clientX);
               setPrevSlideIndex(slideIndex);
             }}
             onTouchMove={(e) => {
               const deltaX = touchX - e.touches[0].clientX;
-              const percentScreen = (deltaX / window.innerWidth) * 1.5;
+              const percentScreen = (deltaX / window.innerWidth) * 3;
 
               if (
                 prevSlideIndex + percentScreen > 0 &&
@@ -43,7 +43,7 @@ export const PrSlide: React.FC<{
             }}
             onTouchEnd={() => {
               element.current?.classList.toggle("transition");
-              element.current?.classList.toggle("duration-300");
+              element.current?.classList.toggle("duration-100");
 
               setSlideIndex((current) => Math.round(current));
             }}

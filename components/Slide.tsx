@@ -15,7 +15,7 @@ export const Slide: React.FC<{
   return (
     <div className="relative overflow-hidden rounded-lg shadow-xl bg-neutral-200 dark:bg-neutral-900">
       <div
-        className="flex transition duration-300 ease-in-out flex-nowrap"
+        className="flex transition duration-100 ease-in-out flex-nowrap"
         style={{ transform: `translateX(-${slideIndex * 100}%)` }}
         ref={element}
       >
@@ -26,7 +26,7 @@ export const Slide: React.FC<{
             style={{ ...style }}
             onTouchStart={(e) => {
               element.current?.classList.toggle("transition");
-              element.current?.classList.toggle("duration-300");
+              element.current?.classList.toggle("duration-100");
               setTouchX(e.touches[0].clientX);
               setPrevSlideIndex(slideIndex);
             }}
@@ -43,7 +43,7 @@ export const Slide: React.FC<{
             }}
             onTouchEnd={() => {
               element.current?.classList.toggle("transition");
-              element.current?.classList.toggle("duration-300");
+              element.current?.classList.toggle("duration-100");
 
               setSlideIndex((current) => Math.round(current));
             }}
