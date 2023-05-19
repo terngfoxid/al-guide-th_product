@@ -6,6 +6,7 @@ import B_Event_Card from "../components/button/B_Event_Card";
 import B_Meaw_Card from "../components/button/B_Meaw_Card";
 import B_Event_2_Card from "../components/button/B_Event_2_Card";
 import ButtonGuideNewbie from "../components/button/ButtonGuideNewbie";
+import ButtonGuideResearchSY from "@/components/button/ButtonGuideResearchSY";
 import BackToTop from "../components/overlay/BackToTop";
 
 import { NextSeo } from "next-seo";
@@ -74,7 +75,9 @@ export default function Home() {
                   <B_Meaw_Card />
                 </div>
                 <br className="block md:hidden"></br>
-                <div className="flex justify-center md:justify-end"></div>
+                <div className="flex justify-center md:justify-end">
+                  <ButtonGuideResearchSY />
+                </div>
               </div>
             </div>
           </div>

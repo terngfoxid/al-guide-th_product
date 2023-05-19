@@ -76,6 +76,13 @@ export default function Home() {
                 >
                   <h2>บทเรียนที่ 6 Core Data</h2>
                 </Link>
+
+                <Link
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  href="/guide_newbie/tech"
+                >
+                  <h2>บทเรียนที่ 7 Tech</h2>
+                </Link>
               </div>
             </div>
           </div>
