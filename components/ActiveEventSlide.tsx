@@ -237,21 +237,21 @@ export default function ActiveEventCard() {
                 </h1>
               </div>
               {activeEvent[activeIndex].special && (
-                <div className="grid gap-4 mb-4 md:grid md:grid-cols-2">
+                <div className="grid gap-4 auto-rows-fr mb-4 md:grid md:grid-cols-2">
                   {activeEvent[activeIndex].special.map((item, idx) => {
                     return (
                       <div
                         key={`quest-${idx}`}
-                        className="flex p-4 border border-gray-300 rounded-lg flex-cols dark:border-gray-700"
+                        className="flex p-4 border border-gray-300 rounded-lg flex-cols\ dark:border-gray-700"
                       >
-                        <div className="px-4 w-fit">
+                        <div className="px-4 w-1/3 lg:w-1/4 aspect-square">
                           <img
-                            className="w-32 aspect-square"
+                            className="w-full h-full object-contain"
                             alt={`event extra image ${idx}`}
                             src={item.blob}
                           ></img>
                         </div>
-                        <div className="flex items-center justify-center flex-grow">
+                        <div className="flex justify-start items-center flex-grow">
                           <div>
                             {item.title && (
                               <h1 className="my-2 text-left text-zinc-700 dark:text-zinc-300 md:text-lg">
