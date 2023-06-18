@@ -8,6 +8,7 @@ import B_Event_2_Card from "../components/button/B_Event_2_Card";
 import ButtonGuideNewbie from "../components/button/ButtonGuideNewbie";
 import ButtonGuideResearchSY from "@/components/button/ButtonGuideResearchSY";
 import BackToTop from "../components/overlay/BackToTop";
+import ButtonAugmentation from "@/components/button/ButtonAugmentation";
 
 import { NextSeo } from "next-seo";
 
@@ -36,52 +37,17 @@ export default function Home() {
 
           <div className="flex justify-center">
             <div className="w-full md:w-5/6 2xl:w-full">
-              <div className="md:grid md:grid-cols-2">
-                <div className="flex justify-center md:justify-start">
+              <div className="mx-auto w-11/12 md:w-full md:grid md:grid-cols-2 xl:grid-cols-3 gap-[20px] 2xl:gap-[30px]">
                   <B_Ship_Card />
-                </div>
-                <br className="block md:hidden"></br>
-                <div className="flex justify-center md:justify-end">
                   <B_Event_Card />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <br className="hidden md:block"></br>
-          <br></br>
-
-          <div className="flex justify-center">
-            <div className="w-full md:w-5/6 2xl:w-full">
-              <div className="md:grid md:grid-cols-2">
-                <div className="flex justify-center md:justify-start">
-                  <ButtonGuideNewbie />
-                </div>
-                <br className="block md:hidden"></br>
-                <div className="flex justify-center md:justify-end">
                   <B_Event_2_Card />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <br className="hidden md:block"></br>
-          <br></br>
-
-          <div className="flex justify-center">
-            <div className="w-full md:w-5/6 2xl:w-full">
-              <div className="md:grid md:grid-cols-2">
-                <div className="flex justify-center md:justify-start">
+                  <ButtonGuideNewbie />
                   <B_Meaw_Card />
-                </div>
-                <br className="block md:hidden"></br>
-                <div className="flex justify-center md:justify-end">
                   <ButtonGuideResearchSY />
-                </div>
+                  <ButtonAugmentation />
               </div>
             </div>
           </div>
-
           <br></br>
         </div>
       </main>
