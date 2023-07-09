@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { PrSlide } from "@/components/PrShipSlide";
 import Loading from "@/components/overlay/Loading"
 import Link from "next/link";
+import { AutoConvertText } from "@/components/functional/AutoConvertText";
 
 type prShipData = {
   serie_number: number,
@@ -142,14 +143,14 @@ export default function ActiveEventDev() {
                                     <Link href={"/ship/" + ship.name}><h3 className="text-zinc-300 text-xl xl:text-3xl inline-block rounded-lg hover:text-sky-400 hover:bg-zinc-500/[0.5] px-2 py-1">{ship.faction_short}&nbsp;{ship.name}</h3></Link>
                                   </div>
                                   <p className="text-zinc-300 text-lg xl:text-2xl mt-4">{"เงื่อนไขปลดล็อกการวิจัย:"}</p>
-                                  <p className="text-zinc-300 text-md xl:text-xl mt-1">{ship.unlock}</p>
+                                  <AutoConvertText className="text-zinc-300 text-md xl:text-xl mt-1">{ship.unlock}</AutoConvertText>
                                   <p className="text-zinc-300 text-lg xl:text-2xl mt-3 pt-3 w-full border-t border-zinc-500">{"ขั้นตอนการวิจัย:"}</p>
                                   <div className="">
                                     {ship.quest.map((quest, index) => {
                                       return <>
                                         <div key={"quest" + index} className="flex mt-2 text-md xl:text-xl">
                                           <p className="text-zinc-300 pr-1">{(index + 1) + ": "}</p>
-                                          <p className="text-zinc-300 pr-3">{quest}</p>
+                                          <AutoConvertText className="text-zinc-300 pr-3">{quest}</AutoConvertText>
                                         </div>
                                       </>
                                     })
@@ -160,24 +161,24 @@ export default function ActiveEventDev() {
                               <div className="absolute top-0 md:hidden h-full w-full pt-10 px-4 pb-6 bg-black/[0.75] z-20">
                                 <div className="h-full w-full overflow-y-auto">
                                   <div className="flex justify-center">
-                                    <div className="inline-flex">
+                                    <div className="inline-flex items-center">
                                       <img
                                         className="inline h-6 xl:h-8 mr-3 align-middle"
                                         src={`/images/type/${ship.type}.webp`}
                                         alt={ship.type}
                                       />
-                                      <h3 className="text-zinc-300 text-xl inline-block">{ship.faction_short}&nbsp;{ship.name}</h3>
+                                      <Link href={"/ship/" + ship.name}><h3 className="text-zinc-300 text-xl xl:text-3xl inline-block rounded-lg hover:text-sky-400 hover:bg-zinc-500/[0.5] px-2 py-1">{ship.faction_short}&nbsp;{ship.name}</h3></Link>
                                     </div>
                                   </div>
                                   <p className="text-zinc-300 text-lg mt-4">{"เงื่อนไขปลดล็อกการวิจัย:"}</p>
-                                  <p className="text-zinc-300 text-md mt-1">{ship.unlock}</p>
+                                  <AutoConvertText className="text-zinc-300 text-md mt-1">{ship.unlock}</AutoConvertText>
                                   <p className="text-zinc-300 text-lg mt-4 pt-3 w-full border-t border-zinc-500">{"ขั้นตอนการวิจัย:"}</p>
                                   <div className="">
                                     {ship.quest.map((quest, index) => {
                                       return <>
                                         <div key={"quest" + index} className="flex mt-1">
                                           <p className="text-zinc-300 text-md pr-1">{(index + 1) + ": "}</p>
-                                          <p className="text-zinc-300 text-md pr-3">{quest}</p>
+                                          <AutoConvertText className="text-zinc-300 pr-3">{quest}</AutoConvertText>
                                         </div>
                                       </>
                                     })
