@@ -19,6 +19,12 @@ newStr = newStr.replace("Iris Libre",'<a class="mx-1 px-1 rounded-md hover:text-
 newStr = newStr.replace("Vichya Dominion",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Vichya Dominion">Vichya Dominion</a>')
 newStr = newStr.replace("Sardegna Empire",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Sardegna Empire">Sardegna Empire</a>')
 
+//retrofit link
+newStr = newStr.replace("แปลน Retrofit Destroyer",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/guide_newbie/retrofit">แปลน Retrofit Destroyer</a>')
+newStr = newStr.replace("แปลน Retrofit Cruiser",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/guide_newbie/retrofit">แปลน Retrofit Cruiser</a>')
+newStr = newStr.replace("แปลน Retrofit Battleship",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/guide_newbie/retrofit">แปลน Retrofit Battleship</a>')
+newStr = newStr.replace("แปลน Retrofit Carrier",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/guide_newbie/retrofit">แปลน Retrofit Carrier</a>')
+
 //convert some special text to link
 newStr = newStr.replace("Tech",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/guide_newbie/tech">Tech</a>')
 

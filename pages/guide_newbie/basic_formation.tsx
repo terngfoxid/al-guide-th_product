@@ -39,6 +39,15 @@ export default function Home() {
               <div className="w-11/12 border border-gray-300 rounded-lg shadow-md md:w-5/6 2xl:w-full bg-neutral-200 dark:bg-neutral-800 dark:border-gray-700 overflow-hidden">
                 <img
                   className="w-full h-full"
+                  src="/images/learning/act 2/7.webp"
+                  alt="ตำแหน่งของเรือในทีม การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ 7"
+                ></img>
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <div className="w-11/12 border border-gray-300 rounded-lg shadow-md md:w-5/6 2xl:w-full bg-neutral-200 dark:bg-neutral-800 dark:border-gray-700 overflow-hidden">
+                <img
+                  className="w-full h-full"
                   src="/images/learning/act 2/2.webp"
                   alt="ตำแหน่งของเรือในทีม การจัดกองเรือ Azur Lane,สอนจัดกองเรือ,วิธีจัดกองเรือ 3"
                 ></img>
