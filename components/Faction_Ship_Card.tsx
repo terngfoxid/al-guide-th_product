@@ -164,6 +164,7 @@ export default function Faction_Ship_Card(faction: any) {
                       <>
                         <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
                           <img
+                            className="max-h-[150px]"
                             src={"" + shipdata.data.data[buffer].chibi}
                             alt="ship chibi image"
                           />

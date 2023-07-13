@@ -123,7 +123,7 @@ export default function Home() {
                                         </div>
                                         <div>
                                           <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
-                                            <img src={ship.chibi} alt="ship chibi image" />
+                                            <img className="max-h-[150px]" src={ship.chibi} alt="ship chibi image" />
                                           </div>
                                         </div>
                                       </div>
