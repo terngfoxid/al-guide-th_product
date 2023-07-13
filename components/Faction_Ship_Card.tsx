@@ -101,6 +101,8 @@ export default function Faction_Ship_Card(faction: any) {
             if (shipdata.data.data[buffer].type != "AR") hidden = " hidden";
           } else if (type == "BB") {
             if (shipdata.data.data[buffer].type != "BB") hidden = " hidden";
+          } else if (type == "BBV") {
+            if (shipdata.data.data[buffer].type != "BBV") hidden = " hidden";
           } else if (type == "BC") {
             if (shipdata.data.data[buffer].type != "BC") hidden = " hidden";
           } else if (type == "BM") {
@@ -359,6 +361,17 @@ export default function Faction_Ship_Card(faction: any) {
                             }}
                           >
                             BB
+                          </button>
+                        </li>
+                        <li className={card_style.dd_list_position}>
+                          <button
+                            type="button"
+                            className={card_style.dd_list_btn_style}
+                            onClick={(event) => {
+                              setType("BBV"), setDropdown(false);
+                            }}
+                          >
+                            BBV
                           </button>
                         </li>
                         <li className={card_style.dd_list_position}>
