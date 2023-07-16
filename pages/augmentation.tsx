@@ -13,6 +13,7 @@ type ShipData = {
             chibi: string,
             augment: string,
             faction: string,
+            faction_sub?: string
         }
     ]
 };
@@ -70,7 +71,10 @@ export default function ActiveEventDev() {
     }
 
     else {
-
+        const faction_sub_list = Array.from(new Set(augmentShipData.data?.filter((ship) => {if (ship.faction_sub != null) return true}).map((ship) => {
+                if(ship.faction_sub != null) return ship.faction_sub
+            })))
+        
         return (
             <>
                 <NextSeo
@@ -206,40 +210,52 @@ export default function ActiveEventDev() {
                             <p className="text-center text-xl text-zinc-700 dark:text-zinc-200 pt-5 pb-2">เรือ Collab</p>
                             <div className="mx-auto w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800 p-[10px]">
                                 <div className="grid grid-cols-2 md:grid-cols-4 gap-y-2">
-                                    {augmentShipData.data?.map(
-                                        (ship) => {
-                                            return (<>{ship.augment == "Unique Modules (Collaboration Ships)" ?
-                                                    <Link key={ship.name} className="text-zinc-700 dark:text-zinc-300 text-base text-center w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300 hover:scale-110 border-2 border-transparent hover:border-cyan-400"
-                                                        href={"/ship/" + ship.name}>
-                                                        <div className="rounded-lg">
-                                                            <div>
-                                                                <div className="flex items-center justify-start w-full">
-                                                                    <Image
-                                                                        src={
-                                                                            "/images/type/" +
-                                                                            ship.type +
-                                                                            ".webp"
-                                                                        }
-                                                                        alt="type image"
-                                                                        width="49"
-                                                                        height="30"
-                                                                    />
-                                                                    <div className="inline-block w-full truncate rounded bg-neutral-400 dark:bg-neutral-600">
-                                                                        <p className="max-w-fit">&nbsp;{ship.name}</p>
-                                                                    </div>
-                                                                </div>
-                                                                <div>
-                                                                    <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
-                                                                        <img className="max-h-[150px]" src={ship.chibi} alt="ship chibi image" />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </Link>:
-                                                <></>
-                                            }</>)
-                                        }
-                                    )}
+                                    {
+                                    faction_sub_list.map((faction_sub) =>{
+                                        return (
+                                            <><p className="col-span-2 md:col-span-4 text-center text-xl text-zinc-700 dark:text-zinc-200 pt-5 pb-2">{faction_sub}</p>
+                                            {
+                                                augmentShipData.data?.filter((ship) => {if (ship.faction_sub == faction_sub) return true}).map(
+                                                    (ship) => {
+                                                        return(
+                                                            <>{
+                                                                <Link key={ship.name} className="text-zinc-700 dark:text-zinc-300 text-base text-center w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300 hover:scale-110 border-2 border-transparent hover:border-cyan-400"
+                                                                        href={"/ship/" + ship.name}>
+                                                                        <div className="rounded-lg">
+                                                                            <div>
+                                                                                <div className="flex items-center justify-start w-full">
+                                                                                    <Image
+                                                                                        src={
+                                                                                            "/images/type/" +
+                                                                                            ship.type +
+                                                                                            ".webp"
+                                                                                        }
+                                                                                        alt="type image"
+                                                                                        width="49"
+                                                                                        height="30"
+                                                                                    />
+                                                                                    <div className="inline-block w-full truncate rounded bg-neutral-400 dark:bg-neutral-600">
+                                                                                        <p className="max-w-fit">&nbsp;{ship.name}</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div>
+                                                                                    <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
+                                                                                        <img className="max-h-[150px]" src={ship.chibi} alt="ship chibi image" />
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </Link>
+                                                            }
+                                                            </>
+                                                        )
+                                                    }
+                                                )
+                                            }
+                                            </>
+                                        )
+                                    })
+                                    }
                                 </div>
                             </div>
                         </div>

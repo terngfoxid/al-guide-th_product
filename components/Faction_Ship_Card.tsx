@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Faction_Ship_Card(faction: any) {
   const [shipdata, setShipdata] = useState({
-    data: { error: null, data: [{ name: null, type: null, chibi: null }] },
+    data: { error: null, data: [{ name: null, type: null, chibi: null, faction_sub: null }] },
   });
   const [type, setType] = useState("All Type");
   const [isDropdown, setDropdown] = useState(false);
@@ -90,95 +90,216 @@ export default function Faction_Ship_Card(faction: any) {
 
       const ship_list = [];
       let count = 0;
-      for (count = 0; count < shipdata.data.data.length; count++) {
-        const buffer = count;
-        let hidden = "";
 
-        if (type != "All Type") {
-          if (type == "AE") {
-            if (shipdata.data.data[buffer].type != "AE") hidden = " hidden";
-          } else if (type == "AR") {
-            if (shipdata.data.data[buffer].type != "AR") hidden = " hidden";
-          } else if (type == "BB") {
-            if (shipdata.data.data[buffer].type != "BB") hidden = " hidden";
-          } else if (type == "BBV") {
-            if (shipdata.data.data[buffer].type != "BBV") hidden = " hidden";
-          } else if (type == "BC") {
-            if (shipdata.data.data[buffer].type != "BC") hidden = " hidden";
-          } else if (type == "BM") {
-            if (shipdata.data.data[buffer].type != "BM") hidden = " hidden";
-          } else if (type == "CA") {
-            if (shipdata.data.data[buffer].type != "CA") hidden = " hidden";
-          } else if (type == "CB") {
-            if (shipdata.data.data[buffer].type != "CB") hidden = " hidden";
-          } else if (type == "CL") {
-            if (shipdata.data.data[buffer].type != "CL") hidden = " hidden";
-          } else if (type == "CV") {
-            if (shipdata.data.data[buffer].type != "CV") hidden = " hidden";
-          } else if (type == "CVL") {
-            if (shipdata.data.data[buffer].type != "CVL") hidden = " hidden";
-          } else if (type == "DD") {
-            if (shipdata.data.data[buffer].type != "DD") hidden = " hidden";
-          } else if (type == "IX") {
-            if (shipdata.data.data[buffer].type != "IX") hidden = " hidden";
-          } else if (type == "SS") {
-            if (shipdata.data.data[buffer].type != "SS") hidden = " hidden";
-          } else if (type == "SSV") {
-            if (shipdata.data.data[buffer].type != "SSV") hidden = " hidden";
-          }
-        }
+      if (faction.faction == "Collab") {
+        const faction_sub_list = new Set(shipdata.data.data.filter((ship) => { if (ship.faction_sub != null) return true }).map((ship) => {
+          if (ship.faction_sub != null) return ship.faction_sub
+        }))
 
-        ship_list.push(
-          <div
-            id={(shipdata.data.data[buffer].name + "_box").toLowerCase()}
-            className={"flex justify-center" + hidden}
-          >
-            <Link
-              className={card_style.body_style + " " + card_style.button_style}
-              href={"/ship/" + shipdata.data.data[buffer].name}
-            >
+        faction_sub_list.forEach((value1) => {
+          ship_list.push(<p className="col-span-2 md:col-span-4 text-center text-xl text-zinc-700 dark:text-zinc-200 pt-3 md:pt-7 pb-2">{value1}</p>)
+
+          for (count = 0; count < shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true }).length; count++) {
+            const buffer = count;
+            let hidden = "";
+            if (search != null && search != "") {
+              if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name != null) {
+                let name = "" + shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name
+                if (!name.toLocaleLowerCase().includes(search.toLocaleLowerCase())) {
+                  hidden = " hidden"
+                }
+              }
+            }
+
+            if (type != "All Type") {
+              if (type == "AE") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "AE") hidden = " hidden";
+              } else if (type == "AR") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "AR") hidden = " hidden";
+              } else if (type == "BB") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "BB") hidden = " hidden";
+              } else if (type == "BBV") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "BBV") hidden = " hidden";
+              } else if (type == "BC") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "BC") hidden = " hidden";
+              } else if (type == "BM") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "BM") hidden = " hidden";
+              } else if (type == "CA") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CA") hidden = " hidden";
+              } else if (type == "CB") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CB") hidden = " hidden";
+              } else if (type == "CL") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CL") hidden = " hidden";
+              } else if (type == "CV") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CV") hidden = " hidden";
+              } else if (type == "CVL") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CVL") hidden = " hidden";
+              } else if (type == "DD") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "DD") hidden = " hidden";
+              } else if (type == "IX") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "IX") hidden = " hidden";
+              } else if (type == "SS") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "SS") hidden = " hidden";
+              } else if (type == "SSV") {
+                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "SSV") hidden = " hidden";
+              }
+            }
+
+            ship_list.push(
               <div
-                id={(shipdata.data.data[buffer].name + "").toLowerCase()}
-                className={"rounded-lg"}
+                id={(shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name + "_box").toLowerCase()}
+                className={"flex justify-center" + hidden}
               >
-                <div>
-                  <div className="flex items-center justify-start w-full">
-                    <Image
-                      src={
-                        "/images/type/" +
-                        shipdata.data.data[buffer].type +
-                        ".webp"
-                      }
-                      alt="type image"
-                      width="49"
-                      height="30"
-                    />
-                    <div className="inline-block w-full truncate rounded bg-neutral-400 dark:bg-neutral-600">
-                      <p className="max-w-fit">
-                        &nbsp;{shipdata.data.data[buffer].name}
-                      </p>
+                <Link
+                  className={card_style.body_style + " " + card_style.button_style}
+                  href={"/ship/" + shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name}
+                >
+                  <div
+                    id={(shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name + "").toLowerCase()}
+                    className={"rounded-lg"}
+                  >
+                    <div>
+                      <div className="flex items-center justify-start w-full">
+                        <Image
+                          src={
+                            "/images/type/" +
+                            shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type +
+                            ".webp"
+                          }
+                          alt="type image"
+                          width="49"
+                          height="30"
+                        />
+                        <div className="inline-block w-full truncate rounded bg-neutral-400 dark:bg-neutral-600">
+                          <p className="max-w-fit">
+                            &nbsp;{shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name}
+                          </p>
+                        </div>
+                      </div>
+                      <div>
+                        {shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].chibi != null ? (
+                          <>
+                            <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
+                              <img
+                                className="max-h-[150px]"
+                                src={"" + shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].chibi}
+                                alt="ship chibi image"
+                              />
+                            </div>
+                          </>
+                        ) : (
+                          <></>
+                        )}
+                      </div>
                     </div>
                   </div>
+                </Link>
+              </div>,
+            );
+          }
+        })
+      }
+
+      else {
+        for (count = 0; count < shipdata.data.data.length; count++) {
+          const buffer = count;
+          let hidden = "";
+
+          if (search != null && search != "") {
+            if (shipdata.data.data[buffer].name != null) {
+              let name = "" + shipdata.data.data[buffer].name
+              if (!name.toLocaleLowerCase().includes(search.toLocaleLowerCase())) {
+                hidden = " hidden"
+              }
+            }
+          }
+
+          if (type != "All Type") {
+            if (type == "AE") {
+              if (shipdata.data.data[buffer].type != "AE") hidden = " hidden";
+            } else if (type == "AR") {
+              if (shipdata.data.data[buffer].type != "AR") hidden = " hidden";
+            } else if (type == "BB") {
+              if (shipdata.data.data[buffer].type != "BB") hidden = " hidden";
+            } else if (type == "BBV") {
+              if (shipdata.data.data[buffer].type != "BBV") hidden = " hidden";
+            } else if (type == "BC") {
+              if (shipdata.data.data[buffer].type != "BC") hidden = " hidden";
+            } else if (type == "BM") {
+              if (shipdata.data.data[buffer].type != "BM") hidden = " hidden";
+            } else if (type == "CA") {
+              if (shipdata.data.data[buffer].type != "CA") hidden = " hidden";
+            } else if (type == "CB") {
+              if (shipdata.data.data[buffer].type != "CB") hidden = " hidden";
+            } else if (type == "CL") {
+              if (shipdata.data.data[buffer].type != "CL") hidden = " hidden";
+            } else if (type == "CV") {
+              if (shipdata.data.data[buffer].type != "CV") hidden = " hidden";
+            } else if (type == "CVL") {
+              if (shipdata.data.data[buffer].type != "CVL") hidden = " hidden";
+            } else if (type == "DD") {
+              if (shipdata.data.data[buffer].type != "DD") hidden = " hidden";
+            } else if (type == "IX") {
+              if (shipdata.data.data[buffer].type != "IX") hidden = " hidden";
+            } else if (type == "SS") {
+              if (shipdata.data.data[buffer].type != "SS") hidden = " hidden";
+            } else if (type == "SSV") {
+              if (shipdata.data.data[buffer].type != "SSV") hidden = " hidden";
+            }
+          }
+
+          ship_list.push(
+            <div
+              id={(shipdata.data.data[buffer].name + "_box").toLowerCase()}
+              className={"flex justify-center" + hidden}
+            >
+              <Link
+                className={card_style.body_style + " " + card_style.button_style}
+                href={"/ship/" + shipdata.data.data[buffer].name}
+              >
+                <div
+                  id={(shipdata.data.data[buffer].name + "").toLowerCase()}
+                  className={"rounded-lg"}
+                >
                   <div>
-                    {shipdata.data.data[buffer].chibi != null ? (
-                      <>
-                        <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
-                          <img
-                            className="max-h-[150px]"
-                            src={"" + shipdata.data.data[buffer].chibi}
-                            alt="ship chibi image"
-                          />
-                        </div>
-                      </>
-                    ) : (
-                      <></>
-                    )}
+                    <div className="flex items-center justify-start w-full">
+                      <Image
+                        src={
+                          "/images/type/" +
+                          shipdata.data.data[buffer].type +
+                          ".webp"
+                        }
+                        alt="type image"
+                        width="49"
+                        height="30"
+                      />
+                      <div className="inline-block w-full truncate rounded bg-neutral-400 dark:bg-neutral-600">
+                        <p className="max-w-fit">
+                          &nbsp;{shipdata.data.data[buffer].name}
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                      {shipdata.data.data[buffer].chibi != null ? (
+                        <>
+                          <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
+                            <img
+                              className="max-h-[150px]"
+                              src={"" + shipdata.data.data[buffer].chibi}
+                              alt="ship chibi image"
+                            />
+                          </div>
+                        </>
+                      ) : (
+                        <></>
+                      )}
+                    </div>
                   </div>
                 </div>
-              </div>
-            </Link>
-          </div>,
-        );
+              </Link>
+            </div>,
+          );
+        }
       }
 
       const searchFunction = (event: { preventDefault: () => void }) => {
@@ -209,7 +330,7 @@ export default function Faction_Ship_Card(faction: any) {
           const buffer = count;
           if (
             search.toLowerCase() ==
-              (shipdata.data.data[buffer].name + "").toLowerCase() &&
+            (shipdata.data.data[buffer].name + "").toLowerCase() &&
             (type == shipdata.data.data[buffer].type || type == "All Type")
           ) {
             let access = document.getElementById(
