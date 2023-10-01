@@ -91,7 +91,7 @@ export default function Faction_Ship_Card(faction: any) {
       const ship_list = [];
       let count = 0;
 
-      if (faction.faction == "Collab") {
+      if (faction.faction == "Collab" ||faction.faction == "META") {
         const faction_sub_list = new Set(shipdata.data.data.filter((ship) => { if (ship.faction_sub != null) return true }).map((ship) => {
           if (ship.faction_sub != null) return ship.faction_sub
         }))
