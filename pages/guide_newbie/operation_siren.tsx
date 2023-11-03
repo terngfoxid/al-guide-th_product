@@ -96,6 +96,15 @@ export default function OPSguide() {
                     >
                       บทที่ 5 สิ่งที่ต้องทำในโหมด OPS
                     </button>
+                    <button
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      onClick={() => {
+                        setVideo(6);
+                        move();
+                      }}
+                    >
+                      บทที่ 6 รีเดือนครั้งแรก
+                    </button>
                   </div>
                 </div>
               </div>
@@ -139,6 +148,14 @@ export default function OPSguide() {
                   <iframe
                     className="aspect-video w-full rounded"
                     src="https://www.youtube.com/embed/rtALEkrSSE0"
+                    title="YouTube video player"
+                    allowFullScreen
+                  ></iframe>
+                )}
+                {video == 6 && (
+                  <iframe
+                    className="aspect-video w-full rounded"
+                    src="https://www.youtube.com/embed/cBE3COEZCng"
                     title="YouTube video player"
                     allowFullScreen
                   ></iframe>
