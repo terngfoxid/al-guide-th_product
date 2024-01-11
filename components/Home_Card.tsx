@@ -1,16 +1,17 @@
 export default function Home_Card() {
   const card_style = {
     title_style:
-      "text-zinc-700 dark:text-zinc-200 text-2xl md:text-2xl lg:text-3xl font-bold text-center",
+      "text-zinc-100 text-2xl md:text-2xl lg:text-3xl font-bold text-center",
 
     shape:
-      "bg-cover bg-center bg-neutral-200 w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
+      //"bg-cover bg-center bg-neutral-200 w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
     //bg-neutral-200 dark:bg-neutral-800 test-bg.jpg bg-[url('/images/test-bg.jpg')] aspect-video\
+    "bg-cover bg-center w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border border-gray-300 dark:border-gray-700 bg-[url('/images/HomeBG.jpg')] bg-[left_-3rem_top_0rem] md:bg-[left_0rem_top_-5rem]",
     subshape:
-      "bg-gradient-to-b from-black/0 via-zinc-700/0 to-black/0 rounded-md ",
+      "bg-gradient-to-b from-black/80 via-zinc-800/80 to-black/80 rounded-md ",
     position: "flex justify-center",
     body_style:
-      "py-2 text-zinc-600 dark:text-zinc-300 text-xs md:text-sm lg:text-xl xl:text-2xl 2xl:text-3xl text-center",
+      "py-2 text-zinc-100 text-xs md:text-sm lg:text-xl xl:text-2xl 2xl:text-3xl text-center",
   };
 
   return (
