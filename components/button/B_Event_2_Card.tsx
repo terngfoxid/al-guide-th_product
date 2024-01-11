@@ -101,7 +101,7 @@ export default function B_Event_2_Card() {
       <Link href={"/active_event_slide?event="+activeEvent[1].name.replaceAll(" ", "_")} className="w-full">
         <img
           src={
-            "https://drive.google.com/uc?export=view&id=" +
+            "" +
             activeEvent[1].button
           }
           className={card_style.image_style}

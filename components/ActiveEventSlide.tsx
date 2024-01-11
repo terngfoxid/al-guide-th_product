@@ -124,7 +124,7 @@ export default function ActiveEventCard() {
             >
               <img
                 className="object-scale-down text-center rounded-lg"
-                src={`https://drive.google.com/uc?export=view&id=${activeEvent[activeIndex].banner}`}
+                src={`${activeEvent[activeIndex].banner}`}
                 alt={`${activeEvent[activeIndex].banner} picture`}
               />
             </div>
@@ -324,7 +324,7 @@ export default function ActiveEventCard() {
           {activeEvent[activeIndex].guide && (
             <div id="guide" className="rounded-lg overflow-hidden shadow-md">
               <ZoomableImage
-                src={`https://drive.google.com/uc?export=view&id=${activeEvent[activeIndex].guide}`}
+                src={`${activeEvent[activeIndex].guide}`}
               />
             </div>
           )}

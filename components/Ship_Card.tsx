@@ -162,7 +162,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.skill
                             }
                             alt={shipdata.data.name + " picture"}
@@ -203,7 +203,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.re
                             }
                             alt={shipdata.data.name + " picture"}
@@ -244,7 +244,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.fatesim
                             }
                             alt={shipdata.data.name + " picture"}
@@ -554,7 +554,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.gear
                             }
                             alt={shipdata.data.name + " picture"}
