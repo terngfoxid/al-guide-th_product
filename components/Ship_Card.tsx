@@ -218,7 +218,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.skill_2
                             }
                             alt={shipdata.data.name + " picture_2"}
@@ -259,7 +259,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.skill_3
                             }
                             alt={shipdata.data.name + " picture_3"}
@@ -300,7 +300,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.skill_4
                             }
                             alt={shipdata.data.name + " picture_4"}
@@ -382,7 +382,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.re_2
                             }
                             alt={shipdata.data.name + " picture_2"}
@@ -423,7 +423,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.re_3
                             }
                             alt={shipdata.data.name + " picture_3"}
@@ -464,7 +464,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.re_4
                             }
                             alt={shipdata.data.name + " picture_4"}
@@ -546,7 +546,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.fatesim_2
                             }
                             alt={shipdata.data.name + " picture_2"}
@@ -587,7 +587,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.fatesim_3
                             }
                             alt={shipdata.data.name + " picture_3"}
@@ -628,7 +628,7 @@ export default function Ship_Card(ship: any) {
                           <img
                             className="object-scale-down cursor-zoom-in"
                             src={
-                              "https://drive.google.com/uc?export=view&id=" +
+                              "" +
                               shipdata.data.fatesim_4
                             }
                             alt={shipdata.data.name + " picture_4"}
