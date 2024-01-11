@@ -11,13 +11,28 @@ export default function Ship_Card(ship: any) {
   const [shipdata, setShipdata] = useState({
     data: {
       name: null,
+
       skill: null,
+      skill_2: null,
+      skill_3: null,
+      skill_4: null,
+
       faction: null,
       type: null,
       error: null,
+
       re: null,
+      re_2: null,
+      re_3: null,
+      re_4: null,
+
       faction_short: null,
+
       fatesim: null,
+      fatesim_2: null,
+      fatesim_3: null,
+      fatesim_4: null,
+
       chibi: null,
       gear: null,
       history: null,
@@ -196,9 +211,132 @@ export default function Ship_Card(ship: any) {
                       <></>
                     )}
 
+                    {shipdata.data.skill_2 != null ? (
+                      <>
+                        <p className="pt-[20px]">หน้าที่ 2</p>
+                        <div id="skill_2">
+                          <img
+                            className="object-scale-down cursor-zoom-in"
+                            src={
+                              "https://drive.google.com/uc?export=view&id=" +
+                              shipdata.data.skill_2
+                            }
+                            alt={shipdata.data.name + " picture_2"}
+                            onClick={() => {
+                              const element = document.getElementById("skill_2")!;
+                              element.classList.toggle("overflow-scroll");
+                              element.classList.toggle("fixed");
+                              element.classList.toggle("inset-0");
+                              element.classList.toggle("cursor-zoom-in");
+                              element.classList.toggle("cursor-zoom-out");
+                              element.classList.toggle("bg-black");
+
+                              element.scrollIntoView();
+
+                              const chibi = document.getElementById("shipchibi")!;
+                              chibi.classList.toggle("hidden");
+
+                              const BTT = document.getElementById("BTT")!;
+                              BTT.classList.toggle("hidden");
+
+                              const shipData3 = document.getElementById("shipdata3")!;
+                              shipData3 != null && (shipData3.classList.toggle("hidden"));
+
+                              const shipData2 = document.getElementById("shipdata2")!;
+                              shipData2 != null && (shipData2.classList.toggle("hidden"));
+                            }}
+                          ></img>
+                        </div>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.skill_3 != null ? (
+                      <>
+                        <p className="pt-[20px]">หน้าที่ 3</p>
+                        <div id="skill_3">
+                          <img
+                            className="object-scale-down cursor-zoom-in"
+                            src={
+                              "https://drive.google.com/uc?export=view&id=" +
+                              shipdata.data.skill_3
+                            }
+                            alt={shipdata.data.name + " picture_3"}
+                            onClick={() => {
+                              const element = document.getElementById("skill_3")!;
+                              element.classList.toggle("overflow-scroll");
+                              element.classList.toggle("fixed");
+                              element.classList.toggle("inset-0");
+                              element.classList.toggle("cursor-zoom-in");
+                              element.classList.toggle("cursor-zoom-out");
+                              element.classList.toggle("bg-black");
+
+                              element.scrollIntoView();
+
+                              const chibi = document.getElementById("shipchibi")!;
+                              chibi.classList.toggle("hidden");
+
+                              const BTT = document.getElementById("BTT")!;
+                              BTT.classList.toggle("hidden");
+
+                              const shipData3 = document.getElementById("shipdata3")!;
+                              shipData3 != null && (shipData3.classList.toggle("hidden"));
+
+                              const shipData2 = document.getElementById("shipdata2")!;
+                              shipData2 != null && (shipData2.classList.toggle("hidden"));
+                            }}
+                          ></img>
+                        </div>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.skill_4 != null ? (
+                      <>
+                        <p className="pt-[20px]">หน้าที่ 4</p>
+                        <div id="skill_4">
+                          <img
+                            className="object-scale-down cursor-zoom-in"
+                            src={
+                              "https://drive.google.com/uc?export=view&id=" +
+                              shipdata.data.skill_4
+                            }
+                            alt={shipdata.data.name + " picture_4"}
+                            onClick={() => {
+                              const element = document.getElementById("skill_4")!;
+                              element.classList.toggle("overflow-scroll");
+                              element.classList.toggle("fixed");
+                              element.classList.toggle("inset-0");
+                              element.classList.toggle("cursor-zoom-in");
+                              element.classList.toggle("cursor-zoom-out");
+                              element.classList.toggle("bg-black");
+
+                              element.scrollIntoView();
+
+                              const chibi = document.getElementById("shipchibi")!;
+                              chibi.classList.toggle("hidden");
+
+                              const BTT = document.getElementById("BTT")!;
+                              BTT.classList.toggle("hidden");
+
+                              const shipData3 = document.getElementById("shipdata3")!;
+                              shipData3 != null && (shipData3.classList.toggle("hidden"));
+
+                              const shipData2 = document.getElementById("shipdata2")!;
+                              shipData2 != null && (shipData2.classList.toggle("hidden"));
+                            }}
+                          ></img>
+                        </div>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
                     {shipdata.data.re != null ? (
                       <>
-                        <p>Retrofit</p>
+                        <p className="pt-[20px]">Retrofit</p>
                         <div id="re">
                           <img
                             className="object-scale-down cursor-zoom-in"
@@ -237,9 +375,132 @@ export default function Ship_Card(ship: any) {
                       <></>
                     )}
 
+                    {shipdata.data.re_2 != null ? (
+                      <>
+                        <p className="pt-[20px]">Retrofit หน้าที่ 2</p>
+                        <div id="re_2">
+                          <img
+                            className="object-scale-down cursor-zoom-in"
+                            src={
+                              "https://drive.google.com/uc?export=view&id=" +
+                              shipdata.data.re_2
+                            }
+                            alt={shipdata.data.name + " picture_2"}
+                            onClick={() => {
+                              const element = document.getElementById("re_2")!;
+                              element.classList.toggle("overflow-scroll");
+                              element.classList.toggle("fixed");
+                              element.classList.toggle("inset-0");
+                              element.classList.toggle("cursor-zoom-in");
+                              element.classList.toggle("cursor-zoom-out");
+                              element.classList.toggle("bg-black");
+
+                              element.scrollIntoView();
+
+                              const chibi = document.getElementById("shipchibi")!;
+                              chibi.classList.toggle("hidden");
+
+                              const BTT = document.getElementById("BTT")!;
+                              BTT.classList.toggle("hidden");
+
+                              const shipData3 = document.getElementById("shipdata3")!;
+                              shipData3 != null && (shipData3.classList.toggle("hidden"));
+
+                              const sdGear = document.getElementById("SDgear")!;
+                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                            }}
+                          ></img>
+                        </div>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.re_3 != null ? (
+                      <>
+                        <p className="pt-[20px]">Retrofit หน้าที่ 3</p>
+                        <div id="re_3">
+                          <img
+                            className="object-scale-down cursor-zoom-in"
+                            src={
+                              "https://drive.google.com/uc?export=view&id=" +
+                              shipdata.data.re_3
+                            }
+                            alt={shipdata.data.name + " picture_3"}
+                            onClick={() => {
+                              const element = document.getElementById("re_3")!;
+                              element.classList.toggle("overflow-scroll");
+                              element.classList.toggle("fixed");
+                              element.classList.toggle("inset-0");
+                              element.classList.toggle("cursor-zoom-in");
+                              element.classList.toggle("cursor-zoom-out");
+                              element.classList.toggle("bg-black");
+
+                              element.scrollIntoView();
+
+                              const chibi = document.getElementById("shipchibi")!;
+                              chibi.classList.toggle("hidden");
+
+                              const BTT = document.getElementById("BTT")!;
+                              BTT.classList.toggle("hidden");
+
+                              const shipData3 = document.getElementById("shipdata3")!;
+                              shipData3 != null && (shipData3.classList.toggle("hidden"));
+
+                              const sdGear = document.getElementById("SDgear")!;
+                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                            }}
+                          ></img>
+                        </div>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.re_4 != null ? (
+                      <>
+                        <p className="pt-[20px]">Retrofit หน้าที่ 4</p>
+                        <div id="re_4">
+                          <img
+                            className="object-scale-down cursor-zoom-in"
+                            src={
+                              "https://drive.google.com/uc?export=view&id=" +
+                              shipdata.data.re_4
+                            }
+                            alt={shipdata.data.name + " picture_4"}
+                            onClick={() => {
+                              const element = document.getElementById("re_4")!;
+                              element.classList.toggle("overflow-scroll");
+                              element.classList.toggle("fixed");
+                              element.classList.toggle("inset-0");
+                              element.classList.toggle("cursor-zoom-in");
+                              element.classList.toggle("cursor-zoom-out");
+                              element.classList.toggle("bg-black");
+
+                              element.scrollIntoView();
+
+                              const chibi = document.getElementById("shipchibi")!;
+                              chibi.classList.toggle("hidden");
+
+                              const BTT = document.getElementById("BTT")!;
+                              BTT.classList.toggle("hidden");
+
+                              const shipData3 = document.getElementById("shipdata3")!;
+                              shipData3 != null && (shipData3.classList.toggle("hidden"));
+
+                              const sdGear = document.getElementById("SDgear")!;
+                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                            }}
+                          ></img>
+                        </div>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
                     {shipdata.data.fatesim != null ? (
                       <>
-                        <p>Fate Simulation</p>
+                        <p className="pt-[20px]">Fate Simulation</p>
                         <div id="fatesim">
                           <img
                             className="object-scale-down cursor-zoom-in"
@@ -250,6 +511,129 @@ export default function Ship_Card(ship: any) {
                             alt={shipdata.data.name + " picture"}
                             onClick={() => {
                               const element = document.getElementById("fatesim")!;
+                              element.classList.toggle("overflow-scroll");
+                              element.classList.toggle("fixed");
+                              element.classList.toggle("inset-0");
+                              element.classList.toggle("cursor-zoom-in");
+                              element.classList.toggle("cursor-zoom-out");
+                              element.classList.toggle("bg-black");
+
+                              element.scrollIntoView();
+
+                              const chibi = document.getElementById("shipchibi")!;
+                              chibi.classList.toggle("hidden");
+
+                              const BTT = document.getElementById("BTT")!;
+                              BTT.classList.toggle("hidden");
+
+                              const shipData3 = document.getElementById("shipdata3")!;
+                              shipData3 != null && (shipData3.classList.toggle("hidden"));
+
+                              const sdGear = document.getElementById("SDgear")!;
+                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                            }}
+                          ></img>
+                        </div>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.fatesim_2 != null ? (
+                      <>
+                        <p className="pt-[20px]">Fate Simulation หน้าที่ 2</p>
+                        <div id="fatesim_2">
+                          <img
+                            className="object-scale-down cursor-zoom-in"
+                            src={
+                              "https://drive.google.com/uc?export=view&id=" +
+                              shipdata.data.fatesim_2
+                            }
+                            alt={shipdata.data.name + " picture_2"}
+                            onClick={() => {
+                              const element = document.getElementById("fatesim_2")!;
+                              element.classList.toggle("overflow-scroll");
+                              element.classList.toggle("fixed");
+                              element.classList.toggle("inset-0");
+                              element.classList.toggle("cursor-zoom-in");
+                              element.classList.toggle("cursor-zoom-out");
+                              element.classList.toggle("bg-black");
+
+                              element.scrollIntoView();
+
+                              const chibi = document.getElementById("shipchibi")!;
+                              chibi.classList.toggle("hidden");
+
+                              const BTT = document.getElementById("BTT")!;
+                              BTT.classList.toggle("hidden");
+
+                              const shipData3 = document.getElementById("shipdata3")!;
+                              shipData3 != null && (shipData3.classList.toggle("hidden"));
+
+                              const sdGear = document.getElementById("SDgear")!;
+                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                            }}
+                          ></img>
+                        </div>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.fatesim_3 != null ? (
+                      <>
+                        <p className="pt-[20px]">Fate Simulation หน้าที่ 3</p>
+                        <div id="fatesim_3">
+                          <img
+                            className="object-scale-down cursor-zoom-in"
+                            src={
+                              "https://drive.google.com/uc?export=view&id=" +
+                              shipdata.data.fatesim_3
+                            }
+                            alt={shipdata.data.name + " picture_3"}
+                            onClick={() => {
+                              const element = document.getElementById("fatesim_3")!;
+                              element.classList.toggle("overflow-scroll");
+                              element.classList.toggle("fixed");
+                              element.classList.toggle("inset-0");
+                              element.classList.toggle("cursor-zoom-in");
+                              element.classList.toggle("cursor-zoom-out");
+                              element.classList.toggle("bg-black");
+
+                              element.scrollIntoView();
+
+                              const chibi = document.getElementById("shipchibi")!;
+                              chibi.classList.toggle("hidden");
+
+                              const BTT = document.getElementById("BTT")!;
+                              BTT.classList.toggle("hidden");
+
+                              const shipData3 = document.getElementById("shipdata3")!;
+                              shipData3 != null && (shipData3.classList.toggle("hidden"));
+
+                              const sdGear = document.getElementById("SDgear")!;
+                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                            }}
+                          ></img>
+                        </div>
+                      </>
+                    ) : (
+                      <></>
+                    )}
+
+                    {shipdata.data.fatesim_4 != null ? (
+                      <>
+                        <p className="pt-[20px]">Fate Simulation หน้าที่ 4</p>
+                        <div id="fatesim_4">
+                          <img
+                            className="object-scale-down cursor-zoom-in"
+                            src={
+                              "https://drive.google.com/uc?export=view&id=" +
+                              shipdata.data.fatesim_4
+                            }
+                            alt={shipdata.data.name + " picture_4"}
+                            onClick={() => {
+                              const element = document.getElementById("fatesim_4")!;
                               element.classList.toggle("overflow-scroll");
                               element.classList.toggle("fixed");
                               element.classList.toggle("inset-0");
@@ -391,7 +775,7 @@ export default function Ship_Card(ship: any) {
                         ) : (
                           <></>
                         )}
-                      <br></br>
+                        <br></br>
                       </>
                     ) : (
                       <></>
@@ -421,7 +805,7 @@ export default function Ship_Card(ship: any) {
                         ) : (
                           <></>
                         )}
-                      <br></br>
+                        <br></br>
                       </>
                     ) : (
                       <></>
@@ -451,7 +835,7 @@ export default function Ship_Card(ship: any) {
                         ) : (
                           <></>
                         )}
-                      <br></br>
+                        <br></br>
                       </>
                     ) : (
                       <></>
@@ -481,7 +865,7 @@ export default function Ship_Card(ship: any) {
                         ) : (
                           <></>
                         )}
-                      <br></br>
+                        <br></br>
                       </>
                     ) : (
                       <></>
