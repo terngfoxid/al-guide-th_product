@@ -7,6 +7,8 @@ import { Slide } from "./Slide";
 import { ZoomableImage } from "./ZoomableImage";
 import { useRouter } from "next/router";
 import Loading from "./overlay/Loading";
+import Carroussel from "./Carroussel";
+import { uuid } from "uuidv4";
 
 type ActiveEvent = {
   name: string;
@@ -24,7 +26,6 @@ type ActiveEvent = {
     type: string;
     image: string;
     chibi: string;
-    desc: string;
   }[];
 
   note: {
@@ -89,6 +90,30 @@ export default function ActiveEventCard() {
       </div>
     );
   } else {
+
+    let cards: { key: string; content: JSX.Element; }[] = [
+    ];
+    activeEvent[activeIndex].ships?.forEach(
+      (ship) => {
+        cards.push(
+          {
+            key: uuid(),
+            content: <div className="relative max-h-[200px] md:max-h-[360px] xl:max-h-[500px] w-[220px] sm:w-[330px] md:w-[400px] lg:w-[500px] overflow-visible flex items-center justify-center">
+              <img
+                src={ship.image}
+                key={ship.image}
+                alt={ship.image}
+                className="h-[220px] sm:h-[350px] md:h-[400px] lg:h-[600px] object-center aspect-square flex-shrink-0"
+              />
+              <p className="flex justify-center max-w-none w-max px-[5px] lg:px-[20px] py-[3px] lg:py-[12px] absolute left-1/2 transform -translate-x-1/2 bottom-[5px] lg:bottom-[20px] rounded rounded-md border border-gray-600 shadow-lg bg-neutral-800 text-neutral-200 dark:text-gray-300 text-lg lg:text-xl">
+                {ship.faction_short} {ship.name}
+              </p>
+            </div>
+          },
+        )
+      }
+    )
+
     return (
       <article key={`event-idx-${activeIndex}`}>
         {activeEvent[activeIndex].chibi && (
@@ -133,51 +158,16 @@ export default function ActiveEventCard() {
           {activeEvent[activeIndex].ships?.length > 0 && (
             <div
               id="ships-slide"
-              className="border hidden md:block border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800"
+              className="overflow-hidden border hidden md:block border-gray-300 dark:border-gray-700  rounded-lg shadow-md bg-[url('/images/BG_Fort.png')] dark:bg-[url('/images/BG_Fort_night.png')] bg-cover bg-center md:aspect-[21/14] lg:aspect-[21/10]"
             >
-              <Slide>
-                {activeEvent[activeIndex].ships.map((ship) => {
-                  return (
-                    <div
-                      key={ship.name}
-                      className="aspect-[21/9] px-10 pb-8 bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/MainDayBG.webp')] dark:bg-[url('/images/MainTwilightBG.webp')]"
-                    >
-                      <Link href={`/ship/${ship.name}`}>
-                        <div className="flex w-full h-full flex-row">
-                          <img
-                            src={ship.image}
-                            key={ship.image}
-                            alt={ship.image}
-                            className="z-40 object-scale-down aspect-square origin-[40%_40%] flex-shrink-0"
-                          />
-                          <div className="z-50 h-full p-4 w-full">
-                            <div className="w-full h-full p-4 overflow-y-auto rounded-lg bg-neutral-200 dark:bg-neutral-900 bg-opacity-80 dark:bg-opacity-80">
-                              <div className="flex items-center mb-5">
-                                <img
-                                  className="inline h-8 mr-1 align-middle"
-                                  src={`/images/type/${ship.type}.webp`}
-                                  alt={ship.type}
-                                />
-                                <span className="text-xl lg:text-4xl">
-                                  {(
-                                    (ship.faction_short ?? "") +
-                                    " " +
-                                    ship.name
-                                  ).trim()}
-                                </span>
-                              </div>
-                              <Markdown options={{ wrapper: "article" }}>
-                                {ship.desc.replace(/\\n/g, "\n") ??
-                                  "ไม่มีข้อมูล"}
-                              </Markdown>
-                            </div>
-                          </div>
-                        </div>
-                      </Link>
-                    </div>
-                  );
-                })}
-              </Slide>
+              <Carroussel
+                cards={cards}
+                height="100%"
+                width="90%"
+                margin="0 auto"
+                offset={2}
+                showArrows={false}
+              />
             </div>
           )}
 

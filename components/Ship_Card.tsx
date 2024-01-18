@@ -4,6 +4,8 @@ import Chibi from "./overlay/Chibi";
 import "animate.css";
 import Link from "next/link";
 import Cut_String from "./functional/Cut_String";
+import Carroussel from "./Carroussel";
+import { uuid } from "uuidv4";
 
 export default function Ship_Card(ship: any) {
   let elementRef = useRef<HTMLImageElement>(null);
@@ -60,6 +62,15 @@ export default function Ship_Card(ship: any) {
       guide_skill_6_note: null,
 
       ship_note: null,
+
+      skins: [
+        {
+          name: "",
+          image: "",
+          price: "",
+          released: ""
+        }
+      ]
     },
   });
 
@@ -149,6 +160,91 @@ export default function Ship_Card(ship: any) {
         "text-zinc-600 dark:text-zinc-400 text-base md:text-lg xl:text-xl 2xl:text-2xl w-11/12 md:w-3/4 border border-gray-500/10 p-2 rounded text-left",
     };
 
+    let cards: { key: string; content: JSX.Element; }[] = [
+    ];
+    console.log(shipdata.data.skins);
+    if (shipdata.data.skins != null) {
+      shipdata.data.skins.forEach(
+        (skin) => {
+          cards.push(
+            {
+              key: uuid(),
+              content: <div className="relative max-h-[200px] md:max-h-[360px] xl:max-h-[500px] w-[220px] sm:w-[330px] md:w-[400px] lg:w-[500px] overflow-visible flex items-center justify-center">
+                <img
+                  src={skin.image}
+                  key={skin.image}
+                  alt={skin.image}
+                  className="h-[220px] sm:h-[350px] md:h-[400px] lg:h-[600px] object-center aspect-square flex-shrink-0"
+                />
+
+                <div className="max-w-none w-max px-[5px] lg:px-[20px] py-[3px] lg:py-[12px] absolute left-1/2 transform -translate-x-1/2 bottom-[5px] lg:bottom-[20px] rounded rounded-md border border-gray-600 shadow-lg bg-neutral-800 text-neutral-200 dark:text-gray-300 text-xs md:text-lg lg:text-xl">
+                  <p className="text-center">{skin.name}</p>
+                  <div className="flex justify-between gap-x-[5px] lg:gap-x-[30px] ">
+                    {skin.price && (
+                        <div className="flex gap-x-[5px] pt-[2px] md:pt-[10px]">
+                          <img
+                            src="/images/Ruby.png"
+                            key="ruby"
+                            alt="ruby"
+                            className=""
+                          />
+                          <p>{skin.price}</p>
+                        </div>
+                    )}
+                    {skin.released && (
+                          <p className="pt-[2px] md:pt-[10px]">{skin.released}</p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            },
+          )
+        }
+      )
+      if (shipdata.data.skins.length < 3 && shipdata.data.skins.length > 1) {
+
+        shipdata.data.skins.forEach(
+          (skin) => {
+            cards.push(
+              {
+                key: uuid(),
+                content: <div className="relative max-h-[200px] md:max-h-[360px] xl:max-h-[500px] w-[220px] sm:w-[330px] md:w-[400px] lg:w-[500px] overflow-visible flex items-center justify-center">
+                  <img
+                    src={skin.image}
+                    key={skin.image}
+                    alt={skin.image}
+                    className="h-[220px] sm:h-[350px] md:h-[400px] lg:h-[600px] object-center aspect-square flex-shrink-0"
+                  />
+
+                  <div className="max-w-none w-max px-[5px] lg:px-[20px] py-[3px] lg:py-[12px] absolute left-1/2 transform -translate-x-1/2 bottom-[5px] lg:bottom-[20px] rounded rounded-md border border-gray-600 shadow-lg bg-neutral-800 text-neutral-200 dark:text-gray-300 text-xs md:text-lg lg:text-xl">
+                    <p className="text-center">{skin.name}</p>
+                    <div className="flex justify-between gap-x-[5px] lg:gap-x-[30px]">
+                      {skin.price && (
+                        <>
+                          <div className="flex gap-x-[5px] pt-[2px] md:pt-[10px]">
+                            <img
+                              src="/images/Ruby.png"
+                              key="ruby"
+                              alt="ruby"
+                              className=""
+                            />
+                            <p>{skin.price}</p>
+                          </div>
+                        </>
+                      )}
+                      {skin.released && (
+                          <p className="pt-[2px] md:pt-[10px]">{skin.released}</p>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              },
+            )
+          }
+        )
+      }
+    }
+
     return (
       <div>
         <div id="shipdata">
@@ -170,7 +266,6 @@ export default function Ship_Card(ship: any) {
                 <p>Type: {shipdata.data.type}</p>
                 <div className="flex justify-center">
                   <div className="w-11/12 md:w-11/12">
-                    <p className="py-2 text-xs">(รูปอาจจะโหลดช้าหน่อยนะ)</p>
                     {shipdata.data.skill != null ? (
                       <>
                         <div id="skill">
@@ -203,6 +298,9 @@ export default function Ship_Card(ship: any) {
 
                               const shipData2 = document.getElementById("shipdata2")!;
                               shipData2 != null && (shipData2.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -244,6 +342,9 @@ export default function Ship_Card(ship: any) {
 
                               const shipData2 = document.getElementById("shipdata2")!;
                               shipData2 != null && (shipData2.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -285,6 +386,9 @@ export default function Ship_Card(ship: any) {
 
                               const shipData2 = document.getElementById("shipdata2")!;
                               shipData2 != null && (shipData2.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -326,6 +430,9 @@ export default function Ship_Card(ship: any) {
 
                               const shipData2 = document.getElementById("shipdata2")!;
                               shipData2 != null && (shipData2.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -366,7 +473,10 @@ export default function Ship_Card(ship: any) {
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
                               const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              sdGear != null && (sdGear.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -407,7 +517,10 @@ export default function Ship_Card(ship: any) {
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
                               const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              sdGear != null && (sdGear.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -448,7 +561,10 @@ export default function Ship_Card(ship: any) {
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
                               const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              sdGear != null && (sdGear.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -489,7 +605,10 @@ export default function Ship_Card(ship: any) {
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
                               const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              sdGear != null && (sdGear.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -530,7 +649,10 @@ export default function Ship_Card(ship: any) {
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
                               const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              sdGear != null && (sdGear.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -571,7 +693,10 @@ export default function Ship_Card(ship: any) {
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
                               const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              sdGear != null && (sdGear.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -612,7 +737,10 @@ export default function Ship_Card(ship: any) {
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
                               const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              sdGear != null && (sdGear.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -653,7 +781,10 @@ export default function Ship_Card(ship: any) {
                               shipData3 != null && (shipData3.classList.toggle("hidden"));
 
                               const sdGear = document.getElementById("SDgear")!;
-                              sdGear != null && (shipData3.classList.toggle("hidden"));
+                              sdGear != null && (sdGear.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -667,6 +798,29 @@ export default function Ship_Card(ship: any) {
               <br></br>
             </div>
           </div>
+
+          {
+            shipdata.data.skins != null && shipdata.data.skins.length > 0 ?
+              <>
+                <br></br>
+                <div className="flex justify-center">
+                  <div
+                    id="ships-slide"
+                    className="w-11/12 md:w-5/6 2xl:w-full overflow-hidden border border-gray-300 dark:border-gray-700  rounded-lg shadow-md bg-[url('/images/Skin_BG.png')] bg-cover bg-center aspect-[21/14] lg:aspect-[21/10]"
+                  >
+                    <Carroussel
+                      cards={cards}
+                      height="100%"
+                      width="90%"
+                      margin="0 auto"
+                      offset={2}
+                      showArrows={false}
+                    />
+                  </div>
+                </div>
+              </>
+              : <></>
+          }
 
           {shipdata.data.aoa != null ||
             shipdata.data.ship_note != null ||
@@ -964,6 +1118,9 @@ export default function Ship_Card(ship: any) {
 
                               const sdGear = document.getElementById("SDgear")!;
                               sdGear != null && (sdGear.classList.toggle("hidden"));
+
+                              const shipsslide = document.getElementById("ships-slide")!;
+                              shipsslide != null && (shipsslide.classList.toggle("hidden"));
                             }}
                           ></img>
                         </div>
@@ -972,7 +1129,7 @@ export default function Ship_Card(ship: any) {
                   </div>
                   <br></br>
                   <div id="SDgear" className="absolute right-0 z-0 w-1/6 h-10 top-2 md:w-max">
-                    <div className="animate__animated animate__fadeInRight animate__delay-1s animate__slow">
+                    <div className="w-[60px] md:w-[100px] animate__animated animate__fadeInRight animate__delay-1s animate__slow">
                       {shipdata.data.type == "CV" &&
                         shipdata.data.faction == "Sakura Empire" ? (
                         <>
