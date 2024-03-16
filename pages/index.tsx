@@ -11,6 +11,7 @@ import BackToTop from "../components/overlay/BackToTop";
 import ButtonAugmentation from "@/components/button/ButtonAugmentation";
 
 import { NextSeo } from "next-seo";
+import ButtonMetaShowdown from "@/components/button/ButtonMetaShowdown";
 
 export default function Home() {
   return (
@@ -42,9 +43,10 @@ export default function Home() {
                   <B_Event_Card />
                   <B_Event_2_Card />
                   <ButtonGuideNewbie />
+                  <ButtonAugmentation />
+                  <ButtonMetaShowdown />
                   <B_Meaw_Card />
                   <ButtonGuideResearchSY />
-                  <ButtonAugmentation />
               </div>
             </div>
           </div>

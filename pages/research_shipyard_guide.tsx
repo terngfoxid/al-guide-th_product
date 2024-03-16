@@ -20,7 +20,7 @@ type prShipData = {
   ],
 }[];
 
-export default function ActiveEventDev() {
+export default function ResearchPR() {
 
   const [activePrShipData, setActivePrShipData] = useState<prShipData | null>(null);
 

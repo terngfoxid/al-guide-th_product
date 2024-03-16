@@ -4,11 +4,14 @@ export const AutoConvertText: React.FC<{
   className?: string;
 }> = function ({ children, className }) {
 
+let newStr:string
+newStr = children.toString();
 //convert position to link
-let newStr = children.replace("กองหน้า",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/guide_newbie/basic_formation">กองหน้า</a>')
+newStr = newStr.replace("กองหน้า",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/guide_newbie/basic_formation">กองหน้า</a>')
 newStr = newStr.replace("กองหลัง",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/guide_newbie/basic_formation">กองหลัง</a>')
 
 //convert faction to link
+newStr = newStr.replace("Faction",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/ship">Faction</a>')
 newStr = newStr.replace("Eagle Union",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Eagle Union">Eagle Union</a>')
 newStr = newStr.replace("Royal Navy",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Royal Navy">Royal Navy</a>')
 newStr = newStr.replace("Sakura Empire",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Sakura Empire">Sakura Empire</a>')
@@ -18,6 +21,10 @@ newStr = newStr.replace("Northern Parliament",'<a class="mx-1 px-1 rounded-md ho
 newStr = newStr.replace("Iris Libre",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Iris Libre">Iris Libre</a>')
 newStr = newStr.replace("Vichya Dominion",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Vichya Dominion">Vichya Dominion</a>')
 newStr = newStr.replace("Sardegna Empire",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Sardegna Empire">Sardegna Empire</a>')
+//other faction to link
+newStr = newStr.replace("META",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/META">META</a>')
+newStr = newStr.replace("Tempesta",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Tempesta">Tempesta</a>')
+newStr = newStr.replace("Collab",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Collab">Collab</a>')
 
 //retrofit link
 newStr = newStr.replace("แปลน Retrofit Destroyer",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/guide_newbie/retrofit">แปลน Retrofit Destroyer</a>')

@@ -20,7 +20,7 @@ type ShipData = {
 
 const faction = ["Eagle Union", "Royal Navy", "Sakura Empire", "Iron Blood", "Dragon Empery", "Northern Parliament", "Iris Libre", "Vichya Dominion", "Sardegna Empire"]
 
-export default function ActiveEventDev() {
+export default function AugmentPage() {
 
     const [augmentShipData, setAugmentShipData] = useState<ShipData | null>(null);
 
