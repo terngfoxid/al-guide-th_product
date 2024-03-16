@@ -18,7 +18,6 @@ export default function Faction_Ship_Card(faction: any) {
   const callAPI = async () => {
     try {
       const res = await fetch("/api/faction/" + faction.faction);
-      //const res = await fetch('https://al-guide-th.vercel.app/api/faction/' + faction.faction);
       const loaddata = await res.json();
       setShipdata({ data: loaddata });
       return;
@@ -97,7 +96,7 @@ export default function Faction_Ship_Card(faction: any) {
         }))
 
         faction_sub_list.forEach((value1) => {
-          ship_list.push(<p className="col-span-2 md:col-span-4 text-center text-xl text-zinc-700 dark:text-zinc-200 pt-3 md:pt-7 pb-2">{value1}</p>)
+          ship_list.push(<p className="col-span-2 md:col-span-4 text-center text-xl text-zinc-700 dark:text-zinc-200 pt-3 md:pt-7 pb-2" key={value1}>{value1}</p>)
 
           for (count = 0; count < shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true }).length; count++) {
             const buffer = count;
@@ -148,7 +147,7 @@ export default function Faction_Ship_Card(faction: any) {
             ship_list.push(
               <div
                 id={(shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name + "_box").toLowerCase()}
-                className={"flex justify-center" + hidden}
+                className={"flex justify-center" + hidden} key={(shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name + "_box").toLowerCase()}
               >
                 <Link
                   className={card_style.body_style + " " + card_style.button_style}
@@ -252,6 +251,7 @@ export default function Faction_Ship_Card(faction: any) {
             <div
               id={(shipdata.data.data[buffer].name + "_box").toLowerCase()}
               className={"flex justify-center" + hidden}
+              key={(shipdata.data.data[buffer].name + "_box").toLowerCase()}
             >
               <Link
                 className={card_style.body_style + " " + card_style.button_style}
@@ -424,9 +424,9 @@ export default function Faction_Ship_Card(faction: any) {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          fill-rule="evenodd"
+                          fillRule="evenodd"
                           d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                          clip-rule="evenodd"
+                          clipRule="evenodd"
                         ></path>
                       </svg>
                     </button>
@@ -650,9 +650,9 @@ export default function Faction_Ship_Card(faction: any) {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                           ></path>
                         </svg>

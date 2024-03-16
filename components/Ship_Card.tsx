@@ -7,7 +7,7 @@ import Cut_String from "./functional/Cut_String";
 import Carroussel from "./Carroussel";
 import { uuid } from "uuidv4";
 
-export default function Ship_Card(ship: any) {
+export default function Ship_Card(ship: {ship:string}) {
   let elementRef = useRef<HTMLImageElement>(null);
 
   const [shipdata, setShipdata] = useState({
@@ -77,14 +77,8 @@ export default function Ship_Card(ship: any) {
   const callAPI = async () => {
     try {
       const res = await fetch("/api/ship/" + ship.ship.toLowerCase());
-      //const res = await fetch('https://al-guide-th.vercel.app/api/ship/' + ship.ship.toLowerCase());
-
       const loaddata = await res.json();
       setShipdata({ data: loaddata });
-      localStorage.setItem(
-        "" + ship.ship.replaceAll("_", " ").toLowerCase(),
-        JSON.stringify(loaddata),
-      );
       return;
     } catch (err) {
       console.log(err);
@@ -92,17 +86,7 @@ export default function Ship_Card(ship: any) {
   };
 
   useEffect(() => {
-    const buffername = ship.ship.replaceAll("_", " ").toLowerCase();
-
-    const localdata = localStorage.getItem("" + buffername);
-    if (
-      localdata != null &&
-      JSON.parse(localdata).name.toLowerCase() == buffername
-    ) {
-      setShipdata({ data: JSON.parse(localdata) });
-    } else {
       callAPI();
-    }
   }, []);
 
   if (shipdata.data.name == null && shipdata.data.error == null) {

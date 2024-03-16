@@ -3,6 +3,7 @@ import BackToTop from "../components/overlay/BackToTop";
 import { NextSeo } from "next-seo";
 import Loading from "@/components/overlay/Loading";
 import { AutoConvertText } from "@/components/functional/AutoConvertText";
+import Cut_String from "@/components/functional/Cut_String";
 
 type Boss = [
     {
@@ -168,18 +169,20 @@ export default function MetaShowdownPage() {
                                                 <div className="md:ml-[30px]">
                                                     <h3 className="text-md md:text-lg text-zinc-700 dark:text-zinc-300 2xl:text-2xl">{bossData[index].name}</h3>
                                                     <h4 className="text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">ข้อมูลเบื้องต้น</h4>
-                                                    <div className="flex gap-[5px] text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">ประเภท: 
-                                                            <img
-                                                                src={`/images/type/${bossData[index].type}.webp`}
-                                                                alt="ship type"
-                                                                className="w-[30px] sm:w-[30px] h-full"
-                                                            />
-                                                    {bossData[index].type}
+                                                    <div className="flex gap-[5px] text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">ประเภท:
+                                                        <img
+                                                            src={`/images/type/${bossData[index].type}.webp`}
+                                                            alt="ship type"
+                                                            className="w-[30px] sm:w-[30px] h-full"
+                                                        />
+                                                        {bossData[index].type}
                                                     </div>
                                                     <p className="text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">เกราะ: {bossData[index].armor}</p>
                                                 </div>
                                             </div>
-                                            <p className="text-md lg:text-lg text-zinc-700 dark:text-zinc-300 xl:text-xl mt-[10px]">ข้อมูลอื่นๆ: {bossData[index].meta_showdown_comment}</p>
+                                            <div className="text-md lg:text-lg text-zinc-700 dark:text-zinc-300 xl:text-xl mt-[10px]">
+                                                <Cut_String text={"ข้อมูลอื่นๆ: " + bossData[index].meta_showdown_comment}></Cut_String>
+                                            </div>
                                         </div>
                                         <div className="mt-[10px] md:ml-[20px] md:ml-[5px] p-[10px] w-full lg:w-max">
                                             <h4 className="text-xl text-zinc-700 dark:text-zinc-300 md:text-2xl lg:text-3xl text-center lg:text-start">

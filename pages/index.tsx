@@ -33,12 +33,11 @@ export default function Home() {
           <Home_Card />
           <br></br>
           <Panel_Card />
-          <br className="hidden md:block"></br>
           <br></br>
 
           <div className="flex justify-center">
             <div className="w-full md:w-5/6 2xl:w-full">
-              <div className="mx-auto w-11/12 md:w-full md:grid md:grid-cols-2 xl:grid-cols-3 gap-[20px] 2xl:gap-[30px]">
+              <div className="mx-auto w-11/12 md:w-full grid grid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-[20px] xl:gap-[30px]">
                   <B_Ship_Card />
                   <B_Event_Card />
                   <B_Event_2_Card />

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   JSXElementConstructor,
   ReactElement,
@@ -10,11 +11,11 @@ export default function Panel_Card() {
   type dataType = {
     data: {
       data_update:
-        | [{ time: { _seconds: number }; update_note: [string] }]
-        | { error: any | string; length: number };
+      | [{ time: { _seconds: number }; update_note: [string] }]
+      | { error: any | string; length: number };
       web_update:
-        | [{ time: { _seconds: number }; update_note: [string] }]
-        | { error: any | string; length: number };
+      | [{ time: { _seconds: number }; update_note: [string] }]
+      | { error: any | string; length: number };
     };
   };
 
@@ -121,7 +122,7 @@ export default function Panel_Card() {
                           : card_style.list_style
                       }
                     >
-                      ปัญหาการใช้งานเว็บไซต์เบื้องต้น
+                      หากพบปัญหาในการใช้งานเว็บไซต์
                     </button>
                   </li>
                 </ul>
@@ -223,7 +224,7 @@ export default function Panel_Card() {
                             : card_style.list_style
                         }
                       >
-                        ปัญหาการใช้งานเว็บไซต์เบื้องต้น
+                        หากพบปัญหาในการใช้งานเว็บไซต์
                       </button>
                     </li>
                   </ul>
@@ -369,7 +370,7 @@ export default function Panel_Card() {
                             : card_style.list_style
                         }
                       >
-                        ปัญหาการใช้งานเว็บไซต์เบื้องต้น
+                        หากพบปัญหาในการใช้งานเว็บไซต์
                       </button>
                     </li>
                   </ul>
@@ -534,7 +535,7 @@ export default function Panel_Card() {
                     }
                     onClick={click_qa}
                   >
-                    ปัญหาการใช้งานเว็บไซต์เบื้องต้น
+                    หากพบปัญหาในการใช้งานเว็บไซต์
                   </button>
                 </li>
               </ul>
@@ -577,40 +578,54 @@ export default function Panel_Card() {
                     }
                   >
                     <p className={card_style.sub_content_head_style}>
-                      1.ข้อมูลของตัวละครไม่มีการอัปเดต
+                      1.ภาพไม่แสดง/ภาพไม่โหลด
                     </p>
                     <p className={card_style.sub_content_body_style}>
-                      เนื่องจากเรามีการเก็บข้อมูลบางส่วนไว้ใน Browser แบบ
-                      Offline
+                      เนื่องจากรูปภาพบางส่วนดึงมาจากเว็บไซต์ภายนอก
                     </p>
                     <p className={card_style.sub_content_body_style}>
-                      ทำให้ข้อมูลบางอย่างที่เก็บไว้แบบ offline ไม่มีการอัปเดต
-                    </p>
-                    <p className={card_style.sub_content_body_style}>
-                      ให้ทำการคลิกที่ปุ่ม
-                      <button
-                        className={card_style.button_style}
-                        onClick={cleardata}
-                      >
-                        &nbsp;ลบแคชเว็บไซต์&nbsp;
-                      </button>
-                      ที่นี่ หรือส่วนด้านล่างสุดของเว็บไซต์
-                    </p>
-                    <p className={card_style.sub_content_body_style}>
-                      แล้วเว็บไซต์จะอัพเดตข้อมูลให้ใหม่อัตโนมัติ
+                      หากพบเจอภาพหายโปรดแจ้งได้ที่นี่ 
+                      <Link legacyBehavior href="https://facebook.com/Rolizami3355">
+                        <a
+                          target="_blank"
+                          className="mx-1 px-1 rounded bg-neutral-400 dark:rounded bg-neutral-600 hover:bg-neutral-500 dark:hover:bg-neutral-500"
+                        >
+                          Rolizami ライム
+                        </a>
+                      </Link>
+                      หรือ
+                      <Link legacyBehavior href="https://www.youtube.com/@SSTfoxide">
+                        <a
+                          target="_blank"
+                          className="mx-1 px-1 rounded bg-neutral-400 dark:rounded bg-neutral-600 hover:bg-neutral-500 dark:hover:bg-neutral-500"
+                        >
+                          SSTfoxide
+                        </a>
+                      </Link>
                     </p>
                     <div className="flex justify-center">
                       <div className={card_style.end_content_style}></div>
                     </div>
                     <p className={card_style.sub_content_head_style}>
-                      2.ภาพไม่แสดง/ภาพไม่โหลด
+                      2.เว็บดับ
                     </p>
                     <p className={card_style.sub_content_body_style}>
-                      เนื่องจาก Google ได้ทำการเปลี่ยนแปลง API Policy
+                      นานๆทีจะมีบางครั้งที่เว็บดับไปเอง
                     </p>
                     <p className={card_style.sub_content_body_style}>
-                      ปัจจุบันทางเว็บของเราจึงเลิกใช้งานการเรียกภาพจาก GDrive แล้ว
+                      แจ้งได้ที่นี่
+                      <Link legacyBehavior href="https://www.youtube.com/@SSTfoxide">
+                        <a
+                          target="_blank"
+                          className="mx-1 px-1 rounded bg-neutral-400 dark:rounded bg-neutral-600 hover:bg-neutral-500 dark:hover:bg-neutral-500"
+                        >
+                          SSTfoxide
+                        </a>
+                      </Link>
                     </p>
+                    <div className="flex justify-center">
+                      <div className={card_style.end_content_style}></div>
+                    </div>
                     <p className={card_style.sub_content_body_style}>
                       ***ขออภัยในความไม่สะดวก***
                     </p>

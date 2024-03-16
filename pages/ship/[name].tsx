@@ -41,7 +41,7 @@ export default function Ship() {
 
         <main className="flex justify-center">
           <div id="zoom" className="w-full 2xl:max-w-7xl">
-            <Ship_Card ship={name} />
+            <Ship_Card ship={name.toString()} />
             <br id="lastspace"></br>
           </div>
         </main>
