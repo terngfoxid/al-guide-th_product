@@ -22,6 +22,15 @@ type Boss = [
         ]
         meta_showdown_comment: string
         meta_showdown_team: string[]
+
+        skins: [
+            {
+                name: "",
+                image: "",
+                price: "",
+                released: ""
+            }
+        ]
     }
 ]
 
@@ -122,7 +131,7 @@ export default function MetaShowdownPage() {
                                                     className="overflow-hidden duration-300 border-2 border-transparent rounded-lg shadow bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-105 hover:border-cyan-400"
                                                 >
                                                     <button
-                                                        className="text-zinc-700 dark:text-zinc-300"
+                                                        className="text-zinc-700 dark:text-zinc-300 w-full h-full"
                                                         onClick={() => {
                                                             setIndex(idx)
                                                             let access = document.getElementById("bossdata");
@@ -163,25 +172,37 @@ export default function MetaShowdownPage() {
                                         </h2>
                                     </div>
                                     <div className="lg:flex md:gap-[5px]">
-                                        <div className="mx-auto lg:mx-[10px] min-w-[300px] w-max h-max rounded rounded-lg overflow-hidden bg-neutral-300 dark:bg-neutral-700 p-[10px] md:p-[20px] border border-[2px] border-gray-300 dark:border-gray-700">
-                                            <div className="flex mx-auto w-max md:items-center">
-                                                <img className="max-w-[150px] h-full" src={bossData[index].chibi} alt="ship chibi image" />
-                                                <div className="md:ml-[30px]">
-                                                    <h3 className="text-md md:text-lg text-zinc-700 dark:text-zinc-300 2xl:text-2xl">{bossData[index].name}</h3>
-                                                    <h4 className="text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">ข้อมูลเบื้องต้น</h4>
-                                                    <div className="flex gap-[5px] text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">ประเภท:
-                                                        <img
-                                                            src={`/images/type/${bossData[index].type}.webp`}
-                                                            alt="ship type"
-                                                            className="w-[30px] sm:w-[30px] h-full"
-                                                        />
-                                                        {bossData[index].type}
+                                        <div>
+                                            <div className="mx-auto lg:mx-[10px] min-w-[300px] w-max h-max rounded rounded-lg overflow-hidden bg-neutral-300 dark:bg-neutral-700 p-[10px] md:p-[20px] border border-[2px] border-gray-300 dark:border-gray-700">
+                                                <div className="flex mx-auto w-max md:items-center">
+                                                    <img className="max-w-[150px] h-full" src={bossData[index].chibi} alt="ship chibi image" />
+                                                    <div className="md:ml-[30px]">
+                                                        <h3 className="text-md md:text-lg text-zinc-700 dark:text-zinc-300 2xl:text-2xl">{bossData[index].name}</h3>
+                                                        <h4 className="text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">ข้อมูลเบื้องต้น</h4>
+                                                        <div className="flex gap-[5px] text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">ประเภท:
+                                                            <img
+                                                                src={`/images/type/${bossData[index].type}.webp`}
+                                                                alt="ship type"
+                                                                className="w-[30px] sm:w-[30px] h-full"
+                                                            />
+                                                            {bossData[index].type}
+                                                        </div>
+                                                        <p className="text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">เกราะ: {bossData[index].armor}</p>
                                                     </div>
-                                                    <p className="text-md md:text-md text-zinc-700 dark:text-zinc-300 2xl:text-xl mt-[10px]">เกราะ: {bossData[index].armor}</p>
                                                 </div>
+                                                <div className="text-md lg:text-lg text-zinc-700 dark:text-zinc-300 xl:text-xl mt-[10px]">
+                                                    <Cut_String text={"ข้อมูลอื่นๆ: " + bossData[index].meta_showdown_comment}></Cut_String>
+                                                </div>
+
                                             </div>
-                                            <div className="text-md lg:text-lg text-zinc-700 dark:text-zinc-300 xl:text-xl mt-[10px]">
-                                                <Cut_String text={"ข้อมูลอื่นๆ: " + bossData[index].meta_showdown_comment}></Cut_String>
+                                            <div className="hidden lg:block flex justifly-center max-w-[350px] mt-[20px]">
+                                                {bossData[index].skins && (
+                                                    <img
+                                                        src={bossData[index].skins[0].image}
+                                                        alt={"default skin " + bossData[index].name}
+                                                        className="w-full h-full">
+                                                    </img>
+                                                )}
                                             </div>
                                         </div>
                                         <div className="mt-[10px] md:ml-[20px] md:ml-[5px] p-[10px] w-full lg:w-max">
