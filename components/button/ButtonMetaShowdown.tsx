@@ -8,7 +8,7 @@ export default function ButtonMetaShowdown() {
     body_style:
       "py-2 text-zinc-600 dark:text-zinc-400 text-lg md:text-2xl text-center ",
     image_style: "w-full rounded-lg ",
-    image_src: "/images/",
+    image_src: "/images/Meta Showdown 600x300.webp",
   };
 
   return (
