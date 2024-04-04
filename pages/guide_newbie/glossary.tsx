@@ -120,9 +120,8 @@ export default function Home() {
                     N
                   </button>
                   <button
-                    className="w-full p-1 text-xl duration-300 border border-transparent rounded cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl "
+                    className="w-full p-1 text-xl duration-300 border border-transparent rounded bg-neutral-200 dark:bg-neutral-800 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600"
                     onClick={() => searchFunction("O")}
-                    disabled={true}
                   >
                     O
                   </button>
@@ -133,9 +132,8 @@ export default function Home() {
                     P
                   </button>
                   <button
-                    className="w-full p-1 text-xl duration-300 border border-transparent rounded cursor-not-allowed bg-neutral-200 dark:bg-neutral-800 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl "
+                    className="w-full p-1 text-xl duration-300 border border-transparent rounded bg-neutral-200 dark:bg-neutral-800 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-125 hover:bg-neutral-400 dark:hover:bg-neutral-600"
                     onClick={() => searchFunction("Q")}
-                    disabled={true}
                   >
                     Q
                   </button>
@@ -214,6 +212,13 @@ export default function Home() {
                     <p className="pl-3">(status) ค่าต่อต้านอากาศยาน</p>
                   </div>
                   <div
+                    id="AB"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>AB = Armor Break</p>
+                    <p className="pl-3">(ในเกม) สถานะเกราะแตก</p>
+                  </div>
+                  <div
                     id="AE"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
@@ -221,11 +226,19 @@ export default function Home() {
                     <p className="pl-3">(ประเภทเรือ) เรือบรรทุกสรรพาวุธ</p>
                   </div>
                   <div
+                    id="AOA"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>AOA = All Out Assault</p>
+                    <p className="pl-3">(การโจมตี) ท่ายิงเต็มกำลัง</p>
+                  </div>
+                  <div
                     id="AP"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
-                    <p>AP = Armor Piercing</p>
+                    <p>AP = Armor Piercing, Action Point</p>
                     <p className="pl-3">(ประเภทกระสุน) กระสุนเจาะเกราะ</p>
+                    <p className="pl-3">(โหมด OPS) Action Point ค่า cost ในการลงด่าน</p>
                   </div>
                   <div
                     id="AR"
@@ -233,6 +246,20 @@ export default function Home() {
                   >
                     <p>AR = Repair ship</p>
                     <p className="pl-3">(ประเภทเรือ) เรือซ่อมบำรุง</p>
+                  </div>
+                  <div
+                    id="ARA"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>ARA = Air Raid Assistance</p>
+                    <p className="pl-3">(skill) เพิ่มความเสียหายที่ทำได้ของ CV/CVL 15%</p>
+                  </div>
+                  <div
+                    id="AS"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>AS = Airstrike</p>
+                    <p className="pl-3">(การโจมตี) การโจมตีทางอากาศ</p>
                   </div>
                   <div
                     id="ASW"
@@ -269,6 +296,13 @@ export default function Home() {
                     <p className="pl-3">(ตำแหน่งเรือ) กองหลัง</p>
                   </div>
                   <div
+                    id="Barrage"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Barrage</p>
+                    <p className="pl-3">(การโจมตี) กระสุนชุดพิเศษ</p>
+                  </div>
+                  <div
                     id="BB"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
@@ -292,6 +326,13 @@ export default function Home() {
                     <p className="pl-3">(ประเภทเรือ) เรือประจัญบานลาดตระเวน</p>
                   </div>
                   <div
+                    id="Beehive"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Beehive = Type 3</p>
+                    <p className="pl-3">(ประเภทกระสุน) กระสุน Type 3 ขยะ อย่าไปหาใช้</p>
+                  </div>
+                  <div
                     id="BM"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
@@ -305,6 +346,24 @@ export default function Home() {
                     <p>BP = Blueprints</p>
                     <p className="pl-3">
                       (ไอเท็ม) แปลนเรือรีโทรฟิต, แปลนเรือวิจัย{" "}
+                    </p>
+                  </div>
+                  <div
+                    id="Bulin"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Bulin</p>
+                    <p className="pl-3">
+                      (ตัวละคร) ตัวละครที่ใช้ปลดดาวแทนตัวซ้ำ
+                    </p>
+                  </div>
+                  <div
+                    id="Burn Damage"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Burn Damage</p>
+                    <p className="pl-3">
+                      (ในเกม) ความเสียหายจากสถานะไฟไหม้
                     </p>
                   </div>
                 </div>
@@ -339,6 +398,27 @@ export default function Home() {
                     <p className="pl-3">(ประเภทเรือ) เรือลาดตระเวนเบา</p>
                   </div>
                   <div
+                    id="CM"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>CM = Challenge Mode</p>
+                    <p className="pl-3">(ในเกม) โหมดท้าทายประจำเดือนเอากรอบ Profile</p>
+                  </div>
+                  <div
+                    id="Cri-Dmg"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Cri-Dmg = Critical Damage</p>
+                    <p className="pl-3">(ค่าคำนวณ) ความเสียหายคริ มีหน่วยเป็น %</p>
+                  </div>
+                  <div
+                    id="Cri-Rate"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Cri-Rate = Critical Rate</p>
+                    <p className="pl-3">(ค่าคำนวณ) อัตราคริ มีหน่วยเป็น %</p>
+                  </div>
+                  <div
                     id="CV"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
@@ -370,6 +450,20 @@ export default function Home() {
                     <p className="pl-3">(อาวุธ) เครื่องบินดำดิ่งทิ้งระเบิด</p>
                   </div>
                   <div
+                    id="Detection Gauge"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Detection Gauge</p>
+                    <p className="pl-3">(ในเกม) หลอดซ่อนตัว/ตรวจจับ CV/CVL</p>
+                  </div>
+                  <div
+                    id="Detection Line"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Detection Line</p>
+                    <p className="pl-3">(ในเกม) เส้นบอกระยะที่จะเริ่มการตรวจจับ CV/CVL</p>
+                  </div>
+                  <div
                     id="DD"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
@@ -386,11 +480,27 @@ export default function Home() {
                     </p>
                   </div>
                   <div
+                    id="Dock"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Dock</p>
+                    <p className="pl-3">
+                      (ในเกม) ช่องเก็บตัวละคร
+                    </p>
+                  </div>
+                  <div
                     id="DPS"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
                     <p>DPS = Damage-per-second</p>
                     <p className="pl-3">(ค่าคำนวณ) ดาเมจเฉลี่ยต่อวินาที</p>
+                  </div>
+                  <div
+                    id="DR"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>DR = Decisive Research</p>
+                    <p className="pl-3">(ในเกม) เรือวิจัยระดับสีรุ้ง</p>
                   </div>
                 </div>
               </div>
@@ -429,6 +539,13 @@ export default function Home() {
                 </p>
                 <div className="grid grid-cols-1 py-2 md:grid-cols-2 gap-x-10 gap-y-3">
                   <div
+                    id="Faction"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Faction</p>
+                    <p className="pl-3">ชาติ, ฝ่าย เช่น USS - Eagle Union (United States)</p>
+                  </div>
+                  <div
                     id="FFNF"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
@@ -441,6 +558,13 @@ export default function Home() {
                   >
                     <p>Flag Ship</p>
                     <p className="pl-3">(ตำแหน่งเรือ) เรือธง</p>
+                  </div>
+                  <div
+                    id="Flood Damage"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Flood Damage</p>
+                    <p className="pl-3">(ในเกม) ความเสียหายจากสถานะน้ำท่วม</p>
                   </div>
                   <div
                     id="FP"
@@ -463,6 +587,13 @@ export default function Home() {
                     <p>Frontline</p>
                     <p className="pl-3">(ตำแหน่งเรือ) กองหน้า</p>
                   </div>
+                  <div
+                    id="FT"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>FT = Fighter</p>
+                    <p className="pl-3">(อาวุธ) เครื่องบินขับไล่</p>
+                  </div>
                 </div>
               </div>
               <div className="flex justify-center p-2">
@@ -473,6 +604,14 @@ export default function Home() {
                   H
                 </p>
                 <div className="grid grid-cols-1 py-2 md:grid-cols-2 gap-x-10 gap-y-3">
+                  <div
+                    id="H"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>H = Heavy Armor, Hard Mode</p>
+                    <p className="pl-3">(ประเภทเกราะ) เกราะหนัก</p>
+                    <p className="pl-3">(ในเกม) ด่านระดับยาก</p>
+                  </div>
                   <div
                     id="HE"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
@@ -486,6 +625,13 @@ export default function Home() {
                   >
                     <p>HIT = Accuracy</p>
                     <p className="pl-3">(status) ค่าความแม่นยำ</p>
+                  </div>
+                  <div
+                    id="HIT Rate"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>HIT Rate</p>
+                    <p className="pl-3">(ค่าคำนวณ) โอกาศตีโดน มีหน่วยเป็น % ตรงข้ามกับ Evasion Rate</p>
                   </div>
                   <div
                     id="HP"
@@ -576,11 +722,25 @@ export default function Home() {
                 </p>
                 <div className="grid grid-cols-1 py-2 md:grid-cols-2 gap-x-10 gap-y-3">
                   <div
+                    id="L"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>L = Light Armor</p>
+                    <p className="pl-3">(ประเภทเกราะ) เกราะเบา</p>
+                  </div>
+                  <div
                     id="LB"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
                     <p>LB = Limit Break</p>
                     <p className="pl-3">(ในเกม) ปลดดาว</p>
+                  </div>
+                  <div
+                    id="lb"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>lb = Pound</p>
+                    <p className="pl-3">(ในเกม) ปอนด์ น้ำหนักของระเบิดปกติยิ่งเยอะยิ่งแรง</p>
                   </div>
                   <div
                     id="LCK"
@@ -599,6 +759,13 @@ export default function Home() {
                   M
                 </p>
                 <div className="grid grid-cols-1 py-2 md:grid-cols-2 gap-x-10 gap-y-3">
+                  <div
+                    id="M"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>M = Medium Armor</p>
+                    <p className="pl-3">(ประเภทเกราะ) เกราะกลาง</p>
+                  </div>
                   <div
                     id="Main Fleet"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
@@ -623,6 +790,15 @@ export default function Home() {
                       (ฝ่าย) กองทัพเรือฝรั่งเศส(ในเกมหมายถึงเขตวีชี)
                     </p>
                   </div>
+                  <div
+                    id="Mob"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Mob</p>
+                    <p className="pl-3">
+                      (ศัตรู) โหนดลูกน้องในด่านต่างๆ
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="flex justify-center p-2">
@@ -640,6 +816,34 @@ export default function Home() {
                     <p>Nation</p>
                     <p className="pl-3">
                       ชาติ, ฝ่าย เช่น USS - Eagle Union (United States)
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex justify-center p-2">
+                <div className="w-full border border-neutral-500 "></div>
+              </div>
+              <div id="O">
+                <p className="p-2 pl-5 text-xl font-bold text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl">
+                  O
+                </p>
+                <div className="grid grid-cols-1 py-2 md:grid-cols-2 gap-x-10 gap-y-3">
+                  <div
+                    id="Oil Cap"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Oil Cap = Fuel Cost Limit</p>
+                    <p className="pl-3">
+                      (ในเกม) ระบบจำกัดค่า Cost น้ำมันสูงสุดที่ต้องใช้
+                    </p>
+                  </div>
+                  <div
+                    id="Ops"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Ops = Operation Siren</p>
+                    <p className="pl-3">
+                      (ในเกม) โหมด Open World Grinding
                     </p>
                   </div>
                 </div>
@@ -668,6 +872,30 @@ export default function Home() {
                     <p>PRAN = People&apos;s Liberation Army Navy</p>
                     <p className="pl-3">(ฝ่าย) กองทัพปลดปล่อยประชาชน(จีน)</p>
                   </div>
+                  <div
+                    id="Preload"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Preload</p>
+                    <p className="pl-3">(การโจมตี) การโจมตีตั้งแต่ด่านเริ่มโดยไม่รอโหลดอาวุธ เช่น Preload Salvo , Preload AS</p>
+                  </div>
+                </div>
+              </div>
+              <div className="flex justify-center p-2">
+                <div className="w-full border border-neutral-500 "></div>
+              </div>
+              <div id="Q">
+                <p className="p-2 pl-5 text-xl font-bold text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl">
+                  Q
+                </p>
+                <div className="grid grid-cols-1 py-2 md:grid-cols-2 gap-x-10 gap-y-3">
+                  <div
+                    id="QT"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>QT = Quick Takeoff</p>
+                    <p className="pl-3">(skill) เมื่อปล่อย AS จะมีโอกาศ 15% ที่ AS ชุดถัดไปจะโหลดเสร็จทันที</p>
+                  </div>
                 </div>
               </div>
               <div className="flex justify-center p-2">
@@ -678,6 +906,20 @@ export default function Home() {
                   R
                 </p>
                 <div className="grid grid-cols-1 py-2 md:grid-cols-2 gap-x-10 gap-y-3">
+                  <div
+                    id="Ramming Damage"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Ramming Damage</p>
+                    <p className="pl-3">(ในเกม) ความเสียหายจากเรือชนกัน</p>
+                  </div>
+                  <div
+                    id="Research"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Research</p>
+                    <p className="pl-3">(ในเกม) ระบบวิจัยเรือ/เกียร์/Tech</p>
+                  </div>
                   <div
                     id="RLD"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
@@ -712,6 +954,28 @@ export default function Home() {
                 </p>
                 <div className="grid grid-cols-1 py-2 md:grid-cols-2 gap-x-10 gap-y-3">
                   <div
+                    id="Salvo"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Salvo</p>
+                    <p className="pl-3">(การโจมตี) กระสุนชุดหลักของ BB</p>
+                  </div>
+                  <div
+                    id="SAP"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>SAP = Semi Armor Piercing</p>
+                    <p className="pl-3">(ประเภทกระสุน) กระสุนเจาะเกราะชั้นเดียว</p>
+                  </div>
+                  <div
+                    id="SG"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>SG</p>
+                    <p className="pl-3">(อาวุธ) SG Radar</p>
+                    <p className="pl-3">(skill) Radar Scan ของ Helena</p>
+                  </div>
+                  <div
                     id="SN"
                     className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
                   >
@@ -739,6 +1003,18 @@ export default function Home() {
                     <p>SSV = Submarine carrier</p>
                     <p className="pl-3">
                       (ประเภทเรือ) เรือดำน้ำบรรทุกเครื่องบิน
+                    </p>
+                  </div>
+                  <div
+                    id="Suicide Bomb Boat"
+                    className="items-center w-full h-full p-3 text-base duration-300 border border-gray-300 rounded bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  >
+                    <p>Suicide Bomb Boat</p>
+                    <p className="pl-3">
+                    (ศัตรู) เรือระเบิดฆ่าตัวตาย
+                    </p>
+                    <p className="pl-3">
+                    (ชื่อเล่น)เรือเป็ด
                     </p>
                   </div>
                 </div>

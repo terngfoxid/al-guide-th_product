@@ -108,7 +108,7 @@ export default function MetaShowdownPage() {
                                                     className="overflow-hidden duration-300 border-2 border-red-900 rounded-lg shadow bg-neutral-300 dark:bg-neutral-700"
                                                 >
                                                     <button
-                                                        className="text-zinc-700 dark:text-zinc-300"
+                                                        className="text-zinc-700 dark:text-zinc-300 w-full h-full"
                                                     >
                                                         <div className="flex items-center justify-start w-full py-1 sm:px-2">
                                                             <img
