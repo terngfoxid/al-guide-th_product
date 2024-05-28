@@ -176,7 +176,13 @@ export default function ActiveEventCard() {
               id="ships-chibi"
               className="p-4 border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800"
             >
-              <div className="mb-4 text-center">
+              <h2 className="mb-2 text-lg md:text-2xl text-center">
+                {activeEvent[activeIndex].name}
+              </h2>
+              <h2 className="mb-2 text-sm md:text-xl text-center">
+                {activeEvent[activeIndex].time}
+              </h2>
+              <div className="mb-4 text-center border-t pt-[10px] border-gray-300 dark:border-gray-700">
                 <h1 className="text-xl text-zinc-700 dark:text-zinc-300 md:text-2xl">
                   {activeEvent[activeIndex].type === "new"
                     ? "เรือใหม่"
@@ -282,12 +288,6 @@ export default function ActiveEventCard() {
                   สรุปข้อมูลด่านน่าฟาร์มประจำ Event
                   {activeEvent[activeIndex].type === "new" ? " ใหม่" : ""}
                 </h1>
-                <h2 className="mb-2 text-lg md:text-xl">
-                  {activeEvent[activeIndex].name}
-                </h2>
-                <h2 className="mb-2 text-lg md:text-xl">
-                  {activeEvent[activeIndex].time}
-                </h2>
               </div>
               <div className="p-4 space-y-4 border border-gray-300 rounded-lg dark:border-gray-700">
                 {Object.entries({
