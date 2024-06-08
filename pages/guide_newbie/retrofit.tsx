@@ -41,7 +41,7 @@ export default function Home() {
           content="Retrofit , การ Retrofit"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://ez-upload.al-guide-th.com/api/download/favicon.ico" />
       </Head>
 
       <main className="flex justify-center">

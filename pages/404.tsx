@@ -8,7 +8,7 @@ export default function FourOhFour() {
         <title>404 Not Found</title>
         <meta name="description" content="404 Page" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://ez-upload.al-guide-th.com/api/download/favicon.ico" />
       </Head>
       <main className="flex justify-center">
         <div className="container p-5 xl:max-w-screen-xl">

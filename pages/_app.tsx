@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
         additionalLinkTags={[
           {
             rel: "icon",
-            href: "/favicon.ico",
+            href: "https://ez-upload.al-guide-th.com/api/download/favicon.ico",
           },
         ]}
         additionalMetaTags={[
