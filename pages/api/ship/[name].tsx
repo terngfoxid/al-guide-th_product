@@ -5,28 +5,33 @@ export default async function handler(
   res: {
     status: (arg0: number) => {
       (): any;
-      new (): any;
+      new(): any;
       json: {
         (arg0: FirebaseFirestore.DocumentData | undefined): void;
-        new (): any;
+        new(): any;
       };
     };
   },
 ) {
   //example /api/ship/Allen_M_Sumner
   //ex.2 /api/ship/Allen%20M%20Sumner
-  const {
-    query: { name },
-    method,
-  } = req;
 
-  const docname = name.replaceAll("_", " ").toLowerCase();
+  try {
+    const {
+      query: { name },
+      method,
+    } = req;
 
-  const snapshot = await db.collection("ship").doc(docname).get();
+    const docname = name.replaceAll("_", " ").toLowerCase();
 
-  if (snapshot.data() == null) {
-    res.status(404).json({ error: "Not Found Ship" });
-  } else {
-    res.status(200).json(snapshot.data());
+    const snapshot = await db.collection("ship").doc(docname).get();
+
+    if (snapshot.data() == null) {
+      res.status(404).json({ error: "Not Found Ship" });
+    } else {
+      res.status(200).json(snapshot.data());
+    }
+  } catch { 
+    res.status(429).json({ error: "Firestore out of qouta" });
   }
 }

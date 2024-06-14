@@ -51,6 +51,8 @@ export default function ActiveEventCard() {
   const [chibiChatIndex, setChibiChatIndex] = useState<number>(0);
   const [chibiChatVisible, setChibiChatVisible] = useState<boolean>(true);
 
+  const [webState, setWebState] = useState(0);
+
   const chibiChatText = [
     "กดคลิกที่รูปเพื่อขยายขนาดได้นะ",
     "ด่านแนะนำจะอยู่ด้านล่าง",
@@ -60,6 +62,7 @@ export default function ActiveEventCard() {
   useEffect(() => {
     const load = async () => {
       const response = await fetch("/api/events");
+      setWebState(response.status)
       const data = await response.json();
       setActiveEvent(data as ActiveEvent);
     };
@@ -76,6 +79,7 @@ export default function ActiveEventCard() {
   }, [chibiChatIndex, chibiChatText.length]);
 
   useEffect(() => {
+    if(webState == 429) return;
     const idx = activeEvent?.findIndex(
       (active) => active.name.replaceAll(" ", "_") === router.query.event
     );
@@ -90,6 +94,22 @@ export default function ActiveEventCard() {
       </div>
     );
   } else {
+    if (webState == 429) {
+      return (
+        <div
+          id="error"
+          className="p-4 border border-gray-300 rounded-lg shadow-md bg-neutral-200 dark:border-gray-700 dark:bg-neutral-800"
+        >
+          <div className="mx-auto flex gap-1 justify-center items-center bg-neutral-200 dark:bg-neutral-800">
+            <svg className="w-8 h-8 mr-3 text-[#FF3845] fill-[#FF3845]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6" />
+            </svg>
+            <p className="text-[#FF3845]">ไม่สามารถโหลดข้อมูลได้</p>
+          </div>
+          <p className="mt-2 text-center text-zinc-600 dark:text-zinc-400">กรุณาลองใหม่อีกครั้งหลังเวลา 14:00 น.</p>
+        </div>
+      )
+    }
 
     let cards: { key: string; content: JSX.Element; }[] = [
     ];

@@ -2,7 +2,6 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { Analytics } from "@vercel/analytics/react";
 import { NextSeo } from "next-seo";
-import Script from "next/script";
 import TopBar from "@/components/Topbar";
 import Footer from "@/components/Footer";
 
@@ -21,7 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
         additionalLinkTags={[
           {
             rel: "icon",
-            href: "https://ez-upload.al-guide-th.com/api/download/favicon.ico",
+            href: "/favicon.ico",
           },
         ]}
         additionalMetaTags={[
@@ -38,28 +37,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <Footer />
 
       <Analytics />
-
-      <Script
-        id="callScript"
-        strategy="lazyOnload"
-        src="https://www.googletagmanager.com/gtag/js?id=G-L4CJGVFV5D"
-      />
-
-      <Script
-        id="googleAnalytics"
-        strategy="lazyOnload"
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-L4CJGVFV5D', {
-              page_path: window.location.pathname,
-            });
-          `,
-        }}
-      />
     </>
   );
 }

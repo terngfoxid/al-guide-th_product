@@ -11,7 +11,7 @@ export default function Home() {
           content="ค่าอารมณ์ Azur Lane , การฟื้นฟูค่าอารมณ์ , การคำนวณค่าอารมณ์ , อัตราการฟื้นฟูค่าอารมณ์"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="https://ez-upload.al-guide-th.com/api/download/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex justify-center">

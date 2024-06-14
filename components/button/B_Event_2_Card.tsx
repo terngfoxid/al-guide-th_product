@@ -38,10 +38,12 @@ type ActiveEvent = {
 
 export default function B_Event_2_Card() {
   const [activeEvent, setActiveEvent] = useState<ActiveEvent | null>(null);
+  const [webState, setWebState] = useState(0);
 
   useEffect(() => {
     const load = async () => {
       const response = await fetch("/api/events");
+      setWebState(response.status)
       const data = await response.json();
       setActiveEvent(data as ActiveEvent);
     };
@@ -90,6 +92,32 @@ export default function B_Event_2_Card() {
               />
             </svg>
             Loading...
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (webState == 429) {
+    const loading_style = {
+      symbol_style:
+        "w-full h-full text-zinc-600 dark:text-zinc-300 text-2xl font-bold font-serif text-left",
+      adjust_inline: "inline-flex items-center block p-2",
+      body_position: "flex justify-center items-center",
+    };
+
+    return (
+      <div className={card_style.shape}>
+        <div
+          className={
+            loading_style.symbol_style + " " + loading_style.body_position
+          }
+        >
+          <button className={loading_style.adjust_inline}>
+            <svg className="w-8 h-8 mr-3 text-[#FF3845] fill-[#FF3845]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6" />
+            </svg>
+            <p className="text-[#FF3845]">ไม่สามารถโหลดข้อมูลได้</p>
           </button>
         </div>
       </div>

@@ -10,6 +10,7 @@ export default function Faction_Ship_Card(faction: any) {
   const [type, setType] = useState("All Type");
   const [isDropdown, setDropdown] = useState(false);
   const [search, setSearch] = useState("");
+  const [webState, setWebState] = useState(0);
 
   const handleDropDown = () => {
     setDropdown(!isDropdown);
@@ -18,6 +19,7 @@ export default function Faction_Ship_Card(faction: any) {
   const callAPI = async () => {
     try {
       const res = await fetch("/api/faction/" + faction.faction);
+      setWebState(res.status)
       const loaddata = await res.json();
       setShipdata({ data: loaddata });
       return;
@@ -39,6 +41,28 @@ export default function Faction_Ship_Card(faction: any) {
         position: "flex justify-center",
         body_style: "text-zinc-600 dark:text-zinc-400 text-xl text-center ",
       };
+
+      if (webState == 429) return (
+        <div className={card_style.position}>
+          <div className={card_style.shape}>
+            <br></br>
+            <p className={card_style.title_style}>
+              <p>Error 429 Too Many Requests</p>
+            </p>
+            <br></br>
+            <div className={card_style.body_style}>
+              <div className="mx-auto flex gap-1 justify-center items-center bg-neutral-200 dark:bg-neutral-800">
+                <svg className="w-8 h-8 mr-3 text-[#FF3845] fill-[#FF3845]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6" />
+                </svg>
+                <p className="text-[#FF3845]">ไม่สามารถโหลดข้อมูลได้</p>
+              </div>
+              <p className="mt-2">กรุณาลองใหม่อีกครั้งหลังเวลา 14:00 น.</p>
+            </div>
+            <br></br>
+          </div>
+        </div>
+      );
 
       return (
         <div className={card_style.position}>
@@ -90,7 +114,7 @@ export default function Faction_Ship_Card(faction: any) {
       const ship_list = [];
       let count = 0;
 
-      if (faction.faction == "Collab" ||faction.faction == "META") {
+      if (faction.faction == "Collab" || faction.faction == "META") {
         const faction_sub_list = new Set(shipdata.data.data.filter((ship) => { if (ship.faction_sub != null) return true }).map((ship) => {
           if (ship.faction_sub != null) return ship.faction_sub
         }))

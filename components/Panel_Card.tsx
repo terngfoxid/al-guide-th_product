@@ -16,7 +16,7 @@ export default function Panel_Card() {
       web_update:
       | [{ time: { _seconds: number }; update_note: [string] }]
       | { error: any | string; length: number };
-    };
+    }
   };
 
   const [data, setData] = useState<dataType>({
@@ -26,11 +26,13 @@ export default function Panel_Card() {
     },
   });
   const [mode, setMode] = useState(0);
+  const [webState, setWebState] = useState(0);
 
   const callAPI = async () => {
     try {
       const res = await fetch("/api/update");
       const loaddata = await res.json();
+      setWebState(res.status);
       setData(loaddata);
       return;
     } catch (err) {
@@ -63,6 +65,10 @@ export default function Panel_Card() {
       "pt-2 pb-2 md:mb-2 bg-neutral-300 dark:bg-neutral-700 w-full md:w-11/12",
     sub_content_head_style:
       "ml-6 md:ml-16 pt-1 text-left text-base md:text-base lg:text-lg xl:text-xl text-zinc-600 dark:text-zinc-300",
+    sub_content_head_danger_style:
+      "flex gap-1 ml-6 md:ml-16 pt-1 text-left text-base md:text-base lg:text-lg xl:text-xl text-[#FF3845]",
+    sub_content_head_success_style:
+      "flex gap-1 ml-6 md:ml-16 pt-1 text-left text-base md:text-base lg:text-lg xl:text-xl text-[#4aa103]",
     sub_content_body_style:
       "ml-10 md:ml-24 pt-1 text-left text-sm md:text-sm lg:text-base xl:text-base text-zinc-600 dark:text-zinc-300",
     mode_style: [
@@ -75,8 +81,123 @@ export default function Panel_Card() {
       "mx-2 rounded bg-neutral-400 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-600 border border-transparent hover:border-gray-400 dark:hover:border-gray-600 text-zinc-700 dark:text-zinc-400 py-1 px-1 duration-300 hover:scale-110 text-xs font-bold text-center",
   };
 
-  if (data.data == null) {
-    return (
+  if (webState != 200) {
+    if (webState == 429) return (
+      <div>
+        <div className={card_style.position}>
+          <div className={card_style.shape}>
+            <div className={card_style.title_style}>
+              <div className="md:flex md:justify-center md:items-center md:text-3xl">
+                <p>ประกาศ</p>
+              </div>
+            </div>
+
+            <div className={card_style.body_style}>
+              <div className="flex justify-center">
+                <ul className="flex flex-wrap w-11/12 -mb-px">
+                  <li className="mr-2">
+                    <button
+                      id="data_update"
+                      className={card_style.list_style}
+                    >
+                      อัพเดตข้อมูล
+                    </button>
+                  </li>
+                  <li className="mr-2">
+                    <button
+                      id="web_update"
+                      className={card_style.list_style}
+                    >
+                      อัพเดตเว็บ
+                    </button>
+                  </li>
+                  <li className="mr-2">
+                    <button
+                      id="basic_qa"
+                      className={card_style.list_select_style}
+                    >
+                      หากพบปัญหาในการใช้งานเว็บไซต์
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div className="block md:hidden">
+                <div className={card_style.cut_style}></div>
+              </div>
+              <div className="flex justify-center md:mt-0.5">
+                <div
+                  className={
+                    card_style.content_style +
+                    " " +
+                    card_style.mode_style[2]
+                  }
+                >
+                  <p className={card_style.sub_content_head_danger_style}>
+                    <svg className="w-6 h-6 text-[#FF3845] fill-[#FF3845]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6" />
+                    </svg>
+                    ไม่สามารถโหลดข้อมูลได้
+                  </p>
+                  <p className={card_style.sub_content_body_style}>
+                    เนื่องจากในขณะนี้มีผู้ใช้งานเว็บไซต์อยู่เป็นจำนวนมาก
+                  </p>
+                  <p className={card_style.sub_content_body_style}>
+                    หากปรากฏข้อความนี้กรุณากลับมาอีกครั้งหลังเวลา 14:00 น.
+                  </p>
+                  <div className="flex justify-center">
+                    <div className={card_style.end_content_style}></div>
+                  </div>
+                  <p className={card_style.sub_content_head_success_style}>
+                    <svg className="w-6 h-6 text-[#4aa103] dark:text-[#4aa103]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 3v4a1 1 0 0 1-1 1H5m4 6 2 2 4-4m4-8v16a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1Z" />
+                    </svg>
+                    ส่วนที่สามารถใช้งานได้ตามปกติ
+                  </p>
+                  <p className={card_style.sub_content_body_style}>
+                    - บทเรียนผู้เล่นใหม่ (ยกเว้น ข้อมูลเรือที่มี Retrofit)
+                  </p>
+                  <p className={card_style.sub_content_body_style}>
+                    - ไกด์ทำแมว V2.0
+                  </p>
+                  <div className="flex justify-center">
+                    <div className={card_style.end_content_style}></div>
+                  </div>
+                  <p className={card_style.sub_content_head_danger_style}>
+                    <svg className="w-6 h-6 text-[#FF3845] dark:text-[#FF3845]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m6 6 12 12m3-6a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+
+                    ส่วนที่ไม่พร้อมใช้งานในขณะนี้
+                  </p>
+                  <p className={card_style.sub_content_body_style}>
+                    - ข้อมูลเรือ
+                  </p>
+                  <p className={card_style.sub_content_body_style}>
+                    - ข้อมูลกิจกรรม
+                  </p>
+                  <p className={card_style.sub_content_body_style}>
+                    - ข้อมูล Augment
+                  </p>
+                  <p className={card_style.sub_content_body_style}>
+                    - ข้อมูล Boss META
+                  </p>
+                  <p className={card_style.sub_content_body_style}>
+                    - ไกด์ปลดเรือวิจัย
+                  </p>
+                  <div className="flex justify-center">
+                    <div className={card_style.end_content_style}></div>
+                  </div>
+                  <p className={card_style.sub_content_body_style}>
+                    ***ขออภัยในความไม่สะดวก***
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+    else return (
       <div>
         <div className={card_style.position}>
           <div className={card_style.shape}>
@@ -584,7 +705,7 @@ export default function Panel_Card() {
                       เนื่องจากรูปภาพบางส่วนดึงมาจากเว็บไซต์ภายนอก
                     </p>
                     <p className={card_style.sub_content_body_style}>
-                      หากพบเจอภาพหายโปรดแจ้งได้ที่นี่ 
+                      หากพบเจอภาพหายโปรดแจ้งได้ที่นี่
                       <Link legacyBehavior href="https://facebook.com/Rolizami3355">
                         <a
                           target="_blank"

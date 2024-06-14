@@ -1,10 +1,12 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import db from "../../utils/db";
+import { error } from "console";
 
 export default async function handler(
   _req: NextApiRequest,
   res: NextApiResponse
 ) {
+  try{
   const snapshot = await db
     .collection("dev_event")
     .where("_priority", "<=", 1)
@@ -28,5 +30,8 @@ export default async function handler(
 
         return item;
       })
-  );
+  );}
+  catch{
+    res.status(429).json({ error: "Firestore out of qouta" });
+  }
 }

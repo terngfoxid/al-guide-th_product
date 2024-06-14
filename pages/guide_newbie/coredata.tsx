@@ -11,7 +11,7 @@ export default function Home() {
           content="Core Data Azur Lane , Core Data หาจากใหน , Core Data ควรแลกอะไร , Core Shop Azur Lane"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="https://ez-upload.al-guide-th.com/api/download/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex justify-center">

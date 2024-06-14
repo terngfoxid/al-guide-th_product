@@ -17,7 +17,7 @@ export default function Home() {
         <title>บทเรียนที่ 1 คำศัพท์/คำย่อ | Azur Lane Guide TH</title>
         <meta name="description" content="คำศัพท์และคำย่อภายในเกม Azur Lane" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="https://ez-upload.al-guide-th.com/api/download/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="flex justify-center">

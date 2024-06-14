@@ -7,7 +7,7 @@ import Cut_String from "./functional/Cut_String";
 import Carroussel from "./Carroussel";
 import { uuid } from "uuidv4";
 
-export default function Ship_Card(ship: {ship:string}) {
+export default function Ship_Card(ship: { ship: string }) {
   let elementRef = useRef<HTMLImageElement>(null);
 
   const [shipdata, setShipdata] = useState({
@@ -73,10 +73,12 @@ export default function Ship_Card(ship: {ship:string}) {
       ]
     },
   });
+  const [webState, setWebState] = useState(0);
 
   const callAPI = async () => {
     try {
       const res = await fetch("/api/ship/" + ship.ship.toLowerCase());
+      setWebState(res.status)
       const loaddata = await res.json();
       setShipdata({ data: loaddata });
       return;
@@ -86,8 +88,10 @@ export default function Ship_Card(ship: {ship:string}) {
   };
 
   useEffect(() => {
-      callAPI();
+    callAPI();
   }, []);
+
+
 
   if (shipdata.data.name == null && shipdata.data.error == null) {
     return (
@@ -97,7 +101,43 @@ export default function Ship_Card(ship: {ship:string}) {
         </div>
       </>
     );
-  } else if (shipdata.data.error != null) {
+  } else if (webState == 429) {
+    const buffername = ship.ship.replaceAll("_", " ").toLowerCase();
+    localStorage.removeItem(buffername);
+
+    const card_style = {
+      title_style:
+        "text-zinc-700 dark:text-zinc-300 text-2xl font-bold text-center",
+      shape:
+        "w-11/12 md:w-1/2 2xl:w-1/3 rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
+      position: "flex justify-center",
+      body_style: "text-zinc-600 dark:text-zinc-400 text-xl text-center",
+    };
+
+    return (
+      <>
+        <br></br>
+        <div className={card_style.position}>
+          <div className={card_style.shape}>
+            <br></br>
+            <p className={card_style.title_style}>Error 429 Too Many Requests</p>
+            <br></br>
+            <div className={card_style.body_style}>
+              <div className="mx-auto flex gap-1 justify-center items-center bg-neutral-200 dark:bg-neutral-800">
+                <svg className="w-8 h-8 mr-3 text-[#FF3845] fill-[#FF3845]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6" />
+                </svg>
+                <p className="text-[#FF3845]">ไม่สามารถโหลดข้อมูลได้</p>
+              </div>
+              <p className="mt-2">กรุณาลองใหม่หลังเวลา 14:00 น.</p>
+            </div>
+            <br></br>
+          </div>
+        </div>
+      </>
+    );
+  }
+  else if (shipdata.data.error != null) {
     const buffername = ship.ship.replaceAll("_", " ").toLowerCase();
     localStorage.removeItem(buffername);
 
@@ -165,18 +205,18 @@ export default function Ship_Card(ship: {ship:string}) {
                   <p className="text-center">{skin.name}</p>
                   <div className="flex justify-between gap-x-[5px] lg:gap-x-[30px] ">
                     {skin.price && (
-                        <div className="flex gap-x-[5px] pt-[2px] md:pt-[10px]">
-                          <img
-                            src="/images/Ruby.png"
-                            key="ruby"
-                            alt="ruby"
-                            className=""
-                          />
-                          <p>{skin.price}</p>
-                        </div>
+                      <div className="flex gap-x-[5px] pt-[2px] md:pt-[10px]">
+                        <img
+                          src="/images/Ruby.png"
+                          key="ruby"
+                          alt="ruby"
+                          className=""
+                        />
+                        <p>{skin.price}</p>
+                      </div>
                     )}
                     {skin.released && (
-                          <p className="pt-[2px] md:pt-[10px]">{skin.released}</p>
+                      <p className="pt-[2px] md:pt-[10px]">{skin.released}</p>
                     )}
                   </div>
                 </div>
@@ -217,7 +257,7 @@ export default function Ship_Card(ship: {ship:string}) {
                         </>
                       )}
                       {skin.released && (
-                          <p className="pt-[2px] md:pt-[10px]">{skin.released}</p>
+                        <p className="pt-[2px] md:pt-[10px]">{skin.released}</p>
                       )}
                     </div>
                   </div>
