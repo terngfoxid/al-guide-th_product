@@ -1,7 +1,7 @@
+import About_Card from "@/components/About_Card";
 import Head from "next/head";
-import Contact_Card from "../components/Contact_Card";
 
-export default function Contract() {
+export default function About() {
   return (
     <>
       <Head>
@@ -12,7 +12,7 @@ export default function Contract() {
       <main className="flex justify-center">
         <div className="w-full 2xl:max-w-7xl">
           <br></br>
-          <Contact_Card />
+          <About_Card/>
           <br></br>
         </div>
       </main>

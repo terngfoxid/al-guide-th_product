@@ -129,7 +129,7 @@ export default function Ship_Card(ship: { ship: string }) {
                 </svg>
                 <p className="text-[#FF3845]">ไม่สามารถโหลดข้อมูลได้</p>
               </div>
-              <p className="mt-2">กรุณาลองใหม่หลังเวลา 14:00 น.</p>
+              <p className="mt-2">กรุณาลองใหม่อีกครั้งหลังเวลา 14:00 น.</p>
             </div>
             <br></br>
           </div>

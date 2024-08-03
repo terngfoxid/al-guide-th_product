@@ -16,7 +16,7 @@ export default function TopBar() {
     },
     {
       label: "ผู้จัดทำ",
-      path: "/contact",
+      path: "/about",
     },
   ];
   return (
