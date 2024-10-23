@@ -21,7 +21,7 @@ export default function ThemeSwitcher() {
   function setTheme(mode: Theme) {
     if (mode == "dark") {
       document.body.classList.add("dark");
-      document.body.classList.remove("bg-neutral-100");
+      document.body.classList.remove("bg-[#f5f3f0]");
       document.body.classList.add("bg-neutral-900");
 
       localStorage.setItem("Mode", "dark");
@@ -31,7 +31,7 @@ export default function ThemeSwitcher() {
     if (mode == "light") {
       document.body.classList.remove("dark");
       document.body.classList.remove("bg-neutral-900");
-      document.body.classList.add("bg-neutral-100");
+      document.body.classList.add("bg-[#f5f3f0]");
 
       localStorage.setItem("Mode", "light");
       setThemeState("light");

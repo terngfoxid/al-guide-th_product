@@ -3,14 +3,21 @@ import { useEffect, useState } from "react";
 import Loading from "./overlay/Loading";
 import Image from "next/image";
 
+type FactionShip = {
+  data: {
+    error: string | null,
+    data: [{ name: string | null, type: string, chibi: string, faction_sub: string | null }]
+  }
+};
+
 export default function Faction_Ship_Card(faction: any) {
-  const [shipdata, setShipdata] = useState({
-    data: { error: null, data: [{ name: null, type: null, chibi: null, faction_sub: null }] },
+  const [shipdata, setShipdata] = useState<FactionShip>({
+    data: { error: null, data: [{ name: null, type: "", chibi: "", faction_sub: null }] },
   });
-  const [type, setType] = useState("All Type");
   const [isDropdown, setDropdown] = useState(false);
   const [search, setSearch] = useState("");
   const [webState, setWebState] = useState(0);
+  const [activeType, setActiveType] = useState<string[]>([])
 
   const handleDropDown = () => {
     setDropdown(!isDropdown);
@@ -94,16 +101,16 @@ export default function Faction_Ship_Card(faction: any) {
         shape:
           "w-11/12 md:w-5/6 2xl:w-full rounded-lg shadow-md border bg-neutral-200 border-gray-300 dark:border-gray-700 dark:bg-neutral-800",
         position: "flex justify-center",
-        body_style: "text-zinc-700 dark:text-zinc-300 text-base text-center",
+        body_style: "text-zinc-200 dark:text-zinc-300 text-base text-center",
         button_style:
           "w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300 hover:scale-110 border-2 border-transparent hover:border-cyan-400",
         text_bg: "",
         dd_btn_style:
-          "px-2 py-1 my-2 inline-flex items-center rounded bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600 duration-300 text-center",
+          "px-2 py-1 my-2 text-zinc-600 dark:text-zinc-300 inline-flex items-center rounded bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600 duration-300 text-center",
         dd_list_btn_style:
-          "flex justify-center rounded px-2 py-1 inline-flex w-full items-center bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600 duration-300 text-center",
+          "flex gap-1 text-zinc-600 dark:text-zinc-300 items-center rounded px-2 py-1 inline-flex w-full items-center bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600 duration-300 text-center",
         dd_list_bg_style:
-          "z-10 rounded-lg w-28 px-2 py-2 bg-neutral-300 dark:bg-neutral-700 border border-gray-400 dark:border-gray-900",
+          "z-10 rounded-lg w-[120px] px-2 py-2 bg-neutral-300 dark:bg-neutral-700 border border-gray-400 dark:border-gray-900",
         dd_list_position: "flex justify-center",
         input_style:
           "block px-2 py-1 my-2 w-full z-20 text-sm text-gray-800 bg-gray-50 rounded-l-lg border-l-gray-400 border-l-2 border border-gray-400 focus:ring-blue-500 focus:border-blue-500 dark:bg-neutral-600 dark:border-l-gray-700  dark:border-gray-600 dark:placeholder-gray-300 dark:text-neutral-100 dark:focus:border-blue-500",
@@ -134,37 +141,10 @@ export default function Faction_Ship_Card(faction: any) {
               }
             }
 
-            if (type != "All Type") {
-              if (type == "AE") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "AE") hidden = " hidden";
-              } else if (type == "AR") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "AR") hidden = " hidden";
-              } else if (type == "BB") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "BB") hidden = " hidden";
-              } else if (type == "BBV") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "BBV") hidden = " hidden";
-              } else if (type == "BC") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "BC") hidden = " hidden";
-              } else if (type == "BM") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "BM") hidden = " hidden";
-              } else if (type == "CA") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CA") hidden = " hidden";
-              } else if (type == "CB") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CB") hidden = " hidden";
-              } else if (type == "CL") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CL") hidden = " hidden";
-              } else if (type == "CV") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CV") hidden = " hidden";
-              } else if (type == "CVL") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "CVL") hidden = " hidden";
-              } else if (type == "DD") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "DD") hidden = " hidden";
-              } else if (type == "IX") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "IX") hidden = " hidden";
-              } else if (type == "SS") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "SS") hidden = " hidden";
-              } else if (type == "SSV") {
-                if (shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type != "SSV") hidden = " hidden";
+            if (activeType.length != 0) {
+              const currentShipType = shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type
+              if(currentShipType != null){
+                if(activeType.includes(currentShipType) == false) hidden = " hidden";
               }
             }
 
@@ -193,7 +173,7 @@ export default function Faction_Ship_Card(faction: any) {
                           width="49"
                           height="30"
                         />
-                        <div className="inline-block w-full truncate rounded bg-neutral-400 dark:bg-neutral-600">
+                        <div className="inline-block w-full truncate rounded bg-neutral-500 dark:bg-neutral-600">
                           <p className="max-w-fit">
                             &nbsp;{shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name}
                           </p>
@@ -237,37 +217,10 @@ export default function Faction_Ship_Card(faction: any) {
             }
           }
 
-          if (type != "All Type") {
-            if (type == "AE") {
-              if (shipdata.data.data[buffer].type != "AE") hidden = " hidden";
-            } else if (type == "AR") {
-              if (shipdata.data.data[buffer].type != "AR") hidden = " hidden";
-            } else if (type == "BB") {
-              if (shipdata.data.data[buffer].type != "BB") hidden = " hidden";
-            } else if (type == "BBV") {
-              if (shipdata.data.data[buffer].type != "BBV") hidden = " hidden";
-            } else if (type == "BC") {
-              if (shipdata.data.data[buffer].type != "BC") hidden = " hidden";
-            } else if (type == "BM") {
-              if (shipdata.data.data[buffer].type != "BM") hidden = " hidden";
-            } else if (type == "CA") {
-              if (shipdata.data.data[buffer].type != "CA") hidden = " hidden";
-            } else if (type == "CB") {
-              if (shipdata.data.data[buffer].type != "CB") hidden = " hidden";
-            } else if (type == "CL") {
-              if (shipdata.data.data[buffer].type != "CL") hidden = " hidden";
-            } else if (type == "CV") {
-              if (shipdata.data.data[buffer].type != "CV") hidden = " hidden";
-            } else if (type == "CVL") {
-              if (shipdata.data.data[buffer].type != "CVL") hidden = " hidden";
-            } else if (type == "DD") {
-              if (shipdata.data.data[buffer].type != "DD") hidden = " hidden";
-            } else if (type == "IX") {
-              if (shipdata.data.data[buffer].type != "IX") hidden = " hidden";
-            } else if (type == "SS") {
-              if (shipdata.data.data[buffer].type != "SS") hidden = " hidden";
-            } else if (type == "SSV") {
-              if (shipdata.data.data[buffer].type != "SSV") hidden = " hidden";
+          if (activeType.length != 0) {
+            const currentShipType = shipdata.data.data[buffer].type
+            if(currentShipType != null){
+              if(activeType.includes(currentShipType) == false) hidden = " hidden";
             }
           }
 
@@ -297,7 +250,7 @@ export default function Faction_Ship_Card(faction: any) {
                         width="49"
                         height="30"
                       />
-                      <div className="inline-block w-full truncate rounded bg-neutral-400 dark:bg-neutral-600">
+                      <div className="inline-block w-full truncate rounded bg-neutral-500 dark:bg-neutral-600">
                         <p className="max-w-fit">
                           &nbsp;{shipdata.data.data[buffer].name}
                         </p>
@@ -348,14 +301,14 @@ export default function Faction_Ship_Card(faction: any) {
             )
             ?.classList.remove("hidden");
         }
-        if ((search == null || search == "") && type == "All Type") return;
+        if ((search == null || search == "") && activeType.length == 0) return;
 
         for (count = 0; count < shipdata.data.data.length; count++) {
           const buffer = count;
           if (
             search.toLowerCase() ==
             (shipdata.data.data[buffer].name + "").toLowerCase() &&
-            (type == shipdata.data.data[buffer].type || type == "All Type")
+            ((shipdata.data.data[buffer].type && activeType.includes(shipdata.data.data[buffer].type)) || activeType.length == 0)
           ) {
             let access = document.getElementById(
               (shipdata.data.data[buffer].name + "").toLowerCase(),
@@ -398,7 +351,7 @@ export default function Faction_Ship_Card(faction: any) {
                   )
                   ?.textContent?.toLowerCase()
                   .includes(search.toLowerCase()) &&
-                (type == shipdata.data.data[buffer].type || type == "All Type")
+                ((shipdata.data.data[buffer].type && activeType.includes(shipdata.data.data[buffer].type)) || activeType.length == 0)
               ) {
                 let access = document.getElementById(
                   (shipdata.data.data[buffer].name + "").toLowerCase(),
@@ -425,6 +378,20 @@ export default function Faction_Ship_Card(faction: any) {
         return;
       };
 
+      const allTypeListSet: Set<string | undefined> = new Set(shipdata.data.data.filter((ship) => { if (ship.type != null) return true }).map((ship) => {
+        if (ship.type != null) return ship.type
+      }))
+      const allTypeListArray: string[] = []
+      allTypeListSet.forEach((type: string | undefined) => {
+        if (type != null) allTypeListArray.push(type);
+      })
+      allTypeListArray.sort()
+
+      if(activeType.length == allTypeListArray.length){
+        setActiveType([])
+      }
+
+      console.log("active",activeType.length)
       return (
         <div>
           <div className={card_style.position}>
@@ -439,7 +406,7 @@ export default function Faction_Ship_Card(faction: any) {
                       className={card_style.dd_btn_style}
                       onClick={handleDropDown}
                     >
-                      {type}
+                      {activeType.length == 0 ? <>All Type</>:<>{activeType.toString()}</>}
                       <svg
                         aria-hidden="true"
                         className="w-4 h-4 ml-1"
@@ -465,182 +432,65 @@ export default function Faction_Ship_Card(faction: any) {
                         className={card_style.dd_list_bg_style}
                         aria-labelledby="dropdownMenuButton1"
                       >
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("All Type"), setDropdown(false);
-                            }}
-                          >
-                            All Type
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("AE"), setDropdown(false);
-                            }}
-                          >
-                            AE
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("AR"), setDropdown(false);
-                            }}
-                          >
-                            AR
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("BB"), setDropdown(false);
-                            }}
-                          >
-                            BB
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("BBV"), setDropdown(false);
-                            }}
-                          >
-                            BBV
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("BC"), setDropdown(false);
-                            }}
-                          >
-                            BC
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("BM"), setDropdown(false);
-                            }}
-                          >
-                            BM
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("CA"), setDropdown(false);
-                            }}
-                          >
-                            CA
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("CB"), setDropdown(false);
-                            }}
-                          >
-                            CB
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("CL"), setDropdown(false);
-                            }}
-                          >
-                            CL
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("CV"), setDropdown(false);
-                            }}
-                          >
-                            CV
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("CVL"), setDropdown(false);
-                            }}
-                          >
-                            CVL
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("DD"), setDropdown(false);
-                            }}
-                          >
-                            DD
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("IX"), setDropdown(false);
-                            }}
-                          >
-                            IX
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("SS"), setDropdown(false);
-                            }}
-                          >
-                            SS
-                          </button>
-                        </li>
-                        <li className={card_style.dd_list_position}>
-                          <button
-                            type="button"
-                            className={card_style.dd_list_btn_style}
-                            onClick={(event) => {
-                              setType("SSV"), setDropdown(false);
-                            }}
-                          >
-                            SSV
-                          </button>
-                        </li>
+                        {
+                            <>
+                              <button
+                                type="button"
+                                className={card_style.dd_list_btn_style}
+                                onClick={(event) => { 
+                                  setActiveType([])
+                                }}
+                              >
+                                <input className="relative peer shrink-0 appearance-none w-4 h-4 border border-blue-500 rounded bg-white" type="checkbox" checked={activeType.length == 0}/>
+                                <svg
+                                  className="absolute w-4 h-4 hidden peer-checked:block mt-0"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="#4169E1"
+                                  strokeWidth="4"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                >
+                                  <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                <p className="flex">All Type</p>
+                              </button>
+                            </>
+                        }
+                        {
+                          allTypeListArray.map((type) => {
+                            return (
+                              <button key={type}
+                                type="button"
+                                className={card_style.dd_list_btn_style}
+                                onClick={(event) => {
+                                  if(activeType.indexOf(type) == -1){
+                                    setActiveType([...activeType, type]);
+                                  }
+                                  else{
+                                    setActiveType(activeType.filter((typeInList) => {return typeInList != type}))
+                                  }
+                                }}
+                              >
+                                <input className="relative peer shrink-0 appearance-none w-4 h-4 border border-blue-500 rounded bg-white" type="checkbox" id={type} name={type} checked={activeType.includes(type)}/>
+                                <svg
+                                  className="absolute w-4 h-4 hidden peer-checked:block mt-0"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  stroke="#4169E1"
+                                  strokeWidth="4"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                >
+                                  <polyline points="20 6 9 17 4 12"></polyline>
+                                </svg>
+                                {type}
+                              </button>
+                            )
+                          })
+                        }
                       </ul>
                     </div>
                   </div>

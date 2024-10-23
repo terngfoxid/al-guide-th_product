@@ -218,7 +218,7 @@ export default function ActiveEventCard() {
                       className="overflow-hidden duration-300 border-2 border-transparent rounded-lg shadow bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-105 hover:border-cyan-400"
                     >
                       <Link
-                        className="text-zinc-700 dark:text-zinc-300"
+                        className="text-zinc-200 dark:text-zinc-300"
                         href={`/ship/${ship.name}`}
                       >
                         <div className="flex items-center justify-start w-full py-1 sm:px-2">
@@ -227,7 +227,7 @@ export default function ActiveEventCard() {
                             alt="ship type"
                             className="w-[40px] sm:w-[50px]"
                           />
-                          <div className="w-full px-1 truncate md:px-3 sm:rounded-r-lg bg-neutral-400 dark:bg-neutral-600">
+                          <div className="w-full px-1 truncate md:px-3 sm:rounded-r-lg bg-neutral-500 dark:bg-neutral-600">
                             <p>{ship.name}</p>
                           </div>
                         </div>

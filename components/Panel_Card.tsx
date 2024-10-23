@@ -395,7 +395,7 @@ export default function Panel_Card() {
           data.data.data_update[buffer].time._seconds,
         );
         data_d.push(
-          <p className={card_style.sub_content_head_style}>
+          <p key={"d_"+count} className={card_style.sub_content_head_style}>
             {datebuffer.toLocaleDateString("th-TH", {
               weekday: "long",
               month: "narrow",
@@ -425,14 +425,14 @@ export default function Panel_Card() {
         ) {
           const line_buffer = line;
           data_d.push(
-            <p className={card_style.sub_content_body_style}>
+            <p key={"line_"+count+"_"+line} className={card_style.sub_content_body_style}>
               {data.data.data_update[buffer].update_note[line_buffer]}
             </p>,
           );
         }
         if (buffer != data.data.data_update.length - 1) {
           data_d.push(
-            <div className="flex justify-center">
+            <div key={"endline_"+count} className="flex justify-center">
               <div className={card_style.end_content_style}></div>
             </div>,
           );
@@ -541,7 +541,7 @@ export default function Panel_Card() {
           data.data.web_update[buffer].time._seconds,
         );
         data_w.push(
-          <p className={card_style.sub_content_head_style}>
+          <p key={"update"+count} className={card_style.sub_content_head_style}>
             {datebuffer.toLocaleDateString("th-TH", {
               weekday: "long",
               month: "narrow",
@@ -571,14 +571,14 @@ export default function Panel_Card() {
         ) {
           const line_buffer = line;
           data_w.push(
-            <p className={card_style.sub_content_body_style}>
+            <p key={"line_"+count+"_"+line} className={card_style.sub_content_body_style}>
               {data.data.web_update[buffer].update_note[line_buffer]}
             </p>,
           );
         }
         if (buffer != data.data.web_update.length - 1) {
           data_w.push(
-            <div className="flex justify-center">
+            <div key={"endline"+count} className="flex justify-center">
               <div className={card_style.end_content_style}></div>
             </div>,
           );
@@ -709,7 +709,7 @@ export default function Panel_Card() {
                       <Link legacyBehavior href="https://facebook.com/Rolizami3355">
                         <a
                           target="_blank"
-                          className="mx-1 px-1 rounded bg-neutral-400 dark:rounded bg-neutral-600 hover:bg-neutral-500 dark:hover:bg-neutral-500"
+                          className="mx-1 px-1 rounded bg-neutral-400/50 dark:rounded dark:bg-neutral-600 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-neutral-200"
                         >
                           Rolizami ライム
                         </a>
@@ -718,7 +718,7 @@ export default function Panel_Card() {
                       <Link legacyBehavior href="https://www.youtube.com/@SSTfoxide">
                         <a
                           target="_blank"
-                          className="mx-1 px-1 rounded bg-neutral-400 dark:rounded bg-neutral-600 hover:bg-neutral-500 dark:hover:bg-neutral-500"
+                          className="mx-1 px-1 rounded bg-neutral-400/50 dark:rounded dark:bg-neutral-600 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-neutral-200"
                         >
                           SSTfoxide
                         </a>
@@ -738,7 +738,7 @@ export default function Panel_Card() {
                       <Link legacyBehavior href="https://www.youtube.com/@SSTfoxide">
                         <a
                           target="_blank"
-                          className="mx-1 px-1 rounded bg-neutral-400 dark:rounded bg-neutral-600 hover:bg-neutral-500 dark:hover:bg-neutral-500"
+                          className="mx-1 px-1 rounded bg-neutral-400/50 dark:rounded dark:bg-neutral-600 hover:bg-neutral-500 dark:hover:bg-neutral-500 hover:text-neutral-200"
                         >
                           SSTfoxide
                         </a>
