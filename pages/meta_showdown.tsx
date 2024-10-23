@@ -170,20 +170,21 @@ export default function MetaShowdownPage() {
                                                     className="overflow-hidden duration-300 border-2 border-red-900 rounded-lg shadow bg-neutral-300 dark:bg-neutral-700"
                                                 >
                                                     <button
-                                                        className="text-zinc-700 dark:text-zinc-300 w-full h-full"
-                                                    >
+                                                        className="text-zinc-200 dark:text-zinc-300 w-full h-full"
+                                                    ><div className="w-full h-full">
                                                         <div className="flex items-center justify-start w-full py-1 sm:px-2">
                                                             <img
                                                                 src={`/images/type/${ship.type}.webp`}
                                                                 alt="ship type"
                                                                 className="w-[40px] sm:w-[50px]"
                                                             />
-                                                            <div className="w-full px-1 truncate md:px-3 sm:rounded-r-lg bg-neutral-400 dark:bg-neutral-600">
+                                                            <div className="w-full px-1 truncate md:px-3 sm:rounded-r-lg bg-neutral-500 dark:bg-neutral-600">
                                                                 <p>{ship.name}</p>
                                                             </div>
                                                         </div>
-                                                        <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
+                                                        <div className="flex h-fit items-center justify-center w-full aspect-square md:aspect-video">
                                                             <img className="max-h-[150px]" src={ship.chibi} alt="ship chibi image" />
+                                                        </div>
                                                         </div>
                                                     </button>
                                                 </div>)
@@ -193,7 +194,7 @@ export default function MetaShowdownPage() {
                                                     className="overflow-hidden duration-300 border-2 border-transparent rounded-lg shadow bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-105 hover:border-cyan-400"
                                                 >
                                                     <button
-                                                        className="text-zinc-700 dark:text-zinc-300 w-full h-full"
+                                                        className="text-zinc-200 dark:text-zinc-300 w-full h-full"
                                                         onClick={() => {
                                                             setIndex(idx)
                                                             let access = document.getElementById("bossdata");
@@ -201,19 +202,20 @@ export default function MetaShowdownPage() {
                                                                 access.scrollIntoView({ behavior: "smooth" });
                                                             }
                                                         }}
-                                                    >
+                                                    ><div className="w-full h-full">
                                                         <div className="flex items-center justify-start w-full py-1 sm:px-2">
                                                             <img
                                                                 src={`/images/type/${ship.type}.webp`}
                                                                 alt="ship type"
                                                                 className="w-[40px] sm:w-[50px]"
                                                             />
-                                                            <div className="w-full px-1 truncate md:px-3 sm:rounded-r-lg bg-neutral-400 dark:bg-neutral-600">
+                                                            <div className="w-full px-1 truncate md:px-3 sm:rounded-r-lg bg-neutral-500 dark:bg-neutral-600">
                                                                 <p>{ship.name}</p>
                                                             </div>
                                                         </div>
-                                                        <div className="flex items-center justify-center w-full aspect-square md:aspect-video">
+                                                        <div className="flex h-fit items-center justify-center w-full aspect-square md:aspect-video">
                                                             <img className="max-h-[150px]" src={ship.chibi} alt="ship chibi image" />
+                                                        </div>
                                                         </div>
                                                     </button>
                                                 </div>

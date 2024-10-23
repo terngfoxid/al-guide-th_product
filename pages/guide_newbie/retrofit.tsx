@@ -186,7 +186,7 @@ export default function Home() {
                             {retrofitShipData.data?.map(
                               (ship) => {
                                 return (<>{ship.faction == faction ?
-                                  <Link key={ship.name} className="mx-auto text-zinc-700 dark:text-zinc-300 text-base text-center w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300 hover:scale-110 border-2 border-transparent hover:border-cyan-400"
+                                  <Link key={ship.name} className="mx-auto text-zinc-200 dark:text-zinc-300 text-base text-center w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300 hover:scale-110 border-2 border-transparent hover:border-cyan-400"
                                     href={"/ship/" + ship.name}>
                                     <div className="rounded-lg">
                                       <div>
@@ -196,7 +196,7 @@ export default function Home() {
                                             width="49"
                                             height="30"
                                           />
-                                          <div className="inline-block w-full truncate rounded bg-neutral-400 dark:bg-neutral-600">
+                                          <div className="inline-block w-full truncate rounded bg-neutral-600 dark:bg-neutral-600">
                                             <p className="max-w-fit">&nbsp;{ship.name}</p>
                                           </div>
                                         </div>
