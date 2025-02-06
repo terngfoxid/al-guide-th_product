@@ -12,6 +12,7 @@ import ButtonAugmentation from "@/components/button/ButtonAugmentation";
 
 import { NextSeo } from "next-seo";
 import ButtonMetaShowdown from "@/components/button/ButtonMetaShowdown";
+import ButtonAllEventHistory from "@/components/button/ButtonAllEventHistory";
 
 export default function Home() {
   return (
@@ -47,6 +48,7 @@ export default function Home() {
                   <ButtonMetaShowdown />
                   <B_Meaw_Card />
                   <ButtonGuideResearchSY />
+                  <ButtonAllEventHistory />
               </div>
             </div>
           </div>
