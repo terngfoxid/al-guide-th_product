@@ -52,7 +52,7 @@ export default function OPSguide() {
                   </h2>
                   <div className="grid grid-cols-1 p-2 gap-2 px-5">
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(1);
                         move();
@@ -61,7 +61,7 @@ export default function OPSguide() {
                       บทที่ 1 ตะลุย OPS ครั้งแรก
                     </button>
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(2);
                         move();
@@ -70,7 +70,7 @@ export default function OPSguide() {
                       บทที่ 2 Puzzle อะไรลิงแก้ไม่เป็น
                     </button>
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(3);
                         move();
@@ -79,7 +79,7 @@ export default function OPSguide() {
                       บทที่ 3 เควส Ch.2 และ Zone Lv.5
                     </button>
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(4);
                         move();
@@ -88,7 +88,7 @@ export default function OPSguide() {
                       บทที่ 4 จบเควสเนื้อเรื่อง และ Guild Shop
                     </button>
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(5);
                         move();
@@ -97,7 +97,7 @@ export default function OPSguide() {
                       บทที่ 5 สิ่งที่ต้องทำในโหมด OPS
                     </button>
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(6);
                         move();

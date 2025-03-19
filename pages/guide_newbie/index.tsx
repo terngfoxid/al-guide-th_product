@@ -36,70 +36,70 @@ export default function Home() {
               </h1>
               <div className="grid grid-cols-1 gap-x-10 gap-y-5 py-2 md:grid-cols-2">
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/glossary"
                 >
                   <h2>บทเรียนที่ 1 คำศัพท์/คำย่อ</h2>
                 </Link>
 
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/basic_formation"
                 >
                   <h2>บทเรียนที่ 2 ตำแหน่งของเรือในทีม</h2>
                 </Link>
 
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/get3star"
                 >
                   <h2>บทเรียนที่ 3 การเก็บ 3☆</h2>
                 </Link>
 
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/xpcommander"
                 >
                   <h2>บทเรียนที่ 4 การเก็บ Exp ผู้การ</h2>
                 </Link>
 
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/morale"
                 >
                   <h2>บทเรียนที่ 5 ค่าอารมณ์</h2>
                 </Link>
 
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/coredata"
                 >
                   <h2>บทเรียนที่ 6 Core Data</h2>
                 </Link>
 
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/tech"
                 >
                   <h2>บทเรียนที่ 7 Tech</h2>
                 </Link>
 
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/retrofit"
                 >
                   <h2>บทเรียนที่ 8 Retrofit</h2>
                 </Link>
 
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/operation_siren"
                 >
                   <h2>บทเรียนที่ 9 Operation Siren</h2>
                 </Link>
 
                 <Link
-                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center w-full h-full p-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/project_identity"
                 >
                   <h2>บทเรียนที่ 10 Project Identity</h2>

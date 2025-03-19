@@ -191,7 +191,7 @@ export default function MetaShowdownPage() {
                                             else return (
                                                 <div
                                                     key={ship.name}
-                                                    className="overflow-hidden duration-300 border-2 border-transparent rounded-lg shadow bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-105 hover:border-cyan-400"
+                                                    className="overflow-hidden duration-300 border-2 border-transparent rounded-lg shadow bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-105 hover:border-cyan-400 hover:z-10"
                                                 >
                                                     <button
                                                         className="text-zinc-200 dark:text-zinc-300 w-full h-full"

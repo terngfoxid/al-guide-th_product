@@ -78,7 +78,7 @@ export default function Panel_Card() {
     ],
     //delete data button
     button_style:
-      "mx-2 rounded bg-neutral-400 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-600 border border-transparent hover:border-gray-400 dark:hover:border-gray-600 text-zinc-700 dark:text-zinc-400 py-1 px-1 duration-300 hover:scale-110 text-xs font-bold text-center",
+      "mx-2 rounded bg-neutral-400 hover:bg-neutral-200 dark:bg-neutral-800 dark:hover:bg-neutral-600 border border-transparent hover:border-gray-400 dark:hover:border-gray-600 text-zinc-700 dark:text-zinc-400 py-1 px-1 duration-300 hover:scale-110 text-xs font-bold text-center hover:z-10",
   };
 
   if (webState != 200) {

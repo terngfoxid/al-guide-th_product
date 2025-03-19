@@ -110,7 +110,7 @@ export default function ResearchPR() {
             <div className="flex justify-center items-center">
               <p className="text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl mr-4">ค่า Tech คืออะไร ?</p>
               <Link
-                className="items-center h-full px-5 py-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                className="items-center h-full px-5 py-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                 href="/guide_newbie/tech"
               >
                 <h2>บทเรียนที่ 7 Tech</h2>
@@ -173,7 +173,7 @@ export default function ResearchPR() {
               <div className="flex justify-center items-center">
                 <p className="text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl mr-4">ค่า Tech คืออะไร ?</p>
                 <Link
-                  className="items-center h-full px-5 py-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl"
+                  className="items-center h-full px-5 py-3 text-base text-center duration-300 border border-gray-300 rounded cursor-pointer bg-neutral-300 dark:bg-neutral-700 dark:border-gray-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-110 text-zinc-700 dark:text-zinc-200 md:text-lg lg:text-xl hover:z-10"
                   href="/guide_newbie/tech"
                 >
                   <h2>บทเรียนที่ 7 Tech</h2>

@@ -21,6 +21,7 @@ export default function Ship_Card(ship: { ship: string }) {
 
       faction: null,
       type: null,
+      type_re: null,
       error: null,
 
       re: null,
@@ -176,7 +177,7 @@ export default function Ship_Card(ship: { ship: string }) {
       position: "flex justify-center",
       body_style: "text-zinc-600 dark:text-zinc-400 text-2xl text-center",
       mrt_shape:
-        "hover:scale-110 overflow-hidden group relative w-11/12 rounded-lg shadow-md border bg-neutral-200 hover:bg-neutral-300 border-gray-300 dark:border-gray-800 dark:bg-neutral-800 dark:hover:bg-neutral-700 border-b-4 border-t-1 border-l-1 border-r-1 duration-300",
+        "hover:scale-110 overflow-hidden group relative w-11/12 rounded-lg shadow-md border bg-neutral-200 hover:bg-neutral-300 border-gray-300 dark:border-gray-800 dark:bg-neutral-800 dark:hover:bg-neutral-700 border-b-4 border-t-1 border-l-1 border-r-1 duration-300 hover:z-10",
       image_style: "w-full rounded-lg shadow-xl",
       mrt_image_src: "/images/MRT 600x300.webp",
       yt_image_src: "/images/review 600x300.webp",
@@ -287,7 +288,7 @@ export default function Ship_Card(ship: { ship: string }) {
               <br></br>
               <div className={card_style.body_style}>
                 <p>Faction: {shipdata.data.faction}</p>
-                <p>Type: {shipdata.data.type}</p>
+                <p>Type: {shipdata.data.type} {shipdata.data.type_re != null ? (" , "+shipdata.data.type_re+"(Retrofit)"):""}</p>
                 <div className="flex justify-center">
                   <div className="w-11/12 md:w-11/12">
                     {shipdata.data.skill != null ? (

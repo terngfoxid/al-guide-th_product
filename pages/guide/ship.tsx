@@ -83,7 +83,7 @@ export default function ShipRec() {
                     className={
                       recommend == idx
                         ? "bg-blue-800 rounded-lg scale-105 text-white"
-                        : "px-3 py-2 transition rounded-lg bg-neutral-400 dark:bg-neutral-700 hover:scale-105 hover:bg-neutral-500 hover:text-white hover:dark:bg-neutral-600"
+                        : "px-3 py-2 transition rounded-lg bg-neutral-400 dark:bg-neutral-700 hover:scale-105 hover:bg-neutral-500 hover:text-white hover:dark:bg-neutral-600 hover:z-10"
                     }
                     onClick={() => {
                       setRecommend(idx);

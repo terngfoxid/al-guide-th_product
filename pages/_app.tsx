@@ -31,10 +31,11 @@ export default function App({ Component, pageProps }: AppProps) {
           },
         ]}
       />
-
+      <div className="min-h-screen relative pb-[80px]">
       <TopBar />
       <Component {...pageProps} />
       <Footer />
+      </div>
 
       <Analytics />
     </>

@@ -24,6 +24,7 @@ type ActiveEvent = {
     faction_short: string;
     name: string;
     type: string;
+    type_re: string | null;
     image: string;
     chibi: string;
   }[];
@@ -59,10 +60,10 @@ export default function DataEventCard() {
   ];
 
   useEffect(() => {
-    if(!router.isReady) return;
+    if (!router.isReady) return;
     const load = async () => {
       const eventName = router.query.name
-      const response = await fetch("/api/select_event/"+eventName);
+      const response = await fetch("/api/select_event/" + eventName);
       console.log(response)
       setWebState(response.status)
       const data = await response.json();
@@ -208,7 +209,7 @@ export default function DataEventCard() {
                   return (
                     <div
                       key={ship.name}
-                      className="overflow-hidden duration-300 border-2 border-transparent rounded-lg shadow bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-105 hover:border-cyan-400"
+                      className="overflow-hidden duration-300 border-2 border-transparent rounded-lg shadow bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:scale-105 hover:border-cyan-400 hover:z-10"
                     >
                       <Link
                         className="text-zinc-200 dark:text-zinc-300"
@@ -220,6 +221,16 @@ export default function DataEventCard() {
                             alt="ship type"
                             className="w-[40px] sm:w-[50px]"
                           />
+                          {
+                            ship.type_re ?
+                              <>
+                                <img
+                                  src={`/images/type/${ship.type_re}.webp`}
+                                  alt="ship type"
+                                  className="w-[40px] sm:w-[50px]"
+                                />
+                              </> : <></>
+                          }
                           <div className="w-full px-1 truncate md:px-3 sm:rounded-r-lg bg-neutral-500 dark:bg-neutral-600">
                             <p>{ship.name}</p>
                           </div>

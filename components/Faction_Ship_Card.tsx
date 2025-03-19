@@ -6,13 +6,13 @@ import Image from "next/image";
 type FactionShip = {
   data: {
     error: string | null,
-    data: [{ name: string | null, type: string, chibi: string, faction_sub: string | null }]
+    data: [{ name: string | null, type: string, chibi: string, faction_sub: string | null, type_re: string | null }]
   }
 };
 
 export default function Faction_Ship_Card(faction: any) {
   const [shipdata, setShipdata] = useState<FactionShip>({
-    data: { error: null, data: [{ name: null, type: "", chibi: "", faction_sub: null }] },
+    data: { error: null, data: [{ name: null, type: "", chibi: "", faction_sub: null, type_re: null }] },
   });
   const [isDropdown, setDropdown] = useState(false);
   const [search, setSearch] = useState("");
@@ -103,7 +103,7 @@ export default function Faction_Ship_Card(faction: any) {
         position: "flex justify-center",
         body_style: "text-zinc-200 dark:text-zinc-300 text-base text-center",
         button_style:
-          "w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300 hover:scale-110 border-2 border-transparent hover:border-cyan-400",
+          "w-11/12 rounded-lg bg-neutral-300 dark:bg-neutral-700 hover:bg-neutral-400 dark:hover:bg-neutral-600 shadow duration-300 hover:scale-110 border-2 border-transparent hover:border-cyan-400 hover:z-10",
         text_bg: "",
         dd_btn_style:
           "px-2 py-1 my-2 text-zinc-600 dark:text-zinc-300 inline-flex items-center rounded bg-neutral-300 hover:bg-neutral-400 dark:bg-neutral-700 dark:hover:bg-neutral-600 duration-300 text-center",
@@ -143,8 +143,12 @@ export default function Faction_Ship_Card(faction: any) {
 
             if (activeType.length != 0) {
               const currentShipType = shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type
-              if(currentShipType != null){
-                if(activeType.includes(currentShipType) == false) hidden = " hidden";
+              const currentShipTypeRe = shipdata.data.data[buffer].type_re
+              if (currentShipType != null && currentShipTypeRe == null) {
+                if (activeType.includes(currentShipType) == false) hidden = " hidden";
+              }
+              else if (currentShipType != null && currentShipTypeRe != null) {
+                if (activeType.includes(currentShipType) == false && activeType.includes(currentShipTypeRe) == false) hidden = " hidden";
               }
             }
 
@@ -173,6 +177,20 @@ export default function Faction_Ship_Card(faction: any) {
                           width="49"
                           height="30"
                         />
+                        {shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type_re ? 
+                        <>
+                        <Image
+                          src={
+                            "/images/type/" +
+                            shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].type_re +
+                            ".webp"
+                          }
+                          alt="type image"
+                          width="49"
+                          height="30"
+                        />
+                        </>
+                        :<></>}
                         <div className="inline-block w-full truncate rounded bg-neutral-500 dark:bg-neutral-600">
                           <p className="max-w-fit">
                             &nbsp;{shipdata.data.data.filter((ship) => { if (ship.faction_sub == value1) return true })[buffer].name}
@@ -219,8 +237,12 @@ export default function Faction_Ship_Card(faction: any) {
 
           if (activeType.length != 0) {
             const currentShipType = shipdata.data.data[buffer].type
-            if(currentShipType != null){
-              if(activeType.includes(currentShipType) == false) hidden = " hidden";
+            const currentShipTypeRe = shipdata.data.data[buffer].type_re
+            if (currentShipType != null && currentShipTypeRe == null) {
+              if (activeType.includes(currentShipType) == false) hidden = " hidden";
+            }
+            else if (currentShipType != null && currentShipTypeRe != null) {
+              if (activeType.includes(currentShipType) == false && activeType.includes(currentShipTypeRe) == false) hidden = " hidden";
             }
           }
 
@@ -250,6 +272,19 @@ export default function Faction_Ship_Card(faction: any) {
                         width="49"
                         height="30"
                       />
+                      {shipdata.data.data[buffer].type_re ? 
+                      <>
+                      <Image
+                        src={
+                          "/images/type/" +
+                          shipdata.data.data[buffer].type_re +
+                          ".webp"
+                        }
+                        alt="type image"
+                        width="49"
+                        height="30"
+                      />
+                      </>:<></>}
                       <div className="inline-block w-full truncate rounded bg-neutral-500 dark:bg-neutral-600">
                         <p className="max-w-fit">
                           &nbsp;{shipdata.data.data[buffer].name}
@@ -381,17 +416,28 @@ export default function Faction_Ship_Card(faction: any) {
       const allTypeListSet: Set<string | undefined> = new Set(shipdata.data.data.filter((ship) => { if (ship.type != null) return true }).map((ship) => {
         if (ship.type != null) return ship.type
       }))
+      const allTypeReListSet: Set<string | undefined> = new Set(shipdata.data.data.filter((ship) => { if (ship.type_re != null) return true }).map((ship) => {
+        if (ship.type_re != null) return ship.type_re
+      }))
+
       const allTypeListArray: string[] = []
       allTypeListSet.forEach((type: string | undefined) => {
         if (type != null) allTypeListArray.push(type);
       })
+      allTypeReListSet.forEach((type_re: string | undefined) => {
+        if (type_re != null) {
+          if (allTypeListArray.includes(type_re) == false) {
+            allTypeListArray.push(type_re);
+          }
+        }
+      })
       allTypeListArray.sort()
 
-      if(activeType.length == allTypeListArray.length){
+      if (activeType.length == allTypeListArray.length) {
         setActiveType([])
       }
 
-      console.log("active",activeType.length)
+      console.log("active", activeType.length)
       return (
         <div>
           <div className={card_style.position}>
@@ -406,7 +452,7 @@ export default function Faction_Ship_Card(faction: any) {
                       className={card_style.dd_btn_style}
                       onClick={handleDropDown}
                     >
-                      {activeType.length == 0 ? <>All Type</>:<>{activeType.toString()}</>}
+                      {activeType.length == 0 ? <>All Type</> : <>{activeType.toString()}</>}
                       <svg
                         aria-hidden="true"
                         className="w-4 h-4 ml-1"
@@ -433,30 +479,30 @@ export default function Faction_Ship_Card(faction: any) {
                         aria-labelledby="dropdownMenuButton1"
                       >
                         {
-                            <>
-                              <button
-                                type="button"
-                                className={card_style.dd_list_btn_style}
-                                onClick={(event) => { 
-                                  setActiveType([])
-                                }}
+                          <>
+                            <button
+                              type="button"
+                              className={card_style.dd_list_btn_style}
+                              onClick={(event) => {
+                                setActiveType([])
+                              }}
+                            >
+                              <input className="relative peer shrink-0 appearance-none w-4 h-4 border border-blue-500 rounded bg-white" type="checkbox" checked={activeType.length == 0} />
+                              <svg
+                                className="absolute w-4 h-4 hidden peer-checked:block mt-0"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="#4169E1"
+                                strokeWidth="4"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
                               >
-                                <input className="relative peer shrink-0 appearance-none w-4 h-4 border border-blue-500 rounded bg-white" type="checkbox" checked={activeType.length == 0}/>
-                                <svg
-                                  className="absolute w-4 h-4 hidden peer-checked:block mt-0"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 24 24"
-                                  fill="none"
-                                  stroke="#4169E1"
-                                  strokeWidth="4"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                >
-                                  <polyline points="20 6 9 17 4 12"></polyline>
-                                </svg>
-                                <p className="flex">All Type</p>
-                              </button>
-                            </>
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                              </svg>
+                              <p className="flex">All Type</p>
+                            </button>
+                          </>
                         }
                         {
                           allTypeListArray.map((type) => {
@@ -465,15 +511,15 @@ export default function Faction_Ship_Card(faction: any) {
                                 type="button"
                                 className={card_style.dd_list_btn_style}
                                 onClick={(event) => {
-                                  if(activeType.indexOf(type) == -1){
+                                  if (activeType.indexOf(type) == -1) {
                                     setActiveType([...activeType, type]);
                                   }
-                                  else{
-                                    setActiveType(activeType.filter((typeInList) => {return typeInList != type}))
+                                  else {
+                                    setActiveType(activeType.filter((typeInList) => { return typeInList != type }))
                                   }
                                 }}
                               >
-                                <input className="relative peer shrink-0 appearance-none w-4 h-4 border border-blue-500 rounded bg-white" type="checkbox" id={type} name={type} checked={activeType.includes(type)}/>
+                                <input className="relative peer shrink-0 appearance-none w-4 h-4 border border-blue-500 rounded bg-white" type="checkbox" id={type} name={type} checked={activeType.includes(type)} />
                                 <svg
                                   className="absolute w-4 h-4 hidden peer-checked:block mt-0"
                                   xmlns="http://www.w3.org/2000/svg"

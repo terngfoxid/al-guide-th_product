@@ -10,6 +10,7 @@ type ShipData = {
     {
       name: string,
       type: string,
+      type_re: string | null
       chibi: string,
       faction: string,
     }
@@ -34,7 +35,7 @@ export default function Home() {
     load().catch((e) => console.log(e));
   }, []);
 
-  if(webState == 429) return (
+  if (webState == 429) return (
     <>
       <Head>
         <title>บทเรียนที่ 8 Retrofit | Azur Lane Guide TH</title>
@@ -94,15 +95,15 @@ export default function Home() {
 
             <div className="rounded-lg shadow-md w-max p-5 mx-auto border border-gray-300 bg-neutral-200 dark:bg-neutral-800 dark:border-gray-700">
               <div className="flex gap-1 justify-center items-center">
-              <svg className="w-8 h-8 mr-3 text-[#FF3845] fill-[#FF3845]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6" />
-            </svg>
-            <p className="text-[#FF3845]">ไม่สามารถโหลดข้อมูลได้</p>
+                <svg className="w-8 h-8 mr-3 text-[#FF3845] fill-[#FF3845]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6" />
+                </svg>
+                <p className="text-[#FF3845]">ไม่สามารถโหลดข้อมูลได้</p>
               </div>
-            
-            <p className="mt-2 text-zinc-600 dark:text-zinc-400">กรุณาลองใหม่อีกครั้งหลังเวลา 14:00 น.</p>
+
+              <p className="mt-2 text-zinc-600 dark:text-zinc-400">กรุณาลองใหม่อีกครั้งหลังเวลา 14:00 น.</p>
             </div>
-            
+
 
           </div>
         </div>
@@ -196,6 +197,16 @@ export default function Home() {
                                             width="49"
                                             height="30"
                                           />
+                                          {
+                                            ship.type_re ?
+                                              <>
+                                                <Image src={"/images/type/" + ship.type_re + ".webp"}
+                                                  alt="type image"
+                                                  width="49"
+                                                  height="30"
+                                                />
+                                              </> : <></>
+                                          }
                                           <div className="inline-block w-full truncate rounded bg-neutral-600 dark:bg-neutral-600">
                                             <p className="max-w-fit">&nbsp;{ship.name}</p>
                                           </div>

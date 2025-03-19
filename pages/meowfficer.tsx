@@ -52,7 +52,7 @@ export default function Contract() {
                   </h2>
                   <div className="grid grid-cols-1 p-2 gap-2 px-5">
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(1);
                         move();
@@ -61,7 +61,7 @@ export default function Contract() {
                       บทที่ 1 Slot Talent ตอนเกิด
                     </button>
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(2);
                         move();
@@ -70,7 +70,7 @@ export default function Contract() {
                       บทที่ 2 ตำแหน่ง คู่ และทีม
                     </button>
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(3);
                         move();
@@ -79,7 +79,7 @@ export default function Contract() {
                       บทที่ 3 Talent ตรงสาย
                     </button>
                     <button
-                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600"
+                      className="w-full p-2 text-left text-xl duration-300 border border-transparent rounded bg-neutral-300 dark:bg-neutral-700 text-zinc-600 dark:text-zinc-300 md:text-xl lg:text-2xl hover:border-sky-500 hover:scale-110 hover:bg-neutral-400 dark:hover:bg-neutral-600 hover:z-10"
                       onClick={() => {
                         setVideo(4);
                         move();

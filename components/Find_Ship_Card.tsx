@@ -23,9 +23,9 @@ export default function Find_Ship_Card() {
         <br className=""></br>
         <div className={card_style.body_style}>
           <div className="flex items-center justify-center md:text-3xl">
-            <div className="w-1/2 md:w-1/4 border border-[#ffe259]">
+            <div className="w-1/2 md:w-1/4 rounded border border-[#ffffff]">
               <Image
-                src="/images/Faction main.webp"
+                src="/images/faction/Main-Faction.webp"
                 className={card_style.image_style}
                 alt="image"
                 width="500"
@@ -42,7 +42,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Eagle Union"
                 >
                   <Image
-                    src="/images/faction/Faction Eagle Union 500x100.webp"
+                    src="/images/faction/Faction-Eagle-Union.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -59,7 +59,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Royal Navy"
                 >
                   <Image
-                    src="/images/faction/Faction Royal Navy 500x100.webp"
+                    src="/images/faction/Faction-Royal-Navy.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -76,7 +76,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Sakura Empire"
                 >
                   <Image
-                    src="/images/faction/Faction Sakura Empire 500x100.webp"
+                    src="/images/faction/Faction-Sakura-Empire.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -93,7 +93,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Iron Blood"
                 >
                   <Image
-                    src="/images/faction/Faction Iron Blood 500x100.webp"
+                    src="/images/faction/Faction-Iron-Blood.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -110,7 +110,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Dragon Empery"
                 >
                   <Image
-                    src="/images/faction/Faction Dragon Empery 500x100.webp"
+                    src="/images/faction/Faction-Dragon-Empery.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -127,7 +127,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Northern Parliament"
                 >
                   <Image
-                    src="/images/faction/Faction Northern Parliament 500x100.webp"
+                    src="/images/faction/Faction-Northern-Parliament.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -144,7 +144,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Iris Libre"
                 >
                   <Image
-                    src="/images/faction/Faction Iris Libre 500x100.webp"
+                    src="/images/faction/Faction-Iris-Libre.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -157,11 +157,11 @@ export default function Find_Ship_Card() {
 
               <div className="flex justify-center">
                 <Link
-                  className="w-11/12 flex items-center hover:scale-110 duration-300 rounded border border-[#e52d27]"
+                  className="w-11/12 flex items-center hover:scale-110 duration-300 rounded border border-[#ad65d6]"
                   href="/faction/Vichya Dominion"
                 >
                   <Image
-                    src="/images/faction/Faction Vichya Dominion 500x100.webp"
+                    src="/images/faction/Faction-Vichya-Dominion.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -178,7 +178,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Sardegna Empire"
                 >
                   <Image
-                    src="/images/faction/Faction Serdegna Empire 500x100.webp"
+                    src="/images/faction/Faction-Sardegna-Empire.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -191,9 +191,9 @@ export default function Find_Ship_Card() {
           <br></br>
           <br></br>
           <div className="flex items-center justify-center md:text-3xl">
-            <div className="w-1/2 md:w-1/4 border border-[#ffe259]">
+            <div className="w-1/2 md:w-1/4 rounded border border-[#ffffff]">
               <Image
-                src="/images/Faction extra.webp"
+                src="/images/faction/Sub-Faction.webp"
                 className={card_style.image_style}
                 alt="image"
                 width="500"
@@ -211,7 +211,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Tempesta"
                 >
                   <Image
-                    src="/images/faction/Faction Tempesta 500x100.webp"
+                    src="/images/faction/Faction-Tempesta.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -228,7 +228,7 @@ export default function Find_Ship_Card() {
                   href="/faction/META"
                 >
                   <Image
-                    src="/images/faction/Faction META 500x100.webp"
+                    src="/images/faction/Faction-META.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
@@ -245,7 +245,7 @@ export default function Find_Ship_Card() {
                   href="/faction/Collab"
                 >
                   <Image
-                    src="/images/faction/Faction Callab 500x100.webp"
+                    src="/images/faction/Faction-Collab.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
