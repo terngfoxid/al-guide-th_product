@@ -27,7 +27,7 @@ export default function BackToTop() {
     symbol_style: "w-5/6 text-zinc-200 text-2xl font-bold font-serif ",
     btn_style:
       " p-2 rounded-full shadow-md border border-gray-400 bg-gray-200 hover:bg-neutral-300",
-    set_overlay: "fixed bottom-2 right-2 md:bottom-5 md:right-5 ",
+    set_overlay: "fixed bottom-2 right-2 md:bottom-5 md:right-5 z-20",
   };
 
   return (

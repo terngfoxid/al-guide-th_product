@@ -13,7 +13,7 @@ export default function Chibi(chibi: any) {
   }, [state]);
 
   const chibi_style = {
-    set_overlay: "fixed bottom-5 left-0 md:bottom-5 md:left-5",
+    set_overlay: "fixed bottom-5 left-0 md:bottom-5 md:left-5 z-20",
     chat_style:
       "animate__animated animate__fadeIn animate__slow flex bg-neutral-200 rounded-t-xl rounded-br-xl border-2 border-neutral-900 text-sm md:text-lg",
   };
