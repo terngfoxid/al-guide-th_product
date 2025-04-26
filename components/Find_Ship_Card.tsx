@@ -192,11 +192,11 @@ export default function Find_Ship_Card() {
               <div className="hidden md:block"></div>
               <div className="flex justify-center">
                 <Link
-                  className="w-11/12 flex items-center hover:scale-110 duration-300 rounded border border-[#71fd03]"
+                  className="w-11/12 flex items-center hover:scale-110 duration-300 rounded border border-[#d3ee74]"
                   href="/faction/Kingdom of Tulipa"
                 >
                   <Image
-                    src="/images/faction/Faction-Kingdom-of-Tulipa.webp"
+                    src="/images/faction/Faction_Kingdom_of_Tulipa.webp"
                     className={card_style.image_style}
                     alt="button image"
                     width="500"
