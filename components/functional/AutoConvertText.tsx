@@ -21,6 +21,7 @@ newStr = newStr.replace("Northern Parliament",'<a class="mx-1 px-1 rounded-md ho
 newStr = newStr.replace("Iris Libre",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Iris Libre">Iris Libre</a>')
 newStr = newStr.replace("Vichya Dominion",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Vichya Dominion">Vichya Dominion</a>')
 newStr = newStr.replace("Sardegna Empire",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Sardegna Empire">Sardegna Empire</a>')
+newStr = newStr.replace("Kingdom of Tulipa",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Kingdom of Tulipa">Kingdom of Tulipa</a>')
 //other faction to link
 newStr = newStr.replace("META",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/META">META</a>')
 newStr = newStr.replace("Tempesta",'<a class="mx-1 px-1 rounded-md hover:text-sky-400 hover:bg-zinc-500/[0.5]" href="/faction/Tempesta">Tempesta</a>')

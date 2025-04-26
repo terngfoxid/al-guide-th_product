@@ -18,7 +18,7 @@ type ShipData = {
     ]
 };
 
-const faction = ["Eagle Union", "Royal Navy", "Sakura Empire", "Iron Blood", "Dragon Empery", "Northern Parliament", "Iris Libre", "Vichya Dominion", "Sardegna Empire","Tempesta","META"]
+const faction = ["Eagle Union", "Royal Navy", "Sakura Empire", "Iron Blood", "Dragon Empery", "Northern Parliament", "Iris Libre", "Vichya Dominion", "Sardegna Empire","Kingdom of Tulipa","Tempesta","META"]
 
 export default function AugmentPage() {
 

@@ -39,6 +39,7 @@ export default function Ship() {
     faction != "Iris Libre" &&
     faction != "Vichya Dominion" &&
     faction != "Sardegna Empire" &&
+    faction != "Kingdom of Tulipa" &&
     faction != "Tempesta" &&
     faction != "META" &&
     faction != "Collab"
