@@ -24,7 +24,7 @@ type ActiveEvent = {
     faction_short: string;
     name: string;
     type: string;
-    type_re:string | null;
+    type_re: string | null;
     image: string;
     chibi: string;
   }[];
@@ -80,7 +80,7 @@ export default function ActiveEventCard() {
   }, [chibiChatIndex, chibiChatText.length]);
 
   useEffect(() => {
-    if(webState == 429) return;
+    if (webState == 429) return;
     const idx = activeEvent?.findIndex(
       (active) => active.name.replaceAll(" ", "_") === router.query.event
     );
@@ -114,26 +114,51 @@ export default function ActiveEventCard() {
 
     let cards: { key: string; content: JSX.Element; }[] = [
     ];
-    activeEvent[activeIndex].ships?.forEach(
-      (ship) => {
-        cards.push(
-          {
-            key: uuid(),
-            content: <div className="relative max-h-[200px] md:max-h-[360px] xl:max-h-[500px] w-[220px] sm:w-[330px] md:w-[400px] lg:w-[500px] overflow-visible flex items-center justify-center">
-              <img
-                src={ship.image}
-                key={ship.image}
-                alt={ship.image}
-                className="h-[220px] sm:h-[350px] md:h-[400px] lg:h-[600px] object-center aspect-square flex-shrink-0"
-              />
-              <p className="flex justify-center max-w-none w-max px-[5px] lg:px-[20px] py-[3px] lg:py-[12px] absolute left-1/2 transform -translate-x-1/2 bottom-[5px] lg:bottom-[20px] rounded rounded-md border border-gray-600 shadow-lg bg-neutral-800 text-neutral-200 dark:text-gray-300 text-lg lg:text-xl">
-                {ship.faction_short} {ship.name}
-              </p>
-            </div>
-          },
+    if (activeEvent[activeIndex].ships != null) {
+      activeEvent[activeIndex].ships?.forEach(
+        (ship) => {
+          cards.push(
+            {
+              key: uuid(),
+              content: <div className="relative max-h-[200px] md:max-h-[360px] xl:max-h-[500px] w-[220px] sm:w-[330px] md:w-[400px] lg:w-[500px] overflow-visible flex items-center justify-center">
+                <img
+                  src={ship.image}
+                  key={ship.image}
+                  alt={ship.image}
+                  className="h-[220px] sm:h-[350px] md:h-[400px] lg:h-[600px] object-center aspect-square flex-shrink-0"
+                />
+                <p className="flex justify-center max-w-none w-max px-[5px] lg:px-[20px] py-[3px] lg:py-[12px] absolute left-1/2 transform -translate-x-1/2 bottom-[5px] lg:bottom-[20px] rounded rounded-md border border-gray-600 shadow-lg bg-neutral-800 text-neutral-200 dark:text-gray-300 text-lg lg:text-xl">
+                  {ship.faction_short} {ship.name}
+                </p>
+              </div>
+            },
+          )
+        }
+      )
+
+      if (activeEvent[activeIndex].ships.length < 3 && activeEvent[activeIndex].ships.length > 1) {
+        activeEvent[activeIndex].ships?.forEach(
+          (ship) => {
+            cards.push(
+              {
+                key: uuid(),
+                content: <div className="relative max-h-[200px] md:max-h-[360px] xl:max-h-[500px] w-[220px] sm:w-[330px] md:w-[400px] lg:w-[500px] overflow-visible flex items-center justify-center">
+                  <img
+                    src={ship.image}
+                    key={ship.image}
+                    alt={ship.image}
+                    className="h-[220px] sm:h-[350px] md:h-[400px] lg:h-[600px] object-center aspect-square flex-shrink-0"
+                  />
+                  <p className="flex justify-center max-w-none w-max px-[5px] lg:px-[20px] py-[3px] lg:py-[12px] absolute left-1/2 transform -translate-x-1/2 bottom-[5px] lg:bottom-[20px] rounded rounded-md border border-gray-600 shadow-lg bg-neutral-800 text-neutral-200 dark:text-gray-300 text-lg lg:text-xl">
+                    {ship.faction_short} {ship.name}
+                  </p>
+                </div>
+              },
+            )
+          }
         )
       }
-    )
+    }
 
     return (
       <article key={`event-idx-${activeIndex}`}>
