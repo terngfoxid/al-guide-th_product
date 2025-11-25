@@ -288,7 +288,7 @@ export default function Ship_Card(ship: { ship: string }) {
               <br></br>
               <div className={card_style.body_style}>
                 <p>Faction: {shipdata.data.faction}</p>
-                <p>Type: {shipdata.data.type} {shipdata.data.type_re != null ? (" , "+shipdata.data.type_re+"(Retrofit)"):""}</p>
+                <p>Type: {shipdata.data.type} {shipdata.data.type_re != null ? (" , " + shipdata.data.type_re + "(Retrofit)") : ""}</p>
                 <div className="flex justify-center">
                   <div className="w-11/12 md:w-11/12">
                     {shipdata.data.skill != null ? (
@@ -904,11 +904,21 @@ export default function Ship_Card(ship: { ship: string }) {
                       <>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
-                            <img
-                              className=""
-                              src={shipdata.data.guide_skill_1}
-                              alt={shipdata.data.name + " skill 1 Guide"}
-                            ></img>
+                            {
+                              (shipdata.data.guide_skill_1 as string).includes('.mp4') ?
+                                <>
+                                  <video className="max-w-11/12 w-[500px]" autoPlay loop muted>
+                                    <source src={shipdata.data.guide_skill_1} type="video/mp4" />
+                                  </video>
+                                </> :
+                                <>
+                                  <img
+                                    className=""
+                                    src={shipdata.data.guide_skill_1}
+                                    alt={shipdata.data.name + " skill 1 Guide"}
+                                  ></img>
+                                </>
+                            }
                           </div>
                         </div>
                         {shipdata.data.guide_skill_1_note != null ? (
@@ -934,11 +944,21 @@ export default function Ship_Card(ship: { ship: string }) {
                       <>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
-                            <img
-                              className=""
-                              src={shipdata.data.guide_skill_2}
-                              alt={shipdata.data.name + " skill 2 Guide"}
-                            ></img>
+                            {
+                              (shipdata.data.guide_skill_2 as string).includes('.mp4') ?
+                                <>
+                                  <video className="max-w-11/12 w-[500px]" autoPlay loop muted>
+                                    <source src={shipdata.data.guide_skill_2} type="video/mp4" />
+                                  </video>
+                                </> :
+                                <>
+                                  <img
+                                    className=""
+                                    src={shipdata.data.guide_skill_2}
+                                    alt={shipdata.data.name + " skill 2 Guide"}
+                                  ></img>
+                                </>
+                            }
                           </div>
                         </div>
                         {shipdata.data.guide_skill_2_note != null ? (
@@ -964,11 +984,21 @@ export default function Ship_Card(ship: { ship: string }) {
                       <>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
-                            <img
-                              className=""
-                              src={shipdata.data.guide_skill_3}
-                              alt={shipdata.data.name + " skill 3 Guide"}
-                            ></img>
+                            {
+                              (shipdata.data.guide_skill_3 as string).includes('.mp4') ?
+                                <>
+                                  <video className="max-w-11/12 w-[500px]" autoPlay loop muted>
+                                    <source src={shipdata.data.guide_skill_3} type="video/mp4" />
+                                  </video>
+                                </> :
+                                <>
+                                  <img
+                                    className=""
+                                    src={shipdata.data.guide_skill_3}
+                                    alt={shipdata.data.name + " skill 3 Guide"}
+                                  ></img>
+                                </>
+                            }
                           </div>
                         </div>
                         {shipdata.data.guide_skill_3_note != null ? (
@@ -994,11 +1024,21 @@ export default function Ship_Card(ship: { ship: string }) {
                       <>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
-                            <img
-                              className=""
-                              src={shipdata.data.guide_skill_4}
-                              alt={shipdata.data.name + " skill 4 Guide"}
-                            ></img>
+                            {
+                              (shipdata.data.guide_skill_4 as string).includes('.mp4') ?
+                                <>
+                                  <video className="max-w-11/12 w-[500px]" autoPlay loop muted>
+                                    <source src={shipdata.data.guide_skill_4} type="video/mp4" />
+                                  </video>
+                                </> :
+                                <>
+                                  <img
+                                    className=""
+                                    src={shipdata.data.guide_skill_4}
+                                    alt={shipdata.data.name + " skill 1 Guide"}
+                                  ></img>
+                                </>
+                            }
                           </div>
                         </div>
                         {shipdata.data.guide_skill_4_note != null ? (
@@ -1024,11 +1064,21 @@ export default function Ship_Card(ship: { ship: string }) {
                       <>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
-                            <img
-                              className=""
-                              src={shipdata.data.guide_skill_5}
-                              alt={shipdata.data.name + " skill 5 Guide"}
-                            ></img>
+                            {
+                              (shipdata.data.guide_skill_5 as string).includes('.mp4') ?
+                                <>
+                                  <video className="max-w-11/12 w-[500px]" autoPlay loop muted>
+                                    <source src={shipdata.data.guide_skill_5} type="video/mp4" />
+                                  </video>
+                                </> :
+                                <>
+                                  <img
+                                    className=""
+                                    src={shipdata.data.guide_skill_5}
+                                    alt={shipdata.data.name + " skill 5 Guide"}
+                                  ></img>
+                                </>
+                            }
                           </div>
                         </div>
                         {shipdata.data.guide_skill_5_note != null ? (
@@ -1054,11 +1104,21 @@ export default function Ship_Card(ship: { ship: string }) {
                       <>
                         <div className="flex justify-center pb-2">
                           <div className="flex justify-center w-11/12">
-                            <img
-                              className=""
-                              src={shipdata.data.guide_skill_6}
-                              alt={shipdata.data.name + " skill 6 Guide"}
-                            ></img>
+                            {
+                              (shipdata.data.guide_skill_6 as string).includes('.mp4') ?
+                                <>
+                                  <video className="max-w-11/12 w-[500px]" autoPlay loop muted>
+                                    <source src={shipdata.data.guide_skill_6} type="video/mp4" />
+                                  </video>
+                                </> :
+                                <>
+                                  <img
+                                    className=""
+                                    src={shipdata.data.guide_skill_6}
+                                    alt={shipdata.data.name + " skill 6 Guide"}
+                                  ></img>
+                                </>
+                            }
                           </div>
                         </div>
                         {shipdata.data.guide_skill_6_note != null ? (
