@@ -2,8 +2,6 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { Analytics } from "@vercel/analytics/react";
 import { NextSeo } from "next-seo";
-import TopBar from "@/components/Topbar";
-import Footer from "@/components/Footer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -32,9 +30,7 @@ export default function App({ Component, pageProps }: AppProps) {
         ]}
       />
       <div className="min-h-screen relative pb-[80px]">
-      <TopBar />
       <Component {...pageProps} />
-      <Footer />
       </div>
 
       <Analytics />

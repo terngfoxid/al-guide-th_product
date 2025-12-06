@@ -1,0 +1,764 @@
+[
+  {
+    "serie_number": 1,
+    "ship": [
+      {
+        "unlock": "มีเรือกองหน้าของ Royal Navy 20 ลำ",
+        "blob": "https://azurlane.netojuu.com/images/1/15/Neptune.png",
+        "faction_short": "HMS",
+        "name": "Neptune",
+        "type": "CL",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Royal Navy",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Royal Navy",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มีเรือกองหลังของ Royal Navy 10 ลำ",
+        "blob": "https://azurlane.netojuu.com/images/9/96/Monarch.png",
+        "faction_short": "HMS",
+        "name": "Monarch",
+        "type": "BB",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Royal Navy",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Royal Navy",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/7/75/Ibuki.png",
+        "unlock": "มีเรือกองหน้าของ Sakura Empire 20 ลำ",
+        "faction_short": "IJN",
+        "name": "Ibuki",
+        "type": "CA",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Sakura Empire",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Sakura Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/6/60/Izumo.png",
+        "unlock": "มีเรือกองหลังของ Sakura Empire 10 ลำ",
+        "faction_short": "IJN",
+        "name": "Izumo",
+        "type": "BB",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Sakura Empire",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Sakura Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มีเรือกองหน้าของ Iron Blood 7 ลำ",
+        "blob": "https://azurlane.netojuu.com/images/6/6b/Roon.png",
+        "faction_short": "KMS",
+        "name": "Roon",
+        "type": "CA",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Iron Blood",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มีเรือกองหน้าของ Eagle Union 20 ลำ",
+        "blob": "https://azurlane.netojuu.com/images/4/41/Saint_Louis.png",
+        "faction_short": "FFNF",
+        "name": "Saint Louis",
+        "type": "CA",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Eagle Union",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Eagle Union",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      }
+    ],
+    "id": "pr1"
+  },
+  {
+    "serie_number": 2,
+    "ship": [
+      {
+        "unlock": "มี Tech ของ Eagle Union 760 points",
+        "blob": "https://azurlane.netojuu.com/images/d/d3/Seattle.png",
+        "faction_short": "USS",
+        "name": "Seattle",
+        "type": "CL",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Eagle Union",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Eagle Union",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Eagle Union 810 points",
+        "blob": "https://azurlane.netojuu.com/images/1/19/Georgia.png",
+        "faction_short": "USS",
+        "name": "Georgia",
+        "type": "BB",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Eagle Union",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Eagle Union",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/b/bd/Kitakaze.png",
+        "unlock": "มี Tech ของ Sakura Empire 780 points",
+        "faction_short": "IJN",
+        "name": "Kitakaze",
+        "type": "DD",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Sakura Empire",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Destroyer T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Sakura Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Destroyer T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/4/42/Azuma.png",
+        "unlock": "มี Tech ของ Sakura Empire 900 points",
+        "faction_short": "IJN",
+        "name": "Azuma",
+        "type": "CB",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Sakura Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหน้าของ Sakura Empire",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 50,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/1/12/Friedrich_der_Große.png",
+        "unlock": "มี Tech ของ Iron Blood 630 points",
+        "faction_short": "KMS",
+        "name": "Friedrich der Große",
+        "type": "BB",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 60,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Eagle Union 760 points และ Iron Blood 420 points",
+        "blob": "https://azurlane.netojuu.com/images/f/f4/Gascogne.png",
+        "faction_short": "MNF",
+        "name": "Gascogne",
+        "type": "BB",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ  Iris Libre , Iron Blood หรือ Vichya Dominion",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ  Iris Libre , Iron Blood หรือ Vichya Dominion",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      }
+    ],
+    "id": "pr2"
+  },
+  {
+    "serie_number": 3,
+    "ship": [
+      {
+        "unlock": "มี Tech ของ Royal Navy 700 points",
+        "blob": "https://azurlane.netojuu.com/images/2/28/Cheshire.png",
+        "faction_short": "HMS",
+        "name": "Cheshire",
+        "type": "CA",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Royal Navy",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Royal Navy",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/d/da/Drake.png",
+        "unlock": "มี Tech ของ Royal Navy 820 points",
+        "faction_short": "HMS",
+        "name": "Drake",
+        "type": "CA",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหน้าของ Royal Navy",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหน้าของ Royal Navy",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 40,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/d/de/Mainz.png",
+        "unlock": "มี Tech ของ Iron Blood 550 points",
+        "faction_short": "KMS",
+        "name": "Mainz",
+        "type": "CL",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Iron Blood",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Iron Blood 600 points",
+        "blob": "https://azurlane.netojuu.com/images/5/58/Odin.png",
+        "faction_short": "KMS",
+        "name": "Odin",
+        "type": "BC",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/0/05/Champagne.png",
+        "unlock": "มี Tech ของ Eagle Union 760 points และ Royal Navy 700 points",
+        "faction_short": "FFNF",
+        "name": "Champagne",
+        "type": "BB",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Eagle Union , Iris Libre หรือ Vichya Dominion",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Eagle Union , Iris Libre หรือ Vichya Dominion",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      }
+    ],
+    "id": "pr3"
+  },
+  {
+    "serie_number": 4,
+    "ship": [
+      {
+        "blob": "https://azurlane.netojuu.com/images/a/aa/Anchorage.png",
+        "unlock": "มี Tech ของ Eagle Union 850 points",
+        "faction_short": "USS",
+        "name": "Anchorage",
+        "type": "CA",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Eagle Union",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Eagle Union",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/7/7b/Hakuryuu.png",
+        "unlock": "มี Tech ของ Sakura Empire 950 points",
+        "faction_short": "IJN",
+        "name": "Hakuryuu",
+        "type": "CV",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Sakura Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Carrier T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหลังของ Sakura Empire",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Carrier T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 50,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Iron Blood 700 points",
+        "blob": "https://azurlane.netojuu.com/images/f/fe/Ägir.png",
+        "faction_short": "KMS",
+        "name": "Agir",
+        "type": "CB",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหน้าของ Iron Blood",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 50,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Iron Blood 600 points",
+        "blob": "https://azurlane.netojuu.com/images/d/d8/August_von_Parseval.png",
+        "faction_short": "KMS",
+        "name": "August von Parseval",
+        "type": "CV",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Carrier T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Carrier T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/a/a0/Marco_Polo.png",
+        "unlock": "มี Tech ของ Iron Blood 600 points และ Royal Navy 700 points",
+        "faction_short": "RN",
+        "name": "Marco Polo",
+        "type": "BB",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Iron Blood หรือ Sardegna Empire",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Iron Blood หรือ Sardegna Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      }
+    ],
+    "id": "pr4"
+  },
+  {
+    "serie_number": 5,
+    "ship": [
+      {
+        "unlock": "มี Tech ของ Royal Navy 900 points",
+        "blob": "https://azurlane.netojuu.com/images/6/67/Plymouth.png",
+        "faction_short": "HMS",
+        "name": "Plymouth",
+        "type": "CL",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหน้าของ Royal Navy",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหน้าของ Royal Navy",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 40,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Iron Blood 700 points",
+        "blob": "https://azurlane.netojuu.com/images/2/2a/Prinz_Rupprecht.png",
+        "faction_short": "KMS",
+        "name": "Prinz Rupprecht",
+        "type": "BC",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Dragon Empery 160 points",
+        "blob": "https://azurlane.netojuu.com/images/d/d5/Harbin.png",
+        "faction_short": "PRAN",
+        "name": "Harbin",
+        "type": "CL",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Dragon Empery",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Dragon Empery",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/d/db/Chkalov.png",
+        "unlock": "มี Tech ของ Eagle Union 760 points และ Sardegna Empire 300 points",
+        "faction_short": "SN",
+        "name": "Chkalov",
+        "type": "CV",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Northern Parliament หรือ Sardegna Empire",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Carrier T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Northern Parliament หรือ Eagle Union",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Carrier T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Iris Libre 250 points",
+        "blob": "https://azurlane.netojuu.com/images/c/c5/Brest.png",
+        "faction_short": "FFNF",
+        "name": "Brest",
+        "type": "CB",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Iris Libre หรือ Vichya Dominion",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหน้าของ Iris Libre หรือ Vichya Dominion",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 50,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      }
+    ],
+    "id": "pr5"
+  },
+  {
+    "serie_number": 6,
+    "ship": [
+      {
+        "blob": "https://azurlane.netojuu.com/images/4/46/Kearsarge.png",
+        "unlock": "มี Tech ของ Eagle Union 1000 points",
+        "faction_short": "USS",
+        "name": "Kearsarge",
+        "type": "BBV",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Eagle Union",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Carrier T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหลังของ Eagle Union",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 60,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Sakura Empire 900 points",
+        "blob": "https://azurlane.netojuu.com/images/1/16/Shimanto.png",
+        "faction_short": "IJN",
+        "name": "Shimanto",
+        "type": "CL",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Sakura Empire",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Sakura Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Iron Blood 850 points",
+        "blob": "https://azurlane.netojuu.com/images/6/68/Felix_Schultz.png",
+        "faction_short": "KMS",
+        "name": "Felix Schultz",
+        "type": "DD",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Iron Blood",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Destroyer T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Destroyer T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/e/e0/Hindenburg.png",
+        "unlock": "มี Tech ของ Iron Blood 950 points",
+        "faction_short": "KMS",
+        "name": "Hindenburg",
+        "type": "CA",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหน้าของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหน้าของ Iron Blood",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 40,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/4/49/Flandre.png",
+        "unlock": "มี Tech ของ Vichya Dominion 180 points และ Iron Blood 800 points",
+        "faction_short": "MNF",
+        "name": "Flandre",
+        "type": "BB",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Iris Libre หรือ Vichya Dominion",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Iris Libre หรือ Vichya Dominion",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      }
+    ],
+    "id": "pr6"
+  },
+  {
+    "serie_number": 7,
+    "ship": [
+      {
+        "unlock": "มี Tech ของ Eagle Union 950 points",
+        "blob": "https://azurlane.netojuu.com/images/7/7f/Halford.png",
+        "faction_short": "USS",
+        "name": "Halford",
+        "type": "DD",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Eagle Union",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Destroyer T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Eagle Union",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Destroyer T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Sakura Empire 950 points",
+        "blob": "https://azurlane.netojuu.com/images/6/63/Daisen.png",
+        "faction_short": "IJN",
+        "name": "Daisen",
+        "type": "BB",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Sakura Empire",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Sakura Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/f/f8/Napoli.png",
+        "unlock": "มี Tech ของ Sardegna Empire 300 points และ Northern Parliament 200 points",
+        "faction_short": "RN",
+        "name": "Napoli",
+        "type": "CA",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหน้าของ Sardegna Empire และ Northern Parliament",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหน้าของ Sardegna Empire หรือ Northern Parliament",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 40,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Northern Parliament 300 points และ Sardegna Empire 200 points",
+        "blob": "https://azurlane.netojuu.com/images/8/84/Admiral_Nakhimov.png",
+        "faction_short": "SN",
+        "name": "Admiral Nakhimov",
+        "type": "CV",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Sardegna Empire หรือ Northern Parliament",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Carrier T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหลังของ Sardegna Empire หรือ Northern Parliament",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Carrier T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 50,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Iris Libre 230 points",
+        "blob": "https://azurlane.netojuu.com/images/e/e8/Bayard.png",
+        "faction_short": "FFNF",
+        "name": "Bayard",
+        "type": "CL",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Iris Libre หรือ Vichya Dominion",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Iris Libre หรือ Vichya Dominion",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      }
+    ],
+    "id": "pr7"
+  },
+  {
+    "serie_number": 8,
+    "ship": [
+      {
+        "blob": "https://azurlane.netojuu.com/images/0/02/KansasWithoutBG.png",
+        "type": "BB",
+        "unlock": "มี Tech ของ Eagle Union 950 points",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Eagle Union",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหลังของ Eagle Union",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 30,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ],
+        "faction_short": "USS",
+        "name": "Kansas"
+      },
+      {
+        "unlock": "มี Tech ของ Iron Blood 950 points",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหลังของ Iron Blood",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Battleship T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 60,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ],
+        "type": "BB",
+        "blob": "https://azurlane.netojuu.com/images/4/46/MecklenburgWithoutBG.png",
+        "name": "Mecklenburg",
+        "faction_short": "KMS"
+      },
+      {
+        "blob": "https://azurlane.netojuu.com/images/6/6b/Vittorio_CunibertiWithoutBG.png",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Sardegna Empire",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Destroyer T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Sardegna Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Destroyer T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ],
+        "name": "Vittorio Cuniberti",
+        "unlock": "มี Tech ของ Sardegna Empire 300 points",
+        "faction_short": "RN",
+        "type": "DD"
+      },
+      {
+        "type": "CL",
+        "unlock": "มี Tech ของ Northern Parliament 300 points",
+        "blob": "https://azurlane.netojuu.com/images/b/be/Dmitri_DonskoiWithoutBG.png",
+        "name": "Dmitri Donskoi",
+        "faction_short": "SN",
+        "quest": [
+          "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Northern Parliament",
+          "ทำ 5 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T2 (สีม่วง) มาส่ง 10 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2 ล้าน Exp ด้วยกองหน้าของ Northern Parliament",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
+          "จ่ายเงิน 20,000 coins",
+          "นำ Cube มาส่ง 5 ก้อน"
+        ]
+      },
+      {
+        "unlock": "มี Tech ของ Iron Blood 800 points และ Sardegna Empire 200 points",
+        "quest": [
+          "เก็บ 1.2 ล้าน Exp ด้วยกองหน้าของ Kingdom of Tulipa, Iron Blood และ Sardegna Empire",
+          "ทำ 8 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 3 ใบ",
+          "(ต้องเสร็จขั้นที่ 1 ก่อน) เก็บ 2.4 ล้าน Exp ด้วยกองหน้าของ Kingdom of Tulipa, Iron Blood และ Sardegna Empire",
+          "ทำ 12 project ใน Research Academy",
+          "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 8 ใบ",
+          "จ่ายเงิน 40,000 coins",
+          "นำ Cube มาส่ง 10 ก้อน"
+        ],
+        "faction_short": "HNLMS",
+        "name": "Gouden Leeuw",
+        "type": "CA",
+        "blob": "https://azurlane.netojuu.com/images/5/51/Gouden_LeeuwWithoutBG.png"
+      }
+    ],
+    "id": "pr8"
+  }
+]
