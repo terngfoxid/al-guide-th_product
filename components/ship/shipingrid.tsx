@@ -18,7 +18,7 @@ export default function ShipInGrid({ ship, retrofit }: { ship: ShipV2, retrofit?
                 </div>
                 <div className="absolute z-10 p-[4%] w-full top-[2%]">
                     <div className="bg-black bg-opacity-80 !h-[1.5rem] lg:!h-[1.75rem] !max-h-[10%] flex items-center">
-                        <img className="h-full" src={"/images/type/" + (ship.type[0]) + ".webp"}>
+                        <img className="h-full" src={"/images/type/" + ((retrofit && ship.type.length > 1)?ship.type[1]:ship.type[0]) + ".webp"}>
                         </img>
                         {/*
                             ship.type[1] && <img className="h-full" src={"/images/type/" + (ship.type[1]) + ".webp"}>

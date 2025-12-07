@@ -60,6 +60,18 @@ export default function FourOhFour() {
     setActiveType([])
   }
 
+  const handleTypeFilter = (ship: ShipV2) => {
+    if (activeType.length === 0) return true;
+    if (ship.type.length === 1) return activeType.includes(ship.type[0])
+    if (ship.type.length === 2) return (activeType.includes(ship.type[0]) || activeType.includes(ship.type[1]))
+    return false
+  }
+
+  const handleSearchFilter = (ship: ShipV2) => {
+    if (search !== null && search !== "") return ship.name.toLowerCase().includes(search.toLowerCase())
+    return true
+  }
+
   return (
     <>
       <Head>
@@ -165,16 +177,12 @@ export default function FourOhFour() {
         </div>
         <div className="px-1 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-[1rem] mt-[1.5rem]">
           {
-            ships.filter((ship)=>{
-              if(activeType.length === 0) return true;
-              if(ship.type.length === 1 ) return activeType.includes(ship.type[0])
-              if(ship.type.length === 2 ) return (activeType.includes(ship.type[0]) || activeType.includes(ship.type[1]))
-              return false
-            }).filter(ship=>{
-              if(search !== null && search !== "") return ship.name.toLowerCase().includes(search.toLowerCase())
-              return true
-            }).map(ship =>{
-              return <ShipInGrid key={ship.name} ship={ship}/>
+            ships.map(ship => {
+              return <>
+                <div className={ (handleTypeFilter(ship) && handleSearchFilter(ship))? "w-full h-full": "hidden" }>
+                  <ShipInGrid key={ship.name} ship={ship} />
+                </div>
+              </>
             })
           }
         </div>

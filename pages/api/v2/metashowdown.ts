@@ -1,4 +1,5 @@
 import { ShipV2 } from "models/shipv2";
+import path from "path";
 
 const fs = require("fs");
 
@@ -15,11 +16,11 @@ export default async function handler(
         };
     },
 ) {
-
+    const filePath = path.join(process.cwd(), 'public', 'data', 'shipdata.json');
     switch (req.method) {
         case "GET": {
             try {
-                const raw = fs.readFileSync("./public/data/shipdata.json", "utf8");
+                const raw = fs.readFileSync(filePath, "utf8");
                 const ships: ShipV2[] = JSON.parse(raw);
                 return res.status(200).json((ships.filter(ship => (ship.meta_showdown))));
             } catch {

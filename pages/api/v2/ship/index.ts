@@ -23,6 +23,20 @@ export default async function REST(
             try {
                 const raw = fs.readFileSync(filePath, "utf8");
                 const ships: ShipV2[] = JSON.parse(raw);
+                ships.sort((a, b) => {
+                    const normalize = (str: string) =>
+                        str
+                            .normalize("NFD")
+                            .replace(/[\u0300-\u036f]/g, "")
+                            .toUpperCase();
+
+                    const nameA = normalize(a.name);
+                    const nameB = normalize(b.name);
+
+                    if (nameA < nameB) return -1;
+                    if (nameA > nameB) return 1;
+                    return 0;
+                });
                 return res.status(200).json(ships);
             } catch (err) {
                 res.status(500).json({ error: err });
