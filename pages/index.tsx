@@ -12,14 +12,11 @@ export default function Home() {
 
   const [webState, setWebState] = useState(0);
 
-  console.log(555)
   const callAPI = async () => {
     try {
       const res = await fetch("/api/v2/event");
-      console.log(res.status)
       setWebState(res.status)
       const loaddata: IEvent[] = await res.json();
-      console.log(loaddata)
       setEvents(loaddata);
       return;
     } catch (err) {

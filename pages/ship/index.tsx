@@ -179,7 +179,7 @@ export default function FourOhFour() {
           {
             ships.map(ship => {
               return <>
-                <div className={ (handleTypeFilter(ship) && handleSearchFilter(ship))? "w-full h-full": "hidden" }>
+                <div className={ (handleTypeFilter(ship) && handleSearchFilter(ship))? "w-full h-full duration-500 animate-slide-in-bottom": "hidden" }>
                   <ShipInGrid key={ship.name} ship={ship} />
                 </div>
               </>

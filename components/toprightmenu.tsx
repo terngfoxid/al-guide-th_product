@@ -225,7 +225,6 @@ export default function TopRightMenu() {
                                                     method: "PATCH",
                                                 })
                                                     .then(async res => {
-                                                        console.log("PATCH success", res);
                                                         if (res.status === 200)
                                                             openSuccessDialog({
                                                                 title: "Sync ข้อมูลสำเร็จ",
@@ -263,7 +262,6 @@ export default function TopRightMenu() {
                                                     method: "PATCH",
                                                 })
                                                     .then(async res => {
-                                                        console.log("PATCH success", res);
                                                         if (res.status === 200)
                                                             openSuccessDialog({
                                                                 title: "Sync ข้อมูลสำเร็จ",
@@ -301,7 +299,6 @@ export default function TopRightMenu() {
                                                     method: "PATCH",
                                                 })
                                                     .then(async res => {
-                                                        console.log("PATCH success", res);
                                                         if (res.status === 200)
                                                             openSuccessDialog({
                                                                 title: "Sync ข้อมูลสำเร็จ",
