@@ -1,7 +1,6 @@
 [
   {
     "name": "Admiral Hipper",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -34,11 +33,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "admiral hipper"
   },
   {
     "name": "Admiral Hipper META",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -66,11 +67,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "admiral hipper meta"
   },
   {
     "name": "Admiral Nakhimov",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -110,11 +113,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "admiral nakhimov"
   },
   {
     "name": "Admiral Zenker",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -146,11 +151,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "admiral zenker"
   },
   {
     "name": "Adventure",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(S)"
@@ -183,11 +190,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "adventure"
   },
   {
     "name": "Adventure Galley",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(V)"
@@ -230,11 +239,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "adventure galley"
   },
   {
     "name": "Akagi",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -287,11 +298,13 @@
     "note": [],
     "review": "https://www.youtube.com/watch?v=Bee4bfAtoZQ",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "akagi"
   },
   {
     "name": "Akagi µ",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -335,11 +348,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "akagi µ"
   },
   {
     "name": "Akane Shinjo",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -385,11 +400,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "akane shinjo"
   },
   {
     "name": "Akashi",
-    "rarity": [],
     "class": [],
     "type": [
       "AR"
@@ -437,11 +454,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "akashi"
   },
   {
     "name": "Alabama",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -478,11 +497,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "alabama"
   },
   {
     "name": "Albion",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -527,11 +548,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "albion"
   },
   {
     "name": "Alfredo Oriani",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -567,11 +590,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "alfredo oriani"
   },
   {
     "name": "Algérie",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -619,11 +644,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "algérie"
   },
   {
     "name": "Algérie META",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -665,11 +692,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "algérie meta"
   },
   {
     "name": "Allen M. Sumner",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -713,11 +742,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "allen m. sumner"
   },
   {
     "name": "Alsace",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -769,11 +800,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/FFNF%20Alsace%20Gear%20Recom.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "alsace"
   },
   {
     "name": "Alvitr",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -805,11 +838,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "alvitr"
   },
   {
     "name": "Amagi",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -850,11 +885,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1YjSccSdlrTjNGmyN0Av7G9GZFXY5GFuj/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "amagi"
   },
   {
     "name": "Amagi(CV)",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -893,11 +930,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/IJN%20Amagi(CV)%20Gear%20%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "amagi(cv)"
   },
   {
     "name": "Amagi-chan",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -932,11 +971,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "amagi-chan"
   },
   {
     "name": "Ami Futami",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -972,11 +1013,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "ami futami"
   },
   {
     "name": "Amity",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(S)"
@@ -1009,11 +1052,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "amity"
   },
   {
     "name": "An Shan",
-    "rarity": [],
     "class": [],
     "type": [
       "DD",
@@ -1064,11 +1109,14 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "an shan"
   },
   {
     "name": "Anchorage",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -1128,11 +1176,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "anchorage"
   },
   {
     "name": "Andrea Doria",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -1164,11 +1214,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "andrea doria"
   },
   {
     "name": "Andrea Doria META",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -1196,11 +1248,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "andrea doria meta"
   },
   {
     "name": "Aquila",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -1242,11 +1296,13 @@
     "note": [],
     "review": "https://www.youtube.com/watch?v=O5dnyruIVz8",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "aquila"
   },
   {
     "name": "Archerfish",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -1290,11 +1346,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "archerfish"
   },
   {
     "name": "Argus",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -1336,11 +1394,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1le80XoiWJNnyjkG-wDJl4P44SOeozocw/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "argus"
   },
   {
     "name": "Arizona META",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -1386,11 +1446,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "arizona meta"
   },
   {
     "name": "Ark Royal",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -1461,11 +1523,14 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "ark royal"
   },
   {
     "name": "Ark Royal META",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -1514,11 +1579,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "ark royal meta"
   },
   {
     "name": "Arkhangelsk",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -1558,11 +1625,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "arkhangelsk"
   },
   {
     "name": "Asama",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -1594,11 +1663,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "asama"
   },
   {
     "name": "Asanagi",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -1640,11 +1711,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "asanagi"
   },
   {
     "name": "Asashio",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -1688,11 +1761,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "asashio"
   },
   {
     "name": "Ashigara",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -1736,11 +1811,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "ashigara"
   },
   {
     "name": "Astoria",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -1777,11 +1854,13 @@
     "note": [],
     "augment": "New Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "astoria"
   },
   {
     "name": "Asuka",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -1817,11 +1896,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1Ueu2twEPsHDUgpxGwwZ67vCI8LWA6Ywc.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "asuka"
   },
   {
     "name": "Atago",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -1878,11 +1959,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "atago"
   },
   {
     "name": "Attilio Regolo",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -1927,11 +2010,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1b9Lx28dwsEaDRYBDyJcPiwwaPSBZqoXM.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "attilio regolo"
   },
   {
     "name": "August von Parseval",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -1974,11 +2059,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "august von parseval"
   },
   {
     "name": "Ayase",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -2010,11 +2097,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "ayase"
   },
   {
     "name": "Aylwin",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -2050,11 +2139,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "aylwin"
   },
   {
     "name": "Azuma",
-    "rarity": [],
     "class": [],
     "type": [
       "CB"
@@ -2101,11 +2192,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "azuma"
   },
   {
     "name": "Azusa Miura",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -2141,11 +2234,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "azusa miura"
   },
   {
     "name": "BLACK★ROCK SHOOTER",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -2179,11 +2274,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "black★rock shooter"
   },
   {
     "name": "Baltimore",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -2240,11 +2337,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "baltimore"
   },
   {
     "name": "Bartolomeo Colleoni",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -2276,11 +2375,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "bartolomeo colleoni"
   },
   {
     "name": "Bataan",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -2316,11 +2417,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "bataan"
   },
   {
     "name": "Bayard",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -2352,11 +2455,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "bayard"
   },
   {
     "name": "Belfast",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -2421,11 +2526,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "belfast"
   },
   {
     "name": "Bell",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -2457,11 +2564,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "bell"
   },
   {
     "name": "Bellona",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -2497,11 +2606,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "bellona"
   },
   {
     "name": "Birmingham",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -2545,11 +2656,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "birmingham"
   },
   {
     "name": "Bismarck",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -2598,11 +2711,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1OCELvPrJ-Vcfc6xG4n7deCzcPfWrUMW-/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "bismarck"
   },
   {
     "name": "Bismarck Zwei",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -2646,11 +2761,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1POqvpGqpu8LgtSW5JnkLR8XouKdAosQy.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "bismarck zwei"
   },
   {
     "name": "Bluegill",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -2686,11 +2803,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "bluegill"
   },
   {
     "name": "Blücher",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -2734,11 +2853,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "blücher"
   },
   {
     "name": "Bogue",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -2784,11 +2905,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "C",
+      "R"
+    ],
     "id": "bogue"
   },
   {
     "name": "Bois Belleau",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -2820,11 +2944,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "bois belleau"
   },
   {
     "name": "Boise",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -2876,11 +3002,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "boise"
   },
   {
     "name": "Boise META",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -2906,11 +3034,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "boise meta"
   },
   {
     "name": "Boise μ",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -2938,11 +3068,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "boise μ"
   },
   {
     "name": "Bolzano",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -2986,11 +3118,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "bolzano"
   },
   {
     "name": "Bolzano META",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -3018,11 +3152,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "bolzano meta"
   },
   {
     "name": "Bremerton",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -3082,11 +3218,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "bremerton"
   },
   {
     "name": "Brennus",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -3122,11 +3260,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "brennus"
   },
   {
     "name": "Brest",
-    "rarity": [],
     "class": [],
     "type": [
       "CB"
@@ -3167,11 +3307,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "brest"
   },
   {
     "name": "Bristol",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -3215,11 +3357,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "bristol"
   },
   {
     "name": "Brünhilde",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -3255,11 +3399,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "brünhilde"
   },
   {
     "name": "Bulldog",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -3294,11 +3440,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=lNGnTcaI78q6Aprn&t=100",
     "gear": [],
+    "rarity": [
+      "C"
+    ],
     "id": "bulldog"
   },
   {
     "name": "Béarn",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -3334,11 +3482,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "béarn"
   },
   {
     "name": "Béarn META",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -3366,11 +3516,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "béarn meta"
   },
   {
     "name": "Carabiniere",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -3403,11 +3555,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "carabiniere"
   },
   {
     "name": "Casablanca",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -3439,11 +3593,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "casablanca"
   },
   {
     "name": "Cavalla",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -3487,11 +3643,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "cavalla"
   },
   {
     "name": "Centaur",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -3532,11 +3690,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "centaur"
   },
   {
     "name": "Champagne",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -3583,11 +3743,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "champagne"
   },
   {
     "name": "Chang Chun",
-    "rarity": [],
     "class": [],
     "type": [
       "DD",
@@ -3638,11 +3800,14 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "chang chun"
   },
   {
     "name": "Chang Feng",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -3678,11 +3843,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "chang feng"
   },
   {
     "name": "Chao Ho",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -3731,11 +3898,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "chao ho"
   },
   {
     "name": "Chapayev",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -3788,11 +3957,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "chapayev"
   },
   {
     "name": "Charles Ausburne",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -3835,11 +4006,14 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "charles ausburne"
   },
   {
     "name": "Charybdis",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -3887,11 +4061,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "charybdis"
   },
   {
     "name": "Chen Hai",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -3945,11 +4121,14 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1osVCEMyTn6l7i-jAGWpWZbKfOBHhAZFn/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "chen hai"
   },
   {
     "name": "Cheshire",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -4007,11 +4186,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "cheshire"
   },
   {
     "name": "Chi An",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -4047,11 +4228,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "chi an"
   },
   {
     "name": "Chien Wu",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -4083,11 +4266,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "chien wu"
   },
   {
     "name": "Chihaya Kisaragi",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -4123,11 +4308,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "chihaya kisaragi"
   },
   {
     "name": "Chikuma",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -4167,11 +4354,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "chikuma"
   },
   {
     "name": "Chise Asukagawa",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -4213,11 +4402,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "chise asukagawa"
   },
   {
     "name": "Chitose",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -4257,11 +4448,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "chitose"
   },
   {
     "name": "Chiyoda",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -4298,11 +4491,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "chiyoda"
   },
   {
     "name": "Chkalov",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -4343,11 +4538,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "chkalov"
   },
   {
     "name": "Choukai",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -4384,11 +4581,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "choukai"
   },
   {
     "name": "Clemenceau",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -4426,11 +4625,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1k3xXWCkJSsJ9rY_XKXvn_19OcHSod5Cf/edit#heading=h.gjdgxs",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "clemenceau"
   },
   {
     "name": "Cleopatra",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -4462,11 +4663,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "cleopatra"
   },
   {
     "name": "Colorado",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -4508,11 +4711,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "colorado"
   },
   {
     "name": "Columbia",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -4549,11 +4755,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "columbia"
   },
   {
     "name": "Comet",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -4601,11 +4809,14 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=rUqgi08JY7E-kbhy&t=168",
     "gear": [],
+    "rarity": [
+      "C",
+      "R"
+    ],
     "id": "comet"
   },
   {
     "name": "Constellation",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -4642,11 +4853,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "constellation"
   },
   {
     "name": "Conte di Cavour",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -4688,11 +4901,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "conte di cavour"
   },
   {
     "name": "Cooper",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -4736,11 +4951,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "cooper"
   },
   {
     "name": "Crescent",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -4770,11 +4987,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "C",
+      "R"
+    ],
     "id": "crescent"
   },
   {
     "name": "Cygnet",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -4824,11 +5044,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "C",
+      "R"
+    ],
     "id": "cygnet"
   },
   {
     "name": "DEAD MASTER",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -4862,11 +5085,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "dead master"
   },
   {
     "name": "Daisen",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -4898,11 +5123,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "daisen"
   },
   {
     "name": "De Zeven Provinciën",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -4934,11 +5161,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "de zeven provinciën"
   },
   {
     "name": "Devonshire",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -4970,11 +5199,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "devonshire"
   },
   {
     "name": "Dewey META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -5000,11 +5231,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "dewey meta"
   },
   {
     "name": "Dido",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5046,11 +5279,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "dido"
   },
   {
     "name": "Dido µ",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5091,11 +5326,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "dido µ"
   },
   {
     "name": "Dmitri Donskoi",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5123,11 +5360,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "dmitri donskoi"
   },
   {
     "name": "Dolphin",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(S)"
@@ -5160,11 +5399,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "dolphin"
   },
   {
     "name": "Drake",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -5208,11 +5449,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "drake"
   },
   {
     "name": "Duca degli Abruzzi",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5256,11 +5499,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1VUlqiJa01DP2_2p3G4gpPT747IypOL-f.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "duca degli abruzzi"
   },
   {
     "name": "Duguay-Trouin",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5292,11 +5537,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "duguay-trouin"
   },
   {
     "name": "Duisburg",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5328,11 +5575,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "duisburg"
   },
   {
     "name": "Duke of York",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -5376,11 +5625,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "duke of york"
   },
   {
     "name": "Dunkerque",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -5421,11 +5672,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "dunkerque"
   },
   {
     "name": "Dunkerque META",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -5453,11 +5706,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "dunkerque meta"
   },
   {
     "name": "Dupleix",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -5489,11 +5744,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "dupleix"
   },
   {
     "name": "Duquesne",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -5525,11 +5782,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "duquesne"
   },
   {
     "name": "Eagle",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -5568,11 +5827,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "eagle"
   },
   {
     "name": "Edinburgh",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5613,11 +5874,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "edinburgh"
   },
   {
     "name": "Elbe",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -5657,11 +5920,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "elbe"
   },
   {
     "name": "Elbing",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5714,11 +5979,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "elbing"
   },
   {
     "name": "Eldridge",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -5780,11 +6047,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR",
+      "UR"
+    ],
     "id": "eldridge"
   },
   {
     "name": "Emanuele Passagno",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -5820,11 +6090,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "emanuele passagno"
   },
   {
     "name": "Emden",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5877,11 +6149,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "emden"
   },
   {
     "name": "Enterprise",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -5954,11 +6228,13 @@
     ],
     "review": "https://www.youtube.com/watch?v=EU_c3eHIttE",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "enterprise"
   },
   {
     "name": "Enterprise(Royal Navy)",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -5990,11 +6266,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "enterprise(royal navy)"
   },
   {
     "name": "Erebus META",
-    "rarity": [],
     "class": [],
     "type": [
       "BM"
@@ -6022,11 +6300,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "erebus meta"
   },
   {
     "name": "Eskimo",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -6064,13 +6344,15 @@
         "image": "https://patchwiki.biligame.com/images/blhx/2/2a/17obi0gn6i0kb8jo6mhu4ws6e0li5rj.gif"
       }
     ],
-    "note": [],
     "gear": [],
+    "note": [],
+    "rarity": [
+      "E"
+    ],
     "id": "eskimo"
   },
   {
     "name": "Essex",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -6132,11 +6414,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR",
+      "UR"
+    ],
     "id": "essex"
   },
   {
     "name": "Evertsen",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -6168,11 +6453,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "evertsen"
   },
   {
     "name": "Exeter",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -6211,11 +6498,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "exeter"
   },
   {
     "name": "Fancy",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(V)"
@@ -6248,11 +6538,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "fancy"
   },
   {
     "name": "Fargo",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -6284,11 +6576,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "fargo"
   },
   {
     "name": "Fei Yuen",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -6320,11 +6614,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "fei yuen"
   },
   {
     "name": "Felix Schultz",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -6358,11 +6654,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "felix schultz"
   },
   {
     "name": "Flandre",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -6396,11 +6694,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "flandre"
   },
   {
     "name": "Flasher",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -6442,11 +6742,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "flasher"
   },
   {
     "name": "Fleuret",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -6478,11 +6780,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "fleuret"
   },
   {
     "name": "Foch",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -6522,11 +6826,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "foch"
   },
   {
     "name": "Foch META",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -6554,11 +6860,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "foch meta"
   },
   {
     "name": "Forbin",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -6613,11 +6921,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "forbin"
   },
   {
     "name": "Formidable",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -6670,11 +6981,13 @@
     "note": [],
     "augment": "New Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "formidable"
   },
   {
     "name": "Formidable μ",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -6702,11 +7015,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "formidable μ"
   },
   {
     "name": "Fortune",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -6745,11 +7060,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "fortune"
   },
   {
     "name": "Fortune META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -6792,11 +7110,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "fortune meta"
   },
   {
     "name": "Franklin",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -6828,11 +7148,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "franklin"
   },
   {
     "name": "Friedrich Carl",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -6868,11 +7190,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "friedrich carl"
   },
   {
     "name": "Friedrich der Große",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -6919,11 +7243,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "friedrich der große"
   },
   {
     "name": "Fritz Rumey",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -6959,11 +7285,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/KMS Fritz Rumey Gear แนะนำ.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "fritz rumey"
   },
   {
     "name": "Fu Po",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -6995,11 +7323,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "fu po"
   },
   {
     "name": "Fu Shun",
-    "rarity": [],
     "class": [],
     "type": [
       "DD",
@@ -7042,11 +7372,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "fu shun"
   },
   {
     "name": "Fubuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -7099,11 +7432,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "fubuki"
   },
   {
     "name": "Fubuki(Senran Kagura)",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -7144,11 +7479,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1wriN_nE1m-1Wf-rRABmCSeMArCSJ4c6q.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "fubuki(senran kagura)"
   },
   {
     "name": "Fumizuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -7184,11 +7521,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "fumizuki"
   },
   {
     "name": "Fusou",
-    "rarity": [],
     "class": [],
     "type": [
       "BB",
@@ -7236,11 +7575,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "fusou"
   },
   {
     "name": "Fusou META",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -7275,11 +7617,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "fusou meta"
   },
   {
     "name": "Gallant",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -7311,11 +7655,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "gallant"
   },
   {
     "name": "Gangut",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -7352,11 +7698,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "gangut"
   },
   {
     "name": "Ganj-i-Sawai",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(M)"
@@ -7389,11 +7737,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "ganj-i-sawai"
   },
   {
     "name": "Gascogne",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -7431,11 +7781,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "gascogne"
   },
   {
     "name": "Georgia",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -7482,11 +7834,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "georgia"
   },
   {
     "name": "Giosuè Carducci",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -7518,11 +7872,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "giosuè carducci"
   },
   {
     "name": "Giulio Cesare",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -7565,14 +7921,16 @@
         "desc": "ตอร์ปิโดพิเศษ 96x6ลูก (80/100/130)"
       }
     ],
-    "note": [],
     "augment": "New Unique Modules",
     "gear": [],
+    "note": [],
+    "rarity": [
+      "E"
+    ],
     "id": "giulio cesare"
   },
   {
     "name": "Giulio Cesare META",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -7600,11 +7958,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "giulio cesare meta"
   },
   {
     "name": "Giuseppe Garibaldi",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -7644,11 +8004,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "giuseppe garibaldi"
   },
   {
     "name": "Glorious META",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -7676,11 +8038,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "glorious meta"
   },
   {
     "name": "Glowworm",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -7716,11 +8080,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "glowworm"
   },
   {
     "name": "Gneisenau",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -7753,11 +8120,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "gneisenau"
   },
   {
     "name": "Gneisenau META",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -7806,11 +8175,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "gneisenau meta"
   },
   {
     "name": "Golden Darkness",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -7844,11 +8215,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "golden darkness"
   },
   {
     "name": "Golden Hind",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(V)"
@@ -7895,11 +8268,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "golden hind"
   },
   {
     "name": "Gorizia",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -7940,11 +8315,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "gorizia"
   },
   {
     "name": "Gouden Leeuw",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -7972,11 +8349,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "gouden leeuw"
   },
   {
     "name": "Graf Zeppelin",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -8009,11 +8388,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "graf zeppelin"
   },
   {
     "name": "Gremyashchy",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -8049,11 +8430,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "gremyashchy"
   },
   {
     "name": "Grenville META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -8081,11 +8464,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "grenville meta"
   },
   {
     "name": "Gromky",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -8121,11 +8506,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "gromky"
   },
   {
     "name": "Grozny",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -8178,11 +8565,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "grozny"
   },
   {
     "name": "Guam",
-    "rarity": [],
     "class": [],
     "type": [
       "CB"
@@ -8235,11 +8624,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1GA6FOUff422ok9kuQ8lF2HSspIHwkkGt.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "guam"
   },
   {
     "name": "Guichen",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -8282,11 +8673,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1k3xXWCkJSsJ9rY_XKXvn_19OcHSod5Cf/edit#heading=h.gjdgxs",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "guichen"
   },
   {
     "name": "Haguro",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -8330,11 +8723,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "haguro"
   },
   {
     "name": "Hai Chi",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -8374,11 +8769,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hai chi"
   },
   {
     "name": "Hai Tien",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -8434,11 +8831,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hai tien"
   },
   {
     "name": "Hai Yung",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -8470,11 +8869,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hai yung"
   },
   {
     "name": "Hakuhou",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -8507,11 +8908,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1Z2EN8pwMxpv4GvYw8xOUaacpofomhEabPlruK1-Gofk/edit?usp=sharing",
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "hakuhou"
   },
   {
     "name": "Hakuryuu",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -8568,11 +8971,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/17wc_gfnOrEhlPGGC6y99kF9nrVYneOKm.png"
     ],
+    "rarity": [
+      "DR"
+    ],
     "id": "hakuryuu"
   },
   {
     "name": "Halford",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -8604,11 +9009,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "halford"
   },
   {
     "name": "Hammann II",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -8645,11 +9052,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1NAkZlm1_41NLGNHavbE45m8d-MTOZWwc/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hammann ii"
   },
   {
     "name": "Hanazuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -8689,11 +9098,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hanazuki"
   },
   {
     "name": "Harbin",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -8743,11 +9154,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "harbin"
   },
   {
     "name": "Hardy",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -8776,11 +9189,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hardy"
   },
   {
     "name": "Haruka Amami",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -8816,11 +9231,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "haruka amami"
   },
   {
     "name": "Haruna",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -8860,11 +9277,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "haruna"
   },
   {
     "name": "Haruna Sairenji",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -8898,11 +9317,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "haruna sairenji"
   },
   {
     "name": "Harutsuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -8942,11 +9363,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "harutsuki"
   },
   {
     "name": "Hass",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -8988,11 +9411,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hass"
   },
   {
     "name": "Hatakaze META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -9020,11 +9445,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "hatakaze meta"
   },
   {
     "name": "Hatsuzuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -9070,11 +9497,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "hatsuzuki"
   },
   {
     "name": "Helena",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -9129,11 +9558,14 @@
     "note": [],
     "history": "https://docs.google.com/document/d/19SeqhAExP3rwi2mUVIwMtJPMPPy_LHze",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "helena"
   },
   {
     "name": "Helena META",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -9182,11 +9614,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "helena meta"
   },
   {
     "name": "Hermione",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -9248,11 +9682,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "hermione"
   },
   {
     "name": "Hero",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -9295,14 +9731,16 @@
         "desc": "สกิลที่ 1 แบบที่สอง Hero Slash  : กระสุน Normal ความแรง 135 หน่วย จำนวน 8 นัด Armor Mod(100/100/100)"
       }
     ],
-    "note": [],
     "history": "https://docs.google.com/document/d/1le80XoiWJNnyjkG-wDJl4P44SOeozocw/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "note": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hero"
   },
   {
     "name": "Herring",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -9334,11 +9772,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "herring"
   },
   {
     "name": "Hestia",
-    "rarity": [],
     "class": [],
     "type": [
       "AR"
@@ -9370,11 +9810,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "hestia"
   },
   {
     "name": "Hibiki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -9410,11 +9852,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hibiki"
   },
   {
     "name": "Hiei",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -9454,11 +9898,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hiei"
   },
   {
     "name": "Hiei META",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -9486,11 +9932,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "hiei meta"
   },
   {
     "name": "Hindenburg",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -9522,11 +9970,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "hindenburg"
   },
   {
     "name": "Hiryuu",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -9564,11 +10014,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "hiryuu"
   },
   {
     "name": "Hiryuu META",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -9610,11 +10063,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "hiryuu meta"
   },
   {
     "name": "Homura",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -9648,11 +10103,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "homura"
   },
   {
     "name": "Honoka",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -9686,11 +10143,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "honoka"
   },
   {
     "name": "Hood",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -9749,11 +10208,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/hD3MG1ntsr0",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "hood"
   },
   {
     "name": "Hornet II",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -9790,11 +10251,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1O1XWbB0dpT0wh7OzKCEqplaSFTV9ED1F/edit?pli=1#heading=h.1fob9te",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "hornet ii"
   },
   {
     "name": "Hornet META",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -9840,11 +10303,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "hornet meta"
   },
   {
     "name": "Houshou",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -9877,11 +10342,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "houshou"
   },
   {
     "name": "Houshou META",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -9909,11 +10376,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "houshou meta"
   },
   {
     "name": "Houston",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -9946,11 +10415,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "houston"
   },
   {
     "name": "Houston II",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -9983,11 +10454,13 @@
     "note": [],
     "review": "https://youtu.be/e4enXpDS4zQ",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "houston ii"
   },
   {
     "name": "Howe",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -10032,11 +10505,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "howe"
   },
   {
     "name": "Hu Pen",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -10068,11 +10543,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "hu pen"
   },
   {
     "name": "Huan Ch'ang",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -10108,11 +10585,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "huan ch'ang"
   },
   {
     "name": "Hunter META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -10148,11 +10627,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "hunter meta"
   },
   {
     "name": "Hwah Jah",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -10195,11 +10676,14 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1osVCEMyTn6l7i-jAGWpWZbKfOBHhAZFn/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "hwah jah"
   },
   {
     "name": "Hyuuga",
-    "rarity": [],
     "class": [],
     "type": [
       "BB",
@@ -10234,11 +10718,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "hyuuga"
   },
   {
     "name": "I-13",
-    "rarity": [],
     "class": [],
     "type": [
       "SSV"
@@ -10274,11 +10761,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "i-13"
   },
   {
     "name": "I-168",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -10318,11 +10807,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "i-168"
   },
   {
     "name": "I-19",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -10371,11 +10862,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "i-19"
   },
   {
     "name": "I-404",
-    "rarity": [],
     "class": [],
     "type": [
       "SSV"
@@ -10408,11 +10901,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1Z2EN8pwMxpv4GvYw8xOUaacpofomhEabPlruK1-Gofk/edit?usp=sharing",
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "i-404"
   },
   {
     "name": "Ibuki",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -10470,11 +10965,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/bbRo9-fn0rs",
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "ibuki"
   },
   {
     "name": "Icarus",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -10522,11 +11019,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "icarus"
   },
   {
     "name": "Ikaruga",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -10562,11 +11061,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1Np9A3pOJBTkwQUVHFoGNx3S353MSrPcB.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "ikaruga"
   },
   {
     "name": "Illustrious",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -10632,11 +11133,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "illustrious"
   },
   {
     "name": "Illustrious µ",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -10668,11 +11171,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "illustrious µ"
   },
   {
     "name": "Impero",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -10717,11 +11222,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "impero"
   },
   {
     "name": "Implacable",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -10766,11 +11273,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1rDzXg9JojNIA5tiIJSChqTkFi9b_3tjS.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "implacable"
   },
   {
     "name": "Independence",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -10834,11 +11343,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "independence"
   },
   {
     "name": "Indiana",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -10870,11 +11382,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "indiana"
   },
   {
     "name": "Indomitable",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -10912,12 +11426,16 @@
       }
     ],
     "note": [],
-    "gear": [],
+    "gear": [
+      "SR"
+    ],
+    "rarity": [
+      "SR"
+    ],
     "id": "indomitable"
   },
   {
     "name": "Ingraham",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -10957,11 +11475,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "ingraham"
   },
   {
     "name": "Intrepid",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -10997,11 +11517,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "intrepid"
   },
   {
     "name": "Iori Minase",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -11037,11 +11559,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "iori minase"
   },
   {
     "name": "Ise",
-    "rarity": [],
     "class": [],
     "type": [
       "BB",
@@ -11076,11 +11600,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "ise"
   },
   {
     "name": "Isla von Duerer",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -11113,11 +11640,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "isla von duerer"
   },
   {
     "name": "Izumo",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -11166,11 +11695,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/Cd-S06i8Oq0",
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "izumo"
   },
   {
     "name": "Jade",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -11210,11 +11741,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "jade"
   },
   {
     "name": "Jamaica",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -11251,11 +11784,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "jamaica"
   },
   {
     "name": "Janus",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -11311,11 +11846,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "janus"
   },
   {
     "name": "Javelin",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -11387,11 +11924,14 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=7r2HqCt7UkFfVWAV&t=531",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "javelin"
   },
   {
     "name": "Jean Bart",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -11441,11 +11981,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "jean bart"
   },
   {
     "name": "Jeanne d'Arc",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -11489,11 +12031,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "jeanne d'arc"
   },
   {
     "name": "Jervis",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -11529,11 +12073,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "jervis"
   },
   {
     "name": "Jintsuu META",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -11579,11 +12125,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "jintsuu meta"
   },
   {
     "name": "Joffre",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -11636,11 +12184,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "joffre"
   },
   {
     "name": "Juneau",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -11692,11 +12242,14 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "juneau"
   },
   {
     "name": "Junyou META",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -11728,11 +12281,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "junyou meta"
   },
   {
     "name": "Kaga",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -11789,11 +12344,13 @@
     "note": [],
     "review": "https://www.youtube.com/watch?v=HRlFvy7liVc",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kaga"
   },
   {
     "name": "Kaga(BB)",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -11828,11 +12385,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kaga(bb)"
   },
   {
     "name": "Kagerou",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -11872,11 +12431,14 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=nIws6tXFpmbcaLGG&t=396",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "kagerou"
   },
   {
     "name": "Kaguya Yamai・Yuzuru Yamai",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -11911,11 +12473,13 @@
     "augment": "Unique Modules (Collaboration Ships)",
     "review": "https://youtube.com/shorts/NsVFcyP_zIY?si=cjeX7KlKufFcA90I",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kaguya yamai・yuzuru yamai"
   },
   {
     "name": "Kala Ideas",
-    "rarity": [],
     "class": [],
     "type": [
       "CB"
@@ -11955,11 +12519,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kala ideas"
   },
   {
     "name": "Kansas",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -11987,11 +12553,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "kansas"
   },
   {
     "name": "Kashino",
-    "rarity": [],
     "class": [],
     "type": [
       "AE"
@@ -12044,11 +12612,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "kashino"
   },
   {
     "name": "Kasumi",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -12099,11 +12669,14 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "kasumi"
   },
   {
     "name": "Kasumi (Venus Vacation)",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -12137,11 +12710,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kasumi (venus vacation)"
   },
   {
     "name": "Kasumi META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -12169,11 +12744,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "kasumi meta"
   },
   {
     "name": "Katsuragi",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -12213,11 +12790,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "katsuragi"
   },
   {
     "name": "Kawakaze",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -12273,11 +12852,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=CeSL1uPr-nfhFK96&t=677",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kawakaze"
   },
   {
     "name": "Kawakaze META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -12329,11 +12910,13 @@
       "https://ez-upload.al-guide-th.com/api/download/image_2025-06-14_233355358.png"
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "kawakaze meta"
   },
   {
     "name": "Kazagumo",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -12377,11 +12960,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kazagumo"
   },
   {
     "name": "Kazan",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -12413,11 +12998,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kazan"
   },
   {
     "name": "Kearsarge",
-    "rarity": [],
     "class": [],
     "type": [
       "BBV"
@@ -12453,11 +13040,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "kearsarge"
   },
   {
     "name": "Kersaint",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -12498,11 +13087,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "kersaint"
   },
   {
     "name": "Kiev",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -12547,11 +13138,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1XeJ_cNFR0SB6ZXvpJdYhGkR79ob1PomO/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kiev"
   },
   {
     "name": "Kii",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -12592,11 +13185,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kii"
   },
   {
     "name": "Kimberly META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -12624,11 +13219,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "kimberly meta"
   },
   {
     "name": "King George V",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -12665,11 +13262,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "king george v"
   },
   {
     "name": "Kinu",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -12715,11 +13314,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "kinu"
   },
   {
     "name": "Kirishima",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -12767,11 +13369,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "kirishima"
   },
   {
     "name": "Kirov",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -12820,11 +13424,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1BYrr3pZ8x779o7V3jAmw9U5Ak9tjmnIp/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kirov"
   },
   {
     "name": "Kirov Meta",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -12874,11 +13480,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "kirov meta"
   },
   {
     "name": "Kitakaze",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -12926,11 +13534,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "kitakaze"
   },
   {
     "name": "Klaudia Valentz",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -12970,11 +13580,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "klaudia valentz"
   },
   {
     "name": "Kongou",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -13018,11 +13630,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "kongou"
   },
   {
     "name": "Kongou μ",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -13050,11 +13664,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "kongou μ"
   },
   {
     "name": "Kotori Itsuka",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -13089,11 +13705,13 @@
     "augment": "Unique Modules (Collaboration Ships)",
     "review": "https://youtube.com/shorts/_fJsfNafr9U",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kotori itsuka"
   },
   {
     "name": "Kronshtadt",
-    "rarity": [],
     "class": [],
     "type": [
       "CB"
@@ -13141,11 +13759,13 @@
     "review": "https://www.youtube.com/watch?v=INdU_Qoy1Oo",
     "history": "https://docs.google.com/document/d/1ls847-Mc41YBCJbt525OAsmMG_wdtCQX/edit#heading=h.gjdgxs",
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "kronshtadt"
   },
   {
     "name": "Kumano",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -13193,11 +13813,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "kumano"
   },
   {
     "name": "Kursk",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -13247,11 +13869,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kursk"
   },
   {
     "name": "Kurumi Tokisaki",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -13286,11 +13910,13 @@
     "augment": "Unique Modules (Collaboration Ships)",
     "review": "https://youtube.com/shorts/5EQNQ4i0kSI",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kurumi tokisaki"
   },
   {
     "name": "Kuybyshev",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -13330,11 +13956,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "kuybyshev"
   },
   {
     "name": "Köln",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -13369,11 +13997,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "C",
+      "R"
+    ],
     "id": "köln"
   },
   {
     "name": "Königsberg",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -13402,11 +14033,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "C"
+    ],
     "id": "königsberg"
   },
   {
     "name": "L'Audacieux",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -13438,11 +14071,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "l'audacieux"
   },
   {
     "name": "L'Indomptable",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -13486,11 +14121,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "l'indomptable"
   },
   {
     "name": "L'Opiniâtre",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -13532,11 +14169,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=vYJQ68GYU37rZL0L&t=306",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "l'opiniâtre"
   },
   {
     "name": "La Galissonnière",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -13586,11 +14225,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "la galissonnière"
   },
   {
     "name": "La Galissonnière META",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -13618,11 +14259,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "la galissonnière meta"
   },
   {
     "name": "Laffey",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -13701,11 +14344,14 @@
     "note": [],
     "review": "https://youtu.be/VqCkyoWKQ6E?si=yDWETyOxtyjfW1Bm&t=431",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "laffey"
   },
   {
     "name": "Laffey II",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -13772,11 +14418,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1kyeCrdL46Y84tiXNWW33xfdyl9oBG-5W.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "laffey ii"
   },
   {
     "name": "Lala Satalin Deviluke",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -13810,11 +14458,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "lala satalin deviluke"
   },
   {
     "name": "Langley II",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -13847,11 +14497,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1NAkZlm1_41NLGNHavbE45m8d-MTOZWwc/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "langley ii"
   },
   {
     "name": "Le Hardi",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -13883,11 +14535,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "le hardi"
   },
   {
     "name": "Le Malin",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -13932,11 +14586,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "le malin"
   },
   {
     "name": "Le Mars",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -13991,11 +14647,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "le mars"
   },
   {
     "name": "Le Terrible",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -14039,11 +14698,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "le terrible"
   },
   {
     "name": "Le Triomphant",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -14076,11 +14737,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "le triomphant"
   },
   {
     "name": "Le Téméraire",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -14121,11 +14784,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "le téméraire"
   },
   {
     "name": "Le Téméraire μ",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -14153,11 +14818,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "le téméraire μ"
   },
   {
     "name": "Leander",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -14196,11 +14863,14 @@
     "note": [],
     "review": "https://www.youtube.com/watch?v=1a95xrNNZF0",
     "gear": [],
+    "rarity": [
+      "C",
+      "R"
+    ],
     "id": "leander"
   },
   {
     "name": "Leipzig",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -14237,11 +14907,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "leipzig"
   },
   {
     "name": "Lenja",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -14283,11 +14956,13 @@
     ],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "lenja"
   },
   {
     "name": "Leonardo da Vinci",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -14327,11 +15002,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "leonardo da vinci"
   },
   {
     "name": "Li'l Sandy",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -14367,11 +15044,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "li'l sandy"
   },
   {
     "name": "Libeccio",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -14411,11 +15090,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "libeccio"
   },
   {
     "name": "Lila Decyrus",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -14455,11 +15136,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "lila decyrus"
   },
   {
     "name": "Lion",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -14491,11 +15174,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "lion"
   },
   {
     "name": "Little Anchorage",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -14523,11 +15208,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "little anchorage"
   },
   {
     "name": "Little Cheshire",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -14563,11 +15250,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "little cheshire"
   },
   {
     "name": "Little Enterprise",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -14595,11 +15284,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "little enterprise"
   },
   {
     "name": "Little Formidable",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -14627,11 +15318,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "little formidable"
   },
   {
     "name": "Little Friedrich",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -14666,11 +15359,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "little friedrich"
   },
   {
     "name": "Little Prinz Eugen",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -14706,11 +15401,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "little prinz eugen"
   },
   {
     "name": "Little Spee",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -14746,11 +15443,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "little spee"
   },
   {
     "name": "Little Ägir",
-    "rarity": [],
     "class": [],
     "type": [
       "CB"
@@ -14778,11 +15477,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "little ägir"
   },
   {
     "name": "Littorio",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -14831,11 +15532,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "littorio"
   },
   {
     "name": "Liverpool",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -14867,11 +15570,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "liverpool"
   },
   {
     "name": "Long Island",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -14918,11 +15623,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "long island"
   },
   {
     "name": "Louisville",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -14964,11 +15672,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "louisville"
   },
   {
     "name": "Luna",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -15006,11 +15716,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "luna"
   },
   {
     "name": "Lung Wu",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -15046,11 +15758,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "lung wu"
   },
   {
     "name": "Lyme",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(V)"
@@ -15083,11 +15797,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "lyme"
   },
   {
     "name": "Lyon",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -15124,11 +15840,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "lyon"
   },
   {
     "name": "Lützow",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -15172,11 +15890,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "lützow"
   },
   {
     "name": "Maestrale",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -15212,11 +15932,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "maestrale"
   },
   {
     "name": "Magdeburg",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -15260,11 +15982,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "magdeburg"
   },
   {
     "name": "Maggiore Baracca",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -15296,11 +16020,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "maggiore baracca"
   },
   {
     "name": "Maillé Brézé",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -15340,11 +16066,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "maillé brézé"
   },
   {
     "name": "Mainz",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -15396,11 +16124,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "mainz"
   },
   {
     "name": "Makinami",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -15436,11 +16166,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "makinami"
   },
   {
     "name": "Mami Futami",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -15476,11 +16208,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "mami futami"
   },
   {
     "name": "Manchester",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -15520,11 +16254,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "manchester"
   },
   {
     "name": "Marblehead",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -15572,11 +16308,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "marblehead"
   },
   {
     "name": "Marco Polo",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -15619,11 +16357,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "marco polo"
   },
   {
     "name": "Marie Rose",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -15661,11 +16401,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "marie rose"
   },
   {
     "name": "Marseillaise",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -15707,11 +16449,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "marseillaise"
   },
   {
     "name": "Mary Celeste",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(S)"
@@ -15754,11 +16498,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "mary celeste"
   },
   {
     "name": "Maryland",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -15796,11 +16542,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "maryland"
   },
   {
     "name": "Massachusetts",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -15837,11 +16586,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "massachusetts"
   },
   {
     "name": "Masséna",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -15873,11 +16624,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "masséna"
   },
   {
     "name": "Maya",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -15910,11 +16663,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "maya"
   },
   {
     "name": "McCall",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -15947,11 +16702,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "C"
+    ],
     "id": "mccall"
   },
   {
     "name": "Mecklenburg",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -15979,11 +16736,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "mecklenburg"
   },
   {
     "name": "Memphis META",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -16019,11 +16778,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "memphis meta"
   },
   {
     "name": "Mikasa",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -16075,11 +16836,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "mikasa"
   },
   {
     "name": "Miller",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -16111,11 +16874,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "miller"
   },
   {
     "name": "Minase",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -16147,11 +16912,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "minase"
   },
   {
     "name": "Minsk",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -16187,11 +16954,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "minsk"
   },
   {
     "name": "Misaki",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -16225,11 +16994,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "misaki"
   },
   {
     "name": "Miyuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -16269,11 +17040,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "miyuki"
   },
   {
     "name": "Mogador",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -16322,11 +17095,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/MNF%20Mogador%20Gear%20Recom.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "mogador"
   },
   {
     "name": "Mogami",
-    "rarity": [],
     "class": [],
     "type": [
       "CL",
@@ -16362,11 +17137,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "mogami"
   },
   {
     "name": "Momo Belia Deviluke",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -16400,11 +17178,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "momo belia deviluke"
   },
   {
     "name": "Monarch",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -16457,11 +17237,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/Rn7utQjhq3g",
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "monarch"
   },
   {
     "name": "Monica",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -16495,11 +17277,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "monica"
   },
   {
     "name": "Montpelier",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -16544,11 +17328,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "montpelier"
   },
   {
     "name": "Morrison",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -16588,11 +17374,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "morrison"
   },
   {
     "name": "Mujina",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -16634,11 +17422,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "mujina"
   },
   {
     "name": "Murasaki",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -16672,11 +17462,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "murasaki"
   },
   {
     "name": "Murmansk",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -16720,11 +17512,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "murmansk"
   },
   {
     "name": "Musashi",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -16770,11 +17564,13 @@
     "review": "https://www.youtube.com/watch?v=b0bXeqwd5BI",
     "history": "https://docs.google.com/document/d/1OAyKMSB07ipyM4L77AhCLYmUn1uqo8SV/edit?usp=sharing&ouid=117176816370068308043&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "musashi"
   },
   {
     "name": "Mutsu",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -16814,11 +17610,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "mutsu"
   },
   {
     "name": "Mutsuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -16865,15 +17663,19 @@
       "fate_simulation": []
     },
     "aoa": [],
-    "note_skill": [],
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "C"
+    ],
+    "note_skill": [
+      "R"
+    ],
     "id": "mutsuki"
   },
   {
     "name": "Myoukou",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -16902,11 +17704,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "myoukou"
   },
   {
     "name": "Nachi",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -16940,11 +17744,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "nachi"
   },
   {
     "name": "Naganami",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -16996,11 +17802,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "naganami"
   },
   {
     "name": "Nagato",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -17061,11 +17869,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "nagato"
   },
   {
     "name": "Nagato META",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -17120,11 +17930,13 @@
       "https://ez-upload.al-guide-th.com/api/download/image_2024-09-13_193831012.png"
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "nagato meta"
   },
   {
     "name": "Nagisa",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -17158,11 +17970,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "nagisa"
   },
   {
     "name": "Namiko",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -17204,11 +18018,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "namiko"
   },
   {
     "name": "Nana Astar Deviluke",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -17242,11 +18058,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "nana astar deviluke"
   },
   {
     "name": "Napoli",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -17278,11 +18096,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "napoli"
   },
   {
     "name": "Natori",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -17332,11 +18152,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "natori"
   },
   {
     "name": "Nautilus",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -17386,11 +18208,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "nautilus"
   },
   {
     "name": "Nelson",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -17436,11 +18260,14 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "nelson"
   },
   {
     "name": "Neptune",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -17494,11 +18321,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/oGqOAevPssk",
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "neptune"
   },
   {
     "name": "Nevada META",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -17526,11 +18355,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "nevada meta"
   },
   {
     "name": "New Jersey",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -17582,11 +18413,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "new jersey"
   },
   {
     "name": "New Orleans",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -17622,11 +18455,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "new orleans"
   },
   {
     "name": "Nicholas",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -17678,11 +18513,14 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=bhUSCd42TqvkwGsN&t=480",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "nicholas"
   },
   {
     "name": "Nicoloso da Recco",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -17718,11 +18556,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "nicoloso da recco"
   },
   {
     "name": "Nina Friede",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -17755,11 +18595,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "nina friede"
   },
   {
     "name": "Ning Hai",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -17826,11 +18668,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "ning hai"
   },
   {
     "name": "North Carolina",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -17863,11 +18708,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "north carolina"
   },
   {
     "name": "Northampton II",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -17914,11 +18761,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "northampton ii"
   },
   {
     "name": "Noshiro",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -17992,11 +18841,13 @@
     "note": [],
     "augment": "New Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "noshiro"
   },
   {
     "name": "Noshiro μ",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -18024,11 +18875,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "noshiro μ"
   },
   {
     "name": "Nubian",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -18064,11 +18917,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "nubian"
   },
   {
     "name": "Nyotengu",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -18102,11 +18957,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "nyotengu"
   },
   {
     "name": "Nürnberg",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -18146,11 +19003,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "nürnberg"
   },
   {
     "name": "Odin",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -18193,11 +19052,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "odin"
   },
   {
     "name": "Ognevoy",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -18239,11 +19100,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "ognevoy"
   },
   {
     "name": "Oleg",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -18275,11 +19138,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "oleg"
   },
   {
     "name": "Ooshio",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -18327,11 +19192,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "ooshio"
   },
   {
     "name": "Origami Tobiichi",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -18366,11 +19233,13 @@
     "augment": "Unique Modules (Collaboration Ships)",
     "review": "https://www.youtube.com/shorts/HysOXxnWYKU",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "origami tobiichi"
   },
   {
     "name": "Otto von Alvensleben",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -18410,11 +19279,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "otto von alvensleben"
   },
   {
     "name": "Oumi",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -18446,11 +19317,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "oumi"
   },
   {
     "name": "Owari",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -18495,11 +19368,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "owari"
   },
   {
     "name": "Painlevé",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -18536,53 +19411,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1k3xXWCkJSsJ9rY_XKXvn_19OcHSod5Cf/edit#heading=h.gjdgxs",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "painlevé"
   },
   {
-    "name": "Pamiat Merkuria META",
-    "rarity": [],
-    "class": [],
-    "type": [
-      "CL"
-    ],
-    "tag": [],
-    "faction": {
-      "full": "META",
-      "sub": "Flickering Light"
-    },
-    "skins": [
-      {
-        "name": "Pamiat' Merkuria META",
-        "image": "https://azurlane.netojuu.com/images/c/cd/Pamiat%27_Merkuria_META.png",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Pamiat_Merkuria_METAChibi.png"
-      }
-    ],
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/META%20Pamiat%20Merkuria.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": []
-    },
-    "aoa": [
-      {
-        "image": "https://ez-upload.al-guide-th.com/api/download/Merkuria%20META%20aoa.gif",
-        "desc": "สกิลท่ายิงเต็มกำลัง (AoA) : Flickering Light - Pamiat' Merkuria II ! \\nเมื่อยิงปืนหลังครบทุกๆ 8ครั้งจะโจมตีเต็มกำลัง Flickering Light - Pamiat' Merkuria II !  \\n▸กระสุน AP ดาเมจ 25x18นัด (110/110/110)"
-      }
-    ],
-    "note_skill": [
-      {
-        "image": "https://ez-upload.al-guide-th.com/api/download/Merkuria%20META%20skill%201.gif",
-        "desc": "สกิลที่ 1: Shattered Solidarity \\nในทุกๆการยิงปืนหลักครบ 12ครั้งจะใช้บาราจพิเศษ\"Shattered Solidarity\"ช่วยโจมตี \\n▸กระสุน Normal ดาเมจ 30x20นัด (100/80/60) "
-      }
-    ],
-    "note": [],
-    "gear": [],
-    "id": "pamiat merkuria meta"
-  },
-  {
     "name": "Pamiat' Merkuria",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -18645,11 +19480,58 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "pamiat' merkuria"
   },
   {
+    "name": "Pamiat' Merkuria META",
+    "class": [],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "META",
+      "sub": "Flickering Light"
+    },
+    "skins": [
+      {
+        "name": "Pamiat' Merkuria META",
+        "image": "https://azurlane.netojuu.com/images/c/cd/Pamiat%27_Merkuria_META.png",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Pamiat_Merkuria_METAChibi.png"
+      }
+    ],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/META%20Pamiat%20Merkuria.png"
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/Merkuria%20META%20aoa.gif",
+        "desc": "สกิลท่ายิงเต็มกำลัง (AoA) : Flickering Light - Pamiat' Merkuria II ! \\nเมื่อยิงปืนหลังครบทุกๆ 8ครั้งจะโจมตีเต็มกำลัง Flickering Light - Pamiat' Merkuria II !  \\n▸กระสุน AP ดาเมจ 25x18นัด (110/110/110)"
+      }
+    ],
+    "note_skill": [
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/Merkuria%20META%20skill%201.gif",
+        "desc": "สกิลที่ 1: Shattered Solidarity \\nในทุกๆการยิงปืนหลักครบ 12ครั้งจะใช้บาราจพิเศษ\"Shattered Solidarity\"ช่วยโจมตี \\n▸กระสุน Normal ดาเมจ 30x20นัด (100/80/60) "
+      }
+    ],
+    "note": [],
+    "gear": [],
+    "rarity": [
+      "SRM"
+    ],
+    "id": "pamiat' merkuria meta"
+  },
+  {
     "name": "Patricia Abelheim",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -18689,11 +19571,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "patricia abelheim"
   },
   {
     "name": "Pearl",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(M)"
@@ -18726,11 +19610,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "pearl"
   },
   {
     "name": "Penelope",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -18770,11 +19656,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "penelope"
   },
   {
     "name": "Perseus",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -18823,11 +19711,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "perseus"
   },
   {
     "name": "Peter Strasser",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -18873,11 +19763,13 @@
     "augment": "Unique Modules",
     "history": "https://docs.google.com/document/d/1aErQgpjG1Ix5g75rGtHlVSUFF6Bc5YE3/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true ",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "peter strasser"
   },
   {
     "name": "Ping Hai",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -18944,11 +19836,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "ping hai"
   },
   {
     "name": "Pittsburgh",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -18980,11 +19875,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "pittsburgh"
   },
   {
     "name": "Plymouth",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -19026,11 +19923,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "plymouth"
   },
   {
     "name": "Pola",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -19070,11 +19969,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "pola"
   },
   {
     "name": "Poltava",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -19111,11 +20012,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "poltava"
   },
   {
     "name": "Pompeo Magno",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -19155,11 +20058,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "pompeo magno"
   },
   {
     "name": "Portsmouth Adventure",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(V)"
@@ -19192,11 +20097,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "portsmouth adventure"
   },
   {
     "name": "Prince of Wales",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -19241,11 +20148,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "prince of wales"
   },
   {
     "name": "Princess Hime",
-    "rarity": [],
     "class": [],
     "type": [
       "AE"
@@ -19278,11 +20187,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "princess hime"
   },
   {
     "name": "Princeton",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -19326,11 +20237,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "princeton"
   },
   {
     "name": "Princeton META",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -19358,11 +20271,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "princeton meta"
   },
   {
     "name": "Prinz Adalbert",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -19406,11 +20321,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "prinz adalbert"
   },
   {
     "name": "Prinz Eugen",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -19467,11 +20384,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "prinz eugen"
   },
   {
     "name": "Prinz Eugen μ",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -19499,11 +20418,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "prinz eugen μ"
   },
   {
     "name": "Prinz Heinrich",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -19556,11 +20477,13 @@
     "note": [],
     "augment": "New Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "prinz heinrich"
   },
   {
     "name": "Prinz Rupprecht",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -19607,11 +20530,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "prinz rupprecht"
   },
   {
     "name": "Queen Anne's Revenge",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(M)"
@@ -19644,11 +20569,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "queen anne's revenge"
   },
   {
     "name": "Queen Elizabeth META",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -19693,11 +20620,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "queen elizabeth meta"
   },
   {
     "name": "Raffaello",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -19729,11 +20658,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "raffaello"
   },
   {
     "name": "Regensburg",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -19781,11 +20712,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "regensburg"
   },
   {
     "name": "Reisalin Stout",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -19829,11 +20762,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "reisalin stout"
   },
   {
     "name": "Reno",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -19881,11 +20816,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "reno"
   },
   {
     "name": "Renown META",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -19939,11 +20876,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "renown meta"
   },
   {
     "name": "Repulse META",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -19996,11 +20935,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "repulse meta"
   },
   {
     "name": "Revenge",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -20036,11 +20977,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "revenge"
   },
   {
     "name": "Richelieu",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -20080,11 +21023,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "richelieu"
   },
   {
     "name": "Rikka Takarada",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -20134,11 +21079,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "rikka takarada"
   },
   {
     "name": "Ritsuko Akizuki",
-    "rarity": [],
     "class": [],
     "type": [
       "AE"
@@ -20174,11 +21121,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "ritsuko akizuki"
   },
   {
     "name": "Rodney",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -20222,11 +21171,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "rodney"
   },
   {
     "name": "Rodney META",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -20274,11 +21225,13 @@
       "https://ez-upload.al-guide-th.com/api/download/image_2024-03-22_002003328.png"
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "rodney meta"
   },
   {
     "name": "Roma",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -20319,11 +21272,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "roma"
   },
   {
     "name": "Roon",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -20371,11 +21326,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "roon"
   },
   {
     "name": "Royal Fortune",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(S)"
@@ -20425,11 +21382,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "royal fortune"
   },
   {
     "name": "Royal James",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(V)"
@@ -20462,11 +21421,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "royal james"
   },
   {
     "name": "Royal Oak",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -20506,11 +21467,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1DJAWEQRbZWP9Q7E3J05Bc-QaJXAAHeDJ.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "royal oak"
   },
   {
     "name": "Ryu Lion",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -20542,11 +21505,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "ryu lion"
   },
   {
     "name": "Ryuuhou",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -20578,11 +21543,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "ryuuhou"
   },
   {
     "name": "Saint Louis",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -20626,11 +21593,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "saint louis"
   },
   {
     "name": "Sakawa",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -20678,11 +21647,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "sakawa"
   },
   {
     "name": "San Diego",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -20739,11 +21710,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR",
+      "UR"
+    ],
     "id": "san diego"
   },
   {
     "name": "San Francisco",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -20787,11 +21761,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "san francisco"
   },
   {
     "name": "San Jacinto",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -20832,11 +21808,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "san jacinto"
   },
   {
     "name": "San Juan",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -20877,11 +21855,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "san juan"
   },
   {
     "name": "Santa Fe",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -20913,11 +21893,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "santa fe"
   },
   {
     "name": "Saratoga",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -21007,11 +21989,14 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/USS%20Saratoga%20Gear%20%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3.png"
     ],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "saratoga"
   },
   {
     "name": "Scharnhorst",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -21044,11 +22029,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "scharnhorst"
   },
   {
     "name": "Scharnhorst META",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -21101,11 +22088,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "scharnhorst meta"
   },
   {
     "name": "Scylla",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -21158,11 +22147,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1V-uLmMwhoc1VBCacNntX_4ZE6nUux-tL.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "scylla"
   },
   {
     "name": "Seattle",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -21209,11 +22200,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "seattle"
   },
   {
     "name": "Sendai",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -21248,11 +22241,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "sendai"
   },
   {
     "name": "Serri Glaus",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -21292,11 +22288,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "serri glaus"
   },
   {
     "name": "Sevastopol",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -21333,11 +22331,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "sevastopol"
   },
   {
     "name": "Seydlitz",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -21381,11 +22381,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "seydlitz"
   },
   {
     "name": "Shangri-La",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -21422,11 +22424,68 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "shangri-la"
   },
   {
+    "class": [],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "HMS",
+      "full": "Royal Navy"
+    },
+    "skins": [
+      {
+        "name": "Sheffield",
+        "image": "https://azurlane.netojuu.com/images/2/25/Sheffield.png",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/SheffieldChibi.png"
+      },
+      {
+        "name": "Cloak and Dagger",
+        "image": "https://azurlane.netojuu.com/images/2/2b/SheffieldMisc.png"
+      },
+      {
+        "name": "A Moment's Respite",
+        "image": "https://azurlane.netojuu.com/images/0/05/SheffieldFestival.png"
+      },
+      {
+        "name": "Black Crow's Finery",
+        "image": "https://azurlane.netojuu.com/images/6/6d/SheffieldParty.png"
+      },
+      {
+        "name": "Bulletborne",
+        "image": "https://azurlane.netojuu.com/images/d/d4/SheffieldVampire.png"
+      },
+      {
+        "name": "Occult Clash",
+        "image": "https://azurlane.netojuu.com/images/0/0f/SheffieldTheme_Park.png"
+      }
+    ],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/HMS Sheffield.png"
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "augment": "Unique Modules",
+    "gear": [],
+    "rarity": [
+      "E"
+    ],
+    "name": "Sheffield",
+    "id": "sheffield"
+  },
+  {
     "name": "Sheffield META",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -21454,11 +22513,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "sheffield meta"
   },
   {
     "name": "Sheffield µ",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -21486,11 +22547,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "sheffield µ"
   },
   {
     "name": "Shimakaze",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -21546,11 +22609,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/12pzhNgmxM9uRIDHid03cskm76i3YZ-m1/edit?usp=sharing&ouid=109098389469112729082&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "shimakaze"
   },
   {
     "name": "Shimanto",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -21588,11 +22653,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "shimanto"
   },
   {
     "name": "Shinano",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -21651,11 +22718,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/IJN%20Shinano%20Gear%20Recom.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "shinano"
   },
   {
     "name": "Shinano-chan",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -21682,11 +22751,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "shinano-chan"
   },
   {
     "name": "Shiranui",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -21726,11 +22797,14 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=b4POsrjpQ6X1myaJ&t=224",
     "gear": [],
+    "rarity": [
+      "C",
+      "R"
+    ],
     "id": "shiranui"
   },
   {
     "name": "Shiratsuyu",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -21773,11 +22847,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "shiratsuyu"
   },
   {
     "name": "Shirayuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -21813,11 +22890,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "shirayuki"
   },
   {
     "name": "Shoukaku",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -21858,11 +22937,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "shoukaku"
   },
   {
     "name": "Shropshire",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -21900,11 +22981,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "shropshire"
   },
   {
     "name": "Sirius",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -21952,11 +23036,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "sirius"
   },
   {
     "name": "Soobrazitelny",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -21996,11 +23082,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "soobrazitelny"
   },
   {
     "name": "Souryuu",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -22042,11 +23130,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "souryuu"
   },
   {
     "name": "Souryuu META",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -22095,11 +23186,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "souryuu meta"
   },
   {
     "name": "South Dakota",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -22132,11 +23225,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "south dakota"
   },
   {
     "name": "Sovetskaya Belorussiya",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -22177,11 +23272,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "sovetskaya belorussiya"
   },
   {
     "name": "Sovetskaya Rossiya",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -22218,11 +23315,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "sovetskaya rossiya"
   },
   {
     "name": "Sovetsky Soyuz",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -22268,11 +23367,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1g9mSVV4BOwkTJa-V34CjpzKWHBpPUe6YnUFZeSZtIrw/edit?usp=sharing",
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "sovetsky soyuz"
   },
   {
     "name": "Spence",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -22315,11 +23416,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=DSf-m3ynYWGdX6gu&t=52",
     "gear": [],
+    "rarity": [
+      "C"
+    ],
     "id": "spence"
   },
   {
     "name": "St. Louis",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -22364,11 +23467,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "st. louis"
   },
   {
     "name": "Stephen Potter",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -22409,11 +23514,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "stephen potter"
   },
   {
     "name": "Strasbourg",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -22445,11 +23552,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "strasbourg"
   },
   {
     "name": "Suffolk",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -22488,11 +23597,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "suffolk"
   },
   {
     "name": "Suffren",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -22533,11 +23645,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "suffren"
   },
   {
     "name": "Surcouf",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -22578,11 +23692,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "surcouf"
   },
   {
     "name": "Suruga",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -22631,11 +23747,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "suruga"
   },
   {
     "name": "Suzunami",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -22667,11 +23785,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "suzunami"
   },
   {
     "name": "Suzutsuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -22715,11 +23835,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "suzutsuki"
   },
   {
     "name": "Suzuya",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -22759,11 +23881,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "suzuya"
   },
   {
     "name": "Svirepy",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -22805,11 +23929,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "svirepy"
   },
   {
     "name": "Swiftsure",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -22853,11 +23979,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "swiftsure"
   },
   {
     "name": "São Martinho",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(M)"
@@ -22895,11 +24023,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "são martinho"
   },
   {
     "name": "Taekaze",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -22931,11 +24061,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "taekaze"
   },
   {
     "name": "Tai Yuan",
-    "rarity": [],
     "class": [],
     "type": [
       "DD",
@@ -22982,11 +24114,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "tai yuan"
   },
   {
     "name": "Taihou",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -23047,11 +24182,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "taihou"
   },
   {
     "name": "Taihou META",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -23099,11 +24236,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "taihou meta"
   },
   {
     "name": "Taihou µ",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -23138,11 +24277,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "taihou µ"
   },
   {
     "name": "Taihou-chan",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -23175,11 +24316,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "taihou-chan"
   },
   {
     "name": "Takao",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -23236,11 +24379,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "takao"
   },
   {
     "name": "Tallinn",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -23288,11 +24433,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "tallinn"
   },
   {
     "name": "Tamaki",
-    "rarity": [],
     "class": [],
     "type": [
       "BC"
@@ -23330,11 +24477,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "tamaki"
   },
   {
     "name": "Tashkent",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -23383,11 +24532,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "tashkent"
   },
   {
     "name": "The 2nd",
-    "rarity": [],
     "class": [],
     "type": [
       "BBV"
@@ -23420,11 +24571,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "the 2nd"
   },
   {
     "name": "Theseus",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -23463,11 +24616,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "theseus"
   },
   {
     "name": "Thüringen",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -23503,11 +24658,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "thüringen"
   },
   {
     "name": "Ticonderoga",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -23547,11 +24704,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "ticonderoga"
   },
   {
     "name": "Ting An",
-    "rarity": [],
     "class": [],
     "type": [
       "AE"
@@ -23592,11 +24751,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1osVCEMyTn6l7i-jAGWpWZbKfOBHhAZFn/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "ting an"
   },
   {
     "name": "Tohka Yatogami",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -23635,11 +24796,13 @@
     "augment": "Unique Modules (Collaboration Ships)",
     "review": "https://www.youtube.com/shorts/uM5bn2Yg3lI",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "tohka yatogami"
   },
   {
     "name": "Torricelli",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -23679,11 +24842,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "torricelli"
   },
   {
     "name": "Tosa",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -23730,11 +24895,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "tosa"
   },
   {
     "name": "Trafalgar",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -23766,11 +24933,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "trafalgar"
   },
   {
     "name": "Trento",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -23806,11 +24975,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "trento"
   },
   {
     "name": "Trento META",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -23846,11 +25017,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "trento meta"
   },
   {
     "name": "Trieste",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -23894,11 +25067,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "trieste"
   },
   {
     "name": "Trinidad",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -23930,11 +25105,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "trinidad"
   },
   {
     "name": "U-101",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -23967,11 +25144,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "u-101"
   },
   {
     "name": "U-1206",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -24003,11 +25182,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "u-1206"
   },
   {
     "name": "U-31",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -24039,11 +25220,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "u-31"
   },
   {
     "name": "U-37",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -24087,11 +25270,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "u-37"
   },
   {
     "name": "U-410",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -24135,11 +25320,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "u-410"
   },
   {
     "name": "U-47",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -24188,11 +25375,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "u-47"
   },
   {
     "name": "U-552",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -24224,11 +25413,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "u-552"
   },
   {
     "name": "U-556 META",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -24267,11 +25458,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "u-556 meta"
   },
   {
     "name": "U-96",
-    "rarity": [],
     "class": [],
     "type": [
       "SS"
@@ -24312,11 +25505,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "u-96"
   },
   {
     "name": "Ulrich von Hutten",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -24373,11 +25568,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "ulrich von hutten"
   },
   {
     "name": "Umikaze",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -24417,11 +25614,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "umikaze"
   },
   {
     "name": "Unicorn",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -24499,11 +25698,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "unicorn"
   },
   {
     "name": "Unzen",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -24555,11 +25757,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1e7CyAlurTdCLc3xivYbv3gpk7ZWB5f3K.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "unzen"
   },
   {
     "name": "Valiant",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -24608,11 +25812,13 @@
       }
     ],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "valiant"
   },
   {
     "name": "Vampire",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -24666,11 +25872,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=tD4-kZALue-6DTJc&t=266",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "vampire"
   },
   {
     "name": "Vampire META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -24698,11 +25906,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "vampire meta"
   },
   {
     "name": "Vanguard",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -24742,11 +25952,13 @@
     "note": [],
     "review": "https://www.youtube.com/watch?v=lhfwpzIYTIs",
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "vanguard"
   },
   {
     "name": "Vauquelin",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -24790,11 +26002,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "vauquelin"
   },
   {
     "name": "Vestal META",
-    "rarity": [],
     "class": [],
     "type": [
       "AR"
@@ -24822,11 +26036,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "vestal meta"
   },
   {
     "name": "Victorious",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -24867,11 +26083,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "victorious"
   },
   {
     "name": "Vincenzo Gioberti",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -24903,11 +26121,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "vincenzo gioberti"
   },
   {
     "name": "Vittorio Cuniberti",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -24935,11 +26155,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "PR"
+    ],
     "id": "vittorio cuniberti"
   },
   {
     "name": "Vittorio Veneto",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -24979,11 +26201,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1sdxUd7VQSseoKPViAWv6DQZziBPScDDA.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "vittorio veneto"
   },
   {
     "name": "Volga",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -25029,11 +26253,13 @@
     "note": [],
     "history": "https://docs.google.com/document/d/1XeJ_cNFR0SB6ZXvpJdYhGkR79ob1PomO/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "volga"
   },
   {
     "name": "Voroshilov",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -25081,11 +26307,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/11vxQjmYj7i8HAT6iqUpzJHKEMaiPkWum.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "voroshilov"
   },
   {
     "name": "Wakatsuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -25129,11 +26357,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "wakatsuki"
   },
   {
     "name": "Warspite",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -25185,11 +26415,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR",
+      "UR"
+    ],
     "id": "warspite"
   },
   {
     "name": "Washington",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -25230,11 +26463,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "washington"
   },
   {
     "name": "Watarase",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -25266,11 +26501,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "watarase"
   },
   {
     "name": "Weser",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -25321,11 +26558,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "weser"
   },
   {
     "name": "West Virginia",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -25361,11 +26600,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "west virginia"
   },
   {
     "name": "Whydah",
-    "rarity": [],
     "class": [],
     "type": [
       "IX(S)"
@@ -25408,11 +26650,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "whydah"
   },
   {
     "name": "Wichita Meta",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -25462,11 +26706,13 @@
       "https://ez-upload.al-guide-th.com/api/download/image_2024-06-21_005339078.png"
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "wichita meta"
   },
   {
     "name": "Yamakaze",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -25502,11 +26748,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "yamakaze"
   },
   {
     "name": "Yamashiro",
-    "rarity": [],
     "class": [],
     "type": [
       "BB",
@@ -25569,11 +26817,14 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "R",
+      "E"
+    ],
     "id": "yamashiro"
   },
   {
     "name": "Yamashiro META",
-    "rarity": [],
     "class": [],
     "type": [
       "BB"
@@ -25605,11 +26856,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "EM"
+    ],
     "id": "yamashiro meta"
   },
   {
     "name": "Yat Sen",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -25663,11 +26916,14 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "yat sen"
   },
   {
     "name": "Ying Swei",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -25716,11 +26972,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "ying swei"
   },
   {
     "name": "Yoizuki",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -25760,11 +27018,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "yoizuki"
   },
   {
     "name": "Yorck",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -25804,11 +27064,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "yorck"
   },
   {
     "name": "York",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -25855,11 +27117,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "york"
   },
   {
     "name": "Yorktown",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -25900,11 +27165,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "yorktown"
   },
   {
     "name": "Yorktown II",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -25953,11 +27220,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/12FsbndawCS2Nf4KlJQQ3GCIc2d8jP4Ro.png"
     ],
+    "rarity": [
+      "UR"
+    ],
     "id": "yorktown ii"
   },
   {
     "name": "Yoshino",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -25992,11 +27261,13 @@
     "augment": "Unique Modules (Collaboration Ships)",
     "review": "https://youtube.com/shorts/zwYWagRoAeo",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "yoshino"
   },
   {
     "name": "Yui Kotegawa",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -26030,11 +27301,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "yui kotegawa"
   },
   {
     "name": "Yukikaze",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26079,11 +27352,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "yukikaze"
   },
   {
     "name": "Yume Minami",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -26133,11 +27408,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "yume minami"
   },
   {
     "name": "Yumi",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -26173,11 +27450,13 @@
     "gear": [
       "https://ez-upload.al-guide-th.com/api/download/1Wz3q0gEaRcEkFFWZ9G7Mik5dD3sjFUPc.png"
     ],
+    "rarity": [
+      "SR"
+    ],
     "id": "yumi"
   },
   {
     "name": "Yumia Liessfeldt",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -26210,11 +27489,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "yumia liessfeldt"
   },
   {
     "name": "Yura",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -26254,11 +27535,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "yura"
   },
   {
     "name": "Yuubari",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -26291,11 +27574,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "yuubari"
   },
   {
     "name": "Yuudachi",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26358,11 +27644,14 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR",
+      "UR"
+    ],
     "id": "yuudachi"
   },
   {
     "name": "Yuudachi META",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26412,11 +27701,13 @@
       "https://ez-upload.al-guide-th.com/api/download/image_2025-09-20_005902893.png"
     ],
     "gear": [],
+    "rarity": [
+      "SRM"
+    ],
     "id": "yuudachi meta"
   },
   {
     "name": "Yūyaki",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -26450,11 +27741,13 @@
     "note": [],
     "augment": "Unique Modules (Collaboration Ships)",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "yūyaki"
   },
   {
     "name": "Z1",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26493,11 +27786,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "z1"
   },
   {
     "name": "Z11",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26529,11 +27825,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "z11"
   },
   {
     "name": "Z13",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26565,11 +27863,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "z13"
   },
   {
     "name": "Z16",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26609,11 +27909,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "z16"
   },
   {
     "name": "Z18",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26646,11 +27948,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "R"
+    ],
     "id": "z18"
   },
   {
     "name": "Z2",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26692,11 +27996,13 @@
     "augment": "Unique Modules",
     "review": "https://youtu.be/VqCkyoWKQ6E?si=t9yI__BkniiJnhbU&t=362",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "z2"
   },
   {
     "name": "Z24",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26744,11 +28050,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "z24"
   },
   {
     "name": "Z28",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26792,11 +28100,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "z28"
   },
   {
     "name": "Z35",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26837,11 +28147,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "z35"
   },
   {
     "name": "Z43",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26873,11 +28185,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "z43"
   },
   {
     "name": "Z46",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26930,11 +28244,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "z46"
   },
   {
     "name": "Z47",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -26966,11 +28282,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "z47"
   },
   {
     "name": "Z52",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -27004,11 +28322,13 @@
     "review": "https://youtu.be/feasOaBucoU",
     "history": "https://docs.google.com/document/d/1AdtAwz7GZ5h-3ePzLKKgLs9cTgBRGXCO/edit?usp=sharing&ouid=102891050287828264369&rtpof=true&sd=true",
     "gear": [],
+    "rarity": [
+      "UR"
+    ],
     "id": "z52"
   },
   {
     "name": "Z9",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -27040,11 +28360,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "z9"
   },
   {
     "name": "Zara",
-    "rarity": [],
     "class": [],
     "type": [
       "CA"
@@ -27085,11 +28407,13 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "zara"
   },
   {
     "name": "Zuihou",
-    "rarity": [],
     "class": [],
     "type": [
       "CVL"
@@ -27126,11 +28450,13 @@
     ],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "zuihou"
   },
   {
     "name": "Zuikaku",
-    "rarity": [],
     "class": [],
     "type": [
       "CV"
@@ -27170,64 +28496,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "SR"
+    ],
     "id": "zuikaku"
   },
   {
-    "name": "sheffield",
-    "rarity": [],
-    "class": [],
-    "type": [
-      "CL"
-    ],
-    "tag": [],
-    "faction": {
-      "short": "HMS",
-      "full": "Royal Navy"
-    },
-    "skins": [
-      {
-        "name": "Sheffield",
-        "image": "https://azurlane.netojuu.com/images/2/25/Sheffield.png",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/SheffieldChibi.png"
-      },
-      {
-        "name": "Cloak and Dagger",
-        "image": "https://azurlane.netojuu.com/images/2/2b/SheffieldMisc.png"
-      },
-      {
-        "name": "A Moment's Respite",
-        "image": "https://azurlane.netojuu.com/images/0/05/SheffieldFestival.png"
-      },
-      {
-        "name": "Black Crow's Finery",
-        "image": "https://azurlane.netojuu.com/images/6/6d/SheffieldParty.png"
-      },
-      {
-        "name": "Bulletborne",
-        "image": "https://azurlane.netojuu.com/images/d/d4/SheffieldVampire.png"
-      },
-      {
-        "name": "Occult Clash",
-        "image": "https://azurlane.netojuu.com/images/0/0f/SheffieldTheme_Park.png"
-      }
-    ],
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/HMS Sheffield.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": []
-    },
-    "aoa": [],
-    "note_skill": [],
-    "note": [],
-    "augment": "Unique Modules",
-    "gear": [],
-    "id": "sheffield"
-  },
-  {
     "name": "Ägir",
-    "rarity": [],
     "class": [],
     "type": [
       "CB"
@@ -27272,11 +28547,13 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "DR"
+    ],
     "id": "ägir"
   },
   {
     "name": "Émile Bertin",
-    "rarity": [],
     "class": [],
     "type": [
       "CL"
@@ -27332,11 +28609,14 @@
     "note": [],
     "augment": "Unique Modules",
     "gear": [],
+    "rarity": [
+      "E",
+      "SR"
+    ],
     "id": "émile bertin"
   },
   {
     "name": "Épée",
-    "rarity": [],
     "class": [],
     "type": [
       "DD"
@@ -27368,6 +28648,9 @@
     "note_skill": [],
     "note": [],
     "gear": [],
+    "rarity": [
+      "E"
+    ],
     "id": "épée"
   }
 ]

@@ -10,3 +10,143 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+::-webkit-scrollbar {
+  width: 7px;
+  transform: translateX(100%)
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 7px;
+  background: #0a121f
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3a85f5b7;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #254575
+}
+
+.custom-carousel {
+  transform-style: preserve-3d;
+  transform: rotateY(10deg);
+
+  .container {
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+  }
+
+  .scroll-container {
+    width: 500px;
+    height: 1000px;
+    margin: 0 auto;
+
+    /* 🚫 Disable scrolling fully */
+    overflow: hidden !important;
+    pointer-events: none;
+    /* prevents mouse scroll */
+  }
+
+  .scroll-duration {
+    height: 20000px;
+  }
+
+  .carousel {
+    height: 80%;
+    width: 80%;
+    left:14%;
+    top: 0%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+
+  .item {
+    display: block;
+    position: absolute;
+    background: #000;
+
+    width: 240px;
+    height: 120px;
+    font-size: 5em;
+    text-align: center;
+    color: #fff;
+    opacity: 0.95;
+    border-radius: 10px;
+    overflow: hidden;
+
+    @media (min-width: 992px) {
+      width: 400px;
+      height: 200px;
+    }
+
+    cursor: pointer;
+  }
+
+  .a {
+    transform: rotateX(0deg) translateZ(200px);
+    background: #ed1c24;
+
+    @media (min-width: 992px) {
+      transform: rotateX(0deg) translateZ(250px);
+    }
+  }
+
+  .b {
+    transform: rotateX(60deg) translateZ(200px);
+    background: #0072bc;
+
+    @media (min-width: 992px) {
+      transform: rotateX(60deg) translateZ(250px);
+    }
+  }
+
+  .c {
+    transform: rotateX(120deg) translateZ(200px);
+    background: #39b54a;
+
+    @media (min-width: 992px) {
+      transform: rotateX(120deg) translateZ(250px);
+    }
+  }
+
+  .d {
+    transform: rotateX(180deg) translateZ(200px);
+    background: #f26522;
+
+    @media (min-width: 992px) {
+      transform: rotateX(180deg) translateZ(250px);
+    }
+  }
+
+  .e {
+    transform: rotateX(240deg) translateZ(200px);
+    background: #630460;
+
+    @media (min-width: 992px) {
+      transform: rotateX(240deg) translateZ(250px);
+    }
+  }
+
+  .f {
+    transform: rotateX(300deg) translateZ(200px);
+    background: #8c6239;
+
+    @media (min-width: 992px) {
+      transform: rotateX(300deg) translateZ(250px);
+    }
+  }
+}

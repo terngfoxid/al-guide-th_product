@@ -2,6 +2,9 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { Analytics } from "@vercel/analytics/react";
 import { NextSeo } from "next-seo";
+import Secretary from "@/components/secretary";
+import TopLeftMenu from "@/components/topleftmenu";
+import TopRightMenu from "@/components/toprightmenu";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -29,8 +32,20 @@ export default function App({ Component, pageProps }: AppProps) {
           },
         ]}
       />
-      <div className="min-h-screen relative pb-[80px]">
-      <Component {...pageProps} />
+      <div className="h-screen min-h-screen max-h-screen w-screen max-w-screen min-w-screen bg-[url('/images/home_page.webp')] bg-cover bg-center overflow-hidden">
+        <main className="flex justify-center relative w-full h-full">
+          <div className="z-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+            <Secretary />
+          </div>
+          <div className="z-20 absolute top-0 left-0">
+            <TopLeftMenu>
+              <Component {...pageProps} />
+            </TopLeftMenu>
+          </div>
+          <div className="z-20 absolute top-0 right-0">
+            <TopRightMenu />
+          </div>
+        </main>
       </div>
 
       <Analytics />
