@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function ShipInGrid({ ship, retrofit }: { ship: ShipV2, retrofit?: boolean }) {
     //${retrofit?ship.rarity[1]:ship.rarity[0]}
     return (
-        <Link href={"/ships/" + ship.name}>
+        <Link href={"/ship/" + ship.name}>
             <div className={`w-full rounded-lg overflow-visible relative hover:!shadow-[0_0_15px_4px_rgba(255,215,0,0.8)] !transition-shadow !duration-300 hover:scale-105`}>
                 <img className="w-full h-full p-[4%]" src={`/images/ship_frame_bg/${retrofit ? ship.rarity[1] : ship.rarity[0]}.webp`}>
                 </img>

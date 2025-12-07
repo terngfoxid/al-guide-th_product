@@ -1,4 +1,5 @@
 
+import { IEvent } from "models/ievent";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -7,6 +8,35 @@ export default function Home() {
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const carouselRef = useRef<HTMLDivElement | null>(null);
   const [deg, setDeg] = useState<number>(0);
+  const [events, setEvents] = useState<IEvent[]>([]);
+
+  const [webState, setWebState] = useState(0);
+
+  console.log(555)
+  const callAPI = async () => {
+    try {
+      const res = await fetch("/api/v2/event");
+      console.log(res.status)
+      setWebState(res.status)
+      const loaddata: IEvent[] = await res.json();
+      console.log(loaddata)
+      setEvents(loaddata);
+      return;
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  useEffect(() => {
+    callAPI();
+  }, []);
+
+  if (webState === 0 || events.length === 0) {
+    return <></>
+  }
+
+  const lastestEvent = events.find((event,index)=>(event._priority===1))
+  const secondEvent = events.find((event,index)=>(event._priority===0))
 
   return (
     <>
@@ -33,14 +63,14 @@ export default function Home() {
 
               {/* 3D Carousel */}
               <div className="carousel" ref={carouselRef}>
-                <div className={`item a ${deg === 0 ? "hover:!shadow-[0_0_15px_4px_rgba(255,215,0,0.8)] !transition-shadow !duration-300" : ""}`} onClick={() => {
+                <div className={`item a hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
                   setDeg(0)
                   if (carouselRef.current) {
                     carouselRef.current.style.transform = `rotateX(0deg)`;
                   }
                 }}>
                   {deg === 0 ? <>
-                    <Link className="w-full h-full" href="/ships">
+                    <Link className="w-full h-full" href="/ship">
                       <img src="/images/btn/Ship 600x300.webp" className="w-full h-full">
                       </img>
                     </Link>
@@ -49,36 +79,91 @@ export default function Home() {
                     </img>
                   </>}
                 </div>
-                <div className={`item b ${deg === 300 ? "hover:!shadow-[0_0_15px_4px_rgba(255,215,0,0.8)] !transition-shadow !duration-300" : ""}`} onClick={() => {
+
+                <div className={`item b hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
                   setDeg(300)
                   if (carouselRef.current) {
                     carouselRef.current.style.transform = `rotateX(300deg)`;
                   }
-                }}>B</div>
-                <div className={`item c ${deg === 240 ? "hover:!shadow-[0_0_15px_4px_rgba(255,215,0,0.8)] !transition-shadow !duration-300" : ""}`} onClick={() => {
+                }}>
+                  {deg === 300 ? <>
+                    <Link className="w-full h-full" href="/">
+                      <img src="/images/btn/AllEventData.webp" className="w-full h-full">
+                      </img>
+                    </Link>
+                  </> : <>
+                    <img src="/images/btn/AllEventData.webp" className="w-full h-full">
+                    </img>
+                  </>}
+                </div>
+
+                <div className={`item c hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
                   setDeg(240)
                   if (carouselRef.current) {
                     carouselRef.current.style.transform = `rotateX(240deg)`;
                   }
-                }}>C</div>
-                <div className={`item d ${deg === 180 ? "hover:!shadow-[0_0_15px_4px_rgba(255,215,0,0.8)] !transition-shadow !duration-300" : ""}`} onClick={() => {
+                }}>
+                  {deg === 240 ? <>
+                    <Link className="w-full h-full" href="/">
+                      <img src="/images/btn/Newbie 600x300.webp" className="w-full h-full">
+                      </img>
+                    </Link>
+                  </> : <>
+                    <img src="/images/btn/Newbie 600x300.webp" className="w-full h-full">
+                    </img>
+                  </>}
+                </div>
+
+                <div className={`item d hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
                   setDeg(180)
                   if (carouselRef.current) {
                     carouselRef.current.style.transform = `rotateX(180deg)`;
                   }
-                }}>D</div>
-                <div className={`item e ${deg === 120 ? "hover:!shadow-[0_0_15px_4px_rgba(255,215,0,0.8)] !transition-shadow !duration-300" : ""}`} onClick={() => {
+                }}>
+                  {deg === 180 ? <>
+                    <Link className="w-full h-full" href="/">
+                      <img src="/images/btn/Augmentation 600x300.webp" className="w-full h-full">
+                      </img>
+                    </Link>
+                  </> : <>
+                    <img src="/images/btn/Augmentation 600x300.webp" className="w-full h-full">
+                    </img>
+                  </>}
+                </div>
+
+                <div className={`item e hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
                   setDeg(120)
                   if (carouselRef.current) {
                     carouselRef.current.style.transform = `rotateX(120deg)`;
                   }
-                }}>E</div>
-                <div className={`item f ${deg === 60 ? "hover:!shadow-[0_0_15px_4px_rgba(255,215,0,0.8)] !transition-shadow !duration-300" : ""}`} onClick={() => {
+                }}>
+                  {deg === 120 ? <>
+                    <Link className="w-full h-full" href={"/event/"+(lastestEvent?.name)}>
+                      <img src={lastestEvent?.button} className="w-full h-full">
+                      </img>
+                    </Link>
+                  </> : <>
+                    <img src={lastestEvent?.button} className="w-full h-full">
+                    </img>
+                  </>}
+                </div>
+
+                <div className={`item f hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
                   setDeg(60)
                   if (carouselRef.current) {
                     carouselRef.current.style.transform = `rotateX(60deg)`;
                   }
-                }}>F</div>
+                }}>
+                  {deg === 60 ? <>
+                    <Link className="w-full h-full" href={"/event/"+(secondEvent?.name)}>
+                      <img src={secondEvent?.button} className="w-full h-full">
+                      </img>
+                    </Link>
+                  </> : <>
+                    <img src={secondEvent?.button} className="w-full h-full">
+                    </img>
+                  </>}
+                </div>
               </div>
 
             </div>

@@ -19,7 +19,7 @@ export default async function handler(
     switch (req.method) {
         case "GET": {
             try {
-                const raw = fs.readFileSync("./data/shipdata.json", "utf8");
+                const raw = fs.readFileSync("./public/data/shipdata.json", "utf8");
                 const ships: ShipV2[] = JSON.parse(raw);
                 return res.status(200).json((ships.filter(ship => (ship.augment))));
             } catch {

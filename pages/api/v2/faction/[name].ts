@@ -1,4 +1,5 @@
 import { ShipV2 } from "models/shipv2";
+import path from "path";
 
 const fs = require("fs");
 
@@ -17,7 +18,7 @@ export default async function handler(
 ) {
     //Example /api/v2/faction/Eagle_Union
     //Ex.2 /api/v2/faction/Eagle%20Union
-
+    const filePath = path.join(process.cwd(), 'public', 'data', 'shipdata.json');
     switch (req.method) {
         case "GET": {
             try {
@@ -26,7 +27,7 @@ export default async function handler(
                 } = req;
                 if (!name) { return res.status(400).json({ error: "Faction Name is Missing" }); }
                 const factionName = name.replaceAll("_", " ").toLowerCase();
-                const raw = fs.readFileSync("./data/shipdata.json", "utf8");
+                const raw = fs.readFileSync(filePath, "utf8");
                 const ships: ShipV2[] = JSON.parse(raw);
                 return res.status(200).json((ships.filter(ship => (ship.faction.full?.toLowerCase() === factionName))));
             } catch {
