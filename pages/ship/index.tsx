@@ -175,14 +175,12 @@ export default function FourOhFour() {
             </div>
           </div>
         </div>
-        <div className="px-1 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-[1rem] mt-[1.5rem]">
+        <div className="px-1 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-[0.5rem] md:gap-[1rem] mt-[1.5rem]">
           {
             ships.map(ship => {
-              return <>
-                <div className={ (handleTypeFilter(ship) && handleSearchFilter(ship))? "w-full h-full duration-500 animate-slide-in-bottom": "hidden" }>
-                  <ShipInGrid key={ship.name} ship={ship} />
-                </div>
-              </>
+              return <div key={ship.name} className={(handleTypeFilter(ship) && handleSearchFilter(ship)) ? "w-full h-full duration-500 animate-slide-in-bottom" : "hidden"}>
+                <ShipInGrid ship={ship} />
+              </div>
             })
           }
         </div>
