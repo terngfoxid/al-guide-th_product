@@ -11,13 +11,13 @@ export default function TopLeftMenu({ children }: { children: ReactNode }) {
     return (
         <>
             {
-                showMenu && <div className="lg:hidden fixed top-0 left-0 w-[100vw] h-[100vh] bg-[#293242] z-10 bg-opacity-60">
+                showMenu && <div className="lg:hidden fixed top-0 left-0 w-[100vw] h-[100vh] bg-[#293242] z-[23] bg-opacity-60">
 
                 </div>
             }
             <div className="w-0 h-0 relative">
-                <div className={`hidden lg:block absolute z-10 mt-[20px] h-[50px] rounded-r-full bg-[#223F6B] bg-opacity-90 w-[880px] ${showMenu ? "animate-slide-in-left" : "animate-slide-out-left"}`}>
-                    <div className="w-full h-full z-10 pl-[345px] flex items-center gap-[5px]">
+                <div className={`hidden lg:block absolute z-[24] mt-[20px] h-[50px] rounded-r-full bg-[#223F6B] bg-opacity-90 w-[880px] ${showMenu ? "animate-slide-in-left" : "animate-slide-out-left"}`}>
+                    <div className="w-full h-full z-[24] pl-[345px] flex items-center gap-[5px]">
                         <div className="w-[100px] h-[40px]">
                             <MenuItemTop href="/" >
                                 <><FaHome size={14} color="#ffffff" /><h2 className="text-white text-center text-[14px]">หน้าแรก</h2></>
@@ -41,7 +41,7 @@ export default function TopLeftMenu({ children }: { children: ReactNode }) {
                     </div>
                 </div>
             </div>
-            <div className="relative z-20 w-[340px] h-[50px] bg-[#0D1829] mt-[20px] rounded-r-full bg-opacity-90 flex items-center duration-300 hover:bg-[#192E4F] hover:bg-opacity-95">
+            <div className="relative z-[25] w-[340px] h-[50px] bg-[#0D1829] mt-[20px] rounded-r-full bg-opacity-90 flex items-center duration-300 hover:bg-[#192E4F] hover:bg-opacity-95">
                 <button className="flex items-center"
                     onClick={() => {
                         setShowMenu(!showMenu);

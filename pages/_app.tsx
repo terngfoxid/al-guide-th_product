@@ -6,6 +6,7 @@ import Secretary from "@/components/secretary";
 import TopLeftMenu from "@/components/topleftmenu";
 import TopRightMenu from "@/components/toprightmenu";
 import { DialogProvider } from "@/components/dialog";
+import BackToTop from "@/components/overlay/BackToTop";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -40,6 +41,7 @@ export default function App({ Component, pageProps }: AppProps) {
               <Secretary />
             </div>
             <div className="z-20 absolute top-0 left-0">
+              <BackToTop />
               <TopLeftMenu>
                 <Component {...pageProps} />
               </TopLeftMenu>
