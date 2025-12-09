@@ -1,4 +1,6 @@
 
+import { useDialog } from "@/components/dialog";
+import { useLoading } from "@/components/overlay/loading";
 import { IEvent } from "models/ievent";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
@@ -12,14 +14,34 @@ export default function Home() {
 
   const [webState, setWebState] = useState(0);
 
+  const { showLoading, hideLoading } = useLoading()
+  const { openErrorDialog } = useDialog()
+
   const callAPI = async () => {
     try {
+      showLoading()
       const res = await fetch("/api/v2/event");
       setWebState(res.status)
-      const loaddata: IEvent[] = await res.json();
-      setEvents(loaddata);
-      return;
+      if (res.status !== 200) {
+        openErrorDialog({
+          title: "เกิดข้อผิดพลาด " + res.status,
+          message: "โหลดข้อมูลไม่สำเร็จ",
+          onClose: () => { }
+        })
+      }
+      else{
+        res.json().then((loaddata: IEvent[])=>{
+        setEvents(loaddata);
+        hideLoading()
+      })
+      }
     } catch (err) {
+      hideLoading()
+      openErrorDialog({
+        title: "เกิดข้อผิดพลาด",
+        message: err as any,
+        onClose: () => { }
+      })
       console.error(err);
     }
   };
@@ -32,8 +54,8 @@ export default function Home() {
     return <></>
   }
 
-  const lastestEvent = events.find((event,index)=>(event._priority===1))
-  const secondEvent = events.find((event,index)=>(event._priority===0))
+  const lastestEvent = events.find((event, index) => (event._priority === 1))
+  const secondEvent = events.find((event, index) => (event._priority === 0))
 
   return (
     <>
@@ -135,7 +157,7 @@ export default function Home() {
                   }
                 }}>
                   {deg === 120 ? <>
-                    <Link className="w-full h-full" href={"/event/"+(lastestEvent?.name)}>
+                    <Link className="w-full h-full" href={"/event/" + (lastestEvent?.name)}>
                       <img src={lastestEvent?.button} className="w-full h-full">
                       </img>
                     </Link>
@@ -152,7 +174,7 @@ export default function Home() {
                   }
                 }}>
                   {deg === 60 ? <>
-                    <Link className="w-full h-full" href={"/event/"+(secondEvent?.name)}>
+                    <Link className="w-full h-full" href={"/event/" + (secondEvent?.name)}>
                       <img src={secondEvent?.button} className="w-full h-full">
                       </img>
                     </Link>

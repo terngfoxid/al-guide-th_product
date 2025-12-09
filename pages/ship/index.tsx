@@ -6,6 +6,8 @@ import { ShipV2 } from "models/shipv2";
 import ShipInGrid from "@/components/ship/shipingrid";
 import { GiPirateFlag, GiSwitchWeapon } from "react-icons/gi";
 import { FaFlag, FaShip } from "react-icons/fa";
+import { useLoading } from "@/components/overlay/loading";
+import { useDialog } from "@/components/dialog";
 
 export default function FourOhFour() {
   const [ships, setShips] = useState<ShipV2[]>([]);
@@ -26,59 +28,79 @@ export default function FourOhFour() {
   const [activeSubFaction, setActiveSubFaction] = useState<string[]>([])
   const [allSubFaction, setAllSubFaction] = useState<string[]>([])
 
+  const { showLoading, hideLoading } = useLoading()
+  const { openErrorDialog } = useDialog()
+
   const handleDropDown = () => {
     setDropdown(!isDropdown);
   };
 
   const callAPI = async () => {
     try {
+      showLoading()
       const res = await fetch("/api/v2/ship");
       setWebState(res.status)
-      res.json().then((loaddata: ShipV2[]) => {
-        setShips(loaddata);
-
-        const allTypeListSet: Set<string | undefined> = new Set(loaddata.filter((ship) => { if (ship.type.length === 1) return true }).map((ship) => {
-          if (ship.type[0]) return ship.type[0]
-        }))
-        const allTypeReListSet: Set<string | undefined> = new Set(loaddata.filter((ship) => { if (ship.type.length === 2) return true }).map((ship) => {
-          if (ship.type[1] != null) return ship.type[1]
-        }))
-
-        const allTypeListArray: string[] = []
-        allTypeListSet.forEach((type: string | undefined) => {
-          if (type != null) allTypeListArray.push(type);
+      if (res.status !== 200) {
+        openErrorDialog({
+          title: "เกิดข้อผิดพลาด " + res.status,
+          message: "โหลดข้อมูลไม่สำเร็จ",
+          onClose: () => { }
         })
-        allTypeReListSet.forEach((type_re: string | undefined) => {
-          if (type_re != null) {
-            if (allTypeListArray.includes(type_re) == false) {
-              allTypeListArray.push(type_re);
+      }
+      else {
+        res.json().then((loaddata: ShipV2[]) => {
+          setShips(loaddata);
+
+          const allTypeListSet: Set<string | undefined> = new Set(loaddata.filter((ship) => { if (ship.type.length === 1) return true }).map((ship) => {
+            if (ship.type[0]) return ship.type[0]
+          }))
+          const allTypeReListSet: Set<string | undefined> = new Set(loaddata.filter((ship) => { if (ship.type.length === 2) return true }).map((ship) => {
+            if (ship.type[1] != null) return ship.type[1]
+          }))
+
+          const allTypeListArray: string[] = []
+          allTypeListSet.forEach((type: string | undefined) => {
+            if (type != null) allTypeListArray.push(type);
+          })
+          allTypeReListSet.forEach((type_re: string | undefined) => {
+            if (type_re != null) {
+              if (allTypeListArray.includes(type_re) == false) {
+                allTypeListArray.push(type_re);
+              }
             }
-          }
+          })
+          allTypeListArray.sort()
+          setAllType(allTypeListArray)
+
+          const allFactionSet: Set<string | undefined> = new Set(loaddata.map((ship) => { return ship.faction.full }))
+          const allSubFactiontSet: Set<string | undefined> = new Set(loaddata.filter((ship) => { if (ship.faction.sub) return true }).map((ship) => {
+            return ship.faction.sub
+          }))
+
+          const allFactionListArray: string[] = []
+          const allSubFactionListArray: string[] = []
+
+          allFactionSet.forEach((faction: string | undefined) => {
+            if (faction != null) allFactionListArray.push(faction);
+          })
+          allSubFactiontSet.forEach((subfaction: string | undefined) => {
+            if (subfaction != null) allSubFactionListArray.push(subfaction);
+          })
+
+          allFactionListArray.sort()
+          allSubFactionListArray.sort
+          setAllFaction(allFactionListArray)
+          setAllSubFaction(allSubFactionListArray)
+          hideLoading()
         })
-        allTypeListArray.sort()
-        setAllType(allTypeListArray)
-
-        const allFactionSet: Set<string | undefined> = new Set(loaddata.map((ship) => { return ship.faction.full }))
-        const allSubFactiontSet: Set<string | undefined> = new Set(loaddata.filter((ship) => { if (ship.faction.sub) return true }).map((ship) => {
-          return ship.faction.sub
-        }))
-
-        const allFactionListArray: string[] = []
-        const allSubFactionListArray: string[] = []
-
-        allFactionSet.forEach((faction: string | undefined) => {
-          if (faction != null) allFactionListArray.push(faction);
-        })
-        allSubFactiontSet.forEach((subfaction: string | undefined) => {
-          if (subfaction != null) allSubFactionListArray.push(subfaction);
-        })
-
-        allFactionListArray.sort()
-        allSubFactionListArray.sort
-        setAllFaction(allFactionListArray)
-        setAllSubFaction(allSubFactionListArray)
-      })
+      }
     } catch (err) {
+      hideLoading()
+      openErrorDialog({
+        title: "เกิดข้อผิดพลาด",
+        message: err as any,
+        onClose: () => { }
+      })
       console.error(err);
     }
   };
@@ -128,12 +150,12 @@ export default function FourOhFour() {
   const handleFactionFilter = (ship: ShipV2) => {
     console.log(activeFaction)
     console.log(ship.faction.full)
-    if (activeFaction.length !== 0) return activeFaction.includes(ship.faction.full??"")
+    if (activeFaction.length !== 0) return activeFaction.includes(ship.faction.full ?? "")
     return true
   }
 
   const handleSubFactionFilter = (ship: ShipV2) => {
-    if (activeSubFaction.length !== 0) return activeSubFaction.includes(ship.faction.sub??"")
+    if (activeSubFaction.length !== 0) return activeSubFaction.includes(ship.faction.sub ?? "")
     return true
   }
 
@@ -290,13 +312,13 @@ export default function FourOhFour() {
             </div>
           </div>
           <div className="mx-2 mt-[1rem] flex items-center gap-[20px]">
-            <FaFlag size={28} color="#ffffff"/>
+            <FaFlag size={28} color="#ffffff" />
             <span className="text-[1.5rem] text-left text-white">Faction</span>
           </div>
           <div className="mx-2 mt-[0.5rem] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-[0.5rem] md:gap-[1rem]">
             {
               allFaction.map((faction) => {
-                return <button key={faction} className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeFaction.includes(faction) || activeFaction.length === 0)? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
+                return <button key={faction} className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeFaction.includes(faction) || activeFaction.length === 0) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
                   onClick={() => {
                     if (activeFaction.indexOf(faction) == -1) {
                       setActiveFaction([...activeFaction, faction]);
@@ -311,13 +333,13 @@ export default function FourOhFour() {
             }
           </div>
           <div className="mx-2 mt-[1rem] flex items-center gap-[20px]">
-            <GiPirateFlag size={28} color="#ffffff"/>
+            <GiPirateFlag size={28} color="#ffffff" />
             <span className="text-[1.5rem] text-left text-white">Faction ย่อย</span>
           </div>
           <div className="mx-2 mt-[0.5rem] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-[0.5rem] md:gap-[1rem]">
             {
               allSubFaction.map((subfaction) => {
-                return <button key={subfaction} className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeSubFaction.includes(subfaction) || activeSubFaction.length === 0)? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
+                return <button key={subfaction} className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeSubFaction.includes(subfaction) || activeSubFaction.length === 0) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
                   onClick={() => {
                     if (activeSubFaction.indexOf(subfaction) == -1) {
                       setActiveSubFaction([...activeSubFaction, subfaction]);

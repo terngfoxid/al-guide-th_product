@@ -3,9 +3,11 @@ import PopupDialog, { IPopupRef } from "./popup";
 import Link from "next/link";
 import { useDialog } from "./dialog";
 import { LuFolderSync } from "react-icons/lu";
+import { useLoading } from "./overlay/loading";
 
 export default function TopRightMenu() {
     const popupRef = useRef<IPopupRef>(null);
+    const { showLoading, hideLoading } = useLoading()
     const { openConfirmDialog, openSuccessDialog, openErrorDialog } = useDialog()
     return (
         <>
@@ -221,10 +223,12 @@ export default function TopRightMenu() {
                                         message: "ยืนยันการ Sync ข้อมูลเรือ",
                                         onConfirm: () => {
                                             try {
+                                                showLoading()
                                                 fetch("/api/v2/ship", {
                                                     method: "PATCH",
                                                 })
                                                     .then(async res => {
+                                                        hideLoading()
                                                         if (res.status === 200)
                                                             openSuccessDialog({
                                                                 title: "Sync ข้อมูลสำเร็จ",
@@ -238,9 +242,11 @@ export default function TopRightMenu() {
                                                         }
                                                     })
                                                     .catch(err => {
+                                                        hideLoading()
                                                         console.error("PATCH error", err);
                                                     });
                                             } catch (err) {
+                                                hideLoading()
                                                 console.error(err);
                                             }
                                         },
@@ -258,10 +264,12 @@ export default function TopRightMenu() {
                                         message: "ยืนยันการ Sync ข้อมูลกิจกรรม",
                                         onConfirm: () => {
                                             try {
+                                                showLoading()
                                                 fetch("/api/v2/event", {
                                                     method: "PATCH",
                                                 })
                                                     .then(async res => {
+                                                        hideLoading()
                                                         if (res.status === 200)
                                                             openSuccessDialog({
                                                                 title: "Sync ข้อมูลสำเร็จ",
@@ -275,9 +283,11 @@ export default function TopRightMenu() {
                                                         }
                                                     })
                                                     .catch(err => {
+                                                        hideLoading()
                                                         console.error("PATCH error", err);
                                                     });
                                             } catch (err) {
+                                                hideLoading()
                                                 console.error(err);
                                             }
                                         },
@@ -295,10 +305,12 @@ export default function TopRightMenu() {
                                         message: "ยืนยันการ Sync ข้อมูลระบบ Research",
                                         onConfirm: () => {
                                             try {
+                                                showLoading()
                                                 fetch("/api/v2/research", {
                                                     method: "PATCH",
                                                 })
                                                     .then(async res => {
+                                                        hideLoading()
                                                         if (res.status === 200)
                                                             openSuccessDialog({
                                                                 title: "Sync ข้อมูลสำเร็จ",
@@ -312,9 +324,11 @@ export default function TopRightMenu() {
                                                         }
                                                     })
                                                     .catch(err => {
+                                                        hideLoading()
                                                         console.error("PATCH error", err);
                                                     });
                                             } catch (err) {
+                                                hideLoading()
                                                 console.error(err);
                                             }
                                         },
