@@ -6,7 +6,7 @@ import Secretary from "@/components/secretary";
 import TopLeftMenu from "@/components/topleftmenu";
 import TopRightMenu from "@/components/toprightmenu";
 import { DialogProvider } from "@/components/dialog";
-import BackToTop from "@/components/overlay/BackToTop";
+import BackToTop from "@/components/overlay/backtotop";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
