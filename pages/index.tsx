@@ -48,6 +48,7 @@ export default function Home() {
 
   useEffect(() => {
     callAPI();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (webState === 0 || events.length === 0) {
@@ -90,11 +91,11 @@ export default function Home() {
                 }}>
                   {deg === 0 ? <>
                     <Link className="w-full h-full" href="/ship">
-                      <img src="/images/btn/Ship 600x300.webp" className="w-full h-full">
+                      <img alt="All Ships Data" src="/images/btn/Ship 600x300.webp" className="w-full h-full">
                       </img>
                     </Link>
                   </> : <>
-                    <img src="/images/btn/Ship 600x300.webp" className="w-full h-full">
+                    <img alt="All Ships Data" src="/images/btn/Ship 600x300.webp" className="w-full h-full">
                     </img>
                   </>}
                 </div>
@@ -105,7 +106,8 @@ export default function Home() {
                     carouselRef.current.style.transform = `rotateX(300deg)`;
                   }
                 }}>
-                  {deg === 300 ? <>
+                  ยังไม่พร้อมใช้งาน
+                  {/*deg === 300 ? <>
                     <Link className="w-full h-full" href="/">
                       <img src="/images/btn/AllEventData.webp" className="w-full h-full">
                       </img>
@@ -113,7 +115,7 @@ export default function Home() {
                   </> : <>
                     <img src="/images/btn/AllEventData.webp" className="w-full h-full">
                     </img>
-                  </>}
+                  </>*/}
                 </div>
 
                 <div className={`item c hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
@@ -122,7 +124,8 @@ export default function Home() {
                     carouselRef.current.style.transform = `rotateX(240deg)`;
                   }
                 }}>
-                  {deg === 240 ? <>
+                  ยังไม่พร้อมใช้งาน
+                  {/*deg === 240 ? <>
                     <Link className="w-full h-full" href="/">
                       <img src="/images/btn/Newbie 600x300.webp" className="w-full h-full">
                       </img>
@@ -130,7 +133,7 @@ export default function Home() {
                   </> : <>
                     <img src="/images/btn/Newbie 600x300.webp" className="w-full h-full">
                     </img>
-                  </>}
+                  </>*/}
                 </div>
 
                 <div className={`item d hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
@@ -139,7 +142,8 @@ export default function Home() {
                     carouselRef.current.style.transform = `rotateX(180deg)`;
                   }
                 }}>
-                  {deg === 180 ? <>
+                  ยังไม่พร้อมใช้งาน
+                  {/*deg === 180 ? <>
                     <Link className="w-full h-full" href="/">
                       <img src="/images/btn/Augmentation 600x300.webp" className="w-full h-full">
                       </img>
@@ -147,7 +151,7 @@ export default function Home() {
                   </> : <>
                     <img src="/images/btn/Augmentation 600x300.webp" className="w-full h-full">
                     </img>
-                  </>}
+                  </>*/}
                 </div>
 
                 <div className={`item e hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
@@ -156,7 +160,8 @@ export default function Home() {
                     carouselRef.current.style.transform = `rotateX(120deg)`;
                   }
                 }}>
-                  {deg === 120 ? <>
+                  ยังไม่พร้อมใช้งาน
+                  {/*deg === 120 ? <>
                     <Link className="w-full h-full" href={"/event/" + (lastestEvent?.name)}>
                       <img src={lastestEvent?.button} className="w-full h-full">
                       </img>
@@ -164,7 +169,7 @@ export default function Home() {
                   </> : <>
                     <img src={lastestEvent?.button} className="w-full h-full">
                     </img>
-                  </>}
+                  </>*/}
                 </div>
 
                 <div className={`item f hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
@@ -173,7 +178,8 @@ export default function Home() {
                     carouselRef.current.style.transform = `rotateX(60deg)`;
                   }
                 }}>
-                  {deg === 60 ? <>
+                  ยังไม่พร้อมใช้งาน
+                  {/*deg === 60 ? <>
                     <Link className="w-full h-full" href={"/event/" + (secondEvent?.name)}>
                       <img src={secondEvent?.button} className="w-full h-full">
                       </img>
@@ -181,7 +187,7 @@ export default function Home() {
                   </> : <>
                     <img src={secondEvent?.button} className="w-full h-full">
                     </img>
-                  </>}
+                  </>*/}
                 </div>
               </div>
 

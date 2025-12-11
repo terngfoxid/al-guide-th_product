@@ -30,12 +30,12 @@ export default function TopLeftMenu({ children }: { children: ReactNode }) {
                         </div>
                         <div className="w-[160px] h-[40px]">
                             <MenuItemTop href="/" >
-                                <><RiCalendarScheduleFill  size={14} color="#ffffff" /><h2 className="text-white text-center text-[14px]">ข้อมูลกิจกรรมล่าสุด</h2></>
+                                <><RiCalendarScheduleFill  size={14} color="#ffffff" /><h2 className="text-white text-center text-[14px]">ยังไม่พร้อมใช้งาน</h2></>
                             </MenuItemTop>
                         </div>
                         <div className="w-[140px] h-[40px]">
                             <MenuItemTop href="/" >
-                                <><GiSwitchWeapon size={14} color="#ffffff" /><h2 className="text-white text-center text-[14px]">ข้อมูล Augment</h2></>
+                                <><GiSwitchWeapon size={14} color="#ffffff" /><h2 className="text-white text-center text-[14px]">ยังไม่พร้อมใช้งาน</h2></>
                             </MenuItemTop>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ export default function TopLeftMenu({ children }: { children: ReactNode }) {
                     }
                 </button>
                 <div className="absolute left-[0.5rem] top-1/2 transform -translate-y-1/2 aspect-square w-[70px] rounded-md border-[2px] bg-[#0D1829] bg-opacity-80">
-                    <img src="/images/AzurLane_Guide_TH_LOGO.webp" className="w-full" />
+                    <img src="/images/AzurLane_Guide_TH_LOGO.webp" alt="Azur Lane Guide TH Logo" className="w-full" />
                 </div>
                 <ul className={`lg:hidden absolute left-[0.5rem] top-full mt-[2rem] w-300 flex flex-col gap-[1.5rem] ${showMenu ? "animate-slide-in-left" : "animate-slide-out-left"}`}>
                     <li className="z-30 rounded-2xl overflow-hidden hover:scale-105 duration-300 hover:shadow-[0_0_15px_4px_rgba(0,150,255,0.85)]">
@@ -69,17 +69,17 @@ export default function TopLeftMenu({ children }: { children: ReactNode }) {
                     </li>
                     <li className="z-30 rounded-2xl overflow-hidden hover:scale-105 duration-300 hover:shadow-[0_0_15px_4px_rgba(0,150,255,0.85)]">
                         <MenuItem href="" >
-                            <><RiCalendarScheduleFill size={20} color="#ffffff" /><h2 className="text-white text-center">ข้อมูลกิจกรรมล่าสุด</h2></>
+                            <><RiCalendarScheduleFill size={20} color="#ffffff" /><h2 className="text-white text-center">ยังไม่พร้อมใช้งาน</h2></>
                         </MenuItem>
                     </li>
                     <li className="z-30 rounded-2xl overflow-hidden hover:scale-105 duration-300 hover:shadow-[0_0_15px_4px_rgba(0,150,255,0.85)]">
                         <MenuItem href="" >
-                            <><GiSwitchWeapon size={20} color="#ffffff" /><h2 className="text-white text-center">ข้อมูล Augment</h2></>
+                            <><GiSwitchWeapon size={20} color="#ffffff" /><h2 className="text-white text-center">ยังไม่พร้อมใช้งาน</h2></>
                         </MenuItem>
                     </li>
                     <li className="z-30 rounded-2xl overflow-hidden hover:scale-105 duration-300 hover:shadow-[0_0_15px_4px_rgba(0,150,255,0.85)]">
                         <MenuItem href="" >
-                            <><FaHome size={20} color="#ffffff"/><h2 className="text-white text-center"></h2></>
+                            <><FaHome size={20} color="#ffffff"/><h2 className="text-white text-center">ยังไม่พร้อมใช้งาน</h2></>
                         </MenuItem>
                     </li>
                 </ul>

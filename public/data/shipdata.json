@@ -6236,10 +6236,10 @@
     ],
     "skins": [
       {
-        "image": "https://azurlane.netojuu.com/images/thumb/0/06/Emanuele_Pessagno.png/479px-Emanuele_Pessagno.png",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/aimannuaier.webp",
+        "image": "https://azurlane.netojuu.com/images/e/e9/Emanuele_PessagnoWithoutBG.png",
         "name": "Emanuele Pessagno",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Emanuele_PessagnoChibi.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/aimannuaier.webp"
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Emanuele_PessagnoChibi.png"
       },
       {
         "name": "Backstage Blunders",
@@ -28372,11 +28372,6 @@
       "full": "META",
       "sub": "Ashen Might"
     },
-    "skill_detail": {
-      "skill": [],
-      "retrofit": [],
-      "fate_simulation": []
-    },
     "aoa": [],
     "note_skill": [],
     "note": [],
@@ -28416,6 +28411,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/xili_alter.webp"
       }
     ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/META Yūdachi.png"
+      ]
+    },
     "id": "yuudachi meta"
   },
   {

@@ -8,6 +8,7 @@ import { GiPirateFlag, GiSwitchWeapon } from "react-icons/gi";
 import { FaFlag, FaShip } from "react-icons/fa";
 import { useLoading } from "@/components/overlay/loading";
 import { useDialog } from "@/components/dialog";
+import { BiWorld } from "react-icons/bi";
 
 export default function FourOhFour() {
   const [ships, setShips] = useState<ShipV2[]>([]);
@@ -107,6 +108,7 @@ export default function FourOhFour() {
 
   useEffect(() => {
     callAPI();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (webState === 0 || ships.length === 0 || allType.length === 0 || allFaction.length === 0 || allSubFaction.length === 0) {
@@ -148,8 +150,6 @@ export default function FourOhFour() {
   }
 
   const handleFactionFilter = (ship: ShipV2) => {
-    console.log(activeFaction)
-    console.log(ship.faction.full)
     if (activeFaction.length !== 0) return activeFaction.includes(ship.faction.full ?? "")
     return true
   }
@@ -255,7 +255,7 @@ export default function FourOhFour() {
                                 }
                               }}
                             >
-                              <img src={"/images/type/" + type + ".webp"}></img>{type}
+                              <img alt={"Ship Type"} src={"/images/type/" + type + ".webp"}></img>{type}
                             </button>
                           )
                         })
@@ -316,9 +316,13 @@ export default function FourOhFour() {
             <span className="text-[1.5rem] text-left text-white">Faction</span>
           </div>
           <div className="mx-2 mt-[0.5rem] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-[0.5rem] md:gap-[1rem]">
+            <button className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeFaction.length === 0) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
+              onClick={() => { setActiveFaction([]); }}>
+              <BiWorld size={20} color="#ffffff"/>แสดงทั้งหมด
+            </button>
             {
               allFaction.map((faction) => {
-                return <button key={faction} className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeFaction.includes(faction) || activeFaction.length === 0) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
+                return <button key={faction} className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.4rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeFaction.includes(faction)) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
                   onClick={() => {
                     if (activeFaction.indexOf(faction) == -1) {
                       setActiveFaction([...activeFaction, faction]);
@@ -327,6 +331,7 @@ export default function FourOhFour() {
                       setActiveFaction(activeFaction.filter((factionInList) => { return factionInList != faction }))
                     }
                   }}>
+                    <img alt="Ship Faction" src={"/images/faction/"+faction+".webp"} className="w-[20px]"></img>
                   {faction}
                 </button>
               })
@@ -337,9 +342,13 @@ export default function FourOhFour() {
             <span className="text-[1.5rem] text-left text-white">Faction ย่อย</span>
           </div>
           <div className="mx-2 mt-[0.5rem] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-[0.5rem] md:gap-[1rem]">
+            <button className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeSubFaction.length === 0) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
+              onClick={() => { setActiveSubFaction([]); }}>
+              แสดงทั้งหมด
+            </button>
             {
               allSubFaction.map((subfaction) => {
-                return <button key={subfaction} className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeSubFaction.includes(subfaction) || activeSubFaction.length === 0) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
+                return <button key={subfaction} className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeSubFaction.includes(subfaction)) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
                   onClick={() => {
                     if (activeSubFaction.indexOf(subfaction) == -1) {
                       setActiveSubFaction([...activeSubFaction, subfaction]);

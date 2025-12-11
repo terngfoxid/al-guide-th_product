@@ -80,7 +80,7 @@
 
     width: 240px;
     height: 120px;
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     color: #fff;
     opacity: 0.95;
@@ -106,7 +106,8 @@
 
   .b {
     transform: rotateX(60deg) translateZ(200px);
-    background: transparent;
+    /*background: transparent;*/
+    background:#BDBDBD;
 
     @media (min-width: 992px) {
       transform: rotateX(60deg) translateZ(250px);
@@ -115,7 +116,9 @@
 
   .c {
     transform: rotateX(120deg) translateZ(200px);
-    background: transparent;
+    /*background: transparent;*/
+    background:#BDBDBD;
+
     @media (min-width: 992px) {
       transform: rotateX(120deg) translateZ(250px);
     }
@@ -123,7 +126,8 @@
 
   .d {
     transform: rotateX(180deg) translateZ(200px);
-    background: transparent;
+    /*background: transparent;*/
+    background:#BDBDBD;
 
     @media (min-width: 992px) {
       transform: rotateX(180deg) translateZ(250px);
@@ -132,7 +136,8 @@
 
   .e {
     transform: rotateX(240deg) translateZ(200px);
-    background: transparent;
+    /*background: transparent;*/
+    background:#BDBDBD;
 
     @media (min-width: 992px) {
       transform: rotateX(240deg) translateZ(250px);
@@ -141,7 +146,8 @@
 
   .f {
     transform: rotateX(300deg) translateZ(200px);
-    background: transparent;
+    /*background: transparent;*/
+    background:#BDBDBD;
 
     @media (min-width: 992px) {
       transform: rotateX(300deg) translateZ(250px);

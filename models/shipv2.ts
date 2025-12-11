@@ -1,9 +1,9 @@
 export interface ShipV2{
     id?:string
     name:string
-    rarity: string[],
+    rarity: Array<"C"|"R"|"E"|"SR"|"UR"|"PR"|"DR"|"EM"|"SRM">,
     class:string[]
-    type:string[]
+    type:Array<"AE"|"AR"|"BB"|"BBV"|"BC"|"BM"|"CA"|"CB"|"CL"|"CV"|"CVL"|"DD"|"DDG"|"IX(M)"|"IX(S)"|"IX(V)"|"SS"|"SSV">,
     tag:string[]
     faction:{
         short?:string
