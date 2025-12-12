@@ -351,8 +351,20 @@ export default function Event() {
                                 (activeTab === 2) && <>
                                     {
                                         event.special ?
-                                            <>
-                                            </>
+                                            <div className="grid grid-cols-2 xl:grid-cols-2 gap-[1vw]">
+                                                {
+                                                    event.special.map((item,index)=>{
+                                                        return item? <div className="flex rounded-lg overflow-hidden bg-[#182D4D] p-[0.5rem] xl:p-[1rem] gap-[0.5rem]">
+                                                            {item.blob &&<img alt={item.title} src={item.blob} className="my-[0.5rem] h-full max-h-[40px] md:max-h-[60px] lg:max-h-[100px]"></img>}
+                                                            <div className="w-full">
+                                                                {item.title &&<p className="text-[10px] md:text-[16px] lg:text-[20px] pt-[0.5rem]">{item.title}</p>}
+                                                                {item.text &&<><div className="w-full border-t my-[0.5rem]"></div>
+                                                                <p className="text-[8px] md:text-[14px] lg:text-[18px]">{item.text}</p></>}
+                                                            </div>
+                                                        </div>:<div className="h-[1rem]"></div>
+                                                    })
+                                                }
+                                            </div>
                                             : <>
                                                 <p className="text-[24px] text-center">ไม่พบข้อมูล</p>
                                             </>

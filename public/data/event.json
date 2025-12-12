@@ -845,70 +845,73 @@
       "กำจัดศัตรูในด่านกิจกรรม 200 ตัว : ของรางวัล ชิ้นส่วนอัพเกรดยานรบ 2 ชิ้น",
       "กำจัดศัตรูในด่านกิจกรรม 300 ตัว : ของรางวัล ชิ้นส่วนอัพเกรดยานรบ 2 ชิ้น"
     ],
+    "banner": "https://ez-upload.al-guide-th.com/api/download/DATE A LANE (Banner).png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/DATE A LANE 1200x600.png",
+    "chibi": "https://ez-upload.al-guide-th.com/api/download/Tohka_YatogamiChibi.png",
     "ships": [
       {
-        "type": "CA",
         "name": "Tohka Yatogami",
+        "type": "CA",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Tohka_YatogamiChibi.png",
         "image": "https://azurlane.netojuu.com/images/6/6b/Tohka_Yatogami.png",
-        "faction_short": "DL",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Tohka_YatogamiChibi.png"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Origami_TobiichiChibi.png",
-        "faction_short": "DL",
-        "name": "Origami Tobiichi",
-        "type": "CV",
-        "image": "https://azurlane.netojuu.com/images/8/85/Origami_Tobiichi.png"
-      },
-      {
-        "faction_short": "DL",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Kotori_ItsukaChibi.png",
-        "name": "Kotori Itsuka",
-        "image": "https://azurlane.netojuu.com/images/f/fd/Kotori_Itsuka.png",
-        "type": "BB"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/YoshinoChibi.png",
-        "faction_short": "DL",
-        "type": "CVL",
-        "name": "Yoshino",
-        "image": "https://azurlane.netojuu.com/images/3/3e/Yoshino.png"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Kurumi_TokisakiChibi.png",
-        "type": "CL",
-        "image": "https://azurlane.netojuu.com/images/d/df/Kurumi_Tokisaki.png",
-        "name": "Kurumi Tokisaki",
         "faction_short": "DL"
       },
       {
         "faction_short": "DL",
-        "name": "Kaguya Yamai・Yuzuru Yamai",
+        "name": "Origami Tobiichi",
+        "image": "https://azurlane.netojuu.com/images/8/85/Origami_Tobiichi.png",
+        "type": "CV",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Origami_TobiichiChibi.png"
+      },
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Kotori_ItsukaChibi.png",
+        "image": "https://azurlane.netojuu.com/images/f/fd/Kotori_Itsuka.png",
+        "name": "Kotori Itsuka",
+        "type": "BB",
+        "faction_short": "DL"
+      },
+      {
+        "name": "Yoshino",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/YoshinoChibi.png",
+        "image": "https://azurlane.netojuu.com/images/3/3e/Yoshino.png",
+        "faction_short": "DL",
+        "type": "CVL"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/d/df/Kurumi_Tokisaki.png",
+        "name": "Kurumi Tokisaki",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Kurumi_TokisakiChibi.png",
+        "faction_short": "DL",
+        "type": "CL"
+      },
+      {
         "image": "https://azurlane.netojuu.com/images/6/6d/Kaguya_Yamai・Yuzuru_Yamai.png",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Kaguya_Yamai・Yuzuru_YamaiChibi.png",
-        "type": "CL"
+        "type": "CL",
+        "name": "Kaguya Yamai・Yuzuru Yamai",
+        "faction_short": "DL"
       }
     ],
     "special": [
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225232216-modified.png",
+        "title": "Kaguya Yamai・Yuzuru Yamai [★★★★★★]",
         "text": "➤  แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน Sector 6",
-        "title": "Kaguya Yamai・Yuzuru Yamai [★★★★★★]"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225232216-modified.png"
       },
       {
-        "title": "Yoshino [★★★★★★]",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225316840-modified.png",
-        "text": "➤ สะสมแต้มกิจกรรม 10,000 points"
+        "text": "➤ สะสมแต้มกิจกรรม 10,000 points",
+        "title": "Yoshino [★★★★★★]"
       },
       {
         "text": "➤ เก็บแต้มกิจกรรม Nightmare Rhapsody 1,000 แต้ม",
-        "title": "Kurumi Tokisaki [★★★★★★]",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225347976-modified.png"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225347976-modified.png",
+        "title": "Kurumi Tokisaki [★★★★★★]"
       },
       {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225503144.png",
         "text": "เคลียร์ Sector 2 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน",
-        "title": "Sandalphon [★★★★]",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225503144.png"
+        "title": "Sandalphon [★★★★]"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225538353.png",
@@ -916,8 +919,8 @@
         "title": "Metatron [★★★★]"
       },
       {
-        "text": "เคลียร์ Sector 1 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน",
         "title": "Camael [★★★★]",
+        "text": "เคลียร์ Sector 1 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225321366.png"
       },
       {
@@ -926,8 +929,8 @@
         "title": "Zadkiel [★★★★]"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225720123.png",
         "text": "เคลียร์ Sector 6 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225720123.png",
         "title": "Zafkiel [★★★★]"
       },
       {
@@ -936,29 +939,32 @@
         "title": "Raphael [★★★★]"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_224450804.png",
+        "title": "Michael [★★★★★]",
         "text": "➤ อ่านเนื้อเรื่องกิจกรรมทั้งหมด",
-        "title": "Michael [★★★★★]"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_224450804.png"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_224924371.png",
+        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points",
         "title": "Sephira Crystal [★★★★★]",
-        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_224924371.png"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225152438.png",
-        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points",
-        "title": "Giant Onigiri [★★★★★]"
+        "title": "Giant Onigiri [★★★★★]",
+        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225843591.png",
+        "title": "Nightmare Labyrinth Medal",
         "text": "➤ อัพเกรดยานรบให้เต็ม",
-        "title": "Nightmare Labyrinth Medal"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225843591.png"
+      },
+      null,
+      null,
+      null,
+      {
+        "title": "sss"
       }
     ],
-    "banner": "https://ez-upload.al-guide-th.com/api/download/DATE A LANE (Banner).png",
-    "button": "https://ez-upload.al-guide-th.com/api/download/DATE A LANE 1200x600.png",
-    "chibi": "https://ez-upload.al-guide-th.com/api/download/Tohka_YatogamiChibi.png",
     "id": "DATE A LANE"
   },
   {
@@ -4353,37 +4359,6 @@
       }
     ],
     "id": "Tempesta and the Sleeping Sea"
-  },
-  {
-    "_priority": 3,
-    "name": "Test",
-    "noteV2": {
-      "veteran": [
-        null
-      ],
-      "summary": [
-        null
-      ],
-      "beginner": [
-        {
-          "image": "https://ez-upload.al-guide-th.com/api/download/testmp4file.mp4",
-          "desc": "yyyyyyy"
-        }
-      ]
-    },
-    "lore": [
-      {
-        "desc": "55555\\n5555555",
-        "image": "https://ez-upload.al-guide-th.com/api/download/testmp4file.mp4"
-      }
-    ],
-    "guideV2": [
-      {
-        "image": "https://ez-upload.al-guide-th.com/api/download/testmp4file.mp4",
-        "desc": "66666\\n22222"
-      }
-    ],
-    "id": "Test"
   },
   {
     "name": "The Alchemist and the Tower of Horizons",
