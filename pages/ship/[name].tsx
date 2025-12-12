@@ -167,7 +167,7 @@ export default function Ship() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div id="scroll-container" className={`duration-500 animate-slide-in-bottom bg-[#0D1829] bg-opacity-90 shadow-[0_0_10px_4px_rgba(0,150,255,0.85)] mx-auto w-[90vw] lg:max-w-[calc(100vw-30px)] lg:w-[calc(100vw-30px)] lg:mx-[15px] h-[100%] overflow-y-scroll rounded-2xl p-[5px] md:p-[10px] lg:p-[15px]`}>
+            <div id="scroll-container" className={`duration-500 animate-slide-in-bottom bg-[#0D1829] bg-opacity-90 shadow-[0_0_10px_4px_rgba(0,150,255,0.85)] mx-auto w-[90vw] max-w-[min(calc(100vw-30px),1890px)] lg:w-[calc(100vw-30px)] lg:mx-[15px] h-[100%] overflow-y-scroll rounded-2xl p-[5px] md:p-[10px] lg:p-[15px]`}>
                 <div className="md:flex md:justify-between">
                     <div className="px-[1rem] min-w-[200px]">
                         <div className="flex p-[0.5rem] items-center gap-[0.5rem] w-full">
@@ -220,8 +220,8 @@ export default function Ship() {
                         </div>
                     </div>
                     <div className="w-full max-w-[96%] mx-auto md:max-w-[80%] md:mx-0 mt-[1rem] md:mt-0">
-                        <div className="flex pl-[2rem] items-end text-[#ffffff]">
-                            <button className={`${dataMode === "Normal" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem]`}
+                        <div className="grid grid-cols-2 gap-[0.5rem] md:gap-0 mb-[0.5rem] md:mb-0 md:flex pl-[0] md:pl-[2rem] items-end text-[#ffffff]">
+                            <button className={`${dataMode === "Normal" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"} rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
                                 onClick={() => {
                                     setDataMode("Normal")
                                 }}>
@@ -229,7 +229,7 @@ export default function Ship() {
                                 Normal
                             </button>
                             {
-                                (ship.skill_detail.retrofit.length !== 0) && <button className={`${dataMode === "Retrofit" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem]`}
+                                (ship.skill_detail.retrofit.length !== 0) && <button className={`${dataMode === "Retrofit" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
                                     onClick={() => {
                                         setDataMode("Retrofit")
                                     }}>
@@ -238,7 +238,7 @@ export default function Ship() {
                                 </button>
                             }
                             {
-                                (ship.skill_detail.fate_simulation.length !== 0) && <button className={`${dataMode === "Fatesim" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem]`}
+                                (ship.skill_detail.fate_simulation.length !== 0) && <button className={`${dataMode === "Fatesim" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
                                     onClick={() => {
                                         setDataMode("Fatesim")
                                     }}>
@@ -247,7 +247,7 @@ export default function Ship() {
                                 </button>
                             }
                             {
-                                (ship.gear.length !== 0) && <button className={`${dataMode === "Gear" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem]`}
+                                (ship.gear.length !== 0) && <button className={`${dataMode === "Gear" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
                                     onClick={() => {
                                         setDataMode("Gear")
                                     }}>
@@ -261,7 +261,7 @@ export default function Ship() {
                                     legacyBehavior
                                 >
                                     <a target="_blank">
-                                        <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem]`}>
+                                        <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}>
                                             <FaYoutube color="#FFFFFF" size={24} />
                                             คลิป Review
                                         </button>   
@@ -274,7 +274,7 @@ export default function Ship() {
                                     legacyBehavior
                                 >
                                     <a target="_blank">
-                                        <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem]`}>
+                                        <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}>
                                             <FaBookBookmark color="#FFFFFF" size={20} />
                                             ประวัติเรือ
                                         </button>   
@@ -391,7 +391,7 @@ export default function Ship() {
                 }
                 {
                     (ship.aoa.length > 0 || ship.note_skill.length > 0 || ship.note.length > 0) && <div className="mt-[1rem] rounded-lg overflow-hidden w-full shadow-[0_0_5px_2px_rgba(0,150,255,0.85)]">
-                        <div className="bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/BG_Fort_night.png')]">
+                        <div className="bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/Bg_skill_info.png')]">
                             <div className="w-full h-full bg-black/[0.8] p-[0.5rem] md:p-[1rem] overflow-y-auto text-[#ffffff]">
                                 {
                                     (ship.aoa.length > 0) && <div className="w-full h-full">

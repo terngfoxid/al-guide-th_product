@@ -3015,6 +3015,7 @@
         "name": "Steamy Therapy"
       }
     ],
+    "history": "https://docs.google.com/document/d/14oLYESoFv0TMf-7asXr3HKrwThPaXikV/edit?usp=sharing&ouid=117176816370068308043&rtpof=true&sd=true",
     "id": "bois belleau"
   },
   {
@@ -14911,6 +14912,7 @@
         "name": "Sticky Situation"
       }
     ],
+    "history": "https://docs.google.com/document/d/14oLYESoFv0TMf-7asXr3HKrwThPaXikV/edit?usp=sharing&ouid=117176816370068308043&rtpof=true&sd=true",
     "id": "le hardi"
   },
   {
@@ -17057,6 +17059,7 @@
         "image": "https://azurlane.netojuu.com/images/a/aa/Mass%C3%A9naHot_Springs.png"
       }
     ],
+    "history": "https://docs.google.com/document/d/14oLYESoFv0TMf-7asXr3HKrwThPaXikV/edit?usp=sharing&ouid=117176816370068308043&rtpof=true&sd=true",
     "id": "masséna"
   },
   {
@@ -27922,6 +27925,57 @@
       }
     ],
     "id": "yorktown ii"
+  },
+  {
+    "name": "Yorktown META",
+    "rarity": [
+      "SRM"
+    ],
+    "class": [],
+    "type": [
+      "CV"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "META",
+      "sub": "Framework of Logic"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "meta_showdown_comment": "",
+    "gear": [],
+    "aoa": [],
+    "note": [],
+    "note_skill": [],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/yuekecheng_alter_chibi.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/yuekecheng_alter.webp",
+        "image": "https://ez-upload.al-guide-th.com/api/download/yuekecheng_alter_image.webp",
+        "name": "Yorktown META"
+      }
+    ],
+    "meta_showdown_armor": "M",
+    "meta_showdown": [
+      {
+        "skill_name": "Philosophy of the Unobserved",
+        "skill_detail": "เมื่อเริ่มการต่อสู้บอสจะได้รับความเสียหายน้อยลง 60% และบอสจะได้รับความเสียหายเพิ่มขึ้นตามจำนวน Unit ฝั่งเราบนสนามตัวละ 15% (ทับซ้อนได้ 12 ครั้ง 180%)",
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-12_014030653.png"
+      },
+      {
+        "skill_detail": "เมื่อบอสอยู่บนสนามทุกๆ 5 วินาทีจะลดค่าต่อต้านอากาศยานและค่าหลบหลีกของฝ่ายเรา 3% และทุกครั้งที่สกิลนี้ทำงานเรือที่อยู่ใกล้กับบอสมากที่สุดจะโดนผลของสกิลนี้ 2 เท่า",
+        "skill_name": "Gaze Into Eternity"
+      },
+      {
+        "skill_detail": "สร้างพื้นที่พิเศษที่จะทำให้ตัวละครทั้งหมดได้รับความเสียหายมากขึ้น 3%",
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-12_012141603.png",
+        "skill_name": "Zeroth Quadrant Expansion -5%"
+      }
+    ],
+    "id": "yorktown meta"
   },
   {
     "name": "Yoshino",
