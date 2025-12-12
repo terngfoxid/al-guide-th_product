@@ -170,7 +170,7 @@ export default function Event() {
                         {
                             ships.map(ship => {
                                 return <div key={ship.name} className={"w-full h-full duration-500 animate-slide-in-bottom"}>
-                                    <ShipInGrid ship={ship} />
+                                    <ShipInGrid ship={ship} retrofit={event?.ships?.find((es)=>(es.name.toLowerCase() === ship.name.toLowerCase()))?.retrofit}/>
                                 </div>
                             })
                         }

@@ -37,11 +37,12 @@ export interface IEvent {
     },
     quests: string[]
     ships?: {
-        type: string
+        type?: string
         name: string
-        image: string
-        faction_short: string
-        chibi: string
+        image?: string
+        faction_short?: string
+        chibi?: string
+        retrofit?:boolean
     }[]
     special?: Array<{
         blob: string

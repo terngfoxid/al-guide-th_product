@@ -90,60 +90,61 @@
       ]
     },
     "chibi": "https://ez-upload.al-guide-th.com/api/download/HakuhouChibi.png",
-    "ships": [
-      {
-        "faction_short": "IJN",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/HakuhouChibi.png",
-        "image": "https://azurlane.netojuu.com/images/7/77/Hakuhou.png",
-        "type": "CV",
-        "name": "Hakuhou"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/I-404Chibi.png",
-        "image": "https://azurlane.netojuu.com/images/2/2f/I-404.png",
-        "type": "SSV",
-        "faction_short": "IJN",
-        "name": "I 404"
-      },
-      {
-        "type": "BB",
-        "name": "Oumi",
-        "image": "https://azurlane.netojuu.com/images/f/f6/Oumi.png",
-        "faction_short": "IJN",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/OumiChibi.png"
-      },
-      {
-        "type": "CA",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/AsamaChibi.png",
-        "faction_short": "IJN",
-        "image": "https://azurlane.netojuu.com/images/f/f5/Asama.png",
-        "name": "Asama"
-      },
-      {
-        "type": "CL",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/MinaseChibi.png",
-        "name": "Minase",
-        "faction_short": "IJN",
-        "image": "https://azurlane.netojuu.com/images/c/cd/Minase.png"
-      },
-      {
-        "name": "Taekaze",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/TaekazeChibi.png",
-        "type": "DD",
-        "faction_short": "IJN",
-        "image": "https://azurlane.netojuu.com/images/9/91/Taekaze.png"
-      },
-      {
-        "faction_short": "IJN",
-        "name": "Shiratsuyu",
-        "type": "DD",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/ShiratsuyuKaiChibi.png",
-        "image": "https://azurlane.netojuu.com/images/7/7c/ShiratsuyuKai.png"
-      }
-    ],
     "banner": "https://ez-upload.al-guide-th.com/api/download/b1.png",
     "button": "https://ez-upload.al-guide-th.com/api/download/btn8thjp.png",
     "_priority": 3,
+    "ships": [
+      {
+        "faction_short": "IJN",
+        "image": "https://azurlane.netojuu.com/images/7/77/Hakuhou.png",
+        "name": "Hakuhou",
+        "type": "CV",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/HakuhouChibi.png"
+      },
+      {
+        "faction_short": "IJN",
+        "type": "SSV",
+        "image": "https://azurlane.netojuu.com/images/2/2f/I-404.png",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/I-404Chibi.png",
+        "name": "I-404"
+      },
+      {
+        "faction_short": "IJN",
+        "type": "BB",
+        "image": "https://azurlane.netojuu.com/images/f/f6/Oumi.png",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/OumiChibi.png",
+        "name": "Oumi"
+      },
+      {
+        "name": "Asama",
+        "image": "https://azurlane.netojuu.com/images/f/f5/Asama.png",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/AsamaChibi.png",
+        "faction_short": "IJN",
+        "type": "CA"
+      },
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/MinaseChibi.png",
+        "image": "https://azurlane.netojuu.com/images/c/cd/Minase.png",
+        "type": "CL",
+        "name": "Minase",
+        "faction_short": "IJN"
+      },
+      {
+        "name": "Taekaze",
+        "faction_short": "IJN",
+        "type": "DD",
+        "image": "https://azurlane.netojuu.com/images/9/91/Taekaze.png",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/TaekazeChibi.png"
+      },
+      {
+        "type": "DD",
+        "image": "https://azurlane.netojuu.com/images/7/7c/ShiratsuyuKai.png",
+        "name": "Shiratsuyu",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/ShiratsuyuKaiChibi.png",
+        "faction_short": "IJN",
+        "retrofit": true
+      }
+    ],
     "id": "A Dance for Amahara Above"
   },
   {
@@ -895,8 +896,8 @@
     "special": [
       {
         "title": "Kaguya Yamai・Yuzuru Yamai [★★★★★★]",
-        "text": "➤  แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน Sector 6",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225232216-modified.png"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225232216-modified.png",
+        "text": "➤  แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน Sector 6"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225316840-modified.png",
@@ -905,23 +906,23 @@
       },
       {
         "text": "➤ เก็บแต้มกิจกรรม Nightmare Rhapsody 1,000 แต้ม",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225347976-modified.png",
-        "title": "Kurumi Tokisaki [★★★★★★]"
+        "title": "Kurumi Tokisaki [★★★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-19_225347976-modified.png"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225503144.png",
+        "title": "Sandalphon [★★★★]",
         "text": "เคลียร์ Sector 2 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน",
-        "title": "Sandalphon [★★★★]"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225503144.png"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225538353.png",
         "text": "เคลียร์ Sector 3 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน",
-        "title": "Metatron [★★★★]"
+        "title": "Metatron [★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225538353.png"
       },
       {
-        "title": "Camael [★★★★]",
         "text": "เคลียร์ Sector 1 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225321366.png"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225321366.png",
+        "title": "Camael [★★★★]"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225613442.png",
@@ -929,40 +930,34 @@
         "title": "Zadkiel [★★★★]"
       },
       {
-        "text": "เคลียร์ Sector 6 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225720123.png",
-        "title": "Zafkiel [★★★★]"
+        "title": "Zafkiel [★★★★]",
+        "text": "เคลียร์ Sector 6 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน"
       },
       {
-        "text": "เคลียร์ Sector 5 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225656179.png",
-        "title": "Raphael [★★★★]"
+        "title": "Raphael [★★★★]",
+        "text": "เคลียร์ Sector 5 ให้ได้ 0% / คนที่มาตีไม่ทันจะมีเควสสะสมแต้มให้ทำแทน"
       },
       {
         "title": "Michael [★★★★★]",
-        "text": "➤ อ่านเนื้อเรื่องกิจกรรมทั้งหมด",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_224450804.png"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_224450804.png",
+        "text": "➤ อ่านเนื้อเรื่องกิจกรรมทั้งหมด"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_224924371.png",
+        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points",
+        "title": "Sephira Crystal [★★★★★]"
       },
       {
         "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points",
-        "title": "Sephira Crystal [★★★★★]",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_224924371.png"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225152438.png",
         "title": "Giant Onigiri [★★★★★]",
-        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225152438.png"
       },
       {
-        "title": "Nightmare Labyrinth Medal",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225843591.png",
         "text": "➤ อัพเกรดยานรบให้เต็ม",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-11-20_225843591.png"
-      },
-      null,
-      null,
-      null,
-      {
-        "title": "sss"
+        "title": "Nightmare Labyrinth Medal"
       }
     ],
     "id": "DATE A LANE"
@@ -2704,50 +2699,6 @@
     "quests": [
       "-"
     ],
-    "ships": [
-      {
-        "name": "Brünhilde",
-        "faction_short": "KMS",
-        "type": "BC",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Br%C3%BCnhildeChibi.png",
-        "image": "https://azurlane.netojuu.com/images/d/d1/Br%C3%BCnhilde.png"
-      },
-      {
-        "faction_short": "KMS",
-        "name": "Blücher",
-        "type": "CA",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Bl%C3%BCcherChibi.png",
-        "image": "https://azurlane.netojuu.com/images/9/96/Bl%C3%BCcher.png"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z16Chibi.png",
-        "image": "https://azurlane.netojuu.com/images/3/3a/Z16.png",
-        "type": "DD",
-        "faction_short": "KMS",
-        "name": "Z-16"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Graf_ZeppelinChibi.png",
-        "faction_short": "KMS",
-        "image": "https://azurlane.netojuu.com/images/a/a4/Graf_Zeppelin.png",
-        "name": "Graf Zeppelin",
-        "type": "CV"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z2Chibi.png",
-        "type": "DD",
-        "faction_short": "KMS",
-        "image": "https://azurlane.netojuu.com/images/6/6a/Z2.png",
-        "name": "Z-2"
-      },
-      {
-        "name": "Z-1",
-        "faction_short": "KMS",
-        "image": "https://azurlane.netojuu.com/images/a/a3/Z1.png",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z1Chibi.png",
-        "type": "DD"
-      }
-    ],
     "special": [
       {
         "text": "➤  ดรอปด่าน SP3",
@@ -2785,6 +2736,50 @@
     "chibi": "https://ez-upload.al-guide-th.com/api/download/BrünhildeChibi.png",
     "button": "https://ez-upload.al-guide-th.com/api/download/Operation Convergence END 600x300.png",
     "_priority": 3,
+    "ships": [
+      {
+        "name": "Brünhilde",
+        "type": "BC",
+        "faction_short": "KMS",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Br%C3%BCnhildeChibi.png",
+        "image": "https://azurlane.netojuu.com/images/d/d1/Br%C3%BCnhilde.png"
+      },
+      {
+        "type": "CA",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Bl%C3%BCcherChibi.png",
+        "name": "Blücher",
+        "faction_short": "KMS",
+        "image": "https://azurlane.netojuu.com/images/9/96/Bl%C3%BCcher.png"
+      },
+      {
+        "name": "Z16",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z16Chibi.png",
+        "type": "DD",
+        "faction_short": "KMS",
+        "image": "https://azurlane.netojuu.com/images/3/3a/Z16.png"
+      },
+      {
+        "type": "CV",
+        "image": "https://azurlane.netojuu.com/images/a/a4/Graf_Zeppelin.png",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Graf_ZeppelinChibi.png",
+        "name": "Graf Zeppelin",
+        "faction_short": "KMS"
+      },
+      {
+        "type": "DD",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z2Chibi.png",
+        "name": "Z2",
+        "image": "https://azurlane.netojuu.com/images/6/6a/Z2.png",
+        "faction_short": "KMS"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/a/a3/Z1.png",
+        "faction_short": "KMS",
+        "name": "Z1",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z1Chibi.png",
+        "type": "DD"
+      }
+    ],
     "id": "Operation Convergence"
   },
   {
@@ -3573,49 +3568,49 @@
         "โดยรวมถือว่าน่าฟาร์มมากๆที่ด่าน D3 เพราะว่าปืนที่ดรอปเป็นปืน CL สเปคดูดีเลยกระสุน HE รีโหลดไว แสดงผลดีกับทุกเกราะ **นิยมใช้กับ CL ที่ต้องการรีโหลดไวๆเพื่อออกท่า AoA หรือสกิลตามปืน** และปืนนี้ตอนนี้สามารถหาได้แค่ในกิจกรรมด้วย ถือว่ายัง Limited อยู่ แต่เป็น Limited ที่เก่าแล้ว (ความหมายคือเดี๋ยวก็เข้า GearLab) เอาล่ะก็ขอให้โชคดีกับการฟาร์มกิจกรรมนี้กันนะครับ 😃"
       ]
     },
+    "button": "https://ez-upload.al-guide-th.com/api/download/Snowrealm%20Peregrination%20END%20600x300.png",
+    "_priority": 3,
     "ships": [
       {
+        "type": "BB",
+        "name": "Sovetsky Soyuz",
         "image": "https://azurlane.netojuu.com/images/f/f0/Sovetsky_Soyuz.png",
         "faction_short": "SN",
         "faction": "Northern Parliament",
-        "name": "Sovetsky Soyuz",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Sovetsky_SoyuzChibi.png",
-        "type": "BB"
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Sovetsky_SoyuzChibi.png"
       },
       {
         "image": "https://azurlane.netojuu.com/images/2/2e/Ognevoy.png",
         "faction_short": "SN",
+        "type": "DD",
         "faction": "Northern Parliament",
         "name": "Ognevoy",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/OgnevoyChibi.png",
-        "type": "DD"
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/OgnevoyChibi.png"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/c/cd/Pamiat%27_Merkuria_META.png",
-        "faction": "META",
-        "name": "Pamiat Merkuria META",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Pamiat_Merkuria_METAChibi.png",
-        "type": "CL"
+        "faction": "META",
+        "type": "CL",
+        "image": "https://azurlane.netojuu.com/images/c/cd/Pamiat%27_Merkuria_META.png",
+        "name": "Pamiat' Merkuria META"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/7/71/Poltava.png",
-        "faction_short": "SN",
+        "type": "BB",
         "faction": "Northern Parliament",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/PoltavaChibi.png",
-        "name": "Poltava",
-        "type": "BB"
+        "image": "https://azurlane.netojuu.com/images/7/71/Poltava.png",
+        "faction_short": "SN",
+        "name": "Poltava"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/6/64/Svirepy.png",
-        "faction_short": "SN",
         "faction": "Northern Parliament",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/SvirepyChibi.png",
+        "type": "DD",
         "name": "Svirepy",
-        "type": "DD"
+        "faction_short": "SN",
+        "image": "https://azurlane.netojuu.com/images/6/64/Svirepy.png"
       }
     ],
-    "button": "https://ez-upload.al-guide-th.com/api/download/Snowrealm%20Peregrination%20END%20600x300.png",
-    "_priority": 3,
     "id": "Snowrealm Peregrination"
   },
   {
@@ -3810,49 +3805,6 @@
       "เล่นด่านกิจกรรมทั้งหมด 40 ครั้ง : ของรางวัล sticker 1 อัน",
       "เล่น minigame Manjuu Curling 1 ครั้ง : ของรางวัล sticker 1 อัน"
     ],
-    "ships": [
-      {
-        "image": "https://azurlane.netojuu.com/images/9/9f/Fritz_Rumey.png",
-        "type": "CV",
-        "faction_short": "KMS",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Fritz_RumeyChibi.png",
-        "name": "Fritz Rumey"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z52Chibi.png",
-        "image": "https://azurlane.netojuu.com/images/e/ed/Z52.png",
-        "type": "DD",
-        "name": "Z-52",
-        "faction_short": "KMS"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/DuisburgChibi.png",
-        "image": "https://azurlane.netojuu.com/images/a/a3/Duisburg.png",
-        "name": "Duisburg",
-        "type": "CL",
-        "faction_short": "KMS"
-      },
-      {
-        "type": "CA",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Admiral_Hipper_METAChibi.png",
-        "image": "https://azurlane.netojuu.com/images/6/6d/Admiral_Hipper_META.png",
-        "name": "Admiral Hipper META"
-      },
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z9Chibi.png",
-        "type": "DD",
-        "faction_short": "KMS",
-        "image": "https://azurlane.netojuu.com/images/8/8a/Z9.png",
-        "name": "Z-9"
-      },
-      {
-        "name": "Z-11",
-        "faction_short": "KMS",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z11Chibi.png",
-        "image": "https://azurlane.netojuu.com/images/e/e1/Z11.png",
-        "type": "DD"
-      }
-    ],
     "special": [
       {
         "title": "KMS Z52 [★★★★★★]",
@@ -3907,6 +3859,49 @@
     ],
     "button": "https://ez-upload.al-guide-th.com/api/download/Substellar_Crepuscule_END_600x300.png",
     "_priority": 3,
+    "ships": [
+      {
+        "type": "CV",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Fritz_RumeyChibi.png",
+        "name": "Fritz Rumey",
+        "image": "https://azurlane.netojuu.com/images/9/9f/Fritz_Rumey.png",
+        "faction_short": "KMS"
+      },
+      {
+        "type": "DD",
+        "image": "https://azurlane.netojuu.com/images/e/ed/Z52.png",
+        "name": "Z52",
+        "faction_short": "KMS",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z52Chibi.png"
+      },
+      {
+        "name": "Duisburg",
+        "image": "https://azurlane.netojuu.com/images/a/a3/Duisburg.png",
+        "faction_short": "KMS",
+        "type": "CL",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/DuisburgChibi.png"
+      },
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Admiral_Hipper_METAChibi.png",
+        "type": "CA",
+        "name": "Admiral Hipper META",
+        "image": "https://azurlane.netojuu.com/images/6/6d/Admiral_Hipper_META.png"
+      },
+      {
+        "type": "DD",
+        "image": "https://azurlane.netojuu.com/images/8/8a/Z9.png",
+        "name": "Z9",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z9Chibi.png",
+        "faction_short": "KMS"
+      },
+      {
+        "name": "Z11",
+        "type": "DD",
+        "image": "https://azurlane.netojuu.com/images/e/e1/Z11.png",
+        "faction_short": "KMS",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z11Chibi.png"
+      }
+    ],
     "id": "Substellar Crepuscule"
   },
   {
@@ -4693,30 +4688,30 @@
       "ผ่านด่านระดับ Hard แบบใช้หลายทีม(Coalition Battle) โดยในทุกทีมไม่มีเรือ CV หรือ CVL : ของรางวัล Blueprint DR7 2 ชิ้น, Cognitive Array 20 ชิ้น",
       "ผ่านด่านระดับ Hard แบบใช้หลายทีม(Coalition Battle) โดยในทุกทีมไม่มีเรือ BB , BC หรือ BM : ของรางวัล Blueprint DR7 2 ชิ้น, Cognitive Array 20 ชิ้น"
     ],
+    "_priority": 3,
     "ships": [
       {
-        "type": "BC",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Admiral_ZenkerChibi.png",
-        "faction_short": "KMS",
         "name": "Admiral Zenker",
-        "image": "https://azurlane.netojuu.com/images/7/72/Admiral_Zenker.png"
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Admiral_ZenkerChibi.png",
+        "image": "https://azurlane.netojuu.com/images/7/72/Admiral_Zenker.png",
+        "faction_short": "KMS",
+        "type": "BC"
       },
       {
-        "type": "SS",
-        "image": "https://azurlane.netojuu.com/images/6/67/U-552.png",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/U-552Chibi.png",
+        "name": "U-552",
         "faction_short": "KMS",
-        "name": "U-552"
+        "image": "https://azurlane.netojuu.com/images/6/67/U-552.png",
+        "type": "SS"
       },
       {
-        "type": "DD",
         "image": "https://azurlane.netojuu.com/images/9/9f/Z13.png",
+        "name": "Z13",
         "faction_short": "KMS",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z13Chibi.png",
-        "name": "Z-13"
+        "type": "DD",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z13Chibi.png"
       }
     ],
-    "_priority": 3,
     "id": "The Neon City Investigator"
   },
   {
@@ -5420,40 +5415,40 @@
       }
     ],
     "chibi": "https://ez-upload.al-guide-th.com/api/download/Alvitr_Chibi.png",
-    "ships": [
-      {
-        "image": "https://azurlane.netojuu.com/images/8/81/Alvitr.png",
-        "faction_short": "KMS",
-        "name": "Alvitr",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Alvitr_Chibi.png",
-        "type": "BC"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/8/81/Z47.png",
-        "faction_short": "KMS",
-        "name": "Z-47",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z-47_Chibi.png",
-        "type": "DD"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/b/b0/U-31.png",
-        "faction_short": "KMS",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/U-31_Chibi.png",
-        "name": "U-31",
-        "type": "SS"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/d/d5/Z43.png",
-        "faction_short": "KMS",
-        "name": "Z-43",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z-43_Chibi.png",
-        "type": "DD"
-      }
-    ],
     "banner": "https://ez-upload.al-guide-th.com/api/download/Welcome%20to%20Little%20Academy%20(Banner).png",
     "button": "https://ez-upload.al-guide-th.com/api/download/Welcome%20to%20Little%20Academy%20END%20600x300.png",
     "_priority": 3,
     "guide": "",
+    "ships": [
+      {
+        "name": "Alvitr",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Alvitr_Chibi.png",
+        "type": "BC",
+        "image": "https://azurlane.netojuu.com/images/8/81/Alvitr.png",
+        "faction_short": "KMS"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/8/81/Z47.png",
+        "faction_short": "KMS",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z-47_Chibi.png",
+        "name": "Z47",
+        "type": "DD"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/b/b0/U-31.png",
+        "name": "U-31",
+        "faction_short": "KMS",
+        "type": "SS",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/U-31_Chibi.png"
+      },
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Z-43_Chibi.png",
+        "faction_short": "KMS",
+        "image": "https://azurlane.netojuu.com/images/d/d5/Z43.png",
+        "type": "DD",
+        "name": "Z43"
+      }
+    ],
     "id": "Welcome to Little Academy"
   },
   {
