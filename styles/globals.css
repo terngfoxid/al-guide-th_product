@@ -41,11 +41,15 @@
   .container {
     margin: 0 auto;
     width: 250px;
-    height: 200px;
+    height: 150px;
     position: relative;
     perspective: 1000px;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
+
+    @media (min-width: 992px) {
+      height: 200px;
+    }
   }
 
   .scroll-container {
@@ -96,7 +100,7 @@
   }
 
   .a {
-    transform: rotateX(0deg) translateZ(200px);
+    transform: rotateX(0deg) translateZ(min(33vh, 200px));
     background: transparent;
 
     @media (min-width: 992px) {
@@ -105,7 +109,7 @@
   }
 
   .b {
-    transform: rotateX(60deg) translateZ(200px);
+    transform: rotateX(60deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
     background:#BDBDBD;
 
@@ -115,7 +119,7 @@
   }
 
   .c {
-    transform: rotateX(120deg) translateZ(200px);
+    transform: rotateX(120deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
     background:#BDBDBD;
 
@@ -125,7 +129,7 @@
   }
 
   .d {
-    transform: rotateX(180deg) translateZ(200px);
+    transform: rotateX(180deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
     background:#BDBDBD;
 
@@ -135,7 +139,7 @@
   }
 
   .e {
-    transform: rotateX(240deg) translateZ(200px);
+    transform: rotateX(240deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
     background:#BDBDBD;
 
@@ -145,7 +149,7 @@
   }
 
   .f {
-    transform: rotateX(300deg) translateZ(200px);
+    transform: rotateX(300deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
     background:#BDBDBD;
 
