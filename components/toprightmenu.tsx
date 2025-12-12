@@ -229,7 +229,7 @@ export default function TopRightMenu() {
                                                 })
                                                     .then(async res => {
                                                         hideLoading()
-                                                        if (res.status === 200)
+                                                        if (res.ok)
                                                             openSuccessDialog({
                                                                 title: "Sync ข้อมูลสำเร็จ",
                                                                 message: ((await res.json()).count ?? "") + " รายการ"
@@ -270,7 +270,7 @@ export default function TopRightMenu() {
                                                 })
                                                     .then(async res => {
                                                         hideLoading()
-                                                        if (res.status === 200)
+                                                        if (res.ok)
                                                             openSuccessDialog({
                                                                 title: "Sync ข้อมูลสำเร็จ",
                                                                 message: ((await res.json()).count ?? "") + " รายการ"
@@ -311,7 +311,7 @@ export default function TopRightMenu() {
                                                 })
                                                     .then(async res => {
                                                         hideLoading()
-                                                        if (res.status === 200)
+                                                        if (res.ok)
                                                             openSuccessDialog({
                                                                 title: "Sync ข้อมูลสำเร็จ",
                                                                 message: ((await res.json()).count ?? "") + " รายการ"

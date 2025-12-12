@@ -38,8 +38,7 @@ export default function Ship() {
             showLoading()
             fetch("/api/v2/ship/" + (name as string).toLowerCase()).then(
                 (res) => {
-                    console.log(res.status)
-                    if (res.status !== 200) {
+                    if (!res.ok) {
                         hideLoading()
                         openErrorDialog({
                             title: "เกิดข้อผิดพลาด " + res.status,
@@ -56,7 +55,7 @@ export default function Ship() {
                             else {
                                 fetch("/api/v2/research").then(
                                     res => {
-                                        if (res.status !== 200) {
+                                        if (!res.ok) {
                                             hideLoading()
                                             openErrorDialog({
                                                 title: "เกิดข้อผิดพลาด " + res.status,
@@ -221,7 +220,7 @@ export default function Ship() {
                     </div>
                     <div className="w-full max-w-[96%] mx-auto md:max-w-[80%] md:mx-0 mt-[1rem] md:mt-0">
                         <div className="grid grid-cols-2 gap-[0.5rem] md:gap-0 mb-[0.5rem] md:mb-0 md:flex pl-[0] md:pl-[2rem] items-end text-[#ffffff]">
-                            <button className={`${dataMode === "Normal" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"} rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
+                            <button className={`${dataMode === "Normal" ? "md:!h-[60px] bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"} rounded-md md:rounded-b-none md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
                                 onClick={() => {
                                     setDataMode("Normal")
                                 }}>
@@ -229,7 +228,7 @@ export default function Ship() {
                                 Normal
                             </button>
                             {
-                                (ship.skill_detail.retrofit.length !== 0) && <button className={`${dataMode === "Retrofit" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
+                                (ship.skill_detail.retrofit.length !== 0) && <button className={`${dataMode === "Retrofit" ? "md:!h-[60px] bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-md md:rounded-b-none md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
                                     onClick={() => {
                                         setDataMode("Retrofit")
                                     }}>
@@ -238,7 +237,7 @@ export default function Ship() {
                                 </button>
                             }
                             {
-                                (ship.skill_detail.fate_simulation.length !== 0) && <button className={`${dataMode === "Fatesim" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
+                                (ship.skill_detail.fate_simulation.length !== 0) && <button className={`${dataMode === "Fatesim" ? "md:!h-[60px] bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-md md:rounded-b-none md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
                                     onClick={() => {
                                         setDataMode("Fatesim")
                                     }}>
@@ -247,7 +246,7 @@ export default function Ship() {
                                 </button>
                             }
                             {
-                                (ship.gear.length !== 0) && <button className={`${dataMode === "Gear" ? "bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
+                                (ship.gear.length !== 0) && <button className={`${dataMode === "Gear" ? "md:!h-[60px] bg-[#305B9C] p-[0.5rem] lg:p-[0.8rem] text-[14px] lg:text-[18px]" : "bg-[#182D4D] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px]"}  rounded-md md:rounded-b-none md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}
                                     onClick={() => {
                                         setDataMode("Gear")
                                     }}>
@@ -261,7 +260,7 @@ export default function Ship() {
                                     legacyBehavior
                                 >
                                     <a target="_blank">
-                                        <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}>
+                                        <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-md md:rounded-b-none md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}>
                                             <FaYoutube color="#FFFFFF" size={24} />
                                             คลิป Review
                                         </button>   
@@ -274,7 +273,7 @@ export default function Ship() {
                                     legacyBehavior
                                 >
                                     <a target="_blank">
-                                        <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-md md:rounded-b-0 md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}>
+                                        <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-md md:rounded-b-none md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}>
                                             <FaBookBookmark color="#FFFFFF" size={20} />
                                             ประวัติเรือ
                                         </button>   

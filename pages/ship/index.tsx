@@ -10,7 +10,7 @@ import { useLoading } from "@/components/overlay/loading";
 import { useDialog } from "@/components/dialog";
 import { BiWorld } from "react-icons/bi";
 
-export default function FourOhFour() {
+export default function AllShipList() {
   const [ships, setShips] = useState<ShipV2[]>([]);
   const [isDropdown, setDropdown] = useState(false);
   const [search, setSearch] = useState("");
@@ -41,7 +41,7 @@ export default function FourOhFour() {
       showLoading()
       const res = await fetch("/api/v2/ship");
       setWebState(res.status)
-      if (res.status !== 200) {
+      if (!res.ok) {
         openErrorDialog({
           title: "เกิดข้อผิดพลาด " + res.status,
           message: "โหลดข้อมูลไม่สำเร็จ",

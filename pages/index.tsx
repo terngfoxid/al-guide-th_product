@@ -22,7 +22,7 @@ export default function Home() {
       showLoading()
       const res = await fetch("/api/v2/event");
       setWebState(res.status)
-      if (res.status !== 200) {
+      if (!res.ok) {
         openErrorDialog({
           title: "เกิดข้อผิดพลาด " + res.status,
           message: "โหลดข้อมูลไม่สำเร็จ",
@@ -160,16 +160,15 @@ export default function Home() {
                     carouselRef.current.style.transform = `rotateX(120deg)`;
                   }
                 }}>
-                  ยังไม่พร้อมใช้งาน
-                  {/*deg === 120 ? <>
-                    <Link className="w-full h-full" href={"/event/" + (lastestEvent?.name)}>
-                      <img src={lastestEvent?.button} className="w-full h-full">
+                  {deg === 120 ? <>
+                    <Link className="w-full h-full" href="/event">
+                      <img alt={"All Event"} src="/images/btn/AllEventData.webp" className="w-full h-full">
                       </img>
                     </Link>
                   </> : <>
-                    <img src={lastestEvent?.button} className="w-full h-full">
+                    <img alt={"All Event"} src="/images/btn/AllEventData.webp" className="w-full h-full">
                     </img>
-                  </>*/}
+                  </>}
                 </div>
 
                 <div className={`item f hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
@@ -178,16 +177,15 @@ export default function Home() {
                     carouselRef.current.style.transform = `rotateX(60deg)`;
                   }
                 }}>
-                  ยังไม่พร้อมใช้งาน
-                  {/*deg === 60 ? <>
-                    <Link className="w-full h-full" href={"/event/" + (secondEvent?.name)}>
-                      <img src={secondEvent?.button} className="w-full h-full">
+                  {deg === 60 ? <>
+                    <Link className="w-full h-full" href={"/event/" + (lastestEvent?.name)}>
+                      <img alt={lastestEvent?.name} src={lastestEvent?.button} className="w-full h-full">
                       </img>
                     </Link>
                   </> : <>
-                    <img src={secondEvent?.button} className="w-full h-full">
+                    <img alt={lastestEvent?.name} src={lastestEvent?.button} className="w-full h-full">
                     </img>
-                  </>*/}
+                  </>}
                 </div>
               </div>
 
