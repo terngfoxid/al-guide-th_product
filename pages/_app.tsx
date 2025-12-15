@@ -38,10 +38,8 @@ export default function App({ Component, pageProps }: AppProps) {
       <LoadingProvider>
         <DialogProvider>
           <div className="h-screen min-h-screen max-h-screen w-screen max-w-screen min-w-screen bg-[url('/images/home_page.webp')] bg-cover bg-center overflow-hidden">
+            <Secretary />
             <main className="flex justify-center relative w-full h-full max-w-[1920px] mx-auto">
-              <div className="z-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <Secretary />
-              </div>
               <div className="z-20 absolute top-0 left-0">
                 <BackToTop />
                 <TopLeftMenu>

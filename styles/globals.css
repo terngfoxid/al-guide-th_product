@@ -70,11 +70,11 @@
   .carousel {
     height: 80%;
     width: 80%;
-    left:14%;
+    left: 14%;
     top: 0%;
     position: absolute;
     transform-style: preserve-3d;
-    transition: transform 1s;
+    transition: transform 0.5s;
   }
 
   .item {
@@ -90,6 +90,7 @@
     opacity: 0.95;
     border-radius: 10px;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out !important;
 
     @media (min-width: 992px) {
       width: 400px;
@@ -98,6 +99,10 @@
 
     cursor: pointer;
   }
+
+  /*.item:hover{
+    transform: scale(1.1); 
+  }*/
 
   .a {
     transform: rotateX(0deg) translateZ(min(33vh, 200px));
@@ -108,53 +113,101 @@
     }
   }
 
+  .a:hover{
+    transform: scale(1.1) rotateX(0deg) translateZ(min(33vh, 200px));
+
+    @media (min-width: 992px) {
+      transform: scale(1.1) rotateX(0deg) translateZ(250px);
+    }
+  }
+
   .b {
     transform: rotateX(60deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
-    background:#BDBDBD;
+    background: #BDBDBD;
 
     @media (min-width: 992px) {
       transform: rotateX(60deg) translateZ(250px);
     }
   }
 
+  .b:hover{
+    transform: scale(1.1) rotateX(60deg) translateZ(min(33vh, 200px));
+
+    @media (min-width: 992px) {
+      transform: scale(1.1) rotateX(60deg) translateZ(250px);
+    }
+  }
+
   .c {
     transform: rotateX(120deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
-    background:#BDBDBD;
+    background: #BDBDBD;
 
     @media (min-width: 992px) {
       transform: rotateX(120deg) translateZ(250px);
     }
   }
 
+  .c:hover{
+    transform: scale(1.1) rotateX(120deg) translateZ(min(33vh, 200px));
+
+    @media (min-width: 992px) {
+      transform: scale(1.1) rotateX(120deg) translateZ(250px);
+    }
+  }
+
   .d {
     transform: rotateX(180deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
-    background:#BDBDBD;
+    background: #BDBDBD;
 
     @media (min-width: 992px) {
       transform: rotateX(180deg) translateZ(250px);
     }
   }
 
+  .d:hover{
+    transform: scale(1.1) rotateX(180deg) translateZ(min(33vh, 200px));
+
+    @media (min-width: 992px) {
+      transform: scale(1.1) rotateX(180deg) translateZ(250px);
+    }
+  }
+
   .e {
     transform: rotateX(240deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
-    background:#BDBDBD;
+    background: #BDBDBD;
 
     @media (min-width: 992px) {
       transform: rotateX(240deg) translateZ(250px);
     }
   }
 
+  .e:hover{
+    transform: scale(1.1) rotateX(240deg) translateZ(min(33vh, 200px));
+
+    @media (min-width: 992px) {
+      transform: scale(1.1) rotateX(240deg) translateZ(250px);
+    }
+  }
+
   .f {
     transform: rotateX(300deg) translateZ(min(33vh, 200px));
     /*background: transparent;*/
-    background:#BDBDBD;
+    background: #BDBDBD;
 
     @media (min-width: 992px) {
       transform: rotateX(300deg) translateZ(250px);
+    }
+  }
+
+  .f:hover{
+    transform: scale(1.1) rotateX(300deg) translateZ(min(33vh, 200px));
+
+    @media (min-width: 992px) {
+      transform: scale(1.1) rotateX(300deg) translateZ(250px);
     }
   }
 }

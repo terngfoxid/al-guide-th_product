@@ -13,21 +13,22 @@ import { BiWorld } from "react-icons/bi";
 export default function AllShipList() {
   const [ships, setShips] = useState<ShipV2[]>([]);
   const [isDropdown, setDropdown] = useState(false);
-  const [search, setSearch] = useState("");
   const [webState, setWebState] = useState(0);
 
-  const [activeType, setActiveType] = useState<string[]>([])
   const [allType, setAllType] = useState<string[]>([])
-
-  const [showRetrofitSkin, setShowRetrofitSkin] = useState(false);
-  const [showRetrofitOnly, setShowRetrofitOnly] = useState(false);
-  const [showAugmentOnly, setShowAugmentOnly] = useState(false);
-
-  const [activeFaction, setActiveFaction] = useState<string[]>([])
   const [allFaction, setAllFaction] = useState<string[]>([])
-
-  const [activeSubFaction, setActiveSubFaction] = useState<string[]>([])
   const [allSubFaction, setAllSubFaction] = useState<string[]>([])
+
+  //store search
+  const [search, setSearch] = useState<string>()
+
+  const [showRetrofitSkin, setShowRetrofitSkin] = useState<boolean>(false)
+  const [showRetrofitOnly, setShowRetrofitOnly] = useState<boolean>(false)
+  const [showAugmentOnly, setShowAugmentOnly] = useState<boolean>(false)
+
+  const [activeType, setActiveType] = useState<string[]>([])
+  const [activeFaction, setActiveFaction] = useState<string[]>([])
+  const [activeSubFaction, setActiveSubFaction] = useState<string[]>([])
 
   const { showLoading, hideLoading } = useLoading()
   const { openErrorDialog } = useDialog()
@@ -37,6 +38,23 @@ export default function AllShipList() {
   };
 
   const callAPI = async () => {
+    const storedSearch = localStorage.getItem("search");
+    setSearch(storedSearch ?? undefined)
+
+    const storedShowRetrofitSkin = localStorage.getItem("showRetrofitSkin");
+    setShowRetrofitSkin(storedShowRetrofitSkin === "true")
+    const storedShowRetrofitOnly = localStorage.getItem("showRetrofitOnly");
+    setShowRetrofitOnly(storedShowRetrofitOnly === "true")
+    const storedShowAugmentOnly = localStorage.getItem("showAugmentOnly");
+    setShowAugmentOnly(storedShowAugmentOnly === "true")
+
+    const storedActiveType = localStorage.getItem("activeType");
+    setActiveType(JSON.parse(storedActiveType ?? "[]"))
+    const storedActiveFaction = localStorage.getItem("activeFaction");
+    setActiveFaction(JSON.parse(storedActiveFaction ?? "[]"))
+    const storedActiveSubFaction = localStorage.getItem("activeSubFaction");
+    setActiveSubFaction(JSON.parse(storedActiveSubFaction ?? "[]"))
+
     try {
       showLoading()
       const res = await fetch("/api/v2/ship");
@@ -117,14 +135,17 @@ export default function AllShipList() {
 
   if (activeType.length === allType.length) {
     setActiveType([])
+    localStorage.setItem("activeType", JSON.stringify([]))
   }
 
   if (activeFaction.length === allFaction.length) {
     setActiveFaction([])
+    localStorage.setItem("activeFaction", JSON.stringify([]))
   }
 
   if (activeSubFaction.length === allSubFaction.length) {
     setActiveSubFaction([])
+    localStorage.setItem("activeSubFaction", JSON.stringify([]))
   }
 
   const handleTypeFilter = (ship: ShipV2) => {
@@ -135,7 +156,7 @@ export default function AllShipList() {
   }
 
   const handleSearchFilter = (ship: ShipV2) => {
-    if (search !== null && search !== "") return ship.name.toLowerCase().includes(search.toLowerCase())
+    if (search !== null && search !== undefined && search !== "") return ship.name.toLowerCase().includes(search.toLowerCase())
     return true
   }
 
@@ -172,16 +193,37 @@ export default function AllShipList() {
           <AiOutlineSearch size={"1.5rem"} color="#ffffff" />
           <h2 className="text-[1.7rem] text-left text-white">ค้นหาเรือ </h2>
         </div>
-        <div className="ml-2">
+        <div className="flex ml-2 gap-[10px]">
           <input
             type="search"
             id="searchtext"
-            className={"block px-2 py-1 my-2 w-[300px] max-w-[80%] text-sm text-gray-800 bg-gray-50 rounded-lg border-gray-400 border focus:ring-blue-500 focus:border-blue-500 "}
+            className={"block px-2 py-1 my-2 w-[300px] max-w-[65%] text-sm text-gray-800 bg-gray-50 rounded-lg border-gray-400 border focus:ring-blue-500 focus:border-blue-500 "}
+            value={search}
             onChange={(event) => {
               setSearch(event.currentTarget.value);
+              localStorage.setItem("search", event.currentTarget.value)
             }}
             placeholder="EX.Yorktown II -> york ,town ,YoRkTo"
           ></input>
+          <button className={`my-2 flex items-center rounded-lg px-[0.5rem] py-[0.35rem] md:py-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[10px] md:text-[12px] lg:text-[14px] bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)] hover:bg-[#2E4A80] hover:bg-opacity-90 hover:shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]`}
+            onClick={() => {
+              setSearch("")
+              localStorage.setItem("search", "")
+              setActiveType([])
+              localStorage.setItem("activeType", JSON.stringify([]))
+              setActiveFaction([])
+              localStorage.setItem("activeFaction", JSON.stringify([]))
+              setActiveSubFaction([])
+              localStorage.setItem("activeSubFaction", JSON.stringify([]))
+              setShowRetrofitSkin(false)
+              localStorage.setItem("showRetrofitSkin", "false")
+              setShowRetrofitOnly(false)
+              localStorage.setItem("showRetrofitOnly", "false")
+              setShowAugmentOnly(false)
+              localStorage.setItem("showAugmentOnly", "false")
+            }}>
+            Clear All
+          </button>
         </div>
         <div>
           <div className="flex p-[0.5rem] items-center gap-[0.5rem]">
@@ -232,6 +274,7 @@ export default function AllShipList() {
                             }
                             onClick={() => {
                               setActiveType([])
+                              localStorage.setItem("activeType", JSON.stringify([]))
                             }}
                           >
                             <p className="flex">All Type</p>
@@ -249,9 +292,11 @@ export default function AllShipList() {
                               onClick={() => {
                                 if (activeType.indexOf(type) == -1) {
                                   setActiveType([...activeType, type]);
+                                  localStorage.setItem("activeType", JSON.stringify([...activeType, type]))
                                 }
                                 else {
                                   setActiveType(activeType.filter((typeInList) => { return typeInList != type }))
+                                  localStorage.setItem("activeType", JSON.stringify(activeType.filter((typeInList) => { return typeInList != type })))
                                 }
                               }}
                             >
@@ -267,7 +312,10 @@ export default function AllShipList() {
               <div className="ml-2 mt-[1rem] md:mt-0 flex gap-[10px] items-center">
                 <TbTransformFilled size={28} color="#ffffff" />
                 <button className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[10px] md:text-[12px] lg:text-[14px] ${showRetrofitSkin ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
-                  onClick={() => { setShowRetrofitSkin(!showRetrofitSkin) }}>
+                  onClick={() => {
+                    setShowRetrofitSkin(!showRetrofitSkin)
+                    localStorage.setItem("showRetrofitSkin", (!showRetrofitSkin).toString())
+                  }}>
                   {
                     showRetrofitSkin ? <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-[20px]">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
@@ -280,7 +328,10 @@ export default function AllShipList() {
                   }<span>แสดงร่าง Retrofit</span>
                 </button>
                 <button className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[10px] md:text-[12px] lg:text-[14px] ${showRetrofitOnly ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
-                  onClick={() => { setShowRetrofitOnly(!showRetrofitOnly) }}>
+                  onClick={() => {
+                    setShowRetrofitOnly(!showRetrofitOnly)
+                    localStorage.setItem("showRetrofitOnly", (!showRetrofitOnly).toString())
+                  }}>
                   {
                     showRetrofitOnly ? <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-[20px]">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
@@ -297,7 +348,10 @@ export default function AllShipList() {
             <div className="ml-2 mt-[1rem] lg:mt-0 flex gap-[10px] items-center">
               <GiSwitchWeapon size={28} color="#ffffff" />
               <button className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[10px] md:text-[12px] lg:text-[14px] ${showAugmentOnly ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
-                onClick={() => { setShowAugmentOnly(!showAugmentOnly) }}>
+                onClick={() => {
+                  setShowAugmentOnly(!showAugmentOnly)
+                  localStorage.setItem("showAugmentOnly", (!showAugmentOnly).toString())
+                }}>
                 {
                   showAugmentOnly ? <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-[20px]">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
@@ -317,8 +371,8 @@ export default function AllShipList() {
           </div>
           <div className="mx-2 mt-[0.5rem] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-[0.5rem] md:gap-[1rem]">
             <button className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeFaction.length === 0) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
-              onClick={() => { setActiveFaction([]); }}>
-              <BiWorld size={20} color="#ffffff"/>แสดงทั้งหมด
+              onClick={() => { setActiveFaction([]); localStorage.setItem("activeFaction", JSON.stringify([])) }}>
+              <BiWorld size={20} color="#ffffff" />แสดงทั้งหมด
             </button>
             {
               allFaction.map((faction) => {
@@ -326,12 +380,14 @@ export default function AllShipList() {
                   onClick={() => {
                     if (activeFaction.indexOf(faction) == -1) {
                       setActiveFaction([...activeFaction, faction]);
+                      localStorage.setItem("activeFaction", JSON.stringify([...activeFaction, faction]))
                     }
                     else {
                       setActiveFaction(activeFaction.filter((factionInList) => { return factionInList != faction }))
+                      localStorage.setItem("activeFaction", JSON.stringify(activeFaction.filter((factionInList) => { return factionInList != faction })))
                     }
                   }}>
-                    <img alt="Ship Faction" src={"/images/faction/"+faction+".webp"} className="w-[20px]"></img>
+                  <img alt="Ship Faction" src={"/images/faction/" + faction + ".webp"} className="w-[20px]"></img>
                   {faction}
                 </button>
               })
@@ -343,7 +399,7 @@ export default function AllShipList() {
           </div>
           <div className="mx-2 mt-[0.5rem] grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-[0.5rem] md:gap-[1rem]">
             <button className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[8px] md:text-[10px] lg:text-[12px] ${(activeSubFaction.length === 0) ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
-              onClick={() => { setActiveSubFaction([]); }}>
+              onClick={() => { setActiveSubFaction([]); localStorage.setItem("activeSubFaction", JSON.stringify([])) }}>
               แสดงทั้งหมด
             </button>
             {
@@ -352,9 +408,11 @@ export default function AllShipList() {
                   onClick={() => {
                     if (activeSubFaction.indexOf(subfaction) == -1) {
                       setActiveSubFaction([...activeSubFaction, subfaction]);
+                      localStorage.setItem("activeSubFaction", JSON.stringify([...activeSubFaction, subfaction]))
                     }
                     else {
                       setActiveSubFaction(activeSubFaction.filter((subfactionInList) => { return subfactionInList != subfaction }))
+                      localStorage.setItem("activeSubFaction", JSON.stringify(activeSubFaction.filter((subfactionInList) => { return subfactionInList != subfaction })))
                     }
                   }}>
                   {subfaction}

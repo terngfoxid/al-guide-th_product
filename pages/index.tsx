@@ -83,7 +83,7 @@ export default function Home() {
 
               {/* 3D Carousel */}
               <div className="carousel" ref={carouselRef}>
-                <div className={`item a hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
+                <div className={`item a !transition-shadow !duration-300`} onClick={() => {
                   setDeg(0)
                   if (carouselRef.current) {
                     carouselRef.current.style.transform = `rotateX(0deg)`;
@@ -91,11 +91,11 @@ export default function Home() {
                 }}>
                   {deg === 0 ? <>
                     <Link className="w-full h-full" href="/ship">
-                      <img alt="All Ships Data" src="/images/btn/Ship 600x300.webp" className="w-full h-full">
+                      <img alt="All Ships Data" src="/images/btn/ship_info_1200x600.png" className="w-full h-full">
                       </img>
                     </Link>
                   </> : <>
-                    <img alt="All Ships Data" src="/images/btn/Ship 600x300.webp" className="w-full h-full">
+                    <img alt="All Ships Data" src="/images/btn/ship_info_1200x600.png" className="w-full h-full">
                     </img>
                   </>}
                 </div>
