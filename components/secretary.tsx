@@ -10,8 +10,8 @@ export default function Secretary() {
     }, []);
 
     return (
-        <div className="fixed top-1/2 right-0 -translate-y-1/2 max-w-[60vw]">
-            <img alt="Secretary" src={secretaryUrl? secretaryUrl:"/images/secretary.png"} className="max-h-[100vh]" />
+        <div className="fixed bottom-0 right-0 max-w-[100vw] sm:max-w-[50vw] md:max-w-[50vw] lg:max-w-[60vw]">
+            <img alt="Secretary" src={secretaryUrl? secretaryUrl:"/images/secretary.png"} className="max-h-[80vh] lg:max-h-[100vw]" />
         </div>
     );
 }

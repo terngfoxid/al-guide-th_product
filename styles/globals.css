@@ -34,180 +34,25 @@
   background: #254575
 }
 
-.custom-carousel {
-  transform-style: preserve-3d;
-  transform: rotateY(10deg);
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0px;
+  transform: translateX(100%)
+}
 
-  .container {
-    margin: 0 auto;
-    width: 250px;
-    height: 150px;
-    position: relative;
-    perspective: 1000px;
-    transform-style: preserve-3d;
-    transform: rotateY(0deg);
+/* Track */
+.hide-scrollbar::-webkit-scrollbar-track {
+  box-shadow: transparent;
+  border-radius: 0px;
+  background: transparent;
+}
 
-    @media (min-width: 992px) {
-      height: 200px;
-    }
-  }
+/* Handle */
+.hide-scrollbar::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 0px;
+}
 
-  .scroll-container {
-    width: 500px;
-    height: 1000px;
-    margin: 0 auto;
-
-    /* 🚫 Disable scrolling fully */
-    overflow: hidden !important;
-    pointer-events: none;
-    /* prevents mouse scroll */
-  }
-
-  .scroll-duration {
-    height: 20000px;
-  }
-
-  .carousel {
-    height: 80%;
-    width: 80%;
-    left: 14%;
-    top: 0%;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
-  }
-
-  .item {
-    display: block;
-    position: absolute;
-    background: #000;
-
-    width: 240px;
-    height: 120px;
-    font-size: 3em;
-    text-align: center;
-    color: #fff;
-    opacity: 0.95;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out !important;
-
-    @media (min-width: 992px) {
-      width: 400px;
-      height: 200px;
-    }
-
-    cursor: pointer;
-  }
-
-  /*.item:hover{
-    transform: scale(1.1); 
-  }*/
-
-  .a {
-    transform: rotateX(0deg) translateZ(min(33vh, 200px));
-    background: transparent;
-
-    @media (min-width: 992px) {
-      transform: rotateX(0deg) translateZ(250px);
-    }
-  }
-
-  .a:hover{
-    transform: scale(1.1) rotateX(0deg) translateZ(min(33vh, 200px));
-
-    @media (min-width: 992px) {
-      transform: scale(1.1) rotateX(0deg) translateZ(250px);
-    }
-  }
-
-  .b {
-    transform: rotateX(60deg) translateZ(min(33vh, 200px));
-    /*background: transparent;*/
-    background: #BDBDBD;
-
-    @media (min-width: 992px) {
-      transform: rotateX(60deg) translateZ(250px);
-    }
-  }
-
-  .b:hover{
-    transform: scale(1.1) rotateX(60deg) translateZ(min(33vh, 200px));
-
-    @media (min-width: 992px) {
-      transform: scale(1.1) rotateX(60deg) translateZ(250px);
-    }
-  }
-
-  .c {
-    transform: rotateX(120deg) translateZ(min(33vh, 200px));
-    /*background: transparent;*/
-    background: #BDBDBD;
-
-    @media (min-width: 992px) {
-      transform: rotateX(120deg) translateZ(250px);
-    }
-  }
-
-  .c:hover{
-    transform: scale(1.1) rotateX(120deg) translateZ(min(33vh, 200px));
-
-    @media (min-width: 992px) {
-      transform: scale(1.1) rotateX(120deg) translateZ(250px);
-    }
-  }
-
-  .d {
-    transform: rotateX(180deg) translateZ(min(33vh, 200px));
-    /*background: transparent;*/
-    background: #BDBDBD;
-
-    @media (min-width: 992px) {
-      transform: rotateX(180deg) translateZ(250px);
-    }
-  }
-
-  .d:hover{
-    transform: scale(1.1) rotateX(180deg) translateZ(min(33vh, 200px));
-
-    @media (min-width: 992px) {
-      transform: scale(1.1) rotateX(180deg) translateZ(250px);
-    }
-  }
-
-  .e {
-    transform: rotateX(240deg) translateZ(min(33vh, 200px));
-    /*background: transparent;*/
-    background: #BDBDBD;
-
-    @media (min-width: 992px) {
-      transform: rotateX(240deg) translateZ(250px);
-    }
-  }
-
-  .e:hover{
-    transform: scale(1.1) rotateX(240deg) translateZ(min(33vh, 200px));
-
-    @media (min-width: 992px) {
-      transform: scale(1.1) rotateX(240deg) translateZ(250px);
-    }
-  }
-
-  .f {
-    transform: rotateX(300deg) translateZ(min(33vh, 200px));
-    /*background: transparent;*/
-    background: #BDBDBD;
-
-    @media (min-width: 992px) {
-      transform: rotateX(300deg) translateZ(250px);
-    }
-  }
-
-  .f:hover{
-    transform: scale(1.1) rotateX(300deg) translateZ(min(33vh, 200px));
-
-    @media (min-width: 992px) {
-      transform: scale(1.1) rotateX(300deg) translateZ(250px);
-    }
-  }
+/* Handle on hover */
+.hide-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: transparent;
 }

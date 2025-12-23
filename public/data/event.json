@@ -148,6 +148,213 @@
     "id": "A Dance for Amahara Above"
   },
   {
+    "name": "A Note Through the Firmament",
+    "time": "18/12/2025 - 08/01/2026 14:00 น.",
+    "ships": [
+      {
+        "name": "Lexington II"
+      },
+      {
+        "name": "William D. Porter"
+      },
+      {
+        "name": "Cowpens"
+      },
+      {
+        "name": "Cleveland META"
+      },
+      {
+        "name": "Pasadena"
+      },
+      {
+        "name": "Clarence K. Bronson"
+      },
+      {
+        "name": "Maury",
+        "retrofit": true
+      }
+    ],
+    "_priority": 1,
+    "guideV2": [
+      {
+        "desc": "สามารถเช็คได้ว่าเก็บ UR Voucher ครบรึยังได้ที่หน้า Event ด้านบนทางขวาที่หัวข้อ UR Exchange",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-18_224501852.png"
+      }
+    ],
+    "special": [
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-16_233908148-modified.png",
+        "title": "William D. Porter",
+        "text": "แลกจากร้านค้ากิจกรรม โดยใช้ \"UR Voucher\" 200/300 ใบ"
+      },
+      {
+        "title": "Cleveland META",
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-16_233824580-modified.png"
+      },
+      {
+        "text": "สะสมแต้มกิจกรรม 10,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-17_234851109-modified.png",
+        "title": "Clarence K. Bronson"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-18_225848129.png",
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points",
+        "title": "ผลึกปลดดาว Cleveland META"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-16_234509098.png",
+        "text": "สะสมแต้มปลดล็อก Frame 2,800 points",
+        "title": "Ghost of the Dark Blue"
+      },
+      null,
+      {
+        "title": "แต้มปลดล็อก Frame 800 points",
+        "text": "ได้รับ Lexington II"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 600 points",
+        "text": "ได้รับ Cleveland META"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 600 points",
+        "text": "ปลดดาว Cowpens ให้เต็ม"
+      },
+      {
+        "text": "ปลดดาว Pasadena ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 400 points"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 400 points",
+        "text": "ปลดดาว Clarence K. Bronson ให้เต็ม"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน A2/C2 จำนวน 10 ครั้ง โดยมี Helena ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน A3/C3 จำนวน 10 ครั้ง โดยมี Yorktown ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "text": "ชนะบอสด่าน B2/D2 จำนวน 10 ครั้ง โดยมี Hornet ที่ดาวเต็มอยู่ในทีม",
+        "title": "แต้มปลดล็อก Frame 300 points"
+      },
+      {
+        "text": "ชนะบอสด่าน B2/D2 จำนวน 10 ครั้ง โดยมี Lexington ที่ดาวเต็มอยู่ในทีม",
+        "title": "แต้มปลดล็อก Frame 300 points"
+      },
+      {
+        "text": "ชนะบอสด่าน B3/D3 จำนวน 10 ครั้ง โดยมี Enterprise ที่ดาวเต็มอยู่ในทีม",
+        "title": "แต้มปลดล็อก Frame 300 points"
+      },
+      {
+        "text": "สะสม Sticker 8 อัน",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-18_221200140.png",
+        "title": "Star of the Firmament Medal"
+      },
+      null,
+      {
+        "text": "อ่านเนื้อเรื่องกิจกรรม",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน A3/C3"
+      },
+      {
+        "text": "ผ่านด่าน B3/D3",
+        "title": "Sticker"
+      },
+      {
+        "text": "กำจัดศัตรูในกิจกรรม 300 ตัว",
+        "title": "Sticker"
+      },
+      {
+        "text": "เล่นด่านกิจกรรมทั้งหมด 50 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "text": "ผ่านด่าน SP",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point"
+      },
+      {
+        "title": "Sticker",
+        "text": "สะสม Sticker 7 อัน"
+      },
+      {
+        "title": "★เกียร์และไอเท็มอื่นๆ"
+      },
+      null,
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-18_222509670.png",
+        "text": "ผ่านด่านกิจกรรม D3",
+        "title": "Council Observatory Miniature"
+      },
+      {
+        "title": "F4U (VBF-94 Squadron)",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-18_223846472.png",
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points"
+      },
+      {
+        "title": "Hammann’s Scrumptious Spells",
+        "text": "ทำภารกิจในกิจกรรม Hammann’s Scrumptious Spells 7 วัน",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-18_224117735-modified.png"
+      }
+    ],
+    "lore": [
+      {
+        "desc": "หลังจากผู้การสามารถหลบหนีออกมาจากภาพลวงตาของดินแดน Amahara ได้สำเร็จแล้วนั้น แต่ทว่าเขากลับถูกล่อลวงเข้าสู่โลกอันสวยงามและเต็มเปี่ยมไปด้วยความอุดมคติอันเป็นโลกที่สร้างขึ้นโดย \"The Tower\" อย่างไรก็ตาม เขาก็สามารถจดจำและตระหนักรู้ได้ว่าโลกอันสมบูรณ์แบบเช่นนี้คือกับดักที่ถูกสร้างขึ้นและล่อให้เขาติดเข้ากับกับดักอันนี้ ด้วยเหตุนั้น เขาจึงสามารถกลับออกมาจากโลกดังกล่าวและกลับมาสู่โลกแห่งความเป็นจริงได้สำเร็จ เมื่อสามารถกลับมาได้สำเร็จ เขาจึงเริ่มต้นใช้งานข้อมูลที่มีอยู่เพื่อคำนวณสำหรับช่วยเหลือสหายร่วมรบของเขาอย่าง Lexington อย่างไรก็ตาม ผลลัพธ์ที่เกิดขึ้นกลับส่งผลให้เขาถูกไปยังพื้นที่ทดลองหรือเส้นเวลาอื่น ๆ แทน ความทรงจำและการหวนรำลึกถึงอดีตและ \"อนาคต\" เหล่าสหายร่วมรบในปัจจุบันและเหล่าผู้ที่ไม่สมควรที่จะได้พบกันอีก อนาคตอันสมบูรณ์แบบ อนาคตที่ซึ่งทุกสิ่งทุกอย่างและทุก ๆ คนได้ใช้ชีวิตกันอย่างสงบสุขนี้ กลับมีเงาที่มีชื่อเรียกว่า \"ความจริง\" กำลังทอดผ่านและไล่ตามหลังอนาคตอันสมบูรณ์แบบดังกล่าวด้วยเช่นกัน",
+        "image": "https://ez-upload.al-guide-th.com/api/download/G8SGb6Ra0AAwdUs.jpg"
+      }
+    ],
+    "noteV2": {
+      "summary": [
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-18_220240487.png",
+          "desc": "สามารถรับ UR Voucher ได้จากการการเล่นด่าน SP , Daily mission , Challenge mission , มินิเกม หรือจากการซื้อในร้านค้ากิจกรรม"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ Daily missions 5ใบ/วัน สูงสุด 75 ใบ (EN อาจจะ 70 เพราะเวลาน้อยกว่าเซิร์ฟอื่นๆ 1 วัน)"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ด่าน B3 หรือ D3 ด้วยเรือในกิจกรรมนี้ จะได้รับ 10 ใบ/ภารกิจ สูงสุด 50 ใบ"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ด่านใดก็ได้ในกิจกรรม ตั้งแต่ 5 รอบจนถึง 60 รอบ  สูงสุด 105 ใบ"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 5 ใบ/วัน"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการซื้อจากร้านค้ากิจกรรม ราคา 150 points/ใบ สูงสุด 500 ใบ"
+        }
+      ],
+      "veteran": [
+        {
+          "desc": "หากไม่ได้ต้องการหาเครื่องบินยิงจรวด F6F(HVAR) แล้ว เก็บแต้มเสร็จเก็บของกลับบ้านได้เลย"
+        }
+      ],
+      "beginner": [
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-18_000304453.png",
+          "desc": "(น่าจะมาอาทิตย์หน้า) อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (New Year)\\nGraf Zeppelin, Belfast, South Dakota, Kuybyshev, Impero, Bismarck และ Richelieu"
+        },
+        {
+          "desc": "ด่าน D3 ดรอปเครื่องบินยิงจรวด F6F(HVAR)",
+          "image": "https://ez-upload.al-guide-th.com/api/download/f6fhvarplan.png"
+        }
+      ]
+    },
+    "button": "https://ez-upload.al-guide-th.com/api/download/A Note Through the Firmament (Botton).png",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/A Note Through the Firmament (Banner).png",
+    "id": "A Note Through the Firmament"
+  },
+  {
     "guide": "",
     "name": "A Rose on the High Tower",
     "time": "[20/05/2025-12/06/2025 14:00 น.]",
@@ -809,7 +1016,6 @@
     "guide": "",
     "name": "DATE A LANE",
     "time": "[20/11/2025-04/12/2025 14:00 น.]",
-    "_priority": 1,
     "note": {
       "beginner": [
         null
@@ -960,6 +1166,7 @@
         "title": "Nightmare Labyrinth Medal"
       }
     ],
+    "_priority": 3,
     "id": "DATE A LANE"
   },
   {

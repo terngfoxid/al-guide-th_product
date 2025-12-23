@@ -2701,10 +2701,10 @@
     ],
     "skins": [
       {
-        "name": "Birmingham",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/bominghan.webp",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/BirminghamChibi.png",
         "image": "https://azurlane.netojuu.com/images/5/58/Birmingham.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/bominghan.webp"
+        "name": "Birmingham"
       },
       {
         "name": "Rider of Red",
@@ -2717,6 +2717,10 @@
       {
         "name": "To Where the Wind Blows",
         "image": "https://azurlane.netojuu.com/images/0/06/BirminghamSummer.png"
+      },
+      {
+        "name": "Briar Maid",
+        "image": "https://als.mrlar.dev/full/bominghan_5.webp"
       }
     ],
     "id": "birmingham"
@@ -4697,6 +4701,45 @@
     "id": "choukai"
   },
   {
+    "name": "Clarence K. Bronson",
+    "rarity": [
+      "E"
+    ],
+    "class": [],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/kelalunsi.webp",
+        "name": "Clarence K. Bronson",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/kelalunsi (1).webp",
+        "image": "https://als.mrlar.dev/full/kelalunsi.webp"
+      },
+      {
+        "name": "Special Functional Testing",
+        "image": "https://als.mrlar.dev/full/kelalunsi_2.webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/USS Clarence K. Bronson.png"
+      ]
+    },
+    "id": "clarence k. bronson"
+  },
+  {
     "name": "Clemenceau",
     "class": [],
     "type": [
@@ -4779,6 +4822,41 @@
       }
     ],
     "id": "cleopatra"
+  },
+  {
+    "name": "Cleveland META",
+    "rarity": [
+      "SRM"
+    ],
+    "class": [],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "gear": [],
+    "aoa": [],
+    "note": [],
+    "note_skill": [],
+    "skins": [
+      {
+        "name": "Cleveland META",
+        "image": "https://als.mrlar.dev/full/kelifulan_alter.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/kelifulan_alter (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/kelifulan_alter.webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/META Cleveland.png"
+      ]
+    },
+    "faction": {
+      "full": "META",
+      "sub": "Ashen Might"
+    },
+    "id": "cleveland meta"
   },
   {
     "name": "Colorado",
@@ -5077,6 +5155,45 @@
       }
     ],
     "id": "cooper"
+  },
+  {
+    "name": "Cowpens",
+    "rarity": [
+      "SR"
+    ],
+    "class": [],
+    "type": [
+      "CV"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "gear": [],
+    "aoa": [],
+    "note": [],
+    "note_skill": [],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/kebensi (1).webp",
+        "name": "Cowpens",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/kebensi.webp",
+        "image": "https://als.mrlar.dev/full/kebensi.webp"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/kebensi_2.webp",
+        "name": "Milky Ministrations"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/USS Cowpens.png"
+      ]
+    },
+    "id": "cowpens"
   },
   {
     "name": "Crescent",
@@ -9279,13 +9396,17 @@
     "skins": [
       {
         "name": "Hammann II",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/hamanii.webp",
         "image": "https://azurlane.netojuu.com/images/0/04/Hammann_II.png",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Hammann_IIChibi.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/hamanii.webp"
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Hammann_IIChibi.png"
       },
       {
-        "name": "Another Rebellious Summer",
-        "image": "https://azurlane.netojuu.com/images/1/1f/Hammann_IISummer.png"
+        "image": "https://azurlane.netojuu.com/images/1/1f/Hammann_IISummer.png",
+        "name": "Another Rebellious Summer"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/hamanii_3.webp",
+        "name": "Hammann's Scrumptious Spells"
       }
     ],
     "id": "hammann ii"
@@ -15399,6 +15520,45 @@
     "id": "leonardo da vinci"
   },
   {
+    "name": "Lexington II",
+    "rarity": [
+      "UR"
+    ],
+    "class": [],
+    "type": [
+      "CV"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "gear": [],
+    "aoa": [],
+    "note": [],
+    "note_skill": [],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/USS Lexington II.png"
+      ]
+    },
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/liekexingdunii.webp",
+        "name": "Lexington II",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/liekexingdunii (1).webp",
+        "image": "https://als.mrlar.dev/full/liekexingdunii.webp"
+      },
+      {
+        "name": "The Fluffiest of Maids",
+        "image": "https://als.mrlar.dev/full/liekexingdunii_2.webp"
+      }
+    ],
+    "id": "lexington ii"
+  },
+  {
     "name": "Li'l Sandy",
     "class": [],
     "type": [
@@ -17061,6 +17221,46 @@
     ],
     "history": "https://docs.google.com/document/d/14oLYESoFv0TMf-7asXr3HKrwThPaXikV/edit?usp=sharing&ouid=117176816370068308043&rtpof=true&sd=true",
     "id": "masséna"
+  },
+  {
+    "name": "Maury",
+    "rarity": [
+      "E",
+      "SR"
+    ],
+    "class": [],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "image": "https://azurlane.netojuu.com/images/c/ce/Maury.png",
+        "name": "Maury",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/moli (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/moli.webp"
+      },
+      {
+        "name": "Retrofit",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/moli_g (1).webp",
+        "image": "https://als.mrlar.dev/full/moli_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/moli_g.webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "fate_simulation": [],
+      "retrofit": []
+    },
+    "id": "maury"
   },
   {
     "name": "Maya",
@@ -20039,6 +20239,45 @@
       }
     ],
     "id": "pamiat' merkuria meta"
+  },
+  {
+    "name": "Pasadena",
+    "rarity": [
+      "E"
+    ],
+    "class": [],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "gear": [],
+    "aoa": [],
+    "note": [],
+    "note_skill": [],
+    "skins": [
+      {
+        "name": "Pasadena",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/pasadina (1).webp",
+        "image": "https://als.mrlar.dev/full/pasadina.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/pasadina.webp"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/pasadina_2.webp",
+        "name": "Surprising Game"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/USS Pasadena.png"
+      ]
+    },
+    "id": "pasadena"
   },
   {
     "name": "Patricia Abelheim",
@@ -24019,10 +24258,10 @@
     ],
     "skins": [
       {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/sipengsi_profile.webp",
         "image": "https://azurlane.netojuu.com/images/6/6f/Spence.png",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/SpenceChibi.png",
         "name": "Spence",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/suweiaitongmengnew.webp"
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/SpenceChibi.png"
       }
     ],
     "id": "spence"
@@ -27397,6 +27636,49 @@
     "id": "wichita meta"
   },
   {
+    "name": "William D. Porter",
+    "rarity": [
+      "UR"
+    ],
+    "class": [],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "gear": [],
+    "aoa": [],
+    "note": [],
+    "note_skill": [],
+    "skins": [
+      {
+        "name": "William D. Porter",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/bote (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/bote.webp",
+        "image": "https://als.mrlar.dev/full/bote.webp"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/bote_2.webp",
+        "name": "The Daredevil's Maidly Service"
+      },
+      {
+        "name": "An Evening's Companionship",
+        "image": "https://als.mrlar.dev/full/yuekechengii_4.webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/USS William D. Porter.png"
+      ]
+    },
+    "id": "william d. porter"
+  },
+  {
     "name": "Yamakaze",
     "class": [],
     "type": [
@@ -27940,11 +28222,6 @@
       "full": "META",
       "sub": "Framework of Logic"
     },
-    "skill_detail": {
-      "skill": [],
-      "retrofit": [],
-      "fate_simulation": []
-    },
     "meta_showdown_comment": "",
     "gear": [],
     "aoa": [],
@@ -27974,6 +28251,16 @@
         "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-12_012141603.png",
         "skill_name": "Zeroth Quadrant Expansion -5%"
       }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/META Yorktown.png"
+      ]
+    },
+    "meta_showdown_team": [
+      "https://ez-upload.al-guide-th.com/api/download/image_2025-12-20_034549859.png"
     ],
     "id": "yorktown meta"
   },

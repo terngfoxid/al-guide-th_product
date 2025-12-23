@@ -7,9 +7,6 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
-  const scrollRef = useRef<HTMLDivElement | null>(null);
-  const carouselRef = useRef<HTMLDivElement | null>(null);
-  const [deg, setDeg] = useState<number>(0);
   const [events, setEvents] = useState<IEvent[]>([]);
 
   const [webState, setWebState] = useState(0);
@@ -29,11 +26,11 @@ export default function Home() {
           onClose: () => { }
         })
       }
-      else{
-        res.json().then((loaddata: IEvent[])=>{
-        setEvents(loaddata);
-        hideLoading()
-      })
+      else {
+        res.json().then((loaddata: IEvent[]) => {
+          setEvents(loaddata);
+          hideLoading()
+        })
       }
     } catch (err) {
       hideLoading()
@@ -70,125 +67,22 @@ export default function Home() {
             "ยินดีต้อนรับเข้าสู่ Azur Lane Guide TH ( อาซูร์เลน ไกด์ ภาษาไทย) เว็บไซต์ที่จัดทำขึ้นเพื่อสนับสนุนผู้การเกม Azur Lane ชาวไทย โดยเนื้อหาจะประกอบไปด้วย ข้อมูลสกิลของสาวเรือแปลไทย ไกด์ และคำแนะนำในเรื่องต่างๆอย่าง เช่น เกียร์สวมใส่ นอกจากนี้ยังมีทั้ง คลิปรีวิวเรือ และ ประวัติของเรือบางลำ เรียบเรียงมาให้ได้อ่านกันด้วยน๊าา ^-^/",
         }}
       />
-
-      <div className="mx-auto w-[90vw] h-full lg:max-w-[calc(100vw-30px)] lg:w-[calc(100vw-30px)] lg:mx-[15px] overflow-visible">
-        <div className="h-full flex items-center">
-          <div className="custom-carousel w-[200px] animate-slide-in-left">
-            <div className="container">
-
-              {/* Scroll Listener */}
-              <div className="scroll-container" ref={scrollRef}>
-                <div className="scroll-duration" />
+      <div id="scroll-container" className={`hide-scrollbar duration-500 animate-slide-in-bottom max-h-[100%] overflow-y-scroll mx-[10px] sm:max-w-[45vw] lg:max-w-[40vw] xl:max-w-[40vw] 2xl:max-w-[33vw] p-[1rem] rounded-lg`}>
+        <div className="h-full">
+          <div className="w-[96%] mx-auto">
+            <div className="grid grid-cols-2 gap-[1rem]">
+              <div className="col-span-2 hover:scale-105">
+                <Link className="w-full h-full" href="/ship">
+                  <img alt="All Ships Data" src="/images/btn/ship_info_1200x600.png" className="w-full h-full">
+                  </img>
+                </Link>
               </div>
-
-              {/* 3D Carousel */}
-              <div className="carousel" ref={carouselRef}>
-                <div className={`item a !transition-shadow !duration-300`} onClick={() => {
-                  setDeg(0)
-                  if (carouselRef.current) {
-                    carouselRef.current.style.transform = `rotateX(0deg)`;
-                  }
-                }}>
-                  {deg === 0 ? <>
-                    <Link className="w-full h-full" href="/ship">
-                      <img alt="All Ships Data" src="/images/btn/ship_info_1200x600.png" className="w-full h-full">
-                      </img>
-                    </Link>
-                  </> : <>
-                    <img alt="All Ships Data" src="/images/btn/ship_info_1200x600.png" className="w-full h-full">
-                    </img>
-                  </>}
-                </div>
-
-                <div className={`item b hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
-                  setDeg(300)
-                  if (carouselRef.current) {
-                    carouselRef.current.style.transform = `rotateX(300deg)`;
-                  }
-                }}>
-                  ยังไม่พร้อมใช้งาน
-                  {/*deg === 300 ? <>
-                    <Link className="w-full h-full" href="/">
-                      <img src="/images/btn/AllEventData.webp" className="w-full h-full">
-                      </img>
-                    </Link>
-                  </> : <>
-                    <img src="/images/btn/AllEventData.webp" className="w-full h-full">
-                    </img>
-                  </>*/}
-                </div>
-
-                <div className={`item c hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
-                  setDeg(240)
-                  if (carouselRef.current) {
-                    carouselRef.current.style.transform = `rotateX(240deg)`;
-                  }
-                }}>
-                  ยังไม่พร้อมใช้งาน
-                  {/*deg === 240 ? <>
-                    <Link className="w-full h-full" href="/">
-                      <img src="/images/btn/Newbie 600x300.webp" className="w-full h-full">
-                      </img>
-                    </Link>
-                  </> : <>
-                    <img src="/images/btn/Newbie 600x300.webp" className="w-full h-full">
-                    </img>
-                  </>*/}
-                </div>
-
-                <div className={`item d hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
-                  setDeg(180)
-                  if (carouselRef.current) {
-                    carouselRef.current.style.transform = `rotateX(180deg)`;
-                  }
-                }}>
-                  ยังไม่พร้อมใช้งาน
-                  {/*deg === 180 ? <>
-                    <Link className="w-full h-full" href="/">
-                      <img src="/images/btn/Augmentation 600x300.webp" className="w-full h-full">
-                      </img>
-                    </Link>
-                  </> : <>
-                    <img src="/images/btn/Augmentation 600x300.webp" className="w-full h-full">
-                    </img>
-                  </>*/}
-                </div>
-
-                <div className={`item e hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
-                  setDeg(120)
-                  if (carouselRef.current) {
-                    carouselRef.current.style.transform = `rotateX(120deg)`;
-                  }
-                }}>
-                  {deg === 120 ? <>
-                    <Link className="w-full h-full" href="/event">
-                      <img alt={"All Event"} src="/images/btn/AllEventData.webp" className="w-full h-full">
-                      </img>
-                    </Link>
-                  </> : <>
-                    <img alt={"All Event"} src="/images/btn/AllEventData.webp" className="w-full h-full">
-                    </img>
-                  </>}
-                </div>
-
-                <div className={`item f hover:!shadow-[0_0_20px_10px_rgba(255,215,0,0.8)] !transition-shadow !duration-300`} onClick={() => {
-                  setDeg(60)
-                  if (carouselRef.current) {
-                    carouselRef.current.style.transform = `rotateX(60deg)`;
-                  }
-                }}>
-                  {deg === 60 ? <>
-                    <Link className="w-full h-full" href={"/event/" + (lastestEvent?.name)}>
-                      <img alt={lastestEvent?.name} src={lastestEvent?.button} className="w-full h-full">
-                      </img>
-                    </Link>
-                  </> : <>
-                    <img alt={lastestEvent?.name} src={lastestEvent?.button} className="w-full h-full">
-                    </img>
-                  </>}
-                </div>
+              <div className="col-span-2 hover:scale-105">
+                <Link className="w-full h-full" href={"/event/" + (lastestEvent?.name)}>
+                  <img alt={lastestEvent?.name} src={lastestEvent?.button} className="w-full h-full">
+                  </img>
+                </Link>
               </div>
-
             </div>
           </div>
         </div>

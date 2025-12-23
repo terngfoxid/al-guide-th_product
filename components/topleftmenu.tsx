@@ -79,8 +79,8 @@ export default function TopLeftMenu({ children }: { children: ReactNode }) {
                             </MenuItemTop>
                         </div>
                         <div className="w-[140px] h-[40px]">
-                            <MenuItemTop href="/" >
-                                <><GiSwitchWeapon size={14} color="#ffffff" /><h2 className="text-white text-center text-[14px]">ยังไม่พร้อมใช้งาน</h2></>
+                            <MenuItemTop href="/event" >
+                                <><GiSwitchWeapon size={10} color="#ffffff" /><h2 className="text-white text-center text-[14px]">รวมข้อมูลกิจกรรม</h2></>
                             </MenuItemTop>
                         </div>
                     </div>
@@ -118,8 +118,8 @@ export default function TopLeftMenu({ children }: { children: ReactNode }) {
                         </MenuItem>
                     </li>
                     <li className="z-30 rounded-2xl overflow-hidden hover:scale-105 duration-300 hover:shadow-[0_0_15px_4px_rgba(0,150,255,0.85)]">
-                        <MenuItem href="" >
-                            <><GiSwitchWeapon size={20} color="#ffffff" /><h2 className="text-white text-center">ยังไม่พร้อมใช้งาน</h2></>
+                        <MenuItem href="/event" >
+                            <><GiSwitchWeapon size={20} color="#ffffff" /><h2 className="text-white text-center">รวมข้อมูลกิจกรรม</h2></>
                         </MenuItem>
                     </li>
                 </ul>
