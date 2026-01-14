@@ -83,6 +83,12 @@ export default function Home() {
                   </img>
                 </Link>
               </div>
+              <div className="col-span-2 hover:scale-105">
+                <Link className="w-full h-full" href={"/guide"}>
+                  <img alt="All Ships Data" src="/images/btn/guide-btn.png" className="w-full h-full">
+                  </img>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

@@ -174,7 +174,6 @@
         "retrofit": true
       }
     ],
-    "_priority": 1,
     "guideV2": [
       {
         "desc": "สามารถเช็คได้ว่าเก็บ UR Voucher ครบรึยังได้ที่หน้า Event ด้านบนทางขวาที่หัวข้อ UR Exchange",
@@ -312,6 +311,8 @@
         "image": "https://ez-upload.al-guide-th.com/api/download/G8SGb6Ra0AAwdUs.jpg"
       }
     ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/A Note Through the Firmament (Botton).png",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/A Note Through the Firmament (Banner).png",
     "noteV2": {
       "summary": [
         {
@@ -342,7 +343,7 @@
       "beginner": [
         {
           "image": "https://ez-upload.al-guide-th.com/api/download/image_2025-12-18_000304453.png",
-          "desc": "(น่าจะมาอาทิตย์หน้า) อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (New Year)\\nGraf Zeppelin, Belfast, South Dakota, Kuybyshev, Impero, Bismarck และ Richelieu"
+          "desc": "อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (New Year)\\nGraf Zeppelin, Belfast, South Dakota, Kuybyshev, Impero, Bismarck และ Richelieu"
         },
         {
           "desc": "ด่าน D3 ดรอปเครื่องบินยิงจรวด F6F(HVAR)",
@@ -350,8 +351,7 @@
         }
       ]
     },
-    "button": "https://ez-upload.al-guide-th.com/api/download/A Note Through the Firmament (Botton).png",
-    "banner": "https://ez-upload.al-guide-th.com/api/download/A Note Through the Firmament (Banner).png",
+    "_priority": 3,
     "id": "A Note Through the Firmament"
   },
   {
@@ -1609,7 +1609,7 @@
     ],
     "button": "https://ez-upload.al-guide-th.com/api/download/Effulgence Before Eclipse 1200x600.png",
     "banner": "https://ez-upload.al-guide-th.com/api/download/Effulgence Before Eclipse (Banner).png",
-    "_priority": 0,
+    "_priority": 3,
     "id": "Effulgence Before Eclipse"
   },
   {
@@ -2544,68 +2544,6 @@
       "ชนะบอสด่าน B3/D3 โดยมี San Jacinto อยู่ในทีม : ของรางวัล Bunbun UR Voucher 10ใบ",
       "ชนะบอสด่าน B3/D3 โดยมี Louisville อยู่ในทีม : ของรางวัล Bunbun UR Voucher 10ใบ"
     ],
-    "special": [
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/seaofstarFrame.png",
-        "text": "➤ สะสมแต้มปลดล็อก Frame 2,800 points",
-        "title": "Light-Chasing Ring of Stars"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221303869.png",
-        "text": "➤ แลกจากร้านค้ากิจกรรม โดยใช้ \"Bunbun UR Voucher\" 200/300 ใบ",
-        "title": "USS Laffey II [★★★★★★]"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221227623.png",
-        "text": "➤  แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3",
-        "title": "USS Flasher [★★★★★★]"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221445144.png",
-        "text": "➤ สะสมแต้มกิจกรรม 10,000 points",
-        "title": "USS Louisville [★★★★★]"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221132743.png",
-        "text": "วิธีหาอยู่อยู่ที่สรุปด้านล่างของเว็บ",
-        "title": "Bunbun UR Voucher"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221532839.png",
-        "text": "➤ สำเร็จเควสผ่านด่าน D3",
-        "title": "The Council's Unity Medal"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_220933322.png",
-        "text": "➤  แลกจากร้านค้ากิจกรรม 10,000 points",
-        "title": "Triple 305mm Mk8 Main Gun Mount [★★★★★★]"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221026224.png",
-        "text": "➤  แลกจากร้านค้ากิจกรรม 2,000 points",
-        "title": "TBM Avenger (VT-51) [★★★★★]"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_220601839.png",
-        "text": "➤ ล็อกอินครบ 7 วัน",
-        "title": "บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (New Year)"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_220323958-modified.png",
-        "text": "➤ Night Princess's Festive Feast วันที่ 7",
-        "title": "[Limited Skin] Vampire"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_223120571.png",
-        "text": "➤ เคลียร์มินิเกม Operation: Patisserie วันที่ 3",
-        "title": "Neon Spotlights"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_223211961.png",
-        "text": "➤ เคลียร์มินิเกม Operation: Patisserie วันที่ 7",
-        "title": "Surprise Lights"
-      }
-    ],
     "chibi": "https://ez-upload.al-guide-th.com/api/download/Guam_Chibi.png",
     "ships": [
       {
@@ -2669,6 +2607,10 @@
         "desc": "ลุยส์วิลล์ เรือลาดตระเวนหนัก นอร์ทแธมป์ตันคลาส \\n\\nเธอเป็นคนขี้หลงขี้ลืม หากทำอาการให้คนอื่น  \\n\\nก็มักจะลืมทำในส่วนของตัวเอง \\n\\nเธอมีชื่อเล่นว่า \"เลดี้ลู\" \\n\\nและเป็นเพื่อนดื่มของ \"ลัคกี้ลู\" (เซนต์หลุยส์)"
       }
     ],
+    "guide": "",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/Light-Chasing Sea of Stars (Banner).jpg",
+    "button": "https://ez-upload.al-guide-th.com/api/download/Light-Chasing Sea of Stars END 600x300.jpg",
+    "_priority": 1,
     "note": {
       "special": [
         "Bunbun UR Voucher เคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 5 ใบ/วัน"
@@ -2684,16 +2626,69 @@
         "เก็บแต้มเสร็จแล้วเก็บของกลับบ้านเหมือนเดิม"
       ],
       "summary": [
-        "Bunbun UR Voucher เคลียร์ Daily missions 5ใบ/วัน สูงสุด 75 ใบ (EN อาจจะ 70 เพราะเวลาน้อยกว่าเซิร์ฟอื่นๆ 1 วัน)",
-        "Bunbun UR Voucher เคลียร์มินิเกม Operation: Patisserie สูงสุด 105 ใบ",
+        "Bunbun UR Voucher เคลียร์ Daily missions 15ใบ/วัน สูงสุด 120 ใบ (EN ได้แค่ 105 เพราะกิจกรรมไม่ค่อมช่วงข้ามวัน)",
         "Bunbun UR Voucher เคลียร์ด่าน B3 หรือ D3 ด้วยเรือในกิจกรรมนี้ จะได้รับ 10 ใบ/ภารกิจ สูงสุด 50 ใบ",
-        "Bunbun UR Voucher ซื้อจากร้านค้ากิจกรรม ราคา 150 points/ใบ สูงสุด 500 ใบ"
+        "Bunbun UR Voucher ซื้อจากร้านค้ากิจกรรม ราคา 150 points/ใบ สูงสุด 500 ใบ",
+        "Bunbun UR Voucher เคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 15 ใบ/วัน"
       ]
     },
-    "_priority": 3,
-    "guide": "",
-    "banner": "https://ez-upload.al-guide-th.com/api/download/Light-Chasing Sea of Stars (Banner).jpg",
-    "button": "https://ez-upload.al-guide-th.com/api/download/Light-Chasing Sea of Stars END 600x300.jpg",
+    "special": [
+      {
+        "title": "Light-Chasing Ring of Stars",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/seaofstarFrame.png",
+        "text": "➤ สะสมแต้มปลดล็อก Frame 2,800 points"
+      },
+      {
+        "text": "➤ แลกจากร้านค้ากิจกรรม โดยใช้ \"Bunbun UR Voucher\" 200/300 ใบ",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221303869.png",
+        "title": "USS Laffey II [★★★★★★]"
+      },
+      {
+        "title": "USS Flasher [★★★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221227623.png",
+        "text": "➤  แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3"
+      },
+      {
+        "title": "USS Louisville [★★★★★]",
+        "text": "➤ สะสมแต้มกิจกรรม 5,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221445144.png"
+      },
+      {
+        "title": "Bunbun UR Voucher",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221132743.png",
+        "text": "วิธีหาอยู่อยู่ที่สรุปด้านล่างของเว็บ"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221532839.png",
+        "title": "The Council's Unity Medal",
+        "text": "➤ สำเร็จเควสผ่านด่าน D3"
+      },
+      {
+        "title": "Triple 305mm Mk8 Main Gun Mount [★★★★★★]",
+        "text": "➤  แลกจากร้านค้ากิจกรรม 10,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_220933322.png"
+      },
+      {
+        "text": "➤  แลกจากร้านค้ากิจกรรม 2,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221026224.png",
+        "title": "TBM Avenger (VT-51) [★★★★★]"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_223120571.png",
+        "text": "➤ เคลียร์มินิเกม Operation: Patisserie วันที่ 3",
+        "title": "Neon Spotlights"
+      },
+      {
+        "title": "Surprise Lights",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_223211961.png",
+        "text": "➤ เคลียร์มินิเกม Operation: Patisserie วันที่ 7"
+      },
+      {
+        "text": "➤ ทำภารกิจในกิจกรรม Beneath Clear, Starry Skies Rerun",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-01-14_211334493.png",
+        "title": "Sea of Stars Area B20 Access Pass"
+      }
+    ],
     "id": "Light-Chasing Sea of Stars"
   },
   {

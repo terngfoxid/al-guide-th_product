@@ -2820,14 +2820,18 @@
     ],
     "skins": [
       {
-        "image": "https://azurlane.netojuu.com/images/a/a3/Bismarck_Zwei.png",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/bisimaiz.webp",
         "name": "Bismarck Zwei",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Bismarck_ZweiChibi.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/bisimaiz.webp"
+        "image": "https://azurlane.netojuu.com/images/a/a3/Bismarck_Zwei.png"
       },
       {
         "name": "Crystal-Clear Holiday",
         "image": "https://azurlane.netojuu.com/images/9/9d/Bismarck_ZweiSummer.png"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/bisimaiz_3.webp",
+        "name": "Bathed in Brightness and Spirit"
       }
     ],
     "id": "bismarck zwei"
@@ -5611,9 +5615,13 @@
     "skins": [
       {
         "name": "Dmitri Donskoi",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Dmitri_DonskoiChibi.png",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/dimiteli.webp",
         "image": "https://azurlane.netojuu.com/images/b/be/Dmitri_DonskoiWithoutBG.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/dimiteli.webp"
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Dmitri_DonskoiChibi.png"
+      },
+      {
+        "name": "Bedside Bunny",
+        "image": "https://als.mrlar.dev/full/dimiteli_2.webp"
       }
     ],
     "id": "dmitri donskoi"
@@ -7796,6 +7804,41 @@
     "id": "fubuki(senran kagura)"
   },
   {
+    "tag": [],
+    "type": [
+      "DD"
+    ],
+    "class": [],
+    "rarity": [
+      "SR"
+    ],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "gear": [],
+    "name": "Fujinami",
+    "note": [],
+    "note_skill": [],
+    "aoa": [],
+    "skins": [
+      {
+        "name": "Fujinami",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/tengbo (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/tengbo.webp",
+        "image": "https://als.mrlar.dev/full/tengbo.webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Fujinami.png"
+      ]
+    },
+    "id": "fujinami"
+  },
+  {
     "name": "Fumizuki",
     "class": [],
     "type": [
@@ -8681,10 +8724,14 @@
     ],
     "skins": [
       {
-        "name": "Gouden Leeuw",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Gouden_LeeuwChibi.png",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/jinshi.webp",
         "image": "https://azurlane.netojuu.com/images/5/51/Gouden_LeeuwWithoutBG.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/jinshi.webp"
+        "name": "Gouden Leeuw"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/jinshi_2.webp",
+        "name": "An Intimate Cleaning"
       }
     ],
     "id": "gouden leeuw"
@@ -9008,14 +9055,18 @@
     ],
     "skins": [
       {
-        "name": "Guichen",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/GuichenChibi.png",
         "image": "https://azurlane.netojuu.com/images/6/68/Guichen.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/jishang.webp"
+        "profile": "https://ez-upload.al-guide-th.com/api/download/jishang.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/GuichenChibi.png",
+        "name": "Guichen"
       },
       {
         "name": "Sorcière on Ice",
         "image": "https://azurlane.netojuu.com/images/2/23/GuichenDance.png"
+      },
+      {
+        "name": "Milk and Kisses",
+        "image": "https://als.mrlar.dev/full/jishang_3.webp"
       }
     ],
     "id": "guichen"
@@ -12996,10 +13047,14 @@
     ],
     "skins": [
       {
-        "image": "https://azurlane.netojuu.com/images/0/02/KansasWithoutBG.png",
         "name": "Kansas",
+        "image": "https://azurlane.netojuu.com/images/0/02/KansasWithoutBG.png",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/KansasChibi.png",
         "profile": "https://ez-upload.al-guide-th.com/api/download/kansasi.webp"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/kansasi_2.webp",
+        "name": "Late-Night Leisure (Bunny Girl)"
       }
     ],
     "id": "kansas"
@@ -14428,14 +14483,18 @@
     ],
     "skins": [
       {
-        "image": "https://azurlane.netojuu.com/images/4/43/Kuybyshev.png",
-        "name": "Kuybyshev",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/KuybyshevChibi.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/gubixuefu.webp"
+        "profile": "https://ez-upload.al-guide-th.com/api/download/gubixuefu.webp",
+        "image": "https://azurlane.netojuu.com/images/4/43/Kuybyshev.png",
+        "name": "Kuybyshev"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/7/75/KuybyshevSpring.png",
-        "name": "Maestro of Sterling Strings"
+        "name": "Maestro of Sterling Strings",
+        "image": "https://azurlane.netojuu.com/images/7/75/KuybyshevSpring.png"
+      },
+      {
+        "name": "Rainy Day Blues",
+        "image": "https://als.mrlar.dev/full/gubixuefu_3.webp"
       }
     ],
     "id": "kuybyshev"
@@ -16561,6 +16620,7 @@
         "name": "Gone Fishing"
       }
     ],
+    "augment": "Unique Modules",
     "id": "magdeburg"
   },
   {
@@ -17370,9 +17430,13 @@
     "skins": [
       {
         "name": "Mecklenburg",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/MecklenburgChibi.png",
         "image": "https://azurlane.netojuu.com/images/4/46/MecklenburgWithoutBG.png",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/MecklenburgChibi.png",
         "profile": "https://ez-upload.al-guide-th.com/api/download/meikelunbao.webp"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/meikelunbao_2.webp",
+        "name": "Branding Witchcraft"
       }
     ],
     "id": "mecklenburg"
@@ -19975,14 +20039,18 @@
     ],
     "skins": [
       {
-        "name": "Otto von Alvensleben",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Otto_von_AlvenslebenChibi.png",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/aotuo.webp",
         "image": "https://azurlane.netojuu.com/images/0/0e/Otto_von_Alvensleben.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/aotuo.webp"
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Otto_von_AlvenslebenChibi.png",
+        "name": "Otto von Alvensleben"
       },
       {
         "name": "Hunter Becomes Hunted",
         "image": "https://azurlane.netojuu.com/images/3/37/Otto_von_AlvenslebenSummer.png"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/aotuo_3.webp",
+        "name": "The Clumsy Maid is in a Bind!"
       }
     ],
     "id": "otto von alvensleben"
@@ -21123,29 +21191,29 @@
     "skins": [
       {
         "name": "Prinz Eugen",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Prinz_EugenChibi.png",
         "image": "https://azurlane.netojuu.com/images/6/67/Prinz_Eugen.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/ougen.webp"
+        "profile": "https://ez-upload.al-guide-th.com/api/download/ougen.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Prinz_EugenChibi.png"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/3/3a/Prinz_EugenWedding.png",
-        "name": "Wedding"
+        "name": "Wedding",
+        "image": "https://azurlane.netojuu.com/images/3/3a/Prinz_EugenWedding.png"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/f/f9/Prinz_EugenSummer.png",
-        "name": "Unfading Smile"
+        "name": "Unfading Smile",
+        "image": "https://azurlane.netojuu.com/images/f/f9/Prinz_EugenSummer.png"
       },
       {
         "name": "Profusion of Flowers",
         "image": "https://azurlane.netojuu.com/images/3/34/Prinz_EugenNew_Year.png"
       },
       {
-        "name": "Cordial Cornflower",
-        "image": "https://azurlane.netojuu.com/images/2/22/Prinz_EugenParty.png"
+        "image": "https://azurlane.netojuu.com/images/2/22/Prinz_EugenParty.png",
+        "name": "Cordial Cornflower"
       },
       {
-        "name": "Final Lap",
-        "image": "https://azurlane.netojuu.com/images/6/6c/Prinz_EugenRaceQueen.png"
+        "image": "https://azurlane.netojuu.com/images/6/6c/Prinz_EugenRaceQueen.png",
+        "name": "Final Lap"
       },
       {
         "name": "Kindred Evening Spirits",
@@ -21154,6 +21222,10 @@
       {
         "name": "Brilliant Touchdown",
         "image": "https://azurlane.netojuu.com/images/e/eb/Prinz_EugenSport.png"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/ougen_8.webp",
+        "name": "Between Tipsiness and a Wager"
       }
     ],
     "id": "prinz eugen"
@@ -21598,6 +21670,50 @@
       }
     ],
     "id": "reno"
+  },
+  {
+    "gear": [],
+    "class": [],
+    "name": "Renown",
+    "type": [
+      "BC"
+    ],
+    "faction": {
+      "full": "Royal Navy",
+      "short": "HMS"
+    },
+    "note": [],
+    "tag": [],
+    "aoa": [],
+    "augment": "Unique Modules",
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/shengwang.webp",
+        "image": "https://als.mrlar.dev/full/shengwang.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/shengwang (1).webp",
+        "name": "Renown"
+      },
+      {
+        "name": "Graceful Royal Pride",
+        "image": "https://als.mrlar.dev/full/shengwang_2.webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/HMS Renown.png"
+      ]
+    },
+    "rarity": [
+      "E"
+    ],
+    "note_skill": [
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/Renow Skill 1.mp4"
+      }
+    ],
+    "id": "renown"
   },
   {
     "name": "Renown META",
@@ -27061,10 +27177,14 @@
     ],
     "skins": [
       {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Vittorio_CunibertiChibi.png",
-        "name": "Vittorio Cuniberti",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/kunibeierdi.webp",
         "image": "https://azurlane.netojuu.com/images/6/6b/Vittorio_CunibertiWithoutBG.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/kunibeierdi.webp"
+        "name": "Vittorio Cuniberti",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Vittorio_CunibertiChibi.png"
+      },
+      {
+        "name": "On the Habits of Cats",
+        "image": "https://als.mrlar.dev/full/kunibeierdi_2.webp"
       }
     ],
     "id": "vittorio cuniberti"
@@ -27676,6 +27796,7 @@
         "https://ez-upload.al-guide-th.com/api/download/USS William D. Porter.png"
       ]
     },
+    "review": "https://youtube.com/shorts/hjCLzof35Qk",
     "id": "william d. porter"
   },
   {

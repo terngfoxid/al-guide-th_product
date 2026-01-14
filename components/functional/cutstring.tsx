@@ -4,5 +4,5 @@ export default function CutString(props: { text: string }) {
     .split("\\n")
     .map((str, idx) => <p key={"text" + idx}>{str}</p>);
 
-  return <>{newText}</>;
+  return <div>{newText}</div>;
 }

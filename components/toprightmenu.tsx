@@ -261,7 +261,7 @@ export default function TopRightMenu() {
                                 onClick={() => {
                                     openConfirmDialog({
                                         title: "Sync ข้อมูลกิจกรรม",
-                                        message: "ยืนยันการ Sync ข้อมูลกิจกรรม",
+                                        message: "ยืนยันการ Sync ข้อมูลกิจกรรมและไกด์",
                                         onConfirm: () => {
                                             try {
                                                 showLoading()
@@ -272,12 +272,35 @@ export default function TopRightMenu() {
                                                         hideLoading()
                                                         if (res.ok)
                                                             openSuccessDialog({
-                                                                title: "Sync ข้อมูลสำเร็จ",
-                                                                message: ((await res.json()).count ?? "") + " รายการ"
+                                                                title: "Sync ข้อมูลกิจกรรมสำเร็จ",
+                                                                message: ((await res.json()).count ?? "") + " รายการ",
+                                                                onClose: () => {
+                                                                    fetch("/api/v2/guide", {
+                                                                        method: "PATCH",
+                                                                    })
+                                                                        .then(async res => {
+                                                                            hideLoading()
+                                                                            if (res.ok)
+                                                                                openSuccessDialog({
+                                                                                    title: "Sync ข้อมูลไกด์สำเร็จ",
+                                                                                    message: ((await res.json()).count ?? "") + " รายการ"
+                                                                                })
+                                                                            else {
+                                                                                openErrorDialog({
+                                                                                    title: "Sync ข้อมูลไกด์ไม่สำเร็จ",
+                                                                                    message: "Error " + res.status
+                                                                                })
+                                                                            }
+                                                                        })
+                                                                        .catch(err => {
+                                                                            hideLoading()
+                                                                            console.error("PATCH error", err);
+                                                                        });
+                                                                }
                                                             })
                                                         else {
                                                             openErrorDialog({
-                                                                title: "Sync ข้อมูลไม่สำเร็จ",
+                                                                title: "Sync ข้อมูลกิจกรรมไม่สำเร็จ",
                                                                 message: "Error " + res.status
                                                             })
                                                         }
@@ -286,6 +309,7 @@ export default function TopRightMenu() {
                                                         hideLoading()
                                                         console.error("PATCH error", err);
                                                     });
+
                                             } catch (err) {
                                                 hideLoading()
                                                 console.error(err);
@@ -296,7 +320,7 @@ export default function TopRightMenu() {
                                         }
                                     })
                                 }}>
-                                <LuFolderSync color="#ffffff" size={20} /> Sync ข้อมูลกิจกรรม
+                                <LuFolderSync color="#ffffff" size={20} /> Sync ข้อมูลกิจกรรมและไกด์
                             </button>
                             <button className="flex items-center w-fit gap-2 px-2 py-1 rounded hover:bg-[#2D548F] hover:bg-opacity-90"
                                 onClick={() => {

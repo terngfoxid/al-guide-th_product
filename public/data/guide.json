@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Main Campaign 16",
+    "_priority": 1,
+    "youtube": [
+      {
+        "url": "https://www.youtube.com/embed/DG-qGsEdT8U?si=-n23bhUZNbDLfvs_&amp;start=1306",
+        "name": "เตรียมตัว World 16-1 และ 16-2"
+      },
+      {
+        "name": "เตรียมตัว World 16-3 และ 16-4",
+        "url": "https://www.youtube.com/embed/DG-qGsEdT8U?si=ANp5VSehXDscGOde&amp;start=6858"
+      }
+    ],
+    "guideV2": [
+      {
+        "desc": "วิธีเล่น Main Campaign 16",
+        "image": ""
+      },
+      {
+        "desc": "1.รูปแบบของด่าน 16-1 และ 16-2 จะเป็นการรบกลางคืนรูปแบบเดียวกับด่าน 14 แต่จะไม่มีพลุแสงและประภาคารให้เข้าไปเปิดไฟ\\n2.รูปแบบของด่าน 16-3 และ 16-4 จะเป็นการรบกลางวันรูปแบบเดียวกับด่าน 15 แต่จะมี หมอกแห่งสงคราม และ Airbase ของศัตรูเพิ่มมา\\nจำนวน Mobที่ต้องที่ต้องตีจะคำนวนจากค่า AVI(น่าจะของทีม Mob) หากใครยังตีมากกว่า 4-5 Mob ให้อัด AVI เข้าไปเพิ่มได้เลย",
+        "image": ""
+      },
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/16-3 line up.jpg",
+        "desc": "ด่าน 16-3 บังคับตีอย่างน้อย 5 Mob จึงจะเดินถึง Boss และมีสนามบิน 2 จุด"
+      },
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/16-4 line up.jpg",
+        "desc": "ด่าน 16-4 บังคับตีอย่างน้อย 4 Mob จึงจะเดินถึง Boss  และมีสนามบิน 3 จุด"
+      }
+    ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/w-16-btn.png",
+    "id": "Main Campaign 16"
+  }
+]

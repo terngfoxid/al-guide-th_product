@@ -4,7 +4,7 @@ import { TbFilterSearch, TbTransformFilled } from "react-icons/tb";
 import { useEffect, useState } from "react";
 import { ShipV2 } from "models/shipv2";
 import ShipInGrid from "@/components/ship/shipingrid";
-import { GiPirateFlag, GiSwitchWeapon } from "react-icons/gi";
+import { GiAtom, GiPirateFlag, GiSwitchWeapon } from "react-icons/gi";
 import { FaFlag, FaShip } from "react-icons/fa";
 import { useLoading } from "@/components/overlay/loading";
 import { useDialog } from "@/components/dialog";
@@ -25,6 +25,7 @@ export default function AllShipList() {
   const [showRetrofitSkin, setShowRetrofitSkin] = useState<boolean>(false)
   const [showRetrofitOnly, setShowRetrofitOnly] = useState<boolean>(false)
   const [showAugmentOnly, setShowAugmentOnly] = useState<boolean>(false)
+  const [showResearchOnly, setShowResearchOnly] = useState<boolean>(false)
 
   const [activeType, setActiveType] = useState<string[]>([])
   const [activeFaction, setActiveFaction] = useState<string[]>([])
@@ -47,6 +48,8 @@ export default function AllShipList() {
     setShowRetrofitOnly(storedShowRetrofitOnly === "true")
     const storedShowAugmentOnly = localStorage.getItem("showAugmentOnly");
     setShowAugmentOnly(storedShowAugmentOnly === "true")
+    const storedShowResearchOnly = localStorage.getItem("showResearchOnly");
+    setShowResearchOnly(storedShowResearchOnly === "true")
 
     const storedActiveType = localStorage.getItem("activeType");
     setActiveType(JSON.parse(storedActiveType ?? "[]"))
@@ -170,6 +173,11 @@ export default function AllShipList() {
     return true
   }
 
+  const handleReserarchFilter = (ship: ShipV2) => {
+    if (showResearchOnly) return (ship.rarity.includes("PR") || ship.rarity.includes("DR"))
+    return true
+  }
+
   const handleFactionFilter = (ship: ShipV2) => {
     if (activeFaction.length !== 0) return activeFaction.includes(ship.faction.full ?? "")
     return true
@@ -221,6 +229,8 @@ export default function AllShipList() {
               localStorage.setItem("showRetrofitOnly", "false")
               setShowAugmentOnly(false)
               localStorage.setItem("showAugmentOnly", "false")
+              setShowResearchOnly(false)
+              localStorage.setItem("showResearchOnly", "false")
             }}>
             Clear All
           </button>
@@ -364,6 +374,25 @@ export default function AllShipList() {
                 }<span>แสดงเฉพาะที่มี Augment</span>
               </button>
             </div>
+            <div className="ml-2 mt-[1rem] lg:mt-0 flex gap-[10px] items-center">
+              <GiAtom color="#FFFFFF" size={28}/>
+              <button className={`flex items-center rounded-lg p-[0.35rem] md:p-[0.75rem] gap-[0.5rem] text-[#ffffff] text-[10px] md:text-[12px] lg:text-[14px] ${showResearchOnly ? "bg-[#2E4A80] bg-opacity-90 shadow-[0_0_7px_3px_rgba(0,150,255,0.85)]" : "bg-[#173859] bg-opacity-90 shadow-[0_0_5px_2px_rgba(150,150,150,0.85)]"}`}
+                onClick={() => {
+                  setShowResearchOnly(!showResearchOnly)
+                  localStorage.setItem("showResearchOnly", (!showResearchOnly).toString())
+                }}>
+                {
+                  showResearchOnly ? <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-[20px]">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                  </svg>
+                    :
+                    <svg fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-[20px]">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.98 8.223A10.477 10.477 0 0 0 1.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.451 10.451 0 0 1 12 4.5c4.756 0 8.773 3.162 10.065 7.498a10.522 10.522 0 0 1-4.293 5.774M6.228 6.228 3 3m3.228 3.228 3.65 3.65m7.894 7.894L21 21m-3.228-3.228-3.65-3.65m0 0a3 3 0 1 0-4.243-4.243m4.242 4.242L9.88 9.88" />
+                    </svg>
+                }<span>แสดงเฉพาะเรือ Research</span>
+              </button>
+            </div>
           </div>
           <div className="mx-2 mt-[1rem] flex items-center gap-[20px]">
             <FaFlag size={28} color="#ffffff" />
@@ -424,7 +453,7 @@ export default function AllShipList() {
         <div className="px-1 grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-[0.5rem] md:gap-[1rem] mt-[1.5rem]">
           {
             ships.map(ship => {
-              return <div key={ship.name} className={(handleTypeFilter(ship) && handleSearchFilter(ship) && handleRetrofitFilter(ship) && handleAugmentFilter(ship) && handleFactionFilter(ship) && handleSubFactionFilter(ship)) ? "w-full h-full duration-500 animate-slide-in-bottom" : "hidden"}>
+              return <div key={ship.name} className={(handleTypeFilter(ship) && handleSearchFilter(ship) && handleRetrofitFilter(ship) && handleAugmentFilter(ship) && handleReserarchFilter(ship) && handleFactionFilter(ship) && handleSubFactionFilter(ship)) ? "w-full h-full duration-500 animate-slide-in-bottom" : "hidden"}>
                 <ShipInGrid ship={ship} retrofit={showRetrofitSkin} />
               </div>
             })
