@@ -1618,7 +1618,6 @@
     ],
     "chibi": "",
     "name": "From Zero to Hero",
-    "time": "[ 28/03/2023-11/04/2023 14:00 น. ]",
     "guide": "https://ez-upload.al-guide-th.com/api/download/2way.png",
     "special": [
       {
@@ -1687,7 +1686,14 @@
         "อีเว้นนี้เหมาะกับฟาร์มเรือดำน้ำ"
       ]
     },
-    "button": "https://ez-upload.al-guide-th.com/api/download/From%20Zero%20to%20Hero%20END%20600x300.png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/btn-form-z-to-h.png",
+    "time": "[ 05/02/2026-12/02/2026 14:00 น. ]",
+    "guideV2": [
+      {
+        "desc": "",
+        "image": "https://ez-upload.al-guide-th.com/api/download/2way.png"
+      }
+    ],
     "_priority": 3,
     "id": "From Zero to Hero"
   },
@@ -1925,6 +1931,118 @@
       }
     ],
     "id": "Happy Lunar New Year"
+  },
+  {
+    "_priority": 1,
+    "guideV2": [],
+    "lore": [],
+    "name": "Happy Lunar New Year 2026",
+    "time": "12/02/2026 - 26/02/2026 14:00 น.",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/Lunar Newyear 2026 Banner.jpg",
+    "ships": [
+      {
+        "name": "Chang Wu"
+      },
+      {
+        "name": "Hai Chou"
+      },
+      {
+        "name": "Chao Ho",
+        "retrofit": true
+      },
+      {
+        "name": "Ying Swei",
+        "retrofit": true
+      },
+      {
+        "name": "Fei Yuen"
+      },
+      {
+        "name": "Fu Po"
+      }
+    ],
+    "noteV2": {
+      "veteran": [],
+      "summary": [],
+      "beginner": [
+        {
+          "desc": "อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ \\nTaihou, Hu Pen, Lung Wu, Fu Shun, Chi An, Jeanne d'Arc และ Centaur",
+          "image": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2026-02-12_141517303.png"
+        },
+        {
+          "desc": "ต้องเข้าไปช่วยตีบอสอย่างน้อย 1 ครั้ง ไม่งั้นจะไม่ได้รับของรางวัลกิจกกรรม"
+        }
+      ]
+    },
+    "special": [
+      {
+        "text": "สะสม Drawing Book",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/Chao_HoChibi.png",
+        "title": "Chao Ho [★★★★★]"
+      },
+      {
+        "title": "Ying Swei [★★★★★]",
+        "text": "สะสม Drawing Book",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/Ying_SweiChibi.png"
+      },
+      {
+        "text": "เล่นกิจกรรม Fei Yuen’s Great Adventure",
+        "title": "Fei Yuen [★★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/Fei_YuenChibi.png"
+      },
+      {
+        "text": "เล่นกิจกรรม Fu Po’s Flawless Plan Rerun",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/Fu_PoChibi.png",
+        "title": "Fu Po [★★★★★]"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2026-02-12_142835995.png",
+        "text": "สะสมแต้มกิจกรรม Happy Spring Festival",
+        "title": "Spring Festival Invitation"
+      },
+      {
+        "text": "เปิด อั่งเปา 15 ซอง",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-01-30_202211384-modified.png",
+        "title": "[Skin] The Unbreakable Baozi Heist"
+      },
+      {
+        "title": "[Skin] Bring On the Red Envelopes!",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2026-02-12_143304912-modified.png",
+        "text": "เปิด อั่งเปา 25 ซอง"
+      },
+      {
+        "text": "สะสมจากกิจกรรมต่างๆ แล้วไปเปิดที่ Manjuu Resort",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/Ruby.png",
+        "title": "เปิดอั่งเปา 15 ซอง"
+      },
+      {
+        "blob": "",
+        "title": "Spring Auction Medals",
+        "text": "สะสม Sticker ในกิจกรรมทั้งหมด 8อัน"
+      },
+      {
+        "title": "[ใบคราฟ] Prototype Triple 203mm SK C/34 Main Gun Mount [★★★★★] 5 ใบ",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/43060.png",
+        "text": "ช่วยกันตีบอสจนถึง HP ที่กำหนด 25%"
+      },
+      {
+        "text": "สะสมแต้มกิจกรรมส่วนตัว 24,000 แต้ม",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/43060.png",
+        "title": "[ใบคราฟ] Prototype Triple 203mm SK C/34 Main Gun Mount [★★★★★] 20 ใบ"
+      },
+      {
+        "text": "ช่วยกันตีบอสจนถึง HP ที่กำหนด 0%",
+        "title": "SY-1A Missile [★★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-01-30_202027131.png"
+      },
+      {
+        "title": "Auction Invitation [★★★★]",
+        "blob": "",
+        "text": "สะสมแต้มกิจกรรมส่วนตัว 4,000 แต้ม"
+      }
+    ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/BTN-web-v2-hlny-2026.png",
+    "id": "Happy Lunar New Year 2026"
   },
   {
     "chibi": "",
@@ -2336,6 +2454,101 @@
     "id": "Letters from Valley Hospital"
   },
   {
+    "name": "Light & Shadow Fashion Shoot!",
+    "time": "22/01/2026 - 05/02/2026 14:00 น.",
+    "ships": [
+      {
+        "name": "Francesco Caracciolo"
+      },
+      {
+        "name": "Alberto di Giussano"
+      },
+      {
+        "name": "Ugolino Vivaldi"
+      }
+    ],
+    "lore": [],
+    "special": [
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-01-22_001217007-modified.png",
+        "text": "สะสมแต้มกิจกรรม 10,000 points",
+        "title": "Ugolino Vivaldi"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/55900.png",
+        "text": "สะสมแต้มกิจกรรม 8,000 points",
+        "title": "Prototype Triple 406mm Model 1940 Main Gun"
+      },
+      {
+        "text": "สะสม Sticker 8 อัน",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-01-22_221117448.png",
+        "title": "Fashion Shoot Medal"
+      },
+      null,
+      {
+        "text": "สะสม Sticker 7 อัน",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "อ่านเนื้อเรื่องกิจกรรม"
+      },
+      {
+        "text": "ผ่านด่านใดก็ได้ในกิจกรรม",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "กำจัดศัตรูในกิจกรรม 100 ตัว"
+      },
+      {
+        "text": "ผ่านด่านใดก็ได้ในกิจกรรม 40 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน Hard ของกิจกรรม"
+      },
+      {
+        "text": "ผ่านด่าน SP ของกิจกรรม",
+        "title": "Sticker"
+      },
+      {
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point",
+        "title": "Sticker"
+      }
+    ],
+    "noteV2": {
+      "veteran": [],
+      "beginner": [
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/55900.png",
+          "desc": "ควรฟาร์มเก็บปืนที่ 8,000 points"
+        }
+      ],
+      "summary": [
+        {
+          "desc": "สรุปวิธีทำเควสทั้งหมด > ให้ใช้เรือประเภทเดียวทั้งหมดทั้งกองหน้ากองหลังเคลียร์ด่านระดับ Hard ในโหมดเล่นหลายทีม 1 ครั้ง แล้วทำซ้ำอีกครั้งโดยเปลี่ยนประเภทเรือไม่ให้ซ้ำกับรอบแรก",
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-01-22_222438948.png"
+        }
+      ]
+    },
+    "guideV2": [
+      {
+        "desc": "กดตรงนี้เพื่อสลับไปโหมดอ่านเนื้อเรื่อง",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-01-22_221815059.png"
+      },
+      {
+        "desc": "ให้ใช้เรือประเภทที่ไม่ได้ระบุในเควสเพื่อทำเควส เช่น เรือใบ(IX)",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2025-04-17_234051632.png"
+      }
+    ],
+    "banner": "https://ez-upload.al-guide-th.com/api/download/banner-1-2026.png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/btn1-2026.png",
+    "_priority": 3,
+    "id": "Light & Shadow Fashion Shoot!"
+  },
+  {
     "name": "Light of the Martyrium",
     "guide": "",
     "quests": [
@@ -2607,20 +2820,11 @@
         "desc": "ลุยส์วิลล์ เรือลาดตระเวนหนัก นอร์ทแธมป์ตันคลาส \\n\\nเธอเป็นคนขี้หลงขี้ลืม หากทำอาการให้คนอื่น  \\n\\nก็มักจะลืมทำในส่วนของตัวเอง \\n\\nเธอมีชื่อเล่นว่า \"เลดี้ลู\" \\n\\nและเป็นเพื่อนดื่มของ \"ลัคกี้ลู\" (เซนต์หลุยส์)"
       }
     ],
-    "guide": "",
     "banner": "https://ez-upload.al-guide-th.com/api/download/Light-Chasing Sea of Stars (Banner).jpg",
     "button": "https://ez-upload.al-guide-th.com/api/download/Light-Chasing Sea of Stars END 600x300.jpg",
-    "_priority": 1,
     "note": {
       "special": [
         "Bunbun UR Voucher เคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 5 ใบ/วัน"
-      ],
-      "beginner": [
-        "อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (New Year) มี Formidable , Tashkent , Kazagumo , Richelieu , Shangri-La , Zara , U-101",
-        "อยากได้เครื่องบินทิ้งตอ ฟาร์มด่าน C2 หา Fairey Barracuda",
-        "อยากได้ DD gun ฟาร์มด่าน C3 หา Twin 127mm (5\"/38 Mk 38)",
-        "อยากได้ AA gun ฟาร์มด่าน D2 หา Twin 113mm AA (QF Mark I)",
-        "อยากได้เครื่องบินขับไล่ ฟาร์มด่าน D3 หา Grumman F6F Hellcat"
       ],
       "veteran": [
         "เก็บแต้มเสร็จแล้วเก็บของกลับบ้านเหมือนเดิม"
@@ -2630,28 +2834,40 @@
         "Bunbun UR Voucher เคลียร์ด่าน B3 หรือ D3 ด้วยเรือในกิจกรรมนี้ จะได้รับ 10 ใบ/ภารกิจ สูงสุด 50 ใบ",
         "Bunbun UR Voucher ซื้อจากร้านค้ากิจกรรม ราคา 150 points/ใบ สูงสุด 500 ใบ",
         "Bunbun UR Voucher เคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 15 ใบ/วัน"
+      ],
+      "beginner": [
+        "อยากได้เครื่องบินทิ้งตอ ฟาร์มด่าน C2 หา Fairey Barracuda",
+        "อยากได้ DD gun ฟาร์มด่าน C3 หา Twin 127mm (5\"/38 Mk 38)",
+        "อยากได้ AA gun ฟาร์มด่าน D2 หา Twin 113mm AA (QF Mark I)",
+        "อยากได้เครื่องบินขับไล่ ฟาร์มด่าน D3 หา Grumman F6F Hellcat"
       ]
     },
+    "guideV2": [
+      {
+        "desc": "สามารถเช็คได้ว่าเก็บ UR Voucher ครบรึยังได้ที่หน้า Event ด้านบนทางขวาที่หัวข้อ UR Exchange",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-01-15_200300929.png"
+      }
+    ],
     "special": [
       {
+        "text": "➤ สะสมแต้มปลดล็อก Frame 2,800 points",
         "title": "Light-Chasing Ring of Stars",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/seaofstarFrame.png",
-        "text": "➤ สะสมแต้มปลดล็อก Frame 2,800 points"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/seaofstarFrame.png"
       },
       {
-        "text": "➤ แลกจากร้านค้ากิจกรรม โดยใช้ \"Bunbun UR Voucher\" 200/300 ใบ",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221303869.png",
+        "text": "➤ แลกจากร้านค้ากิจกรรม โดยใช้ \"Bunbun UR Voucher\" 200/300 ใบ",
         "title": "USS Laffey II [★★★★★★]"
       },
       {
-        "title": "USS Flasher [★★★★★★]",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221227623.png",
-        "text": "➤  แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3"
+        "text": "➤  แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3",
+        "title": "USS Flasher [★★★★★★]"
       },
       {
-        "title": "USS Louisville [★★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221445144.png",
         "text": "➤ สะสมแต้มกิจกรรม 5,000 points",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221445144.png"
+        "title": "USS Louisville [★★★★★]"
       },
       {
         "title": "Bunbun UR Voucher",
@@ -2659,36 +2875,27 @@
         "text": "วิธีหาอยู่อยู่ที่สรุปด้านล่างของเว็บ"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221532839.png",
         "title": "The Council's Unity Medal",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221532839.png",
         "text": "➤ สำเร็จเควสผ่านด่าน D3"
       },
       {
-        "title": "Triple 305mm Mk8 Main Gun Mount [★★★★★★]",
         "text": "➤  แลกจากร้านค้ากิจกรรม 10,000 points",
+        "title": "Triple 305mm Mk8 Main Gun Mount [★★★★★★]",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_220933322.png"
       },
       {
-        "text": "➤  แลกจากร้านค้ากิจกรรม 2,000 points",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_221026224.png",
-        "title": "TBM Avenger (VT-51) [★★★★★]"
+        "title": "TBM Avenger (VT-51) [★★★★★]",
+        "text": "➤  แลกจากร้านค้ากิจกรรม 2,000 points"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_223120571.png",
-        "text": "➤ เคลียร์มินิเกม Operation: Patisserie วันที่ 3",
-        "title": "Neon Spotlights"
-      },
-      {
-        "title": "Surprise Lights",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2023-12-21_223211961.png",
-        "text": "➤ เคลียร์มินิเกม Operation: Patisserie วันที่ 7"
-      },
-      {
-        "text": "➤ ทำภารกิจในกิจกรรม Beneath Clear, Starry Skies Rerun",
+        "title": "Sea of Stars Area B20 Access Pass",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-01-14_211334493.png",
-        "title": "Sea of Stars Area B20 Access Pass"
+        "text": "➤ ทำภารกิจในกิจกรรม Beneath Clear, Starry Skies Rerun"
       }
     ],
+    "_priority": 3,
     "id": "Light-Chasing Sea of Stars"
   },
   {

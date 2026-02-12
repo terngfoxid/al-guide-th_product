@@ -514,6 +514,41 @@
     "id": "alabama"
   },
   {
+    "name": "Alberto di Giussano",
+    "rarity": [
+      "E"
+    ],
+    "class": [],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "RN",
+      "full": "Sardegna Empire"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/aerbeituo.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/aerbeituo.webp",
+        "name": "Alberto di Giussano",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/aerbeituo (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/RN Alberto di Giussano.png"
+      ]
+    },
+    "id": "alberto di giussano"
+  },
+  {
     "name": "Albion",
     "class": [],
     "type": [
@@ -3652,6 +3687,39 @@
     "id": "carabiniere"
   },
   {
+    "name": "Carabiniere META",
+    "rarity": [
+      "EM"
+    ],
+    "class": [],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "META",
+      "sub": "Cinders of Hope"
+    },
+    "skins": [
+      {
+        "name": "Carabiniere META",
+        "image": "https://als.mrlar.dev/full/longqibing_alter.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/longqibing_alter (1).webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/longqibing_alter.webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "id": "carabiniere meta"
+  },
+  {
     "name": "Casablanca",
     "class": [],
     "type": [
@@ -3948,6 +4016,38 @@
     "id": "chang feng"
   },
   {
+    "name": "Chang Wu",
+    "rarity": [
+      "SR"
+    ],
+    "class": [],
+    "type": [
+      "CA"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "Dragon Empery"
+    },
+    "skins": [
+      {
+        "name": "Chang Wu",
+        "image": "",
+        "chibi": "",
+        "profile": ""
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "id": "chang wu"
+  },
+  {
     "name": "Chao Ho",
     "class": [],
     "type": [
@@ -3983,10 +4083,10 @@
     ],
     "skins": [
       {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Chao_HoChibi.png",
-        "name": "Chao Ho",
         "image": "https://azurlane.netojuu.com/images/e/ee/Chao_Ho.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/zhaohe.webp"
+        "name": "Chao Ho",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/zhaohe.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Chao_HoChibi.png"
       },
       {
         "image": "https://azurlane.netojuu.com/images/6/6c/Chao_HoSpring.png",
@@ -3999,6 +4099,12 @@
       {
         "name": "Azure Ripples, Shimmering Sun",
         "image": "https://azurlane.netojuu.com/images/b/bf/Chao_HoSummer.png"
+      },
+      {
+        "chibi": "",
+        "image": "",
+        "name": "Retrofit",
+        "profile": ""
       }
     ],
     "id": "chao ho"
@@ -7425,6 +7531,41 @@
     "id": "fortune meta"
   },
   {
+    "name": "Francesco Caracciolo",
+    "rarity": [
+      "SR"
+    ],
+    "class": [],
+    "type": [
+      "BB"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "RN",
+      "full": "Sardegna Empire"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/fulangxisike.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/fulangxisike.webp",
+        "name": "Francesco Caracciolo",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/fulangxisike (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/RN Francesco Caraciolo.png"
+      ]
+    },
+    "id": "francesco caracciolo"
+  },
+  {
     "name": "Franklin",
     "class": [],
     "type": [
@@ -9168,6 +9309,38 @@
       }
     ],
     "id": "hai chi"
+  },
+  {
+    "name": "Hai Chou",
+    "rarity": [
+      "E"
+    ],
+    "class": [],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "Dragon Empery"
+    },
+    "skins": [
+      {
+        "name": "Hai Chou",
+        "image": "",
+        "chibi": "",
+        "profile": ""
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "id": "hai chou"
   },
   {
     "name": "Hai Tien",
@@ -26521,6 +26694,41 @@
     "id": "u-96"
   },
   {
+    "name": "Ugolino Vivaldi",
+    "rarity": [
+      "E"
+    ],
+    "class": [],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "RN",
+      "full": "Sardegna Empire"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/wugelini.webp",
+        "name": "Ugolino Vivaldi",
+        "image": "https://als.mrlar.dev/full/wugelini.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/wugelini (2).webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/RN Ugolino Vivaldi.png"
+      ]
+    },
+    "id": "ugolino vivaldi"
+  },
+  {
     "name": "Ulrich von Hutten",
     "class": [],
     "type": [
@@ -28054,22 +28262,28 @@
     ],
     "skins": [
       {
-        "image": "https://azurlane.netojuu.com/images/c/cb/Ying_Swei.png",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Ying_SweiChibi.png",
-        "name": "Ying Swei",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/yingrui.webp"
+        "profile": "https://ez-upload.al-guide-th.com/api/download/yingrui.webp",
+        "image": "https://azurlane.netojuu.com/images/c/cb/Ying_Swei.png",
+        "name": "Ying Swei"
       },
       {
         "image": "https://azurlane.netojuu.com/images/7/79/Ying_SweiSpring.png",
         "name": "Snowy Pine's Warmth"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/9/96/Ying_SweiSpring2.png",
-        "name": "Frolicking Flowers, Verse I"
+        "name": "Frolicking Flowers, Verse I",
+        "image": "https://azurlane.netojuu.com/images/9/96/Ying_SweiSpring2.png"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/6/6e/Ying_SweiSummer.png",
-        "name": "Blue Waves, Limpid Summer"
+        "name": "Blue Waves, Limpid Summer",
+        "image": "https://azurlane.netojuu.com/images/6/6e/Ying_SweiSummer.png"
+      },
+      {
+        "chibi": "",
+        "image": "",
+        "name": "Retrofit",
+        "profile": ""
       }
     ],
     "id": "ying swei"

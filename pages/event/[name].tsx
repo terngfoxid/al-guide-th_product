@@ -378,7 +378,7 @@ export default function Event() {
                                             <>{
                                                 event.guideV2.length > 0 ? <>
                                                     {event.guideV2.map((note, index) => {
-                                                        return <div key={index} className="w-full h-full grid grid-col-1 gap-[0.5rem]">
+                                                        return <div key={index} className="w-full h-full grid grid-col-1 gap-[0.5rem] mb-[1rem]">
                                                             <div className="flex justify-center">
                                                                 {note.image && <>
                                                                     {

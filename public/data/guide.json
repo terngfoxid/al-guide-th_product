@@ -32,5 +32,42 @@
     ],
     "button": "https://ez-upload.al-guide-th.com/api/download/w-16-btn.png",
     "id": "Main Campaign 16"
+  },
+  {
+    "_priority": 1,
+    "name": "Meaw 2.0",
+    "youtube": [
+      {
+        "name": "Slot Talent ตอนเกิด",
+        "url": "https://www.youtube.com/embed/g71yGC8BT9I"
+      },
+      {
+        "name": "ตำแหน่ง คู่ และทีม",
+        "url": "https://www.youtube.com/embed/wLZUAY6DmrM"
+      },
+      {
+        "name": "Talent ตรงสาย",
+        "url": "https://www.youtube.com/embed/gk9o4WQc2Es"
+      },
+      {
+        "name": "เกิดแบบใหน น่าไปต่อ",
+        "url": "https://www.youtube.com/embed/9w4xEO-hZPU"
+      }
+    ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/BMO2 600x300.webp",
+    "guideV2": [
+      {
+        "desc": "ไกด์ทำแมว 2.0"
+      },
+      {
+        "desc": "ตัวอย่างแมวที่รีเสร็จแล้วโดย Hori",
+        "image": "https://ez-upload.al-guide-th.com/api/download/example_hori.webp"
+      },
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/example_boss.webp",
+        "desc": "ตัวอย่างแมวที่รีเสร็จแล้วโดย I'm Boss"
+      }
+    ],
+    "id": "Meaw 2.0"
   }
 ]
