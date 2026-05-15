@@ -1933,12 +1933,9 @@
     "id": "Happy Lunar New Year"
   },
   {
-    "_priority": 1,
-    "guideV2": [],
     "lore": [],
     "name": "Happy Lunar New Year 2026",
     "time": "12/02/2026 - 26/02/2026 14:00 น.",
-    "banner": "https://ez-upload.al-guide-th.com/api/download/Lunar Newyear 2026 Banner.jpg",
     "ships": [
       {
         "name": "Chang Wu"
@@ -1961,9 +1958,9 @@
         "name": "Fu Po"
       }
     ],
+    "banner": "https://ez-upload.al-guide-th.com/api/download/Spring Auction Adventure (Banner).png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/Spring Auction Adventure (Botton).png",
     "noteV2": {
-      "veteran": [],
-      "summary": [],
       "beginner": [
         {
           "desc": "อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ \\nTaihou, Hu Pen, Lung Wu, Fu Shun, Chi An, Jeanne d'Arc และ Centaur",
@@ -1972,28 +1969,60 @@
         {
           "desc": "ต้องเข้าไปช่วยตีบอสอย่างน้อย 1 ครั้ง ไม่งั้นจะไม่ได้รับของรางวัลกิจกกรรม"
         }
+      ],
+      "veteran": [
+        {
+          "desc": "เป็นกิจกรรมที่เหมาะจะใช้ปั้มหัวใจเรือดำน้ำ"
+        }
+      ],
+      "summary": [
+        {
+          "desc": "Operation Valentine สามารถกดรับ Bonus ได้ทุกวัน และสามารถฟาร์มเพิ่มได้อีกวันละ 400 แต้ม"
+        }
       ]
     },
+    "guideV2": [
+      {
+        "desc": "วิธีเข้ากิจกรรม Drawing Book",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-13_191521748.png"
+      },
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-13_195310612.png",
+        "desc": "ทำ Mission แล้วมารับตั๋วเลือกเรือฟรี"
+      },
+      {
+        "desc": "พลุกิจกรรมจะดรอปจากด่าน 3 ขึ้นไป",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-13_201157285.png"
+      },
+      {
+        "desc": "อั่งเปา 15 ซองแรกจะการันตี 300 Gem",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-13_201325149.png"
+      },
+      {
+        "desc": "Operation Valentine สามารถสะสมแต้มได้จากการเล่นด่านกิจกรรม และธรรมดา ด่าน 3 ขึ้นไป",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-13_202315480.png"
+      }
+    ],
     "special": [
       {
-        "text": "สะสม Drawing Book",
         "blob": "https://ez-upload.al-guide-th.com/api/download/Chao_HoChibi.png",
+        "text": "สะสม Drawing Book",
         "title": "Chao Ho [★★★★★]"
       },
       {
-        "title": "Ying Swei [★★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/Ying_SweiChibi.png",
         "text": "สะสม Drawing Book",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/Ying_SweiChibi.png"
+        "title": "Ying Swei [★★★★★]"
       },
       {
-        "text": "เล่นกิจกรรม Fei Yuen’s Great Adventure",
         "title": "Fei Yuen [★★★★★]",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/Fei_YuenChibi.png"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/Fei_YuenChibi.png",
+        "text": "เล่นกิจกรรม Fei Yuen’s Great Adventure"
       },
       {
-        "text": "เล่นกิจกรรม Fu Po’s Flawless Plan Rerun",
         "blob": "https://ez-upload.al-guide-th.com/api/download/Fu_PoChibi.png",
-        "title": "Fu Po [★★★★★]"
+        "title": "Fu Po [★★★★★]",
+        "text": "ไปที่หน้ากิจกรรม Fu Po’s Flawless Plan Rerun"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2026-02-12_142835995.png",
@@ -2001,47 +2030,57 @@
         "title": "Spring Festival Invitation"
       },
       {
-        "text": "เปิด อั่งเปา 15 ซอง",
+        "title": "[Skin] The Unbreakable Baozi Heist",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-01-30_202211384-modified.png",
-        "title": "[Skin] The Unbreakable Baozi Heist"
+        "text": "เปิด อั่งเปา 15 ซอง"
       },
       {
         "title": "[Skin] Bring On the Red Envelopes!",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2026-02-12_143304912-modified.png",
-        "text": "เปิด อั่งเปา 25 ซอง"
+        "text": "เปิด อั่งเปา 25 ซอง",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2026-02-12_143304912-modified.png"
       },
       {
-        "text": "สะสมจากกิจกรรมต่างๆ แล้วไปเปิดที่ Manjuu Resort",
         "blob": "https://ez-upload.al-guide-th.com/api/download/Ruby.png",
-        "title": "เปิดอั่งเปา 15 ซอง"
+        "title": "เปิดอั่งเปา 15 ซอง",
+        "text": "สะสมจากกิจกรรมต่างๆ แล้วไปเปิดที่ Manjuu Resort"
       },
       {
-        "blob": "",
+        "text": "สะสม Sticker ในกิจกรรมทั้งหมด 8อัน",
         "title": "Spring Auction Medals",
-        "text": "สะสม Sticker ในกิจกรรมทั้งหมด 8อัน"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-12_231111291.png"
       },
       {
-        "title": "[ใบคราฟ] Prototype Triple 203mm SK C/34 Main Gun Mount [★★★★★] 5 ใบ",
+        "text": "ช่วยกันตีบอสจนถึง HP ที่กำหนด 25%",
         "blob": "https://ez-upload.al-guide-th.com/api/download/43060.png",
-        "text": "ช่วยกันตีบอสจนถึง HP ที่กำหนด 25%"
+        "title": "[ใบคราฟ] Prototype Triple 203mm SK C/34 Main Gun Mount [★★★★★] 5 ใบ"
       },
       {
         "text": "สะสมแต้มกิจกรรมส่วนตัว 24,000 แต้ม",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/43060.png",
-        "title": "[ใบคราฟ] Prototype Triple 203mm SK C/34 Main Gun Mount [★★★★★] 20 ใบ"
+        "title": "[ใบคราฟ] Prototype Triple 203mm SK C/34 Main Gun Mount [★★★★★] 20 ใบ",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/43060.png"
       },
       {
-        "text": "ช่วยกันตีบอสจนถึง HP ที่กำหนด 0%",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-01-30_202027131.png",
         "title": "SY-1A Missile [★★★★★]",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-01-30_202027131.png"
+        "text": "ช่วยกันตีบอสจนถึง HP ที่กำหนด 0%"
       },
       {
         "title": "Auction Invitation [★★★★]",
-        "blob": "",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-13_205255042.png",
         "text": "สะสมแต้มกิจกรรมส่วนตัว 4,000 แต้ม"
+      },
+      {
+        "text": "สะสมคะแนนถึง LV.16 ในกิจกรรม Spring Fireworks Party",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-12_230554320.png",
+        "title": "Butterflies Playing with Bamboo"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-12_230755227.png",
+        "title": "Butterflies Fluttering Among Plums",
+        "text": "สะสมคะแนนถึง LV.18 ในกิจกรรม Spring Fireworks Party"
       }
     ],
-    "button": "https://ez-upload.al-guide-th.com/api/download/BTN-web-v2-hlny-2026.png",
+    "_priority": 3,
     "id": "Happy Lunar New Year 2026"
   },
   {
@@ -3912,43 +3951,6 @@
     "banner": "https://ez-upload.al-guide-th.com/api/download/Snowrealm%20Peregrination%20(Banner).png",
     "chibi": "https://ez-upload.al-guide-th.com/api/download/Sovetsky_SoyuzChibi.png",
     "guide": "https://ez-upload.al-guide-th.com/api/download/Screenshot_20240229-194632.png",
-    "special": [
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_150001853.png",
-        "text": "➤ สะสมแต้มปลดล็อก Frame 2,800 points",
-        "title": "Star of the Snowrealm"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_150121506.png",
-        "text": "➤ สำเร็จเควสผ่านด่าน D3",
-        "title": "Salutations from Ancient Times"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_160834554-modified.png",
-        "text": "➤ ราคา 8,000 points / ดรอปด่าน D3",
-        "title": "Pamiat Merkuria META [★★★★★★]"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-02-29_235949859.png",
-        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points",
-        "title": "ผลึกปลดดาว Pamiat Merkuria META"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_160749241-modified.png",
-        "text": "➤ สะสมแต้มกิจกรรม 10,000 points",
-        "title": "Svirepy [★★★★★]"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_161109297.png",
-        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points",
-        "title": "Triple 406mm MK-1 Main Gun Mount [★★★★★]"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/ascension.png",
-        "text": "➤ Endless Drama in the Sleepless City วันที่ 7",
-        "title": "Ascension Box [★★★★]"
-      }
-    ],
     "quests": [
       "ได้รับ Sovetsky Soyuz : ของรางวัล แต้มปลดล็อก Frame 800 points",
       "ปลดดาว Ognevoy ให้เต็ม : ของรางวัล แต้มปลดล็อก Frame 600 points",
@@ -3960,25 +3962,6 @@
       "ชนะบอสด่าน B2/D2 โดยมี Clemenceau ที่ดาวเต็มอยู่ในทีม : ของรางวัล แต้มปลดล็อก Frame 300 points",
       "ชนะบอสด่าน B3/D3 โดยมี Tallinn ที่ดาวเต็มอยู่ในทีม : ของรางวัล แต้มปลดล็อก Frame 300 points"
     ],
-    "note": {
-      "special": [
-        null
-      ],
-      "summary": [
-        null
-      ],
-      "veteran": [
-        "หากไม่ได้ต้องการฟาร์มปืน CL ปั้มแต้มเสร็จ ให้เก็บของกลับบ้านได้เลย"
-      ],
-      "beginner": [
-        "C3 ดรอป Fairey Barracuda",
-        "D1 ดรอป Triple 406mm Mk 6 Main Gun Mount ปืน BB กระสุน HE ม่วงตัวเทพ",
-        "D2 ดรอป Twin 127mm Mk 12 Dual-Purpose Gun Mount",
-        "โดยรวมถือว่าน่าฟาร์มมากๆที่ด่าน D3 เพราะว่าปืนที่ดรอปเป็นปืน CL สเปคดูดีเลยกระสุน HE รีโหลดไว แสดงผลดีกับทุกเกราะ **นิยมใช้กับ CL ที่ต้องการรีโหลดไวๆเพื่อออกท่า AoA หรือสกิลตามปืน** และปืนนี้ตอนนี้สามารถหาได้แค่ในกิจกรรมด้วย ถือว่ายัง Limited อยู่ แต่เป็น Limited ที่เก่าแล้ว (ความหมายคือเดี๋ยวก็เข้า GearLab) เอาล่ะก็ขอให้โชคดีกับการฟาร์มกิจกรรมนี้กันนะครับ 😃"
-      ]
-    },
-    "button": "https://ez-upload.al-guide-th.com/api/download/Snowrealm%20Peregrination%20END%20600x300.png",
-    "_priority": 3,
     "ships": [
       {
         "type": "BB",
@@ -4020,6 +4003,72 @@
         "image": "https://azurlane.netojuu.com/images/6/64/Svirepy.png"
       }
     ],
+    "lore": [
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-12_192945594.png"
+      }
+    ],
+    "note": {
+      "special": [
+        null
+      ],
+      "veteran": [
+        "หากไม่ได้ต้องการฟาร์มปืน CL ปั้มแต้มเสร็จ ให้เก็บของกลับบ้านได้เลย"
+      ],
+      "beginner": [
+        "C3 ดรอป Fairey Barracuda",
+        "D1 ดรอป Triple 406mm Mk 6 Main Gun Mount ปืน BB กระสุน HE ม่วงตัวเทพ",
+        "D2 ดรอป Twin 127mm Mk 12 Dual-Purpose Gun Mount",
+        "โดยรวมถือว่าน่าฟาร์มมากๆที่ด่าน D3 เพราะว่าปืนที่ดรอปเป็นปืน CL สเปคดูดีเลยกระสุน HE รีโหลดไว แสดงผลดีกับทุกเกราะ **นิยมใช้กับ CL ที่ต้องการรีโหลดไวๆเพื่อออกท่า AoA หรือสกิลตามปืน** และปืนนี้ตอนนี้สามารถหาได้แค่ในกิจกรรมด้วย ถือว่ายัง Limited อยู่ แต่เป็น Limited ที่เก่าแล้ว (ความหมายคือเดี๋ยวก็เข้า GearLab) เอาล่ะก็ขอให้โชคดีกับการฟาร์มกิจกรรมนี้กันนะครับ 😃"
+      ],
+      "summary": [
+        "อย่าลืมใช้ตั๋วกาชาฟรี 45 ใบ"
+      ]
+    },
+    "button": "https://ez-upload.al-guide-th.com/api/download/Snowrealm Peregrination (Botton).png",
+    "special": [
+      {
+        "title": "Star of the Snowrealm",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_150001853.png",
+        "text": "➤ สะสมแต้มปลดล็อก Frame 2,800 points"
+      },
+      {
+        "title": "Salutations from Ancient Times",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_150121506.png",
+        "text": "➤ สำเร็จเควสผ่านด่าน D3"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_160834554-modified.png",
+        "title": "Pamiat Merkuria META [★★★★★★]",
+        "text": "➤ ราคา 8,000 points / ดรอปด่าน D3"
+      },
+      {
+        "title": "ผลึกปลดดาว Pamiat Merkuria META",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-02-29_235949859.png",
+        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points"
+      },
+      {
+        "text": "➤ สะสมแต้มกิจกรรม 5,000 points",
+        "title": "Svirepy [★★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_160749241-modified.png"
+      },
+      {
+        "text": "➤ แลกจากร้านค้ากิจกรรม 2,000 points",
+        "title": "Triple 406mm MK-1 Main Gun Mount [★★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-02-29_161109297.png"
+      },
+      {
+        "title": "Ascension Box [★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ascension.png",
+        "text": "➤ เล่นกิจกรรม Endless Drama in the Sleepless City ชนะการต่อสู้ 150 Battle"
+      },
+      {
+        "text": "➤ ทำภารกิจในกิจกรรม Mist Upon Silver Summits",
+        "title": "Cross Brooch [★★★★]",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-14_155306860.png"
+      }
+    ],
+    "_priority": 3,
     "id": "Snowrealm Peregrination"
   },
   {
@@ -4045,7 +4094,6 @@
     },
     "chibi": "https://ez-upload.al-guide-th.com/api/download/Huan_ChangChibi.png",
     "time": "[ 30/01/2023-22/02/2023 14:00 น. ]",
-    "banner": "https://ez-upload.al-guide-th.com/api/download/Spring%20Festive%20Fiasco%20(Banner).png",
     "guide": "https://ez-upload.al-guide-th.com/api/download/Fesive%20Fiasco.png",
     "ships": [
       {
@@ -4157,8 +4205,134 @@
       }
     ],
     "_priority": 3,
-    "button": "https://ez-upload.al-guide-th.com/api/download/Spring Festive Fiasco END 600x300.png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/Spring Auction Adventure (Botton).png",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/Spring Auction Adventure (Banner).png",
     "id": "Spring Festive Fiasco"
+  },
+  {
+    "name": "Springtide Inn Online",
+    "time": "26/02/2026 - 12/03/2026 14:00 น.",
+    "ships": [
+      {
+        "name": "Moskva"
+      },
+      {
+        "name": "Ozornoy"
+      },
+      {
+        "name": "Krasny Kavkaz"
+      },
+      {
+        "name": "Bogatyr"
+      },
+      {
+        "name": "Gangut META"
+      }
+    ],
+    "banner": "https://ez-upload.al-guide-th.com/api/download/Springtide Inn Online (Banner).png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/Springtide Inn Online (Botton).png",
+    "lore": [
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/Springtide_Inn_Online.png"
+      }
+    ],
+    "noteV2": {
+      "beginner": [
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/85120.png",
+          "desc": "ด่าน D2 ดรอป Triple 152mm B-38 MK 5 Main Gun Mount"
+        }
+      ],
+      "veteran": [
+        {
+          "desc": "ฟาร์มเสร็จกลับบ้านนอน"
+        }
+      ],
+      "summary": [
+        {
+          "desc": "ห้ามลืมแลกปืน SM-40 Prototype Triple 220mm Main Gun Mount",
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-26_194116979.png"
+        }
+      ]
+    },
+    "guideV2": [
+      {
+        "desc": "ระบบอัพเกรดโรงแรม",
+        "image": "https://ez-upload.al-guide-th.com/api/download/Inn_upgrade.jpg"
+      }
+    ],
+    "special": [
+      {
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-26_192613631-modified.png",
+        "title": "Gangut META"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-26_192808134-modified.png",
+        "text": "สะสมแต้มกิจกรรม 10,000 points",
+        "title": "Bogatyr"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-26_224800754.png",
+        "title": "ผลึกปลดดาว Gangut META",
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points"
+      },
+      null,
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-26_221047191.png",
+        "text": "สะสม Sticker 8 อัน",
+        "title": "Springtide Inn Medal"
+      },
+      {
+        "text": "ซื้อจากร้านค้า ราคา 10,000 points",
+        "title": "SM-40 Prototype Triple 220mm Main Gun Mount",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-26_194116979.png"
+      },
+      {
+        "text": "อ่านเนื้อเรื่องกิจกรรม",
+        "title": "Sticker"
+      },
+      {
+        "text": "ผ่านด่าน A3/C3",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน B3/D3"
+      },
+      {
+        "title": "Sticker",
+        "text": "กำจัดศัตรูในกิจกรรม 300 ตัว"
+      },
+      {
+        "text": "เล่นด่านกิจกรรมทั้งหมด 50 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน SP"
+      },
+      {
+        "title": "Sticker",
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point"
+      },
+      {
+        "title": "Sticker",
+        "text": "สะสม Sticker 7 อัน"
+      },
+      {
+        "title": "Springtide Inn Miniature",
+        "text": "อัพเกรดโรงแรมถึง LV. 10",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-26_221652487.png"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-02-26_223753601-modified.png",
+        "title": "World's Greatest Inn",
+        "text": "อ่านเนื้อเรื่องของกิจกรรมอัพเกรดโรงแรม"
+      }
+    ],
+    "_priority": 3,
+    "id": "Springtide Inn Online"
   },
   {
     "chibi": "",
@@ -5301,6 +5475,108 @@
     "id": "The Ninja Scrolls: Azur Flash"
   },
   {
+    "name": "The Vagabond’s Recruitment Plan",
+    "lore": [],
+    "time": "26/03/2026 - 09/04/2026 14:00 น.",
+    "noteV2": {
+      "veteran": [],
+      "summary": [],
+      "beginner": []
+    },
+    "ships": [
+      {
+        "name": "Unryuu"
+      },
+      {
+        "name": "Kizu"
+      },
+      {
+        "name": "Nayoro"
+      },
+      {
+        "name": "L'Indomptable"
+      }
+    ],
+    "special": [
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-26_222303793-modified.png",
+        "text": "สะสมแต้มกิจกรรม 10,000 points",
+        "title": "Kizu"
+      },
+      {
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-26_225416297.png",
+        "title": "The Vagabond"
+      },
+      {
+        "title": "Protocol Zero Key",
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-26_225539035.png"
+      },
+      {
+        "text": "ซื้อจากร้านค้า ราคา 1,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-26_225614794.png",
+        "title": "Systemwide Bounty"
+      },
+      {
+        "text": "ผ่านด่านกิจกรรม HT3",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-26_225741437.png",
+        "title": "Municipal Management Building"
+      },
+      {
+        "title": "Vagabond City Medal",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-26_225858110.png",
+        "text": "สะสม Sticker 8 อัน"
+      },
+      {
+        "title": "Sticker",
+        "text": "สะสม Sticker 7 อัน"
+      },
+      {
+        "title": "Sticker",
+        "text": "ปลดล็อกฉากจบทั้งหมดในกิจกรรม"
+      },
+      {
+        "text": "ผ่านด่านกิจกรรม T3",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "กำจัดศัตรูในด่านกิจกรรม 300 ตัว"
+      },
+      {
+        "text": "ผ่านด่านกิจกรรม 50 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่านกิจกรรม HT3"
+      },
+      {
+        "text": "ผ่านด่านกิจกรรม SP",
+        "title": "Sticker"
+      },
+      {
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point",
+        "title": "Sticker"
+      }
+    ],
+    "guideV2": [
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-27_021410043.png",
+        "desc": "วิธีเก็บ Ending 7/7 จากในไลฟ์"
+      },
+      {
+        "desc": "เพิ่มเติมจากคอมมูต่างชาติ",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-27_040806183.png"
+      }
+    ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/The Vagabond's Recruitment Plan (Botton).png",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/The Vagabond's Recruitment Plan (Banner).png",
+    "_priority": 3,
+    "id": "The Vagabond’s Recruitment Plan"
+  },
+  {
     "guide": "",
     "name": "Toward Tulipa’s Seas",
     "time": "[24/04/2025-08/05/2025 14:00 น.]",
@@ -5614,6 +5890,231 @@
     "banner": "https://ez-upload.al-guide-th.com/api/download/Upon the Shimmering Blue (Banner).jpg",
     "button": "https://ez-upload.al-guide-th.com/api/download/Upon the Shimmering Blue END 600x300.jpg",
     "id": "Upon the Shimmering Blue"
+  },
+  {
+    "_priority": 1,
+    "banner": "",
+    "button": "",
+    "name": "Vacation Lane – Beachside Brilliance",
+    "guideV2": [],
+    "time": "กิจกรรมใหม่ 17/04/2026 - 02/05/2026 14:00 น. และ กิจกรรมรีรัน 23/04/2026 - 02/05/2026 14:00 น.",
+    "ships": [
+      {
+        "name": "Elise"
+      },
+      {
+        "name": "Shandy"
+      },
+      {
+        "name": "Yukino"
+      },
+      {
+        "name": "Tsukushi"
+      },
+      {
+        "name": "Patty"
+      },
+      {
+        "name": "Shizuku"
+      },
+      {
+        "name": "Tamaki"
+      },
+      {
+        "name": "Luna"
+      },
+      {
+        "name": "Honoka"
+      },
+      {
+        "name": "Kasumi (Venus Vacation)"
+      },
+      {
+        "name": "Marie Rose"
+      },
+      {
+        "name": "Misaki"
+      },
+      {
+        "name": "Monica"
+      },
+      {
+        "name": "Nagisa"
+      },
+      {
+        "name": "Nyotengu"
+      }
+    ],
+    "special": [
+      {
+        "title": "Tsukushi",
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน SP4",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_210026501-modified.png"
+      },
+      {
+        "title": "Patty",
+        "text": "สะสมแต้มกิจกรรม 10,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_210504576-modified.png"
+      },
+      {
+        "title": "Shizuku",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_210641701-modified.png",
+        "text": "เก็บแต้มกิจกรรม The Fox Spirit’s Retreat 1,000 แต้ม"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_211845098.png",
+        "text": "ทำภารกิจใช้น้ำมัน 5,000 หน่วย",
+        "title": "[Augment] Stollen"
+      },
+      {
+        "title": "[Augment] Shishamo Tempura",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212435570.png",
+        "text": "แลกจากร้านค้ากิจกรรม 3,000 points"
+      },
+      {
+        "text": "แลกจากร้านค้ากิจกรรม 3,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212515507.png",
+        "title": "[Augment] Chili Crab"
+      },
+      {
+        "title": "[Augment] Cup Ramen",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212648013.png",
+        "text": "แลกจากร้านค้ากิจกรรม 3,000 points"
+      },
+      {
+        "text": "อ่านเนื้อเรื่องกิจกรรมทั้งหมด",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212734094.png",
+        "title": "[Augment] Hamburger"
+      },
+      {
+        "title": "[Augment] Matcha Ice Cream",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212817616.png",
+        "text": "แลกจากร้านค้ากิจกรรม 3,000 points"
+      },
+      {
+        "title": "[Gear] Electrifying Deco-Pen",
+        "text": "สะสมแต้มกิจกรรม 8,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_204514099.png"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_204718749.png",
+        "text": "สะสมแต้มกิจกรรม 15,000 points",
+        "title": "[Gear] Gravure Photocard"
+      },
+      {
+        "title": "[Gear] Clover of Happiness",
+        "text": "แลกจากร้านค้ากิจกรรม 2,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_204832943.png"
+      },
+      {
+        "title": "Beachside Brilliance Commemoration",
+        "text": "ผ่านด่านกิจกรรม SP4",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_205245574.png"
+      },
+      null,
+      {
+        "title": "ของรางวัลในส่วนของกิจกรรม Rerun วันที่ 23"
+      },
+      null,
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/MisakiChibi.png",
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน SP4",
+        "title": "Misaki"
+      },
+      {
+        "title": "Nyotengu",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/NyotenguChibi.png",
+        "text": "สะสมแต้มกิจกรรม X,000 points"
+      },
+      {
+        "title": "[Augment] Cream Puff",
+        "text": "แลกจากร้านค้ากิจกรรม 3,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10840.png"
+      },
+      {
+        "title": "[Augment] Strawberry Mille-Feuille",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10860.png",
+        "text": "สะสมแต้มกิจกรรม X,000 points"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10980.png",
+        "text": "เล่นกิจกรรม Butt Battle",
+        "title": "[Augment] Roasted Sweet Potato"
+      },
+      {
+        "title": "[Augment] Prinsesstårta",
+        "text": "ทำภารกิจใช้น้ำมัน 5,000 หน่วย",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10820.png"
+      },
+      {
+        "title": "[Augment] Mango Vanilla Crepe",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10880.png",
+        "text": "แลกจากร้านค้ากิจกรรม 3,000 points"
+      },
+      {
+        "title": "[Augment] Macaroon",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10960.png",
+        "text": "เล่นกิจกรรม Butt Battle"
+      },
+      {
+        "text": "แลกจากร้านค้ากิจกรรม 3,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10940.png",
+        "title": "[Augment] Papanasi"
+      },
+      {
+        "title": "[Augment] Souffle Pancake",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10900.png",
+        "text": "ผ่านด่านกิจกรรม 60 ครั้ง"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10920.png",
+        "text": "สะสมแต้มกิจกรรม X,000 points",
+        "title": "[Augment] Manjuu Bun"
+      },
+      {
+        "text": "เล่นกิจกรรม Volleyball Scrimmage",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/89240.png",
+        "title": "[Gear] Awakening Pearl"
+      },
+      {
+        "title": "[Gear] Heart Key",
+        "text": "สะสมแต้มกิจกรรม X,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/89260.png"
+      },
+      {
+        "title": "Venus Vacation Statue",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/100px-FurnIcon_doadalaoicon.png",
+        "text": "สะสม Merchandise ทั้งหมดในกิจกรรม"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/96px-Venus_Exchange_Ticket.png",
+        "text": "แลกจากร้านค้ากิจกรรม 15,000 points",
+        "title": "Venus Exchange Ticket"
+      }
+    ],
+    "noteV2": {
+      "summary": [
+        {
+          "desc": "มี Skip เรียน Skill วันละ 10 รอบอย่าลืมใช้ทุกวัน"
+        },
+        {
+          "desc": "ห้ามลืมเก็บ Augment ทั้ง 15 ชิ้น"
+        }
+      ],
+      "beginner": [
+        {
+          "desc": "Venus Exchange Ticket สามารถแลกเรือได้ฟรี 1 ลำ",
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_214457627.png"
+        }
+      ],
+      "veteran": []
+    },
+    "lore": [
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/Vacation_Lane_-_Beachside_Brilliance_lore.jpg"
+      }
+    ],
+    "id": "Vacation Lane – Beachside Brilliance"
   },
   {
     "guide": "",

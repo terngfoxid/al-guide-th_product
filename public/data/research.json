@@ -310,11 +310,7 @@
     "serie_number": 4,
     "ship": [
       {
-        "blob": "https://azurlane.netojuu.com/images/a/aa/Anchorage.png",
-        "unlock": "มี Tech ของ Eagle Union 850 points",
-        "faction_short": "USS",
         "name": "Anchorage",
-        "type": "CA",
         "quest": [
           "เก็บ 1 ล้าน Exp ด้วยกองหน้าของ Eagle Union",
           "ทำ 5 project ใน Research Academy",
@@ -324,14 +320,17 @@
           "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 5 ใบ",
           "จ่ายเงิน 20,000 coins",
           "นำ Cube มาส่ง 5 ก้อน"
-        ]
+        ],
+        "unlock": "มี Tech ของ Eagle Union 850 points",
+        "blob": "https://azurlane.netojuu.com/images/a/aa/Anchorage.png",
+        "faction_short": "USS",
+        "type": "CA"
       },
       {
+        "type": "CV",
+        "faction_short": "IJN",
         "blob": "https://azurlane.netojuu.com/images/7/7b/Hakuryuu.png",
         "unlock": "มี Tech ของ Sakura Empire 950 points",
-        "faction_short": "IJN",
-        "name": "Hakuryuu",
-        "type": "CV",
         "quest": [
           "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Sakura Empire",
           "ทำ 8 project ใน Research Academy",
@@ -341,14 +340,11 @@
           "นำแปลน Retrofit Carrier T3 (สีทอง) มาส่ง 8 ใบ",
           "จ่ายเงิน 50,000 coins",
           "นำ Cube มาส่ง 10 ก้อน"
-        ]
+        ],
+        "name": "Hakuryuu"
       },
       {
-        "unlock": "มี Tech ของ Iron Blood 700 points",
-        "blob": "https://azurlane.netojuu.com/images/f/fe/Ägir.png",
-        "faction_short": "KMS",
-        "name": "Agir",
-        "type": "CB",
+        "name": "Ägir",
         "quest": [
           "เก็บ 1.2 ล้าน Exp ด้วยกองหลังของ Iron Blood",
           "ทำ 8 project ใน Research Academy",
@@ -358,14 +354,17 @@
           "นำแปลน Retrofit Cruiser T3 (สีทอง) มาส่ง 8 ใบ",
           "จ่ายเงิน 50,000 coins",
           "นำ Cube มาส่ง 10 ก้อน"
-        ]
+        ],
+        "unlock": "มี Tech ของ Iron Blood 700 points",
+        "faction_short": "KMS",
+        "blob": "https://azurlane.netojuu.com/images/f/fe/Ägir.png",
+        "type": "CB"
       },
       {
-        "unlock": "มี Tech ของ Iron Blood 600 points",
         "blob": "https://azurlane.netojuu.com/images/d/d8/August_von_Parseval.png",
         "faction_short": "KMS",
-        "name": "August von Parseval",
         "type": "CV",
+        "name": "August von Parseval",
         "quest": [
           "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Iron Blood",
           "ทำ 5 project ใน Research Academy",
@@ -375,14 +374,15 @@
           "นำแปลน Retrofit Carrier T3 (สีทอง) มาส่ง 5 ใบ",
           "จ่ายเงิน 30,000 coins",
           "นำ Cube มาส่ง 5 ก้อน"
-        ]
+        ],
+        "unlock": "มี Tech ของ Iron Blood 600 points"
       },
       {
-        "blob": "https://azurlane.netojuu.com/images/a/a0/Marco_Polo.png",
-        "unlock": "มี Tech ของ Iron Blood 600 points และ Royal Navy 700 points",
         "faction_short": "RN",
-        "name": "Marco Polo",
+        "blob": "https://azurlane.netojuu.com/images/a/a0/Marco_Polo.png",
         "type": "BB",
+        "name": "Marco Polo",
+        "unlock": "มี Tech ของ Iron Blood 600 points และ Royal Navy 700 points",
         "quest": [
           "เก็บ 1 ล้าน Exp ด้วยกองหลังของ Iron Blood หรือ Sardegna Empire",
           "ทำ 5 project ใน Research Academy",

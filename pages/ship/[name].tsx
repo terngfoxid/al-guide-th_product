@@ -16,12 +16,14 @@ import { FaBookBookmark } from "react-icons/fa6";
 import { GiAtom, GiGearStickPattern } from "react-icons/gi";
 import { LuAppWindowMac } from "react-icons/lu";
 import { BsBookmarkStar } from "react-icons/bs";
+import ShipInGrid from "@/components/ship/shipingrid";
 
 export default function Ship() {
     const router = useRouter();
     const { name } = router.query;
 
     const [ship, setShip] = useState<ShipV2>()
+    const [shipSameClass, setShipSameClass] = useState<ShipV2[]>([])
     const [shipPR, setShipPR] = useState<IPRShip>()
     const [dataMode, setDataMode] = useState<"Normal" | "Retrofit" | "Fatesim" | "Gear">("Normal")
 
@@ -49,54 +51,81 @@ export default function Ship() {
                     else {
                         res.json().then((loaddata: ShipV2) => {
                             setShip(loaddata);
-                            if (!loaddata.rarity.includes("PR") && !loaddata.rarity.includes("DR")) {
-                                hideLoading()
-                            }
-                            else {
-                                fetch("/api/v2/research").then(
-                                    res => {
-                                        if (!res.ok) {
-                                            hideLoading()
-                                            openErrorDialog({
-                                                title: "เกิดข้อผิดพลาด " + res.status,
-                                                message: "โหลดข้อมูลไม่สำเร็จ",
-                                                onClose: () => { }
-                                            })
-                                        }
-                                        else {
-                                            res.json().then((prAllData: IPRSerie[]) => {
-                                                let target: IPRShip | undefined = undefined
-                                                prAllData.forEach(prSerie => {
-                                                    if (target === undefined) {
-                                                        const findShip = prSerie.ship.find(ship => (ship.name.toLowerCase() === (name as string).toLowerCase()))
-                                                        if (findShip) target = findShip
-                                                    }
-                                                })
-                                                if (target) {
-                                                    setShipPR(target)
-                                                }
-                                                hideLoading()
-                                            }).catch((err) => {
-                                                hideLoading()
-                                                openErrorDialog({
-                                                    title: "เกิดข้อผิดพลาด",
-                                                    message: err as any,
-                                                    onClose: () => { }
-                                                })
-                                                console.error(err);
-                                            })
-                                        }
-                                    }
-                                ).catch((err) => {
+                            fetch("/api/v2/ship").then(allShipRes => {
+                                if (!allShipRes.ok) {
                                     hideLoading()
                                     openErrorDialog({
-                                        title: "เกิดข้อผิดพลาด",
-                                        message: err as any,
+                                        title: "เกิดข้อผิดพลาด " + res.status,
+                                        message: "โหลดข้อมูลไม่สำเร็จ",
                                         onClose: () => { }
                                     })
-                                    console.error(err);
+                                }
+                                else {
+                                    allShipRes.json().then((allShip: ShipV2[]) => {
+                                        const sameClass = allShip.filter(oneShip => oneShip.class.some(classShip => loaddata.class.includes(classShip)) && (loaddata.name !== oneShip.name))
+                                        if (sameClass.length > 0) {
+                                            setShipSameClass(sameClass)
+                                        }
+                                    })
+                                }
+
+                                if (!loaddata.rarity.includes("PR") && !loaddata.rarity.includes("DR")) {
+                                    hideLoading()
+                                }
+                                else {
+                                    fetch("/api/v2/research").then(
+                                        res => {
+                                            if (!res.ok) {
+                                                hideLoading()
+                                                openErrorDialog({
+                                                    title: "เกิดข้อผิดพลาด " + res.status,
+                                                    message: "โหลดข้อมูลไม่สำเร็จ",
+                                                    onClose: () => { }
+                                                })
+                                            }
+                                            else {
+                                                res.json().then((prAllData: IPRSerie[]) => {
+                                                    let target: IPRShip | undefined = undefined
+                                                    prAllData.forEach(prSerie => {
+                                                        if (target === undefined) {
+                                                            const findShip = prSerie.ship.find(ship => (ship.name.toLowerCase() === (name as string).toLowerCase()))
+                                                            if (findShip) target = findShip
+                                                        }
+                                                    })
+                                                    if (target) {
+                                                        setShipPR(target)
+                                                    }
+                                                    hideLoading()
+                                                }).catch((err) => {
+                                                    hideLoading()
+                                                    openErrorDialog({
+                                                        title: "เกิดข้อผิดพลาด",
+                                                        message: err as any,
+                                                        onClose: () => { }
+                                                    })
+                                                    console.error(err);
+                                                })
+                                            }
+                                        }
+                                    ).catch((err) => {
+                                        hideLoading()
+                                        openErrorDialog({
+                                            title: "เกิดข้อผิดพลาด",
+                                            message: err as any,
+                                            onClose: () => { }
+                                        })
+                                        console.error(err);
+                                    })
+                                }
+                            }).catch((err) => {
+                                hideLoading()
+                                openErrorDialog({
+                                    title: "เกิดข้อผิดพลาด",
+                                    message: err as any,
+                                    onClose: () => { }
                                 })
-                            }
+                                console.error(err);
+                            })
 
                         }).catch((err) => {
                             hideLoading()
@@ -131,7 +160,26 @@ export default function Ship() {
 
     useEffect(() => {
         if (name) {
-            callAPI()
+            try {
+                //reset Page
+                setShip(undefined)
+                setShipSameClass([])
+                setDataMode("Normal")
+                setShipPR(undefined)
+                setNormalPage(1)
+                setRetrofitPage(1)
+                setFatesimPage(1)
+                setGearPage(1)
+                callAPI()
+            }
+            catch (err) {
+                openErrorDialog({
+                    title: "เกิดข้อผิดพลาด",
+                    message: err as any,
+                    onClose: () => { }
+                })
+                console.error(err);
+            }
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [name]);
@@ -158,6 +206,7 @@ export default function Ship() {
         </>
     }
 
+    console.log(shipSameClass)
     return (
         <>
             <Head>
@@ -211,9 +260,9 @@ export default function Ship() {
                         <div className="hidden xl:block mt-[1rem]">
                             {
                                 dataMode !== "Retrofit" ? <>
-                                    <img alt={ship.name+" Chibi"} src={ship.skins[0].chibi} className="mx-auto" />
+                                    <img alt={ship.name + " Chibi"} src={ship.skins[0].chibi} className="mx-auto" />
                                 </> : <>
-                                    <img alt={ship.name+" Chibi"} src={ship.skins.find((skin) => (skin.name === "Retrofit"))?.chibi} className="mx-auto" />
+                                    <img alt={ship.name + " Chibi"} src={ship.skins.find((skin) => (skin.name === "Retrofit"))?.chibi} className="mx-auto" />
                                 </>
                             }
                         </div>
@@ -224,7 +273,7 @@ export default function Ship() {
                                 onClick={() => {
                                     setDataMode("Normal")
                                 }}>
-                                <LuAppWindowMac color="#FFFFFF" size={24}/>
+                                <LuAppWindowMac color="#FFFFFF" size={24} />
                                 Normal
                             </button>
                             {
@@ -241,7 +290,7 @@ export default function Ship() {
                                     onClick={() => {
                                         setDataMode("Fatesim")
                                     }}>
-                                    <GiAtom color="#FFFFFF" size={24}/>
+                                    <GiAtom color="#FFFFFF" size={24} />
                                     Fate Simulation
                                 </button>
                             }
@@ -250,7 +299,7 @@ export default function Ship() {
                                     onClick={() => {
                                         setDataMode("Gear")
                                     }}>
-                                    <BsBookmarkStar color="#FFFFFF" size={20}/>
+                                    <BsBookmarkStar color="#FFFFFF" size={20} />
                                     Gear แนะนำ
                                 </button>
                             }
@@ -263,7 +312,7 @@ export default function Ship() {
                                         <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-md md:rounded-b-none md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}>
                                             <FaYoutube color="#FFFFFF" size={24} />
                                             คลิป Review
-                                        </button>   
+                                        </button>
                                     </a>
                                 </Link>
                             }
@@ -276,7 +325,7 @@ export default function Ship() {
                                         <button className={`bg-[#182D4D] hover:bg-[#2C528C] p-[0.3rem] lg:p-[0.6rem] text-[12px] lg:text-[16px] rounded-md md:rounded-b-none md:rounded-t-lg shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 !duration-300 flex items-center gap-[0.60rem] h-[45px] w-full md:w-max`}>
                                             <FaBookBookmark color="#FFFFFF" size={20} />
                                             ประวัติเรือ
-                                        </button>   
+                                        </button>
                                     </a>
                                 </Link>
                             }
@@ -285,27 +334,27 @@ export default function Ship() {
                             {
                                 dataMode === "Normal" ? <>
                                     {ship.skill_detail.skill.map((skill, index) => {
-                                        return <img key={skill} alt={ship.name+" Skill"} src={skill} className={`${index !== (normalPage - 1) ? "hidden" : ""} w-full duration-500 animate-slide-in-bottom`}>
+                                        return <img key={skill} alt={ship.name + " Skill"} src={skill} className={`${index !== (normalPage - 1) ? "hidden" : ""} w-full duration-500 animate-slide-in-bottom`}>
                                         </img>
                                     })}
                                 </> :
                                     dataMode === "Retrofit" ? <>
                                         {ship.skill_detail.retrofit.map((skill, index) => {
-                                            return <img key={skill} alt={ship.name+" Retrofit"} src={skill} className={`${index !== (retofitPage - 1) ? "hidden" : ""} w-full duration-500 animate-slide-in-bottom`}>
+                                            return <img key={skill} alt={ship.name + " Retrofit"} src={skill} className={`${index !== (retofitPage - 1) ? "hidden" : ""} w-full duration-500 animate-slide-in-bottom`}>
                                             </img>
                                         })}
                                     </>
                                         :
                                         dataMode === "Fatesim" ? <>
                                             {ship.skill_detail.fate_simulation.map((skill, index) => {
-                                                return <img key={skill} alt={ship.name+" Fate Simulation"} src={skill} className={`${index !== (fatesimPage - 1) ? "hidden" : ""} w-full duration-500 animate-slide-in-bottom`}>
+                                                return <img key={skill} alt={ship.name + " Fate Simulation"} src={skill} className={`${index !== (fatesimPage - 1) ? "hidden" : ""} w-full duration-500 animate-slide-in-bottom`}>
                                                 </img>
                                             })}
                                         </> :
                                             dataMode === "Gear" ? <>
                                                 {
                                                     ship.gear.map((gear, index) => {
-                                                        return <img key={gear} alt={ship.name+" Gear Recommend"} src={gear} className={`${index !== (fatesimPage - 1) ? "hidden" : ""} w-full duration-500 animate-slide-in-bottom`}>
+                                                        return <img key={gear} alt={ship.name + " Gear Recommend"} src={gear} className={`${index !== (fatesimPage - 1) ? "hidden" : ""} w-full duration-500 animate-slide-in-bottom`}>
                                                         </img>
                                                     })
                                                 }
@@ -339,6 +388,30 @@ export default function Ship() {
                         </div>
                     </div>
                 </div>
+                {
+                    (shipSameClass.length > 0) && <div className={`z-20 min-w-[100%] max-w-[100%] min-h-[50px] bg-[#305B9C] overflow-hidden shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 rounded-b-lg rounded-tr-lg rounded-tl-lg mt-[1rem]`}>
+                        {
+                            ship.class.map(thisShipClass => {
+                                if (shipSameClass.filter(shipInSameClass => shipInSameClass.class.includes(thisShipClass)).length > 0){
+                                    return <>
+                                    <h4 className="text-[1rem] md:text-[1.2rem] text-center text-white w-full pt-[0.75rem]">{thisShipClass} Class</h4>
+                                    <div className="px-1 grid justify-center grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-[0.5rem] md:gap-[1rem] mt-[1.5rem]">
+                                        {
+                                            shipSameClass.filter(shipInSameClass => shipInSameClass.class.includes(thisShipClass)).map(
+                                                classFilterShip => {
+                                                    return <div key={ship.name+"_"+thisShipClass} className={"w-full h-full duration-500 animate-slide-in-bottom"}>
+                                                        <ShipInGrid ship={classFilterShip} />
+                                                    </div>
+                                                }
+                                            )
+                                        }
+                                    </div>
+                                </>
+                                }
+                            })
+                        }
+                    </div>
+                }
                 {
                     shipPR && <div className="mt-[1rem] rounded-lg overflow-hidden w-full shadow-[0_0_5px_2px_rgba(0,150,255,0.85)]">
                         <div className="bg-no-repeat bg-center bg-cover overflow-hidden bg-[url('/images/MainTwilightBG.webp')]">
@@ -396,7 +469,7 @@ export default function Ship() {
                                     (ship.aoa.length > 0) && <div className="w-full h-full">
                                         <h4 className="text-center mt-[0.5rem] lg:mt-[1rem] text-[24px] lg:text-[36px] whitespace-nowrap">All Out Assault</h4>
                                         <div className="grid grid-col-1 gap-[2rem]">
-                                            {ship.aoa.map((aoa,index) => {
+                                            {ship.aoa.map((aoa, index) => {
                                                 return <div key={index} className="w-full h-full grid grid-col-1 gap-[0.5rem]">
                                                     <div className="flex justify-center">
                                                         {aoa.image && <>
@@ -404,7 +477,7 @@ export default function Ship() {
                                                                 aoa.image.includes(".mp4") ? <video className="max-w-11/12 w-[900px]" autoPlay loop muted>
                                                                     <source src={aoa.image} type="video/mp4" />
                                                                 </video> :
-                                                                    <img alt={ship.name+" All Out Assault"} src={aoa.image}></img>
+                                                                    <img alt={ship.name + " All Out Assault"} src={aoa.image}></img>
                                                             }
                                                         </>}
                                                     </div>
@@ -422,7 +495,7 @@ export default function Ship() {
                                     (ship.note_skill.length > 0) && <div className="w-full h-full">
                                         <h4 className="text-center mt-[0.5rem] lg:mt-[1rem] text-[24px] lg:text-[36px] whitespace-nowrap">Skill Note</h4>
                                         <div className="grid grid-col-1 gap-[2rem]">
-                                            {ship.note_skill.map((skill,index) => {
+                                            {ship.note_skill.map((skill, index) => {
                                                 return <div key={index} className="w-full h-full grid grid-col-1 gap-[0.5rem]">
                                                     <div className="flex justify-center">
                                                         {skill.image && <>
@@ -430,7 +503,7 @@ export default function Ship() {
                                                                 skill.image.includes(".mp4") ? <video className="max-w-11/12 w-[900px]" autoPlay loop muted>
                                                                     <source src={skill.image} type="video/mp4" />
                                                                 </video> :
-                                                                    <img alt={ship.name+" Skill"} src={skill.image}></img>
+                                                                    <img alt={ship.name + " Skill"} src={skill.image}></img>
                                                             }
                                                         </>}
                                                     </div>
@@ -448,7 +521,7 @@ export default function Ship() {
                                     (ship.note.length > 0) && <div className="w-full h-full">
                                         <h4 className="text-center mt-[0.5rem] lg:mt-[1rem] text-[24px] lg:text-[36px] whitespace-nowrap">Player Note</h4>
                                         <div className="grid grid-col-1 gap-[2rem]">
-                                            {ship.note.map((note,index) => {
+                                            {ship.note.map((note, index) => {
                                                 return <div key={index} className="w-full h-full grid grid-col-1 gap-[0.5rem]">
                                                     <div className="flex justify-center">
                                                         {note.image && <>
@@ -456,7 +529,7 @@ export default function Ship() {
                                                                 note.image.includes(".mp4") ? <video className="max-w-11/12 w-[900px]" autoPlay loop muted>
                                                                     <source src={note.image} type="video/mp4" />
                                                                 </video> :
-                                                                    <img alt={ship.name+" Note"} src={note.image}></img>
+                                                                    <img alt={ship.name + " Note"} src={note.image}></img>
                                                             }
                                                         </>}
                                                     </div>

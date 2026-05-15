@@ -1,7 +1,6 @@
 [
   {
     "name": "Admiral Hipper",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -36,6 +35,9 @@
         "name": "Sunshine by the Hot Spring",
         "image": "https://azurlane.netojuu.com/images/4/45/Admiral_HipperFestival.png"
       }
+    ],
+    "class": [
+      "Admiral Hipper"
     ],
     "id": "admiral hipper"
   },
@@ -76,7 +78,6 @@
   },
   {
     "name": "Admiral Nakhimov",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -119,11 +120,13 @@
         "name": "Cheerleading Mechanic?"
       }
     ],
+    "class": [
+      "Admiral Nakhimov"
+    ],
     "id": "admiral nakhimov"
   },
   {
     "name": "Admiral Zenker",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -158,11 +161,13 @@
         "name": "Fun with…Interrogations?"
       }
     ],
+    "class": [
+      "Admiral Zenker"
+    ],
     "id": "admiral zenker"
   },
   {
     "name": "Adventure",
-    "class": [],
     "type": [
       "IX(S)"
     ],
@@ -198,11 +203,13 @@
         "image": "https://azurlane.netojuu.com/images/0/0c/AdventureRPG.png"
       }
     ],
+    "class": [
+      "Adventure"
+    ],
     "id": "adventure"
   },
   {
     "name": "Adventure Galley",
-    "class": [],
     "type": [
       "IX(V)"
     ],
@@ -248,11 +255,50 @@
         "name": "Carnival Under the Blood Moon"
       }
     ],
+    "class": [
+      "Adventure Galley"
+    ],
     "id": "adventure galley"
   },
   {
+    "name": "Agano",
+    "rarity": [
+      "E"
+    ],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "skins": [
+      {
+        "name": "Agano",
+        "image": "https://als.mrlar.dev/full/aheye.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/aheye.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/aheye (1).webp"
+      }
+    ],
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "faction": {
+      "full": "Sakura Empire",
+      "short": "IJN"
+    },
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Agano.png"
+      ]
+    },
+    "class": [
+      "Agano"
+    ],
+    "id": "agano"
+  },
+  {
     "name": "Akagi",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -308,11 +354,13 @@
         "name": "Precipice of Sweetness"
       }
     ],
+    "class": [
+      "Akagi"
+    ],
     "id": "akagi"
   },
   {
     "name": "Akagi µ",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -358,6 +406,9 @@
         "name": "Akagi µ",
         "profile": "https://ez-upload.al-guide-th.com/api/download/chicheng_idol.webp"
       }
+    ],
+    "class": [
+      "Akagi"
     ],
     "id": "akagi µ"
   },
@@ -416,7 +467,6 @@
   },
   {
     "name": "Akashi",
-    "class": [],
     "type": [
       "AR"
     ],
@@ -467,11 +517,51 @@
         "image": "https://azurlane.netojuu.com/images/2/24/AkashiSofmap.png"
       }
     ],
+    "class": [
+      "Akashi"
+    ],
     "id": "akashi"
   },
   {
+    "name": "Akatsuki",
+    "rarity": [
+      "R"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Akatsuki",
+        "image": "https://als.mrlar.dev/full/xiao.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/xiao.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/xiao (1).webp"
+      }
+    ],
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Akatsuki.png"
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "class": [
+      "Fubuki",
+      "Akatsuki"
+    ],
+    "id": "akatsuki"
+  },
+  {
     "name": "Alabama",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -511,6 +601,9 @@
         "image": "https://azurlane.netojuu.com/images/5/5d/AlabamaSpring.png"
       }
     ],
+    "class": [
+      "South Dakota"
+    ],
     "id": "alabama"
   },
   {
@@ -518,7 +611,6 @@
     "rarity": [
       "E"
     ],
-    "class": [],
     "type": [
       "CL"
     ],
@@ -546,11 +638,13 @@
         "https://ez-upload.al-guide-th.com/api/download/RN Alberto di Giussano.png"
       ]
     },
+    "class": [
+      "Giussano"
+    ],
     "id": "alberto di giussano"
   },
   {
     "name": "Albion",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -598,11 +692,13 @@
         "image": "https://azurlane.netojuu.com/images/5/5a/AlbionHome_Relaxation.png"
       }
     ],
+    "class": [
+      "Centaur"
+    ],
     "id": "albion"
   },
   {
     "name": "Alfredo Oriani",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -641,11 +737,13 @@
         "name": "Vivacious Vivace"
       }
     ],
+    "class": [
+      "Alfredo Oriani"
+    ],
     "id": "alfredo oriani"
   },
   {
     "name": "Algérie",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -695,6 +793,9 @@
         "image": "https://azurlane.netojuu.com/images/b/b4/AlgérieFairy_Tale.png",
         "name": "Red Queen's Decree"
       }
+    ],
+    "class": [
+      "Algérie"
     ],
     "id": "algérie"
   },
@@ -749,7 +850,6 @@
   },
   {
     "name": "Allen M. Sumner",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -796,11 +896,13 @@
         "image": "https://azurlane.netojuu.com/images/8/84/Allen_M._SumnerSpecial_Exercise.png"
       }
     ],
+    "class": [
+      "Allen M. Sumner"
+    ],
     "id": "allen m. sumner"
   },
   {
     "name": "Alsace",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -855,11 +957,13 @@
         "image": "https://azurlane.netojuu.com/images/1/17/AlsaceNinja.png"
       }
     ],
+    "class": [
+      "Alsace"
+    ],
     "id": "alsace"
   },
   {
     "name": "Alvitr",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -894,11 +998,13 @@
         "name": "Muspel's Torrid Secrets"
       }
     ],
+    "class": [
+      "O"
+    ],
     "id": "alvitr"
   },
   {
     "name": "Amagi",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -942,11 +1048,13 @@
         "name": "Red Kite Respite"
       }
     ],
+    "class": [
+      "Amagi"
+    ],
     "id": "amagi"
   },
   {
     "name": "Amagi(CV)",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -988,11 +1096,13 @@
         "name": "Moonlit Blossom on Placid Seas"
       }
     ],
+    "class": [
+      "Amagi(CV)"
+    ],
     "id": "amagi(cv)"
   },
   {
     "name": "Amagi-chan",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -1029,6 +1139,9 @@
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Amagi-chanChibi.png",
         "profile": "https://ez-upload.al-guide-th.com/api/download/tiancheng_younv.webp"
       }
+    ],
+    "class": [
+      "Amagi"
     ],
     "id": "amagi-chan"
   },
@@ -1077,7 +1190,6 @@
   },
   {
     "name": "Amity",
-    "class": [],
     "type": [
       "IX(S)"
     ],
@@ -1113,11 +1225,13 @@
         "name": "Friendly Franken"
       }
     ],
+    "class": [
+      "Amity"
+    ],
     "id": "amity"
   },
   {
     "name": "An Shan",
-    "class": [],
     "type": [
       "DD",
       "DDG"
@@ -1174,11 +1288,13 @@
         "image": "https://azurlane.netojuu.com/images/7/70/An_ShanSchool.png"
       }
     ],
+    "class": [
+      "An Shan"
+    ],
     "id": "an shan"
   },
   {
     "name": "Anchorage",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -1241,11 +1357,13 @@
         "image": "https://azurlane.netojuu.com/images/1/19/AnchorageHome_Relaxation.png"
       }
     ],
+    "class": [
+      "Anchorage"
+    ],
     "id": "anchorage"
   },
   {
     "name": "Andrea Doria",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -1279,6 +1397,9 @@
         "name": "Have a Safe Flight",
         "image": "https://azurlane.netojuu.com/images/f/f6/Andrea_DoriaWork.png"
       }
+    ],
+    "class": [
+      "Andrea Doria"
     ],
     "id": "andrea doria"
   },
@@ -1319,7 +1440,6 @@
   },
   {
     "name": "Aquila",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -1364,11 +1484,50 @@
         "image": "https://azurlane.netojuu.com/images/9/95/AquilaParty.png"
       }
     ],
+    "class": [
+      "Aquila"
+    ],
     "id": "aquila"
   },
   {
+    "name": "Arashio",
+    "rarity": [
+      "R"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Arashio",
+        "image": "https://als.mrlar.dev/full/huangchao.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/huangchao.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/huangchao (1).webp"
+      }
+    ],
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Arashio.png"
+      ]
+    },
+    "class": [
+      "Asashio"
+    ],
+    "id": "arashio"
+  },
+  {
     "name": "Archerfish",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -1415,11 +1574,13 @@
         "image": "https://azurlane.netojuu.com/images/c/cb/ArcherfishSchool.png"
       }
     ],
+    "class": [
+      "Balao"
+    ],
     "id": "archerfish"
   },
   {
     "name": "Argus",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -1464,7 +1625,56 @@
         "name": "Cerulean Enthrallment"
       }
     ],
+    "class": [
+      "Argus"
+    ],
     "id": "argus"
+  },
+  {
+    "name": "Ariake",
+    "rarity": [
+      "R",
+      "E"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Ariake",
+        "image": "https://als.mrlar.dev/full/youming.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/youming.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/youming (1).webp"
+      },
+      {
+        "name": "Retrofit",
+        "image": "https://als.mrlar.dev/full/youming_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/youming_g.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/youming_g (1).webp"
+      }
+    ],
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "retrofit": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Ariake Retrofit.png"
+      ],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Ariake.png"
+      ],
+      "fate_simulation": []
+    },
+    "class": [
+      "Hatsuharu"
+    ],
+    "id": "ariake"
   },
   {
     "name": "Arizona META",
@@ -1521,7 +1731,6 @@
   },
   {
     "name": "Ark Royal",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -1598,6 +1807,9 @@
         "name": "Order Amidst Amusement"
       }
     ],
+    "class": [
+      "Ark Royal"
+    ],
     "id": "ark royal"
   },
   {
@@ -1658,7 +1870,6 @@
   },
   {
     "name": "Arkhangelsk",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -1701,11 +1912,13 @@
         "image": "https://azurlane.netojuu.com/images/5/5b/ArkhangelskRPG.png"
       }
     ],
+    "class": [
+      "Revenge"
+    ],
     "id": "arkhangelsk"
   },
   {
     "name": "Asama",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -1740,11 +1953,13 @@
         "image": "https://azurlane.netojuu.com/images/1/1e/AsamaNinja.png"
       }
     ],
+    "class": [
+      "Ibuki"
+    ],
     "id": "asama"
   },
   {
     "name": "Asanagi",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -1789,11 +2004,13 @@
         "name": "Lulled by Rough Seas"
       }
     ],
+    "class": [
+      "Kamikaze"
+    ],
     "id": "asanagi"
   },
   {
     "name": "Asashio",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -1840,11 +2057,13 @@
         "image": "https://azurlane.netojuu.com/images/f/f0/AsashioSpring.png"
       }
     ],
+    "class": [
+      "Asashio"
+    ],
     "id": "asashio"
   },
   {
     "name": "Ashigara",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -1891,11 +2110,13 @@
         "image": "https://azurlane.netojuu.com/images/d/d3/AshigaraSummer.png"
       }
     ],
+    "class": [
+      "Myoukou"
+    ],
     "id": "ashigara"
   },
   {
     "name": "Astoria",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -1914,7 +2135,6 @@
     "aoa": [],
     "note_skill": [],
     "note": [],
-    "augment": "New Unique Modules",
     "gear": [],
     "rarity": [
       "E"
@@ -1934,6 +2154,10 @@
         "name": "Black Bunny Carnival",
         "image": "https://azurlane.netojuu.com/images/b/b1/AstoriaBunny.png"
       }
+    ],
+    "augment": "Unique Modules",
+    "class": [
+      "New Orleans"
     ],
     "id": "astoria"
   },
@@ -1982,7 +2206,6 @@
   },
   {
     "name": "Atago",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -2042,11 +2265,13 @@
         "image": "https://azurlane.netojuu.com/images/a/af/AtagoHalloween.png"
       }
     ],
+    "class": [
+      "Takao"
+    ],
     "id": "atago"
   },
   {
     "name": "Attilio Regolo",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -2094,11 +2319,13 @@
         "name": "Angel from Above"
       }
     ],
+    "class": [
+      "Capitani Romani"
+    ],
     "id": "attilio regolo"
   },
   {
     "name": "August von Parseval",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -2106,15 +2333,6 @@
     "faction": {
       "short": "KMS",
       "full": "Iron Blood"
-    },
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/KMS%20Auguts%20von%20Parseval.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": [
-        "https://ez-upload.al-guide-th.com/api/download/KMS%20August%20von%20Parseval%20FateSim.png"
-      ]
     },
     "aoa": [],
     "note_skill": [
@@ -2144,11 +2362,69 @@
         "image": "https://azurlane.netojuu.com/images/7/70/August_von_ParsevalHome_Relaxation.png"
       }
     ],
+    "skill_detail": {
+      "retrofit": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/KMS August von Parseval.png"
+      ],
+      "fate_simulation": [
+        "https://ez-upload.al-guide-th.com/api/download/KMS August von Parseval FateSimulation.png"
+      ]
+    },
+    "class": [
+      "August von Parseval"
+    ],
     "id": "august von parseval"
   },
   {
+    "name": "Ayanami",
+    "rarity": [
+      "E",
+      "SR"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Ayanami",
+        "image": "https://als.mrlar.dev/full/lingbo.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/lingbo.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/lingbo (1).webp"
+      },
+      {
+        "name": "Retrofit",
+        "image": "https://als.mrlar.dev/full/lingbo_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/lingbo_g.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/lingbo_g (1).webp"
+      }
+    ],
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "retrofit": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Ayanami Retrofit.png"
+      ],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Ayanami.png"
+      ],
+      "fate_simulation": []
+    },
+    "class": [
+      "Fubuki",
+      "Ayanami"
+    ],
+    "id": "ayanami"
+  },
+  {
     "name": "Ayase",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -2183,11 +2459,13 @@
         "name": "A Glimpse of the Moon Rabbit"
       }
     ],
+    "class": [
+      "Sendai"
+    ],
     "id": "ayase"
   },
   {
     "name": "Aylwin",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -2226,11 +2504,13 @@
         "image": "https://azurlane.netojuu.com/images/e/ee/AylwinCasual.png"
       }
     ],
+    "class": [
+      "Farragut"
+    ],
     "id": "aylwin"
   },
   {
     "name": "Azuma",
-    "class": [],
     "type": [
       "CB"
     ],
@@ -2238,15 +2518,6 @@
     "faction": {
       "short": "IJN",
       "full": "Sakura Empire"
-    },
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/IJN%20Azuma.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": [
-        "https://ez-upload.al-guide-th.com/api/download/IJN%20Azuma%20FateSim.png"
-      ]
     },
     "aoa": [
       {
@@ -2279,6 +2550,18 @@
         "name": "Career Counseling for the Groom",
         "image": "https://azurlane.netojuu.com/images/5/58/AzumaWork.png"
       }
+    ],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN%20Azuma.png"
+      ],
+      "retrofit": [],
+      "fate_simulation": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Azuma FateSimulation.png"
+      ]
+    },
+    "class": [
+      "Azuma"
     ],
     "id": "azuma"
   },
@@ -2368,7 +2651,6 @@
   },
   {
     "name": "Baltimore",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -2428,11 +2710,13 @@
         "name": "When the Breeze Blows"
       }
     ],
+    "class": [
+      "Baltimore"
+    ],
     "id": "baltimore"
   },
   {
     "name": "Bartolomeo Colleoni",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -2467,11 +2751,13 @@
         "image": "https://azurlane.netojuu.com/images/9/90/Bartolomeo_ColleoniNile_Colors.png"
       }
     ],
+    "class": [
+      "Giussano"
+    ],
     "id": "bartolomeo colleoni"
   },
   {
     "name": "Bataan",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -2510,11 +2796,13 @@
         "name": "Comfy Cotton Jammies"
       }
     ],
+    "class": [
+      "Independence"
+    ],
     "id": "bataan"
   },
   {
     "name": "Bayard",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -2549,11 +2837,13 @@
         "name": "The Most Treacherous Trial"
       }
     ],
+    "class": [
+      "Bayard"
+    ],
     "id": "bayard"
   },
   {
     "name": "Belfast",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -2621,11 +2911,14 @@
         "name": "Blissful Service"
       }
     ],
+    "class": [
+      "Town",
+      "Edinburgh"
+    ],
     "id": "belfast"
   },
   {
     "name": "Bell",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -2660,11 +2953,13 @@
         "image": "https://azurlane.netojuu.com/images/1/1a/BellWild_West.png"
       }
     ],
+    "class": [
+      "Fletcher"
+    ],
     "id": "bell"
   },
   {
     "name": "Bellona",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -2703,11 +2998,13 @@
         "name": "Armed to Clean"
       }
     ],
+    "class": [
+      "Dido"
+    ],
     "id": "bellona"
   },
   {
     "name": "Birmingham",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -2758,11 +3055,13 @@
         "image": "https://als.mrlar.dev/full/bominghan_5.webp"
       }
     ],
+    "class": [
+      "Cleveland"
+    ],
     "id": "birmingham"
   },
   {
     "name": "Bismarck",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -2814,11 +3113,13 @@
         "name": "Unpacked Surprise"
       }
     ],
+    "class": [
+      "Bismarck"
+    ],
     "id": "bismarck"
   },
   {
     "name": "Bismarck Zwei",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -2869,11 +3170,13 @@
         "name": "Bathed in Brightness and Spirit"
       }
     ],
+    "class": [
+      "Bismarck"
+    ],
     "id": "bismarck zwei"
   },
   {
     "name": "Bluegill",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -2912,11 +3215,13 @@
         "name": "Up-And-Coming Infielder"
       }
     ],
+    "class": [
+      "Gato"
+    ],
     "id": "bluegill"
   },
   {
     "name": "Blücher",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -2963,11 +3268,51 @@
         "image": "https://azurlane.netojuu.com/images/1/12/BlücherRPG.png"
       }
     ],
+    "class": [
+      "Admiral Hipper"
+    ],
     "id": "blücher"
   },
   {
+    "name": "Bogatyr",
+    "rarity": [
+      "E"
+    ],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "SN",
+      "full": "Northern Parliament"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/SN Bogatyr.png"
+      ]
+    },
+    "skins": [
+      {
+        "name": "Bogatyr",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/bojiateli.webp",
+        "image": "https://als.mrlar.dev/full/bojiateli.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/bojiateli (1).webp"
+      }
+    ],
+    "history": "https://docs.google.com/document/d/159UwS1nJAzcx5AhzLhzv9TeHw0ykc3JlYpG7x36vllw/edit?usp=sharing",
+    "class": [
+      "Bogatyr"
+    ],
+    "id": "bogatyr"
+  },
+  {
     "name": "Bogue",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -3019,11 +3364,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/boge_g (1).webp"
       }
     ],
+    "class": [
+      "Bogue"
+    ],
     "id": "bogue"
   },
   {
     "name": "Bois Belleau",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -3059,11 +3406,13 @@
       }
     ],
     "history": "https://docs.google.com/document/d/14oLYESoFv0TMf-7asXr3HKrwThPaXikV/edit?usp=sharing&ouid=117176816370068308043&rtpof=true&sd=true",
+    "class": [
+      "Independence"
+    ],
     "id": "bois belleau"
   },
   {
     "name": "Boise",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -3118,6 +3467,9 @@
         "name": "Flawed but Delectable"
       }
     ],
+    "class": [
+      "Brooklyn"
+    ],
     "id": "boise"
   },
   {
@@ -3155,7 +3507,6 @@
   },
   {
     "name": "Boise μ",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -3186,11 +3537,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/boyixi_idol.webp"
       }
     ],
+    "class": [
+      "Brooklyn"
+    ],
     "id": "boise μ"
   },
   {
     "name": "Bolzano",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -3237,6 +3590,9 @@
         "name": "A Special Night Just for Us"
       }
     ],
+    "class": [
+      "Bolzano"
+    ],
     "id": "bolzano"
   },
   {
@@ -3276,7 +3632,6 @@
   },
   {
     "name": "Bremerton",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -3339,11 +3694,13 @@
         "image": "https://azurlane.netojuu.com/images/0/07/BremertonTheme_Park.png"
       }
     ],
+    "class": [
+      "Baltimore"
+    ],
     "id": "bremerton"
   },
   {
     "name": "Brennus",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -3382,11 +3739,13 @@
         "image": "https://azurlane.netojuu.com/images/4/44/BrennusFestival.png"
       }
     ],
+    "class": [
+      "Saint Louis"
+    ],
     "id": "brennus"
   },
   {
     "name": "Brest",
-    "class": [],
     "type": [
       "CB"
     ],
@@ -3430,11 +3789,13 @@
         "name": "Moonlit Night’s Spring Vista"
       }
     ],
+    "class": [
+      "Brest"
+    ],
     "id": "brest"
   },
   {
     "name": "Bristol",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -3481,11 +3842,13 @@
         "name": "\"Head\" Investigator"
       }
     ],
+    "class": [
+      "Allen M. Sumner"
+    ],
     "id": "bristol"
   },
   {
     "name": "Brünhilde",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -3524,11 +3887,13 @@
         "image": "https://azurlane.netojuu.com/images/c/c8/BrünhildeSport.png"
       }
     ],
+    "class": [
+      "O"
+    ],
     "id": "brünhilde"
   },
   {
     "name": "Bulldog",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -3566,11 +3931,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/dadouquan.webp"
       }
     ],
+    "class": [
+      "B"
+    ],
     "id": "bulldog"
   },
   {
     "name": "Béarn",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -3608,6 +3975,9 @@
         "name": "Summer Lifeguard",
         "image": "https://azurlane.netojuu.com/images/3/3c/BéarnSummer.png"
       }
+    ],
+    "class": [
+      "Béarn"
     ],
     "id": "béarn"
   },
@@ -3648,7 +4018,6 @@
   },
   {
     "name": "Carabiniere",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -3683,6 +4052,9 @@
         "image": "https://azurlane.netojuu.com/images/1/1b/Carabiniere.png",
         "name": "Refreshing Sundress"
       }
+    ],
+    "class": [
+      "Soldati"
     ],
     "id": "carabiniere"
   },
@@ -3721,7 +4093,6 @@
   },
   {
     "name": "Casablanca",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -3756,11 +4127,13 @@
         "image": "https://azurlane.netojuu.com/images/8/87/CasablancaSport.png"
       }
     ],
+    "class": [
+      "Casablanca"
+    ],
     "id": "casablanca"
   },
   {
     "name": "Cavalla",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -3807,11 +4180,13 @@
         "image": "https://azurlane.netojuu.com/images/6/62/CavallaParty.png"
       }
     ],
+    "class": [
+      "Gato"
+    ],
     "id": "cavalla"
   },
   {
     "name": "Centaur",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -3855,11 +4230,13 @@
         "image": "https://azurlane.netojuu.com/images/a/ae/CentaurSpring.png"
       }
     ],
+    "class": [
+      "Centaur"
+    ],
     "id": "centaur"
   },
   {
     "name": "Champagne",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -3909,11 +4286,13 @@
         "image": "https://azurlane.netojuu.com/images/6/69/ChampagneNew_Year.png"
       }
     ],
+    "class": [
+      "Champagne"
+    ],
     "id": "champagne"
   },
   {
     "name": "Chang Chun",
-    "class": [],
     "type": [
       "DD",
       "DDG"
@@ -3970,11 +4349,13 @@
         "image": "https://azurlane.netojuu.com/images/8/8c/Chang_ChunSpring2.png"
       }
     ],
+    "class": [
+      "An Shan"
+    ],
     "id": "chang chun"
   },
   {
     "name": "Chang Feng",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -4013,6 +4394,9 @@
         "name": "A Sky Blue Eclipsing Jade"
       }
     ],
+    "class": [
+      "Chang Feng"
+    ],
     "id": "chang feng"
   },
   {
@@ -4020,7 +4404,6 @@
     "rarity": [
       "SR"
     ],
-    "class": [],
     "type": [
       "CA"
     ],
@@ -4028,28 +4411,32 @@
     "faction": {
       "full": "Dragon Empery"
     },
-    "skins": [
-      {
-        "name": "Chang Wu",
-        "image": "",
-        "chibi": "",
-        "profile": ""
-      }
-    ],
-    "skill_detail": {
-      "skill": [],
-      "retrofit": [],
-      "fate_simulation": []
-    },
     "aoa": [],
     "note_skill": [],
     "note": [],
     "gear": [],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/ROC Chang Wu.png"
+      ]
+    },
+    "skins": [
+      {
+        "name": "Chang Wu",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/zhangwu (1).webp",
+        "image": "https://als.mrlar.dev/full/zhangwu.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/zhangwu.webp"
+      }
+    ],
+    "class": [
+      "Chang Wu"
+    ],
     "id": "chang wu"
   },
   {
     "name": "Chao Ho",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -4057,13 +4444,6 @@
     "faction": {
       "short": "ROC",
       "full": "Dragon Empery"
-    },
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/ROC Chao Ho.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": []
     },
     "aoa": [
       {
@@ -4079,39 +4459,51 @@
     "augment": "Unique Modules",
     "gear": [],
     "rarity": [
-      "E"
+      "E",
+      "SR"
     ],
     "skins": [
       {
-        "image": "https://azurlane.netojuu.com/images/e/ee/Chao_Ho.png",
         "name": "Chao Ho",
+        "image": "https://azurlane.netojuu.com/images/e/ee/Chao_Ho.png",
         "profile": "https://ez-upload.al-guide-th.com/api/download/zhaohe.webp",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Chao_HoChibi.png"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/6/6c/Chao_HoSpring.png",
-        "name": "Plum Blossom's Illumination"
+        "name": "Plum Blossom's Illumination",
+        "image": "https://azurlane.netojuu.com/images/6/6c/Chao_HoSpring.png"
       },
       {
-        "name": "Frolicking Flowers, Verse II",
-        "image": "https://azurlane.netojuu.com/images/a/a6/Chao_HoSpring2.png"
+        "image": "https://azurlane.netojuu.com/images/a/a6/Chao_HoSpring2.png",
+        "name": "Frolicking Flowers, Verse II"
       },
       {
         "name": "Azure Ripples, Shimmering Sun",
         "image": "https://azurlane.netojuu.com/images/b/bf/Chao_HoSummer.png"
       },
       {
-        "chibi": "",
-        "image": "",
-        "name": "Retrofit",
-        "profile": ""
+        "profile": "https://ez-upload.al-guide-th.com/api/download/zhaohe_g (1).webp",
+        "image": "https://als.mrlar.dev/full/zhaohe_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/zhaohe_g.webp",
+        "name": "Retrofit"
       }
+    ],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/ROC Chao Ho.png"
+      ],
+      "fate_simulation": [],
+      "retrofit": [
+        "https://ez-upload.al-guide-th.com/api/download/ROC Chao Ho Retrofit.png"
+      ]
+    },
+    "class": [
+      "Chao Ho"
     ],
     "id": "chao ho"
   },
   {
     "name": "Chapayev",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -4167,11 +4559,13 @@
         "image": "https://azurlane.netojuu.com/images/a/aa/ChapayevParty.png"
       }
     ],
+    "class": [
+      "Chapayev"
+    ],
     "id": "chapayev"
   },
   {
     "name": "Charles Ausburne",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -4220,11 +4614,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/aosiben_g (1).webp"
       }
     ],
+    "class": [
+      "Fletcher"
+    ],
     "id": "charles ausburne"
   },
   {
     "name": "Charybdis",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -4275,11 +4671,13 @@
         "image": "https://azurlane.netojuu.com/images/4/45/CharybdisSummer.png"
       }
     ],
+    "class": [
+      "Dido"
+    ],
     "id": "charybdis"
   },
   {
     "name": "Chen Hai",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -4339,11 +4737,13 @@
         "image": "https://azurlane.netojuu.com/images/b/b3/Chen_HaiSpring2.png"
       }
     ],
+    "class": [
+      "Chen Hai"
+    ],
     "id": "chen hai"
   },
   {
     "name": "Cheshire",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -4404,11 +4804,13 @@
         "name": "White Seaside Melody"
       }
     ],
+    "class": [
+      "Cheshire"
+    ],
     "id": "cheshire"
   },
   {
     "name": "Chi An",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -4447,11 +4849,13 @@
         "image": "https://azurlane.netojuu.com/images/0/0a/Chi_AnNile_Colors.png"
       }
     ],
+    "class": [
+      "Chi An"
+    ],
     "id": "chi an"
   },
   {
     "name": "Chien Wu",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -4485,6 +4889,9 @@
         "name": "Dressed for Just Tonight",
         "image": "https://azurlane.netojuu.com/images/4/4e/Chien_WuSpring.png"
       }
+    ],
+    "class": [
+      "Chien Wu"
     ],
     "id": "chien wu"
   },
@@ -4533,7 +4940,6 @@
   },
   {
     "name": "Chikuma",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -4575,6 +4981,9 @@
         "image": "https://azurlane.netojuu.com/images/0/01/ChikumaBunny.png",
         "name": "Premium Prize on the Table"
       }
+    ],
+    "class": [
+      "Tone"
     ],
     "id": "chikuma"
   },
@@ -4629,7 +5038,6 @@
   },
   {
     "name": "Chitose",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -4672,11 +5080,13 @@
         "image": "https://azurlane.netojuu.com/images/2/22/ChitoseSpring.png"
       }
     ],
+    "class": [
+      "Zuihou"
+    ],
     "id": "chitose"
   },
   {
     "name": "Chiyoda",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -4716,11 +5126,13 @@
         "name": "Shimmering Surf"
       }
     ],
+    "class": [
+      "Zuihou"
+    ],
     "id": "chiyoda"
   },
   {
     "name": "Chkalov",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -4764,11 +5176,13 @@
         "image": "https://azurlane.netojuu.com/images/6/63/ChkalovSummer.png"
       }
     ],
+    "class": [
+      "Chkalov"
+    ],
     "id": "chkalov"
   },
   {
     "name": "Choukai",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -4808,6 +5222,9 @@
         "name": "Tidy Store, Tidy Mind"
       }
     ],
+    "class": [
+      "Takao"
+    ],
     "id": "choukai"
   },
   {
@@ -4815,7 +5232,6 @@
     "rarity": [
       "E"
     ],
-    "class": [],
     "type": [
       "DD"
     ],
@@ -4847,11 +5263,13 @@
         "https://ez-upload.al-guide-th.com/api/download/USS Clarence K. Bronson.png"
       ]
     },
+    "class": [
+      "Fletcher"
+    ],
     "id": "clarence k. bronson"
   },
   {
     "name": "Clemenceau",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -4892,11 +5310,13 @@
         "image": "https://azurlane.netojuu.com/images/2/25/ClemenceauSport.png"
       }
     ],
+    "class": [
+      "Richelieu"
+    ],
     "id": "clemenceau"
   },
   {
     "name": "Cleopatra",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -4930,6 +5350,9 @@
         "image": "https://azurlane.netojuu.com/images/d/de/CleopatraSummer.png",
         "name": "Stars and Roses"
       }
+    ],
+    "class": [
+      "Dido"
     ],
     "id": "cleopatra"
   },
@@ -4970,7 +5393,6 @@
   },
   {
     "name": "Colorado",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -5018,11 +5440,13 @@
         "name": "Sunset Cavatina"
       }
     ],
+    "class": [
+      "Colorado"
+    ],
     "id": "colorado"
   },
   {
     "name": "Columbia",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -5062,11 +5486,13 @@
         "name": "Across the Vast Prairies"
       }
     ],
+    "class": [
+      "Cleveland"
+    ],
     "id": "columbia"
   },
   {
     "name": "Comet",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -5120,11 +5546,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/huixing_g (1).webp"
       }
     ],
+    "class": [
+      "C"
+    ],
     "id": "comet"
   },
   {
     "name": "Constellation",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -5164,11 +5592,13 @@
         "image": "https://azurlane.netojuu.com/images/4/4f/ConstellationBunny.png"
       }
     ],
-    "id": "constellation"
+    "id": "constellation",
+    "class": [
+      "Lexington"
+    ]
   },
   {
     "name": "Conte di Cavour",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -5213,11 +5643,13 @@
         "name": "Fierce Beachside Battle"
       }
     ],
+    "class": [
+      "Conte di Cavour"
+    ],
     "id": "conte di cavour"
   },
   {
     "name": "Cooper",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -5264,6 +5696,9 @@
         "image": "https://azurlane.netojuu.com/images/2/25/CooperChristmas.png"
       }
     ],
+    "class": [
+      "Allen M. Sumner"
+    ],
     "id": "cooper"
   },
   {
@@ -5271,7 +5706,6 @@
     "rarity": [
       "SR"
     ],
-    "class": [],
     "type": [
       "CV"
     ],
@@ -5303,11 +5737,13 @@
         "https://ez-upload.al-guide-th.com/api/download/USS Cowpens.png"
       ]
     },
+    "class": [
+      "Independence"
+    ],
     "id": "cowpens"
   },
   {
     "name": "Crescent",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -5343,11 +5779,13 @@
         "chibi": "https://ez-upload.al-guide-th.com/api/download/xinyue_g_chibi.webp"
       }
     ],
+    "class": [
+      "C"
+    ],
     "id": "crescent"
   },
   {
     "name": "Cygnet",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -5403,6 +5841,9 @@
         "name": "Royal Fanfare"
       }
     ],
+    "class": [
+      "C"
+    ],
     "id": "cygnet"
   },
   {
@@ -5448,7 +5889,6 @@
   },
   {
     "name": "Daisen",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -5456,13 +5896,6 @@
     "faction": {
       "short": "IJN",
       "full": "Sakura Empire"
-    },
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/IJN%20Daisen.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": []
     },
     "aoa": [],
     "note_skill": [],
@@ -5483,11 +5916,22 @@
         "image": "https://azurlane.netojuu.com/images/8/8b/DaisenBunny.png"
       }
     ],
+    "skill_detail": {
+      "fate_simulation": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Daisen FateSimulation.png"
+      ],
+      "retrofit": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN%20Daisen.png"
+      ]
+    },
+    "class": [
+      "Daisen"
+    ],
     "id": "daisen"
   },
   {
     "name": "De Zeven Provinciën",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -5522,11 +5966,13 @@
         "image": "https://azurlane.netojuu.com/images/8/8a/De_Zeven_ProvinciënHome_Relaxation.png"
       }
     ],
+    "class": [
+      "De Zeven Provinciën"
+    ],
     "id": "de zeven provinciën"
   },
   {
     "name": "Devonshire",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -5560,6 +6006,10 @@
         "name": "Sadistic Demon",
         "image": "https://azurlane.netojuu.com/images/3/31/DevonshireRPG.png"
       }
+    ],
+    "class": [
+      "County",
+      "London"
     ],
     "id": "devonshire"
   },
@@ -5598,7 +6048,6 @@
   },
   {
     "name": "Dido",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -5642,6 +6091,9 @@
         "image": "https://azurlane.netojuu.com/images/e/e3/DidoParty.png",
         "name": "Anxious Bisque Doll"
       }
+    ],
+    "class": [
+      "Dido"
     ],
     "id": "dido"
   },
@@ -5695,7 +6147,6 @@
   },
   {
     "name": "Dmitri Donskoi",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -5730,11 +6181,13 @@
         "image": "https://als.mrlar.dev/full/dimiteli_2.webp"
       }
     ],
+    "class": [
+      "Dmitri Donskoi"
+    ],
     "id": "dmitri donskoi"
   },
   {
     "name": "Dolphin",
-    "class": [],
     "type": [
       "IX(S)"
     ],
@@ -5770,11 +6223,13 @@
         "name": "Incantation of Revival"
       }
     ],
+    "class": [
+      "Dolphin"
+    ],
     "id": "dolphin"
   },
   {
     "name": "Drake",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -5821,11 +6276,13 @@
         "image": "https://azurlane.netojuu.com/images/b/ba/DrakeSummer.png"
       }
     ],
+    "class": [
+      "Drake"
+    ],
     "id": "drake"
   },
   {
     "name": "Duca degli Abruzzi",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -5872,11 +6329,13 @@
         "name": "Lustrous Onyx Sirenetta"
       }
     ],
+    "class": [
+      "Duca degli Abruzzi"
+    ],
     "id": "duca degli abruzzi"
   },
   {
     "name": "Duguay-Trouin",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -5911,11 +6370,13 @@
         "name": "Covetous Bathgoer"
       }
     ],
+    "class": [
+      "Duguay-Trouin"
+    ],
     "id": "duguay-trouin"
   },
   {
     "name": "Duisburg",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -5950,11 +6411,13 @@
         "name": "Endurance Training (Gone Wrong)"
       }
     ],
+    "class": [
+      "M (German)"
+    ],
     "id": "duisburg"
   },
   {
     "name": "Duke of York",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -6001,11 +6464,13 @@
         "name": "The Chic Counselor"
       }
     ],
+    "class": [
+      "King George V"
+    ],
     "id": "duke of york"
   },
   {
     "name": "Dunkerque",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -6049,6 +6514,9 @@
         "name": "Afternoon Venus"
       }
     ],
+    "class": [
+      "Dunkerque"
+    ],
     "id": "dunkerque"
   },
   {
@@ -6088,7 +6556,6 @@
   },
   {
     "name": "Dupleix",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -6123,11 +6590,13 @@
         "name": "Final Check"
       }
     ],
+    "class": [
+      "Suffren"
+    ],
     "id": "dupleix"
   },
   {
     "name": "Duquesne",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -6162,11 +6631,13 @@
         "name": "Wetness of a Crimson Night"
       }
     ],
+    "class": [
+      "Duquesne"
+    ],
     "id": "duquesne"
   },
   {
     "name": "Eagle",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -6208,11 +6679,13 @@
         "image": "https://azurlane.netojuu.com/images/7/72/EagleHospital.png"
       }
     ],
+    "class": [
+      "Eagle"
+    ],
     "id": "eagle"
   },
   {
     "name": "Edinburgh",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -6256,11 +6729,14 @@
         "name": "Candy Maid"
       }
     ],
+    "class": [
+      "Town",
+      "Edinburgh"
+    ],
     "id": "edinburgh"
   },
   {
     "name": "Elbe",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -6303,11 +6779,13 @@
         "image": "https://azurlane.netojuu.com/images/0/0d/ElbeCasual.png"
       }
     ],
+    "class": [
+      "Jade"
+    ],
     "id": "elbe"
   },
   {
     "name": "Elbing",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -6363,11 +6841,13 @@
         "image": "https://azurlane.netojuu.com/images/f/f7/ElbingSpring.png"
       }
     ],
+    "class": [
+      "Pillau"
+    ],
     "id": "elbing"
   },
   {
     "name": "Eldridge",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -6435,11 +6915,49 @@
         "name": "After-School Good Girl"
       }
     ],
+    "class": [
+      "Cannon"
+    ],
     "id": "eldridge"
   },
   {
-    "name": "Emanuele Passagno",
+    "name": "Elise",
     "class": [],
+    "type": [
+      "CV"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "Collab",
+      "short": "DOA",
+      "sub": "Venus Vacation"
+    },
+    "skill_detail": {
+      "skill": [
+        ""
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "rarity": [
+      "SR"
+    ],
+    "id": "elise",
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/yilisi_doa.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/yilisi_doa (1).webp",
+        "name": "Elise",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/yilisi_doa.webp"
+      }
+    ]
+  },
+  {
+    "name": "Emanuele Passagno",
     "type": [
       "DD"
     ],
@@ -6478,11 +6996,13 @@
         "image": "https://azurlane.netojuu.com/images/e/ef/Emanuele_PessagnoDance.png"
       }
     ],
+    "class": [
+      "Navigatori"
+    ],
     "id": "emanuele passagno"
   },
   {
     "name": "Emden",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -6538,11 +7058,13 @@
         "image": "https://azurlane.netojuu.com/images/2/2a/EmdenWork.png"
       }
     ],
+    "class": [
+      "Dresden"
+    ],
     "id": "emden"
   },
   {
     "name": "Enterprise",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -6618,11 +7140,13 @@
         "name": "Bathing Under Sunny Skies"
       }
     ],
+    "class": [
+      "Yorktown"
+    ],
     "id": "enterprise"
   },
   {
     "name": "Enterprise(Royal Navy)",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -6656,6 +7180,9 @@
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Enterprise_(Royal_Navy)Chibi.png",
         "profile": "https://ez-upload.al-guide-th.com/api/download/jinqu.webp"
       }
+    ],
+    "class": [
+      "Emerald"
     ],
     "id": "enterprise(royal navy)"
   },
@@ -6696,7 +7223,6 @@
   },
   {
     "name": "Eskimo",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -6739,11 +7265,13 @@
         "name": "Parkaless Prankster"
       }
     ],
+    "class": [
+      "Tribal"
+    ],
     "id": "eskimo"
   },
   {
     "name": "Essex",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -6811,11 +7339,13 @@
         "name": "Start Line Splash"
       }
     ],
+    "class": [
+      "Essex"
+    ],
     "id": "essex"
   },
   {
     "name": "Evertsen",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -6850,11 +7380,13 @@
         "image": "https://azurlane.netojuu.com/images/c/cb/EvertsenHome_Relaxation.png"
       }
     ],
+    "class": [
+      "Admiralen"
+    ],
     "id": "evertsen"
   },
   {
     "name": "Exeter",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -6899,11 +7431,13 @@
         "name": "A Glorious Toast"
       }
     ],
+    "class": [
+      "York"
+    ],
     "id": "exeter"
   },
   {
     "name": "Fancy",
-    "class": [],
     "type": [
       "IX(V)"
     ],
@@ -6939,11 +7473,13 @@
         "name": "Grave of Your Liking"
       }
     ],
+    "class": [
+      "Fancy"
+    ],
     "id": "fancy"
   },
   {
     "name": "Fargo",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -6978,11 +7514,13 @@
         "image": "https://azurlane.netojuu.com/images/d/da/FargoWild_West.png"
       }
     ],
+    "class": [
+      "Fargo"
+    ],
     "id": "fargo"
   },
   {
     "name": "Fei Yuen",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -7017,11 +7555,13 @@
         "name": "Flying Clouds, Flailing Pranks"
       }
     ],
+    "class": [
+      "Chang Feng"
+    ],
     "id": "fei yuen"
   },
   {
     "name": "Felix Schultz",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -7058,11 +7598,13 @@
         "name": "Sweet, Sleepy \"Revenge\""
       }
     ],
+    "class": [
+      "Felix Schultz"
+    ],
     "id": "felix schultz"
   },
   {
     "name": "Flandre",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -7099,11 +7641,13 @@
         "name": "If Love is a Sin, Thou Art Forgiven"
       }
     ],
+    "class": [
+      "Alsace"
+    ],
     "id": "flandre"
   },
   {
     "name": "Flasher",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -7148,11 +7692,13 @@
         "image": "https://azurlane.netojuu.com/images/1/11/FlasherMaid.png"
       }
     ],
+    "class": [
+      "Gato"
+    ],
     "id": "flasher"
   },
   {
     "name": "Fleuret",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -7187,11 +7733,13 @@
         "image": "https://azurlane.netojuu.com/images/8/8a/FleuretBunny.png"
       }
     ],
+    "class": [
+      "Le Hardi"
+    ],
     "id": "fleuret"
   },
   {
     "name": "Foch",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -7234,6 +7782,9 @@
         "name": "Majestic Majordomo"
       }
     ],
+    "class": [
+      "Suffren"
+    ],
     "id": "foch"
   },
   {
@@ -7273,7 +7824,6 @@
   },
   {
     "name": "Forbin",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -7334,11 +7884,13 @@
         "name": "Feast of Champagne"
       }
     ],
+    "class": [
+      "L'Adroit"
+    ],
     "id": "forbin"
   },
   {
     "name": "Formidable",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -7361,7 +7913,6 @@
       }
     ],
     "note": [],
-    "augment": "New Unique Modules",
     "gear": [],
     "rarity": [
       "SR"
@@ -7394,11 +7945,14 @@
         "name": "Anniversary Memories"
       }
     ],
+    "augment": "Unique Modules",
+    "class": [
+      "Illustrious"
+    ],
     "id": "formidable"
   },
   {
     "name": "Formidable μ",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -7429,11 +7983,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/kewei_idol.webp"
       }
     ],
+    "class": [
+      "Illustrious"
+    ],
     "id": "formidable μ"
   },
   {
     "name": "Fortune",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -7477,6 +8033,9 @@
         "image": "https://azurlane.netojuu.com/images/5/57/FortuneParty.png",
         "name": "Seraphic Sunshine"
       }
+    ],
+    "class": [
+      "F"
     ],
     "id": "fortune"
   },
@@ -7535,7 +8094,6 @@
     "rarity": [
       "SR"
     ],
-    "class": [],
     "type": [
       "BB"
     ],
@@ -7563,11 +8121,13 @@
         "https://ez-upload.al-guide-th.com/api/download/RN Francesco Caraciolo.png"
       ]
     },
+    "class": [
+      "Francesco Caracciolo"
+    ],
     "id": "francesco caracciolo"
   },
   {
     "name": "Franklin",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -7602,11 +8162,13 @@
         "image": "https://azurlane.netojuu.com/images/6/69/FranklinHospital.png"
       }
     ],
+    "class": [
+      "Essex"
+    ],
     "id": "franklin"
   },
   {
     "name": "Friedrich Carl",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -7645,11 +8207,13 @@
         "image": "https://azurlane.netojuu.com/images/6/6a/Friedrich_CarlSummer.png"
       }
     ],
+    "class": [
+      "P"
+    ],
     "id": "friedrich carl"
   },
   {
     "name": "Friedrich der Große",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -7699,11 +8263,13 @@
         "image": "https://azurlane.netojuu.com/images/d/df/Friedrich_der_GroßeSummer.png"
       }
     ],
+    "class": [
+      "H (German)"
+    ],
     "id": "friedrich der große"
   },
   {
     "name": "Fritz Rumey",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -7742,11 +8308,13 @@
         "image": "https://azurlane.netojuu.com/images/2/2e/Fritz_RumeyBunny.png"
       }
     ],
+    "class": [
+      "Fritz Rumey"
+    ],
     "id": "fritz rumey"
   },
   {
     "name": "Fu Po",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -7781,11 +8349,13 @@
         "image": "https://azurlane.netojuu.com/images/2/27/Fu_PoSpring.png"
       }
     ],
+    "class": [
+      "Chang Feng"
+    ],
     "id": "fu po"
   },
   {
     "name": "Fu Shun",
-    "class": [],
     "type": [
       "DD",
       "DDG"
@@ -7834,11 +8404,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/fushun_g (1).webp"
       }
     ],
+    "class": [
+      "An Shan"
+    ],
     "id": "fu shun"
   },
   {
     "name": "Fubuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -7893,6 +8465,9 @@
         "image": "https://azurlane.netojuu.com/images/d/d7/FubukiSpring.png",
         "name": "Caught Under the Lights"
       }
+    ],
+    "class": [
+      "Fubuki"
     ],
     "id": "fubuki"
   },
@@ -7949,7 +8524,6 @@
     "type": [
       "DD"
     ],
-    "class": [],
     "rarity": [
       "SR"
     ],
@@ -7977,11 +8551,13 @@
         "https://ez-upload.al-guide-th.com/api/download/IJN Fujinami.png"
       ]
     },
+    "class": [
+      "Yuugumo"
+    ],
     "id": "fujinami"
   },
   {
     "name": "Fumizuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -8020,11 +8596,13 @@
         "image": "https://azurlane.netojuu.com/images/6/6a/FumizukiSleepy.png"
       }
     ],
+    "class": [
+      "Mutsuki"
+    ],
     "id": "fumizuki"
   },
   {
     "name": "Fusou",
-    "class": [],
     "type": [
       "BB",
       "BBV"
@@ -8078,6 +8656,9 @@
         "name": "United in Heart and Soul"
       }
     ],
+    "class": [
+      "Fusou"
+    ],
     "id": "fusou"
   },
   {
@@ -8124,7 +8705,6 @@
   },
   {
     "name": "Gallant",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -8159,11 +8739,13 @@
         "image": "https://azurlane.netojuu.com/images/5/56/GallantHome_Relaxation.png"
       }
     ],
+    "class": [
+      "G"
+    ],
     "id": "gallant"
   },
   {
     "name": "Gangut",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -8203,11 +8785,49 @@
         "image": "https://azurlane.netojuu.com/images/0/0e/GangutCasual.png"
       }
     ],
+    "history": "https://docs.google.com/document/d/159UwS1nJAzcx5AhzLhzv9TeHw0ykc3JlYpG7x36vllw/edit?usp=sharing",
+    "class": [
+      "Gangut"
+    ],
     "id": "gangut"
   },
   {
-    "name": "Ganj-i-Sawai",
+    "name": "Gangut META",
     "class": [],
+    "type": [
+      "BB"
+    ],
+    "tag": [],
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/META Gungut.png"
+      ]
+    },
+    "faction": {
+      "full": "META",
+      "sub": "Cinders of Hope"
+    },
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/gangute_alter (1).webp",
+        "name": "Gangut META",
+        "image": "https://als.mrlar.dev/full/gangute_alter.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/gangute_alter.webp"
+      }
+    ],
+    "rarity": [
+      "SRM"
+    ],
+    "id": "gangut meta"
+  },
+  {
+    "name": "Ganj-i-Sawai",
     "type": [
       "IX(M)"
     ],
@@ -8243,11 +8863,13 @@
         "name": "Mermaid in Distress"
       }
     ],
+    "class": [
+      "Ganj-i-Sawai"
+    ],
     "id": "ganj-i-sawai"
   },
   {
     "name": "Gascogne",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -8255,15 +8877,6 @@
     "faction": {
       "short": "MNF",
       "full": "Vichya Dominion"
-    },
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/MNF%20Gascogne.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": [
-        "https://ez-upload.al-guide-th.com/api/download/MNF%20Gascogne%20FateSim.png"
-      ]
     },
     "aoa": [],
     "note_skill": [],
@@ -8288,11 +8901,23 @@
         "name": "Traveling Mood Mechanism"
       }
     ],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/MNF%20Gascogne.png"
+      ],
+      "retrofit": [],
+      "fate_simulation": [
+        "https://ez-upload.al-guide-th.com/api/download/MNF Gascogne FateSimulation.png"
+      ]
+    },
+    "augment": "Unique Modules",
+    "class": [
+      "Richelieu"
+    ],
     "id": "gascogne"
   },
   {
     "name": "Georgia",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -8342,11 +8967,14 @@
         "name": "Exalted Vibrance"
       }
     ],
+    "augment": "Unique Modules",
+    "class": [
+      "Georgia"
+    ],
     "id": "georgia"
   },
   {
     "name": "Giosuè Carducci",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -8381,11 +9009,13 @@
         "image": "https://azurlane.netojuu.com/images/a/a9/Giosuè_CarducciNile_Colors.png"
       }
     ],
+    "class": [
+      "Alfredo Oriani"
+    ],
     "id": "giosuè carducci"
   },
   {
     "name": "Giulio Cesare",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -8412,7 +9042,6 @@
         "desc": "ตอร์ปิโดพิเศษ 96x6ลูก (80/100/130)"
       }
     ],
-    "augment": "New Unique Modules",
     "gear": [],
     "note": [],
     "rarity": [
@@ -8433,6 +9062,10 @@
         "image": "https://azurlane.netojuu.com/images/d/da/Giulio_CesareSummer.png",
         "name": "High Tide Under the Sunlight"
       }
+    ],
+    "augment": "Unique Modules",
+    "class": [
+      "Conte di Cavour"
     ],
     "id": "giulio cesare"
   },
@@ -8473,7 +9106,6 @@
   },
   {
     "name": "Giuseppe Garibaldi",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -8516,6 +9148,9 @@
         "name": "Noble Ivory Plumes"
       }
     ],
+    "class": [
+      "Duca degli Abruzzi"
+    ],
     "id": "giuseppe garibaldi"
   },
   {
@@ -8555,7 +9190,6 @@
   },
   {
     "name": "Glowworm",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -8597,11 +9231,13 @@
         "image": "https://azurlane.netojuu.com/images/c/c7/GlowwormSpring.png"
       }
     ],
+    "class": [
+      "G"
+    ],
     "id": "glowworm"
   },
   {
     "name": "Gneisenau",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -8636,6 +9272,9 @@
         "image": "https://azurlane.netojuu.com/images/8/84/GneisenauHalloween.png",
         "name": "Nightmarish Succubus"
       }
+    ],
+    "class": [
+      "Scharnhorst"
     ],
     "id": "gneisenau"
   },
@@ -8738,7 +9377,6 @@
   },
   {
     "name": "Golden Hind",
-    "class": [],
     "type": [
       "IX(V)"
     ],
@@ -8788,11 +9426,13 @@
         "name": "Forlorn Femme Fatale"
       }
     ],
+    "class": [
+      "Golden Hind"
+    ],
     "id": "golden hind"
   },
   {
     "name": "Gorizia",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -8836,11 +9476,13 @@
         "image": "https://azurlane.netojuu.com/images/3/3d/GoriziaWork.png"
       }
     ],
+    "class": [
+      "Zara"
+    ],
     "id": "gorizia"
   },
   {
     "name": "Gouden Leeuw",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -8875,11 +9517,13 @@
         "name": "An Intimate Cleaning"
       }
     ],
+    "class": [
+      "Gouden Leeuw"
+    ],
     "id": "gouden leeuw"
   },
   {
     "name": "Graf Zeppelin",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -8915,11 +9559,13 @@
         "image": "https://azurlane.netojuu.com/images/5/56/Graf_ZeppelinSummer.png"
       }
     ],
+    "class": [
+      "Graf Zeppelin"
+    ],
     "id": "graf zeppelin"
   },
   {
     "name": "Gremyashchy",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -8957,6 +9603,9 @@
         "name": "A Daytime Delight is in a Book",
         "image": "https://azurlane.netojuu.com/images/c/ca/GremyashchyCasual.png"
       }
+    ],
+    "class": [
+      "Gnevny"
     ],
     "id": "gremyashchy"
   },
@@ -8997,7 +9646,6 @@
   },
   {
     "name": "Gromky",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -9036,11 +9684,13 @@
         "name": "Morning's Beckoning"
       }
     ],
+    "class": [
+      "Gnevny"
+    ],
     "id": "gromky"
   },
   {
     "name": "Grozny",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -9096,11 +9746,13 @@
         "name": "Bunny in the Banya"
       }
     ],
+    "class": [
+      "Gnevny"
+    ],
     "id": "grozny"
   },
   {
     "name": "Guam",
-    "class": [],
     "type": [
       "CB"
     ],
@@ -9156,11 +9808,13 @@
         "image": "https://azurlane.netojuu.com/images/7/73/GuamNinja.png"
       }
     ],
+    "class": [
+      "Alaska"
+    ],
     "id": "guam"
   },
   {
     "name": "Guichen",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -9210,11 +9864,13 @@
         "image": "https://als.mrlar.dev/full/jishang_3.webp"
       }
     ],
+    "class": [
+      "De Grasse"
+    ],
     "id": "guichen"
   },
   {
     "name": "Haguro",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -9261,11 +9917,13 @@
         "image": "https://azurlane.netojuu.com/images/2/26/HaguroCasual.png"
       }
     ],
+    "class": [
+      "Myoukou"
+    ],
     "id": "haguro"
   },
   {
     "name": "Hai Chi",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -9308,6 +9966,9 @@
         "image": "https://azurlane.netojuu.com/images/3/3c/Hai_ChiSpring.png"
       }
     ],
+    "class": [
+      "Hai Chi"
+    ],
     "id": "hai chi"
   },
   {
@@ -9315,7 +9976,6 @@
     "rarity": [
       "E"
     ],
-    "class": [],
     "type": [
       "CL"
     ],
@@ -9323,28 +9983,32 @@
     "faction": {
       "full": "Dragon Empery"
     },
-    "skins": [
-      {
-        "name": "Hai Chou",
-        "image": "",
-        "chibi": "",
-        "profile": ""
-      }
-    ],
-    "skill_detail": {
-      "skill": [],
-      "retrofit": [],
-      "fate_simulation": []
-    },
     "aoa": [],
     "note_skill": [],
     "note": [],
     "gear": [],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/PRAN Hai Chou.png"
+      ]
+    },
+    "skins": [
+      {
+        "name": "Hai Chou",
+        "image": "https://als.mrlar.dev/full/haichou.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/haichou.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/haichou (1).webp"
+      }
+    ],
+    "class": [
+      "Hai Yung"
+    ],
     "id": "hai chou"
   },
   {
     "name": "Hai Tien",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -9403,11 +10067,13 @@
         "image": "https://azurlane.netojuu.com/images/d/db/Hai_TienSpring2.png"
       }
     ],
+    "class": [
+      "Hai Chi"
+    ],
     "id": "hai tien"
   },
   {
     "name": "Hai Yung",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -9442,11 +10108,13 @@
         "image": "https://azurlane.netojuu.com/images/4/42/Hai_YungSpring.png"
       }
     ],
+    "class": [
+      "Hai Yung"
+    ],
     "id": "hai yung"
   },
   {
     "name": "Hakuhou",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -9482,11 +10150,13 @@
         "image": "https://azurlane.netojuu.com/images/0/0d/HakuhouNinja.png"
       }
     ],
+    "class": [
+      "Hakuhou"
+    ],
     "id": "hakuhou"
   },
   {
     "name": "Hakuryuu",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -9494,15 +10164,6 @@
     "faction": {
       "short": "IJN",
       "full": "Sakura Empire"
-    },
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/IJN%20Hakuryuu.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": [
-        "https://ez-upload.al-guide-th.com/api/download/IJN%20Hakuryuu%20FateSimulation.png"
-      ]
     },
     "aoa": [],
     "note_skill": [
@@ -9546,11 +10207,22 @@
         "name": "Four Fine Layers"
       }
     ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Hakuryū FateSimulation.png"
+      ],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Hakuryū.png"
+      ]
+    },
+    "class": [
+      "Hakuryuu"
+    ],
     "id": "hakuryuu"
   },
   {
     "name": "Halford",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -9585,11 +10257,55 @@
         "name": "A Special Day with the Bunny Lord"
       }
     ],
+    "class": [
+      "Fletcher"
+    ],
     "id": "halford"
   },
   {
+    "name": "Hamakaze",
+    "rarity": [
+      "R",
+      "E"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Hamakaze",
+        "image": "https://als.mrlar.dev/full/bangfeng.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/bangfeng.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/bangfeng (1).webp"
+      },
+      {
+        "name": "Retrofit",
+        "image": "https://als.mrlar.dev/full/bangfeng_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/bangfeng_g.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/bangfeng_g (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Kagerou"
+    ],
+    "id": "hamakaze"
+  },
+  {
     "name": "Hammann II",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -9633,11 +10349,13 @@
         "name": "Hammann's Scrumptious Spells"
       }
     ],
+    "class": [
+      "Edsall"
+    ],
     "id": "hammann ii"
   },
   {
     "name": "Hanazuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -9680,11 +10398,13 @@
         "name": "Blossoming Spring, Resplendent Moon"
       }
     ],
+    "class": [
+      "Akizuki"
+    ],
     "id": "hanazuki"
   },
   {
     "name": "Harbin",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -9737,11 +10457,13 @@
         "image": "https://azurlane.netojuu.com/images/d/d5/HarbinSummer2.png"
       }
     ],
+    "class": [
+      "Harbin"
+    ],
     "id": "harbin"
   },
   {
     "name": "Hardy",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -9772,6 +10494,9 @@
         "chibi": "https://ez-upload.al-guide-th.com/api/download/HardyChibi.png",
         "profile": "https://ez-upload.al-guide-th.com/api/download/yonggan.webp"
       }
+    ],
+    "class": [
+      "H (Royal)"
     ],
     "id": "hardy"
   },
@@ -9820,7 +10545,6 @@
   },
   {
     "name": "Haruna",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -9862,6 +10586,9 @@
         "image": "https://azurlane.netojuu.com/images/8/80/HarunaNew_Year.png",
         "name": "The Elegant Lotus"
       }
+    ],
+    "class": [
+      "Kongou"
     ],
     "id": "haruna"
   },
@@ -9908,7 +10635,6 @@
   },
   {
     "name": "Harutsuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -9950,6 +10676,9 @@
         "image": "https://azurlane.netojuu.com/images/a/a1/HarutsukiRPG.png",
         "name": "Litte Steamy Sprite"
       }
+    ],
+    "class": [
+      "Akizuki"
     ],
     "id": "harutsuki"
   },
@@ -10038,8 +10767,91 @@
     "id": "hatakaze meta"
   },
   {
+    "name": "Hatsuharu",
+    "rarity": [
+      "R",
+      "E"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Hatsuharu",
+        "image": "https://als.mrlar.dev/full/chuchun.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/chuchun.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/chuchun (1).webp"
+      },
+      {
+        "name": "Retrofit",
+        "image": "https://als.mrlar.dev/full/chuchun_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/chuchun_g.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/chuchun_g (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Hatsuharu"
+    ],
+    "id": "hatsuharu"
+  },
+  {
+    "name": "Hatsushimo",
+    "rarity": [
+      "R",
+      "E"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Hatsushimo",
+        "image": "https://als.mrlar.dev/full/chushuang.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/chushuang.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/chushuang (1).webp"
+      },
+      {
+        "name": "Retrofit",
+        "image": "https://als.mrlar.dev/full/chushuang_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/chushuang_g.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/chushuang_g (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Hatsuharu"
+    ],
+    "id": "hatsushimo"
+  },
+  {
     "name": "Hatsuzuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -10088,11 +10900,13 @@
         "image": "https://azurlane.netojuu.com/images/8/8c/HatsuzukiTravel.png"
       }
     ],
+    "class": [
+      "Akizuki"
+    ],
     "id": "hatsuzuki"
   },
   {
     "name": "Helena",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -10152,6 +10966,9 @@
         "image": "https://azurlane.netojuu.com/images/4/40/HelenaHot_Springs.png",
         "name": "Basking in the Cypress' Warmth"
       }
+    ],
+    "class": [
+      "Brooklyn"
     ],
     "id": "helena"
   },
@@ -10213,7 +11030,6 @@
   },
   {
     "name": "Hermione",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -10278,11 +11094,14 @@
         "name": "Winter Dearest"
       }
     ],
+    "augment": "Unique Modules",
+    "class": [
+      "Dido"
+    ],
     "id": "hermione"
   },
   {
     "name": "Hero",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -10331,11 +11150,13 @@
         "image": "https://azurlane.netojuu.com/images/c/cc/HeroSchool.png"
       }
     ],
+    "class": [
+      "H (Royal)"
+    ],
     "id": "hero"
   },
   {
     "name": "Herring",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -10369,6 +11190,9 @@
         "name": "The Town With No Shade",
         "image": "https://azurlane.netojuu.com/images/9/9b/HerringWild_West.png"
       }
+    ],
+    "class": [
+      "Gato"
     ],
     "id": "herring"
   },
@@ -10413,7 +11237,6 @@
   },
   {
     "name": "Hibiki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -10452,11 +11275,15 @@
         "image": "https://azurlane.netojuu.com/images/a/a9/HibikiNew_Year.png"
       }
     ],
+    "augment": "Unique Modules",
+    "class": [
+      "Fubuki",
+      "Akatsuki"
+    ],
     "id": "hibiki"
   },
   {
     "name": "Hiei",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -10499,6 +11326,9 @@
         "name": "Beauty of the White Sands"
       }
     ],
+    "class": [
+      "Kongou"
+    ],
     "id": "hiei"
   },
   {
@@ -10538,7 +11368,6 @@
   },
   {
     "name": "Hindenburg",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -10573,11 +11402,13 @@
         "name": "Delirious Duel"
       }
     ],
+    "class": [
+      "Hindenburg"
+    ],
     "id": "hindenburg"
   },
   {
     "name": "Hiryuu",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -10620,6 +11451,9 @@
         "name": "After School Bullies",
         "image": "https://azurlane.netojuu.com/images/f/fd/HiryuuSchool.png"
       }
+    ],
+    "class": [
+      "Hiryuu"
     ],
     "id": "hiryuu"
   },
@@ -10756,7 +11590,6 @@
   },
   {
     "name": "Hood",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -10818,11 +11651,13 @@
         "name": "Gentlewoman and Stallion"
       }
     ],
+    "class": [
+      "Admiral"
+    ],
     "id": "hood"
   },
   {
     "name": "Hornet II",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -10861,6 +11696,9 @@
         "image": "https://azurlane.netojuu.com/images/3/36/Hornet_IISummer.png",
         "name": "Racing Across the Waves!"
       }
+    ],
+    "class": [
+      "Essex"
     ],
     "id": "hornet ii"
   },
@@ -10919,7 +11757,6 @@
   },
   {
     "name": "Houshou",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -10954,6 +11791,9 @@
         "name": "The Dream of the Autumn Pillow",
         "image": "https://azurlane.netojuu.com/images/1/14/HoushouFestival.png"
       }
+    ],
+    "class": [
+      "Houshou"
     ],
     "id": "houshou"
   },
@@ -10994,7 +11834,6 @@
   },
   {
     "name": "Houston",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -11030,11 +11869,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/xiusidun.webp"
       }
     ],
+    "class": [
+      "Northampton"
+    ],
     "id": "houston"
   },
   {
     "name": "Houston II",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -11070,11 +11911,13 @@
         "image": "https://azurlane.netojuu.com/images/0/09/Houston_IIBunny.png"
       }
     ],
+    "class": [
+      "Cleveland"
+    ],
     "id": "houston ii"
   },
   {
     "name": "Howe",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -11122,11 +11965,13 @@
         "image": "https://azurlane.netojuu.com/images/5/53/HoweSpring.png"
       }
     ],
+    "class": [
+      "King George V"
+    ],
     "id": "howe"
   },
   {
     "name": "Hu Pen",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -11161,11 +12006,13 @@
         "image": "https://azurlane.netojuu.com/images/7/7d/Hu_PenSpring.png"
       }
     ],
+    "class": [
+      "Lung Wu"
+    ],
     "id": "hu pen"
   },
   {
     "name": "Huan Ch'ang",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -11203,6 +12050,9 @@
         "image": "https://azurlane.netojuu.com/images/b/b3/Huan_Ch%27angSpring.png",
         "name": "Dance Beneath the Moonlight"
       }
+    ],
+    "class": [
+      "Huan Ch'ang"
     ],
     "id": "huan ch'ang"
   },
@@ -11251,7 +12101,6 @@
   },
   {
     "name": "Hwah Jah",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -11300,11 +12149,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/huajia_g (1).webp"
       }
     ],
+    "class": [
+      "Hwah Jah"
+    ],
     "id": "hwah jah"
   },
   {
     "name": "Hyuuga",
-    "class": [],
     "type": [
       "BB",
       "BBV"
@@ -11345,11 +12196,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/rixiang_g (1).webp"
       }
     ],
+    "class": [
+      "Ise"
+    ],
     "id": "hyuuga"
   },
   {
     "name": "I-13",
-    "class": [],
     "type": [
       "SSV"
     ],
@@ -11388,11 +12241,13 @@
         "name": "After-School Observations"
       }
     ],
+    "class": [
+      "Type A Mod. 2"
+    ],
     "id": "i-13"
   },
   {
     "name": "I-168",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -11435,11 +12290,13 @@
         "name": "Festive Mood!"
       }
     ],
+    "class": [
+      "Kaidai"
+    ],
     "id": "i-168"
   },
   {
     "name": "I-19",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -11491,11 +12348,13 @@
         "image": "https://azurlane.netojuu.com/images/d/df/I-19Bunny.png"
       }
     ],
+    "class": [
+      "Type B1"
+    ],
     "id": "i-19"
   },
   {
     "name": "I-404",
-    "class": [],
     "type": [
       "SSV"
     ],
@@ -11531,11 +12390,13 @@
         "image": "https://azurlane.netojuu.com/images/b/b3/I-404Ninja.png"
       }
     ],
+    "class": [
+      "I-400"
+    ],
     "id": "i-404"
   },
   {
     "name": "Ibuki",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -11596,11 +12457,13 @@
         "name": "Tranquil Sunya"
       }
     ],
+    "class": [
+      "Ibuki"
+    ],
     "id": "ibuki"
   },
   {
     "name": "Icarus",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -11651,6 +12514,9 @@
         "image": "https://azurlane.netojuu.com/images/1/11/IcarusMaid.png"
       }
     ],
+    "class": [
+      "I"
+    ],
     "id": "icarus"
   },
   {
@@ -11697,8 +12563,43 @@
     "id": "ikaruga"
   },
   {
+    "name": "Ikazuchi",
+    "rarity": [
+      "R"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Ikazuchi",
+        "image": "https://als.mrlar.dev/full/lei.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/lei.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/lei (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Fubuki",
+      "Akatsuki"
+    ],
+    "id": "ikazuchi"
+  },
+  {
     "name": "Illustrious",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -11767,11 +12668,13 @@
         "name": "Sweet Afternoon Teatime"
       }
     ],
+    "class": [
+      "Illustrious"
+    ],
     "id": "illustrious"
   },
   {
     "name": "Illustrious µ",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -11806,11 +12709,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/guanghui_idol.webp"
       }
     ],
+    "class": [
+      "Illustrious"
+    ],
     "id": "illustrious µ"
   },
   {
     "name": "Impero",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -11858,11 +12763,13 @@
         "name": "Drunken Drowsy Dreamer"
       }
     ],
+    "class": [
+      "Vittorio Veneto"
+    ],
     "id": "impero"
   },
   {
     "name": "Implacable",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -11910,11 +12817,49 @@
         "image": "https://azurlane.netojuu.com/images/d/d1/ImplacableSchool.png"
       }
     ],
+    "class": [
+      "Implacable"
+    ],
     "id": "implacable"
   },
   {
+    "name": "Inazuma",
+    "rarity": [
+      "R"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Inazuma",
+        "image": "https://als.mrlar.dev/full/dian.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/dian.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/dian (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Fubuki",
+      "Akatsuki"
+    ],
+    "id": "inazuma"
+  },
+  {
     "name": "Independence",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -11984,11 +12929,13 @@
         "image": "https://azurlane.netojuu.com/images/4/43/IndependenceCasual2.png"
       }
     ],
+    "class": [
+      "Independence"
+    ],
     "id": "independence"
   },
   {
     "name": "Indiana",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -12023,11 +12970,13 @@
         "image": "https://azurlane.netojuu.com/images/d/d7/IndianaWild_West.png"
       }
     ],
+    "class": [
+      "South Dakota"
+    ],
     "id": "indiana"
   },
   {
     "name": "Indomitable",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -12071,11 +13020,13 @@
         "image": "https://azurlane.netojuu.com/images/c/cb/IndomitableMaid.png"
       }
     ],
+    "class": [
+      "Illustrious"
+    ],
     "id": "indomitable"
   },
   {
     "name": "Ingraham",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -12118,11 +13069,13 @@
         "image": "https://azurlane.netojuu.com/images/b/b8/IngrahamBunny.png"
       }
     ],
+    "class": [
+      "Allen M. Sumner"
+    ],
     "id": "ingraham"
   },
   {
     "name": "Intrepid",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -12160,6 +13113,9 @@
         "image": "https://azurlane.netojuu.com/images/c/c0/IntrepidSport.png",
         "name": "One Intrepid Pitch"
       }
+    ],
+    "class": [
+      "Essex"
     ],
     "id": "intrepid"
   },
@@ -12208,7 +13164,6 @@
   },
   {
     "name": "Ise",
-    "class": [],
     "type": [
       "BB",
       "BBV"
@@ -12248,6 +13203,9 @@
         "image": "https://azurlane.netojuu.com/images/5/59/IseKai.png",
         "profile": "https://ez-upload.al-guide-th.com/api/download/yishi_g (1).webp"
       }
+    ],
+    "class": [
+      "Ise"
     ],
     "id": "ise"
   },
@@ -12293,7 +13251,6 @@
   },
   {
     "name": "Izumo",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -12345,11 +13302,13 @@
         "name": "Tail-Stirred Cocktail"
       }
     ],
+    "class": [
+      "Izumo"
+    ],
     "id": "izumo"
   },
   {
     "name": "Jade",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -12392,11 +13351,13 @@
         "name": "A Good Girl's Magic"
       }
     ],
+    "class": [
+      "Jade"
+    ],
     "id": "jade"
   },
   {
     "name": "Jamaica",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -12436,11 +13397,13 @@
         "image": "https://azurlane.netojuu.com/images/3/3a/JamaicaRoadtrip.png"
       }
     ],
+    "class": [
+      "Crown Colony"
+    ],
     "id": "jamaica"
   },
   {
     "name": "Janus",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -12499,11 +13462,13 @@
         "name": "Oath under the Morning Sun"
       }
     ],
+    "class": [
+      "J"
+    ],
     "id": "janus"
   },
   {
     "name": "Javelin",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -12581,11 +13546,13 @@
         "name": "A Different Dance"
       }
     ],
+    "class": [
+      "J"
+    ],
     "id": "javelin"
   },
   {
     "name": "Jean Bart",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -12638,11 +13605,13 @@
         "name": "Springlight Étoiles"
       }
     ],
+    "class": [
+      "Richelieu"
+    ],
     "id": "jean bart"
   },
   {
     "name": "Jeanne d'Arc",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -12689,11 +13658,13 @@
         "image": "https://azurlane.netojuu.com/images/5/59/Jeanne_d%27ArcSpring.png"
       }
     ],
+    "class": [
+      "Jeanne d'Arc"
+    ],
     "id": "jeanne d'arc"
   },
   {
     "name": "Jervis",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -12731,6 +13702,9 @@
         "name": "Fluttering in the Fair Breeze",
         "image": "https://azurlane.netojuu.com/images/c/c8/JervisMaid.png"
       }
+    ],
+    "class": [
+      "J"
     ],
     "id": "jervis"
   },
@@ -12789,7 +13763,6 @@
   },
   {
     "name": "Joffre",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -12845,11 +13818,13 @@
         "image": "https://azurlane.netojuu.com/images/6/61/JoffreRaceQueen.png"
       }
     ],
+    "class": [
+      "Joffre"
+    ],
     "id": "joffre"
   },
   {
     "name": "Juneau",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -12907,6 +13882,9 @@
         "name": "In the Swan Garden"
       }
     ],
+    "class": [
+      "Atlanta"
+    ],
     "id": "juneau"
   },
   {
@@ -12950,7 +13928,6 @@
   },
   {
     "name": "Kaga",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -13010,11 +13987,13 @@
         "image": "https://azurlane.netojuu.com/images/e/ed/KagaTravel.png"
       }
     ],
+    "class": [
+      "Kaga"
+    ],
     "id": "kaga"
   },
   {
     "name": "Kaga(BB)",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -13052,11 +14031,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/jiahezhanlie.webp"
       }
     ],
+    "class": [
+      "Tosa"
+    ],
     "id": "kaga(bb)"
   },
   {
     "name": "Kagerou",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -13101,6 +14082,9 @@
         "image": "https://azurlane.netojuu.com/images/1/1b/KagerouHalloween.png",
         "name": "Pumpkins and Festivities!"
       }
+    ],
+    "class": [
+      "Kagerou"
     ],
     "id": "kagerou"
   },
@@ -13195,7 +14179,6 @@
   },
   {
     "name": "Kansas",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -13230,11 +14213,13 @@
         "name": "Late-Night Leisure (Bunny Girl)"
       }
     ],
+    "class": [
+      "Kansas"
+    ],
     "id": "kansas"
   },
   {
     "name": "Kashino",
-    "class": [],
     "type": [
       "AE"
     ],
@@ -13290,11 +14275,13 @@
         "image": "https://azurlane.netojuu.com/images/1/12/KashinoTheme_Park.png"
       }
     ],
+    "class": [
+      "Kashino"
+    ],
     "id": "kashino"
   },
   {
     "name": "Kasumi",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -13350,6 +14337,9 @@
         "image": "https://azurlane.netojuu.com/images/6/65/KasumiSchool.png",
         "name": "At School with Foo"
       }
+    ],
+    "class": [
+      "Asashio"
     ],
     "id": "kasumi"
   },
@@ -13431,7 +14421,6 @@
   },
   {
     "name": "Katsuragi",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -13474,11 +14463,13 @@
         "name": "Shallow-Water Leisure"
       }
     ],
+    "class": [
+      "Unryuu"
+    ],
     "id": "katsuragi"
   },
   {
     "name": "Kawakaze",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -13536,6 +14527,9 @@
         "name": "The Guardian Fox of Unwavering Loyalty",
         "image": "https://azurlane.netojuu.com/images/4/4b/KawakazeTravel.png"
       }
+    ],
+    "class": [
+      "Shiratsuyu"
     ],
     "id": "kawakaze"
   },
@@ -13600,7 +14594,6 @@
   },
   {
     "name": "Kazagumo",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -13647,11 +14640,13 @@
         "image": "https://azurlane.netojuu.com/images/0/01/KazagumoHome_Relaxation.png"
       }
     ],
+    "class": [
+      "Yuugumo"
+    ],
     "id": "kazagumo"
   },
   {
     "name": "Kazan",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -13686,11 +14681,13 @@
         "name": "The Warm Morning Sunshine"
       }
     ],
+    "class": [
+      "Kazan"
+    ],
     "id": "kazan"
   },
   {
     "name": "Kearsarge",
-    "class": [],
     "type": [
       "BBV"
     ],
@@ -13729,11 +14726,13 @@
         "name": "Springtime Monitoring"
       }
     ],
+    "class": [
+      "Kearsarge"
+    ],
     "id": "kearsarge"
   },
   {
     "name": "Kersaint",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -13777,11 +14776,13 @@
         "image": "https://azurlane.netojuu.com/images/7/78/KersaintWild_West.png"
       }
     ],
+    "class": [
+      "Vauquelin"
+    ],
     "id": "kersaint"
   },
   {
     "name": "Kiev",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -13829,11 +14830,13 @@
         "image": "https://azurlane.netojuu.com/images/0/0e/KievDance.png"
       }
     ],
+    "class": [
+      "Kiev"
+    ],
     "id": "kiev"
   },
   {
     "name": "Kii",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -13877,6 +14880,9 @@
         "image": "https://azurlane.netojuu.com/images/4/40/KiiSummer.png"
       }
     ],
+    "class": [
+      "Kii"
+    ],
     "id": "kii"
   },
   {
@@ -13916,7 +14922,6 @@
   },
   {
     "name": "King George V",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -13956,11 +14961,13 @@
         "image": "https://azurlane.netojuu.com/images/3/37/King_George_VParty.png"
       }
     ],
+    "class": [
+      "King George V"
+    ],
     "id": "king george v"
   },
   {
     "name": "Kinu",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -14012,11 +15019,13 @@
         "image": "https://azurlane.netojuu.com/images/3/35/KinuBunny.png"
       }
     ],
+    "class": [
+      "Nagara"
+    ],
     "id": "kinu"
   },
   {
     "name": "Kirishima",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -14067,11 +15076,13 @@
         "image": "https://azurlane.netojuu.com/images/f/ff/KirishimaSpring.png"
       }
     ],
+    "class": [
+      "Kongou"
+    ],
     "id": "kirishima"
   },
   {
     "name": "Kirov",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -14122,6 +15133,9 @@
         "name": "High Jump Star",
         "image": "https://azurlane.netojuu.com/images/f/f2/KirovSport.png"
       }
+    ],
+    "class": [
+      "Kirov"
     ],
     "id": "kirov"
   },
@@ -14184,7 +15198,6 @@
   },
   {
     "name": "Kitakaze",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -14235,7 +15248,48 @@
         "name": "Night of Doves and Magic"
       }
     ],
+    "class": [
+      "Kitakaze"
+    ],
     "id": "kitakaze"
+  },
+  {
+    "name": "Kizu",
+    "rarity": [
+      "E"
+    ],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/mujin (1).webp",
+        "image": "https://als.mrlar.dev/full/mujin.webp",
+        "name": "Kizu",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/mujin.webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Kizu.png"
+      ],
+      "fate_simulation": []
+    },
+    "history": "https://docs.google.com/document/d/1NUL3JmMGlGrluImOpgd2rq13os48IKTwmCypq-d5WvE/edit?usp=sharing",
+    "class": [
+      "Sendai"
+    ],
+    "id": "kizu"
   },
   {
     "name": "Klaudia Valentz",
@@ -14286,7 +15340,6 @@
   },
   {
     "name": "Kongou",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -14333,11 +15386,13 @@
         "image": "https://azurlane.netojuu.com/images/1/19/KongouSummer.png"
       }
     ],
+    "class": [
+      "Kongou"
+    ],
     "id": "kongou"
   },
   {
     "name": "Kongou μ",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -14367,6 +15422,9 @@
         "name": "Kongou μ",
         "profile": "https://ez-upload.al-guide-th.com/api/download/jingang_idol.webp"
       }
+    ],
+    "class": [
+      "Kongou"
     ],
     "id": "kongou μ"
   },
@@ -14413,8 +15471,45 @@
     "id": "kotori itsuka"
   },
   {
+    "name": "Krasny Kavkaz",
+    "rarity": [
+      "E"
+    ],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "SN",
+      "full": "Northern Parliament"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/SN Krasny Kavkaz.png"
+      ]
+    },
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/hongseshanmai (1).webp",
+        "image": "https://als.mrlar.dev/full/hongseshanmai.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/hongseshanmai.webp",
+        "name": "Krasny Kavkaz"
+      }
+    ],
+    "history": "https://docs.google.com/document/d/159UwS1nJAzcx5AhzLhzv9TeHw0ykc3JlYpG7x36vllw/edit?usp=sharing",
+    "class": [
+      "Admiral Nakhimov"
+    ],
+    "id": "krasny kavkaz"
+  },
+  {
     "name": "Kronshtadt",
-    "class": [],
     "type": [
       "CB"
     ],
@@ -14465,11 +15560,13 @@
         "name": "Animal Agent"
       }
     ],
+    "class": [
+      "Kronshtadt"
+    ],
     "id": "kronshtadt"
   },
   {
     "name": "Kumano",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -14520,11 +15617,13 @@
         "image": "https://azurlane.netojuu.com/images/5/57/KumanoDance.png"
       }
     ],
+    "class": [
+      "Mogami"
+    ],
     "id": "kumano"
   },
   {
     "name": "Kursk",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -14577,6 +15676,9 @@
         "image": "https://azurlane.netojuu.com/images/0/02/KurskParty.png"
       }
     ],
+    "class": [
+      "Kursk"
+    ],
     "id": "kursk"
   },
   {
@@ -14623,7 +15725,6 @@
   },
   {
     "name": "Kuybyshev",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -14670,11 +15771,13 @@
         "image": "https://als.mrlar.dev/full/gubixuefu_3.webp"
       }
     ],
+    "class": [
+      "Chapayev"
+    ],
     "id": "kuybyshev"
   },
   {
     "name": "Köln",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -14715,11 +15818,48 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/kelong_g (1).webp"
       }
     ],
+    "class": [
+      "Königsberg"
+    ],
     "id": "köln"
   },
   {
-    "name": "Königsberg",
+    "name": "Köln META",
+    "rarity": [
+      "EM"
+    ],
     "class": [],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "META",
+      "sub": "Cinders of Hope"
+    },
+    "skins": [
+      {
+        "name": "Köln META",
+        "image": "https://als.mrlar.dev/full/kelong_alter.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/kelong_alter.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/kelong_alter (1).webp"
+      }
+    ],
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/META Köln.png"
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "id": "köln meta"
+  },
+  {
+    "name": "Königsberg",
     "type": [
       "CL"
     ],
@@ -14751,11 +15891,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/kenisibao.webp"
       }
     ],
+    "class": [
+      "Königsberg"
+    ],
     "id": "königsberg"
   },
   {
     "name": "L'Audacieux",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -14790,11 +15932,13 @@
         "name": "Protector Beneath the Parasol"
       }
     ],
+    "class": [
+      "Le Fantasque"
+    ],
     "id": "l'audacieux"
   },
   {
     "name": "L'Indomptable",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -14841,11 +15985,13 @@
         "image": "https://azurlane.netojuu.com/images/b/b5/L%27IndomptableSpring.png"
       }
     ],
+    "class": [
+      "Le Fantasque"
+    ],
     "id": "l'indomptable"
   },
   {
     "name": "L'Opiniâtre",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -14890,11 +16036,13 @@
         "name": "Beachside Magician"
       }
     ],
+    "class": [
+      "Le Hardi"
+    ],
     "id": "l'opiniâtre"
   },
   {
     "name": "La Galissonnière",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -14947,6 +16095,9 @@
         "image": "https://azurlane.netojuu.com/images/b/bf/La_GalissonnièreHalloween.png"
       }
     ],
+    "class": [
+      "La Galissonnière"
+    ],
     "id": "la galissonnière"
   },
   {
@@ -14986,7 +16137,6 @@
   },
   {
     "name": "Laffey",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -15071,11 +16221,16 @@
         "name": "Lazy Days"
       }
     ],
+    "class": [
+      "Benson"
+    ],
     "id": "laffey"
   },
   {
     "name": "Laffey II",
-    "class": [],
+    "class": [
+      "Allen M. Sumner"
+    ],
     "type": [
       "DD"
     ],
@@ -15190,7 +16345,6 @@
   },
   {
     "name": "Langley II",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -15226,11 +16380,13 @@
         "image": "https://azurlane.netojuu.com/images/b/b1/Langley_IISummer.png"
       }
     ],
+    "class": [
+      "Independence"
+    ],
     "id": "langley ii"
   },
   {
     "name": "Le Hardi",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -15266,11 +16422,14 @@
       }
     ],
     "history": "https://docs.google.com/document/d/14oLYESoFv0TMf-7asXr3HKrwThPaXikV/edit?usp=sharing&ouid=117176816370068308043&rtpof=true&sd=true",
+    "class": [
+      "L'Intrépide",
+      "Le Hardi"
+    ],
     "id": "le hardi"
   },
   {
     "name": "Le Malin",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -15318,11 +16477,13 @@
         "name": "Listless Lapin"
       }
     ],
+    "class": [
+      "Le Fantasque"
+    ],
     "id": "le malin"
   },
   {
     "name": "Le Mars",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -15383,11 +16544,13 @@
         "name": "Splendorous Debut"
       }
     ],
+    "class": [
+      "L'Adroit"
+    ],
     "id": "le mars"
   },
   {
     "name": "Le Terrible",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -15434,11 +16597,13 @@
         "name": "Sunlight, Seaspray, and Sanctity"
       }
     ],
+    "class": [
+      "Le Fantasque"
+    ],
     "id": "le terrible"
   },
   {
     "name": "Le Triomphant",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -15474,11 +16639,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/kaixuan.webp"
       }
     ],
+    "class": [
+      "Le Fantasque"
+    ],
     "id": "le triomphant"
   },
   {
     "name": "Le Téméraire",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -15522,11 +16689,13 @@
         "name": "Cheering Star"
       }
     ],
+    "class": [
+      "Le Hardi"
+    ],
     "id": "le téméraire"
   },
   {
     "name": "Le Téméraire μ",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -15557,11 +16726,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/lumang_idol.webp"
       }
     ],
+    "class": [
+      "Le Hardi"
+    ],
     "id": "le téméraire μ"
   },
   {
     "name": "Leander",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -15606,11 +16777,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/liande_g (1).webp"
       }
     ],
+    "class": [
+      "Leander"
+    ],
     "id": "leander"
   },
   {
     "name": "Leipzig",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -15652,6 +16825,9 @@
         "name": "Storefront Training",
         "image": "https://azurlane.netojuu.com/images/b/be/LeipzigMaid.png"
       }
+    ],
+    "class": [
+      "Leipzig"
     ],
     "id": "leipzig"
   },
@@ -15706,7 +16882,6 @@
   },
   {
     "name": "Leonardo da Vinci",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -15749,6 +16924,9 @@
         "image": "https://azurlane.netojuu.com/images/3/3e/Leonardo_da_VinciDance.png"
       }
     ],
+    "class": [
+      "Marconi"
+    ],
     "id": "leonardo da vinci"
   },
   {
@@ -15756,7 +16934,6 @@
     "rarity": [
       "UR"
     ],
-    "class": [],
     "type": [
       "CV"
     ],
@@ -15788,11 +16965,13 @@
         "image": "https://als.mrlar.dev/full/liekexingdunii_2.webp"
       }
     ],
-    "id": "lexington ii"
+    "id": "lexington ii",
+    "class": [
+      "Essex"
+    ]
   },
   {
     "name": "Li'l Sandy",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -15831,11 +17010,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/shengdiyage_younv.webp"
       }
     ],
+    "class": [
+      "Atlanta"
+    ],
     "id": "li'l sandy"
   },
   {
     "name": "Libeccio",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -15877,6 +17058,9 @@
         "image": "https://azurlane.netojuu.com/images/e/eb/LibeccioSummer.png",
         "name": "Beachbound Southwestern Wind!"
       }
+    ],
+    "class": [
+      "Maestrale"
     ],
     "id": "libeccio"
   },
@@ -15929,7 +17113,6 @@
   },
   {
     "name": "Lion",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -15964,11 +17147,13 @@
         "image": "https://azurlane.netojuu.com/images/e/e1/LionSummer.png"
       }
     ],
+    "class": [
+      "Lion"
+    ],
     "id": "lion"
   },
   {
     "name": "Little Anchorage",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -15999,11 +17184,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/ankeleiqi_younv.webp"
       }
     ],
+    "class": [
+      "Anchorage"
+    ],
     "id": "little anchorage"
   },
   {
     "name": "Little Cheshire",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -16042,11 +17229,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/chaijun_younv.webp"
       }
     ],
+    "class": [
+      "Cheshire"
+    ],
     "id": "little cheshire"
   },
   {
     "name": "Little Enterprise",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -16077,11 +17266,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/qiye_younv.webp"
       }
     ],
+    "class": [
+      "Yorktown"
+    ],
     "id": "little enterprise"
   },
   {
     "name": "Little Formidable",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -16112,11 +17303,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/kewei_younv.webp"
       }
     ],
+    "class": [
+      "Illustrious"
+    ],
     "id": "little formidable"
   },
   {
     "name": "Little Friedrich",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -16154,11 +17347,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/feiteliedadi_younv.webp"
       }
     ],
+    "class": [
+      "H (German)"
+    ],
     "id": "little friedrich"
   },
   {
     "name": "Little Prinz Eugen",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -16197,11 +17392,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/ougen_younv.webp"
       }
     ],
+    "class": [
+      "Admiral Hipper"
+    ],
     "id": "little prinz eugen"
   },
   {
     "name": "Little Spee",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -16240,11 +17437,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/sipeibojue_younv.webp"
       }
     ],
+    "class": [
+      "Deutschland"
+    ],
     "id": "little spee"
   },
   {
     "name": "Little Ägir",
-    "class": [],
     "type": [
       "CB"
     ],
@@ -16275,11 +17474,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/aijier_younv.webp"
       }
     ],
+    "class": [
+      "Ägir"
+    ],
     "id": "little ägir"
   },
   {
     "name": "Littorio",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -16331,11 +17532,13 @@
         "image": "https://azurlane.netojuu.com/images/a/a4/LittorioWork.png"
       }
     ],
+    "class": [
+      "Vittorio Veneto"
+    ],
     "id": "littorio"
   },
   {
     "name": "Liverpool",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -16370,11 +17573,14 @@
         "image": "https://azurlane.netojuu.com/images/d/d3/LiverpoolRPG.png"
       }
     ],
+    "class": [
+      "Town",
+      "Gloucester"
+    ],
     "id": "liverpool"
   },
   {
     "name": "Long Island",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -16427,11 +17633,13 @@
         "name": "Ghostly Receptionist"
       }
     ],
+    "class": [
+      "Long Island"
+    ],
     "id": "long island"
   },
   {
     "name": "Louisville",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -16475,6 +17683,9 @@
         "name": "An Order of Dreams",
         "image": "https://azurlane.netojuu.com/images/9/90/LouisvilleBunny.png"
       }
+    ],
+    "class": [
+      "Northampton"
     ],
     "id": "louisville"
   },
@@ -16525,7 +17736,6 @@
   },
   {
     "name": "Lung Wu",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -16564,11 +17774,13 @@
         "name": "Invitation to Jade Seas"
       }
     ],
+    "class": [
+      "Lung Wu"
+    ],
     "id": "lung wu"
   },
   {
     "name": "Lyme",
-    "class": [],
     "type": [
       "IX(V)"
     ],
@@ -16604,11 +17816,13 @@
         "name": "Corrupting Trap\t"
       }
     ],
+    "class": [
+      "Lyme"
+    ],
     "id": "lyme"
   },
   {
     "name": "Lyon",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -16648,11 +17862,13 @@
         "name": "Paired Exercise"
       }
     ],
+    "class": [
+      "Lyon"
+    ],
     "id": "lyon"
   },
   {
     "name": "Lützow",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -16699,11 +17915,13 @@
         "name": "Steaming-Hot Treat"
       }
     ],
+    "class": [
+      "Derfflinger"
+    ],
     "id": "lützow"
   },
   {
     "name": "Maestrale",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -16742,11 +17960,13 @@
         "image": "https://azurlane.netojuu.com/images/4/47/MaestraleSummer.png"
       }
     ],
+    "class": [
+      "Maestrale"
+    ],
     "id": "maestrale"
   },
   {
     "name": "Magdeburg",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -16794,11 +18014,13 @@
       }
     ],
     "augment": "Unique Modules",
+    "class": [
+      "M (German)"
+    ],
     "id": "magdeburg"
   },
   {
     "name": "Maggiore Baracca",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -16833,11 +18055,13 @@
         "image": "https://azurlane.netojuu.com/images/d/d9/Maggiore_BaraccaNile_Colors.png"
       }
     ],
+    "class": [
+      "Marconi"
+    ],
     "id": "maggiore baracca"
   },
   {
     "name": "Maillé Brézé",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -16880,11 +18104,13 @@
         "name": "Sugary Sabbatical"
       }
     ],
+    "class": [
+      "Vauquelin"
+    ],
     "id": "maillé brézé"
   },
   {
     "name": "Mainz",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -16939,11 +18165,14 @@
         "name": "A Blend of Serenity"
       }
     ],
+    "class": [
+      "Admiral Hipper",
+      "Mainz"
+    ],
     "id": "mainz"
   },
   {
     "name": "Makinami",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -16981,6 +18210,9 @@
         "name": "Time for School!",
         "image": "https://azurlane.netojuu.com/images/3/3b/MakinamiSchool.png"
       }
+    ],
+    "class": [
+      "Yuugumo"
     ],
     "id": "makinami"
   },
@@ -17029,7 +18261,6 @@
   },
   {
     "name": "Manchester",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -17072,11 +18303,14 @@
         "image": "https://azurlane.netojuu.com/images/8/84/ManchesterSummer.png"
       }
     ],
+    "class": [
+      "Town",
+      "Gloucester"
+    ],
     "id": "manchester"
   },
   {
     "name": "Marblehead",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -17127,11 +18361,13 @@
         "name": "Not-So-Serendipitous Rain"
       }
     ],
+    "class": [
+      "Omaha"
+    ],
     "id": "marblehead"
   },
   {
     "name": "Marco Polo",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -17176,6 +18412,9 @@
         "image": "https://azurlane.netojuu.com/images/5/56/Marco_PoloMaid.png",
         "name": "The Queen of Hearts"
       }
+    ],
+    "class": [
+      "Marco Polo"
     ],
     "id": "marco polo"
   },
@@ -17226,7 +18465,6 @@
   },
   {
     "name": "Marseillaise",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -17271,11 +18509,13 @@
         "name": "Fighting Angel's Regimen"
       }
     ],
+    "class": [
+      "La Galissonnière"
+    ],
     "id": "marseillaise"
   },
   {
     "name": "Mary Celeste",
-    "class": [],
     "type": [
       "IX(S)"
     ],
@@ -17321,11 +18561,13 @@
         "image": "https://azurlane.netojuu.com/images/4/46/Mary_CelesteHalloween.png"
       }
     ],
+    "class": [
+      "Mary Celeste"
+    ],
     "id": "mary celeste"
   },
   {
     "name": "Maryland",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -17369,11 +18611,13 @@
         "name": "Red-Hot Drummer"
       }
     ],
+    "class": [
+      "Colorado"
+    ],
     "id": "maryland"
   },
   {
     "name": "Massachusetts",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -17413,11 +18657,13 @@
         "image": "https://azurlane.netojuu.com/images/8/8b/MassachusettsParty.png"
       }
     ],
+    "class": [
+      "South Dakota"
+    ],
     "id": "massachusetts"
   },
   {
     "name": "Masséna",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -17453,6 +18699,9 @@
       }
     ],
     "history": "https://docs.google.com/document/d/14oLYESoFv0TMf-7asXr3HKrwThPaXikV/edit?usp=sharing&ouid=117176816370068308043&rtpof=true&sd=true",
+    "class": [
+      "Masséna"
+    ],
     "id": "masséna"
   },
   {
@@ -17461,7 +18710,6 @@
       "E",
       "SR"
     ],
-    "class": [],
     "type": [
       "DD"
     ],
@@ -17493,11 +18741,13 @@
       "fate_simulation": [],
       "retrofit": []
     },
+    "class": [
+      "Gridley"
+    ],
     "id": "maury"
   },
   {
     "name": "Maya",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -17533,11 +18783,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/moye.webp"
       }
     ],
+    "class": [
+      "Takao"
+    ],
     "id": "maya"
   },
   {
     "name": "McCall",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -17573,11 +18825,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/maikaoer.webp"
       }
     ],
+    "class": [
+      "Gridley"
+    ],
     "id": "mccall"
   },
   {
     "name": "Mecklenburg",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -17611,6 +18865,9 @@
         "image": "https://als.mrlar.dev/full/meikelunbao_2.webp",
         "name": "Branding Witchcraft"
       }
+    ],
+    "class": [
+      "Mecklenburg"
     ],
     "id": "mecklenburg"
   },
@@ -17658,8 +18915,44 @@
     "id": "memphis meta"
   },
   {
+    "name": "Michishio",
+    "rarity": [
+      "R"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "skins": [
+      {
+        "name": "Michishio",
+        "image": "https://als.mrlar.dev/full/manchao.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/manchao.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/manchao (1).webp"
+      }
+    ],
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "faction": {
+      "full": "Sakura Empire",
+      "short": "IJN"
+    },
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Michishio.png"
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "class": [
+      "Asashio"
+    ],
+    "id": "michishio"
+  },
+  {
     "name": "Mikasa",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -17714,11 +19007,13 @@
         "image": "https://azurlane.netojuu.com/images/3/36/MikasaNew_Year2.png"
       }
     ],
+    "class": [
+      "Mikasa"
+    ],
     "id": "mikasa"
   },
   {
     "name": "Miller",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -17753,11 +19048,13 @@
         "name": "Monster Experiment M-01"
       }
     ],
+    "class": [
+      "Fletcher"
+    ],
     "id": "miller"
   },
   {
     "name": "Minase",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -17792,11 +19089,13 @@
         "image": "https://azurlane.netojuu.com/images/f/f9/MinaseNinja.png"
       }
     ],
+    "class": [
+      "Sendai"
+    ],
     "id": "minase"
   },
   {
     "name": "Minsk",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -17834,6 +19133,9 @@
         "name": "Thunderous Jailor",
         "image": "https://azurlane.netojuu.com/images/a/ad/MinskPrison.png"
       }
+    ],
+    "class": [
+      "Leningrad"
     ],
     "id": "minsk"
   },
@@ -17880,7 +19182,6 @@
   },
   {
     "name": "Miyuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -17923,11 +19224,13 @@
         "image": "https://azurlane.netojuu.com/images/f/f8/MiyukiTravel.png"
       }
     ],
+    "class": [
+      "Fubuki"
+    ],
     "id": "miyuki"
   },
   {
     "name": "Mogador",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -17979,11 +19282,13 @@
         "image": "https://azurlane.netojuu.com/images/2/2d/MogadorHospital.png"
       }
     ],
+    "class": [
+      "Mogador"
+    ],
     "id": "mogador"
   },
   {
     "name": "Mogami",
-    "class": [],
     "type": [
       "CL",
       "CA"
@@ -18024,6 +19329,9 @@
         "chibi": "https://ez-upload.al-guide-th.com/api/download/zuishang_g.webp",
         "profile": "https://ez-upload.al-guide-th.com/api/download/zuishang_g (1).webp"
       }
+    ],
+    "class": [
+      "Mogami"
     ],
     "id": "mogami"
   },
@@ -18070,7 +19378,6 @@
   },
   {
     "name": "Monarch",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -18126,6 +19433,9 @@
         "name": "Sovereign of the Beach\t"
       }
     ],
+    "class": [
+      "Monarch"
+    ],
     "id": "monarch"
   },
   {
@@ -18171,7 +19481,6 @@
   },
   {
     "name": "Montpelier",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -18219,11 +19528,13 @@
         "image": "https://azurlane.netojuu.com/images/0/03/MontpelierTravel.png"
       }
     ],
+    "class": [
+      "Cleveland"
+    ],
     "id": "montpelier"
   },
   {
     "name": "Morrison",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -18266,7 +19577,48 @@
         "name": "Technology or Ninjutsu"
       }
     ],
+    "class": [
+      "Fletcher"
+    ],
     "id": "morrison"
+  },
+  {
+    "name": "Moskva",
+    "rarity": [
+      "UR"
+    ],
+    "type": [
+      "CA"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "SN",
+      "full": "Northern Parliament"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/SN Moskva.png"
+      ]
+    },
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/mosike (1).webp",
+        "name": "Moskva",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/mosike.webp",
+        "image": "https://als.mrlar.dev/full/mosike.webp"
+      }
+    ],
+    "history": "https://docs.google.com/document/d/159UwS1nJAzcx5AhzLhzv9TeHw0ykc3JlYpG7x36vllw/edit?usp=sharing",
+    "class": [
+      "Moskva"
+    ],
+    "id": "moskva"
   },
   {
     "name": "Mujina",
@@ -18360,7 +19712,6 @@
   },
   {
     "name": "Murmansk",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -18407,11 +19758,13 @@
         "image": "https://azurlane.netojuu.com/images/d/d1/MurmanskSpring.png"
       }
     ],
+    "class": [
+      "Omaha"
+    ],
     "id": "murmansk"
   },
   {
     "name": "Musashi",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -18460,11 +19813,13 @@
         "name": "The Purple Rabbit’s Marksmanship"
       }
     ],
+    "class": [
+      "Yamato"
+    ],
     "id": "musashi"
   },
   {
     "name": "Mutsu",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -18507,11 +19862,13 @@
         "name": "A Maid's Mis-service?"
       }
     ],
+    "class": [
+      "Nagato"
+    ],
     "id": "mutsu"
   },
   {
     "name": "Mutsuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -18570,11 +19927,13 @@
       "C",
       "R"
     ],
+    "class": [
+      "Mutsuki"
+    ],
     "id": "mutsuki"
   },
   {
     "name": "Myoukou",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -18606,11 +19965,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/miaogao.webp"
       }
     ],
+    "class": [
+      "Myoukou"
+    ],
     "id": "myoukou"
   },
   {
     "name": "Nachi",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -18650,11 +20011,13 @@
       "R",
       "E"
     ],
+    "class": [
+      "Myoukou"
+    ],
     "id": "nachi"
   },
   {
     "name": "Naganami",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -18709,11 +20072,13 @@
         "name": "Heartmelting Warmth"
       }
     ],
+    "class": [
+      "Yuugumo"
+    ],
     "id": "naganami"
   },
   {
     "name": "Nagato",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -18776,6 +20141,9 @@
         "image": "https://azurlane.netojuu.com/images/c/cf/NagatoSpring.png",
         "name": "Guardian Fox’s Blessed Bonds"
       }
+    ],
+    "class": [
+      "Nagato"
     ],
     "id": "nagato"
   },
@@ -18974,7 +20342,6 @@
   },
   {
     "name": "Napoli",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -19009,11 +20376,13 @@
         "name": "Dreamy Night"
       }
     ],
+    "class": [
+      "Napoli"
+    ],
     "id": "napoli"
   },
   {
     "name": "Natori",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -19066,11 +20435,13 @@
         "name": "Boisterous Night on the Cruise"
       }
     ],
+    "class": [
+      "Nagara"
+    ],
     "id": "natori"
   },
   {
     "name": "Nautilus",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -19123,11 +20494,51 @@
         "name": "Shining Blossom in the Deep Blue"
       }
     ],
+    "class": [
+      "Narwhal"
+    ],
     "id": "nautilus"
   },
   {
+    "name": "Nayoro",
+    "rarity": [
+      "E"
+    ],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "name": "Nayoro",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/mingji (1).webp",
+        "image": "https://als.mrlar.dev/full/mingji.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/mingji.webp"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Nayoro.png"
+      ],
+      "fate_simulation": []
+    },
+    "history": "https://docs.google.com/document/d/1NUL3JmMGlGrluImOpgd2rq13os48IKTwmCypq-d5WvE/edit?usp=sharing",
+    "class": [
+      "Sendai"
+    ],
+    "id": "nayoro"
+  },
+  {
     "name": "Nelson",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -19179,11 +20590,13 @@
         "name": "Azure & Gold Summer Night"
       }
     ],
+    "class": [
+      "Nelson"
+    ],
     "id": "nelson"
   },
   {
     "name": "Neptune",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -19240,6 +20653,9 @@
         "image": "https://azurlane.netojuu.com/images/2/21/NeptuneSpecial_Exercise.png"
       }
     ],
+    "class": [
+      "Neptune"
+    ],
     "id": "neptune"
   },
   {
@@ -19279,7 +20695,6 @@
   },
   {
     "name": "New Jersey",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -19334,11 +20749,13 @@
         "name": "Black Blur Prelude"
       }
     ],
+    "class": [
+      "Iowa"
+    ],
     "id": "new jersey"
   },
   {
     "name": "New Orleans",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -19377,11 +20794,13 @@
         "image": "https://azurlane.netojuu.com/images/7/7e/New_OrleansBunny.png"
       }
     ],
+    "class": [
+      "New Orleans"
+    ],
     "id": "new orleans"
   },
   {
     "name": "Nicholas",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -19439,11 +20858,13 @@
         "name": "After-School Promise"
       }
     ],
+    "class": [
+      "Fletcher"
+    ],
     "id": "nicholas"
   },
   {
     "name": "Nicoloso da Recco",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -19481,6 +20902,9 @@
         "name": "To a Smashing Voyage!",
         "image": "https://azurlane.netojuu.com/images/c/c0/Nicoloso_da_ReccoSummer.png"
       }
+    ],
+    "class": [
+      "Navigatori"
     ],
     "id": "nicoloso da recco"
   },
@@ -19526,7 +20950,6 @@
   },
   {
     "name": "Ning Hai",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -19599,11 +21022,13 @@
         "name": "Hectic Kitchen"
       }
     ],
+    "class": [
+      "Ning Hai"
+    ],
     "id": "ning hai"
   },
   {
     "name": "North Carolina",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -19639,11 +21064,13 @@
         "image": "https://azurlane.netojuu.com/images/a/a0/North_CarolinaBunny.png"
       }
     ],
+    "class": [
+      "North Carolina"
+    ],
     "id": "north carolina"
   },
   {
     "name": "Northampton II",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -19693,11 +21120,13 @@
         "image": "https://azurlane.netojuu.com/images/f/f8/Northampton_IISpring.png"
       }
     ],
+    "class": [
+      "Oregon City"
+    ],
     "id": "northampton ii"
   },
   {
     "name": "Noshiro",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -19725,7 +21154,6 @@
       }
     ],
     "note": [],
-    "augment": "New Unique Modules",
     "gear": [],
     "rarity": [
       "SR"
@@ -19774,11 +21202,14 @@
         "name": "A Dip in the Moonlight"
       }
     ],
+    "augment": "Unique Modules",
+    "class": [
+      "Agano"
+    ],
     "id": "noshiro"
   },
   {
     "name": "Noshiro μ",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -19809,11 +21240,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/nengdai_idol.webp"
       }
     ],
+    "class": [
+      "Agano"
+    ],
     "id": "noshiro μ"
   },
   {
     "name": "Nubian",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -19851,6 +21284,9 @@
         "name": "The Modern-Day Clumsy Maid Escapade",
         "image": "https://azurlane.netojuu.com/images/0/00/NubianMaid.png"
       }
+    ],
+    "class": [
+      "Tribal"
     ],
     "id": "nubian"
   },
@@ -19897,7 +21333,6 @@
   },
   {
     "name": "Nürnberg",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -19940,11 +21375,13 @@
         "name": "Spring Wanderer"
       }
     ],
+    "class": [
+      "Leipzig"
+    ],
     "id": "nürnberg"
   },
   {
     "name": "Odin",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -19990,11 +21427,13 @@
         "name": "Black Strokes upon Blank Snow"
       }
     ],
+    "class": [
+      "Odin"
+    ],
     "id": "odin"
   },
   {
     "name": "Ognevoy",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -20039,11 +21478,13 @@
         "name": "Blue Nova"
       }
     ],
+    "class": [
+      "Ognevoy"
+    ],
     "id": "ognevoy"
   },
   {
     "name": "Oleg",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -20078,11 +21519,13 @@
         "name": "Repose by the Fireplace"
       }
     ],
+    "class": [
+      "Bogatyr"
+    ],
     "id": "oleg"
   },
   {
     "name": "Ooshio",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -20090,13 +21533,6 @@
     "faction": {
       "short": "IJN",
       "full": "Sakura Empire"
-    },
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/IJN%20Ooshio.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": []
     },
     "aoa": [
       {
@@ -20132,6 +21568,16 @@
         "name": "Let's 'ave Lunch",
         "image": "https://azurlane.netojuu.com/images/6/6f/OoshioSchool.png"
       }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Ōshio.png"
+      ]
+    },
+    "class": [
+      "Asashio"
     ],
     "id": "ooshio"
   },
@@ -20179,7 +21625,6 @@
   },
   {
     "name": "Otto von Alvensleben",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -20226,11 +21671,13 @@
         "name": "The Clumsy Maid is in a Bind!"
       }
     ],
+    "class": [
+      "Type 1937J"
+    ],
     "id": "otto von alvensleben"
   },
   {
     "name": "Oumi",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -20265,11 +21712,13 @@
         "name": "A Failed Escape?"
       }
     ],
+    "class": [
+      "Kii"
+    ],
     "id": "oumi"
   },
   {
     "name": "Owari",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -20317,11 +21766,51 @@
         "name": "My Wish is For Love"
       }
     ],
+    "class": [
+      "Kii"
+    ],
     "id": "owari"
   },
   {
+    "name": "Ozornoy",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "SN",
+      "full": "Northern Parliament"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/SN Ozornoy.png"
+      ]
+    },
+    "skins": [
+      {
+        "name": "Ozornoy",
+        "image": "https://als.mrlar.dev/full/wanpi.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/wanpi.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/wanpi (1).webp"
+      }
+    ],
+    "history": "https://docs.google.com/document/d/159UwS1nJAzcx5AhzLhzv9TeHw0ykc3JlYpG7x36vllw/edit?usp=sharing",
+    "class": [
+      "Ognevoy"
+    ],
+    "id": "ozornoy"
+  },
+  {
     "name": "Painlevé",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -20361,11 +21850,13 @@
         "image": "https://azurlane.netojuu.com/images/d/da/PainlevéSummer.png"
       }
     ],
+    "class": [
+      "Joffre"
+    ],
     "id": "painlevé"
   },
   {
     "name": "Pamiat' Merkuria",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -20434,6 +21925,9 @@
         "image": "https://azurlane.netojuu.com/images/0/05/Pamiat%27_MerkuriaEvent.png"
       }
     ],
+    "class": [
+      "Bogatyr"
+    ],
     "id": "pamiat' merkuria"
   },
   {
@@ -20486,7 +21980,6 @@
     "rarity": [
       "E"
     ],
-    "class": [],
     "type": [
       "CL"
     ],
@@ -20518,6 +22011,9 @@
         "https://ez-upload.al-guide-th.com/api/download/USS Pasadena.png"
       ]
     },
+    "class": [
+      "Cleveland"
+    ],
     "id": "pasadena"
   },
   {
@@ -20568,8 +22064,43 @@
     "id": "patricia abelheim"
   },
   {
-    "name": "Pearl",
+    "name": "Patty",
     "class": [],
+    "type": [
+      "SS"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "Collab",
+      "short": "DOA",
+      "sub": "Venus Vacation"
+    },
+    "skill_detail": {
+      "skill": [
+        ""
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "rarity": [
+      "SR"
+    ],
+    "id": "patty",
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/paidi_doa.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/paidi_doa (1).webp",
+        "name": "Patty",
+        "image": "https://als.mrlar.dev/full/paidi_doa.webp"
+      }
+    ]
+  },
+  {
+    "name": "Pearl",
     "type": [
       "IX(M)"
     ],
@@ -20605,11 +22136,13 @@
         "image": "https://azurlane.netojuu.com/images/8/8d/PearlRPG.png"
       }
     ],
+    "class": [
+      "Pearl"
+    ],
     "id": "pearl"
   },
   {
     "name": "Penelope",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -20652,11 +22185,13 @@
         "name": "Salty Maid"
       }
     ],
+    "class": [
+      "Arethusa"
+    ],
     "id": "penelope"
   },
   {
     "name": "Perseus",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -20708,11 +22243,13 @@
         "name": "Spring's Lackadaisical Leisure"
       }
     ],
+    "class": [
+      "Colossus"
+    ],
     "id": "perseus"
   },
   {
     "name": "Peter Strasser",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -20761,11 +22298,13 @@
         "image": "https://azurlane.netojuu.com/images/2/2e/Peter_StrasserSpring.png"
       }
     ],
+    "class": [
+      "Graf Zeppelin"
+    ],
     "id": "peter strasser"
   },
   {
     "name": "Ping Hai",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -20838,11 +22377,13 @@
         "name": "Lively Banquet Preparations"
       }
     ],
+    "class": [
+      "Ning Hai"
+    ],
     "id": "ping hai"
   },
   {
     "name": "Pittsburgh",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -20877,11 +22418,13 @@
         "name": "The Bartender's Gambit"
       }
     ],
+    "class": [
+      "Baltimore"
+    ],
     "id": "pittsburgh"
   },
   {
     "name": "Plymouth",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -20926,11 +22469,13 @@
         "name": "Heart-Throbbing Refreshment"
       }
     ],
+    "class": [
+      "Plymouth"
+    ],
     "id": "plymouth"
   },
   {
     "name": "Pola",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -20973,11 +22518,13 @@
         "image": "https://azurlane.netojuu.com/images/3/34/PolaSummer.png"
       }
     ],
+    "class": [
+      "Zara"
+    ],
     "id": "pola"
   },
   {
     "name": "Poltava",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -21017,11 +22564,13 @@
         "name": "Meeting the Mafia Queen"
       }
     ],
+    "class": [
+      "Gangut"
+    ],
     "id": "poltava"
   },
   {
     "name": "Pompeo Magno",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -21064,11 +22613,13 @@
         "name": "Quaver Daydream"
       }
     ],
+    "class": [
+      "Capitani Romani"
+    ],
     "id": "pompeo magno"
   },
   {
     "name": "Portsmouth Adventure",
-    "class": [],
     "type": [
       "IX(V)"
     ],
@@ -21104,11 +22655,13 @@
         "image": "https://azurlane.netojuu.com/images/4/45/Portsmouth_AdventureHalloween.png"
       }
     ],
+    "class": [
+      "Portsmouth Adventure"
+    ],
     "id": "portsmouth adventure"
   },
   {
     "name": "Prince of Wales",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -21156,6 +22709,9 @@
         "image": "https://azurlane.netojuu.com/images/f/f2/Prince_of_WalesParty.png"
       }
     ],
+    "class": [
+      "King George V"
+    ],
     "id": "prince of wales"
   },
   {
@@ -21200,7 +22756,6 @@
   },
   {
     "name": "Princeton",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -21247,6 +22802,9 @@
         "name": "Gift-Wrapped Reindeer"
       }
     ],
+    "class": [
+      "Independence"
+    ],
     "id": "princeton"
   },
   {
@@ -21286,7 +22844,6 @@
   },
   {
     "name": "Prinz Adalbert",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -21333,11 +22890,13 @@
         "name": "Bathroom Slip-Up"
       }
     ],
+    "class": [
+      "P"
+    ],
     "id": "prinz adalbert"
   },
   {
     "name": "Prinz Eugen",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -21401,11 +22960,13 @@
         "name": "Between Tipsiness and a Wager"
       }
     ],
+    "class": [
+      "Admiral Hipper"
+    ],
     "id": "prinz eugen"
   },
   {
     "name": "Prinz Eugen μ",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -21436,11 +22997,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/ougen_idol.webp"
       }
     ],
+    "class": [
+      "Admiral Hipper"
+    ],
     "id": "prinz eugen μ"
   },
   {
     "name": "Prinz Heinrich",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -21467,7 +23030,6 @@
       }
     ],
     "note": [],
-    "augment": "New Unique Modules",
     "gear": [],
     "rarity": [
       "SR"
@@ -21496,11 +23058,14 @@
         "image": "https://azurlane.netojuu.com/images/a/ab/Prinz_HeinrichParty.png"
       }
     ],
+    "augment": "Unique Modules",
+    "class": [
+      "P"
+    ],
     "id": "prinz heinrich"
   },
   {
     "name": "Prinz Rupprecht",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -21550,11 +23115,13 @@
         "image": "https://azurlane.netojuu.com/images/3/3a/Prinz_RupprechtTheme_Park.png"
       }
     ],
+    "class": [
+      "Prinz Rupprecht"
+    ],
     "id": "prinz rupprecht"
   },
   {
     "name": "Queen Anne's Revenge",
-    "class": [],
     "type": [
       "IX(M)"
     ],
@@ -21589,6 +23156,9 @@
         "name": "Call of the Creeping Embrace",
         "image": "https://azurlane.netojuu.com/images/2/2d/Queen_Anne%27s_RevengeRPG.png"
       }
+    ],
+    "class": [
+      "Queen Anne's Revenge"
     ],
     "id": "queen anne's revenge"
   },
@@ -21646,7 +23216,6 @@
   },
   {
     "name": "Raffaello",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -21681,11 +23250,13 @@
         "name": "Protector of Love and Beauty"
       }
     ],
+    "class": [
+      "Raffaello"
+    ],
     "id": "raffaello"
   },
   {
     "name": "Regensburg",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -21736,7 +23307,72 @@
         "image": "https://azurlane.netojuu.com/images/b/b7/RegensburgBunny.png"
       }
     ],
+    "class": [
+      "M (German)"
+    ],
     "id": "regensburg"
+  },
+  {
+    "name": "Regensburg META",
+    "rarity": [
+      "SRM"
+    ],
+    "class": [],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "META",
+      "sub": "Cinders of Hope"
+    },
+    "meta_showdown_comment": "",
+    "gear": [],
+    "aoa": [],
+    "note": [],
+    "note_skill": [],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/leigensibao_alter.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/leigensibao_alter (1).webp",
+        "image": "https://als.mrlar.dev/full/leigensibao_alter.webp",
+        "name": "Regensburg META"
+      }
+    ],
+    "meta_showdown_armor": "L",
+    "meta_showdown": [
+      {
+        "skill_detail": "เมื่อเริ่มการต่อสู้บอสจะสร้างสถานะ Hunt of the Mighty 1 ขั้นใส่เรือของฝ่ายเราที่มีค่า FP, TRP, AVI, EVA และ ACC สูงที่สุด หากค่าที่สูงที่สุดคือ 0 จะไม่มีการสร้างสถานะ Hunt of the Mighty",
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-12_220926088.png",
+        "skill_name": "Hunt of the Mighty"
+      },
+      {
+        "skill_detail": "หากเรือลำใดมีค่า Stat สูงสุดหลายค่า จะได้รับสถานะ Hunt of the Mighty สะสมหลายขั้น เรือที่ได้รับสถานะ Hunt of the Mighty 1 ขั้นจะได้รับความเสียหายจากบอสเพิ่มขึ้น 10%(ความเสียหายรวม 110%) และตั้งแต่ขั้นที่ 2 ขึ้นไปจะได้รับความเสียหายจากบอสเพิ่มมากขึ้นขั้นละ 200%(ความเสียหายรวม +220%)"
+      },
+      {
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-12_222642174.png",
+        "skill_detail": "หากเรือได้รับสถานะ Hunt of the Mighty เป็นเรือกองหลัง(Main Fleet) จะได้รับสถานะไฟไหม้ซึ่งจะสร้างความเสียหายต่อเนื่อง (ยกเว้น DDG น่าจะบัคนับ DDG เป็น Vanguard รึป่าว) สถานะไฟไหม้จะไม่จะไม่สร้างความเสียหายมากขึ้นตามผลของ Hunt of the Mighty"
+      },
+      {
+        "skill_detail": "หากสถานะ Hunt of the Mighty ไม่ได้ถูกมอบให้กับเรือฝ่ายเรา หรือเรือที่ได้รับสถานะ Hunt of the Mighty จมลง สถานะ Hunt of the Mighty จะถูกส่งต่อไปยังบอส โดยทุก 1 ขั้นของ Hunt of the Mighty บอสจะได้รับความเสียหายลดลง 20%",
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-03-12_223832438.png"
+      },
+      {
+        "skill_detail": "เมื่อ Unit ของฝ่ายเราจม หรือหายไปจากหน้าจอ(ไม่รู้ว่านับพวก Summon มั้ย?) บอสจะได้รับ FP และ TRP เพิ้่มขึ้น 15%",
+        "skill_name": "Incremental Victory"
+      }
+    ],
+    "meta_showdown_team": [
+      "https://ez-upload.al-guide-th.com/api/download/ภาพ_2026-03-18_173615444.png"
+    ],
+    "skill_detail": {
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/META Regensburg.png"
+      ],
+      "retrofit": []
+    },
+    "id": "regensburg meta"
   },
   {
     "name": "Reisalin Stout",
@@ -21791,7 +23427,6 @@
   },
   {
     "name": "Reno",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -21842,11 +23477,13 @@
         "name": "Spring's Inspiration"
       }
     ],
+    "class": [
+      "Atlanta"
+    ],
     "id": "reno"
   },
   {
     "gear": [],
-    "class": [],
     "name": "Renown",
     "type": [
       "BC"
@@ -21885,6 +23522,9 @@
       {
         "image": "https://ez-upload.al-guide-th.com/api/download/Renow Skill 1.mp4"
       }
+    ],
+    "class": [
+      "Renown"
     ],
     "id": "renown"
   },
@@ -22011,7 +23651,6 @@
   },
   {
     "name": "Revenge",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -22050,11 +23689,13 @@
         "image": "https://azurlane.netojuu.com/images/9/9d/RevengeMaid.png"
       }
     ],
+    "class": [
+      "Revenge"
+    ],
     "id": "revenge"
   },
   {
     "name": "Richelieu",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -22096,6 +23737,9 @@
         "image": "https://azurlane.netojuu.com/images/b/be/RichelieuNew_Year.png",
         "name": "Evergreen Prophecy"
       }
+    ],
+    "class": [
+      "Richelieu"
     ],
     "id": "richelieu"
   },
@@ -22201,7 +23845,6 @@
   },
   {
     "name": "Rodney",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -22248,7 +23891,10 @@
         "name": "Immaculate Beauty"
       }
     ],
-    "id": "rodney"
+    "id": "rodney",
+    "class": [
+      "Nelson"
+    ]
   },
   {
     "name": "Rodney META",
@@ -22307,7 +23953,6 @@
   },
   {
     "name": "Roma",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -22351,11 +23996,13 @@
         "name": "Vacation Upon the Tiber"
       }
     ],
+    "class": [
+      "Vittorio Veneto"
+    ],
     "id": "roma"
   },
   {
     "name": "Roon",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -22406,11 +24053,13 @@
         "name": "The Abyssal Embrace"
       }
     ],
+    "class": [
+      "Roon"
+    ],
     "id": "roon"
   },
   {
     "name": "Royal Fortune",
-    "class": [],
     "type": [
       "IX(S)"
     ],
@@ -22463,11 +24112,13 @@
         "image": "https://azurlane.netojuu.com/images/f/f6/Royal_FortuneSummer.png"
       }
     ],
+    "class": [
+      "Royal Fortune"
+    ],
     "id": "royal fortune"
   },
   {
     "name": "Royal James",
-    "class": [],
     "type": [
       "IX(V)"
     ],
@@ -22503,11 +24154,13 @@
         "name": "The Forbidden Slurp"
       }
     ],
+    "class": [
+      "Royal James"
+    ],
     "id": "royal james"
   },
   {
     "name": "Royal Oak",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -22549,6 +24202,9 @@
         "name": "Bashful Oak",
         "image": "https://azurlane.netojuu.com/images/0/00/Royal_OakSchool.png"
       }
+    ],
+    "class": [
+      "Revenge"
     ],
     "id": "royal oak"
   },
@@ -22593,7 +24249,6 @@
   },
   {
     "name": "Ryuuhou",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -22628,11 +24283,13 @@
         "name": "Firebird's New Year Dance"
       }
     ],
+    "class": [
+      "Zuihou"
+    ],
     "id": "ryuuhou"
   },
   {
     "name": "Saint Louis",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -22679,11 +24336,13 @@
         "image": "https://azurlane.netojuu.com/images/e/e7/Saint_LouisSpring.png"
       }
     ],
+    "class": [
+      "Saint Louis"
+    ],
     "id": "saint louis"
   },
   {
     "name": "Sakawa",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -22734,11 +24393,13 @@
         "image": "https://azurlane.netojuu.com/images/b/bf/SakawaParty.png"
       }
     ],
+    "class": [
+      "Agano"
+    ],
     "id": "sakawa"
   },
   {
     "name": "San Diego",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -22801,11 +24462,13 @@
         "image": "https://azurlane.netojuu.com/images/7/7d/San_DiegoChristmas.png"
       }
     ],
+    "class": [
+      "Atlanta"
+    ],
     "id": "san diego"
   },
   {
     "name": "San Francisco",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -22852,11 +24515,13 @@
         "image": "https://azurlane.netojuu.com/images/0/04/San_FranciscoDance.png"
       }
     ],
+    "class": [
+      "New Orleans"
+    ],
     "id": "san francisco"
   },
   {
     "name": "San Jacinto",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -22900,11 +24565,13 @@
         "image": "https://azurlane.netojuu.com/images/4/43/San_JacintoBunny.png"
       }
     ],
+    "class": [
+      "Independence"
+    ],
     "id": "san jacinto"
   },
   {
     "name": "San Juan",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -22948,11 +24615,13 @@
         "image": "https://azurlane.netojuu.com/images/0/0d/San_JuanParty.png"
       }
     ],
+    "class": [
+      "Atlanta"
+    ],
     "id": "san juan"
   },
   {
     "name": "Santa Fe",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -22987,11 +24656,13 @@
         "image": "https://azurlane.netojuu.com/images/9/9c/Santa_FeHospital.png"
       }
     ],
+    "class": [
+      "Cleveland"
+    ],
     "id": "santa fe"
   },
   {
     "name": "Saratoga",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -23087,11 +24758,13 @@
         "name": "Morning Sun Over Azure Skies"
       }
     ],
+    "class": [
+      "Lexington"
+    ],
     "id": "saratoga"
   },
   {
     "name": "Scharnhorst",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -23126,6 +24799,9 @@
         "name": "Panther und Pflaume",
         "image": "https://azurlane.netojuu.com/images/5/54/ScharnhorstSpring.png"
       }
+    ],
+    "class": [
+      "Scharnhorst"
     ],
     "id": "scharnhorst"
   },
@@ -23191,7 +24867,6 @@
   },
   {
     "name": "Scylla",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -23247,11 +24922,13 @@
         "name": "A Maid's Judgment"
       }
     ],
+    "class": [
+      "Dido"
+    ],
     "id": "scylla"
   },
   {
     "name": "Seattle",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -23301,11 +24978,13 @@
         "name": "Sunfish Spell!"
       }
     ],
+    "class": [
+      "Seattle"
+    ],
     "id": "seattle"
   },
   {
     "name": "Sendai",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -23345,6 +25024,9 @@
         "name": "Retrofit",
         "profile": "https://ez-upload.al-guide-th.com/api/download/chuannei_g (1).webp"
       }
+    ],
+    "class": [
+      "Sendai"
     ],
     "id": "sendai"
   },
@@ -23397,7 +25079,6 @@
   },
   {
     "name": "Sevastopol",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -23437,11 +25118,13 @@
         "image": "https://azurlane.netojuu.com/images/8/86/SevastopolHot_Springs.png"
       }
     ],
+    "class": [
+      "Gangut"
+    ],
     "id": "sevastopol"
   },
   {
     "name": "Seydlitz",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -23488,11 +25171,49 @@
         "name": "An Officer's Streetwear"
       }
     ],
+    "class": [
+      "Seydlitz"
+    ],
     "id": "seydlitz"
   },
   {
-    "name": "Shangri-La",
+    "name": "Shandy",
     "class": [],
+    "type": [
+      "CA"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "Collab",
+      "short": "DOA",
+      "sub": "Venus Vacation"
+    },
+    "skill_detail": {
+      "skill": [
+        ""
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "rarity": [
+      "SR"
+    ],
+    "id": "shandy",
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/xiangdi_doa.webp",
+        "image": "https://als.mrlar.dev/full/xiangdi_doa.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/xiangdi_doa (1).webp",
+        "name": "Shandy"
+      }
+    ]
+  },
+  {
+    "name": "Shangri-La",
     "type": [
       "CV"
     ],
@@ -23532,10 +25253,12 @@
         "image": "https://azurlane.netojuu.com/images/e/ef/Shangri-LaMisc.png"
       }
     ],
+    "class": [
+      "Essex"
+    ],
     "id": "shangri-la"
   },
   {
-    "class": [],
     "type": [
       "CL"
     ],
@@ -23588,6 +25311,10 @@
         "name": "Occult Clash"
       }
     ],
+    "class": [
+      "Town",
+      "Southampton"
+    ],
     "id": "sheffield"
   },
   {
@@ -23627,7 +25354,6 @@
   },
   {
     "name": "Sheffield µ",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -23658,11 +25384,14 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/xiefeierde_idol.webp"
       }
     ],
+    "class": [
+      "Town",
+      "Southampton"
+    ],
     "id": "sheffield µ"
   },
   {
     "name": "Shimakaze",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -23721,11 +25450,13 @@
         "image": "https://azurlane.netojuu.com/images/8/87/ShimakazeSpring.png"
       }
     ],
+    "class": [
+      "Shimakaze"
+    ],
     "id": "shimakaze"
   },
   {
     "name": "Shimanto",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -23766,11 +25497,13 @@
         "image": "https://azurlane.netojuu.com/images/e/e9/ShimantoSummer.png"
       }
     ],
+    "class": [
+      "Shimanto"
+    ],
     "id": "shimanto"
   },
   {
     "name": "Shinano",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -23832,11 +25565,13 @@
         "image": "https://azurlane.netojuu.com/images/6/6d/ShinanoBunny.png"
       }
     ],
+    "class": [
+      "Yamato"
+    ],
     "id": "shinano"
   },
   {
     "name": "Shinano-chan",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -23866,11 +25601,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/xinnong_younv.webp"
       }
     ],
+    "class": [
+      "Yamato"
+    ],
     "id": "shinano-chan"
   },
   {
     "name": "Shiranui",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -23916,11 +25653,13 @@
         "name": "Mooncake Merchant"
       }
     ],
+    "class": [
+      "Kagerou"
+    ],
     "id": "shiranui"
   },
   {
     "name": "Shiratsuyu",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -23969,11 +25708,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/bailu_g (1).webp"
       }
     ],
+    "class": [
+      "Shiratsuyu"
+    ],
     "id": "shiratsuyu"
   },
   {
     "name": "Shirayuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -24012,11 +25753,51 @@
         "image": "https://azurlane.netojuu.com/images/4/41/ShirayukiSchool.png"
       }
     ],
+    "augment": "Unique Modules",
+    "review": "https://youtube.com/shorts/TyzeB3N8MCk",
+    "class": [
+      "Fubuki"
+    ],
     "id": "shirayuki"
   },
   {
-    "name": "Shoukaku",
+    "name": "Shizuku",
     "class": [],
+    "type": [
+      "BB"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "Collab",
+      "short": "DOA",
+      "sub": "Venus Vacation"
+    },
+    "skill_detail": {
+      "skill": [
+        ""
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "rarity": [
+      "SR"
+    ],
+    "id": "shizuku",
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/na_doa.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/na_doa (1).webp",
+        "name": "Shizuku",
+        "image": "https://als.mrlar.dev/full/na_doa.webp"
+      }
+    ]
+  },
+  {
+    "name": "Shoukaku",
     "type": [
       "CV"
     ],
@@ -24060,11 +25841,13 @@
         "name": "White Crane of Domestic Bliss"
       }
     ],
+    "class": [
+      "Shoukaku"
+    ],
     "id": "shoukaku"
   },
   {
     "name": "Shropshire",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -24108,11 +25891,14 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/shiluopujun_g (1).webp"
       }
     ],
+    "class": [
+      "County",
+      "London"
+    ],
     "id": "shropshire"
   },
   {
     "name": "Sirius",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -24163,11 +25949,13 @@
         "image": "https://azurlane.netojuu.com/images/f/f3/SiriusTheme_Park.png"
       }
     ],
+    "class": [
+      "Dido"
+    ],
     "id": "sirius"
   },
   {
     "name": "Soobrazitelny",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -24210,11 +25998,13 @@
         "name": "The Machinery of Life"
       }
     ],
+    "class": [
+      "Storozhevoy"
+    ],
     "id": "soobrazitelny"
   },
   {
     "name": "Souryuu",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -24261,6 +26051,9 @@
         "name": "The Counselor Girl",
         "image": "https://azurlane.netojuu.com/images/9/99/SouryuuSchool.png"
       }
+    ],
+    "class": [
+      "Souryuu"
     ],
     "id": "souryuu"
   },
@@ -24322,7 +26115,6 @@
   },
   {
     "name": "South Dakota",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -24358,11 +26150,13 @@
         "image": "https://azurlane.netojuu.com/images/4/46/South_DakotaParty.png"
       }
     ],
+    "class": [
+      "South Dakota"
+    ],
     "id": "south dakota"
   },
   {
     "name": "Sovetskaya Belorussiya",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -24406,11 +26200,13 @@
         "name": "Ripples and a Fluttering Veil"
       }
     ],
+    "class": [
+      "Sovetsky Soyuz"
+    ],
     "id": "sovetskaya belorussiya"
   },
   {
     "name": "Sovetskaya Rossiya",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -24450,11 +26246,13 @@
         "image": "https://azurlane.netojuu.com/images/9/97/Sovetskaya_RossiyaPrison.png"
       }
     ],
+    "class": [
+      "Sovetsky Soyuz"
+    ],
     "id": "sovetskaya rossiya"
   },
   {
     "name": "Sovetsky Soyuz",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -24503,11 +26301,13 @@
         "name": "Stringed Interrogation"
       }
     ],
+    "class": [
+      "Sovetsky Soyuz"
+    ],
     "id": "sovetsky soyuz"
   },
   {
     "name": "Spence",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -24553,11 +26353,13 @@
         "chibi": "https://ez-upload.al-guide-th.com/api/download/SpenceChibi.png"
       }
     ],
+    "class": [
+      "Fletcher"
+    ],
     "id": "spence"
   },
   {
     "name": "St. Louis",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -24605,11 +26407,13 @@
         "image": "https://azurlane.netojuu.com/images/4/43/St._LouisSummer.png"
       }
     ],
+    "class": [
+      "Brooklyn"
+    ],
     "id": "st. louis"
   },
   {
     "name": "Stephen Potter",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -24653,11 +26457,13 @@
         "name": "Chillaxation Station"
       }
     ],
+    "class": [
+      "Fletcher"
+    ],
     "id": "stephen potter"
   },
   {
     "name": "Strasbourg",
-    "class": [],
     "type": [
       "BC"
     ],
@@ -24692,11 +26498,51 @@
         "image": "https://azurlane.netojuu.com/images/9/9c/StrasbourgRaceQueen.png"
       }
     ],
+    "class": [
+      "Dunkerque"
+    ],
     "id": "strasbourg"
   },
   {
+    "name": "Stremitelny",
+    "aoa": [],
+    "augment": "Unique Modules",
+    "faction": {
+      "full": "Northern Parliament",
+      "short": "SN"
+    },
+    "gear": [],
+    "note": [],
+    "note_skill": [],
+    "rarity": [
+      "E"
+    ],
+    "skins": [
+      {
+        "name": "Stremitelny",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/shensu (1).webp",
+        "image": "https://als.mrlar.dev/full/shensu.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/shensu.webp"
+      }
+    ],
+    "tag": [],
+    "type": [
+      "DD"
+    ],
+    "skill_detail": {
+      "fate_simulation": [],
+      "retrofit": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/SN Stremitelny.png"
+      ]
+    },
+    "class": [
+      "Gnevny"
+    ],
+    "id": "stremitelny"
+  },
+  {
     "name": "Suffolk",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -24741,11 +26587,14 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/safuke_g (1).webp"
       }
     ],
+    "class": [
+      "County",
+      "Kent"
+    ],
     "id": "suffolk"
   },
   {
     "name": "Suffren",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -24789,11 +26638,13 @@
         "name": "Unrivaled Winsomeness"
       }
     ],
+    "class": [
+      "Suffren"
+    ],
     "id": "suffren"
   },
   {
     "name": "Surcouf",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -24837,11 +26688,13 @@
         "name": "Loisirs Balnéaires"
       }
     ],
+    "class": [
+      "Surcouf"
+    ],
     "id": "surcouf"
   },
   {
     "name": "Suruga",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -24893,11 +26746,13 @@
         "image": "https://azurlane.netojuu.com/images/3/3b/SurugaChristmas.png"
       }
     ],
+    "class": [
+      "Kii"
+    ],
     "id": "suruga"
   },
   {
     "name": "Suzunami",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -24932,11 +26787,13 @@
         "name": "Winter Beauty's Ball Gown"
       }
     ],
+    "class": [
+      "Yuugumo"
+    ],
     "id": "suzunami"
   },
   {
     "name": "Suzutsuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -24983,11 +26840,13 @@
         "name": "Suzutsuki, Hanetsuki Adept!"
       }
     ],
+    "class": [
+      "Akizuki"
+    ],
     "id": "suzutsuki"
   },
   {
     "name": "Suzuya",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -25030,11 +26889,13 @@
         "name": "Midnight Care"
       }
     ],
+    "class": [
+      "Mogami"
+    ],
     "id": "suzuya"
   },
   {
     "name": "Svirepy",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -25079,11 +26940,13 @@
         "name": "Rebellious Artist"
       }
     ],
+    "class": [
+      "Storozhevoy"
+    ],
     "id": "svirepy"
   },
   {
     "name": "Swiftsure",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -25130,11 +26993,13 @@
         "image": "https://azurlane.netojuu.com/images/c/cc/SwiftsureSummer.png"
       }
     ],
+    "class": [
+      "Swiftsure"
+    ],
     "id": "swiftsure"
   },
   {
     "name": "São Martinho",
-    "class": [],
     "type": [
       "IX(M)"
     ],
@@ -25175,11 +27040,13 @@
         "name": "The Golden Shadow"
       }
     ],
+    "class": [
+      "São Martinho"
+    ],
     "id": "são martinho"
   },
   {
     "name": "Taekaze",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -25214,11 +27081,13 @@
         "image": "https://azurlane.netojuu.com/images/f/f8/TaekazeNinja.png"
       }
     ],
+    "class": [
+      "Yuugumo"
+    ],
     "id": "taekaze"
   },
   {
     "name": "Tai Yuan",
-    "class": [],
     "type": [
       "DD",
       "DDG"
@@ -25271,11 +27140,13 @@
         "image": "https://azurlane.netojuu.com/images/1/14/Tai_YuanHome_Relaxation.png"
       }
     ],
+    "class": [
+      "An Shan"
+    ],
     "id": "tai yuan"
   },
   {
     "name": "Taihou",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -25339,6 +27210,9 @@
         "name": "Fun on the Baize"
       }
     ],
+    "class": [
+      "Taihou"
+    ],
     "id": "taihou"
   },
   {
@@ -25398,7 +27272,6 @@
   },
   {
     "name": "Taihou µ",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -25436,11 +27309,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/dafeng_idol.webp"
       }
     ],
+    "class": [
+      "Taihou"
+    ],
     "id": "taihou µ"
   },
   {
     "name": "Taihou-chan",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -25476,11 +27351,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/dafeng_younv.webp"
       }
     ],
+    "class": [
+      "Taihou"
+    ],
     "id": "taihou-chan"
   },
   {
     "name": "Takao",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -25540,11 +27417,13 @@
         "name": "Divine Exorcist's Blade"
       }
     ],
+    "class": [
+      "Takao"
+    ],
     "id": "takao"
   },
   {
     "name": "Tallinn",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -25595,6 +27474,10 @@
         "image": "https://azurlane.netojuu.com/images/9/96/TallinnSpring.png"
       }
     ],
+    "class": [
+      "Admiral Hipper",
+      "Tallinn"
+    ],
     "id": "tallinn"
   },
   {
@@ -25644,7 +27527,6 @@
   },
   {
     "name": "Tashkent",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -25696,6 +27578,9 @@
         "name": "The Sprite's Snapshot"
       }
     ],
+    "class": [
+      "Tashkent"
+    ],
     "id": "tashkent"
   },
   {
@@ -25740,7 +27625,6 @@
   },
   {
     "name": "Theseus",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -25782,11 +27666,13 @@
         "name": "New Year's White Plumage"
       }
     ],
+    "class": [
+      "Colossus"
+    ],
     "id": "theseus"
   },
   {
     "name": "Thüringen",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -25825,11 +27711,13 @@
         "name": "Tidying in the Moonlight"
       }
     ],
+    "class": [
+      "Helgoland"
+    ],
     "id": "thüringen"
   },
   {
     "name": "Ticonderoga",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -25872,11 +27760,13 @@
         "name": "Sunshine Princess"
       }
     ],
+    "class": [
+      "Essex"
+    ],
     "id": "ticonderoga"
   },
   {
     "name": "Ting An",
-    "class": [],
     "type": [
       "AE"
     ],
@@ -25919,6 +27809,9 @@
         "image": "https://azurlane.netojuu.com/images/6/69/Ting_AnTheme_Park.png",
         "name": "Undercover or Uncovered?!"
       }
+    ],
+    "class": [
+      "Ting An"
     ],
     "id": "ting an"
   },
@@ -25970,7 +27863,6 @@
   },
   {
     "name": "Torricelli",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -26013,11 +27905,13 @@
         "name": "Shady Seaside"
       }
     ],
+    "class": [
+      "Brin"
+    ],
     "id": "torricelli"
   },
   {
     "name": "Tosa",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -26067,11 +27961,13 @@
         "image": "https://azurlane.netojuu.com/images/3/3e/TosaHome_Relaxation.png"
       }
     ],
+    "class": [
+      "Tosa"
+    ],
     "id": "tosa"
   },
   {
     "name": "Trafalgar",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -26106,11 +28002,13 @@
         "image": "https://azurlane.netojuu.com/images/4/4c/TrafalgarSummer.png"
       }
     ],
+    "class": [
+      "Battle"
+    ],
     "id": "trafalgar"
   },
   {
     "name": "Trento",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -26148,6 +28046,9 @@
         "image": "https://azurlane.netojuu.com/images/2/2b/TrentoSummer.png",
         "name": "Summer's Hotness?"
       }
+    ],
+    "class": [
+      "Trento"
     ],
     "id": "trento"
   },
@@ -26196,7 +28097,6 @@
   },
   {
     "name": "Trieste",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -26243,11 +28143,13 @@
         "image": "https://azurlane.netojuu.com/images/1/14/TriesteSpring.png"
       }
     ],
+    "class": [
+      "Trento"
+    ],
     "id": "trieste"
   },
   {
     "name": "Trinidad",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -26282,11 +28184,49 @@
         "image": "https://azurlane.netojuu.com/images/c/c5/TrinidadSummer.png"
       }
     ],
+    "class": [
+      "Crown Colony"
+    ],
     "id": "trinidad"
   },
   {
-    "name": "U-101",
+    "name": "Tsukushi",
     "class": [],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "Collab",
+      "short": "DOA",
+      "sub": "Venus Vacation"
+    },
+    "skill_detail": {
+      "skill": [
+        ""
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "rarity": [
+      "SR"
+    ],
+    "id": "tsukushi",
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/zhuzi_doa.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/zhuzi_doa (1).webp",
+        "name": "Tsukushi",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/zhuzi_doa.webp"
+      }
+    ]
+  },
+  {
+    "name": "U-101",
     "type": [
       "SS"
     ],
@@ -26322,11 +28262,13 @@
         "name": "Ironbrass Trombonist"
       }
     ],
+    "class": [
+      "Type VIIB"
+    ],
     "id": "u-101"
   },
   {
     "name": "U-1206",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -26361,11 +28303,13 @@
         "image": "https://azurlane.netojuu.com/images/3/36/U-1206Maid.png"
       }
     ],
+    "class": [
+      "Type VIIC"
+    ],
     "id": "u-1206"
   },
   {
     "name": "U-31",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -26400,11 +28344,13 @@
         "name": "Let's Go Home"
       }
     ],
+    "class": [
+      "Type VIIA"
+    ],
     "id": "u-31"
   },
   {
     "name": "U-37",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -26451,11 +28397,13 @@
         "name": "Safekeeper of the Streets"
       }
     ],
+    "class": [
+      "Type IXA"
+    ],
     "id": "u-37"
   },
   {
     "name": "U-410",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -26502,11 +28450,13 @@
         "image": "https://azurlane.netojuu.com/images/7/7a/U-410Travel.png"
       }
     ],
+    "class": [
+      "Type VIIC"
+    ],
     "id": "u-410"
   },
   {
     "name": "U-47",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -26558,11 +28508,13 @@
         "image": "https://azurlane.netojuu.com/images/5/54/U-47Spring.png"
       }
     ],
+    "class": [
+      "Type VIIB"
+    ],
     "id": "u-47"
   },
   {
     "name": "U-552",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -26596,6 +28548,9 @@
         "image": "https://azurlane.netojuu.com/images/5/59/U-552Special_Exercise.png",
         "name": "Special Sightseeing Service"
       }
+    ],
+    "class": [
+      "Type VIIC"
     ],
     "id": "u-552"
   },
@@ -26647,7 +28602,6 @@
   },
   {
     "name": "U-96",
-    "class": [],
     "type": [
       "SS"
     ],
@@ -26691,6 +28645,9 @@
         "image": "https://azurlane.netojuu.com/images/6/69/U-96RaceQueen.png"
       }
     ],
+    "class": [
+      "Type VIIC"
+    ],
     "id": "u-96"
   },
   {
@@ -26698,7 +28655,6 @@
     "rarity": [
       "E"
     ],
-    "class": [],
     "type": [
       "DD"
     ],
@@ -26726,11 +28682,13 @@
         "https://ez-upload.al-guide-th.com/api/download/RN Ugolino Vivaldi.png"
       ]
     },
+    "class": [
+      "Navigatori"
+    ],
     "id": "ugolino vivaldi"
   },
   {
     "name": "Ulrich von Hutten",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -26790,11 +28748,13 @@
         "image": "https://azurlane.netojuu.com/images/e/e9/Ulrich_von_HuttenWedding.png"
       }
     ],
+    "class": [
+      "H (German)"
+    ],
     "id": "ulrich von hutten"
   },
   {
     "name": "Umikaze",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -26837,11 +28797,13 @@
         "name": "Baby Steps"
       }
     ],
+    "class": [
+      "Shiratsuyu"
+    ],
     "id": "umikaze"
   },
   {
     "name": "Unicorn",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -26925,11 +28887,51 @@
         "image": "https://azurlane.netojuu.com/images/b/bd/UnicornSport.png"
       }
     ],
+    "class": [
+      "Unicorn"
+    ],
     "id": "unicorn"
   },
   {
+    "name": "Unryuu",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CV"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/yunlong.webp",
+        "name": "Unryuu",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/yunlong (1).webp",
+        "image": "https://als.mrlar.dev/full/yunlong.webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/IJN Unryū.png"
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "history": "https://docs.google.com/document/d/1NUL3JmMGlGrluImOpgd2rq13os48IKTwmCypq-d5WvE/edit?usp=sharing",
+    "class": [
+      "Unryuu"
+    ],
+    "id": "unryuu"
+  },
+  {
     "name": "Unzen",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -26984,11 +28986,13 @@
         "name": "Arcane Ninja Knowledge"
       }
     ],
+    "class": [
+      "Unzen"
+    ],
     "id": "unzen"
   },
   {
     "name": "Valiant",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -27040,11 +29044,13 @@
         "name": "Queen Valiant I"
       }
     ],
+    "class": [
+      "Queen Elizabeth"
+    ],
     "id": "valiant"
   },
   {
     "name": "Vampire",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -27101,6 +29107,9 @@
         "name": "Night Princess's Festive Feast"
       }
     ],
+    "class": [
+      "V"
+    ],
     "id": "vampire"
   },
   {
@@ -27140,7 +29149,6 @@
   },
   {
     "name": "Vanguard",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -27183,11 +29191,13 @@
         "image": "https://azurlane.netojuu.com/images/5/50/VanguardMaid.png"
       }
     ],
+    "class": [
+      "Vanguard"
+    ],
     "id": "vanguard"
   },
   {
     "name": "Vauquelin",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -27234,6 +29244,9 @@
         "image": "https://azurlane.netojuu.com/images/b/be/VauquelinTravel.png"
       }
     ],
+    "class": [
+      "Vauquelin"
+    ],
     "id": "vauquelin"
   },
   {
@@ -27273,7 +29286,6 @@
   },
   {
     "name": "Victorious",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -27317,11 +29329,13 @@
         "name": "Upon Nights Brisk and Beautiful"
       }
     ],
+    "class": [
+      "Illustrious"
+    ],
     "id": "victorious"
   },
   {
     "name": "Vincenzo Gioberti",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -27356,11 +29370,13 @@
         "name": "Fair Lady's Invitation"
       }
     ],
+    "class": [
+      "Alfredo Oriani"
+    ],
     "id": "vincenzo gioberti"
   },
   {
     "name": "Vittorio Cuniberti",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -27395,11 +29411,13 @@
         "image": "https://als.mrlar.dev/full/kunibeierdi_2.webp"
       }
     ],
+    "class": [
+      "Vittorio Cuniberti"
+    ],
     "id": "vittorio cuniberti"
   },
   {
     "name": "Vittorio Veneto",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -27442,11 +29460,13 @@
         "image": "https://azurlane.netojuu.com/images/d/d5/Vittorio_VenetoSummer.png"
       }
     ],
+    "class": [
+      "Vittorio Veneto"
+    ],
     "id": "vittorio veneto"
   },
   {
     "name": "Volga",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -27495,11 +29515,13 @@
         "name": "An Irresistible AR Adventure"
       }
     ],
+    "class": [
+      "Volga"
+    ],
     "id": "volga"
   },
   {
     "name": "Voroshilov",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -27550,11 +29572,48 @@
         "image": "https://azurlane.netojuu.com/images/2/21/VoroshilovHospital.png"
       }
     ],
+    "class": [
+      "Kirov"
+    ],
     "id": "voroshilov"
   },
   {
+    "name": "Wakaba",
+    "rarity": [
+      "R"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Wakaba",
+        "image": "https://als.mrlar.dev/full/ruoye.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/ruoye.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/ruoye (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Hatsuharu"
+    ],
+    "id": "wakaba"
+  },
+  {
     "name": "Wakatsuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -27601,11 +29660,13 @@
         "image": "https://azurlane.netojuu.com/images/0/07/WakatsukiSpring.png"
       }
     ],
+    "class": [
+      "Akizuki"
+    ],
     "id": "wakatsuki"
   },
   {
     "name": "Warspite",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -27663,11 +29724,13 @@
         "name": "The Grand Old Lady Sunders All"
       }
     ],
+    "class": [
+      "Queen Elizabeth"
+    ],
     "id": "warspite"
   },
   {
     "name": "Washington",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -27711,11 +29774,13 @@
         "name": "Making the Rounds"
       }
     ],
+    "class": [
+      "North Carolina"
+    ],
     "id": "washington"
   },
   {
     "name": "Watarase",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -27750,11 +29815,13 @@
         "name": "Garments of Everlasting Magic"
       }
     ],
+    "class": [
+      "Watarase"
+    ],
     "id": "watarase"
   },
   {
     "name": "Weser",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -27808,11 +29875,13 @@
         "image": "https://azurlane.netojuu.com/images/8/80/WeserMaid.png"
       }
     ],
+    "class": [
+      "Weser"
+    ],
     "id": "weser"
   },
   {
     "name": "West Virginia",
-    "class": [],
     "type": [
       "BB"
     ],
@@ -27854,11 +29923,13 @@
         "image": "https://azurlane.netojuu.com/images/7/70/West_VirginiaSport.png"
       }
     ],
+    "class": [
+      "Colorado"
+    ],
     "id": "west virginia"
   },
   {
     "name": "Whydah",
-    "class": [],
     "type": [
       "IX(S)"
     ],
@@ -27903,6 +29974,9 @@
         "name": "Lazy Pirate Angel",
         "image": "https://azurlane.netojuu.com/images/a/af/WhydahHalloween.png"
       }
+    ],
+    "class": [
+      "Whydah"
     ],
     "id": "whydah"
   },
@@ -27968,7 +30042,6 @@
     "rarity": [
       "UR"
     ],
-    "class": [],
     "type": [
       "DD"
     ],
@@ -28005,11 +30078,13 @@
       ]
     },
     "review": "https://youtube.com/shorts/hjCLzof35Qk",
+    "class": [
+      "Fletcher"
+    ],
     "id": "william d. porter"
   },
   {
     "name": "Yamakaze",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -28048,11 +30123,13 @@
         "name": "Now for a Magic Trick!"
       }
     ],
+    "class": [
+      "Shiratsuyu"
+    ],
     "id": "yamakaze"
   },
   {
     "name": "Yamashiro",
-    "class": [],
     "type": [
       "BB",
       "BBV"
@@ -28121,6 +30198,9 @@
         "image": "https://azurlane.netojuu.com/images/b/b4/YamashiroSchool.png"
       }
     ],
+    "class": [
+      "Fusou"
+    ],
     "id": "yamashiro"
   },
   {
@@ -28164,7 +30244,6 @@
   },
   {
     "name": "Yat Sen",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -28224,11 +30303,13 @@
         "name": "Pristine Leaves, Rich Warmth"
       }
     ],
+    "class": [
+      "Yat Sen"
+    ],
     "id": "yat sen"
   },
   {
     "name": "Ying Swei",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -28236,13 +30317,6 @@
     "faction": {
       "short": "ROC",
       "full": "Dragon Empery"
-    },
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/ROC Ying Swei.png"
-      ],
-      "retrofit": [],
-      "fate_simulation": []
     },
     "aoa": [
       {
@@ -28258,18 +30332,19 @@
     "augment": "Unique Modules",
     "gear": [],
     "rarity": [
-      "E"
+      "E",
+      "SR"
     ],
     "skins": [
       {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Ying_SweiChibi.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/yingrui.webp",
         "image": "https://azurlane.netojuu.com/images/c/cb/Ying_Swei.png",
-        "name": "Ying Swei"
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Ying_SweiChibi.png",
+        "name": "Ying Swei",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/yingrui.webp"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/7/79/Ying_SweiSpring.png",
-        "name": "Snowy Pine's Warmth"
+        "name": "Snowy Pine's Warmth",
+        "image": "https://azurlane.netojuu.com/images/7/79/Ying_SweiSpring.png"
       },
       {
         "name": "Frolicking Flowers, Verse I",
@@ -28280,17 +30355,28 @@
         "image": "https://azurlane.netojuu.com/images/6/6e/Ying_SweiSummer.png"
       },
       {
-        "chibi": "",
-        "image": "",
+        "image": "https://als.mrlar.dev/full/yingrui_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/yingrui_g (1).webp",
         "name": "Retrofit",
-        "profile": ""
+        "profile": "https://ez-upload.al-guide-th.com/api/download/yingrui_g.webp"
       }
+    ],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/ROC Ying Swei.png"
+      ],
+      "fate_simulation": [],
+      "retrofit": [
+        "https://ez-upload.al-guide-th.com/api/download/ROC Ying Swei Retrofit.png"
+      ]
+    },
+    "class": [
+      "Chao Ho"
     ],
     "id": "ying swei"
   },
   {
     "name": "Yoizuki",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -28333,11 +30419,13 @@
         "name": "Firecrackers and Steamed Buns"
       }
     ],
+    "class": [
+      "Akizuki"
+    ],
     "id": "yoizuki"
   },
   {
     "name": "Yorck",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -28380,11 +30468,13 @@
         "image": "https://azurlane.netojuu.com/images/2/22/YorckSummer.png"
       }
     ],
+    "class": [
+      "Roon"
+    ],
     "id": "yorck"
   },
   {
     "name": "York",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -28437,11 +30527,13 @@
         "image": "https://azurlane.netojuu.com/images/d/d7/YorkSummer.png"
       }
     ],
+    "class": [
+      "York"
+    ],
     "id": "york"
   },
   {
     "name": "Yorktown",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -28485,11 +30577,13 @@
         "name": "Saintly Wings"
       }
     ],
+    "class": [
+      "Yorktown"
+    ],
     "id": "yorktown"
   },
   {
     "name": "Yorktown II",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -28541,7 +30635,10 @@
         "name": "Bright-Sky Mermaid"
       }
     ],
-    "id": "yorktown ii"
+    "id": "yorktown ii",
+    "class": [
+      "Essex"
+    ]
   },
   {
     "name": "Yorktown META",
@@ -28684,7 +30781,6 @@
   },
   {
     "name": "Yukikaze",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -28732,7 +30828,46 @@
         "image": "https://azurlane.netojuu.com/images/5/51/YukikazeSpring.png"
       }
     ],
+    "class": [
+      "Kagerou"
+    ],
     "id": "yukikaze"
+  },
+  {
+    "name": "Yukino",
+    "class": [],
+    "type": [
+      "CL"
+    ],
+    "tag": [],
+    "faction": {
+      "full": "Collab",
+      "short": "DOA",
+      "sub": "Venus Vacation"
+    },
+    "skill_detail": {
+      "skill": [
+        ""
+      ],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "rarity": [
+      "SR"
+    ],
+    "id": "yukino",
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/qiannai_doa.webp",
+        "name": "Yukino",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/qiannai_doa (1).webp",
+        "image": "https://als.mrlar.dev/full/qiannai_doa.webp"
+      }
+    ]
   },
   {
     "name": "Yume Minami",
@@ -28876,7 +31011,6 @@
   },
   {
     "name": "Yura",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -28919,11 +31053,13 @@
         "name": "We are Succubi?"
       }
     ],
+    "class": [
+      "Nagara"
+    ],
     "id": "yura"
   },
   {
     "name": "Yuubari",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -28962,11 +31098,13 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/xizhang_g (1).webp"
       }
     ],
+    "class": [
+      "Yuubari"
+    ],
     "id": "yuubari"
   },
   {
     "name": "Yuudachi",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29035,6 +31173,9 @@
         "name": "Woofy Floofy Christmas Night"
       }
     ],
+    "class": [
+      "Shiratsuyu"
+    ],
     "id": "yuudachi"
   },
   {
@@ -29097,6 +31238,48 @@
     "id": "yuudachi meta"
   },
   {
+    "name": "Yuugure",
+    "rarity": [
+      "R",
+      "E"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skins": [
+      {
+        "name": "Yuugure",
+        "image": "https://als.mrlar.dev/full/ximu.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/ximu.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/ximu (1).webp"
+      },
+      {
+        "name": "Retrofit",
+        "image": "https://als.mrlar.dev/full/ximu_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/ximu_g.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/ximu_g (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Hatsuharu"
+    ],
+    "id": "yuugure"
+  },
+  {
     "name": "Yūyaki",
     "class": [],
     "type": [
@@ -29139,7 +31322,6 @@
   },
   {
     "name": "Z1",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29184,11 +31366,13 @@
         "name": "\"Rebellious\" Top Student"
       }
     ],
+    "class": [
+      "Type 1934"
+    ],
     "id": "z1"
   },
   {
     "name": "Z11",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29223,11 +31407,13 @@
         "name": "Service, Sincerity, and Insolvency"
       }
     ],
+    "class": [
+      "Type 1934A"
+    ],
     "id": "z11"
   },
   {
     "name": "Z13",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29262,11 +31448,13 @@
         "name": "Strategic Date Solution"
       }
     ],
+    "class": [
+      "Type 1934A"
+    ],
     "id": "z13"
   },
   {
     "name": "Z16",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29309,11 +31497,13 @@
         "image": "https://azurlane.netojuu.com/images/e/e7/Z16Sport.png"
       }
     ],
+    "class": [
+      "Type 1934A"
+    ],
     "id": "z16"
   },
   {
     "name": "Z18",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29349,11 +31539,52 @@
         "profile": "https://ez-upload.al-guide-th.com/api/download/z18.webp"
       }
     ],
+    "class": [
+      "Type 1936"
+    ],
     "id": "z18"
   },
   {
+    "aoa": [],
+    "augment": "Unique Modules",
+    "faction": {
+      "full": "Iron Blood",
+      "short": "KMS"
+    },
+    "gear": [],
+    "name": "Z19",
+    "note": [],
+    "note_skill": [],
+    "rarity": [
+      "R"
+    ],
+    "tag": [],
+    "type": [
+      "DD"
+    ],
+    "skins": [
+      {
+        "name": "Z19",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/z19.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/z19 (1).webp",
+        "image": "https://als.mrlar.dev/full/z19.webp"
+      }
+    ],
+    "skin": [],
+    "skill_detail": {
+      "fate_simulation": [],
+      "retrofit": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/KMS Z19.png"
+      ]
+    },
+    "class": [
+      "Type 1936"
+    ],
+    "id": "z19"
+  },
+  {
     "name": "Z2",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29398,11 +31629,13 @@
         "image": "https://azurlane.netojuu.com/images/e/e1/Z2Festival.png"
       }
     ],
+    "class": [
+      "Type 1934"
+    ],
     "id": "z2"
   },
   {
     "name": "Z24",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29453,11 +31686,13 @@
         "name": "Blood-Red Dance Beneath the Moon"
       }
     ],
+    "class": [
+      "Type 1936A"
+    ],
     "id": "z24"
   },
   {
     "name": "Z28",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29504,11 +31739,13 @@
         "name": "Sylvan Celebration"
       }
     ],
+    "class": [
+      "Type 1936A"
+    ],
     "id": "z28"
   },
   {
     "name": "Z35",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29552,11 +31789,13 @@
         "name": "Himmel: Beyond Love's Boundaries"
       }
     ],
+    "class": [
+      "Type 1936B"
+    ],
     "id": "z35"
   },
   {
     "name": "Z43",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29591,11 +31830,13 @@
         "name": "A Secret Base For Two"
       }
     ],
+    "class": [
+      "Type 1936B"
+    ],
     "id": "z43"
   },
   {
     "name": "Z46",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29651,11 +31892,13 @@
         "name": "The Bard of Hamelin"
       }
     ],
+    "class": [
+      "Type 1936C"
+    ],
     "id": "z46"
   },
   {
     "name": "Z47",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29690,11 +31933,13 @@
         "name": "Young-Again Filter"
       }
     ],
+    "class": [
+      "Type 1936C"
+    ],
     "id": "z47"
   },
   {
     "name": "Z52",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29731,11 +31976,13 @@
         "name": "The Rapid Rabbit"
       }
     ],
+    "class": [
+      "Type 1944"
+    ],
     "id": "z52"
   },
   {
     "name": "Z9",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -29770,11 +32017,13 @@
         "image": "https://azurlane.netojuu.com/images/3/32/Z9Bunny.png"
       }
     ],
+    "class": [
+      "Type 1934A"
+    ],
     "id": "z9"
   },
   {
     "name": "Zara",
-    "class": [],
     "type": [
       "CA"
     ],
@@ -29818,11 +32067,13 @@
         "name": "Poolside Coincidence"
       }
     ],
+    "class": [
+      "Zara"
+    ],
     "id": "zara"
   },
   {
     "name": "Zuihou",
-    "class": [],
     "type": [
       "CVL"
     ],
@@ -29862,11 +32113,13 @@
         "name": "Joy Comes on Fledgling Wings"
       }
     ],
+    "class": [
+      "Zuihou"
+    ],
     "id": "zuihou"
   },
   {
     "name": "Zuikaku",
-    "class": [],
     "type": [
       "CV"
     ],
@@ -29909,11 +32162,13 @@
         "image": "https://azurlane.netojuu.com/images/b/b1/ZuikakuRaceQueen2.png"
       }
     ],
+    "class": [
+      "Shoukaku"
+    ],
     "id": "zuikaku"
   },
   {
     "name": "Ägir",
-    "class": [],
     "type": [
       "CB"
     ],
@@ -29961,11 +32216,13 @@
         "image": "https://azurlane.netojuu.com/images/2/2f/ÄgirHome_Relaxation.png"
       }
     ],
+    "class": [
+      "Ägir"
+    ],
     "id": "ägir"
   },
   {
     "name": "Émile Bertin",
-    "class": [],
     "type": [
       "CL"
     ],
@@ -30027,11 +32284,13 @@
         "image": "https://azurlane.netojuu.com/images/a/a6/Émile_BertinParty.png"
       }
     ],
+    "class": [
+      "Émile Bertin"
+    ],
     "id": "émile bertin"
   },
   {
     "name": "Épée",
-    "class": [],
     "type": [
       "DD"
     ],
@@ -30065,6 +32324,9 @@
         "image": "https://azurlane.netojuu.com/images/e/e1/ÉpéeBunny.png",
         "name": "Poor, Lonely Knight"
       }
+    ],
+    "class": [
+      "Le Hardi"
     ],
     "id": "épée"
   }
