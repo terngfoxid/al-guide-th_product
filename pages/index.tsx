@@ -11,20 +11,11 @@ export default function Home() {
 
   const [webState, setWebState] = useState(0);
   const [cssCard, setCssCard] = useState<string[]>([
-    // CENTER
-    "absolute top-1/2 left-1/2 w-[50vw] max-w-[300px] aspect-[1/1.7] bg-lime-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-2xl z-30 [transform:translate(-50%,-50%)_translateX(0px)_translateZ(160px)_rotateY(0deg)_scale(1)]",
-
-    // LEFT 1
-    "absolute top-1/2 left-1/2 w-[50vw] max-w-[300px] aspect-[1/1.7] bg-cyan-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-xl z-20 [transform:translate(-50%,-50%)_translateX(18vw)_translateZ(110px)_rotateY(0deg)_scale(0.92)]",
-
-    // LEFT 2
-    "absolute top-1/2 left-1/2 w-[50vw] max-w-[300px] aspect-[1/1.7] bg-pink-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-lg opacity-90 z-10 [transform:translate(-50%,-50%)_translateX(-35vw)_translateZ(70px)_rotateY(0deg)_scale(0.84)]",
-
-    // RIGHT 1
-    "absolute top-1/2 left-1/2 w-[50vw] max-w-[300px] aspect-[1/1.7] bg-blue-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-xl z-20 [transform:translate(-50%,-50%)_translateX(-18vw)_translateZ(110px)_rotateY(0deg)_scale(0.92)]",
-
-    // RIGHT 2
-    "absolute top-1/2 left-1/2 w-[50vw] max-w-[300px] aspect-[1/1.7] bg-orange-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-lg opacity-90 z-10 [transform:translate(-50%,-50%)_translateX(35vw)_translateZ(70px)_rotateY(0deg)_scale(0.84)]",
+    "absolute top-1/2 left-1/2 w-[70vw] max-w-[210px] md:max-w-[400px] aspect-[2/1] bg-lime-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-2xl z-30 [transform:translate(-50%,-50%)_translateX(0px)_translateZ(160px)_rotateY(0deg)_scale(1)]",
+    "absolute top-1/2 left-1/2 w-[70vw] max-w-[210px] md:max-w-[400px] aspect-[2/1] bg-cyan-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-xl z-20 [transform:translate(-50%,-50%)_translateX(16vw)_translateZ(110px)_rotateY(0deg)_scale(0.92)]",
+    "absolute top-1/2 left-1/2 w-[70vw] max-w-[210px] md:max-w-[400px] aspect-[2/1] bg-pink-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-lg opacity-90 z-10 [transform:translate(-50%,-50%)_translateX(-32vw)_translateZ(70px)_rotateY(0deg)_scale(0.84)]",
+    "absolute top-1/2 left-1/2 w-[70vw] max-w-[210px] md:max-w-[400px] aspect-[2/1] bg-blue-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-xl z-20 [transform:translate(-50%,-50%)_translateX(-16vw)_translateZ(110px)_rotateY(0deg)_scale(0.92)]",
+    "absolute top-1/2 left-1/2 w-[70vw] max-w-[210px] md:max-w-[400px] aspect-[2/1] bg-orange-400 rounded-xl transition-all duration-700 ease-out will-change-transform shadow-lg opacity-90 z-10 [transform:translate(-50%,-50%)_translateX(32vw)_translateZ(70px)_rotateY(0deg)_scale(0.84)]",
   ]);
   const [currentIndex, setCurrentIndex] = useState(0)
 
