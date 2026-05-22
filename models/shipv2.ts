@@ -1,5 +1,6 @@
 export interface ShipV2{
     id?:string
+    global_name?:string
     name:string
     rarity: Array<"C"|"R"|"E"|"SR"|"UR"|"PR"|"DR"|"EM"|"SRM">,
     class:string[]

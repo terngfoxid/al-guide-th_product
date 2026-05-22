@@ -29,7 +29,13 @@ export default async function handler(
                 const docname = name.replaceAll("_", " ").toLowerCase();
                 const raw = fs.readFileSync(filePath, "utf8");
                 const ships:ShipV2[] = JSON.parse(raw);
-                return res.status(200).json((ships.find(ship =>(ship.id === docname))));
+                const targetShip = ships.find(ship =>(ship.id === docname))
+                if(targetShip){
+                    return res.status(200).json(targetShip);
+                }
+                else{
+                    return res.status(404).json({ error: "Document ["+docname+"] not found" });
+                }
             } catch {
                 res.status(500).json({ error: "Error While Processing Json" });
             }

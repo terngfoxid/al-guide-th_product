@@ -23,7 +23,7 @@ export default function Ship() {
     const { name } = router.query;
 
     const [ship, setShip] = useState<ShipV2>()
-    const [shipSameClass, setShipSameClass] = useState<ShipV2[]>([])
+    const [shipSameTag, setShipSameTag] = useState<ShipV2[]>([])
     const [shipPR, setShipPR] = useState<IPRShip>()
     const [dataMode, setDataMode] = useState<"Normal" | "Retrofit" | "Fatesim" | "Gear">("Normal")
 
@@ -62,9 +62,9 @@ export default function Ship() {
                                 }
                                 else {
                                     allShipRes.json().then((allShip: ShipV2[]) => {
-                                        const sameClass = allShip.filter(oneShip => oneShip.class.some(classShip => loaddata.class.includes(classShip)) && (loaddata.name !== oneShip.name))
-                                        if (sameClass.length > 0) {
-                                            setShipSameClass(sameClass)
+                                        const sameTag = allShip.filter(oneShip => oneShip.tag.some(tagShip => loaddata.tag.includes(tagShip)) && (loaddata.name !== oneShip.name))
+                                        if (sameTag.length > 0) {
+                                            setShipSameTag(sameTag)
                                         }
                                     })
                                 }
@@ -163,7 +163,7 @@ export default function Ship() {
             try {
                 //reset Page
                 setShip(undefined)
-                setShipSameClass([])
+                setShipSameTag([])
                 setDataMode("Normal")
                 setShipPR(undefined)
                 setNormalPage(1)
@@ -206,7 +206,6 @@ export default function Ship() {
         </>
     }
 
-    console.log(shipSameClass)
     return (
         <>
             <Head>
@@ -250,8 +249,13 @@ export default function Ship() {
                                         </tr>
                                     }
                                     <tr>
-                                        <td colSpan={2} className="text-left px-[1rem] py-[0.3rem] 2xl:py-[0.75rem] border border-[#ffffff]">
-                                            ข้อมูลอื่นๆ: {ship.tag}
+                                        <td colSpan={2} className="text-left px-[1rem] py-[0.3rem] 2xl:py-[0.75rem] border border-[#ffffff] space-x-2 space-y-2">
+                                            Tag: {ship.tag.map((tag) => {
+                                                return <span key={tag} className="rounded-md bg-[#305B9C] inline-block p-2">
+                                                    {tag}
+                                                </span>
+                                            })}
+                                            <div className="text-xs">หมายเหตุ: สกิลส่วนใหญ่ในเกมจะทำงานตาม Tag ที่เกี่ยวข้อง</div>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -389,24 +393,24 @@ export default function Ship() {
                     </div>
                 </div>
                 {
-                    (shipSameClass.length > 0) && <div className={`z-20 min-w-[100%] max-w-[100%] min-h-[50px] bg-[#305B9C] overflow-hidden shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 rounded-b-lg rounded-tr-lg rounded-tl-lg mt-[1rem]`}>
+                    (shipSameTag.length > 0) && <div className={`z-20 min-w-[100%] max-w-[100%] min-h-[50px] bg-[#305B9C] overflow-hidden shadow-[0px_0px_1px_1px_#305B9C,0px_-0px_1px_1px_#305B9C] bg-opacity-80 rounded-b-lg rounded-tr-lg rounded-tl-lg mt-[1rem]`}>
                         {
-                            ship.class.map(thisShipClass => {
-                                if (shipSameClass.filter(shipInSameClass => shipInSameClass.class.includes(thisShipClass)).length > 0){
+                            ship.tag.map(thisShipTag => {
+                                if (shipSameTag.filter(shipInSameTag => shipInSameTag.tag.includes(thisShipTag)).length > 0) {
                                     return <>
-                                    <h4 className="text-[1rem] md:text-[1.2rem] text-center text-white w-full pt-[0.75rem]">{thisShipClass} Class</h4>
-                                    <div className="px-1 grid justify-center grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-[0.5rem] md:gap-[1rem] mt-[1.5rem]">
-                                        {
-                                            shipSameClass.filter(shipInSameClass => shipInSameClass.class.includes(thisShipClass)).map(
-                                                classFilterShip => {
-                                                    return <div key={ship.name+"_"+thisShipClass} className={"w-full h-full duration-500 animate-slide-in-bottom"}>
-                                                        <ShipInGrid ship={classFilterShip} />
-                                                    </div>
-                                                }
-                                            )
-                                        }
-                                    </div>
-                                </>
+                                        <h4 className="text-[1rem] md:text-[1.2rem] text-center text-white w-full pt-[0.75rem]">เรือที่มี Tag: {thisShipTag}</h4>
+                                        <div className="px-1 grid justify-center grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 gap-[0.5rem] md:gap-[1rem] mt-[1.5rem]">
+                                            {
+                                                shipSameTag.filter(shipInSameTag => shipInSameTag.tag.includes(thisShipTag)).map(
+                                                    tagFilterShip => {
+                                                        return <div key={ship.name + "_" + thisShipTag} className={"w-full h-full duration-500 animate-slide-in-bottom"}>
+                                                            <ShipInGrid ship={tagFilterShip} />
+                                                        </div>
+                                                    }
+                                                )
+                                            }
+                                        </div>
+                                    </>
                                 }
                             })
                         }

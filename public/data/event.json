@@ -632,6 +632,244 @@
     "id": "Abyssal Refrain"
   },
   {
+    "name": "Alliance Before the Hagiobull",
+    "banner": "",
+    "button": "",
+    "time": "20/05/2026 - 11/06/2026 14:00 น.",
+    "lore": [],
+    "ships": [
+      {
+        "name": "Götz von Berlichingen"
+      },
+      {
+        "name": "U-2501"
+      },
+      {
+        "name": "Prinz Moritz"
+      },
+      {
+        "name": "Z14"
+      },
+      {
+        "name": "Z15"
+      },
+      {
+        "name": "Elbe META"
+      },
+      {
+        "name": "Admiral Hipper",
+        "retrofit": true
+      }
+    ],
+    "_priority": 3,
+    "noteV2": {
+      "beginner": [
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_191600165.png",
+          "desc": "อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (Early Summer)\\nJanus, Emden, Sirius, Tashkent, Graf Zeppelin, Taihou, Sovetskaya Belorussiya และ Baltimore"
+        }
+      ],
+      "veteran": [],
+      "summary": [
+        {
+          "desc": "สามารถรับ UR Voucher ได้จากการการเล่นด่าน SP , Daily mission , Challenge mission , มินิเกม หรือจากการซื้อในร้านค้ากิจกรรม",
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_221503702.png"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ Daily missions 5ใบ/วัน สูงสุด 75 ใบ (EN อาจจะ 70 เพราะเวลาน้อยกว่าเซิร์ฟอื่นๆ 1 วัน)"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ด่าน B3 หรือ D3 ด้วยเรือในกิจกรรมนี้ จะได้รับ 10 ใบ/ภารกิจ สูงสุด 50 ใบ"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ด่านใดก็ได้ในกิจกรรม ตั้งแต่ 5 รอบจนถึง 60 รอบ สูงสุด 105 ใบ"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 5 ใบ/วัน"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการซื้อจากร้านค้ากิจกรรม ราคา 150 points/ใบ สูงสุด 500 ใบ"
+        }
+      ]
+    },
+    "guideV2": [
+      {
+        "desc": "วิธีเล่นกิจกรรม The Opulent! The Glamorous! Luxury Bay",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_231138393.png"
+      }
+    ],
+    "special": [
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-19_233741799-modified.png",
+        "text": "แลกจากร้านค้ากิจกรรม โดยใช้ \"UR Voucher\" 200/300 ใบ",
+        "title": "U-2501"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-19_233549264-modified.png",
+        "title": "Elbe META",
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-19_233632647-modified.png",
+        "title": "Z14",
+        "text": "สะสมแต้มกิจกรรม 10,000 points"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_234349528.png",
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points",
+        "title": "ผลึกปลดดาว Elbe META"
+      },
+      {
+        "title": "Seal of the Sacred Covenant",
+        "text": "สะสมแต้มปลดล็อก Frame 2,800 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_221638768.png"
+      },
+      null,
+      {
+        "title": "แต้มปลดล็อก Frame 800 points",
+        "text": "ได้รับ Götz von Berlichingen"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 600 points",
+        "text": "ได้รับ Elbe META"
+      },
+      {
+        "text": "ปลดดาว Prinz Moritz ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 600 points"
+      },
+      {
+        "text": "ปลดดาว Z14 ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 400 points"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 400 points",
+        "text": "ปลดดาว Z15 ให้เต็ม"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน A2/C2 จำนวน 10 ครั้ง โดยมี Köln META ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "text": "ชนะบอสด่าน A3/C3 จำนวน 10 ครั้ง โดยมี Regensburg META ที่ดาวเต็มอยู่ในทีม",
+        "title": "แต้มปลดล็อก Frame 300 points"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน B2/D2 จำนวน 10 ครั้ง โดยมี Mainz ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน B2/D2 จำนวน 10 ครั้ง โดยมี Marco Polo ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน B3/D3 จำนวน 10 ครั้ง โดยมี Friedrich der Große ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "text": "สะสม Sticker 8 อัน",
+        "title": "Hagiobull Alliance Medal",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_222938133.png"
+      },
+      null,
+      {
+        "text": "อ่านเนื้อเรื่องกิจกรรม",
+        "title": "Sticker"
+      },
+      {
+        "text": "ผ่านด่าน A3/C3",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน B3/D3"
+      },
+      {
+        "title": "Sticker",
+        "text": "กำจัดศัตรูในกิจกรรม 300 ตัว"
+      },
+      {
+        "text": "เล่นด่านกิจกรรมทั้งหมด 50 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "text": "ผ่านด่าน SP",
+        "title": "Sticker"
+      },
+      {
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point",
+        "title": "Sticker"
+      },
+      {
+        "text": "สะสม Sticker 7 อัน",
+        "title": "Sticker"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_223631591.png",
+        "title": "Luxurious Getaway Medal",
+        "text": "สะสม Sticker 7 อัน"
+      },
+      {
+        "text": "",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "Login เข้าเกม 1 ครั้ง"
+      },
+      null,
+      {
+        "text": "ใช้น้ำมัน 1,000 หน่วย",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ต่อเรือ 10 ครั้ง"
+      },
+      {
+        "title": "Sticker",
+        "text": "อ่านเนื้อเรื่องในกิจกรรม The Opulent! The Glamorous! Luxury Bay"
+      },
+      {
+        "title": "Sticker",
+        "text": "เล่นกิจกรรม Operation Vacation 1 ครั้ง"
+      },
+      {
+        "title": "Sticker",
+        "text": "ปลดล็อก Custom Order ทั้งหมดในกิจกรรม The Opulent! The Glamorous! Luxury Bay"
+      },
+      {
+        "text": "Login เข้าเกม 1 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "สะสม Sticker 6 อัน"
+      },
+      null,
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_232119937.png",
+        "text": "ผ่านด่านกิจกรรม D3",
+        "title": "Netherworld Tower"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_232251419.png",
+        "text": "อ่าน Travelog ทั้งหมดในกิจกรรม The Opulent! The Glamorous! Luxury Bay",
+        "title": "Miniature Tower of Luxury"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_232638657.png",
+        "title": "Pressure-Resistant Hull Design",
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222149840-modified.png",
+        "title": "บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (Early Summer)",
+        "text": "เล่นกิจกรรม Operation Vacation วันที่ 7"
+      }
+    ],
+    "id": "Alliance Before the Hagiobull"
+  },
+  {
     "name": "An Encounter Beneath Clear Skies",
     "banner": "https://ez-upload.al-guide-th.com/api/download/danmachi_banner.png",
     "guide": "",
@@ -5893,7 +6131,6 @@
   },
   {
     "_priority": 1,
-    "banner": "",
     "button": "",
     "name": "Vacation Lane – Beachside Brilliance",
     "guideV2": [],
@@ -5945,11 +6182,37 @@
         "name": "Nyotengu"
       }
     ],
+    "lore": [
+      {
+        "image": "https://ez-upload.al-guide-th.com/api/download/Vacation_Lane_-_Beachside_Brilliance_lore.jpg"
+      }
+    ],
+    "noteV2": {
+      "beginner": [
+        {
+          "desc": "Venus Exchange Ticket สามารถแลกเรือได้ฟรี 1 ลำ",
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_214457627.png"
+        }
+      ],
+      "summary": [
+        {
+          "desc": "มี Skip เรียน Skill วันละ 10 รอบอย่าลืมใช้ทุกวัน"
+        },
+        {
+          "desc": "ห้ามลืมเก็บ Augment ทั้ง 15 ชิ้น"
+        },
+        {
+          "desc": "กิจกรรมรีรันมีตั๋วฟรีให้ อย่าลืมใช้ให้หมด",
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-23_200312972.png"
+        }
+      ],
+      "veteran": []
+    },
     "special": [
       {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_210026501-modified.png",
         "title": "Tsukushi",
-        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน SP4",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_210026501-modified.png"
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน SP4"
       },
       {
         "title": "Patty",
@@ -5957,9 +6220,9 @@
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_210504576-modified.png"
       },
       {
+        "text": "เก็บแต้มกิจกรรม The Fox Spirit’s Retreat 1,000 แต้ม",
         "title": "Shizuku",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_210641701-modified.png",
-        "text": "เก็บแต้มกิจกรรม The Fox Spirit’s Retreat 1,000 แต้ม"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_210641701-modified.png"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_211845098.png",
@@ -5967,44 +6230,44 @@
         "title": "[Augment] Stollen"
       },
       {
-        "title": "[Augment] Shishamo Tempura",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212435570.png",
+        "title": "[Augment] Shishamo Tempura",
         "text": "แลกจากร้านค้ากิจกรรม 3,000 points"
+      },
+      {
+        "title": "[Augment] Chili Crab",
+        "text": "แลกจากร้านค้ากิจกรรม 3,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212515507.png"
       },
       {
         "text": "แลกจากร้านค้ากิจกรรม 3,000 points",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212515507.png",
-        "title": "[Augment] Chili Crab"
-      },
-      {
         "title": "[Augment] Cup Ramen",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212648013.png",
-        "text": "แลกจากร้านค้ากิจกรรม 3,000 points"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212648013.png"
       },
       {
-        "text": "อ่านเนื้อเรื่องกิจกรรมทั้งหมด",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212734094.png",
+        "text": "อ่านเนื้อเรื่องกิจกรรมทั้งหมด",
         "title": "[Augment] Hamburger"
       },
       {
-        "title": "[Augment] Matcha Ice Cream",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-16_212817616.png",
+        "title": "[Augment] Matcha Ice Cream",
         "text": "แลกจากร้านค้ากิจกรรม 3,000 points"
       },
       {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_204514099.png",
         "title": "[Gear] Electrifying Deco-Pen",
-        "text": "สะสมแต้มกิจกรรม 8,000 points",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_204514099.png"
+        "text": "สะสมแต้มกิจกรรม 8,000 points"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_204718749.png",
-        "text": "สะสมแต้มกิจกรรม 15,000 points",
-        "title": "[Gear] Gravure Photocard"
+        "title": "[Gear] Gravure Photocard",
+        "text": "สะสมแต้มกิจกรรม 15,000 points"
       },
       {
-        "title": "[Gear] Clover of Happiness",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_204832943.png",
         "text": "แลกจากร้านค้ากิจกรรม 2,000 points",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_204832943.png"
+        "title": "[Gear] Clover of Happiness"
       },
       {
         "title": "Beachside Brilliance Commemoration",
@@ -6017,103 +6280,82 @@
       },
       null,
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/MisakiChibi.png",
         "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน SP4",
-        "title": "Misaki"
+        "title": "Misaki",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/MisakiChibi.png"
       },
       {
         "title": "Nyotengu",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/NyotenguChibi.png",
-        "text": "สะสมแต้มกิจกรรม X,000 points"
+        "text": "สะสมแต้มกิจกรรม 5,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/NyotenguChibi.png"
       },
       {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10840.png",
         "title": "[Augment] Cream Puff",
-        "text": "แลกจากร้านค้ากิจกรรม 3,000 points",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/10840.png"
-      },
-      {
-        "title": "[Augment] Strawberry Mille-Feuille",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/10860.png",
-        "text": "สะสมแต้มกิจกรรม X,000 points"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/10980.png",
-        "text": "เล่นกิจกรรม Butt Battle",
-        "title": "[Augment] Roasted Sweet Potato"
-      },
-      {
-        "title": "[Augment] Prinsesstårta",
-        "text": "ทำภารกิจใช้น้ำมัน 5,000 หน่วย",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/10820.png"
-      },
-      {
-        "title": "[Augment] Mango Vanilla Crepe",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/10880.png",
         "text": "แลกจากร้านค้ากิจกรรม 3,000 points"
       },
       {
-        "title": "[Augment] Macaroon",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/10960.png",
-        "text": "เล่นกิจกรรม Butt Battle"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10860.png",
+        "text": "สะสมแต้มกิจกรรม 11,500 points",
+        "title": "[Augment] Strawberry Mille-Feuille"
       },
       {
+        "title": "[Augment] Roasted Sweet Potato",
+        "text": "เล่นกิจกรรม Butt Battle",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10980.png"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10820.png",
+        "text": "ทำภารกิจใช้น้ำมัน 5,000 หน่วย",
+        "title": "[Augment] Prinsesstårta"
+      },
+      {
+        "title": "[Augment] Mango Vanilla Crepe",
         "text": "แลกจากร้านค้ากิจกรรม 3,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10880.png"
+      },
+      {
+        "text": "เล่นกิจกรรม Butt Battle",
+        "title": "[Augment] Macaroon",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10960.png"
+      },
+      {
         "blob": "https://ez-upload.al-guide-th.com/api/download/10940.png",
-        "title": "[Augment] Papanasi"
+        "title": "[Augment] Papanasi",
+        "text": "แลกจากร้านค้ากิจกรรม 3,000 points"
       },
       {
+        "text": "ผ่านด่านกิจกรรม 60 ครั้ง",
         "title": "[Augment] Souffle Pancake",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/10900.png",
-        "text": "ผ่านด่านกิจกรรม 60 ครั้ง"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10900.png"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/10920.png",
-        "text": "สะสมแต้มกิจกรรม X,000 points",
-        "title": "[Augment] Manjuu Bun"
+        "title": "[Augment] Manjuu Bun",
+        "text": "สะสมแต้มกิจกรรม 2,500 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/10920.png"
       },
       {
-        "text": "เล่นกิจกรรม Volleyball Scrimmage",
         "blob": "https://ez-upload.al-guide-th.com/api/download/89240.png",
-        "title": "[Gear] Awakening Pearl"
+        "title": "[Gear] Awakening Pearl",
+        "text": "เล่นกิจกรรม Volleyball Scrimmage"
       },
       {
-        "title": "[Gear] Heart Key",
-        "text": "สะสมแต้มกิจกรรม X,000 points",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/89260.png"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/89260.png",
+        "text": "สะสมแต้มกิจกรรม 9,500 points",
+        "title": "[Gear] Heart Key"
       },
       {
-        "title": "Venus Vacation Statue",
         "blob": "https://ez-upload.al-guide-th.com/api/download/100px-FurnIcon_doadalaoicon.png",
+        "title": "Venus Vacation Statue",
         "text": "สะสม Merchandise ทั้งหมดในกิจกรรม"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/96px-Venus_Exchange_Ticket.png",
-        "text": "แลกจากร้านค้ากิจกรรม 15,000 points",
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points",
         "title": "Venus Exchange Ticket"
       }
     ],
-    "noteV2": {
-      "summary": [
-        {
-          "desc": "มี Skip เรียน Skill วันละ 10 รอบอย่าลืมใช้ทุกวัน"
-        },
-        {
-          "desc": "ห้ามลืมเก็บ Augment ทั้ง 15 ชิ้น"
-        }
-      ],
-      "beginner": [
-        {
-          "desc": "Venus Exchange Ticket สามารถแลกเรือได้ฟรี 1 ลำ",
-          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-04-17_214457627.png"
-        }
-      ],
-      "veteran": []
-    },
-    "lore": [
-      {
-        "image": "https://ez-upload.al-guide-th.com/api/download/Vacation_Lane_-_Beachside_Brilliance_lore.jpg"
-      }
-    ],
+    "banner": "https://ez-upload.al-guide-th.com/api/download/banner-vv-3rd.webp",
     "id": "Vacation Lane – Beachside Brilliance"
   },
   {
