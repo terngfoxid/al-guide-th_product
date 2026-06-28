@@ -132,7 +132,7 @@ export default function Home() {
       </div>
       <div className="w-screen h-full hidden xl:block animate-slide-in-bottom">
         <div id="screen-3d" className="relative w-screen h-full perspective-[3000px] [transform-style:preserve-3d]">
-          <div id="holo-screen" className="absolute top-0 left-1/2 aspect-[20/7] z-0 bg-[#182D4D] shadow-[0_0_15px_4px_rgba(0,150,255,0.85)] bg-opacity-95 rounded-xl h-[50vh] overflow-hidden transition-all duration-700 ease-out will-change-transform [transform:translate(-50%,0%)_translateX(0)_translateZ(0)_rotateY(0deg)_scale(1)]">
+          <div id="holo-screen" className="absolute top-0 left-1/2 aspect-[20/9] max-h-[50vh] z-0 bg-[#182D4D] shadow-[0_0_15px_4px_rgba(0,150,255,0.85)] bg-opacity-95 rounded-xl h-[50vh] overflow-hidden transition-all duration-700 ease-out will-change-transform [transform:translate(-50%,0%)_translateX(0)_translateZ(0)_rotateY(0deg)_scale(1)]">
             {
               (currentIndex == 0) && <Link className="w-full h-full" href="/ship">
                 <img alt="All Ships Data" src="/images/bg-dock.webp" className="w-full h-full object-cover">

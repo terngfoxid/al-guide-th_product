@@ -28,13 +28,6 @@
     ],
     "aoa": [],
     "augment": "Unique Modules",
-    "skill_detail": {
-      "retrofit": [],
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/KMS Admiral Hipper.png"
-      ],
-      "fate_simulation": []
-    },
     "note": [],
     "tag": [
       "admiral hipper-class",
@@ -51,7 +44,16 @@
     },
     "note_skill": [],
     "name": "Admiral Hipper",
-    "global_name": "KMS Admiral Hipper"
+    "global_name": "KMS Admiral Hipper",
+    "skill_detail": {
+      "retrofit": [
+        "https://ez-upload.al-guide-th.com/api/download/KMS Admiral Hipper Retrofit.png"
+      ],
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/KMS Admiral Hipper.png"
+      ]
+    }
   },
   {
     "note_skill": [],
@@ -4133,6 +4135,62 @@
         "image": "https://patchwiki.biligame.com/images/blhx/f/fc/r79jy024cm9w1bdxkzka4nkbizxnny8.gif"
       }
     ]
+  },
+  {
+    "global_name": "Bristol.META",
+    "name": "Bristol META",
+    "rarity": [
+      "SRM"
+    ],
+    "class": [
+      "Cinders of Hope"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [
+      "bristolmeta"
+    ],
+    "faction": {
+      "full": "META",
+      "sub": "Cinders of Hope"
+    },
+    "skins": [
+      {
+        "name": "Bristol META",
+        "image": "https://als.mrlar.dev/full/bulisituoer_alter.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/bulisituoer_alter.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/bulisituoer_alter (1).webp"
+      }
+    ],
+    "meta_showdown_armor": "L",
+    "meta_showdown": [
+      {
+        "skill_name": "I See Everything!",
+        "skill_detail": "ในระหว่างการต่อสู้บอสจะสร้างพื้นที่พิเศษที่จะลดอัตราหลบหลีกของเรือฝ่ายเราลง",
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-05_231724777.png"
+      },
+      {
+        "skill_detail": "เมื่อเรือของฝ่ายเราได้รับบัพประเภทหลบหลีก 100% หรืออมตะ บอสจะส่ง Data 857 ออกมาสร้างความเสียหายกับเรือลำนั้นโดยจะสร้างความเสียหายต่อเนื่องความแรงขึ้นอยู่กับ Max HP เป้าหมาย หากบัพหมดเวลา Data 857 จะกลับไปอยู่ด้านข้างบอส",
+        "skill_name": "Sic 'Em, Data 857!",
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-05_233507311.png"
+      },
+      {
+        "skill_detail": "เมื่อ Data 857 อยู่ด้านข้างบอส บอสจะสร้างความเสียหายเพิ่มขึ้น 20% และรับความเสียหายลดลง 20%",
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-05_233620431.png"
+      }
+    ],
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [],
+      "skill": []
+    },
+    "meta_showdown_team": [],
+    "gear": [],
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "id": "bristol meta"
   },
   {
     "name": "Brünhilde",
@@ -17206,6 +17264,44 @@
     "note": []
   },
   {
+    "faction": {
+      "sub": "Cinders of Hope",
+      "full": "META"
+    },
+    "note_skill": [],
+    "class": [
+      "Cinders of Hope"
+    ],
+    "type": [
+      "CL"
+    ],
+    "name": "Königsberg META",
+    "gear": [],
+    "aoa": [],
+    "skill_detail": {
+      "retrofit": [],
+      "skill": [],
+      "fate_simulation": []
+    },
+    "tag": [
+      "konigsbergmeta"
+    ],
+    "rarity": [
+      "EM"
+    ],
+    "note": [],
+    "global_name": "Königsberg.META",
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/kenisibao_alter (1).webp",
+        "image": "https://als.mrlar.dev/full/kenisibao_alter.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/kenisibao_alter.webp",
+        "name": "Königsberg META"
+      }
+    ],
+    "id": "königsberg meta"
+  },
+  {
     "gear": [],
     "note_skill": [],
     "id": "l'audacieux",
@@ -22338,10 +22434,6 @@
   },
   {
     "gear": [],
-    "class": [
-      "Collab"
-    ],
-    "global_name": "HDN Neptune",
     "review": "https://youtu.be/oGqOAevPssk",
     "note_skill": [
       {
@@ -22349,7 +22441,6 @@
         "image": "https://ez-upload.al-guide-th.com/api/download/NeptuneSkill%202.gif"
       }
     ],
-    "tag": [],
     "note": [],
     "skill_detail": {
       "fate_simulation": [
@@ -22398,7 +22489,14 @@
       }
     ],
     "id": "neptune",
-    "augment": "Unique Modules"
+    "augment": "Unique Modules",
+    "global_name": "HMS Neptune",
+    "tag": [
+      "plan-class"
+    ],
+    "class": [
+      "Neptune"
+    ]
   },
   {
     "aoa": [],
@@ -31471,25 +31569,30 @@
     "class": [
       "Unzen"
     ],
-    "skins": [
-      {
-        "name": "Unzen-chan",
-        "chibi": "",
-        "image": "",
-        "profile": ""
-      }
-    ],
     "type": [
       "CA"
     ],
     "gear": [],
-    "tag": [],
     "faction": {
       "short": "IJN",
       "full": "Sakura Empire"
     },
     "aoa": [],
-    "id": "unzen-chan"
+    "id": "unzen-chan",
+    "tag": [
+      "unzen-class",
+      "yunxianzhiyuan",
+      "special"
+    ],
+    "global_name": "IJN Unzen",
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/yunxian_younv.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/kenisibao_alter (1).webp",
+        "image": "https://als.mrlar.dev/full/yunxian_younv.webp",
+        "name": "Unzen-chan"
+      }
+    ]
   },
   {
     "id": "valiant",
@@ -35000,26 +35103,6 @@
       "CB"
     ],
     "id": "ägir",
-    "skins": [
-      {
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/ÄgirChibi.png",
-        "image": "https://azurlane.netojuu.com/images/f/fe/Ägir.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/aijier.webp",
-        "name": "Ägir"
-      },
-      {
-        "name": "Iron Blood's Dragon Maid",
-        "image": "https://azurlane.netojuu.com/images/b/b9/ÄgirMaid.png"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/1/17/ÄgirSpring.png",
-        "name": "Golden Dragon Among Auspicious Clouds"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/2/2f/ÄgirHome_Relaxation.png",
-        "name": "One-on-One Leisure Time"
-      }
-    ],
     "skill_detail": {
       "retrofit": [],
       "fate_simulation": [],
@@ -35050,7 +35133,27 @@
     "note": [],
     "global_name": "KMS Ägir",
     "note_skill": [],
-    "name": "Ägir"
+    "name": "Ägir",
+    "skins": [
+      {
+        "name": "Ägir",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/aijier.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Agir Shibi.webp",
+        "image": "https://azurlane.netojuu.com/images/f/fe/Ägir.png"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/b/b9/ÄgirMaid.png",
+        "name": "Iron Blood's Dragon Maid"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/1/17/ÄgirSpring.png",
+        "name": "Golden Dragon Among Auspicious Clouds"
+      },
+      {
+        "name": "One-on-One Leisure Time",
+        "image": "https://azurlane.netojuu.com/images/2/2f/ÄgirHome_Relaxation.png"
+      }
+    ]
   },
   {
     "gear": [],

@@ -633,8 +633,6 @@
   },
   {
     "name": "Alliance Before the Hagiobull",
-    "banner": "",
-    "button": "",
     "time": "20/05/2026 - 11/06/2026 14:00 น.",
     "lore": [],
     "ships": [
@@ -661,7 +659,6 @@
         "retrofit": true
       }
     ],
-    "_priority": 3,
     "noteV2": {
       "beginner": [
         {
@@ -698,60 +695,61 @@
         "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_231138393.png"
       }
     ],
+    "banner": "https://ez-upload.al-guide-th.com/api/download/banner-27052026.webp",
     "special": [
       {
+        "title": "U-2501",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-19_233741799-modified.png",
-        "text": "แลกจากร้านค้ากิจกรรม โดยใช้ \"UR Voucher\" 200/300 ใบ",
-        "title": "U-2501"
+        "text": "แลกจากร้านค้ากิจกรรม โดยใช้ \"UR Voucher\" 200/300 ใบ"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-19_233549264-modified.png",
         "title": "Elbe META",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-19_233549264-modified.png",
         "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3"
       },
       {
+        "text": "สะสมแต้มกิจกรรม 10,000 points",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-19_233632647-modified.png",
-        "title": "Z14",
-        "text": "สะสมแต้มกิจกรรม 10,000 points"
+        "title": "Z14"
       },
       {
+        "title": "ผลึกปลดดาว Elbe META",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_234349528.png",
-        "text": "ซื้อจากร้านค้า ราคา 2,000 points",
-        "title": "ผลึกปลดดาว Elbe META"
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points"
       },
       {
-        "title": "Seal of the Sacred Covenant",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_221638768.png",
         "text": "สะสมแต้มปลดล็อก Frame 2,800 points",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_221638768.png"
+        "title": "Seal of the Sacred Covenant"
       },
       null,
       {
-        "title": "แต้มปลดล็อก Frame 800 points",
-        "text": "ได้รับ Götz von Berlichingen"
+        "text": "ได้รับ Götz von Berlichingen",
+        "title": "แต้มปลดล็อก Frame 800 points"
       },
       {
-        "title": "แต้มปลดล็อก Frame 600 points",
-        "text": "ได้รับ Elbe META"
+        "text": "ได้รับ Elbe META",
+        "title": "แต้มปลดล็อก Frame 600 points"
       },
       {
         "text": "ปลดดาว Prinz Moritz ให้เต็ม",
         "title": "แต้มปลดล็อก Frame 600 points"
       },
       {
-        "text": "ปลดดาว Z14 ให้เต็ม",
-        "title": "แต้มปลดล็อก Frame 400 points"
+        "title": "แต้มปลดล็อก Frame 400 points",
+        "text": "ปลดดาว Z14 ให้เต็ม"
       },
       {
-        "title": "แต้มปลดล็อก Frame 400 points",
-        "text": "ปลดดาว Z15 ให้เต็ม"
+        "text": "ปลดดาว Z15 ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 400 points"
       },
       {
         "title": "แต้มปลดล็อก Frame 300 points",
         "text": "ชนะบอสด่าน A2/C2 จำนวน 10 ครั้ง โดยมี Köln META ที่ดาวเต็มอยู่ในทีม"
       },
       {
-        "text": "ชนะบอสด่าน A3/C3 จำนวน 10 ครั้ง โดยมี Regensburg META ที่ดาวเต็มอยู่ในทีม",
-        "title": "แต้มปลดล็อก Frame 300 points"
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน A3/C3 จำนวน 10 ครั้ง โดยมี Regensburg META ที่ดาวเต็มอยู่ในทีม"
       },
       {
         "title": "แต้มปลดล็อก Frame 300 points",
@@ -766,9 +764,9 @@
         "text": "ชนะบอสด่าน B3/D3 จำนวน 10 ครั้ง โดยมี Friedrich der Große ที่ดาวเต็มอยู่ในทีม"
       },
       {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_222938133.png",
         "text": "สะสม Sticker 8 อัน",
-        "title": "Hagiobull Alliance Medal",
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_222938133.png"
+        "title": "Hagiobull Alliance Medal"
       },
       null,
       {
@@ -784,46 +782,42 @@
         "text": "ผ่านด่าน B3/D3"
       },
       {
-        "title": "Sticker",
-        "text": "กำจัดศัตรูในกิจกรรม 300 ตัว"
+        "text": "กำจัดศัตรูในกิจกรรม 300 ตัว",
+        "title": "Sticker"
       },
       {
         "text": "เล่นด่านกิจกรรมทั้งหมด 50 ครั้ง",
         "title": "Sticker"
       },
       {
-        "text": "ผ่านด่าน SP",
-        "title": "Sticker"
+        "title": "Sticker",
+        "text": "ผ่านด่าน SP"
       },
       {
-        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point",
-        "title": "Sticker"
+        "title": "Sticker",
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point"
       },
       {
-        "text": "สะสม Sticker 7 อัน",
-        "title": "Sticker"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_223631591.png",
-        "title": "Luxurious Getaway Medal",
+        "title": "Sticker",
         "text": "สะสม Sticker 7 อัน"
       },
       {
-        "text": "",
-        "title": "Sticker"
+        "title": "Luxurious Getaway Medal",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_223631591.png",
+        "text": "สะสม Sticker 7 อัน"
       },
+      null,
       {
         "title": "Sticker",
         "text": "Login เข้าเกม 1 ครั้ง"
       },
-      null,
       {
         "text": "ใช้น้ำมัน 1,000 หน่วย",
         "title": "Sticker"
       },
       {
-        "title": "Sticker",
-        "text": "ต่อเรือ 10 ครั้ง"
+        "text": "ต่อเรือ 10 ครั้ง",
+        "title": "Sticker"
       },
       {
         "title": "Sticker",
@@ -834,11 +828,7 @@
         "text": "เล่นกิจกรรม Operation Vacation 1 ครั้ง"
       },
       {
-        "title": "Sticker",
-        "text": "ปลดล็อก Custom Order ทั้งหมดในกิจกรรม The Opulent! The Glamorous! Luxury Bay"
-      },
-      {
-        "text": "Login เข้าเกม 1 ครั้ง",
+        "text": "ปลดล็อก Custom Order ทั้งหมดในกิจกรรม The Opulent! The Glamorous! Luxury Bay",
         "title": "Sticker"
       },
       {
@@ -847,26 +837,28 @@
       },
       null,
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_232119937.png",
+        "title": "Netherworld Tower",
         "text": "ผ่านด่านกิจกรรม D3",
-        "title": "Netherworld Tower"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_232119937.png"
       },
       {
+        "title": "Miniature Tower of Luxury",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_232251419.png",
-        "text": "อ่าน Travelog ทั้งหมดในกิจกรรม The Opulent! The Glamorous! Luxury Bay",
-        "title": "Miniature Tower of Luxury"
+        "text": "อ่าน Travelog ทั้งหมดในกิจกรรม The Opulent! The Glamorous! Luxury Bay"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_232638657.png",
         "title": "Pressure-Resistant Hull Design",
-        "text": "ซื้อจากร้านค้า ราคา 2,000 points"
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-05-20_232638657.png"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222149840-modified.png",
-        "title": "บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (Early Summer)",
-        "text": "เล่นกิจกรรม Operation Vacation วันที่ 7"
+        "text": "เล่นกิจกรรม Operation Vacation วันที่ 7",
+        "title": "บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (Early Summer)"
       }
     ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/BTN-web-v2-Alliance-Before-the-Hagiobull.png",
+    "_priority": 3,
     "id": "Alliance Before the Hagiobull"
   },
   {
@@ -2848,107 +2840,76 @@
     "time": "[21/05/2023-13/06/2023 14:00 น.]",
     "banner": "https://ez-upload.al-guide-th.com/api/download/Light_of_the_Martyrium_Banner.png",
     "chibi": "https://ez-upload.al-guide-th.com/api/download/Alsace_Chibi.png",
-    "note": {
-      "special": [
-        "UR Voucher เคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 5 ใบ/วัน"
-      ],
-      "summary": [
-        "สามารถรับ UR Voucher ได้จากการการเล่นด่าน SP , Daily mission , Challenge mission , มินิเกม Manjuu Plumbing หรือจากการซื้อในร้านค้ากิจกรรม",
-        "UR Voucher เคลียร์ Daily missions 5ใบ/วัน สูงสุด 75 ใบ (EN อาจจะ 70 เพราะเวลาน้อยกว่าเซิร์ฟอื่นๆ 1 วัน)",
-        "UR Voucher เคลียร์มินิเกม Manjuu Plumbing สูงสุด 105 ใบ",
-        "UR Voucher เคลียร์ด่าน B3 หรือ D3 ด้วยเรือในกิจกรรมนี้ จะได้รับ 10 ใบ/ภารกิจ สูงสุด 50 ใบ",
-        "UR Voucher ซื้อจากร้านค้ากิจกรรม ราคา 150 points/ใบ สูงสุด 500 ใบ"
-      ],
-      "veteran": [
-        "ทุกคนเก็บของกลับบ้านกัน"
-      ],
-      "beginner": [
-        "ผู้การที่มี Lv. น้อยกว่า 80 จะได้รับ XP ผู้การและเรือ 2เท่า ในระหว่างวันที่ 21/5 ถึง 26/6 14:00 น.",
-        "อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (Early Summer) มี Illustrious, Tosa, Amagi, Chapayev, Tashkent, Graf Zeppelin, Prinz Heinrich",
-        "C2 ดรอป Twin 127mm Mk 12 Dual-Purpose Gun Mount",
-        "D1 ดรอป Twin 203mm Mle 1931 Main Gun Mount",
-        "D2 ดรอป Single 138.6mm Mle 1929 Naval Gun",
-        "D3 ดรอป Barracuda",
-        "C3 ดรอป Helldiver"
-      ]
-    },
+    "button": "https://ez-upload.al-guide-th.com/api/download/Light%20of%20the%20Martyrium%20600x300%20END.png",
     "ships": [
       {
-        "image": "https://azurlane.netojuu.com/images/4/44/Alsace.png",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Alsace_Chibi.png",
         "faction_short": "FFNF",
         "faction": "Iris Libre",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Alsace_Chibi.png",
-        "name": "Alsace",
-        "type": "BB"
+        "type": "BB",
+        "image": "https://azurlane.netojuu.com/images/4/44/Alsace.png",
+        "name": "Alsace"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/7/7a/Mogador.png",
-        "faction_short": "MNF",
-        "faction": "Vichya Dominion",
-        "name": "Mogador",
+        "type": "DD",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Mogador_chibi.png",
-        "type": "DD"
+        "faction": "Vichya Dominion",
+        "faction_short": "MNF",
+        "name": "Mogador",
+        "image": "https://azurlane.netojuu.com/images/7/7a/Mogador.png"
       },
       {
+        "name": "Brennus",
         "image": "https://azurlane.netojuu.com/images/a/a7/Brennus.png",
         "faction_short": "FFNF",
-        "faction": "Iris Libre",
-        "name": "Brennus",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Brennus_chibi.png",
+        "faction": "Iris Libre",
         "type": "CA"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/9/92/%C3%89p%C3%A9e.png",
-        "faction_short": "MNF",
         "faction": "Vichya Dominion",
-        "name": "Épée",
+        "faction_short": "MNF",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Epee_chibi.png",
-        "type": "DD"
+        "type": "DD",
+        "name": "Épée",
+        "image": "https://azurlane.netojuu.com/images/9/92/%C3%89p%C3%A9e.png"
       },
       {
         "image": "https://azurlane.netojuu.com/images/9/95/Fleuret.png",
+        "name": "Fleuret",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Fleuret_chibi.png",
         "faction_short": "MNF",
         "faction": "Vichya Dominion",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Fleuret_chibi.png",
-        "name": "Fleuret",
         "type": "DD"
       },
       {
-        "image": "https://azurlane.netojuu.com/images/b/b8/B%C3%A9arn_META.png",
         "faction": "META",
         "chibi": "https://ez-upload.al-guide-th.com/api/download/Bearn_chibi.png",
+        "type": "CV",
         "name": "Béarn META",
-        "type": "CV"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/3/32/Little_Friedrich.png",
-        "faction_short": "KMS",
-        "faction": "Iron Blood",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/FDG_Channnnn.png",
-        "name": "Little Friedrich",
-        "type": "BB"
+        "image": "https://azurlane.netojuu.com/images/b/b8/B%C3%A9arn_META.png"
       }
     ],
     "special": [
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222450380.png",
+        "title": "MNF Mogador [★★★★★★]",
         "text": "➤ แลกจากร้านค้ากิจกรรม โดยใช้ \"UR Voucher\" 200/300 ใบ",
-        "title": "MNF Mogador [★★★★★★]"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222450380.png"
       },
       {
+        "title": "UR Voucher",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_191833113.png",
-        "text": "วิธีหาอยู่อยู่ที่สรุปด้านล่างของเว็บ",
-        "title": "UR Voucher"
+        "text": "วิธีหาอยู่อยู่ที่ข้อมูลสำคัญ"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222414991.png",
+        "title": "Béarn META [★★★★★★]",
         "text": "➤  แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3",
-        "title": "Béarn META [★★★★★★]"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222414991.png"
       },
       {
+        "title": "ผลึกปลดดาว Béarn META",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_191959635.png",
-        "text": "➤  แลกจากร้านค้ากิจกรรม 2,000 points",
-        "title": "ผลึกปลดดาว Béarn META"
+        "text": "➤  แลกจากร้านค้ากิจกรรม 2,000 points"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222314485.png",
@@ -2956,62 +2917,50 @@
         "title": "MNF Épée [★★★★★]"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-29_215032336-modified.png",
-        "text": "➤ กิจกรรม Today’s Conducting Practice วันที่ 7",
-        "title": "Little Friedrich [★★★★★]"
-      },
-      {
+        "title": "Twin 138.6mm Mle 1934 Naval Gun [★★★★★★]",
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_191906700.png",
-        "text": "➤  แลกจากร้านค้ากิจกรรม 10,000 points",
-        "title": "Twin 138.6mm Mle 1934 Naval Gun [★★★★★★]"
+        "text": "➤  แลกจากร้านค้ากิจกรรม 10,000 points"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_191938056.png",
         "text": "➤  แลกจากร้านค้ากิจกรรม 2,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_191938056.png",
         "title": "550mm Torpedo Mount (Double + Triple) [★★★★★]"
       },
       {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222149840-modified.png",
-        "text": "➤ มินิเกม Manjuu Plumbing วันที่ 7",
-        "title": "บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR (Early Summer)"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222101661-modified.png",
+        "title": "Sigil of the Martyr",
         "text": "➤ สะสมแต้มปลดล็อก Frame 2,800 points",
-        "title": "Sigil of the Martyr"
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222101661-modified.png"
       },
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_222552565.png",
         "text": "➤ สำเร็จเควสผ่านด่าน D3",
         "title": "Medal of the Martyrium"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_225223828-modified.png",
-        "text": "➤ Area Investigation Record Page 8",
-        "title": "Ring of Leisure"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-21_225842214.png",
-        "text": "➤ เล่น Cruise Schedule จนจบ Day 9",
-        "title": "Pleasure Cruise Medal"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-22_151530770.png",
-        "text": "➤ Investigate Case Record 4",
-        "title": "Ebbing Waves"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-05-29_214929469-modified.png",
-        "text": "➤ กิจกรรม Sylvan Garden Embroidery",
-        "title": "[Skin] Sylvan Garden’s Embroidery"
-      },
-      {
-        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2024-06-10_151314514-modified.png",
-        "text": "➤ กิจกรรม Invitation to Jade Seas",
-        "title": "[Skin] Invitation to Jade Seas"
       }
     ],
-    "button": "https://ez-upload.al-guide-th.com/api/download/Light%20of%20the%20Martyrium%20600x300%20END.png",
+    "note": {
+      "summary": [
+        "สามารถรับ UR Voucher ได้จากการการเล่นด่าน SP , Daily mission , Challenge mission หรือจากการซื้อในร้านค้ากิจกรรม",
+        "UR Voucher เคลียร์ Daily missions 10ใบ/วัน สูงสุด 70 ใบ",
+        "UR Voucher เคลียร์ Event missions โดย Clear ด่านกิจกรรมให้ครบตามจำนวนครั้งที่กำหนด สูงสุด 105 ใบ",
+        "UR Voucher เคลียร์ด่าน B3 หรือ D3 ด้วยเรือในกิจกรรมนี้ จะได้รับ 10 ใบ/ภารกิจ สูงสุด 50 ใบ",
+        "UR Voucher ซื้อจากร้านค้ากิจกรรม ราคา 150 points/ใบ สูงสุด 500 ใบ",
+        "UR Voucher เคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 15 ใบ/วัน",
+        "อย่าลืมใช้ตั๋วกาชาฟรี 45 ใบ"
+      ],
+      "special": [
+        "UR Voucher เคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 5 ใบ/วัน"
+      ],
+      "beginner": [
+        "C2 ดรอป Twin 127mm Mk 12 Dual-Purpose Gun Mount",
+        "D1 ดรอป Twin 203mm Mle 1931 Main Gun Mount",
+        "D2 ดรอป Single 138.6mm Mle 1929 Naval Gun",
+        "D3 ดรอป Barracuda",
+        "C3 ดรอป Helldiver"
+      ],
+      "veteran": [
+        "ทุกคนเก็บของกลับบ้านกัน"
+      ]
+    },
     "_priority": 3,
     "id": "Light of the Martyrium"
   },
@@ -3174,6 +3123,97 @@
     ],
     "_priority": 3,
     "id": "Light-Chasing Sea of Stars"
+  },
+  {
+    "guideV2": [],
+    "lore": [],
+    "name": "Miracle by Midnight",
+    "ships": [
+      {
+        "name": "Cherbourg"
+      },
+      {
+        "name": "Arromanches"
+      },
+      {
+        "name": "L’Intrépide"
+      }
+    ],
+    "time": "25/06/2026 - 09/07/2026 14:00 น.",
+    "_priority": 1,
+    "noteV2": {
+      "summary": [],
+      "beginner": [
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-25_222935690.png",
+          "desc": "ด่าน HT3 มี G7e Acoustic Homing Submarine Torpedo Drop"
+        }
+      ],
+      "veteran": []
+    },
+    "special": [
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-25_220256798-modified.png",
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน HT3",
+        "title": "Arromanches"
+      },
+      {
+        "title": "L’Intrépide",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-25_220614483-modified.png",
+        "text": "สะสมแต้มกิจกรรม 10,000 points"
+      },
+      {
+        "title": "Master of Laughter",
+        "text": "อ่านเนื้อเรื่องทั้งหมดในกิจกรรม",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-25_223256012.png"
+      },
+      {
+        "title": "Miniature Surprising Circus",
+        "text": "ผ่านด่าน HT3",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-25_223417615.png"
+      },
+      {
+        "title": "Miracle by Midnight Medal",
+        "text": "สะสม Sticker 8 อัน",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-25_223545009.png"
+      },
+      null,
+      {
+        "title": "Sticker",
+        "text": "อ่านเนื้อเรื่องกิจกรรม"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน T3"
+      },
+      {
+        "text": "ผ่านด่าน HT3",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "กำจัดศัตรูในกิจกรรม 300 ตัว"
+      },
+      {
+        "text": "เล่นด่านกิจกรรมทั้งหมด 50 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "text": "ผ่านด่าน SP",
+        "title": "Sticker"
+      },
+      {
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "สะสม Sticker 7 อัน"
+      }
+    ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/Miracle by Midnight.png",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/Miracle by Midnight  (Banner).png",
+    "id": "Miracle by Midnight"
   },
   {
     "name": "Mirror Involution",
@@ -6130,8 +6170,6 @@
     "id": "Upon the Shimmering Blue"
   },
   {
-    "_priority": 1,
-    "button": "",
     "name": "Vacation Lane – Beachside Brilliance",
     "guideV2": [],
     "time": "กิจกรรมใหม่ 17/04/2026 - 02/05/2026 14:00 น. และ กิจกรรมรีรัน 23/04/2026 - 02/05/2026 14:00 น.",
@@ -6356,6 +6394,8 @@
       }
     ],
     "banner": "https://ez-upload.al-guide-th.com/api/download/banner-vv-3rd.webp",
+    "button": "https://ez-upload.al-guide-th.com/api/download/BTN-web-v2-DOA-3.webp",
+    "_priority": 3,
     "id": "Vacation Lane – Beachside Brilliance"
   },
   {
