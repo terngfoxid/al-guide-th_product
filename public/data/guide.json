@@ -69,5 +69,91 @@
       }
     ],
     "id": "Meaw 2.0"
+  },
+  {
+    "name": "Newcomer 2026",
+    "_priority": 1,
+    "guideV2": [
+      {
+        "desc": "กดดูที่ Tab Video ได้เลย"
+      }
+    ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/btn-nc-2026.png",
+    "youtube": [
+      {
+        "url": "https://www.youtube.com/embed/0tk5nOR1plI",
+        "name": "EP1 สอนปั้นตัวแบกแบบทำตามได้เลย"
+      },
+      {
+        "url": "https://www.youtube.com/embed/Qfqg22zNKaU",
+        "name": "EP2 วิธีปั้นตัว Collab NieR"
+      },
+      {
+        "name": "EP3 วิธีปั้นตัว META ระดับ Elite",
+        "url": "https://www.youtube.com/embed/3sPtAdGK2sI"
+      },
+      {
+        "name": "EP4 วิธีปั้น DDG",
+        "url": "https://www.youtube.com/embed/AvM8xdXNPGM"
+      },
+      {
+        "url": "https://www.youtube.com/embed/woTCgyKSZK0",
+        "name": "EP4.5 Operation Siren Part 1"
+      },
+      {
+        "name": "EP5 จัดทีมตาม Basic เกมไปด่าน 9 เพื่อทำเควส UR ฟรี 1ตัว",
+        "url": "https://www.youtube.com/embed/sq5hPwFoLMk"
+      },
+      {
+        "name": "EP5.5 Operation Siren Part 2",
+        "url": "https://www.youtube.com/embed/Yc-w7Q1qR34"
+      },
+      {
+        "url": "https://www.youtube.com/embed/3C4iC0_GNw8",
+        "name": "EP6 สูตรโกงผ่านด่าน Supply Line Disruption"
+      },
+      {
+        "name": "EP7 เริ่มทำ 2 กองเรือ Part 1 กองเรือตอร์ปิโด",
+        "url": "https://www.youtube.com/embed/6ilsIWmhai0"
+      }
+    ],
+    "id": "Newcomer 2026"
+  },
+  {
+    "_priority": 1,
+    "button": "https://ez-upload.al-guide-th.com/api/download/btn-ops-2023.png",
+    "guideV2": [
+      {
+        "desc": "กดดูที่ Tab Video ได้เลย"
+      }
+    ],
+    "name": "Operation Siren 2023",
+    "youtube": [
+      {
+        "name": "EP1 พาไปตะลุย Operation Siren ครั้งแรกแบบตามมีตามเกิด",
+        "url": "https://www.youtube.com/embed/s2nUhTtR_gk"
+      },
+      {
+        "name": "EP2 Puzzle คืออะไรลิงแก้ไม่เป็น",
+        "url": "https://www.youtube.com/embed/Mq27k4qCRws"
+      },
+      {
+        "name": "EP3 ตะลุยเควส Ch.2 และ Zone Lv.5 ครั้งแรก",
+        "url": "https://www.youtube.com/embed/kAO9rmZp_SI"
+      },
+      {
+        "name": "EP4 Guild Shop และ การ Reset OPS",
+        "url": "https://www.youtube.com/embed/e8V5cydcjYE"
+      },
+      {
+        "name": "EP5 สิ่งที่ต้องทำในโหมด OPS (ลูปนรกของมือใหม่ OPS)",
+        "url": "https://www.youtube.com/embed/rtALEkrSSE0"
+      },
+      {
+        "name": "EP6 รีเดือนครั้งแรก กับ สิ่งต่างๆที่เปลี่ยนไป",
+        "url": "https://www.youtube.com/embed/cBE3COEZCng"
+      }
+    ],
+    "id": "Operation Siren 2023"
   }
 ]

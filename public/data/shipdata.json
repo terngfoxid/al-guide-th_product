@@ -1,5 +1,83 @@
 [
   {
+    "name": "2B",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CL"
+    ],
+    "faction": {
+      "full": "Collab",
+      "sub": "NieR"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "augment": "Unique Modules (Collaboration Ships)",
+    "class": [
+      "Collab"
+    ],
+    "global_name": "2B",
+    "tag": [
+      "nier"
+    ],
+    "skins": [
+      {
+        "name": "2B",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/2b.webp",
+        "image": "https://als.mrlar.dev/full/2b.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/2b (1).webp"
+      }
+    ],
+    "id": "2b"
+  },
+  {
+    "name": "A2",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CA"
+    ],
+    "faction": {
+      "full": "Collab",
+      "sub": "NieR"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "augment": "Unique Modules (Collaboration Ships)",
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/a2 (1).webp",
+        "image": "https://als.mrlar.dev/full/a2.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/a2.webp",
+        "name": "A2"
+      }
+    ],
+    "global_name": "A2",
+    "class": [
+      "Collab"
+    ],
+    "tag": [
+      "nier"
+    ],
+    "id": "a2"
+  },
+  {
     "id": "admiral hipper",
     "skins": [
       {
@@ -1243,6 +1321,45 @@
     "id": "amagi-chan"
   },
   {
+    "global_name": "IJN Amatsukaze",
+    "name": "Amatsukaze",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "DD"
+    ],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "tag": [
+      "kagero-class",
+      "amatsukaze"
+    ],
+    "class": [
+      "Kagerou"
+    ],
+    "skins": [
+      {
+        "name": "Amatsukaze",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/tianjinfeng (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/tianjinfeng.webp",
+        "image": "https://als.mrlar.dev/full/tianjinfeng.webp"
+      }
+    ],
+    "id": "amatsukaze"
+  },
+  {
     "skill_detail": {
       "fate_simulation": [],
       "skill": [
@@ -2069,6 +2186,47 @@
     "id": "arkhangelsk"
   },
   {
+    "global_name": "FFNF Arromanches",
+    "name": "Arromanches",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CVL"
+    ],
+    "faction": {
+      "short": "FFNF",
+      "full": "Iris Libre"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "name": "Arromanches",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/aluomangshi.webp",
+        "image": "https://als.mrlar.dev/full/aluomangshi.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/aluomangshi (1).webp"
+      }
+    ],
+    "tag": [
+      "colossus-class"
+    ],
+    "class": [
+      "Arromanches"
+    ],
+    "skill_detail": {
+      "fate_simulation": [],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/FFNF Arromanches.png"
+      ],
+      "retrofit": []
+    },
+    "history": "https://docs.google.com/document/d/1rhRpYhJLELpQolPwG7MTZa86_GHU4GzOe7zmIjapWvo/edit?usp=sharing",
+    "id": "arromanches"
+  },
+  {
     "gear": [],
     "type": [
       "CA"
@@ -2701,6 +2859,45 @@
     ]
   },
   {
+    "global_name": "IJN Azuchi",
+    "name": "Azuchi",
+    "rarity": [
+      "UR"
+    ],
+    "type": [
+      "BC"
+    ],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/antu.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/antu (1).webp",
+        "name": "Azuchi",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/antu.webp"
+      }
+    ],
+    "class": [
+      "Azuchi"
+    ],
+    "tag": [
+      "azuchi"
+    ],
+    "history": "https://docs.google.com/document/d/16Nl078qoP0JbghHFvx3q7kp8CS69mrnylL_FmyADIzc/edit?usp=sharing",
+    "id": "azuchi"
+  },
+  {
     "skins": [
       {
         "chibi": "https://ez-upload.al-guide-th.com/api/download/AzumaChibi.png",
@@ -3013,7 +3210,8 @@
     "name": "Bataan",
     "class": [
       "Independence"
-    ]
+    ],
+    "augment": "Unique Modules"
   },
   {
     "gear": [],
@@ -3022,13 +3220,6 @@
     ],
     "global_name": "FFNF Bayard",
     "aoa": [],
-    "skill_detail": {
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/FFNF%20Bayard.png"
-      ],
-      "fate_simulation": [],
-      "retrofit": []
-    },
     "note": [],
     "tag": [
       "plan-class"
@@ -3057,7 +3248,16 @@
         "image": "https://azurlane.netojuu.com/images/e/e2/BayardBunny.png"
       }
     ],
-    "id": "bayard"
+    "id": "bayard",
+    "skill_detail": {
+      "retrofit": [],
+      "fate_simulation": [
+        "https://ez-upload.al-guide-th.com/api/download/FFNF Bayard FateSimulation.png"
+      ],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/FFNF%20Bayard.png"
+      ]
+    }
   },
   {
     "name": "Belfast",
@@ -3073,50 +3273,7 @@
       ]
     },
     "global_name": "HMS Belfast",
-    "skins": [
-      {
-        "name": "Belfast",
-        "image": "https://azurlane.netojuu.com/images/8/86/Belfast.png",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/BelfastChibi.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/beierfasite.webp"
-      },
-      {
-        "name": "The Pledge of Claddagh",
-        "image": "https://azurlane.netojuu.com/images/6/6a/BelfastWedding.png"
-      },
-      {
-        "name": "Iridescent Rosa",
-        "image": "https://azurlane.netojuu.com/images/8/8d/BelfastSpring.png"
-      },
-      {
-        "name": "Serene Steel",
-        "image": "https://azurlane.netojuu.com/images/8/8a/BelfastBluray.png"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/1/14/BelfastParty.png",
-        "name": "The Noble Attendant"
-      },
-      {
-        "name": "Shopping with the Head Maid",
-        "image": "https://azurlane.netojuu.com/images/9/91/BelfastCasual.png"
-      },
-      {
-        "name": "Piping-Hot Perfection",
-        "image": "https://azurlane.netojuu.com/images/d/d8/BelfastPizza.png"
-      },
-      {
-        "name": "Folded Fascination",
-        "image": "https://azurlane.netojuu.com/images/f/f1/BelfastNew_Year.png"
-      },
-      {
-        "name": "Blissful Service",
-        "image": "https://azurlane.netojuu.com/images/a/af/BelfastTheme_Park.png"
-      }
-    ],
     "note_skill": [],
-    "rarity": [
-      "SR"
-    ],
     "aoa": [
       {
         "image": "https://patchwiki.biligame.com/images/blhx/e/ef/onw5of7bufzm8rvzovtjs4lmgmwthvq.gif"
@@ -3135,7 +3292,57 @@
       "short": "HMS",
       "full": "Royal Navy"
     },
-    "gear": []
+    "gear": [],
+    "rarity": [
+      "SR",
+      "UR"
+    ],
+    "skins": [
+      {
+        "name": "Belfast",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/BelfastChibi.png",
+        "image": "https://azurlane.netojuu.com/images/8/86/Belfast.png",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/beierfasite.webp"
+      },
+      {
+        "name": "The Pledge of Claddagh",
+        "image": "https://azurlane.netojuu.com/images/6/6a/BelfastWedding.png"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/8/8d/BelfastSpring.png",
+        "name": "Iridescent Rosa"
+      },
+      {
+        "name": "Serene Steel",
+        "image": "https://azurlane.netojuu.com/images/8/8a/BelfastBluray.png"
+      },
+      {
+        "name": "The Noble Attendant",
+        "image": "https://azurlane.netojuu.com/images/1/14/BelfastParty.png"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/9/91/BelfastCasual.png",
+        "name": "Shopping with the Head Maid"
+      },
+      {
+        "name": "Piping-Hot Perfection",
+        "image": "https://azurlane.netojuu.com/images/d/d8/BelfastPizza.png"
+      },
+      {
+        "name": "Folded Fascination",
+        "image": "https://azurlane.netojuu.com/images/f/f1/BelfastNew_Year.png"
+      },
+      {
+        "name": "Blissful Service",
+        "image": "https://azurlane.netojuu.com/images/a/af/BelfastTheme_Park.png"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/beierfasite_g.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/beierfasite_g.webp",
+        "name": "Retrofit",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/beierfasite_g (1).webp"
+      }
+    ]
   },
   {
     "note": [],
@@ -3228,6 +3435,45 @@
     "type": [
       "CL"
     ]
+  },
+  {
+    "global_name": "USS Bennington",
+    "name": "Bennington",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CV"
+    ],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/benningdun (1).webp",
+        "name": "Bennington",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/benningdun.webp",
+        "image": "https://als.mrlar.dev/full/benningdun.webp"
+      }
+    ],
+    "tag": [
+      "essex-class",
+      "essex-class-no-yorktown"
+    ],
+    "class": [
+      "Essex"
+    ],
+    "id": "bennington"
   },
   {
     "faction": {
@@ -4178,6 +4424,11 @@
       {
         "skill_detail": "เมื่อ Data 857 อยู่ด้านข้างบอส บอสจะสร้างความเสียหายเพิ่มขึ้น 20% และรับความเสียหายลดลง 20%",
         "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-05_233620431.png"
+      },
+      {
+        "skill_name": "The Shadow Within the Lantern",
+        "skill_detail": "หลังจากเริ่มการต่อสู้ไปได้สักพักสิ่งมีชีวิตลึกลับจะปรากฏตัวขึ้นในบริเวณใกล้เคียงโคมไฟ ในขณะที่ปรากฏตัวอยู่ทุกตัวละครในสนามจะมีค่าความแม่นยำลดลง",
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-06-05_235314179.png"
       }
     ],
     "skill_detail": {
@@ -4556,7 +4807,8 @@
         "name": "Colorful Ceremony",
         "image": "https://azurlane.netojuu.com/images/6/62/CavallaParty.png"
       }
-    ]
+    ],
+    "augment": "Unique Modules"
   },
   {
     "tag": [
@@ -5149,15 +5401,47 @@
     ]
   },
   {
+    "global_name": "FFNF Cherbourg",
+    "name": "Cherbourg",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CB"
+    ],
+    "faction": {
+      "short": "FFNF",
+      "full": "Iris Libre"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/sebao (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/sebao.webp",
+        "image": "https://als.mrlar.dev/full/sebao.webp",
+        "name": "Cherbourg"
+      }
+    ],
+    "class": [
+      "Cherbourg"
+    ],
+    "tag": [
+      "cherbourg"
+    ],
     "skill_detail": {
       "retrofit": [],
-      "fate_simulation": [
-        "https://ez-upload.al-guide-th.com/api/download/HMS%20Cheshire%20FateSim.png"
-      ],
       "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/HMS%20Cheshire.png"
-      ]
+        "https://ez-upload.al-guide-th.com/api/download/FFNF Cherbourg.png"
+      ],
+      "fate_simulation": []
     },
+    "history": "https://docs.google.com/document/d/1rhRpYhJLELpQolPwG7MTZa86_GHU4GzOe7zmIjapWvo/edit?usp=sharing",
+    "id": "cherbourg"
+  },
+  {
     "note": [],
     "skins": [
       {
@@ -5216,7 +5500,16 @@
     ],
     "type": [
       "CA"
-    ]
+    ],
+    "skill_detail": {
+      "fate_simulation": [
+        "https://ez-upload.al-guide-th.com/api/download/HMS Cheshire FateSimulation.png"
+      ],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/HMS%20Cheshire.png"
+      ],
+      "retrofit": []
+    }
   },
   {
     "global_name": "Chi An",
@@ -5846,6 +6139,45 @@
     "global_name": "Cleveland.META"
   },
   {
+    "global_name": "USS Collett",
+    "name": "Collett",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "DD"
+    ],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/kelaite (1).webp",
+        "name": "Collett",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/kelaite.webp",
+        "image": "https://als.mrlar.dev/full/kelaite.webp"
+      }
+    ],
+    "tag": [
+      "allen m. sumner-class",
+      "collett"
+    ],
+    "class": [
+      "Allen M. Sumner"
+    ],
+    "id": "collett"
+  },
+  {
     "id": "colorado",
     "note_skill": [],
     "gear": [],
@@ -6466,7 +6798,8 @@
     "id": "de zeven provinciën",
     "tag": [
       "de zeven provinciën-class"
-    ]
+    ],
+    "history": "https://docs.google.com/document/d/1xSo3Bm0fa62OXK6HNgK6yqWUbug2tCvpwaDLGpnE4rw/edit?usp=sharing"
   },
   {
     "rarity": [
@@ -6761,15 +7094,6 @@
         "image": "https://patchwiki.biligame.com/images/blhx/5/5f/6emfo2oc1qrkyp7m9oirc7rgdwxvekg.gif"
       }
     ],
-    "skill_detail": {
-      "fate_simulation": [
-        "https://ez-upload.al-guide-th.com/api/download/HMS%20Drake%20Fatesim.png"
-      ],
-      "skill": [
-        "https://ez-upload.al-guide-th.com/api/download/HMS%20Drake.png"
-      ],
-      "retrofit": []
-    },
     "note": [],
     "tag": [
       "plan-class"
@@ -6802,6 +7126,16 @@
     "faction": {
       "short": "HMS",
       "full": "Royal Navy"
+    },
+    "augment": "Unique Modules",
+    "skill_detail": {
+      "fate_simulation": [
+        "https://ez-upload.al-guide-th.com/api/download/HMS Drake FateSimulation.png"
+      ],
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/HMS%20Drake.png"
+      ],
+      "retrofit": []
     }
   },
   {
@@ -7004,6 +7338,44 @@
     ],
     "id": "duke of york",
     "gear": []
+  },
+  {
+    "global_name": "HMS Duncan",
+    "name": "Duncan",
+    "rarity": [
+      "PR"
+    ],
+    "type": [
+      "BC"
+    ],
+    "tag": [
+      "plan-class"
+    ],
+    "faction": {
+      "short": "HMS",
+      "full": "Royal Navy"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Duncan"
+    ],
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/dengken.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/dengken (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/dengken.webp",
+        "name": "Duncan"
+      }
+    ],
+    "id": "duncan"
   },
   {
     "name": "Dunkerque",
@@ -8007,7 +8379,8 @@
     ],
     "tag": [
       "admiralen-class"
-    ]
+    ],
+    "history": "https://docs.google.com/document/d/1xSo3Bm0fa62OXK6HNgK6yqWUbug2tCvpwaDLGpnE4rw/edit?usp=sharing"
   },
   {
     "tag": [
@@ -10488,6 +10861,46 @@
     ]
   },
   {
+    "global_name": "HMS Griffin",
+    "name": "Griffin",
+    "rarity": [
+      "E"
+    ],
+    "type": [
+      "DD"
+    ],
+    "faction": {
+      "short": "HMS",
+      "full": "Royal Navy"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/gelifen.webp",
+        "name": "Griffin",
+        "image": "https://als.mrlar.dev/full/gelifen.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/gelifen (1).webp"
+      }
+    ],
+    "tag": [
+      "g-class",
+      "griffin"
+    ],
+    "class": [
+      "G"
+    ],
+    "history": "https://docs.google.com/document/d/1XSK_fQKn0KjBYYhhoJUNoAlmN_o5hsQiOeptsF-CVU4/edit?usp=sharing",
+    "id": "griffin"
+  },
+  {
     "faction": {
       "short": "SN",
       "full": "Northern Parliament"
@@ -10764,7 +11177,8 @@
       "short": "KMS"
     },
     "gear": [],
-    "id": "götz von berlichingen"
+    "id": "götz von berlichingen",
+    "history": "https://docs.google.com/document/d/1Wxu-1FLgAP4qtDjaNnjHvtTuatPq5aVd95w_hc8L8Ts/edit?usp=sharing"
   },
   {
     "class": [
@@ -11426,23 +11840,68 @@
       "retrofit": []
     },
     "global_name": "HMS Hardy",
-    "skins": [
-      {
-        "image": "https://azurlane.netojuu.com/images/b/b3/Hardy.png",
-        "name": "Hardy",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/HardyChibi.png",
-        "profile": "https://ez-upload.al-guide-th.com/api/download/yonggan.webp"
-      }
-    ],
-    "rarity": [
-      "E"
-    ],
     "note_skill": [],
     "aoa": [],
     "type": [
       "DD"
     ],
-    "augment": "Unique Modules"
+    "augment": "Unique Modules",
+    "rarity": [
+      "E",
+      "SR"
+    ],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/HardyChibi.png",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/yonggan.webp",
+        "name": "Hardy",
+        "image": "https://azurlane.netojuu.com/images/b/b3/Hardy.png"
+      },
+      {
+        "image": "https://als.mrlar.dev/full/yonggan_g.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/yonggan_g (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/yonggan_g.webp",
+        "name": "Retrofit"
+      }
+    ]
+  },
+  {
+    "global_name": "USS Harrison",
+    "name": "Harrison",
+    "rarity": [
+      "E"
+    ],
+    "type": [
+      "DD"
+    ],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/halisen (1).webp",
+        "name": "Harrison",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/halisen.webp",
+        "image": "https://als.mrlar.dev/full/halisen.webp"
+      }
+    ],
+    "tag": [
+      "fletcher-class"
+    ],
+    "class": [
+      "Fletcher"
+    ],
+    "id": "harrison"
   },
   {
     "aoa": [],
@@ -11698,6 +12157,44 @@
         "image": "https://patchwiki.biligame.com/images/blhx/9/9e/a2lp4zb9up5o75wf0n34wxk07ni1lf2.gif"
       }
     ]
+  },
+  {
+    "global_name": "HMS Hasty",
+    "name": "Hasty",
+    "rarity": [
+      "E"
+    ],
+    "class": [
+      "H (Royal)"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [
+      "h-class"
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "faction": {
+      "full": "Royal Navy",
+      "short": "HMS"
+    },
+    "skins": [
+      {
+        "name": "Hasty",
+        "image": "https://als.mrlar.dev/full/congmang.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/congmang (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/congmang.webp"
+      }
+    ],
+    "id": "hasty"
   },
   {
     "name": "Hatakaze META",
@@ -12807,6 +13304,44 @@
     ]
   },
   {
+    "global_name": "HMS Hostile",
+    "name": "Hostile",
+    "rarity": [
+      "E"
+    ],
+    "class": [
+      "H (Royal)"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [
+      "h-class"
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "faction": {
+      "full": "Royal Navy",
+      "short": "HMS"
+    },
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/didui.webp",
+        "name": "Hostile",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/didui.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/didui (1).webp"
+      }
+    ],
+    "id": "hostile"
+  },
+  {
     "global_name": "IJN Houshou",
     "faction": {
       "full": "Sakura Empire",
@@ -13329,6 +13864,45 @@
     },
     "gear": [],
     "id": "i-13"
+  },
+  {
+    "global_name": "IJN I-14",
+    "name": "I-14",
+    "rarity": [
+      "SR"
+    ],
+    "class": [
+      "Type A Mod. 2"
+    ],
+    "type": [
+      "SSV"
+    ],
+    "tag": [
+      "i type-submarine"
+    ],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/i14 (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/i14.webp",
+        "image": "https://als.mrlar.dev/full/i14.webp",
+        "name": "I-14"
+      }
+    ],
+    "history": "https://docs.google.com/document/d/16Nl078qoP0JbghHFvx3q7kp8CS69mrnylL_FmyADIzc/edit?usp=sharing",
+    "id": "i-14"
   },
   {
     "rarity": [
@@ -15021,6 +15595,44 @@
     ]
   },
   {
+    "global_name": "USS John Rodgers",
+    "name": "John Rodgers",
+    "rarity": [
+      "E"
+    ],
+    "type": [
+      "DD"
+    ],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Fletcher"
+    ],
+    "tag": [
+      "fletcher-class"
+    ],
+    "skins": [
+      {
+        "name": "John Rodgers",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/yuehanluojiesi (1).webp",
+        "image": "https://als.mrlar.dev/full/yuehanluojiesi.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/yuehanluojiesi.webp"
+      }
+    ],
+    "id": "john rodgers"
+  },
+  {
     "rarity": [
       "R",
       "E"
@@ -15131,6 +15743,46 @@
     "rarity": [
       "EM"
     ]
+  },
+  {
+    "class": [
+      "Járnbarðinn"
+    ],
+    "type": [
+      "IX(S)"
+    ],
+    "gear": [],
+    "faction": {
+      "full": "Tempesta",
+      "short": "MOT"
+    },
+    "augment": "Unique Modules",
+    "aoa": [],
+    "rarity": [
+      "SR"
+    ],
+    "note": [],
+    "skill_detail": {
+      "retrofit": [],
+      "skill": [],
+      "fate_simulation": []
+    },
+    "note_skill": [],
+    "name": "Járnbarðinn",
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/tiejiaohao (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/tiejiaohao.webp",
+        "name": "Járnbarðinn",
+        "image": "https://als.mrlar.dev/full/tiejiaohao.webp"
+      }
+    ],
+    "global_name": "MOT Jernbarden",
+    "tag": [
+      "jernbarden"
+    ],
+    "history": "https://docs.google.com/document/d/1S2450VsC9IguJgyrgVwjepa2w6xQVsiTju02EwvPgGY/edit?usp=sharing",
+    "id": "járnbarðinn"
   },
   {
     "aoa": [],
@@ -15952,7 +16604,8 @@
     "note": [],
     "global_name": "SN Kazan",
     "name": "Kazan",
-    "note_skill": []
+    "note_skill": [],
+    "history": "https://docs.google.com/document/d/1xSo3Bm0fa62OXK6HNgK6yqWUbug2tCvpwaDLGpnE4rw/edit?usp=sharing"
   },
   {
     "class": [
@@ -18616,6 +19269,46 @@
     ]
   },
   {
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CVL"
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "name": "Liliel Angel Paratroopers/Ririsa",
+    "id": "liliel angel paratroopers/ririsa",
+    "global_name": "Liliel Angel Paratroopers/Ririsa",
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/lilisha (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/lilisha.webp",
+        "image": "https://als.mrlar.dev/full/lilisha.webp",
+        "name": "Liliel Angel Paratroopers/Ririsa"
+      }
+    ],
+    "tag": [
+      "lilielsh0",
+      "lilielha",
+      "liliel"
+    ],
+    "class": [
+      "Collab"
+    ],
+    "faction": {
+      "full": "Collab",
+      "sub": "2.5 Dimensional Seduction"
+    }
+  },
+  {
     "tag": [
       "lion"
     ],
@@ -19501,6 +20194,47 @@
     }
   },
   {
+    "global_name": "FFNF L’Intrépide",
+    "name": "L’Intrépide",
+    "rarity": [
+      "E"
+    ],
+    "type": [
+      "DD"
+    ],
+    "faction": {
+      "short": "FFNF",
+      "full": "Iris Libre"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "L'Intrépide"
+    ],
+    "tag": [
+      "le hardi-class"
+    ],
+    "skins": [
+      {
+        "name": "L’Intrépide",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/wuju.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/wuju (1).webp",
+        "image": "https://als.mrlar.dev/full/wuju.webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/FFNF L'Intrépide.png"
+      ],
+      "fate_simulation": [],
+      "retrofit": []
+    },
+    "history": "https://docs.google.com/document/d/1rhRpYhJLELpQolPwG7MTZa86_GHU4GzOe7zmIjapWvo/edit?usp=sharing",
+    "id": "l’intrépide"
+  },
+  {
     "id": "maestrale",
     "gear": [],
     "note_skill": [],
@@ -20383,6 +21117,44 @@
     }
   },
   {
+    "global_name": "KMS Max Immelmann",
+    "name": "Max Immelmann",
+    "rarity": [
+      "DR"
+    ],
+    "type": [
+      "CV"
+    ],
+    "tag": [
+      "plan-class"
+    ],
+    "faction": {
+      "short": "KMS",
+      "full": "Iron Blood"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Max Immelmann"
+    ],
+    "skins": [
+      {
+        "name": "Max Immelmann",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/makesi (1).webp",
+        "image": "https://als.mrlar.dev/full/makesi.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/makesi.webp"
+      }
+    ],
+    "id": "max immelmann"
+  },
+  {
     "class": [
       "Takao"
     ],
@@ -20564,6 +21336,46 @@
       "sub": "Framework of Logic",
       "full": "META"
     }
+  },
+  {
+    "class": [
+      "Merkuriy"
+    ],
+    "type": [
+      "IX(V)"
+    ],
+    "gear": [],
+    "faction": {
+      "full": "Tempesta",
+      "short": "MOT"
+    },
+    "global_name": "MOT Merkuriy",
+    "augment": "Unique Modules",
+    "aoa": [],
+    "rarity": [
+      "SR"
+    ],
+    "note": [],
+    "skill_detail": {
+      "retrofit": [],
+      "skill": [],
+      "fate_simulation": []
+    },
+    "note_skill": [],
+    "name": "Merkuriy",
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/shuixinghao (1).webp",
+        "image": "https://als.mrlar.dev/full/shuixinghao.webp",
+        "name": "Merkuriy",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/shuixinghao.webp"
+      }
+    ],
+    "tag": [
+      "merkuriy"
+    ],
+    "history": "https://docs.google.com/document/d/1S2450VsC9IguJgyrgVwjepa2w6xQVsiTju02EwvPgGY/edit?usp=sharing",
+    "id": "merkuriy"
   },
   {
     "name": "Michishio",
@@ -20806,6 +21618,44 @@
     ],
     "type": [
       "DD"
+    ]
+  },
+  {
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CL"
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "id": "miriella angel paratroopers/mikari",
+    "name": "Miriella Angel Paratroopers/Mikari",
+    "faction": {
+      "full": "Collab",
+      "sub": "2.5 Dimensional Seduction"
+    },
+    "class": [
+      "Collab"
+    ],
+    "global_name": "Miriella Angel Paratroopers/Mikari",
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/jumeihuali (1).webp",
+        "name": "Miriella Angel Paratroopers/Mikari",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/jumeihuali.webp",
+        "image": "https://als.mrlar.dev/full/jumeihuali.webp"
+      }
+    ],
+    "tag": [
+      "mikari"
     ]
   },
   {
@@ -23275,6 +24125,42 @@
     ]
   },
   {
+    "name": "Nürnberg META",
+    "aoa": [],
+    "class": [
+      "Cinders of Hope"
+    ],
+    "faction": {
+      "full": "META",
+      "sub": "Cinders of Hope"
+    },
+    "gear": [],
+    "global_name": "Nürnberg.META",
+    "id": "nürnberg meta",
+    "note": [],
+    "note_skill": [],
+    "rarity": [
+      "EM"
+    ],
+    "skill_detail": {
+      "fate_simulation": [],
+      "retrofit": [],
+      "skill": []
+    },
+    "tag": [],
+    "type": [
+      "CL"
+    ],
+    "skins": [
+      {
+        "name": "Nürnberg META",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/niulunbao_alter (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/niulunbao_alter.webp",
+        "image": "https://als.mrlar.dev/full/niulunbao_alter.webp"
+      }
+    ]
+  },
+  {
     "rarity": [
       "PR"
     ],
@@ -23426,7 +24312,8 @@
     "faction": {
       "short": "SN",
       "full": "Northern Parliament"
-    }
+    },
+    "history": "https://docs.google.com/document/d/1xSo3Bm0fa62OXK6HNgK6yqWUbug2tCvpwaDLGpnE4rw/edit?usp=sharing"
   },
   {
     "id": "ooshio",
@@ -23490,6 +24377,44 @@
     ]
   },
   {
+    "global_name": "FFNF Orage",
+    "name": "Orage",
+    "rarity": [
+      "PR"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [
+      "plan-class"
+    ],
+    "faction": {
+      "short": "FFNF",
+      "full": "Iris Libre"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Orage"
+    ],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/baofengyu (1).webp",
+        "image": "https://als.mrlar.dev/full/baofengyu.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/baofengyu.webp",
+        "name": "Orage"
+      }
+    ],
+    "id": "orage"
+  },
+  {
     "faction": {
       "short": "DL",
       "sub": "Date A Live",
@@ -23535,6 +24460,46 @@
     "rarity": [
       "SR"
     ]
+  },
+  {
+    "class": [
+      "Ormrinn Langi"
+    ],
+    "gear": [],
+    "faction": {
+      "full": "Tempesta",
+      "short": "MOT"
+    },
+    "augment": "Unique Modules",
+    "aoa": [],
+    "rarity": [
+      "E"
+    ],
+    "note": [],
+    "skill_detail": {
+      "retrofit": [],
+      "skill": [],
+      "fate_simulation": []
+    },
+    "note_skill": [],
+    "name": "Ormrinn Langi",
+    "type": [
+      "IX(V)"
+    ],
+    "skins": [
+      {
+        "profile": "https://ez-upload.al-guide-th.com/api/download/changshehao (1).webp",
+        "name": "Ormrinn Langi",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/changshehao.webp",
+        "image": "https://als.mrlar.dev/full/changshehao.webp"
+      }
+    ],
+    "global_name": "MOT Ormen Lange",
+    "tag": [
+      "ormen lange"
+    ],
+    "history": "https://docs.google.com/document/d/1S2450VsC9IguJgyrgVwjepa2w6xQVsiTju02EwvPgGY/edit?usp=sharing",
+    "id": "ormrinn langi"
   },
   {
     "skins": [
@@ -24503,7 +25468,8 @@
         "https://ez-upload.al-guide-th.com/api/download/RN%20Pola.png"
       ],
       "fate_simulation": []
-    }
+    },
+    "augment": "Unique Modules"
   },
   {
     "faction": {
@@ -25133,7 +26099,8 @@
     },
     "tag": [
       "p4"
-    ]
+    ],
+    "history": "https://docs.google.com/document/d/1Wxu-1FLgAP4qtDjaNnjHvtTuatPq5aVd95w_hc8L8Ts/edit?usp=sharing"
   },
   {
     "faction": {
@@ -25978,6 +26945,46 @@
     ]
   },
   {
+    "class": [
+      "Riyala Bey"
+    ],
+    "gear": [],
+    "faction": {
+      "full": "Tempesta",
+      "short": "MOT"
+    },
+    "augment": "Unique Modules",
+    "aoa": [],
+    "rarity": [
+      "E"
+    ],
+    "note": [],
+    "skill_detail": {
+      "retrofit": [],
+      "skill": [],
+      "fate_simulation": []
+    },
+    "note_skill": [],
+    "name": "Riyala Bey",
+    "type": [
+      "IX(M)"
+    ],
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/leiyierbei.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/leiyierbei.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/leiyierbei (1).webp",
+        "name": "Riyala Bey"
+      }
+    ],
+    "global_name": "MOT Real bey",
+    "tag": [
+      "real bey"
+    ],
+    "history": "https://docs.google.com/document/d/1S2450VsC9IguJgyrgVwjepa2w6xQVsiTju02EwvPgGY/edit?usp=sharing",
+    "id": "riyala bey"
+  },
+  {
     "global_name": "HMS Rodney",
     "skill_detail": {
       "skill": [
@@ -26271,7 +27278,8 @@
         "image": "https://patchwiki.biligame.com/images/blhx/8/83/e0ynbhsvfahkmbo1gb0ahwnjk37jlec.gif",
         "desc": "โจมตีด้วยหนวด 24ครั้ง ความแรง 290  Armor Mod (120/120/120)"
       }
-    ]
+    ],
+    "augment": "Unique Modules"
   },
   {
     "id": "royal james",
@@ -26959,6 +27967,68 @@
     ]
   },
   {
+    "global_name": "Saratoga.META",
+    "name": "Saratoga META",
+    "rarity": [
+      "SRM"
+    ],
+    "class": [
+      "Ashen Might"
+    ],
+    "type": [
+      "CV"
+    ],
+    "tag": [
+      "saratogameta"
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "meta_showdown_armor": "Medium/Heavy",
+    "meta_showdown_comment": "ต้องจัดเกียร์ให้ตีได้ทั้ง 2 เกราะ",
+    "gear": [],
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/salatuojia_alter.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/salatuojia_alter (1).webp",
+        "name": "Saratoga META",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/salatuojia_alter.webp"
+      }
+    ],
+    "faction": {
+      "full": "META",
+      "sub": "Ashen Might"
+    },
+    "meta_showdown": [
+      {
+        "skill_name": "Punishment★From Above",
+        "skill_detail": "ในระหว่างการต่อสู้บอสจะได้รับการยิงสนับสนุนจากดาวเทียม"
+      },
+      {
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-05_121523815.png",
+        "skill_detail": "1.ยิงปืนใหญ่สนับสนุน"
+      },
+      {
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-05_121708038.png",
+        "skill_detail": "2.เครื่องบินสนับสนุน"
+      },
+      {
+        "skill_image": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-05_121830964.png",
+        "skill_detail": "3.ทุก 15 วินาที กองหน้าจะได้รับความเสียหายมากขึ้น 100% เป็นเวลา 8 วินาที"
+      },
+      {
+        "skill_name": "Change★Battle Music",
+        "skill_detail": "ทุก 25 วินาที บอสจะทำการสลับเกราะระหว่าง Medium และ Heavy และบอสจะทำการปล่อยเครื่องบินชุดพิเศษทุกครั้งที่สลับเกราะ"
+      }
+    ],
+    "id": "saratoga meta"
+  },
+  {
     "faction": {
       "full": "Iron Blood",
       "short": "KMS"
@@ -27192,6 +28262,44 @@
       ]
     },
     "global_name": "USS Seattle"
+  },
+  {
+    "class": [
+      "Selimiye"
+    ],
+    "type": [
+      "IX(M)"
+    ],
+    "gear": [],
+    "tag": [],
+    "faction": {
+      "full": "Tempesta",
+      "short": "MOT"
+    },
+    "global_name": "MOT Selimiye",
+    "augment": "Unique Modules",
+    "aoa": [],
+    "rarity": [
+      "SR"
+    ],
+    "note": [],
+    "skill_detail": {
+      "retrofit": [],
+      "skill": [],
+      "fate_simulation": []
+    },
+    "note_skill": [],
+    "name": "Selimiye",
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/sailimiye.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/sailimiye (1).webp",
+        "name": "Selimiye",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/sailimiye.webp"
+      }
+    ],
+    "history": "https://docs.google.com/document/d/1S2450VsC9IguJgyrgVwjepa2w6xQVsiTju02EwvPgGY/edit?usp=sharing",
+    "id": "selimiye"
   },
   {
     "faction": {
@@ -28305,6 +29413,45 @@
     ]
   },
   {
+    "global_name": "Soobrazitelny.META",
+    "name": "Soobrazitelny META",
+    "rarity": [
+      "EM"
+    ],
+    "class": [
+      "Flickering Light"
+    ],
+    "type": [
+      "DD"
+    ],
+    "tag": [
+      "soobrazitelnymeta",
+      "soobrazitelnymeta"
+    ],
+    "faction": {
+      "full": "META",
+      "sub": "Flickering Light"
+    },
+    "skins": [
+      {
+        "name": "Soobrazitelny META",
+        "image": "https://als.mrlar.dev/full/lingmin_alter.webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/lingmin_alter.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/lingmin_alter (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "id": "soobrazitelny meta"
+  },
+  {
     "faction": {
       "short": "IJN",
       "full": "Sakura Empire"
@@ -28990,6 +30137,46 @@
     }
   },
   {
+    "global_name": "HMS Superb",
+    "name": "Superb",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CL"
+    ],
+    "faction": {
+      "short": "HMS",
+      "full": "Royal Navy"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/huali.webp",
+        "name": "Superb",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/huali (1).webp",
+        "image": "https://als.mrlar.dev/full/huali.webp"
+      }
+    ],
+    "tag": [
+      "swiftsure-class",
+      "superb"
+    ],
+    "class": [
+      "Swiftsure"
+    ],
+    "history": "https://docs.google.com/document/d/1XSK_fQKn0KjBYYhhoJUNoAlmN_o5hsQiOeptsF-CVU4/edit?usp=sharing",
+    "id": "superb"
+  },
+  {
     "tag": [],
     "note": [],
     "skill_detail": {
@@ -29039,6 +30226,46 @@
       "short": "FFNF",
       "full": "Iris Libre"
     }
+  },
+  {
+    "global_name": "HMS Surrey",
+    "name": "Surrey",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CA"
+    ],
+    "faction": {
+      "short": "HMS",
+      "full": "Royal Navy"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "image": "https://als.mrlar.dev/full/sali.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/sali (1).webp",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/sali.webp",
+        "name": "Surrey"
+      }
+    ],
+    "tag": [
+      "surrey-class",
+      "surrey"
+    ],
+    "class": [
+      "Surrey"
+    ],
+    "history": "https://docs.google.com/document/d/1XSK_fQKn0KjBYYhhoJUNoAlmN_o5hsQiOeptsF-CVU4/edit?usp=sharing",
+    "id": "surrey"
   },
   {
     "id": "suruga",
@@ -29364,7 +30591,8 @@
       {
         "image": "https://patchwiki.biligame.com/images/blhx/e/e5/hhji00f4ql3rp358mpo99om50k9bmit.gif"
       }
-    ]
+    ],
+    "augment": "Unique Modules"
   },
   {
     "skins": [
@@ -29750,6 +30978,45 @@
         "https://ez-upload.al-guide-th.com/api/download/IJN%20Taihou%20Chan.png"
       ]
     }
+  },
+  {
+    "global_name": "IJN Takahashi",
+    "name": "Takahashi",
+    "rarity": [
+      "PR"
+    ],
+    "type": [
+      "CL"
+    ],
+    "faction": {
+      "short": "IJN",
+      "full": "Sakura Empire"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "tag": [
+      "plan-class",
+      "takahashi"
+    ],
+    "class": [
+      "Takahashi"
+    ],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/gaoliang.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/gaoliang (1).webp",
+        "image": "https://als.mrlar.dev/full/gaoliang.webp",
+        "name": "Takahashi"
+      }
+    ],
+    "id": "takahashi"
   },
   {
     "faction": {
@@ -30195,6 +31462,46 @@
       "CV"
     ],
     "aoa": []
+  },
+  {
+    "global_name": "HMS Tiger",
+    "name": "Tiger",
+    "rarity": [
+      "UR"
+    ],
+    "type": [
+      "CL"
+    ],
+    "faction": {
+      "short": "HMS",
+      "full": "Royal Navy"
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "class": [
+      "Tiger"
+    ],
+    "tag": [
+      "tiger"
+    ],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/hu.webp",
+        "name": "Tiger",
+        "image": "https://als.mrlar.dev/full/hu.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/hu (1).webp"
+      }
+    ],
+    "skill_detail": {
+      "skill": [
+        "https://ez-upload.al-guide-th.com/api/download/HMS Tiger.png"
+      ],
+      "fate_simulation": [],
+      "retrofit": []
+    },
+    "id": "tiger"
   },
   {
     "tag": [
@@ -30825,7 +32132,8 @@
     ],
     "global_name": "KMS U-2501",
     "name": "U-2501",
-    "note_skill": []
+    "note_skill": [],
+    "history": "https://docs.google.com/document/d/1Wxu-1FLgAP4qtDjaNnjHvtTuatPq5aVd95w_hc8L8Ts/edit?usp=sharing"
   },
   {
     "rarity": [
@@ -31656,6 +32964,45 @@
     ]
   },
   {
+    "global_name": "Valparaíso",
+    "name": "Valparaíso",
+    "rarity": [
+      "DR"
+    ],
+    "type": [
+      "BB"
+    ],
+    "faction": {
+      "full": "Liga de Pedrería"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "tag": [
+      "plan-class",
+      "valskill",
+      "valparaiso"
+    ],
+    "class": [
+      "Valparaíso"
+    ],
+    "skins": [
+      {
+        "name": "Valparaíso",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/waerpalaisuo.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/waerpalaisuo (1).webp",
+        "image": "https://als.mrlar.dev/full/waerpalaisuo.webp"
+      }
+    ],
+    "id": "valparaíso"
+  },
+  {
     "type": [
       "DD"
     ],
@@ -31910,6 +33257,44 @@
     ]
   },
   {
+    "global_name": "USS Vicksburg",
+    "name": "Vicksburg",
+    "rarity": [
+      "SR"
+    ],
+    "type": [
+      "CL"
+    ],
+    "faction": {
+      "short": "USS",
+      "full": "Eagle Union"
+    },
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "tag": [
+      "cleveland-class"
+    ],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/weikesibao.webp",
+        "image": "https://als.mrlar.dev/full/weikesibao.webp",
+        "name": "Vicksburg",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/weikesibao (1).webp"
+      }
+    ],
+    "class": [
+      "Cleveland"
+    ],
+    "id": "vicksburg"
+  },
+  {
     "note": [],
     "skill_detail": {
       "fate_simulation": [],
@@ -31964,6 +33349,44 @@
     ]
   },
   {
+    "global_name": "Victorious.META",
+    "name": "Victorious META",
+    "rarity": [
+      "SRM"
+    ],
+    "type": [
+      "CV"
+    ],
+    "skill_detail": {
+      "skill": [],
+      "retrofit": [],
+      "fate_simulation": []
+    },
+    "aoa": [],
+    "note_skill": [],
+    "note": [],
+    "gear": [],
+    "skins": [
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/shengli_alter.webp",
+        "profile": "https://ez-upload.al-guide-th.com/api/download/shengli_alter (1).webp",
+        "name": "Victorious META",
+        "image": "https://als.mrlar.dev/full/shengli_alter.webp"
+      }
+    ],
+    "tag": [
+      "armor-cv"
+    ],
+    "class": [
+      "Ashen Might"
+    ],
+    "faction": {
+      "full": "META",
+      "sub": "Ashen Might"
+    },
+    "id": "victorious meta"
+  },
+  {
     "type": [
       "DD"
     ],
@@ -32005,7 +33428,8 @@
     "note": [],
     "tag": [
       "poeti-class"
-    ]
+    ],
+    "augment": "Unique Modules"
   },
   {
     "gear": [],
@@ -34290,7 +35714,8 @@
     "class": [
       "Type 1934A"
     ],
-    "aoa": []
+    "aoa": [],
+    "history": "https://docs.google.com/document/d/1Wxu-1FLgAP4qtDjaNnjHvtTuatPq5aVd95w_hc8L8Ts/edit?usp=sharing"
   },
   {
     "rarity": [
@@ -34330,7 +35755,8 @@
       "full": "Iron Blood"
     },
     "id": "z15",
-    "aoa": []
+    "aoa": [],
+    "history": "https://docs.google.com/document/d/1Wxu-1FLgAP4qtDjaNnjHvtTuatPq5aVd95w_hc8L8Ts/edit?usp=sharing"
   },
   {
     "aoa": [
@@ -35095,7 +36521,8 @@
       ]
     },
     "note_skill": [],
-    "name": "Zuikaku"
+    "name": "Zuikaku",
+    "augment": "Unique Modules"
   },
   {
     "gear": [],

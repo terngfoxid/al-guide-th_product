@@ -862,6 +862,63 @@
     "id": "Alliance Before the Hagiobull"
   },
   {
+    "guideV2": [],
+    "lore": [],
+    "name": "An Android’s Journey",
+    "ships": [
+      {
+        "name": "2B"
+      },
+      {
+        "name": "A2"
+      }
+    ],
+    "time": "16/07/2026 - 30/07/2026 14:00 น.",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/nier-banner.png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/nier-BTN-web-v2.png",
+    "_priority": 3,
+    "noteV2": {
+      "veteran": [],
+      "summary": [],
+      "beginner": [
+        {
+          "desc": "ผู้เล่นใหม่จะมีกิจกรรมพิเศษ ได้รับกาชาพิเศษฟรี 40 ครั้ง สามารถทำได้จนถึงวัน 30 เดือนกันยา"
+        },
+        {
+          "desc": "สำหรับผู้เล่นใหม่บน Server Belfast จะมีตู้กาชาพิเศษ Wishing Well ที่สามารถเลือก Rate Up เรือที่ต้องการได้ 2 ลำ"
+        }
+      ]
+    },
+    "special": [
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-07-16_220948024-modified.png",
+        "title": "2B",
+        "text": "ภารกิจ 2B's Journey กำจัดศัตรู 100 ตัว"
+      },
+      {
+        "text": "ภารกิจ A2's Journey ชนะการต่อสู้และได้ S rate 10 ครั้ง",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-07-11_104728882-modified.png",
+        "title": "A2"
+      },
+      {
+        "text": "ภารกิจ 2B's Journey กำจัดศัตรู 250 ตัว",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-11-12_222015141.png",
+        "title": "Virtuous Contract"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-07-16_220524606.png",
+        "text": "ภารกิจ A2's Journey Login เข้าเกม 1 ครั้ง",
+        "title": "Type-4O Sword"
+      },
+      {
+        "text": "ผ่านด่านกิจกรรม Battle - 3",
+        "title": "Replica Virtual Tower",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-07-16_221835688.png"
+      }
+    ],
+    "id": "An Android’s Journey"
+  },
+  {
     "name": "An Encounter Beneath Clear Skies",
     "banner": "https://ez-upload.al-guide-th.com/api/download/danmachi_banner.png",
     "guide": "",
@@ -1101,6 +1158,92 @@
     "banner": "https://ez-upload.al-guide-th.com/api/download/Aurora Noctis (Banner).jpg",
     "button": "https://ez-upload.al-guide-th.com/api/download/Aurora Noctis 600x300.jpg",
     "id": "Aurora Noctis"
+  },
+  {
+    "lore": [],
+    "name": "Authentic Horror Story: Escape from White Night Manor!",
+    "time": "23/07/2026 - 6/08/2026 14:00 น.",
+    "ships": [
+      {
+        "name": "Superb"
+      },
+      {
+        "name": "Surrey"
+      },
+      {
+        "name": "Griffin"
+      }
+    ],
+    "special": [
+      {
+        "text": "สะสมแต้มกิจกรรม 10,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-07-23_222415053-modified.png",
+        "title": "Griffin"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/23100.png",
+        "text": "สะสมแต้มกิจกรรม 8,000 points",
+        "title": "Prototype Twin 234mm Main Gun Mount"
+      },
+      {
+        "title": "Authentic Horror Story Medal",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-07-23_224514726.png",
+        "text": "สะสม Sticker 8 อัน"
+      },
+      null,
+      {
+        "text": "อ่านเนื้อเรื่องกิจกรรม",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point"
+      },
+      {
+        "text": "ผ่านด่านใดก็ได้ในกิจกรรม",
+        "title": "Sticker"
+      },
+      {
+        "text": "กำจัดศัตรูในกิจกรรม 100 ตัว",
+        "title": "Sticker"
+      },
+      {
+        "text": "เล่นด่านกิจกรรมทั้งหมด 40 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน Nurses' Station"
+      },
+      {
+        "text": "ผ่านด่าน Underground Area",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "สะสม Sticker 7 อัน"
+      }
+    ],
+    "guideV2": [
+      {
+        "desc": "ให้ใช้เรือประเภทที่ไม่ได้ระบุในเควสเพื่อทำเควส เช่น เรือใบ(IX)",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2025-04-17_234051632.png"
+      }
+    ],
+    "noteV2": {
+      "summary": [],
+      "beginner": [
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/22260.png",
+          "desc": "ระดับ Hard ดรอป Prototype Triple 152mm Mk XXV Main Gun Mount"
+        }
+      ],
+      "veteran": []
+    },
+    "banner": "https://ez-upload.al-guide-th.com/api/download/Authentic_Horror_Story_Banner.png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/Authentic_Horror_Story_Btn.png",
+    "_priority": 3,
+    "id": "Authentic Horror Story: Escape from White Night Manor!"
   },
   {
     "guide": "",
@@ -1652,6 +1795,212 @@
     "button": "https://ez-upload.al-guide-th.com/api/download/Dangerous Inventions Incoming! END 600x300.png",
     "_priority": 3,
     "id": "Dangerous Inventions Incoming!"
+  },
+  {
+    "lore": [],
+    "name": "Depths of the Astrarium",
+    "time": "13/08/2026 - 27/08/2026 14:00 น.",
+    "ships": [
+      {
+        "name": "Bennington"
+      },
+      {
+        "name": "Vicksburg"
+      },
+      {
+        "name": "Collett"
+      },
+      {
+        "name": "Harrison"
+      },
+      {
+        "name": "John Rodgers"
+      },
+      {
+        "name": "Belfast",
+        "retrofit": true
+      }
+    ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/BTN-web-v2---Depths-of-the-Astrarium.png",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/banner-Depths-of-the-Astrarium.png",
+    "noteV2": {
+      "beginner": [
+        {
+          "desc": "อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR สามารถเลือกเรือได้หนึ่งลำ ได้แก่ Essex, Shoukaku, Indomitable, Belfast, Kuybyshev, Prinz Adalbert, Jean Bart และ Huan Ch’ang "
+        }
+      ],
+      "summary": [
+        {
+          "desc": "ห้ามพลาด Head Maid's Conviction ต้องใช้สำหรับ Retrofit Belfast เป็น UR",
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-13_220909015.png"
+        }
+      ],
+      "veteran": []
+    },
+    "guideV2": [
+      {
+        "desc": "วิธีเล่นกิจกรรม Wavechasers Scorching Summer",
+        "image": "https://ez-upload.al-guide-th.com/api/download/guide_en_8th.jpg"
+      }
+    ],
+    "special": [
+      {
+        "text": "แลกจากร้านค้ากิจกรรม ราคา 8,000 points / ดรอปด่าน D3",
+        "title": "Collett",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-14_010606326-modified.png"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-14_010749788-modified.png",
+        "text": "สะสมแต้มกิจกรรม 10,000 points",
+        "title": "John Rodgers"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-13_220909015.png",
+        "title": "Head Maid's Conviction",
+        "text": "เล่นกิจกรรม Sealane Protector วันที่ 7"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-13_221859706.png",
+        "title": "Error XIII",
+        "text": "แลกจากร้านค้ากิจกรรม ราคา 2,000 points"
+      },
+      {
+        "title": "Championship Trophy",
+        "text": "เล่นกิจกรรม Wavechasers Scorching Summer จนจบ Lap 9",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-13_222136415.png"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-14_024713045.png",
+        "text": "ผ่านด่านกิจกรรม D3",
+        "title": "Master Recording"
+      },
+      {
+        "text": "Login ครบ 7 วันในช่วงเวลากิจกรรม",
+        "title": "Anniversary Invitation",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-14_025356548.png"
+      },
+      null,
+      {
+        "text": "สะสมแต้มปลดล็อก Frame 2,600 points",
+        "title": "Dreams of Astrarium",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-14_024930916.png"
+      },
+      null,
+      {
+        "text": "ปลดดาว Bennington ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 600 points"
+      },
+      {
+        "text": "ปลดดาว Vicksburg ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 600 points"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 600 points",
+        "text": "ปลดดาว Collett ให้เต็ม"
+      },
+      {
+        "text": "ปลดดาว Harrison ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 400 points"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 400 points",
+        "text": "ปลดดาว John Rodgers ให้เต็ม"
+      },
+      {
+        "text": "ชนะบอสด่าน A2/C2 จำนวน 10 ครั้ง โดยมี Soobrazitelny ที่ดาวเต็มอยู่ในทีม",
+        "title": "แต้มปลดล็อก Frame 300 points"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน A3/C3 จำนวน 10 ครั้ง โดยมี Pamiat' Merkuria ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน B2/D2 จำนวน 10 ครั้ง โดยมี Saratoga ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน B3/D3 จำนวน 10 ครั้ง โดยมี Bristol ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน B3/D3 จำนวน 10 ครั้ง โดยมี Essex ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-14_030554547.png",
+        "title": "Astrarium Medal",
+        "text": "สะสม Sticker 8 อัน"
+      },
+      null,
+      {
+        "title": "Sticker",
+        "text": "อ่านเนื้อเรื่องกิจกรรม"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน A3/C3"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน B3/D3"
+      },
+      {
+        "title": "Sticker",
+        "text": "กำจัดศัตรูในกิจกรรม 300 ตัว"
+      },
+      {
+        "title": "Sticker",
+        "text": "เล่นด่านกิจกรรมทั้งหมด 50 ครั้ง"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน SP"
+      },
+      {
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point",
+        "title": "Sticker"
+      },
+      {
+        "text": "สะสม Sticker 7 อัน",
+        "title": "Sticker"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-14_031418108.png",
+        "title": "Wavechasers Medal",
+        "text": "สะสม Sticker 7 อัน"
+      },
+      null,
+      {
+        "text": "Login เข้าเกม 1 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ใช้น้ำมัน 1,000 หน่วย"
+      },
+      {
+        "text": "ต่อเรือ 10 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "อ่านเนื้อเรื่องในกิจกรรม Wavechasers Scorching Summer"
+      },
+      {
+        "text": "เล่นกิจกรรม Sealane Protector 1 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "text": "เล่นด่านปกติระดับ Hard 3 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "text": "สะสม Sticker 6 อัน",
+        "title": "Sticker"
+      }
+    ],
+    "_priority": 3,
+    "id": "Depths of the Astrarium"
   },
   {
     "chibi": "https://ez-upload.al-guide-th.com/api/download/ShinanoChibi.png",
@@ -2346,64 +2695,6 @@
       "สะสมแต้มกิจกรรม 7500 points: ของรางวัล แต้มปลดล็อก Coaster - Le Téméraire (stamp)",
       "สะสมแต้มกิจกรรม 10500 points: ของรางวัล แต้มปลดล็อก Badge - Boise (stamp)"
     ],
-    "ships": [
-      {
-        "image": "https://azurlane.netojuu.com/images/d/d3/Formidable_µ.png",
-        "faction_short": "HMS",
-        "faction": "Royal Navy",
-        "name": "Formidable μ",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Formi_muse.png",
-        "type": "CV"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/a/ac/Noshiro_µ.png",
-        "faction_short": "IJN",
-        "faction": "Sakura Empire",
-        "name": "Noshiro μ",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Noshi_muse.png",
-        "type": "CL"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/a/a1/Prinz_Eugen_µ.png",
-        "faction_short": "KMS",
-        "faction": "Iron Blood",
-        "name": "Prinz Eugen μ",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Eugen_Muse.png",
-        "type": "CA"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/1/17/Le_Téméraire_µ.png",
-        "faction_short": "FFNF",
-        "faction": "Iris Libre",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Lu_chan.png",
-        "name": "Le Téméraire μ",
-        "type": "DD"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/6/6c/Boise_µ.png",
-        "faction_short": "USS",
-        "faction": "Eagle Union",
-        "name": "Boise μ",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Boise_muse.png",
-        "type": "CL"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/a/a2/Kongou_µ.png",
-        "faction_short": "IJN",
-        "faction": "Sakura Empire",
-        "name": "Kongou μ",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Kongou_muse.png",
-        "type": "BC"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/9/98/Shinano-chan.png",
-        "faction_short": "IJN",
-        "faction": "Sakura Empire",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Shinano_Channnnnnnnn.png",
-        "name": "Shinano Chan",
-        "type": "CV"
-      }
-    ],
     "special": [
       {
         "blob": "https://ez-upload.al-guide-th.com/api/download/image_2024-04-25_223350734.png",
@@ -2444,6 +2735,64 @@
     "button": "https://ez-upload.al-guide-th.com/api/download/Heart-Linking%20Harmony%20END%20600x300.png",
     "_priority": 3,
     "name": "Heart-Linking Harmony",
+    "ships": [
+      {
+        "faction_short": "HMS",
+        "faction": "Royal Navy",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Formi_muse.png",
+        "name": "Formidable μ",
+        "image": "https://azurlane.netojuu.com/images/d/d3/Formidable_µ.png",
+        "type": "CV"
+      },
+      {
+        "name": "Noshiro μ",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Noshi_muse.png",
+        "faction": "Sakura Empire",
+        "type": "CL",
+        "image": "https://azurlane.netojuu.com/images/a/ac/Noshiro_µ.png",
+        "faction_short": "IJN"
+      },
+      {
+        "faction_short": "KMS",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Eugen_Muse.png",
+        "type": "CA",
+        "faction": "Iron Blood",
+        "image": "https://azurlane.netojuu.com/images/a/a1/Prinz_Eugen_µ.png",
+        "name": "Prinz Eugen μ"
+      },
+      {
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Lu_chan.png",
+        "type": "DD",
+        "name": "Le Téméraire μ",
+        "faction_short": "FFNF",
+        "image": "https://azurlane.netojuu.com/images/1/17/Le_Téméraire_µ.png",
+        "faction": "Iris Libre"
+      },
+      {
+        "faction_short": "USS",
+        "type": "CL",
+        "image": "https://azurlane.netojuu.com/images/6/6c/Boise_µ.png",
+        "name": "Boise μ",
+        "faction": "Eagle Union",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Boise_muse.png"
+      },
+      {
+        "faction_short": "IJN",
+        "image": "https://azurlane.netojuu.com/images/a/a2/Kongou_µ.png",
+        "name": "Kongou μ",
+        "faction": "Sakura Empire",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Kongou_muse.png",
+        "type": "BC"
+      },
+      {
+        "type": "CV",
+        "image": "https://azurlane.netojuu.com/images/9/98/Shinano-chan.png",
+        "faction_short": "IJN",
+        "name": "Shinano-chan",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Shinano_Channnnnnnnn.png",
+        "faction": "Sakura Empire"
+      }
+    ],
     "id": "Heart-Linking Harmony"
   },
   {
@@ -2587,6 +2936,51 @@
     "button": "https://ez-upload.al-guide-th.com/api/download/Interlude%20of%20Illusions%20END%20600x300.png",
     "_priority": 3,
     "id": "Interlude of Illusions"
+  },
+  {
+    "name": "It’s Showtime! Angels’ Azur Stage",
+    "_priority": 1,
+    "banner": "https://ez-upload.al-guide-th.com/api/download/ririsa-banner.png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/ririsa-btn-v2.png",
+    "guideV2": [],
+    "lore": [],
+    "noteV2": {
+      "beginner": [],
+      "veteran": [],
+      "summary": []
+    },
+    "time": "12/11/2026 - 26/11/2026 14:00 น.",
+    "ships": [
+      {
+        "name": "Liliel Angel Paratroopers/Ririsa"
+      },
+      {
+        "name": "Miriella Angel Paratroopers/Mikari"
+      }
+    ],
+    "special": [
+      {
+        "text": "กำจัดศัตรูในช่วงเวลากิจกรรม 100 ตัว",
+        "title": "Liliel Angel Paratroopers/Ririsa",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-11-12_201930489-modified.png"
+      },
+      {
+        "title": "Miriella Angel Paratroopers/Mikari",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-11-12_202223888-modified.png",
+        "text": "ผ่านด่านใดก็ได้ในช่วงเวลากิจกรรม 10 ครั้ง"
+      },
+      {
+        "title": "Liliel’s Rod",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-11-12_222050329-modified.png",
+        "text": "กำจัดศัตรูในช่วงเวลากิจกรรม 250 ตัว"
+      },
+      {
+        "title": "Miriella’s Bow",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-11-12_202839924-modified.png",
+        "text": "Login เข้าเกม 1 ครั้งในช่วงเวลากิจกรรม"
+      }
+    ],
+    "id": "It’s Showtime! Angels’ Azur Stage"
   },
   {
     "name": "Khorovod of Dawn's Rime",
@@ -3140,7 +3534,6 @@
       }
     ],
     "time": "25/06/2026 - 09/07/2026 14:00 น.",
-    "_priority": 1,
     "noteV2": {
       "summary": [],
       "beginner": [
@@ -3213,6 +3606,7 @@
     ],
     "button": "https://ez-upload.al-guide-th.com/api/download/Miracle by Midnight.png",
     "banner": "https://ez-upload.al-guide-th.com/api/download/Miracle by Midnight  (Banner).png",
+    "_priority": 3,
     "id": "Miracle by Midnight"
   },
   {
@@ -4159,20 +4553,6 @@
         "blob": "https://ez-upload.al-guide-th.com/api/download/InvitationMail.png"
       }
     ],
-    "note": {
-      "special": [
-        null
-      ],
-      "veteran": [
-        null
-      ],
-      "beginner": [
-        "อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR มี Essex, Montpelier, Noshiro, Warspite, U-81, Tallinn, Joffre และ Vittorio Veneto"
-      ],
-      "summary": [
-        "ห้ามพลาด Necessary Prep Work ต้องใช้สำหรับ Retrofit Essex เป็น UR"
-      ]
-    },
     "banner": "https://ez-upload.al-guide-th.com/api/download/Secrets of the Abyss (Banner).png",
     "button": "https://ez-upload.al-guide-th.com/api/download/Secrets of the Abyss 1200x600.png",
     "chibi": "https://ez-upload.al-guide-th.com/api/download/Massa.png",
@@ -4221,6 +4601,20 @@
       }
     ],
     "_priority": 3,
+    "note": {
+      "veteran": [
+        null
+      ],
+      "special": [
+        null
+      ],
+      "summary": [
+        "ห้ามพลาด Necessary Prep Work ต้องใช้สำหรับ Retrofit Essexเป็น UR"
+      ],
+      "beginner": [
+        "อย่าลืมเก็บ บัตรเชิญเรือ / ตั๋วเลือกเรือ SSR มี Essex, Montpelier, Noshiro, Warspite, U-81, Tallinn, Joffre และ Vittorio Veneto"
+      ]
+    },
     "id": "Secrets of the Abyss"
   },
   {
@@ -4766,6 +5160,258 @@
     "id": "Substellar Crepuscule"
   },
   {
+    "name": "Tales of the Paranormal",
+    "lore": [],
+    "time": "08/09/2026 - 01/10/2026 14:00 น.",
+    "button": "https://ez-upload.al-guide-th.com/api/download/BTN-web-v2-Tales-of-the-Paranormal.png",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/Banner-Tales-of-the-Paranormal.png",
+    "ships": [
+      {
+        "name": "Azuchi"
+      },
+      {
+        "name": "Tiger"
+      },
+      {
+        "name": "I-14"
+      },
+      {
+        "name": "Hasty"
+      },
+      {
+        "name": "Hostile"
+      },
+      {
+        "name": "Victorious META"
+      },
+      {
+        "name": "Hardy",
+        "retrofit": true
+      },
+      {
+        "name": "Golden Hind"
+      }
+    ],
+    "noteV2": {
+      "summary": [
+        {
+          "desc": "สามารถรับ UR Voucher ได้จากการการเล่นด่าน SP , Daily mission , Challenge mission , มินิเกม หรือจากการซื้อในร้านค้ากิจกรรม",
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-08_220612672.png"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ Daily missions 5ใบ/วัน สูงสุด 75 ใบ"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ด่าน B3 หรือ D3 ด้วยเรือในกิจกรรมนี้ จะได้รับ 10 ใบ/ภารกิจ สูงสุด 50 ใบ"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ด่านใดก็ได้ในกิจกรรม ตั้งแต่ 5 รอบจนถึง 60 รอบ สูงสุด 105 ใบ"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการเคลียร์ด่าน SP ครั้งแรกได้ 50ใบ และ เคลียร์ทุกวันได้ 5 ใบ/วัน"
+        },
+        {
+          "desc": "UR Voucher สามารถได้รับจากการซื้อจากร้านค้ากิจกรรม ราคา 150 points/ใบ สูงสุด 500 ใบ"
+        }
+      ],
+      "beginner": [
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/Golden_HindChibi.png",
+          "desc": "ผู้เล่นใหม่ที่ยังไม่มีเรือใบควรเก็บ Golden Hind ไว้ผ่านด่าน Supply Line Disruption"
+        }
+      ],
+      "veteran": [
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-08_221050856.png",
+          "desc": "ด่าน D3 มี Twin 152mm Mk.XXVI Main Gun Mount ดรอป"
+        },
+        {
+          "desc": "ด่าน C3 มี Old Heavy Cannon ดรอป",
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-08_223911690.png"
+        }
+      ]
+    },
+    "guideV2": [
+      {
+        "desc": "วิธีเล่นกิจกรรม A Slightly Paranormal State of Affairs",
+        "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-09_031307879.png"
+      }
+    ],
+    "special": [
+      {
+        "title": "Tiger",
+        "text": "แลกจากร้านค้ากิจกรรม โดยใช้ \"UR Voucher\" 200/300 ใบ",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-07_214838774-modified.png"
+      },
+      {
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน D3",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-07_215021281-modified.png",
+        "title": "Victorious META"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-07_215121746-modified.png",
+        "title": "Hostile",
+        "text": "สะสมแต้มกิจกรรม 10,000 points"
+      },
+      {
+        "title": "ผลึกปลดดาว Victorious META\n",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/ภาพ_2026-09-16_155520976.png",
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points"
+      },
+      {
+        "text": "ทำภารกิจในกิจกรรม Poltergeist Containment Protocol วันที่ 7",
+        "title": "Golden Hind",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/Golden_HindChibi.png"
+      },
+      {
+        "title": "Twin 152mm Mk.XXVI Main Gun Mount",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-08_220755030.png",
+        "text": "ซื้อจากร้านค้า ราคา 10,000 points"
+      },
+      {
+        "title": "ใบคราฟ Twin 152mm Mk.XXVI Main Gun Mount T3",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-08_221050856.png",
+        "text": "ซื้อจากร้านค้า ราคาใบละ 135 points และ สะสมแต้มกิจกรรม 13,000 points จะคราฟได้ 1 อัน"
+      },
+      null,
+      {
+        "title": "Budding Sprout's Crown",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-09_015321117-modified.png",
+        "text": "สะสมแต้มปลดล็อก Frame 2,600 points"
+      },
+      null,
+      {
+        "text": "ได้รับ Azuchi",
+        "title": "แต้มปลดล็อก Frame 800 points"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 600 points",
+        "text": "ได้รับ Victorious META"
+      },
+      {
+        "text": "ปลดดาว I-14 ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 600 points"
+      },
+      {
+        "text": "ปลดดาว Hasty ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 400 points"
+      },
+      {
+        "text": "ปลดดาว Hostile ให้เต็ม",
+        "title": "แต้มปลดล็อก Frame 400 points"
+      },
+      {
+        "text": "ชนะบอสด่าน A2/C2 จำนวน 10 ครั้ง โดยมี Javelin ที่ดาวเต็มอยู่ในทีม",
+        "title": "แต้มปลดล็อก Frame 300 points"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน A3/C3 จำนวน 10 ครั้ง โดยมี Arizona ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "text": "ชนะบอสด่าน B2/D2 จำนวน 10 ครั้ง โดยมี Z14 ที่ดาวเต็มอยู่ในทีม",
+        "title": "แต้มปลดล็อก Frame 300 points"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน B2/D2 จำนวน 10 ครั้ง โดยมี Z23 ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "title": "แต้มปลดล็อก Frame 300 points",
+        "text": "ชนะบอสด่าน B3/D3 จำนวน 10 ครั้ง โดยมี Orage ที่ดาวเต็มอยู่ในทีม"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-09_021633115.png",
+        "title": "Tales of the Paranormal Medal",
+        "text": "สะสม Sticker 8 อัน"
+      },
+      null,
+      {
+        "text": "อ่านเนื้อเรื่องกิจกรรม",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน A3/C3"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน B3/D3"
+      },
+      {
+        "text": "กำจัดศัตรูในกิจกรรม 300 ตัว",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "เล่นด่านกิจกรรมทั้งหมด 50 ครั้ง"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน SP"
+      },
+      {
+        "title": "Sticker",
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point"
+      },
+      {
+        "title": "Sticker",
+        "text": "สะสม Sticker 7 อัน"
+      },
+      {
+        "text": "สะสม Sticker 7 อัน",
+        "title": "Poltergeist Busters Medal",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-09_022845604.png"
+      },
+      {
+        "text": "สะสม Sticker 7 อัน",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-09_023007599.png",
+        "title": "Newbie's Crash Course"
+      },
+      {
+        "text": "Login เข้าเกม 1 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "text": "ใช้น้ำมัน 1,000 หน่วย",
+        "title": "Sticker"
+      },
+      {
+        "text": "ต่อเรือ 10 ครั้ง",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "เล่นด่านระดับ Hard 3 ครั้ง"
+      },
+      {
+        "text": "อ่านเนื้อเรื่องในกิจกรรม A Slightly Paranormal State of Affairs",
+        "title": "Sticker"
+      },
+      {
+        "text": "เล่นกิจกรรม A Slightly Paranormal State of Affairs ให้ผ่านทั้งหมด 10 ด่าน",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "สะสม Sticker 6 อัน"
+      },
+      null,
+      {
+        "text": "ผ่านด่านกิจกรรม D3",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-09_031654250.png",
+        "title": "Miniature Research Tower"
+      },
+      {
+        "title": "The Poltergeists Come",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-09-09_042845873-modified.png",
+        "text": "ได้รับเงินในกิจกรรม A Slightly Paranormal State of Affairs ทั้งหมด 8,000"
+      }
+    ],
+    "_priority": 3,
+    "id": "Tales of the Paranormal"
+  },
+  {
     "guide": "",
     "name": "Tempesta and Islas de Libertád",
     "time": "[23/10/2025-06/11/2025 14:00 น.]",
@@ -4913,6 +5559,130 @@
     ],
     "_priority": 3,
     "id": "Tempesta and Islas de Libertád"
+  },
+  {
+    "name": "Tempesta and the Corridor of Fog",
+    "guideV2": [],
+    "lore": [],
+    "time": "22/10/2026 - 05/11/2026 14:00 น.",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/tem-2026-banner.png",
+    "button": "https://ez-upload.al-guide-th.com/api/download/tem-2026-btn.png",
+    "ships": [
+      {
+        "name": "Merkuriy"
+      },
+      {
+        "name": "Járnbarðinn"
+      },
+      {
+        "name": "Selimiye"
+      },
+      {
+        "name": "Ormrinn Langi"
+      },
+      {
+        "name": "Riyala Bey"
+      }
+    ],
+    "special": [
+      {
+        "text": "แลกจากร้านค้ากิจกรรม 8,000 points / ดรอปด่าน T6",
+        "title": "Járnbarðinn",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-10-22_213919892-modified.png"
+      },
+      {
+        "text": "สะสมแต้มกิจกรรม 10,000 points",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-10-22_214210459-modified.png",
+        "title": "Riyala Bey"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-10-22_214357486.png",
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points",
+        "title": "Power from the Depths"
+      },
+      {
+        "text": "ซื้อจากร้านค้า ราคา 2,000 points",
+        "title": "Old Heavy Cannon",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/oldcannon2.png"
+      },
+      {
+        "title": "Double-shot Cannonball",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-10-22_214835348.png",
+        "text": "ซื้อจากร้านค้า ราคา 1,000 points"
+      },
+      {
+        "text": "ซื้อจากร้านค้า ราคา 3,000 points",
+        "title": "Alexander",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-10-22_215223040.png"
+      },
+      {
+        "text": "ซื้อจากร้านค้า ราคา 1,000 points",
+        "title": "Ólafur",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-10-22_215309044.png"
+      },
+      {
+        "text": "สะสม Sticker 8 อัน",
+        "title": "Corridor of Fog Medal",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-10-22_215738006.png"
+      },
+      {
+        "title": "Sticker",
+        "text": "อ่านเนื้อเรื่องกิจกรรม"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน T3"
+      },
+      {
+        "text": "ผ่านด่าน T6",
+        "title": "Sticker"
+      },
+      {
+        "text": "กำจัดศัตรูในกิจกรรม 100 ตัว",
+        "title": "Sticker"
+      },
+      {
+        "title": "Sticker",
+        "text": "เล่นด่านกิจกรรมทั้งหมด 40 ครั้ง"
+      },
+      {
+        "title": "Sticker",
+        "text": "ผ่านด่าน SP"
+      },
+      {
+        "title": "Sticker",
+        "text": "เก็บแต้มกิจกรรมทั้งหมด 10,000 point"
+      },
+      {
+        "title": "Sticker",
+        "text": "สะสม Sticker 7 อัน"
+      },
+      {
+        "title": "Miniature Startrace Beacon",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-10-22_215555276.png",
+        "text": "ผ่านด่านกิจกรรม T6"
+      }
+    ],
+    "noteV2": {
+      "veteran": [],
+      "beginner": [],
+      "summary": [
+        {
+          "desc": "T5 ดรอป Old Demi-Cannon",
+          "image": "https://ez-upload.al-guide-th.com/api/download/olddemicannon.png"
+        },
+        {
+          "desc": "T6 ดรอป Old Heavy Cannon",
+          "image": "https://ez-upload.al-guide-th.com/api/download/oldcannon2.png"
+        },
+        {
+          "image": "https://ez-upload.al-guide-th.com/api/download/image_2026-10-22_214835348.png",
+          "desc": "T6 ดรอป Double-shot Cannonball"
+        }
+      ]
+    },
+    "_priority": 3,
+    "id": "Tempesta and the Corridor of Fog"
   },
   {
     "name": "Tempesta and the Fountain of Youth",
@@ -5495,6 +6265,49 @@
     "id": "The Alchemist and the Tower of Horizons"
   },
   {
+    "guideV2": [],
+    "lore": [],
+    "name": "The Big Shot’s Proclamation",
+    "noteV2": {
+      "veteran": [
+        {
+          "desc": "ปั้มแต้มเน้นลงระดับ Hard"
+        },
+        {
+          "desc": "กิจกรรมนี้เหมาะสำหรับใช้ปั้มหัวใจเรือดำน้ำ"
+        }
+      ],
+      "beginner": [
+        {
+          "desc": "ปั้มแต้มเน้นลงระดับไกลสุดเท่าที่ไหว"
+        }
+      ],
+      "summary": []
+    },
+    "ships": [
+      {
+        "name": "Amatsukaze"
+      }
+    ],
+    "special": [
+      {
+        "text": "ช่วยกันเอาชนะบอสประจำ Server",
+        "title": "Bag of Sky Winds",
+        "blob": "https://ez-upload.al-guide-th.com/api/download/image_2026-08-28_011119194-modified.png"
+      },
+      {
+        "blob": "https://ez-upload.al-guide-th.com/api/download/35260.png",
+        "text": "รวบรวมเศษในกิจกรรม",
+        "title": "610mm Quadruple Torpedo Mount Kai"
+      }
+    ],
+    "button": "https://ez-upload.al-guide-th.com/api/download/BTN-web-v2-The-Big-Shots-Proclamation.png",
+    "banner": "https://ez-upload.al-guide-th.com/api/download/Banner-The-Big-Shots-Proclamation.png",
+    "time": "27/08/2026 - 08/09/2026 14:00 น.",
+    "_priority": 3,
+    "id": "The Big Shot’s Proclamation"
+  },
+  {
     "name": "The Neon City Investigator",
     "chibi": "",
     "time": "[26/06/2025-10/07/2025 14:00 น.]",
@@ -5597,78 +6410,6 @@
         "วิธีหา Homura ให้ไปทำเควส Augment ทั้งหมดก่อน สแปมด่าน T5 รัวๆ แล้วค่อยไปอัพขั้น Ninjutsu Dojo ทีเดียว"
       ]
     },
-    "ships": [
-      {
-        "image": "https://azurlane.netojuu.com/images/7/72/Asuka.png",
-        "faction_short": "SK",
-        "faction": "Senran Kagura",
-        "name": "Asuka",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/AsukaChibi.png",
-        "banner": "",
-        "type": "CL",
-        "desc": "อาซึกะ นักเรียนปีสองของสถาบันแห่งชาติฮันโซ  \\n\\nหลานสาวของยอดนินจาในตำนาน \\n\\nฝนทุกวันเพื่อเป็นสุดยอดนินจา  \\n\\nอาหารที่ชอบคือฟูโตมากิที่ปู่ของเธอทำให้"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/f/fb/Yumi.png",
-        "faction_short": "SK",
-        "faction": "Senran Kagura",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/YumiChibi.png",
-        "name": "Yumi",
-        "banner": "",
-        "type": "CV",
-        "desc": "ยูมิ นักเรียนปีสามของสถาบันสตรีศึกษาเกสเซน  \\n\\nปู่ของเธอเป็นคู่แข่งของนินจาในตำนาน \\n\\nแม้จะไม่รู้ว่าทำไมถึงถูกพามาที่นี่  \\n\\nแต่มุ่งมั่นที่จะนำพาความยุติธรรมไปสู่ทุกที่ \\n\\nลีลาการต่อสู้ของเธอคล้ายกับการเต้นรำแบบญี่ปุ่น"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/4/4c/Ikaruga.png",
-        "faction_short": "SK",
-        "faction": "Senran Kagura",
-        "name": "Ikaruga",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/IkaguraChibi.png",
-        "banner": "",
-        "type": "CA",
-        "desc": "อิคารุกะ นักเรียนปีสามของสถาบันแห่งชาติฮันโซ \\n\\n ทำหน้าที่เป็นผู้อำนวยความสะดวกให้กับสมาชิก \\n\\nเพราะบุคลิกที่จริงจังมากเกินไปของเธอ \\n\\nจึงทำหน้าที่เป็นหัวหน้าห้องของชั้นเรียนนินจาด้วย "
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/6/66/Homura.png",
-        "faction_short": "SK",
-        "faction": "Senran Kagura",
-        "name": "Homura",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/HomuraChibi.png",
-        "banner": "",
-        "type": "SS",
-        "desc": "โฮมุระ ผู้นำของกลุ่มโฮมุระสีชาด \\n\\n อดีตนักเรียนชั้นปี2ของสถาบันสตรีเฮบิโจ \\n\\n ใจดี ซื่อสัตย์ และชอบเอาใจใส่เพื่อนๆ \\n\\n แม้แต่ศัตรูยังรับรู้ได้ถึงความแข็งแกร่ง"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/a/a4/Fubuki_%28Senran_Kagura%29.png",
-        "faction_short": "SK",
-        "faction": "Senran Kagura",
-        "name": "Fubuki(Senran Kagura)",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/Fubuki_Senran_KaguraChibi.png",
-        "banner": "",
-        "type": "BB",
-        "desc": "ฟุบุกิ เธอมีบุคลิกที่เย็นชาเช่นเดียวกับชื่อของเธอ  \\n\\nเธอกำเนิดจากพ่อที่เป็นนินจาและแม่ที่เป็นปีศาจโยมะ  \\n\\nด้วยความช่วยเหลือจากเพื่อนๆ  \\n\\nเธอจึงพยายามเผชิญหน้ากับต้นกำเนิดเธอเอง "
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/0/04/Murasaki.png",
-        "faction_short": "SK",
-        "faction": "Senran Kagura",
-        "name": "Murasaki",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/MurasakiChibi.png",
-        "banner": "",
-        "type": "CVL",
-        "desc": "มุราซากิ นักเรียนปีสองของสถาบันสตรีเฮบิโจ \\n\\nเป็นฮิคิโคโมริขั้นรุนแรง ไม่เก่งในการพูดคุยกับผู้คน \\n\\nไม่ออกไปข้างนอกและใช้เวลาทั้งวันอยู่ในห้องกับตุ๊กตาหมี \\n\\nเธอไม่เคยไปโรงเรียน และ..... \\n\\nเป็นบุคคลที่อันตรายที่สุดในประวัติศาสตร์นินจา"
-      },
-      {
-        "image": "https://azurlane.netojuu.com/images/0/0c/Yūyaki.png",
-        "faction_short": "SK",
-        "faction": "Senran Kagura",
-        "chibi": "https://ez-upload.al-guide-th.com/api/download/YuyakiChibi.png",
-        "name": "Yūyaki",
-        "banner": "",
-        "type": "CA",
-        "desc": "ยูยากิ นักเรียนปีสอง หัวหน้ากลุ่มนินจาโทโนะเทนกุ \\n\\nมีบุคลิกที่ขี้อาย อ่อนโยน แต่ก็มีความรับผิดชอบ \\n\\nเธอจะคอยไกล่เกลี่ยในสถานการณ์ปัญหาต่างๆ \\n\\nแต่เมื่อเธอหมดความอดทน แล้วชักดาบออกมา...."
-      }
-    ],
     "_priority": 3,
     "special": [
       {
@@ -5750,6 +6491,78 @@
     "button": "https://ez-upload.al-guide-th.com/api/download/The Ninja Scrolls Azur Flash END 600x300.jpg",
     "banner": "https://ez-upload.al-guide-th.com/api/download/The Ninja Scrolls Azur Flash (Banner).jpg",
     "guide": "",
+    "ships": [
+      {
+        "image": "https://azurlane.netojuu.com/images/7/72/Asuka.png",
+        "faction": "Senran Kagura",
+        "desc": "อาซึกะ นักเรียนปีสองของสถาบันแห่งชาติฮันโซ  \\n\\nหลานสาวของยอดนินจาในตำนาน \\n\\nฝนทุกวันเพื่อเป็นสุดยอดนินจา  \\n\\nอาหารที่ชอบคือฟูโตมากิที่ปู่ของเธอทำให้",
+        "faction_short": "SK",
+        "type": "CL",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/AsukaChibi.png",
+        "name": "Asuka",
+        "banner": ""
+      },
+      {
+        "faction": "Senran Kagura",
+        "banner": "",
+        "faction_short": "SK",
+        "name": "Yumi",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/YumiChibi.png",
+        "desc": "ยูมิ นักเรียนปีสามของสถาบันสตรีศึกษาเกสเซน  \\n\\nปู่ของเธอเป็นคู่แข่งของนินจาในตำนาน \\n\\nแม้จะไม่รู้ว่าทำไมถึงถูกพามาที่นี่  \\n\\nแต่มุ่งมั่นที่จะนำพาความยุติธรรมไปสู่ทุกที่ \\n\\nลีลาการต่อสู้ของเธอคล้ายกับการเต้นรำแบบญี่ปุ่น",
+        "type": "CV",
+        "image": "https://azurlane.netojuu.com/images/f/fb/Yumi.png"
+      },
+      {
+        "desc": "อิคารุกะ นักเรียนปีสามของสถาบันแห่งชาติฮันโซ \\n\\n ทำหน้าที่เป็นผู้อำนวยความสะดวกให้กับสมาชิก \\n\\nเพราะบุคลิกที่จริงจังมากเกินไปของเธอ \\n\\nจึงทำหน้าที่เป็นหัวหน้าห้องของชั้นเรียนนินจาด้วย ",
+        "faction_short": "SK",
+        "type": "CA",
+        "name": "Ikaruga",
+        "faction": "Senran Kagura",
+        "image": "https://azurlane.netojuu.com/images/4/4c/Ikaruga.png",
+        "banner": "",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/IkaguraChibi.png"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/6/66/Homura.png",
+        "faction_short": "SK",
+        "banner": "",
+        "faction": "Senran Kagura",
+        "type": "SS",
+        "desc": "โฮมุระ ผู้นำของกลุ่มโฮมุระสีชาด \\n\\n อดีตนักเรียนชั้นปี2ของสถาบันสตรีเฮบิโจ \\n\\n ใจดี ซื่อสัตย์ และชอบเอาใจใส่เพื่อนๆ \\n\\n แม้แต่ศัตรูยังรับรู้ได้ถึงความแข็งแกร่ง",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/HomuraChibi.png",
+        "name": "Homura"
+      },
+      {
+        "name": "Fubuki (Senran Kagura)",
+        "faction": "Senran Kagura",
+        "image": "https://azurlane.netojuu.com/images/a/a4/Fubuki_%28Senran_Kagura%29.png",
+        "banner": "",
+        "desc": "ฟุบุกิ เธอมีบุคลิกที่เย็นชาเช่นเดียวกับชื่อของเธอ  \\n\\nเธอกำเนิดจากพ่อที่เป็นนินจาและแม่ที่เป็นปีศาจโยมะ  \\n\\nด้วยความช่วยเหลือจากเพื่อนๆ  \\n\\nเธอจึงพยายามเผชิญหน้ากับต้นกำเนิดเธอเอง ",
+        "type": "BB",
+        "faction_short": "SK",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/Fubuki_Senran_KaguraChibi.png"
+      },
+      {
+        "image": "https://azurlane.netojuu.com/images/0/04/Murasaki.png",
+        "faction": "Senran Kagura",
+        "desc": "มุราซากิ นักเรียนปีสองของสถาบันสตรีเฮบิโจ \\n\\nเป็นฮิคิโคโมริขั้นรุนแรง ไม่เก่งในการพูดคุยกับผู้คน \\n\\nไม่ออกไปข้างนอกและใช้เวลาทั้งวันอยู่ในห้องกับตุ๊กตาหมี \\n\\nเธอไม่เคยไปโรงเรียน และ..... \\n\\nเป็นบุคคลที่อันตรายที่สุดในประวัติศาสตร์นินจา",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/MurasakiChibi.png",
+        "type": "CVL",
+        "name": "Murasaki",
+        "faction_short": "SK",
+        "banner": ""
+      },
+      {
+        "faction": "Senran Kagura",
+        "banner": "",
+        "chibi": "https://ez-upload.al-guide-th.com/api/download/YuyakiChibi.png",
+        "desc": "ยูยากิ นักเรียนปีสอง หัวหน้ากลุ่มนินจาโทโนะเทนกุ \\n\\nมีบุคลิกที่ขี้อาย อ่อนโยน แต่ก็มีความรับผิดชอบ \\n\\nเธอจะคอยไกล่เกลี่ยในสถานการณ์ปัญหาต่างๆ \\n\\nแต่เมื่อเธอหมดความอดทน แล้วชักดาบออกมา....",
+        "faction_short": "SK",
+        "type": "CA",
+        "image": "https://azurlane.netojuu.com/images/0/0c/Yūyaki.png",
+        "name": "Yūyaki"
+      }
+    ],
     "id": "The Ninja Scrolls: Azur Flash"
   },
   {

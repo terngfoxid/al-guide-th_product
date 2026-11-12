@@ -42,7 +42,7 @@ export default function Event() {
                                 setEvent(findEvent)
                                 const queueShip: Promise<Response>[] = []
                                 findEvent.ships?.forEach(ship => {
-                                    queueShip.push(fetch("/api/v2/ship/" + ship.name.toLowerCase()))
+                                    queueShip.push(fetch("/api/v2/ship/" + ship.name.toLowerCase().replace(/\/([^/]*)$/, "%2F$1")))
                                 })
                                 if (queueShip.length > 0) {
                                     Promise.all([...queueShip]).then(resArray => {

@@ -38,7 +38,7 @@ export default function Ship() {
     const callAPI = async () => {
         try {
             showLoading()
-            fetch("/api/v2/ship/" + (name as string).toLowerCase()).then(
+            fetch("/api/v2/ship/" + (name as string).toLowerCase().replace(/\/([^/]*)$/, "%2F$1")).then(
                 (res) => {
                     if (!res.ok) {
                         hideLoading()

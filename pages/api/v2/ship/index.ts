@@ -68,7 +68,7 @@ export default async function REST(
                 if (snapshot.empty) {
                     res.status(404).json({ error: "Not Found Any Ship" });
                 } else {
-                    const ships = snapshot.docs.map(doc => ({ ...doc.data(), id: doc.id }));
+                    const ships = snapshot.docs.map(doc => ({ ...doc.data(), id: (doc.data().name as string).toLocaleLowerCase() }));
                     const jsonString = JSON.stringify(ships, null, 2);
                     fs.writeFileSync(filePath, jsonString);
                     return res.status(200).json({ message: "Data exported", count: ships.length });
