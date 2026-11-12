@@ -6,7 +6,7 @@ export default function ShipInGrid({ ship, retrofit }: { ship: ShipV2, retrofit?
         const retrofitSkin = ship.skins.find((skin) => (skin.name === "Retrofit"))
         if (retrofitSkin) {
             return (
-                <Link href={"/ship/" + (ship.name).replace(/\/([^/]*)$/, "%2F$1")}>
+                <Link href={"/ship/" + (ship.name)}>
                     <div className={`w-full rounded-lg overflow-visible relative hover:!shadow-[0_0_15px_4px_rgba(255,215,0,0.8)] !transition-shadow !duration-300 hover:scale-105`}>
                         <img alt={ship.name + " Rarity BG"} className="w-full h-full p-[4%]" src={`/images/ship_frame_bg/${ship.rarity[1]}.webp`}>
                         </img>
@@ -35,7 +35,7 @@ export default function ShipInGrid({ ship, retrofit }: { ship: ShipV2, retrofit?
     }
 
     return (
-        <Link href={"/ship/" + (ship.name).replace(/\/([^/]*)$/, "%2F$1")}>
+        <Link href={"/ship/" + (ship.name)}>
             <div className={`w-full rounded-lg overflow-visible relative hover:!shadow-[0_0_15px_4px_rgba(255,215,0,0.8)] !transition-shadow !duration-300 hover:scale-105`}>
                 <img alt={ship.name + " Rarity BG"} className="w-full h-full p-[4%]" src={`/images/ship_frame_bg/${ship.rarity[0]}.webp`}>
                 </img>
